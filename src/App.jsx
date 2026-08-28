@@ -206,9 +206,24 @@ const MainContent = () => {
           resultData={currentResultData}
           earnedRewards={currentEarnedRewards}
           onRetry={handleRetryCurrentQuiz}
+          onRetryQuiz={handleRetryCurrentQuiz}
           onRetryWrongOnly={handleRetryWrongOnly}
-          onViewExplanation={() => setIsViewingExplanation(true)}
+          onRetryWrong={handleRetryWrongOnly}
+          onViewExplanation={() => {
+            setIsViewingExplanation(true);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+          onOpenExplanations={() => {
+            setIsViewingExplanation(true);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+          onReview={() => {
+            setIsViewingExplanation(true);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
           onClose={handleExitQuiz}
+          onExit={handleExitQuiz}
+          onBackToRoadmap={handleExitQuiz}
         />
       )}
     </div>

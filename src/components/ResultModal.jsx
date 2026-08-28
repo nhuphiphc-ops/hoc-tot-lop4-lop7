@@ -19,21 +19,23 @@ export const ResultModal = ({
   resultData,
   earnedRewards,
   onOpenExplanations,
+  onViewExplanation,
   onReview,
   onRetryQuiz,
   onRetry,
   onRetryWrongOnly,
   onRetryWrong,
   onBackToRoadmap,
-  onExit
+  onExit,
+  onClose
 }) => {
   const { score, correctCount, totalCount, timeSpent, details } = resultData || { score: 0, correctCount: 0, totalCount: 0, timeSpent: 0, details: [] };
   const { earnedStars, earnedCoins } = earnedRewards || { earnedStars: 0, earnedCoins: 0 };
 
-  const openExplanationsHandler = onOpenExplanations || onReview || (() => {});
+  const openExplanationsHandler = onOpenExplanations || onViewExplanation || onReview || (() => {});
   const retryQuizHandler = onRetryQuiz || onRetry || (() => {});
   const retryWrongHandler = onRetryWrongOnly || onRetryWrong || (() => {});
-  const backHandler = onBackToRoadmap || onExit || (() => {});
+  const backHandler = onBackToRoadmap || onExit || onClose || (() => {});
 
   useEffect(() => {
     if (score >= 80) {
@@ -81,12 +83,12 @@ export const ResultModal = ({
   let emoji = "🌱";
 
   if (score === 100) {
-    title = "Tuyệt Đỉnh Thần Đồng Toán Học! 🌟";
+    title = "Tuyệt Đỉnh Thần Đồng! 🌟";
     message = "Bé đã trả lời chính xác tất cả các câu hỏi! Quá xuất sắc!";
     badgeColor = "bg-yellow-100 text-yellow-900 border-yellow-400";
     emoji = "👑";
   } else if (score >= 80) {
-    title = "Nhà Toán Học Xuất Sắc! 🚀";
+    title = "Thành Tích Xuất Sắc! 🚀";
     message = "Kết quả rất tuyệt vời! Bé đã nắm vững kiến thức trọng tâm!";
     badgeColor = "bg-emerald-100 text-emerald-900 border-emerald-400";
     emoji = "🎖️";
@@ -118,38 +120,43 @@ export const ResultModal = ({
         <h2 className="text-2xl sm:text-3xl font-black text-slate-800 mb-1 font-nunito">
           {title}
         </h2>
-        <p className="text-xs sm:text-sm font-bold text-slate-500 max-w-sm mx-auto mb-5">
+        <p className="text-xs sm:text-sm font-semibold text-slate-500 mb-5 max-w-sm mx-auto">
           {message}
         </p>
 
-        {/* Big Score Card */}
-        <div className="bg-gradient-to-b from-amber-50 to-orange-50/50 rounded-2xl border-2 border-amber-200 p-4 sm:p-5 mb-5 shadow-sm">
-          {/* Star Rating Animation */}
-          <div className="flex items-center justify-center gap-2 mb-3">
-            {[1, 2, 3].map((starIdx) => (
-              <div
-                key={starIdx}
-                className={`p-2 rounded-2xl border-2 transition-all ${
-                  starIdx <= earnedStars
-                    ? 'bg-amber-400 border-amber-500 shadow-bouncy-sm scale-110'
-                    : 'bg-slate-100 border-slate-200 opacity-40'
-                }`}
-              >
-                <Star className={`w-6 h-6 sm:w-8 sm:h-8 ${starIdx <= earnedStars ? 'text-amber-950 fill-amber-950' : 'text-slate-400'}`} />
-              </div>
-            ))}
+        {/* Score Card Card */}
+        <div className="bg-amber-50/80 rounded-2xl border-2 border-amber-200 p-5 mb-5 space-y-4 shadow-sm">
+          {/* Star Rating Display */}
+          <div className="flex items-center justify-center gap-2">
+            {[1, 2, 3].map((starIndex) => {
+              const isFilled = (earnedStars >= starIndex) || (score >= (starIndex === 1 ? 50 : starIndex === 2 ? 75 : 90));
+              return (
+                <div 
+                  key={starIndex}
+                  className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all ${
+                    isFilled 
+                      ? 'bg-amber-400 text-amber-950 shadow-md scale-110' 
+                      : 'bg-white/80 text-slate-300 border-2 border-dashed border-slate-300'
+                  }`}
+                >
+                  <Star className={`w-7 h-7 ${isFilled ? 'fill-amber-950' : ''}`} />
+                </div>
+              );
+            })}
           </div>
 
-          {/* Numerical Score */}
-          <div className="text-3xl sm:text-4xl font-black text-slate-800 mb-1">
-            {Math.round((score / 10) * 10) / 10} <span className="text-lg text-slate-500 font-bold">/ 10 Điểm</span>
-          </div>
-          <div className="text-xs font-black text-amber-700">
-            Tỉ lệ chính xác: {score}%
+          {/* Main Score Display */}
+          <div>
+            <div className="text-4xl sm:text-5xl font-black text-slate-800 tracking-tight font-nunito">
+              {Math.round((score / 100) * 10)} <span className="text-lg sm:text-2xl font-bold text-slate-400">/ 10 Điểm</span>
+            </div>
+            <div className="text-xs font-bold text-amber-800 mt-0.5">
+              Tỉ lệ chính xác: {score}%
+            </div>
           </div>
 
-          {/* Sub Stats: Coins & Time */}
-          <div className="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-amber-200/60 text-xs font-extrabold">
+          {/* Mini Stats Grid */}
+          <div className="grid grid-cols-3 gap-2 pt-2 border-t border-amber-200/70">
             <div className="bg-white/80 p-2 rounded-xl border border-amber-200">
               <div className="text-slate-400 font-bold text-[10px]">Đúng</div>
               <div className="text-emerald-600 text-sm font-black flex items-center justify-center gap-0.5">
@@ -176,7 +183,7 @@ export const ResultModal = ({
           {/* View Detailed Solutions */}
           <button
             onClick={() => { sounds.playClick(); openExplanationsHandler(); }}
-            className="w-full py-3.5 bg-amber-400 hover:bg-amber-500 text-amber-950 font-black text-base rounded-2xl shadow-bouncy-sm btn-bouncy flex items-center justify-center gap-2"
+            className="w-full py-3.5 bg-amber-400 hover:bg-amber-500 text-amber-950 font-black text-base rounded-2xl shadow-bouncy-sm btn-bouncy flex items-center justify-center gap-2 cursor-pointer"
           >
             <BookOpen className="w-5 h-5" />
             Xem Lời Giải Chi Tiết & Sửa Lỗi
@@ -186,7 +193,7 @@ export const ResultModal = ({
           {wrongCount > 0 && (
             <button
               onClick={() => { sounds.playClick(); retryWrongHandler(); }}
-              className="w-full py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 border-2 border-rose-300 font-extrabold text-sm rounded-2xl transition-all flex items-center justify-center gap-2"
+              className="w-full py-3 bg-rose-50 hover:bg-rose-100 text-rose-700 border-2 border-rose-300 font-extrabold text-sm rounded-2xl transition-all flex items-center justify-center gap-2 cursor-pointer"
             >
               <RotateCcw className="w-4 h-4" />
               Luyện Tập Lại {wrongCount} Câu Làm Sai
@@ -197,14 +204,14 @@ export const ResultModal = ({
           <div className="grid grid-cols-2 gap-2 pt-1">
             <button
               onClick={() => { sounds.playClick(); retryQuizHandler(); }}
-              className="py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs sm:text-sm rounded-xl transition-all flex items-center justify-center gap-1.5"
+              className="py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs sm:text-sm rounded-xl transition-all flex items-center justify-center gap-1.5 cursor-pointer"
             >
               <RotateCcw className="w-4 h-4" />
               Làm lại bài
             </button>
             <button
               onClick={() => { sounds.playClick(); backHandler(); }}
-              className="py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs sm:text-sm rounded-xl transition-all flex items-center justify-center gap-1.5"
+              className="py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs sm:text-sm rounded-xl transition-all flex items-center justify-center gap-1.5 cursor-pointer"
             >
               <Home className="w-4 h-4" />
               Về Lộ Trình
@@ -215,3 +222,5 @@ export const ResultModal = ({
     </div>
   );
 };
+
+export default ResultModal;
