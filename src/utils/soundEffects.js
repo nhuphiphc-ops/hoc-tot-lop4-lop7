@@ -1,10 +1,11 @@
-// Web Audio API & Native Web Speech API Voice Synthesizer for instant, reliable kid sound effects & Vietnamese voice narration
+// Web Audio API & Direct Studio-Quality Vietnamese Voice Engine for 100% Samsung S22 Ultra, Android & iOS compatibility
+import { VOICE_PRAISE_BASE64, VOICE_ENCOURAGE_BASE64 } from './voiceAudios';
 
 class SoundManager {
   constructor() {
     this.ctx = null;
     this.enabled = true;
-    this.voicesLoaded = false;
+    this.currentAudio = null;
     this.vietnameseVoice = null;
 
     // Read sound setting from localStorage
@@ -27,7 +28,7 @@ class SoundManager {
       window.addEventListener('click', unlockAudio, { once: true, passive: true });
       window.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
 
-      // Init speech synthesis voices
+      // Init speech synthesis voices if available
       if ('speechSynthesis' in window) {
         this.loadVoices();
         window.speechSynthesis.onvoiceschanged = () => {
@@ -42,7 +43,6 @@ class SoundManager {
     try {
       const voices = window.speechSynthesis.getVoices() || [];
       if (voices.length > 0) {
-        this.voicesLoaded = true;
         this.vietnameseVoice = voices.find(v => 
           v.lang && (v.lang.toLowerCase().startsWith('vi') || v.lang.toLowerCase().includes('vie') || v.lang.toLowerCase().includes('vietnam'))
         ) || null;
@@ -75,6 +75,12 @@ class SoundManager {
       this.playClick();
       this.speak("Đã bật âm thanh");
     } else {
+      if (this.currentAudio) {
+        try {
+          this.currentAudio.pause();
+          this.currentAudio = null;
+        } catch {}
+      }
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         try {
           window.speechSynthesis.cancel();
@@ -97,49 +103,84 @@ class SoundManager {
     return this.enabled;
   }
 
-  // Reliable, direct Web Speech API Vietnamese Voice Speech
-  speak(text) {
+  // Play direct Base64 Audio Clip for 100% reliability on Samsung Galaxy & mobile browsers
+  playVoiceAudio(base64Audio, fallbackText) {
     if (!this.enabled) return;
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+    if (typeof window === 'undefined') return;
 
     try {
-      // 1. Resume audio context & synthesis queue in case browser suspended it
-      this.initContext();
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.resume();
-
-      // 2. Refresh voices if not cached
-      if (!this.vietnameseVoice) {
-        this.loadVoices();
+      if (this.currentAudio) {
+        this.currentAudio.pause();
+        this.currentAudio.currentTime = 0;
+        this.currentAudio = null;
       }
 
-      // 3. Create fresh utterance
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'vi-VN';
-      utterance.rate = 0.95; // Friendly and clear rate
-      utterance.pitch = 1.05; // Cheerful pitch
-      utterance.volume = 1.0; // Max volume
+      const audio = new Audio(base64Audio);
+      this.currentAudio = audio;
+      audio.volume = 1.0;
 
-      if (this.vietnameseVoice) {
-        utterance.voice = this.vietnameseVoice;
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+          console.warn("Direct audio play prevented, falling back to Web Speech:", err);
+          this.speakWebSpeech(fallbackText);
+        });
       }
-
-      // 4. Speak
-      window.speechSynthesis.speak(utterance);
     } catch (e) {
-      console.warn("SpeechSynthesis error:", e);
+      this.speakWebSpeech(fallbackText);
     }
   }
 
   // Submission voice feedback
   speakSubmissionFeedback(score) {
     if (!this.enabled) return;
+
     if (score === 100) {
       this.playVictory();
-      this.speak("Công Nguyên của bố quá tuyệt vời!");
+      this.playVoiceAudio(VOICE_PRAISE_BASE64, "Công Nguyên của bố quá tuyệt vời!");
     } else {
       this.playCorrect();
-      this.speak("Công Nguyên cố gắng hơn tí nữa nhé!");
+      this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, "Công Nguyên cố gắng hơn tí nữa nhé!");
+    }
+  }
+
+  // General Speak method
+  speak(text) {
+    if (!this.enabled) return;
+    if (typeof window === 'undefined') return;
+
+    if (text.includes("quá tuyệt vời") || text.includes("Công Nguyên của bố")) {
+      this.playVoiceAudio(VOICE_PRAISE_BASE64, text);
+    } else if (text.includes("cố gắng hơn")) {
+      this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, text);
+    } else {
+      this.speakWebSpeech(text);
+    }
+  }
+
+  speakWebSpeech(text) {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+    try {
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.resume();
+
+      if (!this.vietnameseVoice) {
+        this.loadVoices();
+      }
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'vi-VN';
+      utterance.rate = 0.95;
+      utterance.pitch = 1.05;
+      utterance.volume = 1.0;
+
+      if (this.vietnameseVoice) {
+        utterance.voice = this.vietnameseVoice;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    } catch (e) {
+      console.warn("Web Speech API error:", e);
     }
   }
 
