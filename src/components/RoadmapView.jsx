@@ -14,7 +14,8 @@ import {
   Flame,
   Award,
   BookOpen,
-  Feather
+  Feather,
+  Calculator
 } from 'lucide-react';
 import { useLearning } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
