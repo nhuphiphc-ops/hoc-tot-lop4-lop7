@@ -294,9 +294,11 @@ export const RoadmapView = ({ onStartQuiz }) => {
       {/* Roadmap Timeline Stages */}
       <div className="space-y-10">
         {displayStages.map((stage) => {
-          const stageWeeks = stage.weeks;
+          const stageWeeks = Array.isArray(stage.weeks)
+            ? stage.weeks
+            : (stage.id === 1 ? [1,2,3,4,5,6,7,8,9] : stage.id === 2 ? [10,11,12,13,14,15,16,17,18] : stage.id === 3 ? [19,20,21,22,23,24,25,26,27] : [28,29,30,31,32,33,34,35]);
           const stageCompletedWeeks = stageWeeks.filter(w => (progress[w]?.bestScore || 0) >= 70).length;
-          const stageProgressPercent = Math.round((stageCompletedWeeks / stageWeeks.length) * 100);
+          const stageProgressPercent = Math.round((stageCompletedWeeks / (stageWeeks.length || 1)) * 100);
 
           return (
             <div 

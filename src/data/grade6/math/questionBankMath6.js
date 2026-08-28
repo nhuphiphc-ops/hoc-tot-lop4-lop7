@@ -15,38 +15,46 @@ export const STAGES_MATH6 = [
   {
     id: 1,
     title: "Chặng 1: Số Tự Nhiên & Tính Chia Hết",
-    weeks: "Tuần 1 - Tuần 9",
-    desc: "Tập hợp N, lũy thừa, thứ tự phép tính, dấu hiệu chia hết, số nguyên tố, ƯCLN & BCNN",
+    subtitle: "Tuần 1 - Tuần 9",
+    weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    semester: 1,
+    icon: "Rocket",
     badge: "Bậc Thầy Số Tự Nhiên",
     color: "from-blue-500 to-indigo-600",
-    theme: "blue"
+    description: "Tập hợp N, lũy thừa, thứ tự phép tính, dấu hiệu chia hết, số nguyên tố, ƯCLN & BCNN."
   },
   {
     id: 2,
     title: "Chặng 2: Số Nguyên Z & Hình Học Trực Quan",
-    weeks: "Tuần 10 - Tuần 18",
-    desc: "Tập hợp Z, cộng trừ nhân chia số nguyên, quy tắc dấu ngoặc, hình tam giác đều, hình vuông, lục giác đều",
+    subtitle: "Tuần 10 - Tuần 18 (Ôn thi HK1)",
+    weeks: [10, 11, 12, 13, 14, 15, 16, 17, 18],
+    semester: 1,
+    icon: "Target",
     badge: "Chinh Phục Số Nguyên Z",
     color: "from-indigo-500 to-purple-600",
-    theme: "indigo"
+    description: "Tập hợp Z, cộng trừ nhân chia số nguyên, quy tắc dấu ngoặc, hình tam giác đều, hình vuông, lục giác đều."
   },
   {
     id: 3,
     title: "Chặng 3: Phân Số, Số Thập Phân & Tính Đối Xứng",
-    weeks: "Tuần 19 - Tuần 27",
-    desc: "Phân số âm, phép tính phân số, số thập phân, tỉ số phần trăm, trục đối xứng và tâm đối xứng",
+    subtitle: "Tuần 19 - Tuần 27",
+    weeks: [19, 20, 21, 22, 23, 24, 25, 26, 27],
+    semester: 2,
+    icon: "Sparkles",
     badge: "Kỳ Thủ Phân Số & Hình Phẳng",
     color: "from-teal-500 to-emerald-600",
-    theme: "teal"
+    description: "Phân số âm, phép tính phân số, số thập phân, tỉ số phần trăm, trục đối xứng và tâm đối xứng."
   },
   {
     id: 4,
     title: "Chặng 4: Điểm, Đoạn Thẳng, Góc & Xác Suất",
-    weeks: "Tuần 28 - Tuần 35",
-    desc: "Điểm, đường thẳng, tia, góc, bảng thống kê dữ liệu, xác suất thực nghiệm, ôn thi cuối năm",
+    subtitle: "Tuần 28 - Tuần 35 (Ôn thi HK2)",
+    weeks: [28, 29, 30, 31, 32, 33, 34, 35],
+    semester: 2,
+    icon: "Trophy",
     badge: "Thần Đồng Toán Lớp 6",
     color: "from-orange-500 to-amber-600",
-    theme: "orange"
+    description: "Điểm, đường thẳng, tia, góc, bảng thống kê dữ liệu, xác suất thực nghiệm, ôn thi cuối năm."
   }
 ];
 

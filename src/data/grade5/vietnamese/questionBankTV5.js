@@ -15,38 +15,46 @@ export const STAGES_TV5 = [
   {
     id: 1,
     title: "Chặng 1: Nghĩa Của Từ & Vốn Từ Tổ Quốc",
-    weeks: "Tuần 1 - Tuần 9",
-    desc: "Từ đồng nghĩa, từ trái nghĩa, từ đồng âm, từ nhiều nghĩa, vốn từ Tổ quốc và Nhân dân",
+    subtitle: "Tuần 1 - Tuần 9",
+    weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    semester: 1,
+    icon: "Rocket",
     badge: "Bậc Thầy Nghĩa Của Từ",
     color: "from-rose-400 to-pink-500",
-    theme: "rose"
+    description: "Từ đồng nghĩa, từ trái nghĩa, từ đồng âm, từ nhiều nghĩa, vốn từ Tổ quốc và Nhân dân."
   },
   {
     id: 2,
     title: "Chặng 2: Đại Từ, Quan Hệ Từ & Cảm Thụ Văn Học",
-    weeks: "Tuần 10 - Tuần 18",
-    desc: "Đại từ, các cặp quan hệ từ, biện pháp tu từ so sánh, nhân hóa, điệp ngữ, đọc hiểu cảm thụ",
+    subtitle: "Tuần 10 - Tuần 18 (Ôn thi HK1)",
+    weeks: [10, 11, 12, 13, 14, 15, 16, 17, 18],
+    semester: 1,
+    icon: "Target",
     badge: "Nhà Ngôn Ngữ Học Trẻ Tuổi",
     color: "from-pink-400 to-purple-500",
-    theme: "pink"
+    description: "Đại từ, các cặp quan hệ từ, biện pháp tu từ so sánh, nhân hóa, điệp ngữ, đọc hiểu cảm thụ."
   },
   {
     id: 3,
     title: "Chặng 3: Câu Ghép & Kỹ Năng Liên Kết Câu",
-    weeks: "Tuần 19 - Tuần 27",
-    desc: "Khái niệm câu ghép, nối vế câu ghép bằng từ hô ứng, liên kết câu bằng lặp từ, thay thế từ, từ nối",
+    subtitle: "Tuần 19 - Tuần 27",
+    weeks: [19, 20, 21, 22, 23, 24, 25, 26, 27],
+    semester: 2,
+    icon: "Sparkles",
     badge: "Kiến Trúc Sư Câu Ghép",
     color: "from-purple-400 to-indigo-500",
-    theme: "purple"
+    description: "Khái niệm câu ghép, nối vế câu ghép bằng từ hô ứng, liên kết câu bằng lặp từ, thay thế từ, từ nối."
   },
   {
     id: 4,
     title: "Chặng 4: Dấu Câu, Tổng Hợp Từ Loại & Về Đích",
-    weeks: "Tuần 28 - Tuần 35",
-    desc: "Quy tắc dấu câu, tổng hợp từ loại, biện pháp nghệ thuật, đề khảo sát chuyển cấp Lớp 6",
+    subtitle: "Tuần 28 - Tuần 35 (Ôn thi HK2)",
+    weeks: [28, 29, 30, 31, 32, 33, 34, 35],
+    semester: 2,
+    icon: "Trophy",
     badge: "Trạng Nguyên Tiếng Việt 5",
     color: "from-indigo-400 to-blue-500",
-    theme: "indigo"
+    description: "Quy tắc dấu câu, tổng hợp từ loại, biện pháp nghệ thuật, đề khảo sát chuyển cấp Lớp 6."
   }
 ];
 

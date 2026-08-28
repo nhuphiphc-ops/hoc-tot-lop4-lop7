@@ -15,38 +15,46 @@ export const STAGES_MATH5 = [
   {
     id: 1,
     title: "Chặng 1: Ôn Tập Phân Số & Bảng Đơn Vị Đo",
-    weeks: "Tuần 1 - Tuần 9",
-    desc: "Phân số thập phân, bảng đơn vị đo độ dài, khối lượng, diện tích, khái niệm số thập phân",
+    subtitle: "Tuần 1 - Tuần 9",
+    weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    semester: 1,
+    icon: "Rocket",
     badge: "Bậc Thầy Đo Lường & Phân Số",
     color: "from-amber-400 to-orange-500",
-    theme: "amber"
+    description: "Phân số thập phân, bảng đơn vị đo độ dài, khối lượng, diện tích, khái niệm số thập phân."
   },
   {
     id: 2,
     title: "Chặng 2: Số Thập Phân & Tỉ Số Phần Trăm",
-    weeks: "Tuần 10 - Tuần 18",
-    desc: "4 phép tính số thập phân, nhân chia nhẩm, tỉ số phần trăm và giải toán thực tế",
+    subtitle: "Tuần 10 - Tuần 18 (Ôn thi HK1)",
+    weeks: [10, 11, 12, 13, 14, 15, 16, 17, 18],
+    semester: 1,
+    icon: "Target",
     badge: "Kỳ Thủ Số Thập Phân",
     color: "from-emerald-400 to-teal-500",
-    theme: "emerald"
+    description: "4 phép tính số thập phân, nhân chia nhẩm, tỉ số phần trăm và giải toán thực tế."
   },
   {
     id: 3,
     title: "Chặng 3: Hình Học & Đo Thể Tích Khối Hộp",
-    weeks: "Tuần 19 - Tuần 27",
-    desc: "Hình tam giác, hình thang, hình tròn, diện tích & thể tích hình hộp chữ nhật, lập phương",
+    subtitle: "Tuần 19 - Tuần 27",
+    weeks: [19, 20, 21, 22, 23, 24, 25, 26, 27],
+    semester: 2,
+    icon: "Sparkles",
     badge: "Kiến Trúc Sư Không Gian",
     color: "from-blue-400 to-indigo-500",
-    theme: "blue"
+    description: "Hình tam giác, hình thang, hình tròn, diện tích & thể tích hình hộp chữ nhật, lập phương."
   },
   {
     id: 4,
     title: "Chặng 4: Toán Chuyển Động & Chinh Phục Lớp 6",
-    weeks: "Tuần 28 - Tuần 35",
-    desc: "Vận tốc, quãng đường, thời gian, chuyển động cùng chiều/ngược chiều/dòng nước, ôn tập cuối cấp",
+    subtitle: "Tuần 28 - Tuần 35 (Ôn thi HK2)",
+    weeks: [28, 29, 30, 31, 32, 33, 34, 35],
+    semester: 2,
+    icon: "Trophy",
     badge: "Thần Tốc Chinh Phục Lớp 6",
     color: "from-purple-400 to-pink-500",
-    theme: "purple"
+    description: "Vận tốc, quãng đường, thời gian, chuyển động cùng chiều/ngược chiều/dòng nước, ôn tập cuối cấp."
   }
 ];
 

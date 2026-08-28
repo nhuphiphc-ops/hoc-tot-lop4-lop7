@@ -15,38 +15,46 @@ export const STAGES_LIT6 = [
   {
     id: 1,
     title: "Chặng 1: Truyện Dân Gian & Truyện Đồng Thoại",
-    weeks: "Tuần 1 - Tuần 9",
-    desc: "Truyền thuyết, cổ tích, truyện đồng thoại, từ đơn/từ phức, biện pháp so sánh và nhân hóa",
+    subtitle: "Tuần 1 - Tuần 9",
+    weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    semester: 1,
+    icon: "Rocket",
     badge: "Nhà Kể Chuyện Dân Gian",
     color: "from-rose-500 to-red-600",
-    theme: "rose"
+    description: "Truyền thuyết, cổ tích, truyện đồng thoại, từ đơn/từ phức, biện pháp so sánh và nhân hóa."
   },
   {
     id: 2,
     title: "Chặng 2: Thơ Lục Bát, Tu Từ & Nghị Luận",
-    weeks: "Tuần 10 - Tuần 18",
-    desc: "Thơ lục bát, ẩn dụ, hoán dụ, văn bản nghị luận, thành ngữ và mở rộng cụm từ trong câu",
+    subtitle: "Tuần 10 - Tuần 18 (Ôn thi HK1)",
+    weeks: [10, 11, 12, 13, 14, 15, 16, 17, 18],
+    semester: 1,
+    icon: "Target",
     badge: "Kỳ Thủ Cảm Thụ Lục Bát",
     color: "from-pink-500 to-rose-600",
-    theme: "pink"
+    description: "Thơ lục bát, ẩn dụ, hoán dụ, văn bản nghị luận, thành ngữ và mở rộng cụm từ trong câu."
   },
   {
     id: 3,
     title: "Chặng 3: Thể Loại Ký, Thơ Tự Do & Thông Tin",
-    weeks: "Tuần 19 - Tuần 27",
-    desc: "Ký du ký, thơ tự do, điệp từ, dấu chấm phẩy, văn bản thông tin về môi trường và lịch sử",
+    subtitle: "Tuần 19 - Tuần 27",
+    weeks: [19, 20, 21, 22, 23, 24, 25, 26, 27],
+    semester: 2,
+    icon: "Sparkles",
     badge: "Cây Bút Du Ký Nhí",
     color: "from-purple-500 to-indigo-600",
-    theme: "purple"
+    description: "Ký du ký, thơ tự do, điệp từ, dấu chấm phẩy, văn bản thông tin về môi trường và lịch sử."
   },
   {
     id: 4,
     title: "Chặng 4: Trải Nghiệm, Viết Văn & Về Đích",
-    weeks: "Tuần 28 - Tuần 35",
-    desc: "Giữ gìn sự trong sáng tiếng Việt, viết văn tự sự, biểu cảm, tổng ôn tập và chinh phục Lớp 7",
+    subtitle: "Tuần 28 - Tuần 35 (Ôn thi HK2)",
+    weeks: [28, 29, 30, 31, 32, 33, 34, 35],
+    semester: 2,
+    icon: "Trophy",
     badge: "Nhà Văn Trẻ Triển Vọng",
     color: "from-indigo-500 to-blue-600",
-    theme: "indigo"
+    description: "Giữ gìn sự trong sáng tiếng Việt, viết văn tự sự, biểu cảm, tổng ôn tập và chinh phục Lớp 7."
   }
 ];
 
