@@ -27,7 +27,11 @@ export const RoadmapView = ({ onStartQuiz }) => {
     isFreeMode,
     isMath,
     currentGrade,
+    isGrade4,
+    isGrade5,
+    isGrade6,
     isGrade7,
+    isSecondary,
     currentStages,
     currentCategories,
     currentMetadata,
@@ -74,14 +78,14 @@ export const RoadmapView = ({ onStartQuiz }) => {
     setActiveWeekModal(weekNum);
   };
 
-  const handleStartWeekQuiz = (weekNum, difficulty = 'all') => {
-    sounds.playClick();
-    setActiveWeekModal(null);
+  const handleStartWeekQuiz = (weekNum) => {
+    sounds.playStart();
+    const questions = getQuestionsByWeek(weekNum);
     onStartQuiz({
-      type: 'week',
-      week: weekNum,
-      difficulty: difficulty,
-      title: `Luyện Tập: Tuần ${weekNum} - ${currentMetadata[weekNum]?.title || ''}`
+      title: `Tuần ${weekNum}: ${currentMetadata[weekNum]?.title || 'Luyện Tập Tuần'}`,
+      week: Number(weekNum),
+      questions: questions,
+      type: 'week'
     });
   };
 
@@ -90,32 +94,50 @@ export const RoadmapView = ({ onStartQuiz }) => {
   const progressPercent = Math.round((completedWeeksCount / 35) * 100);
 
   const getBannerTitle = () => {
-    if (isGrade7) {
-      return isMath ? 'Chinh Phục Toán Lớp 7 (GDPT Mới 2026) 🚀' : 'Hành Trình Khám Phá Ngữ Văn Lớp 7 (GDPT Mới 2026) 📖';
-    }
-    return isMath ? 'Chinh Phục Thế Giới Toán Lớp 4 (GDPT Mới 2026) 🌟' : 'Hành Trình Khám Phá Tiếng Việt 4 (GDPT Mới 2026) 📖';
+    const subjName = isMath ? `Toán Lớp ${currentGrade}` : (isSecondary ? `Ngữ Văn Lớp ${currentGrade}` : `Tiếng Việt Lớp ${currentGrade}`);
+    return `Chinh Phục ${subjName} (GDPT Mới 2026) 🚀`;
   };
 
   const getBannerDesc = () => {
-    if (isGrade7) {
+    if (isGrade4) {
       return isMath
-        ? 'Làm chủ số hữu tỉ, số thực, đại số và hình học tam giác cùng hơn 350 bài tập phân cấp độ khó chuẩn chương trình giáo dục mới nhất 2026 (Kết Nối Tri Thức, Cánh Diều, Chân Trời Sáng Tạo)!'
-        : 'Rèn luyện đọc hiểu thơ văn, làm chủ tiếng Việt và phân tích văn bản cùng 350+ câu hỏi và đề thi chuẩn GDPT mới nhất 2026!';
+        ? 'Làm chủ số tự nhiên, phân số, hình học và giải toán có lời văn cùng hơn 350 bài tập phân cấp độ khó chuẩn GDPT 2026!'
+        : 'Rèn luyện đọc hiểu cảm thụ, thành thạo từ loại và câu cùng 350+ bài tập đặc sắc chuẩn GDPT 2026!';
     }
-    return isMath 
-      ? 'Hoàn thành mỗi tuần với điểm số trên 75% để mở khóa trạm tiếp theo và thu thập đủ 105 Ngôi Sao Danh Giá chuẩn GDPT 2026!'
-      : 'Rèn luyện đọc hiểu cảm thụ, thành thạo ngữ pháp và làm chủ vốn từ phong phú cùng 350+ bài tập đặc sắc chuẩn GDPT 2026!';
+    if (isGrade5) {
+      return isMath
+        ? 'Chinh phục số thập phân, tỉ số phần trăm, diện tích thể tích và toán chuyển động đều cùng 350 bài tập chuẩn bị chuyển cấp Lớp 6!'
+        : 'Khám phá từ đồng nghĩa, từ trái nghĩa, câu ghép, các biện pháp tu từ và cảm thụ văn học đỉnh cao Lớp 5!';
+    }
+    if (isGrade6) {
+      return isMath
+        ? 'Làm chủ tập hợp số nguyên Z, phân số âm, hình học trực quan và xác suất thực nghiệm cùng 350 bài tập chuẩn GDPT 2026!'
+        : 'Khám phá truyện dân gian, truyện đồng thoại, thơ lục bát, văn nghị luận và các biện pháp tu từ nghệ thuật Ngữ Văn 6!';
+    }
+    return isMath
+      ? 'Làm chủ số hữu tỉ, số thực, đại số và hình học tam giác cùng hơn 350 bài tập phân cấp độ khó chuẩn chương trình GDPT 2026!'
+      : 'Rèn luyện đọc hiểu thơ văn, làm chủ tiếng Việt và phân tích văn bản cùng 350+ câu hỏi và đề thi chuẩn GDPT mới nhất 2026!';
   };
 
   const getBannerGradient = () => {
-    if (isGrade7) {
+    if (isGrade4) {
       return isMath
-        ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600'
-        : 'bg-gradient-to-r from-purple-600 via-rose-600 to-indigo-600';
+        ? 'bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400'
+        : 'bg-gradient-to-r from-rose-500 via-pink-500 to-indigo-500';
+    }
+    if (isGrade5) {
+      return isMath
+        ? 'bg-gradient-to-r from-emerald-500 via-teal-500 to-blue-500'
+        : 'bg-gradient-to-r from-pink-500 via-rose-500 to-purple-600';
+    }
+    if (isGrade6) {
+      return isMath
+        ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600'
+        : 'bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600';
     }
     return isMath
-      ? 'bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400'
-      : 'bg-gradient-to-r from-rose-500 via-pink-500 to-indigo-500';
+      ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600'
+      : 'bg-gradient-to-r from-purple-600 via-rose-600 to-indigo-600';
   };
 
   return (

@@ -34,9 +34,9 @@ export const CustomPractice = ({ onStartQuiz }) => {
   const [questionCount, setQuestionCount] = useState(10);
   const [isTimed, setIsTimed] = useState(true);
 
-  const subjectLabel = isGrade7
-    ? (isMath ? 'Toán Lớp 7' : 'Ngữ Văn 7')
-    : (isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4');
+  const subjectLabel = isMath
+    ? `Toán Lớp ${currentGrade}`
+    : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
 
   // Quick Exam Presets
   const handleStartPreset = (presetType) => {

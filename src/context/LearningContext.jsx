@@ -2,12 +2,20 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import sounds from '../utils/soundEffects';
 
 // Grade 4 Data
-import { STAGES, TOPIC_CATEGORIES, WEEKS_METADATA, QUESTION_BANK, getQuestionsByWeek, getFilteredQuestions } from '../data/questionBank';
-import { STAGES_TV, TOPIC_CATEGORIES_TV, WEEKS_METADATA_TV, QUESTION_BANK_TV, getQuestionsByWeekTV, getFilteredQuestionsTV } from '../data/tiengviet/questionBankTV';
+import { STAGES, TOPIC_CATEGORIES, WEEKS_METADATA, QUESTION_BANK, getQuestionsByWeek, getFilteredQuestions } from '../data/questionBank.js';
+import { STAGES_TV, TOPIC_CATEGORIES_TV, WEEKS_METADATA_TV, QUESTION_BANK_TV, getQuestionsByWeekTV, getFilteredQuestionsTV } from '../data/tiengviet/questionBankTV.js';
+
+// Grade 5 Data
+import { STAGES_MATH5, TOPIC_CATEGORIES_MATH5, WEEKS_METADATA_MATH5, QUESTION_BANK_MATH5, getQuestionsByWeekMath5, getFilteredQuestionsMath5 } from '../data/grade5/math/questionBankMath5.js';
+import { STAGES_TV5, TOPIC_CATEGORIES_TV5, WEEKS_METADATA_TV5, QUESTION_BANK_TV5, getQuestionsByWeekTV5, getFilteredQuestionsTV5 } from '../data/grade5/vietnamese/questionBankTV5.js';
+
+// Grade 6 Data
+import { STAGES_MATH6, TOPIC_CATEGORIES_MATH6, WEEKS_METADATA_MATH6, QUESTION_BANK_MATH6, getQuestionsByWeekMath6, getFilteredQuestionsMath6 } from '../data/grade6/math/questionBankMath6.js';
+import { STAGES_LIT6, TOPIC_CATEGORIES_LIT6, WEEKS_METADATA_LIT6, QUESTION_BANK_LIT6, getQuestionsByWeekLit6, getFilteredQuestionsLit6 } from '../data/grade6/literature/questionBankLit6.js';
 
 // Grade 7 Data
-import { STAGES_MATH7, TOPIC_CATEGORIES_MATH7, WEEKS_METADATA_MATH7, QUESTION_BANK_MATH7, getQuestionsByWeekMath7, getFilteredQuestionsMath7 } from '../data/grade7/math/questionBankMath7';
-import { STAGES_LIT7, TOPIC_CATEGORIES_LIT7, WEEKS_METADATA_LIT7, QUESTION_BANK_LIT7, getQuestionsByWeekLit7, getFilteredQuestionsLit7 } from '../data/grade7/literature/questionBankLit7';
+import { STAGES_MATH7, TOPIC_CATEGORIES_MATH7, WEEKS_METADATA_MATH7, QUESTION_BANK_MATH7, getQuestionsByWeekMath7, getFilteredQuestionsMath7 } from '../data/grade7/math/questionBankMath7.js';
+import { STAGES_LIT7, TOPIC_CATEGORIES_LIT7, WEEKS_METADATA_LIT7, QUESTION_BANK_LIT7, getQuestionsByWeekLit7, getFilteredQuestionsLit7 } from '../data/grade7/literature/questionBankLit7.js';
 
 const LearningContext = createContext();
 
@@ -17,11 +25,19 @@ const STORAGE_KEYS = {
   PROFILE: 'toan_user_profile',
   PROGRESS_G4_MATH: 'toan4_week_progress',
   PROGRESS_G4_TV: 'toan4_week_progress_tv',
+  PROGRESS_G5_MATH: 'toan5_week_progress_math',
+  PROGRESS_G5_TV: 'toan5_week_progress_tv',
+  PROGRESS_G6_MATH: 'toan6_week_progress_math',
+  PROGRESS_G6_LIT: 'toan6_week_progress_lit',
   PROGRESS_G7_MATH: 'toan7_week_progress_math',
   PROGRESS_G7_LIT: 'toan7_week_progress_lit',
   HISTORY: 'toan_quiz_history',
   WRONG_G4_MATH: 'toan4_wrong_questions',
   WRONG_G4_TV: 'toan4_wrong_questions_tv',
+  WRONG_G5_MATH: 'toan5_wrong_questions_math',
+  WRONG_G5_TV: 'toan5_wrong_questions_tv',
+  WRONG_G6_MATH: 'toan6_wrong_questions_math',
+  WRONG_G6_LIT: 'toan6_wrong_questions_lit',
   WRONG_G7_MATH: 'toan7_wrong_questions_math',
   WRONG_G7_LIT: 'toan7_wrong_questions_lit',
   BADGES: 'toan_badges',
@@ -42,6 +58,10 @@ export const BADGE_DEFINITIONS = [
   { id: 'perfect_10', name: 'Điểm 10 Hoàn Hảo', desc: 'Đạt điểm tối đa 100% trong 1 bài thi', icon: 'Award', req: (h) => h.some(q => q.score === 100) },
   { id: 'g4_math_master', name: 'Hiệp Sĩ Toán Lớp 4', desc: 'Hoàn thành trên 15 tuần Toán 4', icon: 'ShieldCheck', req: (h, p) => Object.keys(p.g4Math || {}).filter(w => p.g4Math[w]?.bestScore >= 70).length >= 15 },
   { id: 'g4_tv_master', name: 'Trạng Nguyên Tiếng Việt 4', desc: 'Hoàn thành trên 15 tuần Tiếng Việt 4', icon: 'BookOpen', req: (h, p) => Object.keys(p.g4Tv || {}).filter(w => p.g4Tv[w]?.bestScore >= 70).length >= 15 },
+  { id: 'g5_math_master', name: 'Thần Đồng Toán Lớp 5', desc: 'Hoàn thành trên 15 tuần Toán 5', icon: 'Calculator', req: (h, p) => Object.keys(p.g5Math || {}).filter(w => p.g5Math[w]?.bestScore >= 70).length >= 15 },
+  { id: 'g5_tv_master', name: 'Trạng Nguyên Tiếng Việt 5', desc: 'Hoàn thành trên 15 tuần Tiếng Việt 5', icon: 'BookMarked', req: (h, p) => Object.keys(p.g5Tv || {}).filter(w => p.g5Tv[w]?.bestScore >= 70).length >= 15 },
+  { id: 'g6_math_master', name: 'Thủ Khoa Toán Lớp 6', desc: 'Hoàn thành trên 15 tuần Toán 6', icon: 'Zap', req: (h, p) => Object.keys(p.g6Math || {}).filter(w => p.g6Math[w]?.bestScore >= 70).length >= 15 },
+  { id: 'g6_lit_master', name: 'Cây Bút Trẻ Lớp 6', desc: 'Hoàn thành trên 15 tuần Ngữ Văn 6', icon: 'Feather', req: (h, p) => Object.keys(p.g6Lit || {}).filter(w => p.g6Lit[w]?.bestScore >= 70).length >= 15 },
   { id: 'g7_math_master', name: 'Thần Đồng Toán Lớp 7', desc: 'Hoàn thành trên 15 tuần Toán 7', icon: 'Zap', req: (h, p) => Object.keys(p.g7Math || {}).filter(w => p.g7Math[w]?.bestScore >= 70).length >= 15 },
   { id: 'g7_lit_master', name: 'Nhà Văn Nhí Lớp 7', desc: 'Hoàn thành trên 15 tuần Ngữ Văn 7', icon: 'Feather', req: (h, p) => Object.keys(p.g7Lit || {}).filter(w => p.g7Lit[w]?.bestScore >= 70).length >= 15 },
   { id: 'streak_3', name: 'Chăm Chỉ Chuyên Cần', desc: 'Học liên tục trong 3 ngày', icon: 'Flame', req: (h, p, s) => (s?.currentStreak || 1) >= 3 },
@@ -49,11 +69,11 @@ export const BADGE_DEFINITIONS = [
 ];
 
 export const LearningProvider = ({ children }) => {
-  // Current active Grade: '4' | '7'
+  // Current active Grade: '4' | '5' | '6' | '7'
   const [currentGrade, setCurrentGrade] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.GRADE);
-      return saved === '7' ? '7' : '4';
+      return ['4', '5', '6', '7'].includes(saved) ? saved : '4';
     } catch {
       return '4';
     }
@@ -107,6 +127,42 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
+  const [g5MathProgress, setG5MathProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G5_MATH);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch {
+      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    }
+  });
+
+  const [g5TvProgress, setG5TvProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G5_TV);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch {
+      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    }
+  });
+
+  const [g6MathProgress, setG6MathProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G6_MATH);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch {
+      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    }
+  });
+
+  const [g6LitProgress, setG6LitProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G6_LIT);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch {
+      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    }
+  });
+
   const [g7MathProgress, setG7MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_MATH);
@@ -146,6 +202,34 @@ export const LearningProvider = ({ children }) => {
   const [g4TvWrong, setG4TvWrong] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G4_TV);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g5MathWrong, setG5MathWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G5_MATH);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g5TvWrong, setG5TvWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G5_TV);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g6MathWrong, setG6MathWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G6_MATH);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g6LitWrong, setG6LitWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G6_LIT);
       return saved ? JSON.parse(saved) : [];
     } catch { return []; }
   });
@@ -202,11 +286,19 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE, JSON.stringify(profile)); }, [profile]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G4_MATH, JSON.stringify(g4MathProgress)); }, [g4MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G4_TV, JSON.stringify(g4TvProgress)); }, [g4TvProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G5_MATH, JSON.stringify(g5MathProgress)); }, [g5MathProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G5_TV, JSON.stringify(g5TvProgress)); }, [g5TvProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G6_MATH, JSON.stringify(g6MathProgress)); }, [g6MathProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G6_LIT, JSON.stringify(g6LitProgress)); }, [g6LitProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_MATH, JSON.stringify(g7MathProgress)); }, [g7MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_LIT, JSON.stringify(g7LitProgress)); }, [g7LitProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(history)); }, [history]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G4_MATH, JSON.stringify(g4MathWrong)); }, [g4MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G4_TV, JSON.stringify(g4TvWrong)); }, [g4TvWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G5_MATH, JSON.stringify(g5MathWrong)); }, [g5MathWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G5_TV, JSON.stringify(g5TvWrong)); }, [g5TvWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G6_MATH, JSON.stringify(g6MathWrong)); }, [g6MathWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G6_LIT, JSON.stringify(g6LitWrong)); }, [g6LitWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_MATH, JSON.stringify(g7MathWrong)); }, [g7MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_LIT, JSON.stringify(g7LitWrong)); }, [g7LitWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(unlockedBadges)); }, [unlockedBadges]);
@@ -216,40 +308,76 @@ export const LearningProvider = ({ children }) => {
 
   // Derived active state
   const isMath = currentSubject === 'math';
+  const isGrade4 = currentGrade === '4';
+  const isGrade5 = currentGrade === '5';
+  const isGrade6 = currentGrade === '6';
   const isGrade7 = currentGrade === '7';
+  const isSecondary = isGrade6 || isGrade7; // THCS uses "Ngữ Văn"
 
   // Dynamic progress selector
-  const progress = isGrade7
-    ? (isMath ? g7MathProgress : g7LitProgress)
-    : (isMath ? g4MathProgress : g4TvProgress);
+  const progress = isGrade4
+    ? (isMath ? g4MathProgress : g4TvProgress)
+    : isGrade5
+    ? (isMath ? g5MathProgress : g5TvProgress)
+    : isGrade6
+    ? (isMath ? g6MathProgress : g6LitProgress)
+    : (isMath ? g7MathProgress : g7LitProgress);
 
-  const wrongQuestions = isGrade7
-    ? (isMath ? g7MathWrong : g7LitWrong)
-    : (isMath ? g4MathWrong : g4TvWrong);
+  const wrongQuestions = isGrade4
+    ? (isMath ? g4MathWrong : g4TvWrong)
+    : isGrade5
+    ? (isMath ? g5MathWrong : g5TvWrong)
+    : isGrade6
+    ? (isMath ? g6MathWrong : g6LitWrong)
+    : (isMath ? g7MathWrong : g7LitWrong);
 
-  const currentBank = isGrade7
-    ? (isMath ? QUESTION_BANK_MATH7 : QUESTION_BANK_LIT7)
-    : (isMath ? QUESTION_BANK : QUESTION_BANK_TV);
+  const currentBank = isGrade4
+    ? (isMath ? QUESTION_BANK : QUESTION_BANK_TV)
+    : isGrade5
+    ? (isMath ? QUESTION_BANK_MATH5 : QUESTION_BANK_TV5)
+    : isGrade6
+    ? (isMath ? QUESTION_BANK_MATH6 : QUESTION_BANK_LIT6)
+    : (isMath ? QUESTION_BANK_MATH7 : QUESTION_BANK_LIT7);
 
-  const currentStages = isGrade7
-    ? (isMath ? STAGES_MATH7 : STAGES_LIT7)
-    : (isMath ? STAGES : STAGES_TV);
+  const currentStages = isGrade4
+    ? (isMath ? STAGES : STAGES_TV)
+    : isGrade5
+    ? (isMath ? STAGES_MATH5 : STAGES_TV5)
+    : isGrade6
+    ? (isMath ? STAGES_MATH6 : STAGES_LIT6)
+    : (isMath ? STAGES_MATH7 : STAGES_LIT7);
 
-  const currentCategories = isGrade7
-    ? (isMath ? TOPIC_CATEGORIES_MATH7 : TOPIC_CATEGORIES_LIT7)
-    : (isMath ? TOPIC_CATEGORIES : TOPIC_CATEGORIES_TV);
+  const currentCategories = isGrade4
+    ? (isMath ? TOPIC_CATEGORIES : TOPIC_CATEGORIES_TV)
+    : isGrade5
+    ? (isMath ? TOPIC_CATEGORIES_MATH5 : TOPIC_CATEGORIES_TV5)
+    : isGrade6
+    ? (isMath ? TOPIC_CATEGORIES_MATH6 : TOPIC_CATEGORIES_LIT6)
+    : (isMath ? TOPIC_CATEGORIES_MATH7 : TOPIC_CATEGORIES_LIT7);
 
-  const currentMetadata = isGrade7
-    ? (isMath ? WEEKS_METADATA_MATH7 : WEEKS_METADATA_LIT7)
-    : (isMath ? WEEKS_METADATA : WEEKS_METADATA_TV);
+  const currentMetadata = isGrade4
+    ? (isMath ? WEEKS_METADATA : WEEKS_METADATA_TV)
+    : isGrade5
+    ? (isMath ? WEEKS_METADATA_MATH5 : WEEKS_METADATA_TV5)
+    : isGrade6
+    ? (isMath ? WEEKS_METADATA_MATH6 : WEEKS_METADATA_LIT6)
+    : (isMath ? WEEKS_METADATA_MATH7 : WEEKS_METADATA_LIT7);
 
-  const getQuestionsByWeekDynamic = isGrade7
-    ? (isMath ? getQuestionsByWeekMath7 : getQuestionsByWeekLit7)
-    : (isMath ? getQuestionsByWeek : getQuestionsByWeekTV);
+  const getQuestionsByWeekDynamic = isGrade4
+    ? (isMath ? getQuestionsByWeek : getQuestionsByWeekTV)
+    : isGrade5
+    ? (isMath ? getQuestionsByWeekMath5 : getQuestionsByWeekTV5)
+    : isGrade6
+    ? (isMath ? getQuestionsByWeekMath6 : getQuestionsByWeekLit6)
+    : (isMath ? getQuestionsByWeekMath7 : getQuestionsByWeekLit7);
 
-  const getFilteredQuestionsDynamic = isGrade7
-    ? (isMath ? getFilteredQuestionsMath7 : getFilteredQuestionsLit7)
-    : (isMath ? getFilteredQuestions : getFilteredQuestionsTV);
+  const getFilteredQuestionsDynamic = isGrade4
+    ? (isMath ? getFilteredQuestions : getFilteredQuestionsTV)
+    : isGrade5
+    ? (isMath ? getFilteredQuestionsMath5 : getFilteredQuestionsTV5)
+    : isGrade6
+    ? (isMath ? getFilteredQuestionsMath6 : getFilteredQuestionsLit6)
+    : (isMath ? getFilteredQuestionsMath7 : getFilteredQuestionsLit7);
 
   // Calculate stars
   const totalStars = Object.values(progress).reduce((sum, item) => sum + (item.stars || 0), 0);
@@ -276,6 +404,10 @@ export const LearningProvider = ({ children }) => {
     const fullProgress = {
       g4Math: g4MathProgress,
       g4Tv: g4TvProgress,
+      g5Math: g5MathProgress,
+      g5Tv: g5TvProgress,
+      g6Math: g6MathProgress,
+      g6Lit: g6LitProgress,
       g7Math: g7MathProgress,
       g7Lit: g7LitProgress
     };
@@ -300,7 +432,6 @@ export const LearningProvider = ({ children }) => {
     const activeGrade = grade || currentGrade;
     const activeSubj = subject || currentSubject;
     const isActMath = activeSubj === 'math';
-    const isActG7 = activeGrade === '7';
 
     // Calculate stars
     let earnedStars = 0;
@@ -328,12 +459,18 @@ export const LearningProvider = ({ children }) => {
       return updated;
     };
 
-    if (isActG7) {
-      if (isActMath) setG7MathWrong(updateWrongList);
-      else setG7LitWrong(updateWrongList);
-    } else {
+    if (activeGrade === '4') {
       if (isActMath) setG4MathWrong(updateWrongList);
       else setG4TvWrong(updateWrongList);
+    } else if (activeGrade === '5') {
+      if (isActMath) setG5MathWrong(updateWrongList);
+      else setG5TvWrong(updateWrongList);
+    } else if (activeGrade === '6') {
+      if (isActMath) setG6MathWrong(updateWrongList);
+      else setG6LitWrong(updateWrongList);
+    } else if (activeGrade === '7') {
+      if (isActMath) setG7MathWrong(updateWrongList);
+      else setG7LitWrong(updateWrongList);
     }
 
     // Update week progress
@@ -364,12 +501,18 @@ export const LearningProvider = ({ children }) => {
     };
 
     if (week) {
-      if (isActG7) {
-        if (isActMath) setG7MathProgress(updateProgressObj);
-        else setG7LitProgress(updateProgressObj);
-      } else {
+      if (activeGrade === '4') {
         if (isActMath) setG4MathProgress(updateProgressObj);
         else setG4TvProgress(updateProgressObj);
+      } else if (activeGrade === '5') {
+        if (isActMath) setG5MathProgress(updateProgressObj);
+        else setG5TvProgress(updateProgressObj);
+      } else if (activeGrade === '6') {
+        if (isActMath) setG6MathProgress(updateProgressObj);
+        else setG6LitProgress(updateProgressObj);
+      } else if (activeGrade === '7') {
+        if (isActMath) setG7MathProgress(updateProgressObj);
+        else setG7LitProgress(updateProgressObj);
       }
     }
 
@@ -418,9 +561,9 @@ export const LearningProvider = ({ children }) => {
     sounds.setSoundEnabled(next);
   };
 
-  // Switch Grade (Lớp 4 <-> Lớp 7)
+  // Switch Grade (Lớp 4, Lớp 5, Lớp 6, Lớp 7)
   const switchGrade = (grade) => {
-    if (grade === '4' || grade === '7') {
+    if (['4', '5', '6', '7'].includes(grade)) {
       setCurrentGrade(grade);
       sounds.playClick();
     }
@@ -452,7 +595,11 @@ export const LearningProvider = ({ children }) => {
     <LearningContext.Provider value={{
       currentGrade,
       switchGrade,
+      isGrade4,
+      isGrade5,
+      isGrade6,
       isGrade7,
+      isSecondary,
       currentSubject,
       switchSubject,
       isMath,

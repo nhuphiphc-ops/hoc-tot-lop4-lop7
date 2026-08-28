@@ -33,7 +33,11 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   const { 
     currentGrade,
     switchGrade,
+    isGrade4,
+    isGrade5,
+    isGrade6,
     isGrade7,
+    isSecondary,
     currentSubject,
     switchSubject,
     isMath,
@@ -76,17 +80,19 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
   // Dynamic titles
   const getSubjectTitle = () => {
-    if (isGrade7) {
-      return isMath ? 'Toán Lớp 7' : 'Ngữ Văn 7';
-    }
-    return isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4';
+    if (isGrade4) return isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4';
+    if (isGrade5) return isMath ? 'Toán Lớp 5' : 'Tiếng Việt 5';
+    if (isGrade6) return isMath ? 'Toán Lớp 6' : 'Ngữ Văn 6';
+    if (isGrade7) return isMath ? 'Toán Lớp 7' : 'Ngữ Văn 7';
+    return isMath ? 'Toán Học' : 'Tiếng Việt';
   };
 
   const getSubjectSubtitle = () => {
-    if (isGrade7) {
-      return isMath ? 'Chinh Phục Đại Số & Hình Học 🚀' : 'Khám Phá Văn Học & Tiếng Việt 7 📖';
-    }
-    return isMath ? 'Phiêu Lưu Ký Toán Học 🚀' : 'Hành Trình Khám Phá Tiếng Việt 📖';
+    if (isGrade4) return isMath ? 'Phiêu Lưu Ký Toán Học 🚀' : 'Hành Trình Khám Phá Tiếng Việt 📖';
+    if (isGrade5) return isMath ? 'Bậc Thầy Số Thập Phân & Chuyển Động 🎯' : 'Vẻ Đẹp Ngôn Từ & Câu Ghép 📖';
+    if (isGrade6) return isMath ? 'Chinh Phục Số Nguyên & Hình Trực Quan 🚀' : 'Khám Phá Truyện Cổ & Thơ Lục Bát 📖';
+    if (isGrade7) return isMath ? 'Chinh Phục Đại Số & Hình Học 🚀' : 'Khám Phá Văn Học & Tiếng Việt 7 📖';
+    return 'Chương Trình GDPT Mới 2026';
   };
 
   return (
@@ -100,8 +106,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
         >
           <div className={`w-11 h-11 rounded-2xl flex items-center justify-center text-2xl shadow-bouncy-sm group-hover:scale-105 transition-transform ${
             isMath 
-              ? (isGrade7 ? 'bg-gradient-to-br from-blue-500 to-indigo-600' : 'bg-gradient-to-br from-amber-400 to-orange-500') 
-              : (isGrade7 ? 'bg-gradient-to-br from-rose-500 to-purple-600' : 'bg-gradient-to-br from-rose-400 to-pink-500')
+              ? (isSecondary ? 'bg-gradient-to-br from-blue-500 to-indigo-600' : 'bg-gradient-to-br from-amber-400 to-orange-500') 
+              : (isSecondary ? 'bg-gradient-to-br from-rose-500 to-purple-600' : 'bg-gradient-to-br from-rose-400 to-pink-500')
           }`}>
             {currentMascotObj.emoji}
           </div>
@@ -112,8 +118,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
               </span>
               <span className={`text-white text-xs sm:text-sm font-black px-2.5 py-0.5 rounded-full shadow-sm ${
                 isMath 
-                  ? (isGrade7 ? 'bg-gradient-to-r from-blue-600 to-indigo-600' : 'bg-gradient-to-r from-amber-500 to-orange-500')
-                  : (isGrade7 ? 'bg-gradient-to-r from-rose-600 to-purple-600' : 'bg-gradient-to-r from-rose-500 to-pink-500')
+                  ? (isSecondary ? 'bg-gradient-to-r from-blue-600 to-indigo-600' : 'bg-gradient-to-r from-amber-500 to-orange-500')
+                  : (isSecondary ? 'bg-gradient-to-r from-rose-600 to-purple-600' : 'bg-gradient-to-r from-rose-500 to-pink-500')
               }`}>
                 GDPT MỚI 2026
               </span>
@@ -128,31 +134,30 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
         {/* Grade & Subject Switchers */}
         <div className="flex items-center flex-wrap gap-2">
-          {/* Grade Switcher (Lớp 4 / Lớp 7) */}
+          {/* Grade Switcher (Lớp 4, Lớp 5, Lớp 6, Lớp 7) */}
           <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner">
-            <button
-              onClick={() => switchGrade('4')}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs transition-all ${
-                !isGrade7
-                  ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 shadow-sm scale-105'
-                  : 'text-slate-600 hover:text-amber-800'
-              }`}
-            >
-              <GraduationCap className="w-3.5 h-3.5" />
-              <span>Lớp 4</span>
-            </button>
-
-            <button
-              onClick={() => switchGrade('7')}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs transition-all ${
-                isGrade7
-                  ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-sm scale-105'
-                  : 'text-slate-600 hover:text-blue-800'
-              }`}
-            >
-              <GraduationCap className="w-3.5 h-3.5" />
-              <span>Lớp 7 🚀</span>
-            </button>
+            {[
+              { id: '4', label: 'Lớp 4', icon: '🎒', color: 'from-amber-400 to-orange-400 text-amber-950' },
+              { id: '5', label: 'Lớp 5', icon: '⭐', color: 'from-emerald-400 to-teal-500 text-white' },
+              { id: '6', label: 'Lớp 6', icon: '📘', color: 'from-indigo-500 to-blue-600 text-white' },
+              { id: '7', label: 'Lớp 7', icon: '🚀', color: 'from-purple-500 to-pink-600 text-white' },
+            ].map((g) => {
+              const isActive = currentGrade === g.id;
+              return (
+                <button
+                  key={g.id}
+                  onClick={() => switchGrade(g.id)}
+                  className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs transition-all ${
+                    isActive
+                      ? `bg-gradient-to-r ${g.color} shadow-sm scale-105`
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                  }`}
+                >
+                  <span>{g.icon}</span>
+                  <span>{g.label}</span>
+                </button>
+              );
+            })}
           </div>
 
           {/* Subject Switcher (Toán / Tiếng Việt - Ngữ Văn) */}
@@ -161,28 +166,28 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
               onClick={() => switchSubject('math')}
               className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all ${
                 isMath
-                  ? isGrade7
+                  ? isSecondary
                     ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-sm scale-105'
                     : 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 shadow-sm scale-105'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
               }`}
             >
               <Calculator className="w-3.5 h-3.5" />
-              <span>🧮 Toán Học</span>
+              <span>🧮 Toán {currentGrade}</span>
             </button>
 
             <button
               onClick={() => switchSubject('vietnamese')}
               className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all ${
                 !isMath
-                  ? isGrade7
+                  ? isSecondary
                     ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-sm scale-105'
                     : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-sm scale-105'
                   : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
               }`}
             >
               <BookMarked className="w-3.5 h-3.5" />
-              <span>{isGrade7 ? '📖 Ngữ Văn 7' : '📖 Tiếng Việt 4'}</span>
+              <span>{isSecondary ? `📖 Ngữ Văn ${currentGrade}` : `📖 Tiếng Việt ${currentGrade}`}</span>
             </button>
           </div>
         </div>

@@ -41,9 +41,9 @@ export const ParentDashboard = () => {
     return matchGrade && matchSubject;
   });
 
-  const subjectLabel = isGrade7
-    ? (isMath ? 'Toán Lớp 7' : 'Ngữ Văn 7')
-    : (isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4');
+  const subjectLabel = isMath
+    ? `Toán Lớp ${currentGrade}`
+    : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
 
   // Overall Statistics for current subject
   const totalQuizzes = subjectHistory.length;
