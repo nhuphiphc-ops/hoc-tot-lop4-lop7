@@ -35,11 +35,10 @@ export const ParentDashboard = () => {
     isMath,
     currentGrade,
     currentSubject,
-    currentCategories,
+    categories: currentCategories,
     parentPin,
     setParentPin,
     verifyParentPin,
-    clearAllData
   } = useLearning();
 
   const [pinInput, setPinInput] = useState('');
@@ -57,6 +56,20 @@ export const ParentDashboard = () => {
   });
 
   const getSubjectLabel = () => {
+    if (currentGrade === '12') {
+      if (currentSubject === 'math') return 'Toán 12';
+      if (currentSubject === 'vietnamese') return 'Ngữ Văn 12';
+      if (currentSubject === 'english') return 'Tiếng Anh 12';
+      if (currentSubject === 'physics') return 'Vật Lí 12';
+      if (currentSubject === 'chemistry') return 'Hóa Học 12';
+      if (currentSubject === 'biology') return 'Sinh Học 12';
+      if (currentSubject === 'history') return 'Lịch Sử 12';
+      if (currentSubject === 'geography') return 'Địa Lí 12';
+      if (currentSubject === 'econ_law') return 'GDKT & PL 12';
+      if (currentSubject === 'informatics') return 'Tin Học 12';
+      if (currentSubject === 'technology') return 'Công Nghệ 12';
+      return 'Toán 12';
+    }
     if (currentGrade === '7') {
       if (currentSubject === 'math') return 'Toán Lớp 7';
       if (currentSubject === 'vietnamese') return 'Ngữ Văn 7';
@@ -86,7 +99,7 @@ export const ParentDashboard = () => {
 
   // Topic Performance Analysis
   const topicStats = {};
-  currentCategories.forEach(cat => {
+  (currentCategories || []).forEach(cat => {
     topicStats[cat.id] = { total: 0, correct: 0 };
   });
 

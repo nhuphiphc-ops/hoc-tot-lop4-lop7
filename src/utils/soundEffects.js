@@ -1,5 +1,10 @@
-// Web Audio API & Direct Studio-Quality Vietnamese Voice Engine for 100% Samsung S22 Ultra, Android & iOS compatibility
-import { VOICE_PRAISE_BASE64, VOICE_ENCOURAGE_BASE64 } from './voiceAudios';
+// Web Audio API & Direct Studio-Quality Vietnamese Voice Engine for Cong Nguyen & Nhat Minh
+import { 
+  VOICE_PRAISE_BASE64, 
+  VOICE_ENCOURAGE_BASE64,
+  VOICE_PRAISE_MINH_BASE64,
+  VOICE_ENCOURAGE_MINH_BASE64
+} from './voiceAudios';
 
 class SoundManager {
   constructor() {
@@ -131,16 +136,26 @@ class SoundManager {
     }
   }
 
-  // Submission voice feedback
-  speakSubmissionFeedback(score) {
+  // Submission voice feedback - student personalized
+  speakSubmissionFeedback(score, isGrade12 = false) {
     if (!this.enabled) return;
 
-    if (score === 100) {
-      this.playVictory();
-      this.playVoiceAudio(VOICE_PRAISE_BASE64, "Công Nguyên của bố quá tuyệt vời!");
+    if (isGrade12) {
+      if (score === 100) {
+        this.playVictory();
+        this.playVoiceAudio(VOICE_PRAISE_MINH_BASE64, "Nhật Minh của bố quá tuyệt vời!");
+      } else {
+        this.playCorrect();
+        this.playVoiceAudio(VOICE_ENCOURAGE_MINH_BASE64, "Nhật Minh cố gắng hơn tí nữa nhé!");
+      }
     } else {
-      this.playCorrect();
-      this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, "Công Nguyên cố gắng hơn tí nữa nhé!");
+      if (score === 100) {
+        this.playVictory();
+        this.playVoiceAudio(VOICE_PRAISE_BASE64, "Công Nguyên của bố quá tuyệt vời!");
+      } else {
+        this.playCorrect();
+        this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, "Công Nguyên cố gắng hơn tí nữa nhé!");
+      }
     }
   }
 
@@ -149,9 +164,13 @@ class SoundManager {
     if (!this.enabled) return;
     if (typeof window === 'undefined') return;
 
-    if (text.includes("quá tuyệt vời") || text.includes("Công Nguyên của bố")) {
+    if (text.includes("Nhật Minh") && text.includes("tuyệt vời")) {
+      this.playVoiceAudio(VOICE_PRAISE_MINH_BASE64, text);
+    } else if (text.includes("Nhật Minh") && text.includes("cố gắng")) {
+      this.playVoiceAudio(VOICE_ENCOURAGE_MINH_BASE64, text);
+    } else if (text.includes("Công Nguyên") && text.includes("tuyệt vời")) {
       this.playVoiceAudio(VOICE_PRAISE_BASE64, text);
-    } else if (text.includes("cố gắng hơn")) {
+    } else if (text.includes("Công Nguyên") && text.includes("cố gắng")) {
       this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, text);
     } else {
       this.speakWebSpeech(text);

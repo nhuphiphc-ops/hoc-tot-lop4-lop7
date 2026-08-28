@@ -15,7 +15,8 @@ import {
   ShoppingBag,
   CheckCircle2,
   Calculator,
-  BookMarked
+  BookMarked,
+  GraduationCap
 } from 'lucide-react';
 import { BADGE_DEFINITIONS, SHOP_MASCOTS, useLearning } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
@@ -48,6 +49,7 @@ export const BadgesModal = () => {
       case 'Feather': return <Feather {...props} />;
       case 'Calculator': return <Calculator {...props} />;
       case 'BookMarked': return <BookMarked {...props} />;
+      case 'GraduationCap': return <GraduationCap {...props} />;
       default: return <Award {...props} />;
     }
   };

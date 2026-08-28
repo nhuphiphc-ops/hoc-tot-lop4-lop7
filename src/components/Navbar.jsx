@@ -29,7 +29,9 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     isGrade5,
     isGrade6,
     isGrade7,
+    isGrade12,
     isSecondary,
+    isHighSchool,
     currentSubject,
     switchSubject,
     isMath,
@@ -47,17 +49,17 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   } = useLearning();
 
   const [showProfileModal, setShowProfileModal] = useState(false);
-  const [tempName, setTempName] = useState(profile.name || 'Nguyễn Công Nguyên');
-  const [tempSchool, setTempSchool] = useState(profile.school || 'Trường PTCS - Phú La');
-  const [tempMascot, setTempMascot] = useState(profile.mascot || 'elephant');
+  const [tempName, setTempName] = useState(profile.name || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Nguyễn Công Nguyên'));
+  const [tempSchool, setTempSchool] = useState(profile.school || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : 'Trường PTCS - Phú La'));
+  const [tempMascot, setTempMascot] = useState(profile.mascot || (isGrade12 ? 'dragon' : 'elephant'));
 
   const currentMascotObj = SHOP_MASCOTS.find(m => m.id === profile.mascot) || SHOP_MASCOTS[0];
 
   const handleSaveProfile = () => {
     sounds.playClick();
     updateProfile({
-      name: tempName.trim() || 'Nguyễn Công Nguyên',
-      school: tempSchool.trim() || 'Trường PTCS - Phú La',
+      name: tempName.trim() || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Nguyễn Công Nguyên'),
+      school: tempSchool.trim() || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : 'Trường PTCS - Phú La'),
       mascot: tempMascot
     });
     setShowProfileModal(false);
@@ -87,6 +89,20 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
       if (currentSubject === 'technology') return 'Công Nghệ 7';
       return 'Toán Lớp 7';
     }
+    if (isGrade12) {
+      if (currentSubject === 'math') return 'Toán 12';
+      if (currentSubject === 'vietnamese') return 'Ngữ Văn 12';
+      if (currentSubject === 'english') return 'Tiếng Anh 12';
+      if (currentSubject === 'physics') return 'Vật Lí 12';
+      if (currentSubject === 'chemistry') return 'Hóa Học 12';
+      if (currentSubject === 'biology') return 'Sinh Học 12';
+      if (currentSubject === 'history') return 'Lịch Sử 12';
+      if (currentSubject === 'geography') return 'Địa Lí 12';
+      if (currentSubject === 'econ_law') return 'GDKT & PL 12';
+      if (currentSubject === 'informatics') return 'Tin Học 12';
+      if (currentSubject === 'technology') return 'Công Nghệ 12';
+      return 'Toán 12';
+    }
     return isMath ? 'Toán Học' : 'Tiếng Việt';
   };
 
@@ -95,6 +111,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     { id: '5', label: 'Lớp 5', icon: '⭐', color: 'from-emerald-400 to-teal-500 text-white' },
     { id: '6', label: 'Lớp 6', icon: '📘', color: 'from-indigo-500 to-blue-600 text-white' },
     { id: '7', label: 'Lớp 7', icon: '🚀', color: 'from-purple-500 to-pink-600 text-white' },
+    { id: '12', label: 'Lớp 12', icon: '🎓', color: 'from-red-500 to-rose-600 text-white' },
   ];
 
   const grade7SubjectsList = [
@@ -108,6 +125,20 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     { id: 'technology', label: 'Công Nghệ 7', color: 'from-green-500 to-emerald-600' },
   ];
 
+  const grade12SubjectsList = [
+    { id: 'math', label: 'Toán 12', color: 'from-blue-600 to-indigo-700' },
+    { id: 'vietnamese', label: 'Ngữ Văn 12', color: 'from-rose-600 to-purple-700' },
+    { id: 'english', label: 'Tiếng Anh 12', color: 'from-emerald-600 to-teal-700' },
+    { id: 'physics', label: 'Vật Lí 12', color: 'from-sky-600 to-blue-700' },
+    { id: 'chemistry', label: 'Hóa Học 12', color: 'from-purple-600 to-indigo-800' },
+    { id: 'biology', label: 'Sinh Học 12', color: 'from-green-600 to-emerald-700' },
+    { id: 'history', label: 'Lịch Sử 12', color: 'from-amber-600 to-orange-700' },
+    { id: 'geography', label: 'Địa Lí 12', color: 'from-teal-600 to-cyan-700' },
+    { id: 'econ_law', label: 'GDKT & PL 12', color: 'from-pink-600 to-rose-700' },
+    { id: 'informatics', label: 'Tin Học 12', color: 'from-cyan-600 to-blue-700' },
+    { id: 'technology', label: 'Công Nghệ 12', color: 'from-lime-600 to-emerald-700' },
+  ];
+
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b-2 border-amber-200 shadow-sm w-full max-w-full overflow-hidden">
       {/* ==================== DESKTOP HEADER (MD & UP) ==================== */}
@@ -119,7 +150,9 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             className="flex items-center gap-2.5 cursor-pointer group"
           >
             <div className={`w-11 h-11 rounded-2xl flex items-center justify-center text-2xl shadow-bouncy-sm group-hover:scale-105 transition-transform ${
-              isMath 
+              isHighSchool
+                ? 'bg-gradient-to-br from-red-500 to-rose-600'
+                : isMath 
                 ? (isSecondary ? 'bg-gradient-to-br from-blue-500 to-indigo-600' : 'bg-gradient-to-br from-amber-400 to-orange-500') 
                 : (isSecondary ? 'bg-gradient-to-br from-rose-500 to-purple-600' : 'bg-gradient-to-br from-rose-400 to-pink-500')
             }`}>
@@ -130,13 +163,17 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 <span className="font-black text-lg sm:text-2xl text-slate-800 tracking-tight font-nunito">
                   {getSubjectTitle()}
                 </span>
-                <span className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-xs font-black px-2.5 py-0.5 rounded-full shadow-sm">
-                  GDPT MỚI 2026
+                <span className={`text-white text-xs font-black px-2.5 py-0.5 rounded-full shadow-sm ${
+                  isHighSchool
+                    ? 'bg-gradient-to-r from-red-600 to-rose-600'
+                    : 'bg-gradient-to-r from-purple-600 to-indigo-600'
+                }`}>
+                  {isHighSchool ? 'THPT • GDPT 2026' : 'GDPT MỚI 2026'}
                 </span>
               </div>
               <div className="flex items-center gap-1.5 flex-wrap mt-1">
                 <span className="text-[14px] sm:text-[16px] font-bold text-slate-800 bg-amber-50/90 px-3 py-0.5 rounded-xl border border-amber-300 shadow-xs flex items-center gap-1.5 flex-wrap">
-                  🏫 <span className="font-extrabold text-blue-700">{profile.school || 'Trường PTCS - Phú La'}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name || 'Nguyễn Công Nguyên'}</span>
+                  🏫 <span className="font-extrabold text-blue-700">{profile.school}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name}</span>
                 </span>
               </div>
             </div>
@@ -166,7 +203,26 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             </div>
 
             {/* Subject Switcher */}
-            {isGrade7 ? (
+            {isGrade12 ? (
+              <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
+                {grade12SubjectsList.map(subj => {
+                  const isSubjActive = currentSubject === subj.id;
+                  return (
+                    <button
+                      key={subj.id}
+                      onClick={() => switchSubject(subj.id)}
+                      className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                        isSubjActive
+                          ? `bg-gradient-to-r ${subj.color} text-white shadow-sm scale-105`
+                          : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                      }`}
+                    >
+                      <span>{subj.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            ) : isGrade7 ? (
               <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
                 {grade7SubjectsList.map(subj => {
                   const isSubjActive = currentSubject === subj.id;
@@ -264,15 +320,15 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             <button
               onClick={() => {
                 sounds.playPop();
-                setTempName(profile.name || 'Nguyễn Công Nguyên');
-                setTempSchool(profile.school || 'Trường PTCS - Phú La');
-                setTempMascot(profile.mascot || 'elephant');
+                setTempName(profile.name);
+                setTempSchool(profile.school);
+                setTempMascot(profile.mascot || 'dragon');
                 setShowProfileModal(true);
               }}
               className="flex items-center gap-2 pl-2 pr-3 py-1 bg-indigo-50 hover:bg-indigo-100 border-2 border-indigo-200 text-indigo-900 rounded-xl transition-all shadow-sm cursor-pointer"
             >
               <span className="text-lg">{currentMascotObj.emoji}</span>
-              <span className="max-w-[120px] truncate text-xs font-bold">{profile.name || 'Nguyễn Công Nguyên'}</span>
+              <span className="max-w-[140px] truncate text-xs font-bold">{profile.name}</span>
             </button>
           </div>
         </div>
@@ -318,7 +374,9 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             onClick={() => { sounds.playClick(); onSelectTab('roadmap'); }}
             className="flex items-center gap-2 cursor-pointer flex-1 min-w-0"
           >
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-xl shadow-xs flex-shrink-0">
+            <div className={`w-9 h-9 rounded-xl flex items-center justify-center text-xl shadow-xs flex-shrink-0 ${
+              isHighSchool ? 'bg-gradient-to-br from-red-500 to-rose-600' : 'bg-gradient-to-br from-amber-400 to-orange-500'
+            }`}>
               {currentMascotObj.emoji}
             </div>
             <div className="min-w-0 flex-1">
@@ -326,12 +384,14 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 <span className="font-black text-base text-slate-800 tracking-tight truncate font-nunito">
                   {getSubjectTitle()}
                 </span>
-                <span className="bg-purple-600 text-white text-[9px] font-black px-1.5 py-0.2 rounded-md flex-shrink-0">
-                  GDPT 2026
+                <span className={`text-white text-[9px] font-black px-1.5 py-0.2 rounded-md flex-shrink-0 ${
+                  isHighSchool ? 'bg-red-600' : 'bg-purple-600'
+                }`}>
+                  {isHighSchool ? 'THPT 2026' : 'GDPT 2026'}
                 </span>
               </div>
               <div className="text-[11px] font-bold text-slate-600 truncate">
-                🏫 <span className="text-blue-700 font-extrabold">{profile.school || 'Trường PTCS - Phú La'}</span> • <span className="text-emerald-700 font-black">{profile.name || 'Nguyễn Công Nguyên'}</span>
+                🏫 <span className="text-blue-700 font-extrabold">{profile.school}</span> • <span className="text-emerald-700 font-black">{profile.name}</span>
               </div>
             </div>
           </div>
@@ -340,9 +400,9 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
           <button
             onClick={() => {
               sounds.playPop();
-              setTempName(profile.name || 'Nguyễn Công Nguyên');
-              setTempSchool(profile.school || 'Trường PTCS - Phú La');
-              setTempMascot(profile.mascot || 'elephant');
+              setTempName(profile.name);
+              setTempSchool(profile.school);
+              setTempMascot(profile.mascot || 'dragon');
               setShowProfileModal(true);
             }}
             className="p-1.5 bg-indigo-50 border border-indigo-200 rounded-xl text-lg flex-shrink-0 shadow-xs cursor-pointer"
@@ -383,20 +443,20 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 isFreeMode ? 'bg-purple-100 border-purple-300 text-purple-800' : 'bg-slate-100 border-slate-200 text-slate-500'
               }`}
             >
-              {isFreeMode ? '🔓 Đã mở' : '🔒 Khóa'}
+              {isFreeMode ? '🔓 Mở' : '🔒 Khóa'}
             </button>
           </div>
         </div>
 
-        {/* Mobile Row 3: Grade Selector (Compact 4-Column Grid) */}
-        <div className="grid grid-cols-4 gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 w-full">
+        {/* Mobile Row 3: Grade Selector (5-Column Horizontal Scroll / Grid) */}
+        <div className="flex items-center gap-1 overflow-x-auto scrollbar-none bg-slate-100 p-1 rounded-xl border border-slate-200 w-full">
           {gradeList.map((g) => {
             const isActive = currentGrade === g.id;
             return (
               <button
                 key={g.id}
                 onClick={() => switchGrade(g.id)}
-                className={`py-1 rounded-lg font-black text-xs flex items-center justify-center gap-1 transition-all cursor-pointer ${
+                className={`py-1 px-2.5 rounded-lg font-black text-xs whitespace-nowrap flex-1 flex items-center justify-center gap-1 transition-all cursor-pointer ${
                   isActive
                     ? `bg-gradient-to-r ${g.color} shadow-xs scale-102`
                     : 'text-slate-600 hover:bg-white/60'
@@ -409,9 +469,28 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
           })}
         </div>
 
-        {/* Mobile Row 4: Subject Selector (Horizontal Scrollable Pill Track) */}
+        {/* Mobile Row 4: Subject Selector */}
         <div className="w-full min-w-0 max-w-full overflow-hidden">
-          {isGrade7 ? (
+          {isGrade12 ? (
+            <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
+              {grade12SubjectsList.map(subj => {
+                const isSubjActive = currentSubject === subj.id;
+                return (
+                  <button
+                    key={subj.id}
+                    onClick={() => switchSubject(subj.id)}
+                    className={`px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border ${
+                      isSubjActive
+                        ? `bg-gradient-to-r ${subj.color} text-white shadow-xs border-transparent scale-102`
+                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                    }`}
+                  >
+                    {subj.label}
+                  </button>
+                );
+              })}
+            </div>
+          ) : isGrade7 ? (
             <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
               {grade7SubjectsList.map(subj => {
                 const isSubjActive = currentSubject === subj.id;
@@ -471,7 +550,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <h3 className="text-lg font-black text-slate-800 flex items-center gap-2">
                 <User className="w-5 h-5 text-amber-500" />
-                Hồ Sơ Học Sinh
+                Hồ Sơ Học Sinh {isGrade12 ? '(Lớp 12 - THPT)' : '(Lớp 4 - 7)'}
               </h3>
               <button 
                 onClick={() => setShowProfileModal(false)}

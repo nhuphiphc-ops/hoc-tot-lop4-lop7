@@ -12,7 +12,7 @@ import {
   Zap,
   BookMarked
 } from 'lucide-react';
-import { useLearning } from '../context/LearningContext';
+import { useLearning, GRADE_7_SUBJECTS, GRADE_12_SUBJECTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
 
 export const CustomPractice = ({ onStartQuiz }) => {
@@ -20,10 +20,10 @@ export const CustomPractice = ({ onStartQuiz }) => {
     isMath, 
     currentGrade,
     isGrade7,
+    isGrade12,
     currentSubject, 
-    currentStages, 
-    currentCategories, 
-    currentBank, 
+    stages: currentStages, 
+    categories: currentCategories, 
     getFilteredQuestions 
   } = useLearning();
 
@@ -34,9 +34,16 @@ export const CustomPractice = ({ onStartQuiz }) => {
   const [questionCount, setQuestionCount] = useState(10);
   const [isTimed, setIsTimed] = useState(true);
 
-  const subjectLabel = isMath
-    ? `Toán Lớp ${currentGrade}`
-    : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
+  const getSubjectLabel = () => {
+    if (isGrade12) {
+      return GRADE_12_SUBJECTS.find(s => s.id === currentSubject)?.label || 'Toán 12';
+    }
+    if (isGrade7) {
+      return GRADE_7_SUBJECTS.find(s => s.id === currentSubject)?.label || 'Toán 7';
+    }
+    return isMath ? `Toán Lớp ${currentGrade}` : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
+  };
+  const subjectLabel = getSubjectLabel();
 
   // Quick Exam Presets
   const handleStartPreset = (presetType) => {

@@ -13,6 +13,7 @@ import {
   Sparkles,
   ArrowRight
 } from 'lucide-react';
+import { useLearning } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
 
 export const ResultModal = ({
@@ -29,6 +30,9 @@ export const ResultModal = ({
   onExit,
   onClose
 }) => {
+  const { isGrade12 } = useLearning();
+  const studentName = isGrade12 ? 'Nhật Minh' : 'Công Nguyên';
+
   const { score, correctCount, totalCount, timeSpent, details } = resultData || { score: 0, correctCount: 0, totalCount: 0, timeSpent: 0, details: [] };
   const { earnedStars, earnedCoins } = earnedRewards || { earnedStars: 0, earnedCoins: 0 };
 
@@ -69,8 +73,8 @@ export const ResultModal = ({
     }
 
     // Voice narration in Vietnamese
-    sounds.speakSubmissionFeedback(score);
-  }, [score]);
+    sounds.speakSubmissionFeedback(score, isGrade12);
+  }, [score, isGrade12]);
 
   // Format time spent (MM:SS)
   const formatTime = (secs) => {
@@ -80,23 +84,23 @@ export const ResultModal = ({
   };
 
   // Praise title & mascot message
-  let title = "Công Nguyên Cố Gắng Hơn Tí Nữa Nhé! 💪";
+  let title = `${studentName} Cố Gắng Hơn Tí Nữa Nhé! 💪`;
   let message = "Hãy xem lại lời giải chi tiết để hiểu bài hơn và thử lại nhé!";
   let badgeColor = "bg-amber-100 text-amber-800 border-amber-300";
-  let emoji = "🌱";
+  let emoji = isGrade12 ? "🐉" : "🌱";
 
   if (score === 100) {
-    title = "Công Nguyên Của Bố Quá Tuyệt Vời! 🌟";
+    title = `${studentName} Của Bố Quá Tuyệt Vời! 🌟`;
     message = "Con đã xuất sắc trả lời đúng tất cả các câu hỏi!";
     badgeColor = "bg-yellow-100 text-yellow-900 border-yellow-400";
     emoji = "👑";
   } else if (score >= 80) {
     title = "Thành Tích Xuất Sắc! 🚀";
-    message = "Công Nguyên đã nắm vững các kiến thức trọng tâm!";
+    message = `${studentName} đã nắm vững các kiến thức trọng tâm!`;
     badgeColor = "bg-emerald-100 text-emerald-900 border-emerald-400";
     emoji = "🎖️";
   } else if (score >= 50) {
-    title = "Công Nguyên Cố Gắng Hơn Tí Nữa Nhé! 👏";
+    title = `${studentName} Cố Gắng Hơn Tí Nữa Nhé! 👏`;
     message = "Con đã hoàn thành bài thi! Hãy luyện tập thêm một chút nữa nhé!";
     badgeColor = "bg-blue-100 text-blue-900 border-blue-400";
     emoji = "⭐";
@@ -130,7 +134,7 @@ export const ResultModal = ({
         {/* Voice replay button */}
         <button
           type="button"
-          onClick={() => sounds.speakSubmissionFeedback(score)}
+          onClick={() => sounds.speakSubmissionFeedback(score, isGrade12)}
           className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-100 hover:bg-amber-200 text-amber-900 font-extrabold text-xs rounded-full shadow-xs mb-4 transition-all cursor-pointer"
         >
           <span className="text-sm">🔊</span>
