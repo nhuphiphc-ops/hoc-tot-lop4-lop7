@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { LearningProvider, useLearning } from './context/LearningContext';
 import { Navbar } from './components/Navbar';
 import { RoadmapView } from './components/RoadmapView';
@@ -11,12 +11,29 @@ import { ResultModal } from './components/ResultModal';
 import { ExplanationView } from './components/ExplanationView';
 
 const MainContent = () => {
-  const { saveQuizResult, getQuestionsByWeek, currentSubject, isMath } = useLearning();
+  const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath } = useLearning();
   const [currentTab, setCurrentTab] = useState('roadmap'); // 'roadmap' | 'practice' | 'wrong' | 'dashboard' | 'badges'
   const [activeQuizConfig, setActiveQuizConfig] = useState(null);
   const [currentResultData, setCurrentResultData] = useState(null);
   const [currentEarnedRewards, setCurrentEarnedRewards] = useState(null);
   const [isViewingExplanation, setIsViewingExplanation] = useState(false);
+
+  // Track grade & subject changes to immediately close any ongoing quiz and show the new roadmap
+  const prevGradeRef = useRef(currentGrade);
+  const prevSubjectRef = useRef(currentSubject);
+
+  useEffect(() => {
+    if (prevGradeRef.current !== currentGrade || prevSubjectRef.current !== currentSubject) {
+      prevGradeRef.current = currentGrade;
+      prevSubjectRef.current = currentSubject;
+      setActiveQuizConfig(null);
+      setCurrentResultData(null);
+      setIsViewingExplanation(false);
+      try {
+        localStorage.removeItem('toan_active_quiz_draft');
+      } catch { /* ignore */ }
+    }
+  }, [currentGrade, currentSubject]);
 
   // Start a Quiz
   const handleStartQuiz = (config) => {
@@ -45,6 +62,8 @@ const MainContent = () => {
 
     setActiveQuizConfig({
       type: config.type || 'week',
+      grade: currentGrade,
+      subject: currentSubject,
       week: config.week || null,
       title: config.title || `Luyện tập Tuần ${config.week || ''}`,
       questions: preparedQuestions,
@@ -58,6 +77,7 @@ const MainContent = () => {
   const handleFinishQuiz = (resultPayload) => {
     const fullResultData = {
       ...resultPayload,
+      grade: currentGrade,
       subject: currentSubject,
       type: activeQuizConfig?.type || 'week',
       week: activeQuizConfig?.week || null,
@@ -89,6 +109,8 @@ const MainContent = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveQuizConfig({
       type: 'retry_wrong',
+      grade: currentGrade,
+      subject: currentSubject,
       week: currentResultData.week,
       title: `Luyện Lại Câu Sai (${wrongQuestions.length} câu)`,
       questions: wrongQuestions,
@@ -103,6 +125,9 @@ const MainContent = () => {
     setActiveQuizConfig(null);
     setCurrentResultData(null);
     setIsViewingExplanation(false);
+    try {
+      localStorage.removeItem('toan_active_quiz_draft');
+    } catch { /* ignore */ }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -180,23 +205,22 @@ const MainContent = () => {
         <ResultModal
           resultData={currentResultData}
           earnedRewards={currentEarnedRewards}
-          onReview={() => {
-            setIsViewingExplanation(true);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }}
           onRetry={handleRetryCurrentQuiz}
-          onRetryWrong={handleRetryWrongOnly}
-          onExit={handleExitQuiz}
+          onRetryWrongOnly={handleRetryWrongOnly}
+          onViewExplanation={() => setIsViewingExplanation(true)}
+          onClose={handleExitQuiz}
         />
       )}
     </div>
   );
 };
 
-export default function App() {
+function App() {
   return (
     <LearningProvider>
       <MainContent />
     </LearningProvider>
   );
 }
+
+export default App;

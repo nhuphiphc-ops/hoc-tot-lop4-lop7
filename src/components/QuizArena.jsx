@@ -76,6 +76,27 @@ export const QuizArena = ({
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
 
+  // Reset state whenever a new quiz is loaded
+  useEffect(() => {
+    try {
+      const draft = JSON.parse(localStorage.getItem('toan_active_quiz_draft') || '{}');
+      if (draft.title === activeTitle && draft.answers) {
+        setAnswers(draft.answers || {});
+        setFlagged(draft.flagged || {});
+        setCurrentIndex(draft.currentIndex || 0);
+        setTimeLeft(draft.timeLeft && draft.timeLeft > 5 ? draft.timeLeft : activeTimeLimit);
+        return;
+      }
+    } catch { /* ignore */ }
+
+    setCurrentIndex(0);
+    setAnswers({});
+    setFlagged({});
+    setTimeLeft(activeTimeLimit);
+    setShowHint(false);
+    setShowConfirmSubmit(false);
+  }, [activeTitle, activeTimeLimit]);
+
   // Auto save draft to LocalStorage
   useEffect(() => {
     try {
