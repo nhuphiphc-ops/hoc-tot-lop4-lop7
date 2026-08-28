@@ -27,6 +27,9 @@ export const RoadmapView = ({ onStartQuiz }) => {
     isFreeMode,
     isMath,
     currentGrade,
+    switchGrade,
+    currentSubject,
+    switchSubject,
     isGrade4,
     isGrade5,
     isGrade6,
@@ -78,14 +81,22 @@ export const RoadmapView = ({ onStartQuiz }) => {
     setActiveWeekModal(weekNum);
   };
 
-  const handleStartWeekQuiz = (weekNum) => {
+  const handleStartWeekQuiz = (weekNum, difficulty = 'all') => {
     sounds.playStart();
-    const questions = getQuestionsByWeek(weekNum);
+    setActiveWeekModal(null);
+    let questions = getQuestionsByWeek(weekNum);
+    if (difficulty && difficulty !== 'all') {
+      const filtered = questions.filter(q => q.difficulty === difficulty);
+      if (filtered.length > 0) {
+        questions = filtered;
+      }
+    }
     onStartQuiz({
       title: `Tuần ${weekNum}: ${currentMetadata[weekNum]?.title || 'Luyện Tập Tuần'}`,
       week: Number(weekNum),
       questions: questions,
-      type: 'week'
+      type: 'week',
+      difficulty: difficulty
     });
   };
 
@@ -141,7 +152,69 @@ export const RoadmapView = ({ onStartQuiz }) => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6 space-y-8">
+    <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
+      {/* Prominent Grade & Subject Fast Switcher Hub */}
+      <div className="bg-white rounded-3xl p-4 sm:p-5 border-3 border-amber-300 shadow-md flex flex-col md:flex-row items-center justify-between gap-4">
+        {/* Grade Selection Buttons */}
+        <div className="flex items-center gap-2 flex-wrap justify-center w-full md:w-auto">
+          <span className="font-black text-xs uppercase tracking-wider text-slate-500 mr-1 hidden sm:inline">Khối Lớp:</span>
+          {[
+            { id: '4', label: 'Lớp 4', emoji: '🎒', color: 'from-amber-400 to-orange-400 text-amber-950 border-amber-300' },
+            { id: '5', label: 'Lớp 5', emoji: '⭐', color: 'from-emerald-400 to-teal-500 text-white border-emerald-400' },
+            { id: '6', label: 'Lớp 6', emoji: '📘', color: 'from-indigo-500 to-blue-600 text-white border-indigo-400' },
+            { id: '7', label: 'Lớp 7', emoji: '🚀', color: 'from-purple-500 to-pink-600 text-white border-purple-400' },
+          ].map((g) => {
+            const isSelected = currentGrade === g.id;
+            return (
+              <button
+                key={g.id}
+                type="button"
+                onClick={() => switchGrade(g.id)}
+                className={`flex items-center gap-1.5 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
+                  isSelected
+                    ? `bg-gradient-to-r ${g.color} shadow-lg scale-105 ring-4 ring-amber-200`
+                    : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100 hover:border-slate-300'
+                }`}
+              >
+                <span className="text-base sm:text-lg">{g.emoji}</span>
+                <span>{g.label}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Subject Selection Buttons */}
+        <div className="flex items-center gap-2 w-full md:w-auto justify-center">
+          <button
+            type="button"
+            onClick={() => switchSubject('math')}
+            className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
+              isMath
+                ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 border-amber-300 shadow-md ring-2 ring-amber-300 scale-105'
+                : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <Calculator className="w-4 h-4" />
+            <span>Toán {currentGrade}</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => switchSubject('vietnamese')}
+            className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
+              !isMath
+                ? isSecondary
+                  ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white border-rose-400 shadow-md ring-2 ring-rose-300 scale-105'
+                  : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white border-rose-300 shadow-md ring-2 ring-rose-300 scale-105'
+                : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>{isSecondary ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`}</span>
+          </button>
+        </div>
+      </div>
+
       {/* Hero Banner with Adventure Stats */}
       <div className={`relative overflow-hidden rounded-3xl p-6 sm:p-8 text-white shadow-bouncy ${getBannerGradient()}`}>
         <div className="relative z-10 max-w-2xl">

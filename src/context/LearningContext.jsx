@@ -563,8 +563,14 @@ export const LearningProvider = ({ children }) => {
 
   // Switch Grade (Lớp 4, Lớp 5, Lớp 6, Lớp 7)
   const switchGrade = (grade) => {
-    if (['4', '5', '6', '7'].includes(grade)) {
-      setCurrentGrade(grade);
+    const gStr = String(grade);
+    if (['4', '5', '6', '7'].includes(gStr)) {
+      setCurrentGrade(gStr);
+      try {
+        localStorage.setItem(STORAGE_KEYS.GRADE, gStr);
+      } catch (e) {
+        console.error(e);
+      }
       sounds.playClick();
     }
   };
@@ -573,6 +579,11 @@ export const LearningProvider = ({ children }) => {
   const switchSubject = (subj) => {
     if (subj === 'math' || subj === 'vietnamese') {
       setCurrentSubject(subj);
+      try {
+        localStorage.setItem(STORAGE_KEYS.SUBJECT, subj);
+      } catch (e) {
+        console.error(e);
+      }
       sounds.playClick();
     }
   };
