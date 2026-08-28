@@ -361,6 +361,7 @@ export const RoadmapView = ({ onStartQuiz }) => {
 
         {(currentStages || []).map((stage) => {
           const isSelected = selectedStage === stage.id;
+          const rangeText = stage.range || stage.subtitle || `Chặng ${stage.id}`;
           return (
             <button
               key={stage.id}
@@ -372,7 +373,7 @@ export const RoadmapView = ({ onStartQuiz }) => {
               }`}
             >
               <span>{stage.title.split(':')[0]}</span>
-              <span className="text-[10px] font-bold opacity-75 hidden sm:inline">({stage.range})</span>
+              <span className="text-[10px] font-bold opacity-75 hidden sm:inline">({rangeText})</span>
             </button>
           );
         })}
@@ -381,34 +382,52 @@ export const RoadmapView = ({ onStartQuiz }) => {
       {/* Stages & Weeks Grid */}
       <div className="space-y-8">
         {displayStages.map((stage) => {
-          // Extract week range (e.g. "Tuần 1 - Tuần 9" -> [1, 2, ..., 9])
-          const parts = stage.range.replace(/[^0-9-]/g, '').split('-');
-          const startWeek = parseInt(parts[0], 10);
-          const endWeek = parseInt(parts[1], 10);
-          const stageWeeks = [];
-          for (let w = startWeek; w <= endWeek; w++) {
-            stageWeeks.push(w);
+          // Extract week range safely
+          let stageWeeks = [];
+          if (Array.isArray(stage.weeks) && stage.weeks.length > 0) {
+            stageWeeks = stage.weeks;
+          } else {
+            const rangeStr = stage.range || stage.subtitle || '';
+            const parts = rangeStr.replace(/[^0-9-]/g, '').split('-');
+            if (parts.length >= 2) {
+              const startWeek = parseInt(parts[0], 10);
+              const endWeek = parseInt(parts[1], 10);
+              if (!isNaN(startWeek) && !isNaN(endWeek) && startWeek <= endWeek) {
+                for (let w = startWeek; w <= endWeek; w++) {
+                  stageWeeks.push(w);
+                }
+              }
+            }
           }
+          if (stageWeeks.length === 0) {
+            if (stage.id === 1) stageWeeks = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+            else if (stage.id === 2) stageWeeks = [10, 11, 12, 13, 14, 15, 16, 17, 18];
+            else if (stage.id === 3) stageWeeks = [19, 20, 21, 22, 23, 24, 25, 26, 27];
+            else if (stage.id === 4) stageWeeks = [28, 29, 30, 31, 32, 33, 34, 35];
+          }
+
+          const rangeText = stage.range || stage.subtitle || `Tuần ${stageWeeks[0]} - Tuần ${stageWeeks[stageWeeks.length - 1]}`;
+          const descText = stage.desc || stage.description || '';
 
           return (
             <div key={stage.id} className="space-y-4">
               {/* Stage Header Card */}
               <div className="bg-white rounded-2xl border-2 border-amber-200 p-4 sm:p-5 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="flex items-center gap-3.5">
-                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${stage.color} text-white flex items-center justify-center shadow-md flex-shrink-0`}>
+                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${stage.color || 'from-amber-400 to-orange-500'} text-white flex items-center justify-center shadow-md flex-shrink-0`}>
                     {getStageIcon(stage.icon)}
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
                       <span className="text-xs font-black text-amber-600 uppercase tracking-wider">
-                        {stage.range}
+                        {rangeText}
                       </span>
                     </div>
                     <h2 className="text-lg sm:text-xl font-black text-slate-800 font-nunito">
                       {stage.title}
                     </h2>
                     <p className="text-xs font-semibold text-slate-500">
-                      {stage.desc}
+                      {descText}
                     </p>
                   </div>
                 </div>

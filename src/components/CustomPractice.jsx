@@ -242,7 +242,7 @@ export const CustomPractice = ({ onStartQuiz }) => {
             </p>
           </div>
           <span className="text-xs font-bold px-3 py-1 rounded-full bg-slate-100 text-slate-600">
-            Tổng kho: {currentBank.length} câu hỏi
+            Tổng kho: {getFilteredQuestions({ count: 9999 })?.length || 350} câu hỏi
           </span>
         </div>
 
