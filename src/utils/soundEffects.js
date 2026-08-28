@@ -1,10 +1,11 @@
-// Web Audio API & Web Speech API synthesizer for kid sound effects and Vietnamese voice feedback
+// Web Audio API & Multi-Engine Vietnamese Voice Speech for instant, crystal-clear narration across all devices
 
 class SoundManager {
   constructor() {
     this.ctx = null;
     this.enabled = true;
     this.vietnameseVoice = null;
+    this.currentAudio = null;
 
     // Read sound setting from localStorage
     try {
@@ -26,7 +27,7 @@ class SoundManager {
       window.addEventListener('click', unlockAudio, { once: true, passive: true });
       window.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
 
-      // Init speech synthesis voices
+      // Init speech synthesis voices if available
       if ('speechSynthesis' in window) {
         window.speechSynthesis.onvoiceschanged = () => {
           this.initVoices();
@@ -69,6 +70,10 @@ class SoundManager {
       this.playClick();
       this.speak("Đã bật âm thanh");
     } else {
+      if (this.currentAudio) {
+        try { this.currentAudio.pause(); } catch {}
+        this.currentAudio = null;
+      }
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         try {
           window.speechSynthesis.cancel();
@@ -91,17 +96,54 @@ class SoundManager {
     return this.enabled;
   }
 
-  // Voice narration in Vietnamese
+  // Speak Vietnamese text with instant multi-layered engine
   speak(text) {
     if (!this.enabled) return;
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+    if (typeof window === 'undefined') return;
 
+    // Stop previous audio if playing
+    if (this.currentAudio) {
+      try {
+        this.currentAudio.pause();
+        this.currentAudio.currentTime = 0;
+      } catch {}
+      this.currentAudio = null;
+    }
+
+    if ('speechSynthesis' in window) {
+      try {
+        window.speechSynthesis.cancel();
+      } catch {}
+    }
+
+    // Try Google Translate TTS audio stream first (guaranteed native Vietnamese female voice)
     try {
-      window.speechSynthesis.cancel(); // Stop any pending speech
+      const encoded = encodeURIComponent(text);
+      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=${encoded}`;
+      const audio = new Audio(audioUrl);
+      this.currentAudio = audio;
+      audio.volume = 1.0;
+
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+          // If Audio play was blocked by network or policy, fallback to Web Speech API
+          this.speakWebSpeech(text);
+        });
+      }
+    } catch (e) {
+      this.speakWebSpeech(text);
+    }
+  }
+
+  speakWebSpeech(text) {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+    try {
+      window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'vi-VN';
-      utterance.rate = 0.95; // Gentle clear speaking rate
-      utterance.pitch = 1.05; // Warm friendly tone
+      utterance.rate = 0.92; // Slightly slower, very clear
+      utterance.pitch = 1.05;
 
       if (!this.vietnameseVoice) {
         this.initVoices();
@@ -112,15 +154,15 @@ class SoundManager {
 
       window.speechSynthesis.speak(utterance);
     } catch {
-      // ignore speech errors
+      // ignore
     }
   }
 
-  // Submission voice feedback
+  // Voice feedback when student submits the quiz
   speakSubmissionFeedback(score) {
     if (!this.enabled) return;
     if (score === 100) {
-      this.speak("Con rất giỏi! Chúc mừng con đã trả lời đúng tất cả các câu hỏi!");
+      this.speak("Con rất giỏi! Chúc mừng con đã làm đúng tất cả các câu hỏi!");
     } else {
       this.speak("Con cần cố gắng hơn, lưu ý xem lời giải chi tiết nhé!");
     }

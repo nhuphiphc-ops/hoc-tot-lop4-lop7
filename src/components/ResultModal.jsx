@@ -123,9 +123,19 @@ export const ResultModal = ({
         <h2 className="text-2xl sm:text-3xl font-black text-slate-800 mb-1 font-nunito">
           {title}
         </h2>
-        <p className="text-xs sm:text-sm font-semibold text-slate-500 mb-5 max-w-sm mx-auto">
+        <p className="text-xs sm:text-sm font-semibold text-slate-500 mb-3 max-w-sm mx-auto">
           {message}
         </p>
+
+        {/* Voice replay button */}
+        <button
+          type="button"
+          onClick={() => sounds.speakSubmissionFeedback(score)}
+          className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-100 hover:bg-amber-200 text-amber-900 font-extrabold text-xs rounded-full shadow-xs mb-4 transition-all cursor-pointer"
+        >
+          <span className="text-sm">🔊</span>
+          <span>Bấm để nghe cô dặn dò</span>
+        </button>
 
         {/* Score Card Card */}
         <div className="bg-amber-50/80 rounded-2xl border-2 border-amber-200 p-5 mb-5 space-y-4 shadow-sm">

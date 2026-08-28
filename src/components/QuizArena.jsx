@@ -221,6 +221,9 @@ export const QuizArena = ({
       localStorage.removeItem('toan_active_quiz_draft');
     } catch { /* ignore */ }
 
+    // Direct user-gesture speech trigger
+    sounds.speakSubmissionFeedback(score);
+
     finishHandler({
       score,
       correctCount,
