@@ -11,12 +11,12 @@ import {
   Star, 
   Coins, 
   Unlock, 
-  Lock,
-  User,
-  Sparkles,
-  Check,
-  Calculator,
-  BookMarked
+  Lock, 
+  User, 
+  Sparkles, 
+  Check, 
+  Calculator, 
+  BookMarked 
 } from 'lucide-react';
 import { useLearning, SHOP_MASCOTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
@@ -90,267 +90,401 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     return isMath ? 'Toán Học' : 'Tiếng Việt';
   };
 
-  const getSubjectSubtitle = () => {
-    if (isGrade4) return isMath ? 'Phiêu Lưu Ký Toán Học 🚀' : 'Hành Trình Khám Phá Tiếng Việt 📖';
-    if (isGrade5) return isMath ? 'Bậc Thầy Số Thập Phân & Chuyển Động 🎯' : 'Vẻ Đẹp Ngôn Từ & Câu Ghép 📖';
-    if (isGrade6) return isMath ? 'Chinh Phục Số Nguyên & Hình Trực Quan 🚀' : 'Khám Phá Truyện Cổ & Thơ Lục Bát 📖';
-    if (isGrade7) return isMath ? 'Chinh Phục Đại Số & Hình Học 🚀' : 'Khám Phá Văn Học & Tiếng Việt 7 📖';
-    return 'Chương Trình GDPT Mới 2026';
-  };
+  const gradeList = [
+    { id: '4', label: 'Lớp 4', icon: '🎒', color: 'from-amber-400 to-orange-400 text-amber-950' },
+    { id: '5', label: 'Lớp 5', icon: '⭐', color: 'from-emerald-400 to-teal-500 text-white' },
+    { id: '6', label: 'Lớp 6', icon: '📘', color: 'from-indigo-500 to-blue-600 text-white' },
+    { id: '7', label: 'Lớp 7', icon: '🚀', color: 'from-purple-500 to-pink-600 text-white' },
+  ];
+
+  const grade7SubjectsList = [
+    { id: 'math', label: 'Toán 7', color: 'from-blue-500 to-indigo-600' },
+    { id: 'vietnamese', label: 'Ngữ Văn 7', color: 'from-rose-500 to-purple-600' },
+    { id: 'english', label: 'Tiếng Anh 7', color: 'from-emerald-500 to-teal-600' },
+    { id: 'science', label: 'KHTN 7', color: 'from-purple-500 to-indigo-700' },
+    { id: 'history_geo', label: 'Sử & Địa Lí 7', color: 'from-amber-500 to-orange-600' },
+    { id: 'informatics', label: 'Tin Học 7', color: 'from-cyan-500 to-blue-600' },
+    { id: 'civics', label: 'GDCD 7', color: 'from-pink-500 to-rose-600' },
+    { id: 'technology', label: 'Công Nghệ 7', color: 'from-green-500 to-emerald-600' },
+  ];
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b-2 border-amber-200 shadow-sm">
-      {/* Top Banner with Switchers, Stats & Profile */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 py-2 flex flex-wrap items-center justify-between gap-3">
-        {/* Brand / Logo & Student Info */}
-        <div 
-          onClick={() => { sounds.playClick(); onSelectTab('roadmap'); }}
-          className="flex items-center gap-2.5 cursor-pointer group"
-        >
-          <div className={`w-11 h-11 rounded-2xl flex items-center justify-center text-2xl shadow-bouncy-sm group-hover:scale-105 transition-transform ${
-            isMath 
-              ? (isSecondary ? 'bg-gradient-to-br from-blue-500 to-indigo-600' : 'bg-gradient-to-br from-amber-400 to-orange-500') 
-              : (isSecondary ? 'bg-gradient-to-br from-rose-500 to-purple-600' : 'bg-gradient-to-br from-rose-400 to-pink-500')
-          }`}>
-            {currentMascotObj.emoji}
-          </div>
-          <div>
-            <div className="flex items-center gap-2 flex-wrap">
-              <span className="font-black text-lg sm:text-2xl text-slate-800 tracking-tight font-nunito">
-                {getSubjectTitle()}
-              </span>
-              <span className={`text-white text-xs sm:text-sm font-black px-2.5 py-0.5 rounded-full shadow-sm ${
-                isMath 
-                  ? (isSecondary ? 'bg-gradient-to-r from-blue-600 to-indigo-600' : 'bg-gradient-to-r from-amber-500 to-orange-500')
-                  : (isSecondary ? 'bg-gradient-to-r from-rose-600 to-purple-600' : 'bg-gradient-to-r from-rose-500 to-pink-500')
-              }`}>
-                GDPT MỚI 2026
-              </span>
+    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b-2 border-amber-200 shadow-sm w-full max-w-full overflow-hidden">
+      {/* ==================== DESKTOP HEADER (MD & UP) ==================== */}
+      <div className="hidden md:block">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex flex-wrap items-center justify-between gap-3">
+          {/* Brand / Logo & Student Info */}
+          <div 
+            onClick={() => { sounds.playClick(); onSelectTab('roadmap'); }}
+            className="flex items-center gap-2.5 cursor-pointer group"
+          >
+            <div className={`w-11 h-11 rounded-2xl flex items-center justify-center text-2xl shadow-bouncy-sm group-hover:scale-105 transition-transform ${
+              isMath 
+                ? (isSecondary ? 'bg-gradient-to-br from-blue-500 to-indigo-600' : 'bg-gradient-to-br from-amber-400 to-orange-500') 
+                : (isSecondary ? 'bg-gradient-to-br from-rose-500 to-purple-600' : 'bg-gradient-to-br from-rose-400 to-pink-500')
+            }`}>
+              {currentMascotObj.emoji}
             </div>
-            <div className="flex items-center gap-1.5 flex-wrap mt-1">
-              <span className="text-[15px] sm:text-[18px] font-bold text-slate-800 bg-amber-50/90 px-3.5 py-1 rounded-xl border-2 border-amber-300 shadow-sm flex items-center gap-1.5 flex-wrap">
-                🏫 <span className="font-extrabold text-blue-700">{profile.school || 'Trường PTCS - Phú La'}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name || 'Nguyễn Công Nguyên'}</span>
-              </span>
+            <div>
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="font-black text-lg sm:text-2xl text-slate-800 tracking-tight font-nunito">
+                  {getSubjectTitle()}
+                </span>
+                <span className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-xs font-black px-2.5 py-0.5 rounded-full shadow-sm">
+                  GDPT MỚI 2026
+                </span>
+              </div>
+              <div className="flex items-center gap-1.5 flex-wrap mt-1">
+                <span className="text-[14px] sm:text-[16px] font-bold text-slate-800 bg-amber-50/90 px-3 py-0.5 rounded-xl border border-amber-300 shadow-xs flex items-center gap-1.5 flex-wrap">
+                  🏫 <span className="font-extrabold text-blue-700">{profile.school || 'Trường PTCS - Phú La'}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name || 'Nguyễn Công Nguyên'}</span>
+                </span>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Grade & Subject Switchers */}
-        <div className="flex items-center flex-wrap gap-2">
-          {/* Grade Switcher (Lớp 4, Lớp 5, Lớp 6, Lớp 7) */}
-          <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner">
-            {[
-              { id: '4', label: 'Lớp 4', icon: '🎒', color: 'from-amber-400 to-orange-400 text-amber-950' },
-              { id: '5', label: 'Lớp 5', icon: '⭐', color: 'from-emerald-400 to-teal-500 text-white' },
-              { id: '6', label: 'Lớp 6', icon: '📘', color: 'from-indigo-500 to-blue-600 text-white' },
-              { id: '7', label: 'Lớp 7', icon: '🚀', color: 'from-purple-500 to-pink-600 text-white' },
-            ].map((g) => {
-              const isActive = currentGrade === g.id;
-              return (
+          {/* Grade & Subject Switchers */}
+          <div className="flex items-center flex-wrap gap-2">
+            {/* Grade Switcher */}
+            <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner">
+              {gradeList.map((g) => {
+                const isActive = currentGrade === g.id;
+                return (
+                  <button
+                    key={g.id}
+                    onClick={() => switchGrade(g.id)}
+                    className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs transition-all cursor-pointer ${
+                      isActive
+                        ? `bg-gradient-to-r ${g.color} shadow-sm scale-105`
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                    }`}
+                  >
+                    <span>{g.icon}</span>
+                    <span>{g.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Subject Switcher */}
+            {isGrade7 ? (
+              <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
+                {grade7SubjectsList.map(subj => {
+                  const isSubjActive = currentSubject === subj.id;
+                  return (
+                    <button
+                      key={subj.id}
+                      onClick={() => switchSubject(subj.id)}
+                      className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                        isSubjActive
+                          ? `bg-gradient-to-r ${subj.color} text-white shadow-sm scale-105`
+                          : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                      }`}
+                    >
+                      <span>{subj.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner">
                 <button
-                  key={g.id}
-                  onClick={() => switchGrade(g.id)}
-                  className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs transition-all ${
-                    isActive
-                      ? `bg-gradient-to-r ${g.color} shadow-sm scale-105`
+                  onClick={() => switchSubject('math')}
+                  className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all cursor-pointer ${
+                    isMath
+                      ? isSecondary
+                        ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-sm scale-105'
+                        : 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 shadow-sm scale-105'
                       : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
                   }`}
                 >
-                  <span>{g.icon}</span>
-                  <span>{g.label}</span>
+                  <Calculator className="w-3.5 h-3.5" />
+                  <span>🧮 Toán {currentGrade}</span>
+                </button>
+
+                <button
+                  onClick={() => switchSubject('vietnamese')}
+                  className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all cursor-pointer ${
+                    currentSubject === 'vietnamese'
+                      ? isSecondary
+                        ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-sm scale-105'
+                        : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-sm scale-105'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                  }`}
+                >
+                  <BookMarked className="w-3.5 h-3.5" />
+                  <span>{isSecondary ? `📖 Ngữ Văn ${currentGrade}` : `📖 Tiếng Việt ${currentGrade}`}</span>
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Stats Pill Badges */}
+          <div className="flex items-center flex-wrap gap-2 text-xs sm:text-sm font-extrabold">
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-amber-50 border-2 border-amber-300 rounded-xl text-amber-900 shadow-sm">
+              <Star className="w-4 h-4 text-amber-500 fill-amber-400 animate-pulse-subtle" />
+              <span>{totalStars} <span className="text-amber-700 text-xs hidden sm:inline">Sao</span></span>
+            </div>
+
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-yellow-50 border-2 border-yellow-300 rounded-xl text-yellow-900 shadow-sm">
+              <Coins className="w-4 h-4 text-yellow-500 fill-yellow-400" />
+              <span>{coins} <span className="text-yellow-700 text-xs hidden sm:inline">Xu</span></span>
+            </div>
+
+            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-orange-50 border-2 border-orange-300 rounded-xl text-orange-900 shadow-sm">
+              <Flame className="w-4 h-4 text-orange-500 fill-orange-400" />
+              <span>{streakData.currentStreak} <span className="text-orange-700 text-xs hidden sm:inline">Ngày</span></span>
+            </div>
+
+            <button
+              onClick={toggleSound}
+              className={`p-2 rounded-xl border-2 transition-all cursor-pointer ${
+                soundEnabled 
+                  ? 'bg-emerald-50 border-emerald-300 text-emerald-700 hover:bg-emerald-100' 
+                  : 'bg-slate-100 border-slate-300 text-slate-500 hover:bg-slate-200'
+              }`}
+              title={soundEnabled ? "Tắt âm thanh" : "Bật âm thanh"}
+            >
+              {soundEnabled ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
+            </button>
+
+            <button
+              onClick={toggleFreeMode}
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-xl border-2 font-bold text-xs transition-all cursor-pointer ${
+                isFreeMode
+                  ? 'bg-purple-100 border-purple-300 text-purple-800 shadow-sm'
+                  : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
+              }`}
+              title="Bật/Tắt chế độ mở khóa tự do tất cả tuần"
+            >
+              {isFreeMode ? <Unlock className="w-3.5 h-3.5 text-purple-600" /> : <Lock className="w-3.5 h-3.5" />}
+              <span>{isFreeMode ? 'Đã Mở Tất Cả' : 'Mở Khóa Tự Do'}</span>
+            </button>
+
+            {/* Profile Avatar */}
+            <button
+              onClick={() => {
+                sounds.playPop();
+                setTempName(profile.name || 'Nguyễn Công Nguyên');
+                setTempSchool(profile.school || 'Trường PTCS - Phú La');
+                setTempMascot(profile.mascot || 'elephant');
+                setShowProfileModal(true);
+              }}
+              className="flex items-center gap-2 pl-2 pr-3 py-1 bg-indigo-50 hover:bg-indigo-100 border-2 border-indigo-200 text-indigo-900 rounded-xl transition-all shadow-sm cursor-pointer"
+            >
+              <span className="text-lg">{currentMascotObj.emoji}</span>
+              <span className="max-w-[120px] truncate text-xs font-bold">{profile.name || 'Nguyễn Công Nguyên'}</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Desktop Tab Navigation Bar */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-1.5 border-t border-amber-100/80">
+          <nav className="flex items-center gap-1.5 overflow-x-auto scrollbar-none">
+            {navItems.map((item) => {
+              const Icon = item.icon;
+              const isActive = currentTab === item.id;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => {
+                    sounds.playClick();
+                    onSelectTab(item.id);
+                  }}
+                  className={`flex items-center gap-2 px-3.5 py-2 rounded-xl font-extrabold text-xs sm:text-sm whitespace-nowrap transition-all cursor-pointer ${
+                    isActive
+                      ? 'bg-amber-400 text-amber-950 shadow-sm scale-105'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-amber-50/60'
+                  }`}
+                >
+                  <Icon className={`w-4 h-4 ${isActive ? 'text-amber-950' : 'text-slate-500'}`} />
+                  <span>{item.label}</span>
+                  {item.badge && (
+                    <span className="px-1.5 py-0.5 bg-rose-500 text-white font-black text-[10px] rounded-full animate-pulse">
+                      {item.badge}
+                    </span>
+                  )}
                 </button>
               );
             })}
+          </nav>
+        </div>
+      </div>
+
+      {/* ==================== MOBILE PHONE HEADER (< MD) ==================== */}
+      <div className="block md:hidden px-3 py-2 space-y-2 w-full max-w-full overflow-hidden">
+        {/* Mobile Row 1: Brand & Profile */}
+        <div className="flex items-center justify-between gap-2">
+          <div 
+            onClick={() => { sounds.playClick(); onSelectTab('roadmap'); }}
+            className="flex items-center gap-2 cursor-pointer flex-1 min-w-0"
+          >
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-xl shadow-xs flex-shrink-0">
+              {currentMascotObj.emoji}
+            </div>
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-1.5">
+                <span className="font-black text-base text-slate-800 tracking-tight truncate font-nunito">
+                  {getSubjectTitle()}
+                </span>
+                <span className="bg-purple-600 text-white text-[9px] font-black px-1.5 py-0.2 rounded-md flex-shrink-0">
+                  GDPT 2026
+                </span>
+              </div>
+              <div className="text-[11px] font-bold text-slate-600 truncate">
+                🏫 <span className="text-blue-700 font-extrabold">{profile.school || 'Trường PTCS - Phú La'}</span> • <span className="text-emerald-700 font-black">{profile.name || 'Nguyễn Công Nguyên'}</span>
+              </div>
+            </div>
           </div>
 
-          {/* Subject Switcher */}
+          {/* Profile Trigger */}
+          <button
+            onClick={() => {
+              sounds.playPop();
+              setTempName(profile.name || 'Nguyễn Công Nguyên');
+              setTempSchool(profile.school || 'Trường PTCS - Phú La');
+              setTempMascot(profile.mascot || 'elephant');
+              setShowProfileModal(true);
+            }}
+            className="p-1.5 bg-indigo-50 border border-indigo-200 rounded-xl text-lg flex-shrink-0 shadow-xs cursor-pointer"
+            title="Hồ sơ học sinh"
+          >
+            {currentMascotObj.emoji}
+          </button>
+        </div>
+
+        {/* Mobile Row 2: Stats & Controls */}
+        <div className="flex items-center justify-between gap-1 text-[11px] font-black bg-amber-50/70 p-1.5 rounded-xl border border-amber-200 w-full overflow-hidden">
+          <div className="flex items-center gap-1 text-amber-900">
+            <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-400" />
+            <span>{totalStars}</span>
+          </div>
+          <div className="flex items-center gap-1 text-yellow-900">
+            <Coins className="w-3.5 h-3.5 text-yellow-500 fill-yellow-400" />
+            <span>{coins}</span>
+          </div>
+          <div className="flex items-center gap-1 text-orange-900">
+            <Flame className="w-3.5 h-3.5 text-orange-500 fill-orange-400" />
+            <span>{streakData.currentStreak}d</span>
+          </div>
+
+          <div className="flex items-center gap-1">
+            <button
+              onClick={toggleSound}
+              className={`p-1 rounded-lg border transition-all cursor-pointer ${
+                soundEnabled ? 'bg-emerald-100 border-emerald-300 text-emerald-700' : 'bg-slate-100 border-slate-300 text-slate-400'
+              }`}
+            >
+              {soundEnabled ? <Volume2 className="w-3 h-3" /> : <VolumeX className="w-3 h-3" />}
+            </button>
+
+            <button
+              onClick={toggleFreeMode}
+              className={`px-1.5 py-0.5 rounded-lg border text-[10px] font-bold transition-all cursor-pointer ${
+                isFreeMode ? 'bg-purple-100 border-purple-300 text-purple-800' : 'bg-slate-100 border-slate-200 text-slate-500'
+              }`}
+            >
+              {isFreeMode ? '🔓 Đã mở' : '🔒 Khóa'}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Row 3: Grade Selector (Compact 4-Column Grid) */}
+        <div className="grid grid-cols-4 gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 w-full">
+          {gradeList.map((g) => {
+            const isActive = currentGrade === g.id;
+            return (
+              <button
+                key={g.id}
+                onClick={() => switchGrade(g.id)}
+                className={`py-1 rounded-lg font-black text-xs flex items-center justify-center gap-1 transition-all cursor-pointer ${
+                  isActive
+                    ? `bg-gradient-to-r ${g.color} shadow-xs scale-102`
+                    : 'text-slate-600 hover:bg-white/60'
+                }`}
+              >
+                <span>{g.icon}</span>
+                <span>{g.label}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Mobile Row 4: Subject Selector (Horizontal Scrollable Pill Track) */}
+        <div className="w-full min-w-0 max-w-full overflow-hidden">
           {isGrade7 ? (
-            <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
-              {[
-                { id: 'math', label: 'Toán 7', color: 'from-blue-500 to-indigo-600' },
-                { id: 'vietnamese', label: 'Ngữ Văn 7', color: 'from-rose-500 to-purple-600' },
-                { id: 'english', label: 'Tiếng Anh 7', color: 'from-emerald-500 to-teal-600' },
-                { id: 'science', label: 'KHTN 7', color: 'from-purple-500 to-indigo-700' },
-                { id: 'history_geo', label: 'Sử & Địa Lí 7', color: 'from-amber-500 to-orange-600' },
-                { id: 'informatics', label: 'Tin Học 7', color: 'from-cyan-500 to-blue-600' },
-                { id: 'civics', label: 'GDCD 7', color: 'from-pink-500 to-rose-600' },
-                { id: 'technology', label: 'Công Nghệ 7', color: 'from-green-500 to-emerald-600' },
-              ].map(subj => {
+            <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
+              {grade7SubjectsList.map(subj => {
                 const isSubjActive = currentSubject === subj.id;
                 return (
                   <button
                     key={subj.id}
                     onClick={() => switchSubject(subj.id)}
-                    className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                    className={`px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border ${
                       isSubjActive
-                        ? `bg-gradient-to-r ${subj.color} text-white shadow-sm scale-105`
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                        ? `bg-gradient-to-r ${subj.color} text-white shadow-xs border-transparent scale-102`
+                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
                     }`}
                   >
-                    <span>{subj.label}</span>
+                    {subj.label}
                   </button>
                 );
               })}
             </div>
           ) : (
-            <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner">
+            <div className="grid grid-cols-2 gap-1.5 w-full">
               <button
                 onClick={() => switchSubject('math')}
-                className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all cursor-pointer ${
+                className={`py-1 px-2 rounded-xl font-black text-xs flex items-center justify-center gap-1 transition-all cursor-pointer border ${
                   isMath
                     ? isSecondary
-                      ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-sm scale-105'
-                      : 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 shadow-sm scale-105'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                      ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white border-transparent'
+                      : 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 border-amber-300'
+                    : 'bg-slate-50 border-slate-200 text-slate-700'
                 }`}
               >
                 <Calculator className="w-3.5 h-3.5" />
-                <span>🧮 Toán {currentGrade}</span>
+                <span>Toán {currentGrade}</span>
               </button>
 
               <button
                 onClick={() => switchSubject('vietnamese')}
-                className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all cursor-pointer ${
+                className={`py-1 px-2 rounded-xl font-black text-xs flex items-center justify-center gap-1 transition-all cursor-pointer border ${
                   currentSubject === 'vietnamese'
                     ? isSecondary
-                      ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-sm scale-105'
-                      : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-sm scale-105'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                      ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white border-transparent'
+                      : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white border-rose-300'
+                    : 'bg-slate-50 border-slate-200 text-slate-700'
                 }`}
               >
                 <BookMarked className="w-3.5 h-3.5" />
-                <span>{isSecondary ? `📖 Ngữ Văn ${currentGrade}` : `📖 Tiếng Việt ${currentGrade}`}</span>
+                <span>{isSecondary ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`}</span>
               </button>
             </div>
           )}
         </div>
-
-        {/* Stats Pill Badges */}
-        <div className="flex items-center flex-wrap gap-2 text-xs sm:text-sm font-extrabold">
-          {/* Stars */}
-          <div className="flex items-center gap-1.5 px-3 py-1.5 bg-amber-50 border-2 border-amber-300 rounded-xl text-amber-900 shadow-sm">
-            <Star className="w-4 h-4 text-amber-500 fill-amber-400 animate-pulse-subtle" />
-            <span>{totalStars} <span className="text-amber-700 text-xs hidden sm:inline">Sao</span></span>
-          </div>
-
-          {/* Coins */}
-          <div className="flex items-center gap-1.5 px-3 py-1.5 bg-yellow-50 border-2 border-yellow-300 rounded-xl text-yellow-900 shadow-sm">
-            <Coins className="w-4 h-4 text-yellow-500 fill-yellow-400" />
-            <span>{coins} <span className="text-yellow-700 text-xs hidden sm:inline">Xu</span></span>
-          </div>
-
-          {/* Streak */}
-          <div className="flex items-center gap-1.5 px-3 py-1.5 bg-orange-50 border-2 border-orange-300 rounded-xl text-orange-900 shadow-sm">
-            <Flame className="w-4 h-4 text-orange-500 fill-orange-400" />
-            <span>{streakData.currentStreak} <span className="text-orange-700 text-xs hidden sm:inline">Ngày</span></span>
-          </div>
-
-          {/* Sound Toggle */}
-          <button
-            onClick={toggleSound}
-            className={`p-2 rounded-xl border-2 transition-all ${
-              soundEnabled 
-                ? 'bg-emerald-50 border-emerald-300 text-emerald-700 hover:bg-emerald-100' 
-                : 'bg-slate-100 border-slate-300 text-slate-500 hover:bg-slate-200'
-            }`}
-            title={soundEnabled ? "Tắt âm thanh" : "Bật âm thanh"}
-          >
-            {soundEnabled ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
-          </button>
-
-          {/* Free Mode Unlock Switch */}
-          <button
-            onClick={() => {
-              sounds.playClick();
-              toggleFreeMode();
-            }}
-            className={`px-2.5 py-1.5 rounded-xl border-2 flex items-center gap-1.5 text-xs transition-all ${
-              isFreeMode 
-                ? 'bg-purple-100 border-purple-400 text-purple-800 font-black' 
-                : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
-            }`}
-            title="Bật/Tắt chế độ mở khóa tự do tất cả tuần"
-          >
-            {isFreeMode ? <Unlock className="w-3.5 h-3.5 text-purple-600" /> : <Lock className="w-3.5 h-3.5" />}
-            <span className="hidden md:inline">{isFreeMode ? 'Đã Mở Tất Cả' : 'Mở Khóa Tự Do'}</span>
-          </button>
-
-          {/* Mascot Profile Trigger */}
-          <button
-            onClick={() => {
-              sounds.playPop();
-              setTempName(profile.name || 'Nguyễn Công Nguyên');
-              setTempSchool(profile.school || 'Trường PTCS');
-              setTempMascot(profile.mascot || 'elephant');
-              setShowProfileModal(true);
-            }}
-            className="flex items-center gap-2 pl-2 pr-3 py-1 bg-indigo-50 hover:bg-indigo-100 border-2 border-indigo-200 text-indigo-900 rounded-xl transition-all shadow-sm"
-          >
-            <span className="text-lg">{currentMascotObj.emoji}</span>
-            <span className="max-w-[80px] sm:max-w-[140px] truncate text-xs font-bold">{profile.name || 'Nguyễn Công Nguyên'}</span>
-          </button>
-        </div>
       </div>
 
-      {/* Main Navigation Bar */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 py-1.5">
-        <nav className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
-          {navItems.map((item) => {
-            const Icon = item.icon;
-            const isActive = currentTab === item.id;
-            return (
-              <button
-                key={item.id}
-                onClick={() => {
-                  sounds.playClick();
-                  onSelectTab(item.id);
-                }}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl font-extrabold text-xs sm:text-sm whitespace-nowrap transition-all ${
-                  isActive
-                    ? isMath
-                      ? isGrade7
-                        ? 'bg-blue-600 text-white shadow-bouncy-sm btn-bouncy'
-                        : 'bg-amber-400 text-amber-950 shadow-bouncy-sm btn-bouncy'
-                      : isGrade7
-                      ? 'bg-purple-600 text-white shadow-bouncy-sm btn-bouncy'
-                      : 'bg-rose-500 text-white shadow-bouncy-sm btn-bouncy'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-                }`}
-              >
-                <Icon className="w-4 h-4" />
-                <span>{item.label}</span>
-                {item.badge && (
-                  <span className="px-1.5 py-0.5 text-[10px] font-black rounded-full bg-rose-500 text-white">
-                    {item.badge}
-                  </span>
-                )}
-              </button>
-            );
-          })}
-        </nav>
-      </div>
-
-      {/* Profile & Mascot Customizer Modal */}
+      {/* ==================== PROFILE MODAL ==================== */}
       {showProfileModal && (
         <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white rounded-3xl border-4 border-amber-300 shadow-2xl max-w-md w-full p-6 animate-scale-in">
-            <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center gap-2">
-                <Sparkles className="w-6 h-6 text-amber-500" />
-                <h3 className="text-xl font-black text-slate-800">Hồ Sơ Của Bạn</h3>
-              </div>
+          <div className="bg-white rounded-3xl p-6 max-w-md w-full border-3 border-amber-300 shadow-2xl space-y-4 animate-scale-in">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+              <h3 className="text-lg font-black text-slate-800 flex items-center gap-2">
+                <User className="w-5 h-5 text-amber-500" />
+                Hồ Sơ Học Sinh
+              </h3>
               <button 
                 onClick={() => setShowProfileModal(false)}
-                className="text-slate-400 hover:text-slate-600 text-lg font-bold p-1"
+                className="text-slate-400 hover:text-slate-600 font-bold text-lg"
               >
                 ✕
               </button>
             </div>
 
             {/* School Input */}
-            <div className="mb-4">
-              <label className="block text-xs font-bold text-slate-600 mb-1.5">
-                Trường học:
+            <div>
+              <label className="block text-xs font-bold text-slate-600 mb-1">
+                Tên trường học:
               </label>
               <input
                 type="text"
@@ -358,13 +492,13 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 maxLength={40}
                 onChange={(e) => setTempSchool(e.target.value)}
                 placeholder="VD: Trường PTCS - Phú La..."
-                className="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-amber-400 focus:outline-none font-bold text-slate-800"
+                className="w-full px-3.5 py-2 rounded-xl border border-slate-200 focus:border-amber-400 focus:outline-none font-bold text-slate-800 text-sm"
               />
             </div>
 
             {/* Name Input */}
-            <div className="mb-5">
-              <label className="block text-xs font-bold text-slate-600 mb-1.5">
+            <div>
+              <label className="block text-xs font-bold text-slate-600 mb-1">
                 Họ và tên học sinh:
               </label>
               <input
@@ -373,52 +507,53 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 maxLength={30}
                 onChange={(e) => setTempName(e.target.value)}
                 placeholder="VD: Nguyễn Công Nguyên..."
-                className="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-amber-400 focus:outline-none font-bold text-slate-800"
+                className="w-full px-3.5 py-2 rounded-xl border border-slate-200 focus:border-amber-400 focus:outline-none font-bold text-slate-800 text-sm"
               />
             </div>
 
-            {/* Mascot Selector */}
-            <div className="mb-6">
-              <label className="block text-xs font-bold text-slate-600 mb-2 flex items-center justify-between">
-                <span>Chọn Linh Vật Đồng Hành:</span>
-                <span className="text-[11px] text-amber-700 font-extrabold">Đổi thêm linh vật tại Tab "Bộ Sưu Tập"</span>
+            {/* Mascot Grid */}
+            <div>
+              <label className="block text-xs font-bold text-slate-600 mb-1.5">
+                Chọn linh vật đồng hành:
               </label>
-              <div className="grid grid-cols-2 gap-2.5 max-h-56 overflow-y-auto pr-1">
-                {SHOP_MASCOTS.filter(m => (unlockedMascots || []).includes(m.id)).map((m) => {
+              <div className="grid grid-cols-4 gap-2">
+                {SHOP_MASCOTS.map((m) => {
+                  const isUnlocked = (unlockedMascots || []).includes(m.id);
                   const isSelected = tempMascot === m.id;
                   return (
-                    <div
+                    <button
                       key={m.id}
-                      onClick={() => setTempMascot(m.id)}
-                      className={`p-3 rounded-2xl border-2 cursor-pointer transition-all flex items-center gap-3 ${
-                        isSelected 
-                          ? 'border-amber-400 bg-amber-50/80 shadow-sm ring-2 ring-amber-300' 
-                          : 'border-slate-200 hover:border-slate-300 bg-slate-50/50'
+                      type="button"
+                      disabled={!isUnlocked}
+                      onClick={() => isUnlocked && setTempMascot(m.id)}
+                      className={`p-2 rounded-xl border-2 flex flex-col items-center gap-0.5 transition-all ${
+                        !isUnlocked
+                          ? 'opacity-40 grayscale border-slate-200 bg-slate-50 cursor-not-allowed'
+                          : isSelected
+                          ? 'border-amber-400 bg-amber-50 scale-105 shadow-xs cursor-pointer'
+                          : 'border-slate-200 hover:border-slate-300 bg-white cursor-pointer'
                       }`}
                     >
-                      <span className="text-3xl">{m.emoji}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="font-extrabold text-xs text-slate-800 truncate">{m.name}</div>
-                        <div className="text-[11px] text-slate-500 truncate">{m.desc}</div>
-                      </div>
-                      {isSelected && <Check className="w-4 h-4 text-amber-600 shrink-0" />}
-                    </div>
+                      <span className="text-2xl">{m.emoji}</span>
+                      <span className="text-[10px] font-bold text-slate-700 truncate w-full text-center">{m.name.split(' ')[0]}</span>
+                    </button>
                   );
                 })}
               </div>
             </div>
 
-            {/* Actions */}
-            <div className="flex items-center justify-end gap-2.5">
+            <div className="pt-2 flex gap-2">
               <button
+                type="button"
                 onClick={() => setShowProfileModal(false)}
-                className="px-4 py-2 rounded-xl font-bold text-xs text-slate-500 hover:bg-slate-100"
+                className="flex-1 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-extrabold text-sm rounded-xl"
               >
-                Hủy bỏ
+                Hủy
               </button>
               <button
+                type="button"
                 onClick={handleSaveProfile}
-                className="px-6 py-2 bg-amber-400 hover:bg-amber-500 text-amber-950 font-black rounded-xl shadow-bouncy-sm btn-bouncy text-xs"
+                className="flex-1 py-2.5 bg-amber-400 hover:bg-amber-500 text-amber-950 font-black text-sm rounded-xl shadow-xs"
               >
                 Lưu Thay Đổi
               </button>
@@ -429,3 +564,5 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     </header>
   );
 };
+
+export default Navbar;

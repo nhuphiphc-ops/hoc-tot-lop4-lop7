@@ -193,7 +193,7 @@ export const RoadmapView = ({ onStartQuiz }) => {
 
         {/* Subject Selection Buttons */}
         {isGrade7 ? (
-          <div className="flex items-center gap-1.5 flex-wrap w-full md:w-auto justify-center">
+          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none w-full md:w-auto justify-start md:justify-center py-1 max-w-full">
             {[
               { id: 'math', label: 'Toán 7', color: 'from-blue-500 to-indigo-600' },
               { id: 'vietnamese', label: 'Ngữ Văn 7', color: 'from-rose-500 to-purple-600' },
@@ -210,7 +210,7 @@ export const RoadmapView = ({ onStartQuiz }) => {
                   key={subj.id}
                   type="button"
                   onClick={() => switchSubject(subj.id)}
-                  className={`px-3 py-1.5 rounded-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-2 ${
+                  className={`px-3 py-1.5 rounded-2xl font-black text-xs sm:text-sm whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border-2 ${
                     isSelected
                       ? `bg-gradient-to-r ${subj.color} text-white shadow-md ring-2 ring-amber-300 scale-105`
                       : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
