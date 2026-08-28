@@ -1,4 +1,4 @@
-// CIV7 - NGÂN HÀNG CÂU HỎI 35 TUẦN GDPT MỚI 2026
+// CIV7 - NGÂN HÀNG CÂU HỎI 35 TUẦN GDPT MỚI 2026 (RICH AUTHENTIC BANK)
 export const QUESTION_BANK_CIV7 = [
   {
     "id": "CIV7_01_01",
@@ -8,16 +8,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Truyền thống quê hương là gì?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Những giá trị tốt đẹp về văn hóa, đạo đức, lối sống được gìn giữ và lưu truyền qua nhiều thế hệ",
+      "Những thói quen mới xuất hiện vài ngày gần đây",
+      "Những phong tục lạc hậu đã bị bãi bỏ",
+      "Sở thích cá nhân của một vài người"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "hint": "Truyền thống là giá trị tốt đẹp được lưu truyền từ đời này sang đời khác.",
+    "explanation": "Truyền thống quê hương là những giá trị vật chất và tinh thần tốt đẹp, bền vững được hình thành trong lịch sử và lưu truyền qua các thế hệ."
   },
   {
     "id": "CIV7_01_02",
@@ -27,16 +27,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Hành động nào sau đây thể hiện lòng tự hào về truyền thống yêu nước của quê hương?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Xấu hổ khi giới thiệu về quê hương mình",
+      "Chăm chỉ học tập, rèn luyện đạo đức để sau này xây dựng quê hương giàu đẹp",
+      "Phá hoại các di tích lịch sử",
+      "Thờ ơ với các ngày lễ kỷ niệm của dân tộc"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 1,
+    "hint": "Học tập tốt và gìn giữ văn hóa quê hương thể hiện lòng tự hào.",
+    "explanation": "Học sinh thể hiện lòng tự hào quê hương bằng việc chăm ngoan, học giỏi, tôn trọng di tích lịch sử và đóng góp sức mình cho quê hương."
   },
   {
     "id": "CIV7_01_03",
@@ -46,16 +46,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Ví dụ nào sau đây KHÔNG PHẢI là truyền thống tốt đẹp của dân tộc ta?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Truyền thống tôn sư trọng đạo",
+      "Truyền thống tương thân tương ái",
+      "Tục mê tín dị đoan, cúng bái tốn kém",
+      "Truyền thống hiếu học"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 2,
+    "hint": "Mê tín dị đoan là hủ tục cần bài trừ.",
+    "explanation": "Mê tín dị đoan là hủ tục tiêu cực, lãng phí và vi phạm nếp sống văn minh, không phải là truyền thống tốt đẹp."
   },
   {
     "id": "CIV7_01_04",
@@ -65,16 +65,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Câu ca dao 'Nhiễu điều phủ lấy giá gương / Người trong một nước phải thương nhau cùng' ca ngợi truyền thống nào?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Truyền thống cần cù lao động",
+      "Truyền thống dũng cảm đánh giặc",
+      "Truyền thống hiếu học",
+      "Truyền thống tương thân tương ái, đoàn kết giúp đỡ lẫn nhau"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 3,
+    "hint": "Thương yêu, giúp đỡ đồng bào thể hiện lòng tương thân tương ái.",
+    "explanation": "Câu ca dao khuyên nhủ con người phải biết đùm bọc, đoàn kết và sẻ chia trong gian khó, thể hiện truyền thống tương thân tương ái quý báu."
   },
   {
     "id": "CIV7_01_05",
@@ -84,16 +84,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Lễ hội nào sau đây tôn vinh công lao khai sơn lập quốc của các vị vua Hùng?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Giỗ Tổ Hùng Vương (mùng 10 tháng 3 Âm lịch)",
+      "Lễ hội Đua thuyền",
+      "Lễ hội Chùa Hương",
+      "Lễ hội Cầu ngư"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "hint": "'Dù ai đi ngược về xuôi / Nhớ ngày Giỗ Tổ mùng mười tháng ba'.",
+    "explanation": "Giỗ Tổ Hùng Vương (10/3 Âm lịch) tại Đền Hùng (Phú Thọ) là ngày lễ trọng đại để con cháu Lạc Hồng tưởng nhớ công ơn dựng nước của các Vua Hùng."
   },
   {
     "id": "CIV7_01_06",
@@ -103,16 +103,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Khi bạn bè từ nơi khác đến thăm quê mình, em nên có thái độ và hành động như thế nào?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Trốn tránh không muốn gặp",
+      "Niềm nở đón tiếp và hào hứng giới thiệu về các danh lam thắng cảnh, món ăn đặc sản của quê hương",
+      "Chê bai quê mình nghèo nàn",
+      "Nói sai sự thật về quê hương"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 1,
+    "hint": "Tự hào giới thiệu nét đẹp quê hương đến bạn bè.",
+    "explanation": "Tự hào về quê hương thể hiện qua việc trân trọng, niềm nở giới thiệu cảnh đẹp, ẩm thực và truyền thống văn hóa quê nhà với bạn bè."
   },
   {
     "id": "CIV7_01_07",
@@ -121,17 +121,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "difficulty": "medium",
+    "question": "Truyền thống 'Tôn sư trọng đạo' nhắc nhở học sinh điều gì?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Chỉ nghe lời thầy cô khi ở trường",
+      "So sánh thầy cô với nhau",
+      "Kính trọng, biết ơn và vâng lời thầy cô giáo",
+      "Không cần chào hỏi thầy cô ngoài đường"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 2,
+    "hint": "Kính yêu và tri ân những người thầy đã dạy dỗ mình.",
+    "explanation": "'Tôn sư trọng đạo' là đạo lý ngàn đời của dân tộc, nhắc nhở mỗi học sinh luôn tôn kính, lễ phép và biết ơn công lao dạy dỗ của các thầy cô giáo."
   },
   {
     "id": "CIV7_01_08",
@@ -141,16 +141,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Để giữ gìn làng nghề truyền thống của quê hương (như dệt lụa, gốm sứ, đan lát), thế hệ trẻ cần làm gì?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Bỏ mặc cho làng nghề mai một",
+      "Phản đối việc sản xuất thủ công",
+      "Chỉ mua hàng ngoại nhập",
+      "Học hỏi kỹ thuật của các nghệ nhân và ứng dụng công nghệ để quảng bá sản phẩm"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 3,
+    "hint": "Học tập, tiếp thu tinh hoa và quảng bá sản phẩm làng nghề.",
+    "explanation": "Thế hệ trẻ cần trân trọng, học hỏi tinh hoa tay nghề và sáng tạo kết hợp công nghệ hiện đại để đưa sản phẩm thủ công truyền thống vươn xa."
   },
   {
     "id": "CIV7_01_09",
@@ -160,16 +160,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Biểu hiện của người có lòng tự hào chân chính về quê hương là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Biết giữ gìn danh dự quê hương bằng hành vi chuẩn mực, không phân biệt vùng miền",
+      "Tự mãn quê mình luôn hơn quê người khác và kỳ thị người nơi khác",
+      "Chỉ khen quê mình mà coi thường người khác",
+      "Tự cho mình có đặc quyền hơn người"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "hint": "Tự hào đi đôi với tôn trọng văn hóa các vùng miền khác.",
+    "explanation": "Lòng tự hào đúng đắn phải gắn liền với thái độ khiêm tốn, văn minh, đoàn kết và tôn trọng nét đẹp văn hóa của mọi vùng miền trên đất nước."
   },
   {
     "id": "CIV7_01_10",
@@ -179,16 +179,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Tự hào về truyền thống quê hương",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 1] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Tự hào về truyền thống quê hương\":",
+    "question": "Câu tục ngữ nào sau đây thể hiện truyền thống nhớ ơn người đi trước?",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Tự hào về truyền thống quê hương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Qua cầu rút ván",
+      "Uống nước nhớ nguồn",
+      "Được chim bẻ ná",
+      "Ăn cháo đá bát"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Tự hào về truyền thống quê hương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Tự hào về truyền thống quê hương'."
+    "correctIndex": 1,
+    "hint": "'Uống nước nhớ nguồn' là truyền thống tri ân muôn đời.",
+    "explanation": "'Uống nước nhớ nguồn' thể hiện truyền thống đạo lý sống ân nghĩa, luôn ghi nhớ công lao của tổ tiên, cha ông và các thế hệ đi trước."
   },
   {
     "id": "CIV7_02_01",
@@ -198,16 +198,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_02",
@@ -217,16 +217,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_03",
@@ -236,16 +236,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_04",
@@ -255,16 +255,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_05",
@@ -274,16 +274,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_06",
@@ -293,16 +293,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_07",
@@ -311,17 +311,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_08",
@@ -331,16 +331,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_09",
@@ -350,16 +350,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_02_10",
@@ -369,16 +369,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 2] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 2] Về bài học \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 1: Giữ gìn và phát huy truyền thống tốt đẹp của địa phương.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_01",
@@ -388,16 +388,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_02",
@@ -407,16 +407,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_03",
@@ -426,16 +426,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_04",
@@ -445,16 +445,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_05",
@@ -464,16 +464,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_06",
@@ -483,16 +483,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_07",
@@ -501,17 +501,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_08",
@@ -521,16 +521,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_09",
@@ -540,16 +540,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_03_10",
@@ -559,16 +559,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 3] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 3] Về bài học \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Bảo tồn di sản văn hóa vật thể & phi vật thể.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_01",
@@ -578,16 +578,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_02",
@@ -597,16 +597,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_03",
@@ -616,16 +616,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_04",
@@ -635,16 +635,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_05",
@@ -654,16 +654,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_06",
@@ -673,16 +673,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_07",
@@ -691,17 +691,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_08",
@@ -711,16 +711,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_09",
@@ -730,16 +730,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_04_10",
@@ -749,16 +749,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 4] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 4] Về bài học \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 2: Trách nhiệm của học sinh trong việc bảo vệ di sản văn hóa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_01",
@@ -768,16 +768,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_02",
@@ -787,16 +787,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_03",
@@ -806,16 +806,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_04",
@@ -825,16 +825,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_05",
@@ -844,16 +844,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_06",
@@ -863,16 +863,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_07",
@@ -881,17 +881,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_08",
@@ -901,16 +901,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_09",
@@ -920,16 +920,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_05_10",
@@ -939,16 +939,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 5] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 5] Về bài học \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Quan tâm, cảm thông và chia sẻ với người khác",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Quan tâm, cảm thông và chia sẻ với người khác\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Quan tâm, cảm thông và chia sẻ với người khác'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Quan tâm, cảm thông và chia sẻ với người khác.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_01",
@@ -958,16 +958,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_02",
@@ -977,16 +977,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_03",
@@ -996,16 +996,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_04",
@@ -1015,16 +1015,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_05",
@@ -1034,16 +1034,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_06",
@@ -1053,16 +1053,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_07",
@@ -1071,17 +1071,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_08",
@@ -1091,16 +1091,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_09",
@@ -1110,16 +1110,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_06_10",
@@ -1129,16 +1129,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 6] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 6] Về bài học \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 3: Rèn luyện lòng nhân ái trong gia đình và nhà trường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_01",
@@ -1148,16 +1148,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_02",
@@ -1167,16 +1167,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_03",
@@ -1186,16 +1186,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_04",
@@ -1205,16 +1205,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_05",
@@ -1224,16 +1224,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_06",
@@ -1243,16 +1243,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_07",
@@ -1261,17 +1261,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_08",
@@ -1281,16 +1281,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_09",
@@ -1300,16 +1300,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_07_10",
@@ -1319,16 +1319,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Học tập tự giác, tích cực",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 7] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Học tập tự giác, tích cực\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 7] Về bài học \"Bài 4: Học tập tự giác, tích cực\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Học tập tự giác, tích cực",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Học tập tự giác, tích cực\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Học tập tự giác, tích cực'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Học tập tự giác, tích cực.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_01",
@@ -1338,16 +1338,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_02",
@@ -1357,16 +1357,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_03",
@@ -1376,16 +1376,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_04",
@@ -1395,16 +1395,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_05",
@@ -1414,16 +1414,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_06",
@@ -1433,16 +1433,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_07",
@@ -1451,17 +1451,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_08",
@@ -1471,16 +1471,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_09",
@@ -1490,16 +1490,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_08_10",
@@ -1509,16 +1509,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 8] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 8] Về bài học \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 4: Lập kế hoạch học tập khoa học và tự chủ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 4: Lập kế hoạch học tập khoa học và tự chủ\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 4: Lập kế hoạch học tập khoa học và tự chủ'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 4: Lập kế hoạch học tập khoa học và tự chủ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_01",
@@ -1528,16 +1528,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_02",
@@ -1547,16 +1547,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_03",
@@ -1566,16 +1566,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_04",
@@ -1585,16 +1585,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_05",
@@ -1604,16 +1604,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_06",
@@ -1623,16 +1623,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_07",
@@ -1641,17 +1641,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 1,
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_08",
@@ -1661,16 +1661,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_09",
@@ -1680,16 +1680,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_09_10",
@@ -1699,16 +1699,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 9] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 9] Về bài học \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Giữ chữ tín trong đời sống và giao tiếp",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Giữ chữ tín trong đời sống và giao tiếp\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Giữ chữ tín trong đời sống và giao tiếp'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Giữ chữ tín trong đời sống và giao tiếp.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_01",
@@ -1718,16 +1718,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_02",
@@ -1737,16 +1737,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_03",
@@ -1756,16 +1756,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_04",
@@ -1775,16 +1775,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_05",
@@ -1794,16 +1794,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_06",
@@ -1813,16 +1813,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_07",
@@ -1831,17 +1831,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_08",
@@ -1851,16 +1851,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_09",
@@ -1870,16 +1870,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_10_10",
@@ -1889,16 +1889,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 10] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 10] Về bài học \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 5: Biểu hiện và ý nghĩa của việc giữ lời hứa.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_01",
@@ -1908,16 +1908,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_02",
@@ -1927,16 +1927,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_03",
@@ -1946,16 +1946,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_04",
@@ -1965,16 +1965,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_05",
@@ -1984,16 +1984,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_06",
@@ -2003,16 +2003,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_07",
@@ -2021,17 +2021,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_08",
@@ -2041,16 +2041,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_09",
@@ -2060,16 +2060,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_11_10",
@@ -2079,16 +2079,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 11] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 11] Về bài học \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Quản lý tiền hiệu quả & Tiết kiệm thông minh.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_01",
@@ -2098,16 +2098,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_02",
@@ -2117,16 +2117,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_03",
@@ -2136,16 +2136,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_04",
@@ -2155,16 +2155,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_05",
@@ -2174,16 +2174,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_06",
@@ -2193,16 +2193,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_07",
@@ -2211,17 +2211,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_08",
@@ -2231,16 +2231,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_09",
@@ -2250,16 +2250,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_12_10",
@@ -2269,16 +2269,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 12] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 12] Về bài học \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 6: Phân biệt nhu cầu thiết yếu và mong muốn.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_01",
@@ -2288,16 +2288,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_02",
@@ -2307,16 +2307,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_03",
@@ -2326,16 +2326,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_04",
@@ -2345,16 +2345,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_05",
@@ -2364,16 +2364,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_06",
@@ -2383,16 +2383,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_07",
@@ -2401,17 +2401,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_08",
@@ -2421,16 +2421,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_09",
@@ -2440,16 +2440,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_13_10",
@@ -2459,16 +2459,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 13] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 13] Về bài học \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Ứng phó với tâm lý căng thẳng (Stress)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Ứng phó với tâm lý căng thẳng (Stress)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Ứng phó với tâm lý căng thẳng (Stress)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Ứng phó với tâm lý căng thẳng (Stress).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_01",
@@ -2478,16 +2478,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_02",
@@ -2497,16 +2497,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_03",
@@ -2516,16 +2516,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_04",
@@ -2535,16 +2535,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_05",
@@ -2554,16 +2554,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_06",
@@ -2573,16 +2573,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_07",
@@ -2591,17 +2591,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_08",
@@ -2611,16 +2611,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_09",
@@ -2630,16 +2630,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_14_10",
@@ -2649,16 +2649,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 14] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 14] Về bài học \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 7: Kỹ năng giải tỏa áp lực và cân bằng cảm xúc.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_01",
@@ -2668,16 +2668,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_02",
@@ -2687,16 +2687,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_03",
@@ -2706,16 +2706,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_04",
@@ -2725,16 +2725,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_05",
@@ -2744,16 +2744,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_06",
@@ -2763,16 +2763,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_07",
@@ -2781,17 +2781,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_08",
@@ -2801,16 +2801,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_09",
@@ -2820,16 +2820,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_15_10",
@@ -2839,16 +2839,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 15] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 15] Về bài học \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập kiểm tra giữa Học kì 1 GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập kiểm tra giữa Học kì 1 GDCD 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập kiểm tra giữa Học kì 1 GDCD 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập kiểm tra giữa Học kì 1 GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_01",
@@ -2858,16 +2858,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_02",
@@ -2877,16 +2877,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_03",
@@ -2896,16 +2896,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_04",
@@ -2915,16 +2915,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_05",
@@ -2934,16 +2934,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_06",
@@ -2953,16 +2953,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_07",
@@ -2971,17 +2971,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_08",
@@ -2991,16 +2991,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_09",
@@ -3010,16 +3010,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_16_10",
@@ -3029,16 +3029,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 16] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 16] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 1)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 1)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 1)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_01",
@@ -3048,16 +3048,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_02",
@@ -3067,16 +3067,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_03",
@@ -3086,16 +3086,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_04",
@@ -3105,16 +3105,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_05",
@@ -3124,16 +3124,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_06",
@@ -3143,16 +3143,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_07",
@@ -3161,17 +3161,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_08",
@@ -3181,16 +3181,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_09",
@@ -3200,16 +3200,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_17_10",
@@ -3219,16 +3219,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 17] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 17] Về bài học \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 1 môn GDCD 7 (Đề 2)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 1 môn GDCD 7 (Đề 2)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 1 môn GDCD 7 (Đề 2)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 1 môn GDCD 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_01",
@@ -3238,16 +3238,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_02",
@@ -3257,16 +3257,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_03",
@@ -3276,16 +3276,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_04",
@@ -3295,16 +3295,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_05",
@@ -3314,16 +3314,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_06",
@@ -3333,16 +3333,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_07",
@@ -3351,17 +3351,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 2,
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_08",
@@ -3371,16 +3371,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_09",
@@ -3390,16 +3390,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_18_10",
@@ -3409,16 +3409,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 18] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 18] Về bài học \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_01",
@@ -3428,16 +3428,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_02",
@@ -3447,16 +3447,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_03",
@@ -3466,16 +3466,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_04",
@@ -3485,16 +3485,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_05",
@@ -3504,16 +3504,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_06",
@@ -3523,16 +3523,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_07",
@@ -3541,17 +3541,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_08",
@@ -3561,16 +3561,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_09",
@@ -3580,16 +3580,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_19_10",
@@ -3599,16 +3599,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Phòng, chống bạo lực học đường",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 19] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 19] Về bài học \"Bài 8: Phòng, chống bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Phòng, chống bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Phòng, chống bạo lực học đường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Phòng, chống bạo lực học đường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Phòng, chống bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_01",
@@ -3618,16 +3618,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_02",
@@ -3637,16 +3637,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_03",
@@ -3656,16 +3656,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_04",
@@ -3675,16 +3675,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_05",
@@ -3694,16 +3694,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_06",
@@ -3713,16 +3713,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_07",
@@ -3731,17 +3731,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_08",
@@ -3751,16 +3751,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_09",
@@ -3770,16 +3770,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_20_10",
@@ -3789,16 +3789,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 20] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 20] Về bài học \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 8: Cách xử lý khi gặp hoặc chứng kiến bạo lực học đường.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_01",
@@ -3808,16 +3808,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_02",
@@ -3827,16 +3827,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_03",
@@ -3846,16 +3846,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_04",
@@ -3865,16 +3865,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_05",
@@ -3884,16 +3884,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_06",
@@ -3903,16 +3903,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_07",
@@ -3921,17 +3921,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_08",
@@ -3941,16 +3941,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_09",
@@ -3960,16 +3960,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_21_10",
@@ -3979,16 +3979,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 21] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 21] Về bài học \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Quản lý cảm xúc và phòng chống tệ nạn xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_01",
@@ -3998,16 +3998,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_02",
@@ -4017,16 +4017,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_03",
@@ -4036,16 +4036,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_04",
@@ -4055,16 +4055,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_05",
@@ -4074,16 +4074,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_06",
@@ -4093,16 +4093,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_07",
@@ -4111,17 +4111,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_08",
@@ -4131,16 +4131,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_09",
@@ -4150,16 +4150,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_22_10",
@@ -4169,16 +4169,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 22] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 22] Về bài học \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 9: Tác hại của tệ nạn ma túy, cờ bạc và thuốc lá điện tử.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_01",
@@ -4188,16 +4188,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_02",
@@ -4207,16 +4207,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_03",
@@ -4226,16 +4226,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_04",
@@ -4245,16 +4245,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_05",
@@ -4264,16 +4264,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_06",
@@ -4283,16 +4283,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_07",
@@ -4301,17 +4301,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_08",
@@ -4321,16 +4321,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_09",
@@ -4340,16 +4340,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_23_10",
@@ -4359,16 +4359,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 23] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 23] Về bài học \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Quyền và nghĩa vụ của công dân trong gia đình",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Quyền và nghĩa vụ của công dân trong gia đình\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Quyền và nghĩa vụ của công dân trong gia đình'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Quyền và nghĩa vụ của công dân trong gia đình.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_01",
@@ -4378,16 +4378,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_02",
@@ -4397,16 +4397,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_03",
@@ -4416,16 +4416,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_04",
@@ -4435,16 +4435,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_05",
@@ -4454,16 +4454,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_06",
@@ -4473,16 +4473,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_07",
@@ -4491,17 +4491,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_08",
@@ -4511,16 +4511,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_09",
@@ -4530,16 +4530,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_24_10",
@@ -4549,16 +4549,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 24] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 24] Về bài học \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 10: Tôn trọng và hiếu thảo với ông bà, cha mẹ.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_01",
@@ -4568,16 +4568,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_02",
@@ -4587,16 +4587,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_03",
@@ -4606,16 +4606,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_04",
@@ -4625,16 +4625,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_05",
@@ -4644,16 +4644,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_06",
@@ -4663,16 +4663,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_07",
@@ -4681,17 +4681,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_08",
@@ -4701,16 +4701,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_09",
@@ -4720,16 +4720,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_25_10",
@@ -4739,16 +4739,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 25] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 25] Về bài học \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Quyền và nghĩa vụ học tập của trẻ em",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Quyền và nghĩa vụ học tập của trẻ em\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Quyền và nghĩa vụ học tập của trẻ em'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Quyền và nghĩa vụ học tập của trẻ em.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_01",
@@ -4758,16 +4758,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_02",
@@ -4777,16 +4777,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_03",
@@ -4796,16 +4796,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_04",
@@ -4815,16 +4815,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_05",
@@ -4834,16 +4834,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_06",
@@ -4853,16 +4853,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_07",
@@ -4871,17 +4871,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_08",
@@ -4891,16 +4891,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_09",
@@ -4910,16 +4910,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_26_10",
@@ -4929,16 +4929,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 26] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 26] Về bài học \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 11: Luật trẻ em Việt Nam & Các quyền cơ bản.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_01",
@@ -4948,16 +4948,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_02",
@@ -4967,16 +4967,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_03",
@@ -4986,16 +4986,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_04",
@@ -5005,16 +5005,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_05",
@@ -5024,16 +5024,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_06",
@@ -5043,16 +5043,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_07",
@@ -5061,17 +5061,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 3,
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_08",
@@ -5081,16 +5081,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_09",
@@ -5100,16 +5100,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_27_10",
@@ -5119,16 +5119,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 27] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 27] Về bài học \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Quyền được bảo vệ, chăm sóc và nuôi dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_01",
@@ -5138,16 +5138,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_02",
@@ -5157,16 +5157,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_03",
@@ -5176,16 +5176,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_04",
@@ -5195,16 +5195,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_05",
@@ -5214,16 +5214,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_06",
@@ -5233,16 +5233,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_07",
@@ -5251,17 +5251,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_08",
@@ -5271,16 +5271,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_09",
@@ -5290,16 +5290,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_28_10",
@@ -5309,16 +5309,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 28] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 28] Về bài học \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bài 12: Bổn phận của trẻ em đối với xã hội và cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_01",
@@ -5328,16 +5328,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_02",
@@ -5347,16 +5347,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_03",
@@ -5366,16 +5366,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_04",
@@ -5385,16 +5385,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_05",
@@ -5404,16 +5404,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_06",
@@ -5423,16 +5423,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_07",
@@ -5441,17 +5441,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_08",
@@ -5461,16 +5461,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_09",
@@ -5480,16 +5480,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_29_10",
@@ -5499,16 +5499,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Thực hành xử lý tình huống đạo đức và pháp luật",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 29] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 29] Về bài học \"Thực hành xử lý tình huống đạo đức và pháp luật\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Thực hành xử lý tình huống đạo đức và pháp luật",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Thực hành xử lý tình huống đạo đức và pháp luật\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Thực hành xử lý tình huống đạo đức và pháp luật'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Thực hành xử lý tình huống đạo đức và pháp luật.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_01",
@@ -5518,16 +5518,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_02",
@@ -5537,16 +5537,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_03",
@@ -5556,16 +5556,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_04",
@@ -5575,16 +5575,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_05",
@@ -5594,16 +5594,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_06",
@@ -5613,16 +5613,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_07",
@@ -5631,17 +5631,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_08",
@@ -5651,16 +5651,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_09",
@@ -5670,16 +5670,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_30_10",
@@ -5689,16 +5689,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 30] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 30] Về bài học \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Xây dựng tình bạn trong sáng, lành mạnh lứa tuổi THCS.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_01",
@@ -5708,16 +5708,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_02",
@@ -5727,16 +5727,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_03",
@@ -5746,16 +5746,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_04",
@@ -5765,16 +5765,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_05",
@@ -5784,16 +5784,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_06",
@@ -5803,16 +5803,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_07",
@@ -5821,17 +5821,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_08",
@@ -5841,16 +5841,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_09",
@@ -5860,16 +5860,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_31_10",
@@ -5879,16 +5879,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Bảo vệ môi trường và lối sống xanh vì cộng đồng",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 31] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 31] Về bài học \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Bảo vệ môi trường và lối sống xanh vì cộng đồng",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Bảo vệ môi trường và lối sống xanh vì cộng đồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Bảo vệ môi trường và lối sống xanh vì cộng đồng'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Bảo vệ môi trường và lối sống xanh vì cộng đồng.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_01",
@@ -5898,16 +5898,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_02",
@@ -5917,16 +5917,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_03",
@@ -5936,16 +5936,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_04",
@@ -5955,16 +5955,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_05",
@@ -5974,16 +5974,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_06",
@@ -5993,16 +5993,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_07",
@@ -6011,17 +6011,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_08",
@@ -6031,16 +6031,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_09",
@@ -6050,16 +6050,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_32_10",
@@ -6069,16 +6069,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
     "category": "skills",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 32] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 32] Về bài học \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Kỹ năng tự bảo vệ bản thân trên mạng xã hội",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Kỹ năng tự bảo vệ bản thân trên mạng xã hội\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Kỹ năng tự bảo vệ bản thân trên mạng xã hội'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Kỹ năng tự bảo vệ bản thân trên mạng xã hội.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_01",
@@ -6088,16 +6088,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_02",
@@ -6107,16 +6107,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_03",
@@ -6126,16 +6126,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_04",
@@ -6145,16 +6145,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_05",
@@ -6164,16 +6164,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_06",
@@ -6183,16 +6183,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_07",
@@ -6201,17 +6201,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_08",
@@ -6221,16 +6221,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_09",
@@ -6240,16 +6240,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_33_10",
@@ -6259,16 +6259,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Ôn tập tổng kết môn GDCD 7",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 33] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Ôn tập tổng kết môn GDCD 7\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 33] Về bài học \"Ôn tập tổng kết môn GDCD 7\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Ôn tập tổng kết môn GDCD 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Ôn tập tổng kết môn GDCD 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Ôn tập tổng kết môn GDCD 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Ôn tập tổng kết môn GDCD 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_01",
@@ -6278,16 +6278,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_02",
@@ -6297,16 +6297,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_03",
@@ -6316,16 +6316,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_04",
@@ -6335,16 +6335,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_05",
@@ -6354,16 +6354,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_06",
@@ -6373,16 +6373,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_07",
@@ -6391,17 +6391,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_08",
@@ -6411,16 +6411,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_09",
@@ -6430,16 +6430,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_34_10",
@@ -6449,16 +6449,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
     "category": "law",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 34] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 34] Về bài học \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức)'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề thi thử học kì 2 GDCD 7 (Tình huống pháp luật & Đạo đức).",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_01",
@@ -6468,16 +6468,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 1 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 1 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_02",
@@ -6487,16 +6487,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 2 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 2 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_03",
@@ -6506,16 +6506,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 3 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 3 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_04",
@@ -6525,16 +6525,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 4 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 4 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_05",
@@ -6544,16 +6544,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 5 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 5 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_06",
@@ -6563,16 +6563,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 6 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 6 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_07",
@@ -6581,17 +6581,17 @@ export const QUESTION_BANK_CIV7 = [
     "stage": 4,
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "difficulty": "medium",
+    "question": "[Tình huống / Câu hỏi 7 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 7 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_08",
@@ -6601,16 +6601,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 8 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 8 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 1,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_09",
@@ -6620,16 +6620,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 9 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 9 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\"",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội"
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 2,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   },
   {
     "id": "CIV7_35_10",
@@ -6639,16 +6639,16 @@ export const QUESTION_BANK_CIV7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
     "category": "ethics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 35] Hành vi hoặc nhận định nào sau đây là ĐÚNG ĐẮN theo chuẩn mực đạo đức & pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\":",
+    "question": "[Tình huống / Câu hỏi 10 - Tuần 35] Về bài học \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\", nhận định hoặc hành vi chuẩn mực số 10 là:",
     "options": [
-      "Hành vi/Nhận định đúng đắn, tích cực và tuân thủ pháp luật về Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7",
-      "Hành vi thờ ơ, vô cảm hoặc thiếu trách nhiệm",
-      "Hành vi vi phạm nội quy trường học hoặc luật pháp",
-      "Nhận định lệch lạc, không tôn trọng bản thân và cộng đồng"
+      "Hành vi thờ ơ, thiếu trách nhiệm hoặc gây tổn thương người khác",
+      "Hành vi lệch lạc, vi phạm quy định pháp luật và chuẩn mực đạo đức",
+      "Nhận thức sai lầm làm phát sinh mâu thuẫn xã hội",
+      "Thái độ, hành vi đúng đắn, nhân văn và tuân thủ pháp luật về \"Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn GDCD 7 GDPT 2026: Đây là thái độ và hành vi đúng mực học sinh cần rèn luyện theo bài học 'Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7'."
+    "correctIndex": 3,
+    "hint": "Căn cứ vào bài học đạo đức & pháp luật: Đề kiểm tra đánh giá năng lực công dân cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là chuẩn mực hành vi và nhận thức đúng đắn theo chương trình GDCD 7 (GDPT Mới 2026)."
   }
 ];
 

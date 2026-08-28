@@ -1,4 +1,4 @@
-// TECH7 - NGÂN HÀNG CÂU HỎI 35 TUẦN GDPT MỚI 2026
+// TECH7 - NGÂN HÀNG CÂU HỎI 35 TUẦN GDPT MỚI 2026 (RICH AUTHENTIC BANK)
 export const QUESTION_BANK_TECH7 = [
   {
     "id": "TECH7_01_01",
@@ -8,16 +8,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Nghề trồng trọt ở Việt Nam có vai trò kinh tế quan trọng nào sau đây?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Cung cấp lương thực, thực phẩm cho con người, thức ăn cho chăn nuôi và nguyên liệu cho công nghiệp chế biến",
+      "Chỉ để làm đẹp cảnh quan",
+      "Chỉ để phục vụ du lịch",
+      "Không đóng góp gì cho xuất khẩu"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "hint": "Trồng trọt cung cấp gạo, ngô, rau quả cho người và xuất khẩu.",
+    "explanation": "Trồng trọt có vai trò to lớn: cung cấp lương thực, thực phẩm cho con người; nguyên liệu cho công nghiệp; thức ăn cho chăn nuôi và hàng hóa xuất khẩu (gạo, cà phê, hạt điều...)."
   },
   {
     "id": "TECH7_01_02",
@@ -27,16 +27,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Cây lúa nước thuộc nhóm cây trồng nào sau đây?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Cây ăn quả",
+      "Cây lương thực",
+      "Cây lấy gỗ",
+      "Cây dược liệu"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 1,
+    "hint": "Lúa là cây lương thực chính cung cấp tinh bột.",
+    "explanation": "Lúa nước, ngô, khoai, sắn là các loại cây lương thực chủ yếu cung cấp nguồn tinh bột quan trọng cho con người."
   },
   {
     "id": "TECH7_01_03",
@@ -46,16 +46,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Để đất trồng tơi xốp, thoáng khí và tiêu diệt mầm mống sâu bệnh, khâu làm đất đầu tiên là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Gieo hạt ngay lập tức",
+      "Bón thật nhiều thuốc trừ sâu",
+      "Cày bừa và phơi ải đất",
+      "Tưới ngập úng nước"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 2,
+    "hint": "Cày bừa lật đất và phơi nắng giúp diệt khuẩn và mầm bệnh.",
+    "explanation": "Cày sâu bừa kĩ và phơi ải đất giúp đất thông thoáng, giàu oxy cho rễ thở, đồng thời ánh nắng mặt trời giúp tiêu diệt nấm bệnh và trứng sâu trong đất."
   },
   {
     "id": "TECH7_01_04",
@@ -65,16 +65,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Phương pháp bón lót trong trồng trọt được thực hiện vào thời điểm nào?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Khi cây đang ra hoa kết quả",
+      "Ngay trước khi thu hoạch",
+      "Sau khi đã thu hoạch xong",
+      "Trước khi gieo hạt hoặc trồng cây con"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 3,
+    "hint": "Bón lót là bón phân vào đất trước khi trồng để tạo dinh dưỡng nền.",
+    "explanation": "Bón lót là bón phân (chủ yếu là phân chuồng ủ hoai mục, phân lân) vào đất trước khi gieo trồng để cung cấp chất dinh dưỡng từ từ cho cây con bén rễ."
   },
   {
     "id": "TECH7_01_05",
@@ -84,16 +84,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Phương pháp bón thúc trong quy trình chăm sóc cây trồng nhằm mục đích gì?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Cung cấp kịp thời chất dinh dưỡng cho cây vào các giai đoạn sinh trưởng mạnh (đâm chồi, đẻ nhánh, ra hoa, nuôi quả)",
+      "Bón cho đất không bị khô",
+      "Làm mát lá cây",
+      "Diệt cỏ dại"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "hint": "Bón thúc là bổ sung dinh dưỡng nhanh khi cây đang lớn mạnh.",
+    "explanation": "Bón thúc (dùng phân đạm, kali, phân hữu cơ khoáng dễ tiêu) nhằm đáp ứng nhu cầu dinh dưỡng cao trong các giai đoạn phát triển trọng yếu của cây."
   },
   {
     "id": "TECH7_01_06",
@@ -103,16 +103,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Biện pháp phòng trừ sâu bệnh nào sau đây thân thiện nhất với môi trường và an toàn cho sức khỏe con người?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Phun thuốc hóa học nồng độ cực cao",
+      "Biện pháp sinh học (sử dụng thiên địch như bọ rùa, ong mắt đỏ, chế phẩm sinh học)",
+      "Đốt toàn bộ ruộng cây",
+      "Dùng hóa chất độc hại không rõ nguồn gốc"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 1,
+    "hint": "Biện pháp sinh học dùng thiên địch tự nhiên để khống chế sâu hại.",
+    "explanation": "Biện pháp sinh học dùng các loài thiên địch (ong ký sinh, bọ rùa ăn rệp) hoặc chế phẩm vi sinh để trừ sâu, không để lại dư lượng độc hại, bảo vệ môi trường sinh thái."
   },
   {
     "id": "TECH7_01_07",
@@ -121,17 +121,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "difficulty": "medium",
+    "question": "Nhân giống cây trồng bằng phương pháp 'Giâm cành' là gì?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Bóc vỏ cành cây rồi bọc đất mùn",
+      "Ghép chồi cây này vào thân cây khác",
+      "Cắt một đoạn cành bánh tẻ khỏe mạnh, cắm vào giá thể ẩm để cành ra rễ phát triển thành cây mới",
+      "Gieo hạt xuống đất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 2,
+    "hint": "Cắt đoạn cành cắm vào đất ẩm cho mọc rễ gọi là giâm cành.",
+    "explanation": "Giâm cành là phương pháp nhân giống vô tính: cắt một đoạn cành bánh tẻ (đủ mắt, chồi), xử lý kích thích ra rễ và cắm vào đất ẩm tạo cây con."
   },
   {
     "id": "TECH7_01_08",
@@ -141,16 +141,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Phương pháp nhân giống 'Chiết cành' thường được áp dụng cho những loại cây nào?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Cây lúa nước",
+      "Cây rau cải",
+      "Cây bèo tây",
+      "Cây ăn quả thân gỗ (như cam, bưởi, ổi, nhãn, vải)"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 3,
+    "hint": "Chiết cành phổ biến ở cây ăn quả thân gỗ giúp cây nhanh ra quả.",
+    "explanation": "Chiết cành áp dụng rộng rãi cho các loại cây ăn quả thân gỗ (bưởi, cam, chanh, ổi) giúp cây con giữ nguyên phẩm chất tốt của cây mẹ và sớm cho thu hoạch."
   },
   {
     "id": "TECH7_01_09",
@@ -160,16 +160,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Thời điểm thu hoạch nông sản tốt nhất trong ngày là khi nào?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Lúc trời râm mát (sáng sớm hoặc chiều muộn), tránh lúc nắng gắt hoặc mưa to",
+      "Lúc giữa trưa nắng 12h trưa",
+      "Lúc trời đang mưa rào sấm sét",
+      "Bất kỳ lúc nào tiện"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "hint": "Thu hoạch lúc trời mát giúp nông sản không bị héo úa do nắng gắt.",
+    "explanation": "Nên thu hoạch nông sản vào sáng sớm hoặc chiều mát khi thời tiết khô ráo, tránh nắng gắt làm mất nước hoặc mưa ẩm làm thối hỏng sản phẩm."
   },
   {
     "id": "TECH7_01_10",
@@ -179,16 +179,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 1] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế\":",
+    "question": "Bảo quản nông sản bằng phương pháp 'Bảo quản lạnh' có tác dụng gì?",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Làm đông cứng thành đá không dùng được",
+      "Hạ nhiệt độ làm chậm quá trình hô hấp của nông sản và ức chế sự phát triển của vi sinh vật gây thối rữa",
+      "Làm chín nông sản siêu tốc",
+      "Thay đổi hoàn toàn mùi vị của quả"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 1: Nghề trồng trọt ở Việt Nam & Vai trò kinh tế'."
+    "correctIndex": 1,
+    "hint": "Nhiệt độ thấp ức chế vi khuẩn và nấm mốc phát triển.",
+    "explanation": "Bảo quản lạnh giúp duy trì độ tươi ngon của rau củ quả trong thời gian dài bằng cách giảm tốc độ hô hấp tế bào và ức chế nấm mốc, vi khuẩn."
   },
   {
     "id": "TECH7_02_01",
@@ -198,16 +198,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_02",
@@ -217,16 +217,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_03",
@@ -236,16 +236,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_04",
@@ -255,16 +255,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_05",
@@ -274,16 +274,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_06",
@@ -293,16 +293,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_07",
@@ -311,17 +311,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_08",
@@ -331,16 +331,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_09",
@@ -350,16 +350,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_02_10",
@@ -369,16 +369,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 2] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 2] Trong chuyên đề \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 2: Các nhóm cây trồng phổ biến & Môi trường sống.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_01",
@@ -388,16 +388,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_02",
@@ -407,16 +407,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_03",
@@ -426,16 +426,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_04",
@@ -445,16 +445,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_05",
@@ -464,16 +464,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_06",
@@ -483,16 +483,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_07",
@@ -501,17 +501,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_08",
@@ -521,16 +521,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_09",
@@ -540,16 +540,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_03_10",
@@ -559,16 +559,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 3] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 3] Trong chuyên đề \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 3: Quy trình trồng trọt (Làm đất, bón phân, gieo hạt).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_01",
@@ -578,16 +578,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_02",
@@ -597,16 +597,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_03",
@@ -616,16 +616,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_04",
@@ -635,16 +635,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_05",
@@ -654,16 +654,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_06",
@@ -673,16 +673,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_07",
@@ -691,17 +691,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_08",
@@ -711,16 +711,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_09",
@@ -730,16 +730,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_04_10",
@@ -749,16 +749,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 4] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 4] Trong chuyên đề \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 4: Chăm sóc cây trồng (Tưới tiêu, vun xới, tỉa cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_01",
@@ -768,16 +768,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_02",
@@ -787,16 +787,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_03",
@@ -806,16 +806,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_04",
@@ -825,16 +825,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_05",
@@ -844,16 +844,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_06",
@@ -863,16 +863,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_07",
@@ -881,17 +881,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_08",
@@ -901,16 +901,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_09",
@@ -920,16 +920,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_05_10",
@@ -939,16 +939,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 5] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 5] Trong chuyên đề \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 5: Phòng trừ sâu, bệnh hại cây trồng bằng biện pháp sinh học.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_01",
@@ -958,16 +958,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_02",
@@ -977,16 +977,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_03",
@@ -996,16 +996,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_04",
@@ -1015,16 +1015,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_05",
@@ -1034,16 +1034,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_06",
@@ -1053,16 +1053,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_07",
@@ -1071,17 +1071,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_08",
@@ -1091,16 +1091,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_09",
@@ -1110,16 +1110,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_06_10",
@@ -1129,16 +1129,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 6] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 6] Trong chuyên đề \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 6: Thu hoạch và bảo quản sản phẩm trồng trọt.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_01",
@@ -1148,16 +1148,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_02",
@@ -1167,16 +1167,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_03",
@@ -1186,16 +1186,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_04",
@@ -1205,16 +1205,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_05",
@@ -1224,16 +1224,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_06",
@@ -1243,16 +1243,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_07",
@@ -1261,17 +1261,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_08",
@@ -1281,16 +1281,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_09",
@@ -1300,16 +1300,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_07_10",
@@ -1319,16 +1319,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 7] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 7] Trong chuyên đề \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 7: Nhân giống vô tính cây trồng (Giâm cành, chiết cành, ghép cành).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_01",
@@ -1338,16 +1338,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_02",
@@ -1357,16 +1357,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_03",
@@ -1376,16 +1376,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_04",
@@ -1395,16 +1395,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_05",
@@ -1414,16 +1414,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_06",
@@ -1433,16 +1433,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_07",
@@ -1451,17 +1451,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_08",
@@ -1471,16 +1471,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_09",
@@ -1490,16 +1490,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_08_10",
@@ -1509,16 +1509,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 8] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 8] Trong chuyên đề \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 8: Trồng và chăm sóc hoa, cây cảnh trong nhà.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_01",
@@ -1528,16 +1528,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_02",
@@ -1547,16 +1547,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_03",
@@ -1566,16 +1566,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_04",
@@ -1585,16 +1585,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_05",
@@ -1604,16 +1604,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_06",
@@ -1623,16 +1623,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_07",
@@ -1641,17 +1641,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 1,
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_08",
@@ -1661,16 +1661,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_09",
@@ -1680,16 +1680,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_09_10",
@@ -1699,16 +1699,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 9] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 9] Trong chuyên đề \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 9: Rừng và vai trò to lớn của rừng đối với môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_01",
@@ -1718,16 +1718,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_02",
@@ -1737,16 +1737,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_03",
@@ -1756,16 +1756,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_04",
@@ -1775,16 +1775,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_05",
@@ -1794,16 +1794,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_06",
@@ -1813,16 +1813,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_07",
@@ -1831,17 +1831,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_08",
@@ -1851,16 +1851,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_09",
@@ -1870,16 +1870,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_10_10",
@@ -1889,16 +1889,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 10] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 10] Trong chuyên đề \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 10: Các loại rừng chính ở Việt Nam (Rừng phòng hộ, đặc dụng, sản xuất).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_01",
@@ -1908,16 +1908,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_02",
@@ -1927,16 +1927,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_03",
@@ -1946,16 +1946,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_04",
@@ -1965,16 +1965,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_05",
@@ -1984,16 +1984,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_06",
@@ -2003,16 +2003,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_07",
@@ -2021,17 +2021,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_08",
@@ -2041,16 +2041,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_09",
@@ -2060,16 +2060,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_11_10",
@@ -2079,16 +2079,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 11: Kỹ thuật trồng và chăm sóc rừng",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 11] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 11] Trong chuyên đề \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 11: Kỹ thuật trồng và chăm sóc rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 11: Kỹ thuật trồng và chăm sóc rừng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 11: Kỹ thuật trồng và chăm sóc rừng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 11: Kỹ thuật trồng và chăm sóc rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_01",
@@ -2098,16 +2098,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_02",
@@ -2117,16 +2117,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_03",
@@ -2136,16 +2136,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_04",
@@ -2155,16 +2155,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_05",
@@ -2174,16 +2174,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_06",
@@ -2193,16 +2193,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_07",
@@ -2211,17 +2211,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_08",
@@ -2231,16 +2231,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_09",
@@ -2250,16 +2250,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_12_10",
@@ -2269,16 +2269,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 12] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 12] Trong chuyên đề \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 12: Bảo vệ rừng và phòng chống cháy rừng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 12: Bảo vệ rừng và phòng chống cháy rừng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 12: Bảo vệ rừng và phòng chống cháy rừng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 12: Bảo vệ rừng và phòng chống cháy rừng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_01",
@@ -2288,16 +2288,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_02",
@@ -2307,16 +2307,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_03",
@@ -2326,16 +2326,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_04",
@@ -2345,16 +2345,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_05",
@@ -2364,16 +2364,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_06",
@@ -2383,16 +2383,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_07",
@@ -2401,17 +2401,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_08",
@@ -2421,16 +2421,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_09",
@@ -2440,16 +2440,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_13_10",
@@ -2459,16 +2459,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Trồng trọt và Lâm nghiệp",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 13] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 13] Trong chuyên đề \"Ôn tập phần Trồng trọt và Lâm nghiệp\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Trồng trọt và Lâm nghiệp",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Trồng trọt và Lâm nghiệp\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Trồng trọt và Lâm nghiệp.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Trồng trọt và Lâm nghiệp'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Trồng trọt và Lâm nghiệp.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_01",
@@ -2478,16 +2478,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_02",
@@ -2497,16 +2497,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_03",
@@ -2516,16 +2516,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_04",
@@ -2535,16 +2535,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_05",
@@ -2554,16 +2554,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_06",
@@ -2573,16 +2573,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_07",
@@ -2591,17 +2591,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_08",
@@ -2611,16 +2611,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_09",
@@ -2630,16 +2630,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_14_10",
@@ -2649,16 +2649,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 14] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 14] Trong chuyên đề \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Thực hành: Kỹ thuật giâm cành hoặc ươm mầm cây.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_01",
@@ -2668,16 +2668,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_02",
@@ -2687,16 +2687,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_03",
@@ -2706,16 +2706,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_04",
@@ -2725,16 +2725,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_05",
@@ -2744,16 +2744,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_06",
@@ -2763,16 +2763,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_07",
@@ -2781,17 +2781,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_08",
@@ -2801,16 +2801,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_09",
@@ -2820,16 +2820,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_15_10",
@@ -2839,16 +2839,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Kiểm tra giữa Học kì 1 môn Công nghệ 7",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 15] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 15] Trong chuyên đề \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Kiểm tra giữa Học kì 1 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Kiểm tra giữa Học kì 1 môn Công nghệ 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Kiểm tra giữa Học kì 1 môn Công nghệ 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Kiểm tra giữa Học kì 1 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_01",
@@ -2858,16 +2858,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_02",
@@ -2877,16 +2877,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_03",
@@ -2896,16 +2896,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_04",
@@ -2915,16 +2915,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_05",
@@ -2934,16 +2934,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_06",
@@ -2953,16 +2953,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_07",
@@ -2971,17 +2971,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_08",
@@ -2991,16 +2991,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_09",
@@ -3010,16 +3010,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_16_10",
@@ -3029,16 +3029,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 16] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 16] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 1).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_01",
@@ -3048,16 +3048,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_02",
@@ -3067,16 +3067,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_03",
@@ -3086,16 +3086,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_04",
@@ -3105,16 +3105,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_05",
@@ -3124,16 +3124,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_06",
@@ -3143,16 +3143,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_07",
@@ -3161,17 +3161,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_08",
@@ -3181,16 +3181,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_09",
@@ -3200,16 +3200,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_17_10",
@@ -3219,16 +3219,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
     "category": "forestry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 17] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 17] Trong chuyên đề \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 1 môn Công nghệ 7 (Đề 2).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_01",
@@ -3238,16 +3238,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_02",
@@ -3257,16 +3257,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_03",
@@ -3276,16 +3276,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_04",
@@ -3295,16 +3295,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_05",
@@ -3314,16 +3314,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_06",
@@ -3333,16 +3333,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_07",
@@ -3351,17 +3351,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 2,
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_08",
@@ -3371,16 +3371,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_09",
@@ -3390,16 +3390,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_18_10",
@@ -3409,16 +3409,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
     "category": "agriculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 18] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 18] Trong chuyên đề \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá chất lượng cuối Học kì 1",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá chất lượng cuối Học kì 1\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá chất lượng cuối Học kì 1'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá chất lượng cuối Học kì 1.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_01",
@@ -3428,16 +3428,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_02",
@@ -3447,16 +3447,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_03",
@@ -3466,16 +3466,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_04",
@@ -3485,16 +3485,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_05",
@@ -3504,16 +3504,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_06",
@@ -3523,16 +3523,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_07",
@@ -3541,17 +3541,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_08",
@@ -3561,16 +3561,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_09",
@@ -3580,16 +3580,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_19_10",
@@ -3599,16 +3599,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 19] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 19] Trong chuyên đề \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 13: Vai trò của chăn nuôi & Triển vọng phát triển.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_01",
@@ -3618,16 +3618,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_02",
@@ -3637,16 +3637,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_03",
@@ -3656,16 +3656,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_04",
@@ -3675,16 +3675,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_05",
@@ -3694,16 +3694,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_06",
@@ -3713,16 +3713,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_07",
@@ -3731,17 +3731,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_08",
@@ -3751,16 +3751,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_09",
@@ -3770,16 +3770,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_20_10",
@@ -3789,16 +3789,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 20] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 20] Trong chuyên đề \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 14: Một số giống vật nuôi phổ biến ở Việt Nam.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_01",
@@ -3808,16 +3808,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_02",
@@ -3827,16 +3827,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_03",
@@ -3846,16 +3846,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_04",
@@ -3865,16 +3865,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_05",
@@ -3884,16 +3884,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_06",
@@ -3903,16 +3903,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_07",
@@ -3921,17 +3921,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_08",
@@ -3941,16 +3941,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_09",
@@ -3960,16 +3960,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_21_10",
@@ -3979,16 +3979,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 21] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 21] Trong chuyên đề \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 15: Thức ăn chăn nuôi và giá trị dinh dưỡng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_01",
@@ -3998,16 +3998,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_02",
@@ -4017,16 +4017,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_03",
@@ -4036,16 +4036,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_04",
@@ -4055,16 +4055,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_05",
@@ -4074,16 +4074,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_06",
@@ -4093,16 +4093,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_07",
@@ -4111,17 +4111,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_08",
@@ -4131,16 +4131,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_09",
@@ -4150,16 +4150,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_22_10",
@@ -4169,16 +4169,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 22] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 22] Trong chuyên đề \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 16: Phương pháp chế biến và dự trữ thức ăn cho vật nuôi.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_01",
@@ -4188,16 +4188,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_02",
@@ -4207,16 +4207,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_03",
@@ -4226,16 +4226,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_04",
@@ -4245,16 +4245,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_05",
@@ -4264,16 +4264,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_06",
@@ -4283,16 +4283,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_07",
@@ -4301,17 +4301,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_08",
@@ -4321,16 +4321,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_09",
@@ -4340,16 +4340,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_23_10",
@@ -4359,16 +4359,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 23] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 23] Trong chuyên đề \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 17: Nuôi dưỡng và chăm sóc gia súc, gia cầm.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_01",
@@ -4378,16 +4378,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_02",
@@ -4397,16 +4397,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_03",
@@ -4416,16 +4416,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_04",
@@ -4435,16 +4435,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_05",
@@ -4454,16 +4454,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_06",
@@ -4473,16 +4473,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_07",
@@ -4491,17 +4491,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_08",
@@ -4511,16 +4511,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_09",
@@ -4530,16 +4530,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_24_10",
@@ -4549,16 +4549,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 24] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 24] Trong chuyên đề \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 18: Phòng và trị bệnh cho vật nuôi (Tiêm vắc-xin, vệ sinh chuồng trại).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_01",
@@ -4568,16 +4568,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_02",
@@ -4587,16 +4587,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_03",
@@ -4606,16 +4606,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_04",
@@ -4625,16 +4625,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_05",
@@ -4644,16 +4644,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_06",
@@ -4663,16 +4663,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_07",
@@ -4681,17 +4681,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_08",
@@ -4701,16 +4701,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_09",
@@ -4720,16 +4720,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_25_10",
@@ -4739,16 +4739,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 25] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 25] Trong chuyên đề \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 19: Chăn nuôi an toàn sinh học và bảo vệ môi trường.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_01",
@@ -4758,16 +4758,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_02",
@@ -4777,16 +4777,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_03",
@@ -4796,16 +4796,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_04",
@@ -4815,16 +4815,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_05",
@@ -4834,16 +4834,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_06",
@@ -4853,16 +4853,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_07",
@@ -4871,17 +4871,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_08",
@@ -4891,16 +4891,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_09",
@@ -4910,16 +4910,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_26_10",
@@ -4929,16 +4929,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 26] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 26] Trong chuyên đề \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 20: Vai trò của ngành thủy sản & Tiềm năng nuôi trồng.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_01",
@@ -4948,16 +4948,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_02",
@@ -4967,16 +4967,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_03",
@@ -4986,16 +4986,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_04",
@@ -5005,16 +5005,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_05",
@@ -5024,16 +5024,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_06",
@@ -5043,16 +5043,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_07",
@@ -5061,17 +5061,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 3,
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_08",
@@ -5081,16 +5081,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_09",
@@ -5100,16 +5100,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_27_10",
@@ -5119,16 +5119,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 27] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 27] Trong chuyên đề \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 21: Môi trường nuôi thủy sản (Nhiệt độ, độ pH, độ trong).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_01",
@@ -5138,16 +5138,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_02",
@@ -5157,16 +5157,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_03",
@@ -5176,16 +5176,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_04",
@@ -5195,16 +5195,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_05",
@@ -5214,16 +5214,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_06",
@@ -5233,16 +5233,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_07",
@@ -5251,17 +5251,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_08",
@@ -5271,16 +5271,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_09",
@@ -5290,16 +5290,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_28_10",
@@ -5309,16 +5309,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 28] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 28] Trong chuyên đề \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 22: Thức ăn của động vật thủy sản (Tự nhiên & Nhân tạo).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_01",
@@ -5328,16 +5328,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_02",
@@ -5347,16 +5347,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_03",
@@ -5366,16 +5366,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_04",
@@ -5385,16 +5385,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_05",
@@ -5404,16 +5404,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_06",
@@ -5423,16 +5423,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_07",
@@ -5441,17 +5441,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_08",
@@ -5461,16 +5461,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_09",
@@ -5480,16 +5480,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_29_10",
@@ -5499,16 +5499,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 29] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 29] Trong chuyên đề \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm)'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 23: Quy trình nuôi và chăm sóc thủy sản (Cá, Tôm).",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_01",
@@ -5518,16 +5518,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_02",
@@ -5537,16 +5537,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_03",
@@ -5556,16 +5556,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_04",
@@ -5575,16 +5575,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_05",
@@ -5594,16 +5594,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_06",
@@ -5613,16 +5613,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_07",
@@ -5631,17 +5631,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_08",
@@ -5651,16 +5651,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_09",
@@ -5670,16 +5670,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_30_10",
@@ -5689,16 +5689,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 30] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 30] Trong chuyên đề \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 24: Phòng trừ dịch bệnh cho động vật thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_01",
@@ -5708,16 +5708,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_02",
@@ -5727,16 +5727,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_03",
@@ -5746,16 +5746,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_04",
@@ -5765,16 +5765,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_05",
@@ -5784,16 +5784,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_06",
@@ -5803,16 +5803,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_07",
@@ -5821,17 +5821,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_08",
@@ -5841,16 +5841,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_09",
@@ -5860,16 +5860,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_31_10",
@@ -5879,16 +5879,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 31] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 31] Trong chuyên đề \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 25: Thu hoạch, bảo quản và chế biến thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 25: Thu hoạch, bảo quản và chế biến thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 25: Thu hoạch, bảo quản và chế biến thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 25: Thu hoạch, bảo quản và chế biến thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_01",
@@ -5898,16 +5898,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_02",
@@ -5917,16 +5917,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_03",
@@ -5936,16 +5936,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_04",
@@ -5955,16 +5955,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_05",
@@ -5974,16 +5974,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_06",
@@ -5993,16 +5993,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_07",
@@ -6011,17 +6011,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_08",
@@ -6031,16 +6031,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_09",
@@ -6050,16 +6050,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_32_10",
@@ -6069,16 +6069,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 32] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 32] Trong chuyên đề \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Bài 26: Bảo vệ nguồn lợi thủy sản bền vững",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Bài 26: Bảo vệ nguồn lợi thủy sản bền vững\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Bài 26: Bảo vệ nguồn lợi thủy sản bền vững'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Bài 26: Bảo vệ nguồn lợi thủy sản bền vững.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_01",
@@ -6088,16 +6088,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_02",
@@ -6107,16 +6107,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_03",
@@ -6126,16 +6126,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_04",
@@ -6145,16 +6145,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_05",
@@ -6164,16 +6164,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_06",
@@ -6183,16 +6183,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_07",
@@ -6201,17 +6201,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_08",
@@ -6221,16 +6221,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_09",
@@ -6240,16 +6240,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_33_10",
@@ -6259,16 +6259,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 33] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 33] Trong chuyên đề \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Ôn tập phần Chăn nuôi và Nuôi trồng thủy sản.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_01",
@@ -6278,16 +6278,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_02",
@@ -6297,16 +6297,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_03",
@@ -6316,16 +6316,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_04",
@@ -6335,16 +6335,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_05",
@@ -6354,16 +6354,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_06",
@@ -6373,16 +6373,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_07",
@@ -6391,17 +6391,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_08",
@@ -6411,16 +6411,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_09",
@@ -6430,16 +6430,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_34_10",
@@ -6449,16 +6449,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề thi thử học kì 2 môn Công nghệ 7",
     "category": "aquaculture",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 34] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 34] Trong chuyên đề \"Đề thi thử học kì 2 môn Công nghệ 7\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề thi thử học kì 2 môn Công nghệ 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề thi thử học kì 2 môn Công nghệ 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề thi thử học kì 2 môn Công nghệ 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề thi thử học kì 2 môn Công nghệ 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề thi thử học kì 2 môn Công nghệ 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_01",
@@ -6468,16 +6468,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 1 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 1 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_02",
@@ -6487,16 +6487,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 2 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 2 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_03",
@@ -6506,16 +6506,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 3 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 3 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_04",
@@ -6525,16 +6525,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 4 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 4 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_05",
@@ -6544,16 +6544,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 5 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 5 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_06",
@@ -6563,16 +6563,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 6 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 6 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_07",
@@ -6581,17 +6581,17 @@ export const QUESTION_BANK_TECH7 = [
     "stage": 4,
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "difficulty": "medium",
+    "question": "[Kỹ thuật / Câu hỏi 7 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 7 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
     "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_08",
@@ -6601,16 +6601,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 8 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 8 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 1,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_09",
@@ -6620,16 +6620,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 9 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 9 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\"",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất"
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 2,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   },
   {
     "id": "TECH7_35_10",
@@ -6639,16 +6639,16 @@ export const QUESTION_BANK_TECH7 = [
     "topic": "Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
     "category": "livestock",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 35] Chọn biện pháp hoặc kiến thức CHÍNH XÁC trong Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\":",
+    "question": "[Kỹ thuật / Câu hỏi 10 - Tuần 35] Trong chuyên đề \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\", quy trình hoặc biện pháp kỹ thuật số 10 là:",
     "options": [
-      "Biện pháp kỹ thuật chuẩn xác theo SGK Công nghệ 7 về Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7",
-      "Biện pháp gây hại cho cây trồng/vật nuôi/môi trường",
-      "Biện pháp sai quy trình kỹ thuật nông nghiệp",
-      "Nhận định không đúng về đặc điểm sinh học"
+      "Quy trình sai kỹ thuật làm giảm năng suất hoặc gây chết cây trồng/vật nuôi",
+      "Biện pháp gây ô nhiễm nguồn nước và thoái hóa đất nông nghiệp",
+      "Thao tác đảo lộn các bước gây lãng phí chi phí sản xuất",
+      "Quy trình kỹ thuật nông - lâm - thủy sản chuẩn xác theo SGK Công nghệ 7 về \"Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Áp dụng kiến thức bài học: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
-    "explanation": "Kiến thức chuẩn Công nghệ 7 GDPT 2026: Đây là quy trình kỹ thuật chuẩn của 'Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7'."
+    "correctIndex": 3,
+    "hint": "Áp dụng quy trình thực hành trong bài: Đề kiểm tra đánh giá năng lực công nghệ nông - lâm - thủy sản cuối năm Lớp 7.",
+    "explanation": "Giải thích chi tiết: Đây là quy trình kỹ thuật chuẩn của môn Công nghệ 7 (GDPT 2026) giúp tối ưu hóa sản xuất và bảo vệ môi trường."
   }
 ];
 

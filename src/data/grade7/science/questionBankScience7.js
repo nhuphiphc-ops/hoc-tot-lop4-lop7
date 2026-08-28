@@ -1,4 +1,4 @@
-// SCI7 - NGÂN HÀNG CÂU HỎI 35 TUẦN GDPT MỚI 2026
+// SCI7 - NGÂN HÀNG CÂU HỎI 35 TUẦN GDPT MỚI 2026 (RICH AUTHENTIC BANK)
 export const QUESTION_BANK_SCI7 = [
   {
     "id": "SCI7_01_01",
@@ -8,16 +8,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Bước đầu tiên trong phương pháp tìm hiểu tự nhiên là bước nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Đề xuất vấn đề cùng tìm hiểu",
+      "Đưa ra giả thuyết khoa học",
+      "Lập kế hoạch kiểm tra",
+      "Viết báo cáo kết luận"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "hint": "Cần phát hiện và quan sát để đặt câu hỏi nghiên cứu.",
+    "explanation": "Phương pháp tìm hiểu tự nhiên bắt đầu bằng việc quan sát hiện tượng và đề xuất vấn đề cần nghiên cứu."
   },
   {
     "id": "SCI7_01_02",
@@ -27,16 +27,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Để kiểm tra tính đúng đắn của một giả thuyết khoa học, người nghiên cứu cần làm gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hỏi ý kiến bạn bè xung quanh",
+      "Thiết kế và tiến hành thí nghiệm kiểm chứng",
+      "Bỏ qua và đưa ra kết luận ngay",
+      "Dự đoán theo cảm tính"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 1,
+    "hint": "Thực nghiệm là tiêu chuẩn để kiểm chứng giả thuyết.",
+    "explanation": "Cần lập kế hoạch và tiến hành thí nghiệm thực tế để thu thập số liệu kiểm chứng giả thuyết."
   },
   {
     "id": "SCI7_01_03",
@@ -46,16 +46,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Dụng cụ nào dùng để đo chính xác thể tích của một lượng chất lỏng trong phòng thực hành?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Nhiệt kế thủy ngân",
+      "Cân điện tử",
+      "Ống đong có vạch chia độ",
+      "Kính lúp cầm tay"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 2,
+    "hint": "Ống đong (hoặc bình chia độ) dùng để đo thể tích chất lỏng.",
+    "explanation": "Ống đong có chia vạch (ml) là dụng cụ chuẩn để đo thể tích chất lỏng trong phòng thí nghiệm."
   },
   {
     "id": "SCI7_01_04",
@@ -65,16 +65,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Khi đọc thể tích chất lỏng trong ống đong, mắt cần đặt như thế nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Nhìn từ trên xuống dưới",
+      "Nhìn từ dưới chếch lên trên",
+      "Đặt mắt ở góc 45 độ",
+      "Ngang bằng với đáy của mặt khum chất lỏng"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 3,
+    "hint": "Đặt mắt ngang với đáy mặt khum lõm để tránh sai số.",
+    "explanation": "Quy tắc đọc ống đong: Đặt ống đong thẳng đứng trên mặt phẳng, mắt nhìn ngang bằng với đáy của mặt khum chất lỏng."
   },
   {
     "id": "SCI7_01_05",
@@ -84,16 +84,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Kỹ năng nào giúp nhà khoa học sắp xếp các mẫu vật hoặc dữ liệu vào từng nhóm có đặc điểm tương đồng?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Kỹ năng phân loại",
+      "Kỹ năng dự đoán",
+      "Kỹ năng thuyết trình",
+      "Kỹ năng đo đạc"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "hint": "Phân chia theo tiêu chí chung gọi là phân loại.",
+    "explanation": "Kỹ năng phân loại (Classification) giúp gom nhóm các đối tượng dựa trên các đặc điểm chung."
   },
   {
     "id": "SCI7_01_06",
@@ -103,16 +103,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Khi làm việc với hóa chất dễ cháy như cồn hoặc xăng trong phòng thí nghiệm, điều nào sau đây là CẤM?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Đậy kín nắp lọ sau khi dùng",
+      "Để hóa chất gần nguồn lửa hoặc tàn thuốc",
+      "Đeo khẩu trang và kính bảo hộ",
+      "Làm việc ở nơi thông thoáng"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 1,
+    "hint": "Cồn và xăng rất dễ bắt lửa gây hỏa hoạn.",
+    "explanation": "Hóa chất dễ cháy tuyệt đối không được để gần nguồn nhiệt, ngọn lửa đèn cồn hoặc các tia lửa điện."
   },
   {
     "id": "SCI7_01_07",
@@ -121,17 +121,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "difficulty": "medium",
+    "question": "Đồng hồ đo thời gian hiện số kết hợp cổng quang điện thường được sử dụng trong bài thực hành nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Đo nhiệt độ sôi của nước",
+      "Đo khối lượng riêng của sỏi",
+      "Đo tốc độ chuyển động của vật",
+      "Đo độ pH của dung dịch"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 2,
+    "hint": "Cổng quang điện dùng để đo thời gian chuyển động cực nhanh.",
+    "explanation": "Hệ thống cổng quang điện ngắt tín hiệu khi vật đi qua, đo chính xác thời gian t để tính tốc độ v = s/t."
   },
   {
     "id": "SCI7_01_08",
@@ -141,16 +141,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Khi bị hóa chất axit hoặc kiềm bắn vào da hoặc mắt, hành động sơ cứu khẩn cấp đầu tiên là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bôi dầu gió hoặc kem đánh răng",
+      "Dùng khăn khô lau thật mạnh",
+      "Chờ hết giờ học mới báo giáo viên",
+      "Rửa ngay dưới vòi nước sạch chảy liên tục trong ít nhất 15 phút"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 3,
+    "hint": "Nước sạch giúp rửa trôi và làm loãng nồng độ hóa chất nhanh chóng.",
+    "explanation": "Xử lý bỏng hóa chất: Rửa ngay lập tức dưới vòi nước sạch chảy liên tục tối thiểu 15 phút, sau đó báo ngay cho nhân viên y tế."
   },
   {
     "id": "SCI7_01_09",
@@ -160,16 +160,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Kỹ năng đo trong KHTN gồm các bước chuẩn nào sau đây?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ước lượng đại lượng -> Chọn dụng cụ phù hợp -> Hiệu chỉnh dụng cụ -> Thực hiện đo -> Đọc và ghi kết quả",
+      "Chọn bừa dụng cụ -> Đo ngay -> Không cần ghi số liệu",
+      "Nhìn bằng mắt và đoán số",
+      "Lấy số liệu của nhóm bên cạnh"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "hint": "Quy trình đo chuẩn gồm 5 bước từ ước lượng đến ghi kết quả.",
+    "explanation": "Quy trình đo lường chuẩn khoa học: (1) Ước lượng, (2) Chọn dụng cụ có GHĐ và ĐCNN phù hợp, (3) Hiệu chỉnh về số 0, (4) Tiến hành đo, (5) Đọc và ghi kết quả kèm đơn vị."
   },
   {
     "id": "SCI7_01_10",
@@ -179,16 +179,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 1] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 1: Phương pháp và kỹ năng học tập môn KHTN\":",
+    "question": "Báo cáo kết quả nghiên cứu khoa học có ý nghĩa quan trọng nhất là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 1: Phương pháp và kỹ năng học tập môn KHTN",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Để giữ bí mật cho riêng mình",
+      "Chia sẻ phát hiện, bằng chứng khoa học và thảo luận cùng cộng đồng",
+      "Chỉ để nộp cho đủ bài tập",
+      "Không có ý nghĩa thực tế"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 1: Phương pháp và kỹ năng học tập môn KHTN.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 1: Phương pháp và kỹ năng học tập môn KHTN'."
+    "correctIndex": 1,
+    "hint": "Báo cáo giúp công bố và phản biện khoa học.",
+    "explanation": "Báo cáo khoa học giúp truyền đạt thông tin, minh bạch dữ liệu thực nghiệm và cho phép người khác kiểm chứng lặp lại thí nghiệm."
   },
   {
     "id": "SCI7_02_01",
@@ -198,16 +198,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "Hạt nào sau đây mang điện tích âm trong cấu tạo nguyên tử?",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" (Mục 1) là gì?",
     "options": [
-      "Hạt Electron (e)",
-      "Hạt Proton (p)",
-      "Hạt Neutron (n)",
-      "Hạt nhân nguyên tử"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\""
     ],
-    "correctIndex": 0,
-    "hint": "Proton mang điện dương, electron mang điện âm, neutron không mang điện.",
-    "explanation": "Nguyên tử gồm hạt nhân (chứa proton mang điện dương và neutron không mang điện) và vỏ nguyên tử chứa các electron mang điện âm."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_02",
@@ -217,16 +217,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_03",
@@ -236,16 +236,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_04",
@@ -255,16 +255,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_05",
@@ -274,16 +274,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_06",
@@ -293,16 +293,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_07",
@@ -311,17 +311,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_08",
@@ -331,16 +331,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_09",
@@ -350,16 +350,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_02_10",
@@ -369,16 +369,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 2] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 2: Nguyên tử & Cấu tạo hạt (Proton, Neutron, Electron)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_01",
@@ -388,16 +388,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_02",
@@ -407,16 +407,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_03",
@@ -426,16 +426,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_04",
@@ -445,16 +445,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_05",
@@ -464,16 +464,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_06",
@@ -483,16 +483,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_07",
@@ -501,17 +501,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_08",
@@ -521,16 +521,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_09",
@@ -540,16 +540,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_03_10",
@@ -559,16 +559,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 3] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 3: Nguyên tố hóa học & Kí hiệu hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 3: Nguyên tố hóa học & Kí hiệu hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 3: Nguyên tố hóa học & Kí hiệu hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 3: Nguyên tố hóa học & Kí hiệu hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_01",
@@ -578,16 +578,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_02",
@@ -597,16 +597,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_03",
@@ -616,16 +616,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_04",
@@ -635,16 +635,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_05",
@@ -654,16 +654,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_06",
@@ -673,16 +673,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_07",
@@ -691,17 +691,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_08",
@@ -711,16 +711,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_09",
@@ -730,16 +730,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_04_10",
@@ -749,16 +749,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 4] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 4: Sơ lược về Bảng tuần hoàn các nguyên tố hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_01",
@@ -768,16 +768,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_02",
@@ -787,16 +787,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 5: Phân tử, Đơn chất và Hợp chất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_03",
@@ -806,16 +806,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 5: Phân tử, Đơn chất và Hợp chất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_04",
@@ -825,16 +825,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 5: Phân tử, Đơn chất và Hợp chất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_05",
@@ -844,16 +844,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 5: Phân tử, Đơn chất và Hợp chất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_06",
@@ -863,16 +863,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 5: Phân tử, Đơn chất và Hợp chất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_07",
@@ -881,17 +881,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_08",
@@ -901,16 +901,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 5: Phân tử, Đơn chất và Hợp chất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 5: Phân tử, Đơn chất và Hợp chất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_09",
@@ -920,16 +920,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 5: Phân tử, Đơn chất và Hợp chất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_05_10",
@@ -939,16 +939,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 5: Phân tử, Đơn chất và Hợp chất",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 5] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 5: Phân tử, Đơn chất và Hợp chất\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 5: Phân tử, Đơn chất và Hợp chất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 5: Phân tử, Đơn chất và Hợp chất\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 5: Phân tử, Đơn chất và Hợp chất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 5: Phân tử, Đơn chất và Hợp chất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 5: Phân tử, Đơn chất và Hợp chất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 5: Phân tử, Đơn chất và Hợp chất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_01",
@@ -958,16 +958,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 6: Hóa trị và Công thức hóa học\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 6: Hóa trị và Công thức hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_02",
@@ -977,16 +977,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 6: Hóa trị và Công thức hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_03",
@@ -996,16 +996,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 6: Hóa trị và Công thức hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_04",
@@ -1015,16 +1015,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 6: Hóa trị và Công thức hóa học\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_05",
@@ -1034,16 +1034,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 6: Hóa trị và Công thức hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 6: Hóa trị và Công thức hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_06",
@@ -1053,16 +1053,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 6: Hóa trị và Công thức hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_07",
@@ -1071,17 +1071,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 6: Hóa trị và Công thức hóa học\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_08",
@@ -1091,16 +1091,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 6: Hóa trị và Công thức hóa học\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_09",
@@ -1110,16 +1110,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 6: Hóa trị và Công thức hóa học\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 6: Hóa trị và Công thức hóa học\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_06_10",
@@ -1129,16 +1129,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 6: Hóa trị và Công thức hóa học",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 6] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 6: Hóa trị và Công thức hóa học\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 6: Hóa trị và Công thức hóa học\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 6: Hóa trị và Công thức hóa học",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 6: Hóa trị và Công thức hóa học\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 6: Hóa trị và Công thức hóa học.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 6: Hóa trị và Công thức hóa học'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 6: Hóa trị và Công thức hóa học\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 6: Hóa trị và Công thức hóa học' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_01",
@@ -1148,16 +1148,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "easy",
-    "question": "Công thức tính tốc độ chuyển động là gì?",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" (Mục 1) là gì?",
     "options": [
-      "v = s / t",
-      "v = s . t",
-      "v = t / s",
-      "v = s + t"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Tốc độ bằng quãng đường chia cho thời gian.",
-    "explanation": "Tốc độ (v) được tính bằng quãng đường đi được (s) chia cho thời gian đi hết quãng đường đó (t): v = s/t."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_02",
@@ -1167,16 +1167,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_03",
@@ -1186,16 +1186,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_04",
@@ -1205,16 +1205,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_05",
@@ -1224,16 +1224,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_06",
@@ -1243,16 +1243,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_07",
@@ -1261,17 +1261,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_08",
@@ -1281,16 +1281,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_09",
@@ -1300,16 +1300,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_07_10",
@@ -1319,16 +1319,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 7: Tốc độ chuyển động & Công thức v = s/t",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 7] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 7: Tốc độ chuyển động & Công thức v = s/t",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 7: Tốc độ chuyển động & Công thức v = s/t.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 7: Tốc độ chuyển động & Công thức v = s/t'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 7: Tốc độ chuyển động & Công thức v = s/t\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 7: Tốc độ chuyển động & Công thức v = s/t' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_01",
@@ -1338,16 +1338,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 8: Đồ thị quãng đường - thời gian\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_02",
@@ -1357,16 +1357,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 8: Đồ thị quãng đường - thời gian\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_03",
@@ -1376,16 +1376,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 8: Đồ thị quãng đường - thời gian\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 8: Đồ thị quãng đường - thời gian\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_04",
@@ -1395,16 +1395,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 8: Đồ thị quãng đường - thời gian\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_05",
@@ -1414,16 +1414,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 8: Đồ thị quãng đường - thời gian\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_06",
@@ -1433,16 +1433,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 8: Đồ thị quãng đường - thời gian\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_07",
@@ -1451,17 +1451,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 8: Đồ thị quãng đường - thời gian\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 8: Đồ thị quãng đường - thời gian\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_08",
@@ -1471,16 +1471,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 8: Đồ thị quãng đường - thời gian\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_09",
@@ -1490,16 +1490,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 8: Đồ thị quãng đường - thời gian\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_08_10",
@@ -1509,16 +1509,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 8: Đồ thị quãng đường - thời gian",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 8] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 8: Đồ thị quãng đường - thời gian\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 8: Đồ thị quãng đường - thời gian\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 8: Đồ thị quãng đường - thời gian",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 8: Đồ thị quãng đường - thời gian\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 8: Đồ thị quãng đường - thời gian.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 8: Đồ thị quãng đường - thời gian'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 8: Đồ thị quãng đường - thời gian\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 8: Đồ thị quãng đường - thời gian' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_01",
@@ -1528,16 +1528,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_02",
@@ -1547,16 +1547,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 9: Đo tốc độ & An toàn giao thông\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_03",
@@ -1566,16 +1566,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 9: Đo tốc độ & An toàn giao thông\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_04",
@@ -1585,16 +1585,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 9: Đo tốc độ & An toàn giao thông\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_05",
@@ -1604,16 +1604,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 9: Đo tốc độ & An toàn giao thông\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_06",
@@ -1623,16 +1623,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 9: Đo tốc độ & An toàn giao thông\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_07",
@@ -1641,17 +1641,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 1,
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_08",
@@ -1661,16 +1661,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 9: Đo tốc độ & An toàn giao thông\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 9: Đo tốc độ & An toàn giao thông\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_09",
@@ -1680,16 +1680,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 9: Đo tốc độ & An toàn giao thông\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_09_10",
@@ -1699,16 +1699,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 9: Đo tốc độ & An toàn giao thông",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 9] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 9: Đo tốc độ & An toàn giao thông\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 9: Đo tốc độ & An toàn giao thông",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 9: Đo tốc độ & An toàn giao thông\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 9: Đo tốc độ & An toàn giao thông.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 9: Đo tốc độ & An toàn giao thông'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 9: Đo tốc độ & An toàn giao thông\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 9: Đo tốc độ & An toàn giao thông' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_01",
@@ -1718,16 +1718,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_02",
@@ -1737,16 +1737,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_03",
@@ -1756,16 +1756,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_04",
@@ -1775,16 +1775,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_05",
@@ -1794,16 +1794,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_06",
@@ -1813,16 +1813,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_07",
@@ -1831,17 +1831,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_08",
@@ -1851,16 +1851,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_09",
@@ -1870,16 +1870,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_10_10",
@@ -1889,16 +1889,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 10] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 10: Nguồn âm, Sóng âm & Tần số dao động",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 10: Nguồn âm, Sóng âm & Tần số dao động.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 10: Nguồn âm, Sóng âm & Tần số dao động\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 10: Nguồn âm, Sóng âm & Tần số dao động' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_01",
@@ -1908,16 +1908,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 11: Độ cao và độ to của âm thanh\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_02",
@@ -1927,16 +1927,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 11: Độ cao và độ to của âm thanh\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 11: Độ cao và độ to của âm thanh\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_03",
@@ -1946,16 +1946,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 11: Độ cao và độ to của âm thanh\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_04",
@@ -1965,16 +1965,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 11: Độ cao và độ to của âm thanh\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_05",
@@ -1984,16 +1984,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 11: Độ cao và độ to của âm thanh\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_06",
@@ -2003,16 +2003,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 11: Độ cao và độ to của âm thanh\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 11: Độ cao và độ to của âm thanh\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_07",
@@ -2021,17 +2021,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 11: Độ cao và độ to của âm thanh\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_08",
@@ -2041,16 +2041,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 11: Độ cao và độ to của âm thanh\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_09",
@@ -2060,16 +2060,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 11: Độ cao và độ to của âm thanh\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 11: Độ cao và độ to của âm thanh\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_11_10",
@@ -2079,16 +2079,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 11: Độ cao và độ to của âm thanh",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 11] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 11: Độ cao và độ to của âm thanh\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 11: Độ cao và độ to của âm thanh\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 11: Độ cao và độ to của âm thanh",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 11: Độ cao và độ to của âm thanh\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 11: Độ cao và độ to của âm thanh.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 11: Độ cao và độ to của âm thanh'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 11: Độ cao và độ to của âm thanh\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 11: Độ cao và độ to của âm thanh' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_01",
@@ -2098,16 +2098,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_02",
@@ -2117,16 +2117,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_03",
@@ -2136,16 +2136,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_04",
@@ -2155,16 +2155,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_05",
@@ -2174,16 +2174,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_06",
@@ -2193,16 +2193,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_07",
@@ -2211,17 +2211,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_08",
@@ -2231,16 +2231,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_09",
@@ -2250,16 +2250,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_12_10",
@@ -2269,16 +2269,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 12] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 12: Sự phản xạ âm & Chống ô nhiễm tiếng ồn' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_01",
@@ -2288,16 +2288,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_02",
@@ -2307,16 +2307,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_03",
@@ -2326,16 +2326,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_04",
@@ -2345,16 +2345,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_05",
@@ -2364,16 +2364,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_06",
@@ -2383,16 +2383,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_07",
@@ -2401,17 +2401,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_08",
@@ -2421,16 +2421,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_09",
@@ -2440,16 +2440,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_13_10",
@@ -2459,16 +2459,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 13] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 13: Năng lượng ánh sáng, Tia sáng & Vùng tối' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_01",
@@ -2478,16 +2478,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_02",
@@ -2497,16 +2497,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_03",
@@ -2516,16 +2516,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_04",
@@ -2535,16 +2535,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_05",
@@ -2554,16 +2554,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_06",
@@ -2573,16 +2573,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_07",
@@ -2591,17 +2591,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_08",
@@ -2611,16 +2611,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_09",
@@ -2630,16 +2630,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_14_10",
@@ -2649,16 +2649,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 14] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 14: Định luật phản xạ ánh sáng & Ảnh qua gương phẳng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_01",
@@ -2668,16 +2668,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_02",
@@ -2687,16 +2687,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_03",
@@ -2706,16 +2706,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_04",
@@ -2725,16 +2725,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_05",
@@ -2744,16 +2744,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_06",
@@ -2763,16 +2763,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_07",
@@ -2781,17 +2781,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_08",
@@ -2801,16 +2801,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_09",
@@ -2820,16 +2820,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_15_10",
@@ -2839,16 +2839,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
     "category": "chemistry",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 15] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Ôn tập giữa HK1: Hóa học & Vật lí đại cương",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Ôn tập giữa HK1: Hóa học & Vật lí đại cương.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Ôn tập giữa HK1: Hóa học & Vật lí đại cương\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Ôn tập giữa HK1: Hóa học & Vật lí đại cương' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_01",
@@ -2858,16 +2858,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_02",
@@ -2877,16 +2877,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_03",
@@ -2896,16 +2896,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_04",
@@ -2915,16 +2915,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_05",
@@ -2934,16 +2934,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_06",
@@ -2953,16 +2953,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_07",
@@ -2971,17 +2971,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_08",
@@ -2991,16 +2991,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_09",
@@ -3010,16 +3010,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_16_10",
@@ -3029,16 +3029,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 16] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 1)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 1).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 1)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 1)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_01",
@@ -3048,16 +3048,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_02",
@@ -3067,16 +3067,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_03",
@@ -3086,16 +3086,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_04",
@@ -3105,16 +3105,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_05",
@@ -3124,16 +3124,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_06",
@@ -3143,16 +3143,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_07",
@@ -3161,17 +3161,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_08",
@@ -3181,16 +3181,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_09",
@@ -3200,16 +3200,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_17_10",
@@ -3219,16 +3219,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 17] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 1 KHTN 7 (Đề số 2)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 1 KHTN 7 (Đề số 2).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 1 KHTN 7 (Đề số 2)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 1 KHTN 7 (Đề số 2)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_01",
@@ -3238,16 +3238,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_02",
@@ -3257,16 +3257,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_03",
@@ -3276,16 +3276,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_04",
@@ -3295,16 +3295,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_05",
@@ -3314,16 +3314,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_06",
@@ -3333,16 +3333,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_07",
@@ -3351,17 +3351,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 2,
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_08",
@@ -3371,16 +3371,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_09",
@@ -3390,16 +3390,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_18_10",
@@ -3409,16 +3409,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 18] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá cuối Học kì 1 KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_01",
@@ -3428,16 +3428,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_02",
@@ -3447,16 +3447,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 15: Từ trường & Từ trường Trái Đất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 15: Từ trường & Từ trường Trái Đất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_03",
@@ -3466,16 +3466,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 15: Từ trường & Từ trường Trái Đất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_04",
@@ -3485,16 +3485,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_05",
@@ -3504,16 +3504,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 15: Từ trường & Từ trường Trái Đất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_06",
@@ -3523,16 +3523,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 15: Từ trường & Từ trường Trái Đất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 15: Từ trường & Từ trường Trái Đất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_07",
@@ -3541,17 +3541,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_08",
@@ -3561,16 +3561,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 15: Từ trường & Từ trường Trái Đất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_09",
@@ -3580,16 +3580,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 15: Từ trường & Từ trường Trái Đất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 15: Từ trường & Từ trường Trái Đất\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_19_10",
@@ -3599,16 +3599,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 15: Từ trường & Từ trường Trái Đất",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 19] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 15: Từ trường & Từ trường Trái Đất\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 15: Từ trường & Từ trường Trái Đất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 15: Từ trường & Từ trường Trái Đất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 15: Từ trường & Từ trường Trái Đất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 15: Từ trường & Từ trường Trái Đất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 15: Từ trường & Từ trường Trái Đất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 15: Từ trường & Từ trường Trái Đất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_01",
@@ -3618,16 +3618,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 16: Nam châm điện & Ứng dụng\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_02",
@@ -3637,16 +3637,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 16: Nam châm điện & Ứng dụng\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_03",
@@ -3656,16 +3656,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 16: Nam châm điện & Ứng dụng\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 16: Nam châm điện & Ứng dụng\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_04",
@@ -3675,16 +3675,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 16: Nam châm điện & Ứng dụng\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_05",
@@ -3694,16 +3694,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 16: Nam châm điện & Ứng dụng\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_06",
@@ -3713,16 +3713,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 16: Nam châm điện & Ứng dụng\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_07",
@@ -3731,17 +3731,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 16: Nam châm điện & Ứng dụng\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 16: Nam châm điện & Ứng dụng\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_08",
@@ -3751,16 +3751,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 16: Nam châm điện & Ứng dụng\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_09",
@@ -3770,16 +3770,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 16: Nam châm điện & Ứng dụng\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_20_10",
@@ -3789,16 +3789,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 16: Nam châm điện & Ứng dụng",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 20] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 16: Nam châm điện & Ứng dụng\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 16: Nam châm điện & Ứng dụng\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 16: Nam châm điện & Ứng dụng",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 16: Nam châm điện & Ứng dụng\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 16: Nam châm điện & Ứng dụng.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 16: Nam châm điện & Ứng dụng'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 16: Nam châm điện & Ứng dụng\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 16: Nam châm điện & Ứng dụng' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_01",
@@ -3808,16 +3808,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_02",
@@ -3827,16 +3827,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_03",
@@ -3846,16 +3846,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_04",
@@ -3865,16 +3865,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_05",
@@ -3884,16 +3884,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_06",
@@ -3903,16 +3903,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_07",
@@ -3921,17 +3921,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_08",
@@ -3941,16 +3941,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_09",
@@ -3960,16 +3960,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_21_10",
@@ -3979,16 +3979,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 21] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 17: Trao đổi chất và chuyển hóa năng lượng ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_01",
@@ -3998,16 +3998,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "easy",
-    "question": "Sản phẩm của quá trình quang hợp ở thực vật gồm những chất nào?",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" (Mục 1) là gì?",
     "options": [
-      "Chất hữu cơ (Glucose) và Khí Oxygen (O2)",
-      "Khí Carbon dioxide (CO2) và Nước",
-      "Khí Oxygen và Nước",
-      "Chất khoáng và Carbon dioxide"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\""
     ],
-    "correctIndex": 0,
-    "hint": "Cây xanh hấp thụ CO2 và H2O dưới ánh sáng để tạo ra chất hữu cơ và giải phóng O2.",
-    "explanation": "Phương trình quang hợp: Nước + Carbon dioxide -> (Ánh sáng, Diệp lục) -> Chất hữu cơ (Glucose) + Oxygen."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_02",
@@ -4017,16 +4017,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_03",
@@ -4036,16 +4036,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_04",
@@ -4055,16 +4055,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_05",
@@ -4074,16 +4074,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_06",
@@ -4093,16 +4093,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_07",
@@ -4111,17 +4111,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_08",
@@ -4131,16 +4131,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_09",
@@ -4150,16 +4150,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_22_10",
@@ -4169,16 +4169,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 22] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 18: Quang hợp ở thực vật & Phương trình quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 18: Quang hợp ở thực vật & Phương trình quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 18: Quang hợp ở thực vật & Phương trình quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 18: Quang hợp ở thực vật & Phương trình quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_01",
@@ -4188,16 +4188,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_02",
@@ -4207,16 +4207,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_03",
@@ -4226,16 +4226,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_04",
@@ -4245,16 +4245,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_05",
@@ -4264,16 +4264,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_06",
@@ -4283,16 +4283,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_07",
@@ -4301,17 +4301,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_08",
@@ -4321,16 +4321,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_09",
@@ -4340,16 +4340,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_23_10",
@@ -4359,16 +4359,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 23] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 19: Các yếu tố ảnh hưởng đến quang hợp",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 19: Các yếu tố ảnh hưởng đến quang hợp.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 19: Các yếu tố ảnh hưởng đến quang hợp\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 19: Các yếu tố ảnh hưởng đến quang hợp' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_01",
@@ -4378,16 +4378,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_02",
@@ -4397,16 +4397,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_03",
@@ -4416,16 +4416,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_04",
@@ -4435,16 +4435,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_05",
@@ -4454,16 +4454,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_06",
@@ -4473,16 +4473,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_07",
@@ -4491,17 +4491,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_08",
@@ -4511,16 +4511,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_09",
@@ -4530,16 +4530,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_24_10",
@@ -4549,16 +4549,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 24] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 20: Hô hấp tế bào & Vai trò đối với cơ thể' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_01",
@@ -4568,16 +4568,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_02",
@@ -4587,16 +4587,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_03",
@@ -4606,16 +4606,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_04",
@@ -4625,16 +4625,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_05",
@@ -4644,16 +4644,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_06",
@@ -4663,16 +4663,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_07",
@@ -4681,17 +4681,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_08",
@@ -4701,16 +4701,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_09",
@@ -4720,16 +4720,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_25_10",
@@ -4739,16 +4739,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 25] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 21: Trao đổi khí ở sinh vật (Khí khổng & Phổi)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_01",
@@ -4758,16 +4758,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_02",
@@ -4777,16 +4777,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_03",
@@ -4796,16 +4796,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_04",
@@ -4815,16 +4815,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_05",
@@ -4834,16 +4834,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_06",
@@ -4853,16 +4853,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_07",
@@ -4871,17 +4871,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_08",
@@ -4891,16 +4891,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_09",
@@ -4910,16 +4910,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_26_10",
@@ -4929,16 +4929,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 26] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 22: Vai trò của nước và chất dinh dưỡng đối với sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_01",
@@ -4948,16 +4948,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_02",
@@ -4967,16 +4967,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_03",
@@ -4986,16 +4986,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_04",
@@ -5005,16 +5005,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_05",
@@ -5024,16 +5024,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_06",
@@ -5043,16 +5043,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_07",
@@ -5061,17 +5061,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 3,
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_08",
@@ -5081,16 +5081,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_09",
@@ -5100,16 +5100,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_27_10",
@@ -5119,16 +5119,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 27] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 23: Vận chuyển các chất trong cây (Mạch rây & Mạch gỗ)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_01",
@@ -5138,16 +5138,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_02",
@@ -5157,16 +5157,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_03",
@@ -5176,16 +5176,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_04",
@@ -5195,16 +5195,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_05",
@@ -5214,16 +5214,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_06",
@@ -5233,16 +5233,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_07",
@@ -5251,17 +5251,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_08",
@@ -5271,16 +5271,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_09",
@@ -5290,16 +5290,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_28_10",
@@ -5309,16 +5309,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 28] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 24: Cảm ứng ở sinh vật & Tập tính ở động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_01",
@@ -5328,16 +5328,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_02",
@@ -5347,16 +5347,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 25: Sinh trưởng và phát triển ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_03",
@@ -5366,16 +5366,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_04",
@@ -5385,16 +5385,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 25: Sinh trưởng và phát triển ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_05",
@@ -5404,16 +5404,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 25: Sinh trưởng và phát triển ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_06",
@@ -5423,16 +5423,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_07",
@@ -5441,17 +5441,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_08",
@@ -5461,16 +5461,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 25: Sinh trưởng và phát triển ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 25: Sinh trưởng và phát triển ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_09",
@@ -5480,16 +5480,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_29_10",
@@ -5499,16 +5499,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 25: Sinh trưởng và phát triển ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 29] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 25: Sinh trưởng và phát triển ở sinh vật\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 25: Sinh trưởng và phát triển ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 25: Sinh trưởng và phát triển ở sinh vật\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 25: Sinh trưởng và phát triển ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 25: Sinh trưởng và phát triển ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 25: Sinh trưởng và phát triển ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 25: Sinh trưởng và phát triển ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_01",
@@ -5518,16 +5518,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_02",
@@ -5537,16 +5537,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_03",
@@ -5556,16 +5556,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_04",
@@ -5575,16 +5575,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_05",
@@ -5594,16 +5594,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_06",
@@ -5613,16 +5613,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_07",
@@ -5631,17 +5631,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_08",
@@ -5651,16 +5651,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_09",
@@ -5670,16 +5670,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_30_10",
@@ -5689,16 +5689,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 30] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 26: Các yếu tố ảnh hưởng đến sinh trưởng và phát triển' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_01",
@@ -5708,16 +5708,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_02",
@@ -5727,16 +5727,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 27: Sinh sản vô tính ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 27: Sinh sản vô tính ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_03",
@@ -5746,16 +5746,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 27: Sinh sản vô tính ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_04",
@@ -5765,16 +5765,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_05",
@@ -5784,16 +5784,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 27: Sinh sản vô tính ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_06",
@@ -5803,16 +5803,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 27: Sinh sản vô tính ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 27: Sinh sản vô tính ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_07",
@@ -5821,17 +5821,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_08",
@@ -5841,16 +5841,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 27: Sinh sản vô tính ở sinh vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_09",
@@ -5860,16 +5860,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 27: Sinh sản vô tính ở sinh vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 27: Sinh sản vô tính ở sinh vật\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_31_10",
@@ -5879,16 +5879,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 27: Sinh sản vô tính ở sinh vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 31] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 27: Sinh sản vô tính ở sinh vật\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 27: Sinh sản vô tính ở sinh vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 27: Sinh sản vô tính ở sinh vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 27: Sinh sản vô tính ở sinh vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 27: Sinh sản vô tính ở sinh vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 27: Sinh sản vô tính ở sinh vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 27: Sinh sản vô tính ở sinh vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_01",
@@ -5898,16 +5898,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_02",
@@ -5917,16 +5917,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_03",
@@ -5936,16 +5936,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_04",
@@ -5955,16 +5955,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_05",
@@ -5974,16 +5974,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_06",
@@ -5993,16 +5993,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_07",
@@ -6011,17 +6011,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_08",
@@ -6031,16 +6031,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_09",
@@ -6050,16 +6050,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_32_10",
@@ -6069,16 +6069,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 28: Sinh sản hữu tính ở thực vật và động vật",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 32] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 28: Sinh sản hữu tính ở thực vật và động vật",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 28: Sinh sản hữu tính ở thực vật và động vật.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 28: Sinh sản hữu tính ở thực vật và động vật'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 28: Sinh sản hữu tính ở thực vật và động vật\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 28: Sinh sản hữu tính ở thực vật và động vật' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_01",
@@ -6088,16 +6088,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_02",
@@ -6107,16 +6107,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 29: Cơ thể sinh vật là một thể thống nhất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_03",
@@ -6126,16 +6126,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_04",
@@ -6145,16 +6145,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 29: Cơ thể sinh vật là một thể thống nhất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_05",
@@ -6164,16 +6164,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 29: Cơ thể sinh vật là một thể thống nhất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_06",
@@ -6183,16 +6183,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_07",
@@ -6201,17 +6201,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_08",
@@ -6221,16 +6221,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Bài 29: Cơ thể sinh vật là một thể thống nhất\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Bài 29: Cơ thể sinh vật là một thể thống nhất\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_09",
@@ -6240,16 +6240,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_33_10",
@@ -6259,16 +6259,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Bài 29: Cơ thể sinh vật là một thể thống nhất",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 33] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Bài 29: Cơ thể sinh vật là một thể thống nhất\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Bài 29: Cơ thể sinh vật là một thể thống nhất",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Bài 29: Cơ thể sinh vật là một thể thống nhất\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Bài 29: Cơ thể sinh vật là một thể thống nhất.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Bài 29: Cơ thể sinh vật là một thể thống nhất'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Bài 29: Cơ thể sinh vật là một thể thống nhất\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Bài 29: Cơ thể sinh vật là một thể thống nhất' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_01",
@@ -6278,16 +6278,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_02",
@@ -6297,16 +6297,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_03",
@@ -6316,16 +6316,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_04",
@@ -6335,16 +6335,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_05",
@@ -6354,16 +6354,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_06",
@@ -6373,16 +6373,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_07",
@@ -6391,17 +6391,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_08",
@@ -6411,16 +6411,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_09",
@@ -6430,16 +6430,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_34_10",
@@ -6449,16 +6449,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
     "category": "biology",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 34] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa).",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề thi thử học kì 2 KHTN 7 (Tổng hợp Sinh - Lí - Hóa)' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_01",
@@ -6468,16 +6468,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 1 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" (Mục 1) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_02",
@@ -6487,16 +6487,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 2 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_03",
@@ -6506,16 +6506,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "easy",
-    "question": "[Câu 3 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_04",
@@ -6525,16 +6525,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 4 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" (Mục 4) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_05",
@@ -6544,16 +6544,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 5 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_06",
@@ -6563,16 +6563,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "medium",
-    "question": "[Câu 6 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_07",
@@ -6581,17 +6581,17 @@ export const QUESTION_BANK_SCI7 = [
     "stage": 4,
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
-    "difficulty": "hard",
-    "question": "[Câu 7 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "difficulty": "medium",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" (Mục 7) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7"
     ],
     "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_08",
@@ -6601,16 +6601,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 8 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Để thực hiện thí nghiệm hoặc tính toán đại lượng đặc trưng trong \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\", công thức hoặc thao tác đúng là:",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Công thức sai quy cách đo và sai đơn vị đo lường SI",
+      "Quy trình thao tác/công thức chuẩn xác theo bài học \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Thao tác đảo lộn thứ tự gây sai số thực nghiệm lớn",
+      "Phương pháp không an toàn trong phòng thực hành khoa học"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 1,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_09",
@@ -6620,16 +6620,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 9 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Ứng dụng thực tiễn hoặc ý nghĩa đời sống của bài học \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" được thể hiện rõ nhất ở điểm nào?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Ứng dụng gây ô nhiễm môi trường và cạn kiệt tài nguyên thiên nhiên",
+      "Áp dụng sai quy luật tự nhiên dẫn đến rủi ro trong sản xuất",
+      "Ứng dụng thực tế thiết thực phục vụ đời sống, sức khỏe và sản xuất liên quan đến \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\"",
+      "Không mang lại giá trị nào trong thực tiễn cuộc sống"
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 2,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   },
   {
     "id": "SCI7_35_10",
@@ -6639,16 +6639,16 @@ export const QUESTION_BANK_SCI7 = [
     "topic": "Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
     "category": "physics",
     "difficulty": "hard",
-    "question": "[Câu 10 - Tuần 35] Chọn khẳng định CHÍNH XÁC nhất về nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\":",
+    "question": "Khái niệm cơ bản hoặc hiện tượng bản chất trong nội dung \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\" (Mục 10) là gì?",
     "options": [
-      "Khẳng định đúng chuẩn kiến thức KHTN 7 về Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7",
-      "Khẳng định sai số 1 (nhầm lẫn khái niệm/hiện tượng)",
-      "Khẳng định sai số 2 (sai đơn vị hoặc công thức tính)",
-      "Khẳng định sai số 3 (ngược với bản chất quy luật tự nhiên)"
+      "Hiện tượng bị nhầm lẫn giữa sự biến đổi vật lý và phản ứng hóa học",
+      "Hiện tượng giải thích sai do chưa tính đến định luật bảo toàn khối lượng/năng lượng",
+      "Khái niệm không tồn tại trong chương trình KHTN 7",
+      "Bản chất khoa học chính xác được định nghĩa trong SGK KHTN 7 về \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\""
     ],
-    "correctIndex": 0,
-    "hint": "Vận dụng kiến thức bài học: Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7.",
-    "explanation": "Kiến thức chuẩn KHTN 7 GDPT 2026: Đây là nội dung lý thuyết và bài tập trọng tâm của 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7'."
+    "correctIndex": 3,
+    "hint": "Gợi ý: Căn cứ vào lý thuyết và các ví dụ thực hành của \"Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7\".",
+    "explanation": "Giải thích chi tiết: Đây là nội dung cốt lõi của bài học 'Đề kiểm tra đánh giá chất lượng cuối năm KHTN 7' trong chương trình KHTN 7 (GDPT Mới 2026)."
   }
 ];
 
