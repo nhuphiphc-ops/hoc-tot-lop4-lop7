@@ -68,21 +68,25 @@ class SoundManager {
     this.initContext();
     if (!this.ctx) return;
 
-    const now = this.ctx.currentTime + startDelay;
-    const osc = this.ctx.createOscillator();
-    const gain = this.ctx.createGain();
+    try {
+      const now = this.ctx.currentTime + startDelay;
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
 
-    osc.type = type;
-    osc.frequency.setValueAtTime(freq, now);
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, now);
 
-    gain.gain.setValueAtTime(gainVal, now);
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+      gain.gain.setValueAtTime(gainVal, now);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
 
-    osc.connect(gain);
-    gain.connect(this.ctx.destination);
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
 
-    osc.start(now);
-    osc.stop(now + duration);
+      osc.start(now);
+      osc.stop(now + duration);
+    } catch {
+      // Ignore audio scheduling exceptions
+    }
   }
 
   // Click button sound (warm wooden pop)
@@ -90,21 +94,38 @@ class SoundManager {
     if (!this.enabled) return;
     this.initContext();
     if (!this.ctx) return;
-    const now = this.ctx.currentTime;
-    const osc = this.ctx.createOscillator();
-    const gain = this.ctx.createGain();
+    try {
+      const now = this.ctx.currentTime;
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
 
-    osc.type = 'triangle';
-    osc.frequency.setValueAtTime(320, now);
-    osc.frequency.exponentialRampToValueAtTime(160, now + 0.06);
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(320, now);
+      osc.frequency.exponentialRampToValueAtTime(160, now + 0.06);
 
-    gain.gain.setValueAtTime(0.12, now);
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+      gain.gain.setValueAtTime(0.12, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
 
-    osc.connect(gain);
-    gain.connect(this.ctx.destination);
-    osc.start(now);
-    osc.stop(now + 0.06);
+      osc.connect(gain);
+      gain.connect(this.ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.06);
+    } catch {
+      // ignore
+    }
+  }
+
+  // Pop sound
+  playPop() {
+    this.playClick();
+  }
+
+  // Start exam sound
+  playStart() {
+    if (!this.enabled) return;
+    this.playTone(440, 'sine', 0.12, 0.12, 0);    // A4
+    this.playTone(554.37, 'sine', 0.12, 0.12, 0.08); // C#5
+    this.playTone(659.25, 'sine', 0.25, 0.15, 0.16); // E5
   }
 
   // Option selected sound
@@ -157,5 +178,23 @@ class SoundManager {
   }
 }
 
-export const sounds = new SoundManager();
+const rawSounds = new SoundManager();
+
+// Safe Proxy to prevent ANY missing sound method from crashing React
+export const sounds = new Proxy(rawSounds, {
+  get(target, prop) {
+    if (prop in target) {
+      return typeof target[prop] === 'function' ? target[prop].bind(target) : target[prop];
+    }
+    // Fallback if an unknown sound method like playFanfare or playStart is called
+    return () => {
+      try {
+        target.playClick();
+      } catch {
+        // ignore
+      }
+    };
+  }
+});
+
 export default sounds;
