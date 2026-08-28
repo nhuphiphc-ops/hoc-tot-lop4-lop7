@@ -1,10 +1,11 @@
 // Web Audio API & Direct Studio-Quality Vietnamese Voice Engine for Cong Nguyen & Nhat Minh
-import { 
-  VOICE_PRAISE_BASE64, 
-  VOICE_ENCOURAGE_BASE64,
-  VOICE_PRAISE_MINH_BASE64,
-  VOICE_ENCOURAGE_MINH_BASE64
-} from './voiceAudios';
+
+const AUDIO_PATHS = {
+  PRAISE_NGUYEN: '/audio/voice_praise.mp3',
+  ENCOURAGE_NGUYEN: '/audio/voice_encourage.mp3',
+  PRAISE_MINH: '/audio/voice_praise_minh.mp3',
+  ENCOURAGE_MINH: '/audio/voice_encourage_minh.mp3'
+};
 
 class SoundManager {
   constructor() {
@@ -12,6 +13,7 @@ class SoundManager {
     this.enabled = true;
     this.currentAudio = null;
     this.vietnameseVoice = null;
+    this.audioCache = {};
 
     // Read sound setting from localStorage
     try {
@@ -27,6 +29,7 @@ class SoundManager {
       const unlockAudio = () => {
         this.initContext();
         this.loadVoices();
+        this.preloadAudios();
         window.removeEventListener('click', unlockAudio);
         window.removeEventListener('touchstart', unlockAudio);
       };
@@ -41,6 +44,18 @@ class SoundManager {
         };
       }
     }
+  }
+
+  preloadAudios() {
+    if (typeof window === 'undefined') return;
+    Object.values(AUDIO_PATHS).forEach(path => {
+      try {
+        const a = new Audio();
+        a.src = path;
+        a.preload = 'auto';
+        this.audioCache[path] = a;
+      } catch {}
+    });
   }
 
   loadVoices() {
@@ -58,7 +73,8 @@ class SoundManager {
   }
 
   initContext() {
-    if (!this.ctx && typeof window !== 'undefined') {
+    if (typeof window === 'undefined') return;
+    if (!this.ctx) {
       const AudioCtx = window.AudioContext || window.webkitAudioContext;
       if (AudioCtx) {
         this.ctx = new AudioCtx();
@@ -77,6 +93,7 @@ class SoundManager {
       // ignore
     }
     if (this.enabled) {
+      this.initContext();
       this.playClick();
       this.speak("Đã bật âm thanh");
     } else {
@@ -108,8 +125,8 @@ class SoundManager {
     return this.enabled;
   }
 
-  // Play direct Base64 Audio Clip for 100% reliability on Samsung Galaxy & mobile browsers
-  playVoiceAudio(base64Audio, fallbackText) {
+  // Play direct Audio file with fallback to SpeechSynthesis
+  playVoiceAudio(audioSrc, fallbackText) {
     if (!this.enabled) return;
     if (typeof window === 'undefined') return;
 
@@ -120,14 +137,20 @@ class SoundManager {
         this.currentAudio = null;
       }
 
-      const audio = new Audio(base64Audio);
+      let audio = this.audioCache[audioSrc];
+      if (!audio) {
+        audio = new Audio(audioSrc);
+        this.audioCache[audioSrc] = audio;
+      }
+
       this.currentAudio = audio;
       audio.volume = 1.0;
+      audio.currentTime = 0;
 
       const playPromise = audio.play();
       if (playPromise !== undefined) {
         playPromise.catch((err) => {
-          console.warn("Direct audio play prevented, falling back to Web Speech:", err);
+          console.warn("Audio file play prevented, falling back to Web Speech:", err);
           this.speakWebSpeech(fallbackText);
         });
       }
@@ -143,18 +166,18 @@ class SoundManager {
     if (isGrade12) {
       if (score === 100) {
         this.playVictory();
-        this.playVoiceAudio(VOICE_PRAISE_MINH_BASE64, "Nhật Minh của bố quá tuyệt vời!");
+        this.playVoiceAudio(AUDIO_PATHS.PRAISE_MINH, "Nhật Minh của bố quá tuyệt vời!");
       } else {
         this.playCorrect();
-        this.playVoiceAudio(VOICE_ENCOURAGE_MINH_BASE64, "Nhật Minh cố gắng hơn tí nữa nhé!");
+        this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_MINH, "Nhật Minh cố gắng hơn tí nữa nhé!");
       }
     } else {
       if (score === 100) {
         this.playVictory();
-        this.playVoiceAudio(VOICE_PRAISE_BASE64, "Công Nguyên của bố quá tuyệt vời!");
+        this.playVoiceAudio(AUDIO_PATHS.PRAISE_NGUYEN, "Công Nguyên của bố quá tuyệt vời!");
       } else {
         this.playCorrect();
-        this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, "Công Nguyên cố gắng hơn tí nữa nhé!");
+        this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_NGUYEN, "Công Nguyên cố gắng hơn tí nữa nhé!");
       }
     }
   }
@@ -165,13 +188,13 @@ class SoundManager {
     if (typeof window === 'undefined') return;
 
     if (text.includes("Nhật Minh") && text.includes("tuyệt vời")) {
-      this.playVoiceAudio(VOICE_PRAISE_MINH_BASE64, text);
+      this.playVoiceAudio(AUDIO_PATHS.PRAISE_MINH, text);
     } else if (text.includes("Nhật Minh") && text.includes("cố gắng")) {
-      this.playVoiceAudio(VOICE_ENCOURAGE_MINH_BASE64, text);
+      this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_MINH, text);
     } else if (text.includes("Công Nguyên") && text.includes("tuyệt vời")) {
-      this.playVoiceAudio(VOICE_PRAISE_BASE64, text);
+      this.playVoiceAudio(AUDIO_PATHS.PRAISE_NGUYEN, text);
     } else if (text.includes("Công Nguyên") && text.includes("cố gắng")) {
-      this.playVoiceAudio(VOICE_ENCOURAGE_BASE64, text);
+      this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_NGUYEN, text);
     } else {
       this.speakWebSpeech(text);
     }
@@ -198,143 +221,100 @@ class SoundManager {
       }
 
       window.speechSynthesis.speak(utterance);
-    } catch (e) {
-      console.warn("Web Speech API error:", e);
+    } catch {
+      // Speech synthesis error fallback
     }
   }
 
-  playTone(freq, type = 'sine', duration = 0.15, gainVal = 0.1, startDelay = 0) {
+  playTone(freq, type, duration, delay = 0, gainLevel = 0.15) {
     if (!this.enabled) return;
     this.initContext();
     if (!this.ctx) return;
 
     try {
-      const now = this.ctx.currentTime + startDelay;
       const osc = this.ctx.createOscillator();
       const gain = this.ctx.createGain();
 
       osc.type = type;
-      osc.frequency.setValueAtTime(freq, now);
+      osc.frequency.setValueAtTime(freq, this.ctx.currentTime + delay);
 
-      gain.gain.setValueAtTime(gainVal, now);
-      gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
-
-      osc.connect(gain);
-      gain.connect(this.ctx.destination);
-
-      osc.start(now);
-      osc.stop(now + duration);
-    } catch {
-      // Ignore audio scheduling exceptions
-    }
-  }
-
-  // Click button sound (warm wooden pop)
-  playClick() {
-    if (!this.enabled) return;
-    this.initContext();
-    if (!this.ctx) return;
-    try {
-      const now = this.ctx.currentTime;
-      const osc = this.ctx.createOscillator();
-      const gain = this.ctx.createGain();
-
-      osc.type = 'triangle';
-      osc.frequency.setValueAtTime(320, now);
-      osc.frequency.exponentialRampToValueAtTime(160, now + 0.06);
-
-      gain.gain.setValueAtTime(0.12, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+      gain.gain.setValueAtTime(gainLevel, this.ctx.currentTime + delay);
+      gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + delay + duration);
 
       osc.connect(gain);
       gain.connect(this.ctx.destination);
-      osc.start(now);
-      osc.stop(now + 0.06);
-    } catch {
-      // ignore
+
+      osc.start(this.ctx.currentTime + delay);
+      osc.stop(this.ctx.currentTime + delay + duration);
+    } catch (e) {
+      // Web Audio playback error catch
     }
   }
 
-  // Pop sound
-  playPop() {
-    this.playClick();
-  }
-
-  // Start exam sound
-  playStart() {
-    if (!this.enabled) return;
-    this.playTone(440, 'sine', 0.12, 0.12, 0);    // A4
-    this.playTone(554.37, 'sine', 0.12, 0.12, 0.08); // C#5
-    this.playTone(659.25, 'sine', 0.25, 0.15, 0.16); // E5
-  }
-
-  // Option selected sound
-  playSelect() {
-    if (!this.enabled) return;
-    this.playTone(523.25, 'sine', 0.1, 0.12); // C5
-  }
-
-  // Correct answer sound (Joyful sparkling bell)
   playCorrect() {
-    if (!this.enabled) return;
-    this.playTone(523.25, 'sine', 0.18, 0.15, 0);    // C5
-    this.playTone(659.25, 'sine', 0.22, 0.15, 0.08); // E5
-    this.playTone(783.99, 'triangle', 0.35, 0.18, 0.16); // G5
+    this.playTone(523.25, 'sine', 0.15, 0, 0.2); // C5
+    this.playTone(659.25, 'sine', 0.2, 0.1, 0.2); // E5
+    this.playTone(783.99, 'sine', 0.3, 0.2, 0.25); // G5
   }
 
-  // Wrong answer sound (Gentle soft bonk)
   playWrong() {
-    if (!this.enabled) return;
-    this.playTone(280, 'sine', 0.15, 0.12, 0);
-    this.playTone(220, 'triangle', 0.22, 0.12, 0.1);
+    this.playTone(329.63, 'sawtooth', 0.2, 0, 0.15); // E4
+    this.playTone(277.18, 'sawtooth', 0.35, 0.15, 0.2); // C#4
   }
 
-  // Complete exam / Victory fanfare
+  playClick() {
+    this.playTone(800, 'triangle', 0.04, 0, 0.08);
+  }
+
+  playPop() {
+    this.playTone(600, 'sine', 0.06, 0, 0.1);
+    this.playTone(900, 'sine', 0.08, 0.04, 0.1);
+  }
+
   playVictory() {
-    if (!this.enabled) return;
     const notes = [
       { f: 523.25, d: 0.12, t: 0 },    // C5
-      { f: 659.25, d: 0.12, t: 0.1 },  // E5
-      { f: 783.99, d: 0.12, t: 0.2 },  // G5
-      { f: 1046.5, d: 0.45, t: 0.3 },  // C6
+      { f: 659.25, d: 0.12, t: 0.12 }, // E5
+      { f: 783.99, d: 0.12, t: 0.24 }, // G5
+      { f: 1046.50, d: 0.4, t: 0.36 }  // C6
     ];
-    notes.forEach(n => {
-      this.playTone(n.f, 'triangle', n.d, 0.16, n.t);
-    });
+    notes.forEach(n => this.playTone(n.f, 'triangle', n.d, n.t, 0.25));
   }
 
-  // Unlock next stage/week sound
   playUnlock() {
-    if (!this.enabled) return;
     const notes = [
-      { f: 440, t: 0 },
-      { f: 554.37, t: 0.08 },
-      { f: 659.25, t: 0.16 },
-      { f: 880, t: 0.24 },
+      { f: 440, d: 0.1, t: 0 },    // A4
+      { f: 554.37, d: 0.1, t: 0.08 }, // C#5
+      { f: 659.25, d: 0.1, t: 0.16 }, // E5
+      { f: 880, d: 0.3, t: 0.24 }     // A5
     ];
-    notes.forEach(n => {
-      this.playTone(n.f, 'sine', 0.25, 0.12, n.t);
-    });
+    notes.forEach(n => this.playTone(n.f, 'sine', n.d, n.t, 0.2));
+  }
+
+  playStart() {
+    this.playTone(440, 'triangle', 0.1, 0, 0.15);
+    this.playTone(880, 'triangle', 0.2, 0.08, 0.2);
+  }
+
+  playStreak() {
+    const notes = [
+      { f: 392.00, d: 0.1, t: 0 },    // G4
+      { f: 523.25, d: 0.1, t: 0.09 }, // C5
+      { f: 659.25, d: 0.1, t: 0.18 }, // E5
+      { f: 783.99, d: 0.1, t: 0.27 }, // G5
+      { f: 1046.50, d: 0.35, t: 0.36 } // C6
+    ];
+    notes.forEach(n => this.playTone(n.f, 'sine', n.d, n.t, 0.25));
+  }
+
+  playTimerTick() {
+    this.playTone(1200, 'sine', 0.03, 0, 0.05);
+  }
+
+  playTimerWarning() {
+    this.playTone(880, 'sawtooth', 0.08, 0, 0.12);
   }
 }
 
-const rawSounds = new SoundManager();
-
-// Safe Proxy to prevent ANY missing sound method from crashing React
-export const sounds = new Proxy(rawSounds, {
-  get(target, prop) {
-    if (prop in target) {
-      return typeof target[prop] === 'function' ? target[prop].bind(target) : target[prop];
-    }
-    // Fallback if an unknown sound method is called
-    return () => {
-      try {
-        target.playClick();
-      } catch {
-        // ignore
-      }
-    };
-  }
-});
-
+const sounds = new SoundManager();
 export default sounds;
