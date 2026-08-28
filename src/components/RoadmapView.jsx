@@ -147,9 +147,16 @@ export const RoadmapView = ({ onStartQuiz }) => {
         ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600'
         : 'bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600';
     }
-    return isMath
-      ? 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600'
-      : 'bg-gradient-to-r from-purple-600 via-rose-600 to-indigo-600';
+    // Grade 7
+    if (currentSubject === 'math') return 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600';
+    if (currentSubject === 'vietnamese') return 'bg-gradient-to-r from-purple-600 via-rose-600 to-indigo-600';
+    if (currentSubject === 'english') return 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600';
+    if (currentSubject === 'science') return 'bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600';
+    if (currentSubject === 'history_geo') return 'bg-gradient-to-r from-amber-600 via-orange-600 to-red-600';
+    if (currentSubject === 'informatics') return 'bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600';
+    if (currentSubject === 'civics') return 'bg-gradient-to-r from-pink-600 via-rose-600 to-purple-600';
+    if (currentSubject === 'technology') return 'bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600';
+    return 'bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600';
   };
 
   return (
@@ -185,35 +192,66 @@ export const RoadmapView = ({ onStartQuiz }) => {
         </div>
 
         {/* Subject Selection Buttons */}
-        <div className="flex items-center gap-2 w-full md:w-auto justify-center">
-          <button
-            type="button"
-            onClick={() => switchSubject('math')}
-            className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
-              isMath
-                ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 border-amber-300 shadow-md ring-2 ring-amber-300 scale-105'
-                : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-            }`}
-          >
-            <Calculator className="w-4 h-4" />
-            <span>Toán {currentGrade}</span>
-          </button>
+        {isGrade7 ? (
+          <div className="flex items-center gap-1.5 flex-wrap w-full md:w-auto justify-center">
+            {[
+              { id: 'math', label: 'Toán 7', color: 'from-blue-500 to-indigo-600' },
+              { id: 'vietnamese', label: 'Ngữ Văn 7', color: 'from-rose-500 to-purple-600' },
+              { id: 'english', label: 'Tiếng Anh 7', color: 'from-emerald-500 to-teal-600' },
+              { id: 'science', label: 'KHTN 7', color: 'from-purple-500 to-indigo-700' },
+              { id: 'history_geo', label: 'Sử & Địa 7', color: 'from-amber-500 to-orange-600' },
+              { id: 'informatics', label: 'Tin Học 7', color: 'from-cyan-500 to-blue-600' },
+              { id: 'civics', label: 'GDCD 7', color: 'from-pink-500 to-rose-600' },
+              { id: 'technology', label: 'Công Nghệ 7', color: 'from-green-500 to-emerald-600' },
+            ].map(subj => {
+              const isSelected = currentSubject === subj.id;
+              return (
+                <button
+                  key={subj.id}
+                  type="button"
+                  onClick={() => switchSubject(subj.id)}
+                  className={`px-3 py-1.5 rounded-2xl font-black text-xs sm:text-sm transition-all cursor-pointer border-2 ${
+                    isSelected
+                      ? `bg-gradient-to-r ${subj.color} text-white shadow-md ring-2 ring-amber-300 scale-105`
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <span>{subj.label}</span>
+                </button>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="flex items-center gap-2 w-full md:w-auto justify-center">
+            <button
+              type="button"
+              onClick={() => switchSubject('math')}
+              className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
+                isMath
+                  ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 border-amber-300 shadow-md ring-2 ring-amber-300 scale-105'
+                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+              }`}
+            >
+              <Calculator className="w-4 h-4" />
+              <span>Toán {currentGrade}</span>
+            </button>
 
-          <button
-            type="button"
-            onClick={() => switchSubject('vietnamese')}
-            className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
-              !isMath
-                ? isSecondary
-                  ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white border-rose-400 shadow-md ring-2 ring-rose-300 scale-105'
-                  : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white border-rose-300 shadow-md ring-2 ring-rose-300 scale-105'
-                : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-            }`}
-          >
-            <BookOpen className="w-4 h-4" />
-            <span>{isSecondary ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`}</span>
-          </button>
-        </div>
+            <button
+              type="button"
+              onClick={() => switchSubject('vietnamese')}
+              className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
+                !isMath
+                  ? isSecondary
+                    ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white border-rose-400 shadow-md ring-2 ring-rose-300 scale-105'
+                    : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white border-rose-300 shadow-md ring-2 ring-rose-300 scale-105'
+                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+              }`}
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>{isSecondary ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`}</span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Hero Banner with Adventure Stats */}

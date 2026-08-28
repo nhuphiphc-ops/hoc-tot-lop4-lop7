@@ -13,11 +13,30 @@ import { STAGES_TV5, TOPIC_CATEGORIES_TV5, WEEKS_METADATA_TV5, QUESTION_BANK_TV5
 import { STAGES_MATH6, TOPIC_CATEGORIES_MATH6, WEEKS_METADATA_MATH6, QUESTION_BANK_MATH6, getQuestionsByWeekMath6, getFilteredQuestionsMath6 } from '../data/grade6/math/questionBankMath6.js';
 import { STAGES_LIT6, TOPIC_CATEGORIES_LIT6, WEEKS_METADATA_LIT6, QUESTION_BANK_LIT6, getQuestionsByWeekLit6, getFilteredQuestionsLit6 } from '../data/grade6/literature/questionBankLit6.js';
 
-// Grade 7 Data
+// Grade 7 Core Data (Toán & Ngữ Văn)
 import { STAGES_MATH7, TOPIC_CATEGORIES_MATH7, WEEKS_METADATA_MATH7, QUESTION_BANK_MATH7, getQuestionsByWeekMath7, getFilteredQuestionsMath7 } from '../data/grade7/math/questionBankMath7.js';
 import { STAGES_LIT7, TOPIC_CATEGORIES_LIT7, WEEKS_METADATA_LIT7, QUESTION_BANK_LIT7, getQuestionsByWeekLit7, getFilteredQuestionsLit7 } from '../data/grade7/literature/questionBankLit7.js';
 
+// Grade 7 Extended Subjects (Tiếng Anh, KHTN, Sử Địa, Tin Học, GDCD, Công Nghệ)
+import { STAGES_ENG7, TOPIC_CATEGORIES_ENG7, WEEKS_METADATA_ENG7, QUESTION_BANK_ENG7, getQuestionsByWeekENG7, getFilteredQuestionsENG7 } from '../data/grade7/english/questionBankEng7.js';
+import { STAGES_SCI7, TOPIC_CATEGORIES_SCI7, WEEKS_METADATA_SCI7, QUESTION_BANK_SCI7, getQuestionsByWeekSCI7, getFilteredQuestionsSCI7 } from '../data/grade7/science/questionBankScience7.js';
+import { STAGES_HISGEO7, TOPIC_CATEGORIES_HISGEO7, WEEKS_METADATA_HISGEO7, QUESTION_BANK_HISGEO7, getQuestionsByWeekHISGEO7, getFilteredQuestionsHISGEO7 } from '../data/grade7/history_geo/questionBankHistoryGeo7.js';
+import { STAGES_INFO7, TOPIC_CATEGORIES_INFO7, WEEKS_METADATA_INFO7, QUESTION_BANK_INFO7, getQuestionsByWeekINFO7, getFilteredQuestionsINFO7 } from '../data/grade7/informatics/questionBankInformatics7.js';
+import { STAGES_CIV7, TOPIC_CATEGORIES_CIV7, WEEKS_METADATA_CIV7, QUESTION_BANK_CIV7, getQuestionsByWeekCIV7, getFilteredQuestionsCIV7 } from '../data/grade7/civics/questionBankCivics7.js';
+import { STAGES_TECH7, TOPIC_CATEGORIES_TECH7, WEEKS_METADATA_TECH7, QUESTION_BANK_TECH7, getQuestionsByWeekTECH7, getFilteredQuestionsTECH7 } from '../data/grade7/technology/questionBankTech7.js';
+
 const LearningContext = createContext();
+
+export const GRADE_7_SUBJECTS = [
+  { id: 'math', label: 'Toán 7', icon: 'Calculator', color: 'from-blue-500 to-indigo-600', badgeColor: 'bg-blue-100 text-blue-800' },
+  { id: 'vietnamese', label: 'Ngữ Văn 7', icon: 'BookOpen', color: 'from-rose-500 to-purple-600', badgeColor: 'bg-rose-100 text-rose-800' },
+  { id: 'english', label: 'Tiếng Anh 7', icon: 'Globe', color: 'from-emerald-500 to-teal-600', badgeColor: 'bg-emerald-100 text-emerald-800' },
+  { id: 'science', label: 'KHTN 7', icon: 'Atom', color: 'from-purple-500 to-indigo-700', badgeColor: 'bg-purple-100 text-purple-800' },
+  { id: 'history_geo', label: 'Lịch Sử & Địa Lí 7', icon: 'Compass', color: 'from-amber-500 to-orange-600', badgeColor: 'bg-amber-100 text-amber-800' },
+  { id: 'informatics', label: 'Tin Học 7', icon: 'Laptop', color: 'from-cyan-500 to-blue-600', badgeColor: 'bg-cyan-100 text-cyan-800' },
+  { id: 'civics', label: 'GDCD 7', icon: 'HeartHandshake', color: 'from-pink-500 to-rose-600', badgeColor: 'bg-pink-100 text-pink-800' },
+  { id: 'technology', label: 'Công Nghệ 7', icon: 'Wrench', color: 'from-green-500 to-emerald-600', badgeColor: 'bg-green-100 text-green-800' },
+];
 
 export const SHOP_MASCOTS = [
   { id: 'elephant', name: 'Voi Thông Thái', emoji: '🐘', desc: 'Kiên trì và ghi nhớ siêu đẳng', price: 0 },
@@ -44,6 +63,12 @@ const STORAGE_KEYS = {
   PROGRESS_G6_LIT: 'toan6_week_progress_lit',
   PROGRESS_G7_MATH: 'toan7_week_progress_math',
   PROGRESS_G7_LIT: 'toan7_week_progress_lit',
+  PROGRESS_G7_ENG: 'toan7_week_progress_eng',
+  PROGRESS_G7_SCI: 'toan7_week_progress_sci',
+  PROGRESS_G7_HISGEO: 'toan7_week_progress_hisgeo',
+  PROGRESS_G7_INFO: 'toan7_week_progress_info',
+  PROGRESS_G7_CIV: 'toan7_week_progress_civ',
+  PROGRESS_G7_TECH: 'toan7_week_progress_tech',
   HISTORY: 'toan_quiz_history',
   WRONG_G4_MATH: 'toan4_wrong_questions',
   WRONG_G4_TV: 'toan4_wrong_questions_tv',
@@ -53,6 +78,12 @@ const STORAGE_KEYS = {
   WRONG_G6_LIT: 'toan6_wrong_questions_lit',
   WRONG_G7_MATH: 'toan7_wrong_questions_math',
   WRONG_G7_LIT: 'toan7_wrong_questions_lit',
+  WRONG_G7_ENG: 'toan7_wrong_questions_eng',
+  WRONG_G7_SCI: 'toan7_wrong_questions_sci',
+  WRONG_G7_HISGEO: 'toan7_wrong_questions_hisgeo',
+  WRONG_G7_INFO: 'toan7_wrong_questions_info',
+  WRONG_G7_CIV: 'toan7_wrong_questions_civ',
+  WRONG_G7_TECH: 'toan7_wrong_questions_tech',
   BADGES: 'toan_badges',
   STREAK: 'toan_streak_data',
   FREE_MODE: 'toan_free_mode',
@@ -95,11 +126,11 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
-  // Current active Subject: 'math' | 'vietnamese'
+  // Current active Subject
   const [currentSubject, setCurrentSubject] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.SUBJECT);
-      return saved === 'vietnamese' ? 'vietnamese' : 'math';
+      return saved || 'math';
     } catch {
       return 'math';
     }
@@ -124,77 +155,106 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
-  // Progress Stores
+  // Progress Stores - Grade 4
   const [g4MathProgress, setG4MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G4_MATH);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
   const [g4TvProgress, setG4TvProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G4_TV);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
+  // Progress Stores - Grade 5
   const [g5MathProgress, setG5MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G5_MATH);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
   const [g5TvProgress, setG5TvProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G5_TV);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
+  // Progress Stores - Grade 6
   const [g6MathProgress, setG6MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G6_MATH);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
   const [g6LitProgress, setG6LitProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G6_LIT);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
+  // Progress Stores - Grade 7 Core & Extended
   const [g7MathProgress, setG7MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_MATH);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
   const [g7LitProgress, setG7LitProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_LIT);
       return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    } catch {
-      return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
-    }
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  const [g7EngProgress, setG7EngProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_ENG);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  const [g7SciProgress, setG7SciProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_SCI);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  const [g7HisGeoProgress, setG7HisGeoProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_HISGEO);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  const [g7InfoProgress, setG7InfoProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_INFO);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  const [g7CivProgress, setG7CivProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_CIV);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  const [g7TechProgress, setG7TechProgress] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G7_TECH);
+      return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } };
+    } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
   // Quiz History
@@ -202,9 +262,7 @@ export const LearningProvider = ({ children }) => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.HISTORY);
       return saved ? JSON.parse(saved) : [];
-    } catch {
-      return [];
-    }
+    } catch { return []; }
   });
 
   // Wrong Questions Stores
@@ -260,6 +318,48 @@ export const LearningProvider = ({ children }) => {
   const [g7LitWrong, setG7LitWrong] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_LIT);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g7EngWrong, setG7EngWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_ENG);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g7SciWrong, setG7SciWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_SCI);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g7HisGeoWrong, setG7HisGeoWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_HISGEO);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g7InfoWrong, setG7InfoWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_INFO);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g7CivWrong, setG7CivWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_CIV);
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
+
+  const [g7TechWrong, setG7TechWrong] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WRONG_G7_TECH);
       return saved ? JSON.parse(saved) : [];
     } catch { return []; }
   });
@@ -325,6 +425,12 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G6_LIT, JSON.stringify(g6LitProgress)); }, [g6LitProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_MATH, JSON.stringify(g7MathProgress)); }, [g7MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_LIT, JSON.stringify(g7LitProgress)); }, [g7LitProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_ENG, JSON.stringify(g7EngProgress)); }, [g7EngProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_SCI, JSON.stringify(g7SciProgress)); }, [g7SciProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_HISGEO, JSON.stringify(g7HisGeoProgress)); }, [g7HisGeoProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_INFO, JSON.stringify(g7InfoProgress)); }, [g7InfoProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_CIV, JSON.stringify(g7CivProgress)); }, [g7CivProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_TECH, JSON.stringify(g7TechProgress)); }, [g7TechProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(history)); }, [history]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G4_MATH, JSON.stringify(g4MathWrong)); }, [g4MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G4_TV, JSON.stringify(g4TvWrong)); }, [g4TvWrong]);
@@ -334,6 +440,12 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G6_LIT, JSON.stringify(g6LitWrong)); }, [g6LitWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_MATH, JSON.stringify(g7MathWrong)); }, [g7MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_LIT, JSON.stringify(g7LitWrong)); }, [g7LitWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_ENG, JSON.stringify(g7EngWrong)); }, [g7EngWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_SCI, JSON.stringify(g7SciWrong)); }, [g7SciWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_HISGEO, JSON.stringify(g7HisGeoWrong)); }, [g7HisGeoWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_INFO, JSON.stringify(g7InfoWrong)); }, [g7InfoWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_CIV, JSON.stringify(g7CivWrong)); }, [g7CivWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_TECH, JSON.stringify(g7TechWrong)); }, [g7TechWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(unlockedBadges)); }, [unlockedBadges]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.STREAK, JSON.stringify(streakData)); }, [streakData]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.FREE_MODE, JSON.stringify(isFreeMode)); }, [isFreeMode]);
@@ -356,7 +468,17 @@ export const LearningProvider = ({ children }) => {
     ? (isMath ? g5MathProgress : g5TvProgress)
     : isGrade6
     ? (isMath ? g6MathProgress : g6LitProgress)
-    : (isMath ? g7MathProgress : g7LitProgress);
+    : (
+      currentSubject === 'math' ? g7MathProgress :
+      currentSubject === 'vietnamese' ? g7LitProgress :
+      currentSubject === 'english' ? g7EngProgress :
+      currentSubject === 'science' ? g7SciProgress :
+      currentSubject === 'history_geo' ? g7HisGeoProgress :
+      currentSubject === 'informatics' ? g7InfoProgress :
+      currentSubject === 'civics' ? g7CivProgress :
+      currentSubject === 'technology' ? g7TechProgress :
+      g7MathProgress
+    );
 
   const wrongQuestions = isGrade4
     ? (isMath ? g4MathWrong : g4TvWrong)
@@ -364,7 +486,17 @@ export const LearningProvider = ({ children }) => {
     ? (isMath ? g5MathWrong : g5TvWrong)
     : isGrade6
     ? (isMath ? g6MathWrong : g6LitWrong)
-    : (isMath ? g7MathWrong : g7LitWrong);
+    : (
+      currentSubject === 'math' ? g7MathWrong :
+      currentSubject === 'vietnamese' ? g7LitWrong :
+      currentSubject === 'english' ? g7EngWrong :
+      currentSubject === 'science' ? g7SciWrong :
+      currentSubject === 'history_geo' ? g7HisGeoWrong :
+      currentSubject === 'informatics' ? g7InfoWrong :
+      currentSubject === 'civics' ? g7CivWrong :
+      currentSubject === 'technology' ? g7TechWrong :
+      g7MathWrong
+    );
 
   const currentBank = isGrade4
     ? (isMath ? QUESTION_BANK : QUESTION_BANK_TV)
@@ -372,7 +504,17 @@ export const LearningProvider = ({ children }) => {
     ? (isMath ? QUESTION_BANK_MATH5 : QUESTION_BANK_TV5)
     : isGrade6
     ? (isMath ? QUESTION_BANK_MATH6 : QUESTION_BANK_LIT6)
-    : (isMath ? QUESTION_BANK_MATH7 : QUESTION_BANK_LIT7);
+    : (
+      currentSubject === 'math' ? QUESTION_BANK_MATH7 :
+      currentSubject === 'vietnamese' ? QUESTION_BANK_LIT7 :
+      currentSubject === 'english' ? QUESTION_BANK_ENG7 :
+      currentSubject === 'science' ? QUESTION_BANK_SCI7 :
+      currentSubject === 'history_geo' ? QUESTION_BANK_HISGEO7 :
+      currentSubject === 'informatics' ? QUESTION_BANK_INFO7 :
+      currentSubject === 'civics' ? QUESTION_BANK_CIV7 :
+      currentSubject === 'technology' ? QUESTION_BANK_TECH7 :
+      QUESTION_BANK_MATH7
+    );
 
   const currentStages = isGrade4
     ? (isMath ? STAGES : STAGES_TV)
@@ -380,7 +522,17 @@ export const LearningProvider = ({ children }) => {
     ? (isMath ? STAGES_MATH5 : STAGES_TV5)
     : isGrade6
     ? (isMath ? STAGES_MATH6 : STAGES_LIT6)
-    : (isMath ? STAGES_MATH7 : STAGES_LIT7);
+    : (
+      currentSubject === 'math' ? STAGES_MATH7 :
+      currentSubject === 'vietnamese' ? STAGES_LIT7 :
+      currentSubject === 'english' ? STAGES_ENG7 :
+      currentSubject === 'science' ? STAGES_SCI7 :
+      currentSubject === 'history_geo' ? STAGES_HISGEO7 :
+      currentSubject === 'informatics' ? STAGES_INFO7 :
+      currentSubject === 'civics' ? STAGES_CIV7 :
+      currentSubject === 'technology' ? STAGES_TECH7 :
+      STAGES_MATH7
+    );
 
   const currentCategories = isGrade4
     ? (isMath ? TOPIC_CATEGORIES : TOPIC_CATEGORIES_TV)
@@ -388,7 +540,17 @@ export const LearningProvider = ({ children }) => {
     ? (isMath ? TOPIC_CATEGORIES_MATH5 : TOPIC_CATEGORIES_TV5)
     : isGrade6
     ? (isMath ? TOPIC_CATEGORIES_MATH6 : TOPIC_CATEGORIES_LIT6)
-    : (isMath ? TOPIC_CATEGORIES_MATH7 : TOPIC_CATEGORIES_LIT7);
+    : (
+      currentSubject === 'math' ? TOPIC_CATEGORIES_MATH7 :
+      currentSubject === 'vietnamese' ? TOPIC_CATEGORIES_LIT7 :
+      currentSubject === 'english' ? TOPIC_CATEGORIES_ENG7 :
+      currentSubject === 'science' ? TOPIC_CATEGORIES_SCI7 :
+      currentSubject === 'history_geo' ? TOPIC_CATEGORIES_HISGEO7 :
+      currentSubject === 'informatics' ? TOPIC_CATEGORIES_INFO7 :
+      currentSubject === 'civics' ? TOPIC_CATEGORIES_CIV7 :
+      currentSubject === 'technology' ? TOPIC_CATEGORIES_TECH7 :
+      TOPIC_CATEGORIES_MATH7
+    );
 
   const currentMetadata = isGrade4
     ? (isMath ? WEEKS_METADATA : WEEKS_METADATA_TV)
@@ -396,23 +558,51 @@ export const LearningProvider = ({ children }) => {
     ? (isMath ? WEEKS_METADATA_MATH5 : WEEKS_METADATA_TV5)
     : isGrade6
     ? (isMath ? WEEKS_METADATA_MATH6 : WEEKS_METADATA_LIT6)
-    : (isMath ? WEEKS_METADATA_MATH7 : WEEKS_METADATA_LIT7);
+    : (
+      currentSubject === 'math' ? WEEKS_METADATA_MATH7 :
+      currentSubject === 'vietnamese' ? WEEKS_METADATA_LIT7 :
+      currentSubject === 'english' ? WEEKS_METADATA_ENG7 :
+      currentSubject === 'science' ? WEEKS_METADATA_SCI7 :
+      currentSubject === 'history_geo' ? WEEKS_METADATA_HISGEO7 :
+      currentSubject === 'informatics' ? WEEKS_METADATA_INFO7 :
+      currentSubject === 'civics' ? WEEKS_METADATA_CIV7 :
+      currentSubject === 'technology' ? WEEKS_METADATA_TECH7 :
+      WEEKS_METADATA_MATH7
+    );
 
-  const getQuestionsByWeekDynamic = isGrade4
-    ? (isMath ? getQuestionsByWeek : getQuestionsByWeekTV)
-    : isGrade5
-    ? (isMath ? getQuestionsByWeekMath5 : getQuestionsByWeekTV5)
-    : isGrade6
-    ? (isMath ? getQuestionsByWeekMath6 : getQuestionsByWeekLit6)
-    : (isMath ? getQuestionsByWeekMath7 : getQuestionsByWeekLit7);
+  const getQuestionsByWeekDynamic = (weekNum) => {
+    if (isGrade4) return isMath ? getQuestionsByWeek(weekNum) : getQuestionsByWeekTV(weekNum);
+    if (isGrade5) return isMath ? getQuestionsByWeekMath5(weekNum) : getQuestionsByWeekTV5(weekNum);
+    if (isGrade6) return isMath ? getQuestionsByWeekMath6(weekNum) : getQuestionsByWeekLit6(weekNum);
+    
+    // Grade 7
+    if (currentSubject === 'math') return getQuestionsByWeekMath7(weekNum);
+    if (currentSubject === 'vietnamese') return getQuestionsByWeekLit7(weekNum);
+    if (currentSubject === 'english') return getQuestionsByWeekENG7(weekNum);
+    if (currentSubject === 'science') return getQuestionsByWeekSCI7(weekNum);
+    if (currentSubject === 'history_geo') return getQuestionsByWeekHISGEO7(weekNum);
+    if (currentSubject === 'informatics') return getQuestionsByWeekINFO7(weekNum);
+    if (currentSubject === 'civics') return getQuestionsByWeekCIV7(weekNum);
+    if (currentSubject === 'technology') return getQuestionsByWeekTECH7(weekNum);
+    return getQuestionsByWeekMath7(weekNum);
+  };
 
-  const getFilteredQuestionsDynamic = isGrade4
-    ? (isMath ? getFilteredQuestions : getFilteredQuestionsTV)
-    : isGrade5
-    ? (isMath ? getFilteredQuestionsMath5 : getFilteredQuestionsTV5)
-    : isGrade6
-    ? (isMath ? getFilteredQuestionsMath6 : getFilteredQuestionsLit6)
-    : (isMath ? getFilteredQuestionsMath7 : getFilteredQuestionsLit7);
+  const getFilteredQuestionsDynamic = (params) => {
+    if (isGrade4) return isMath ? getFilteredQuestions(params) : getFilteredQuestionsTV(params);
+    if (isGrade5) return isMath ? getFilteredQuestionsMath5(params) : getFilteredQuestionsTV5(params);
+    if (isGrade6) return isMath ? getFilteredQuestionsMath6(params) : getFilteredQuestionsLit6(params);
+    
+    // Grade 7
+    if (currentSubject === 'math') return getFilteredQuestionsMath7(params);
+    if (currentSubject === 'vietnamese') return getFilteredQuestionsLit7(params);
+    if (currentSubject === 'english') return getFilteredQuestionsENG7(params);
+    if (currentSubject === 'science') return getFilteredQuestionsSCI7(params);
+    if (currentSubject === 'history_geo') return getFilteredQuestionsHISGEO7(params);
+    if (currentSubject === 'informatics') return getFilteredQuestionsINFO7(params);
+    if (currentSubject === 'civics') return getFilteredQuestionsCIV7(params);
+    if (currentSubject === 'technology') return getFilteredQuestionsTECH7(params);
+    return getFilteredQuestionsMath7(params);
+  };
 
   // Calculate stars
   const totalStars = Object.values(progress).reduce((sum, item) => sum + (item.stars || 0), 0);
@@ -472,8 +662,14 @@ export const LearningProvider = ({ children }) => {
       if (isMath) setG6MathWrong(filterFn);
       else setG6LitWrong(filterFn);
     } else if (isGrade7) {
-      if (isMath) setG7MathWrong(filterFn);
-      else setG7LitWrong(filterFn);
+      if (currentSubject === 'math') setG7MathWrong(filterFn);
+      else if (currentSubject === 'vietnamese') setG7LitWrong(filterFn);
+      else if (currentSubject === 'english') setG7EngWrong(filterFn);
+      else if (currentSubject === 'science') setG7SciWrong(filterFn);
+      else if (currentSubject === 'history_geo') setG7HisGeoWrong(filterFn);
+      else if (currentSubject === 'informatics') setG7InfoWrong(filterFn);
+      else if (currentSubject === 'civics') setG7CivWrong(filterFn);
+      else if (currentSubject === 'technology') setG7TechWrong(filterFn);
     }
     sounds.playClick();
   };
@@ -481,7 +677,6 @@ export const LearningProvider = ({ children }) => {
   // Buy Mascot in Shop using coins (Safe transaction)
   const buyShopMascot = (mascotId, price) => {
     if (unlockedMascots.includes(mascotId)) {
-      // Already owned, just equip
       setProfile(prev => ({ ...prev, mascot: mascotId }));
       sounds.playClick();
       return { success: true, message: 'Đã chọn linh vật!' };
@@ -491,7 +686,6 @@ export const LearningProvider = ({ children }) => {
       return { success: false, message: `Bé cần thêm ${price - coins} Xu để mở khóa linh vật này!` };
     }
 
-    // Deduct coins & unlock
     setCoins(prev => prev - price);
     setUnlockedMascots(prev => [...prev, mascotId]);
     setProfile(prev => ({ ...prev, mascot: mascotId }));
@@ -506,7 +700,7 @@ export const LearningProvider = ({ children }) => {
   };
 
   const verifyParentPin = (inputPin) => {
-    if (!parentPin) return true; // No PIN set
+    if (!parentPin) return true;
     return String(inputPin).trim() === parentPin;
   };
 
@@ -555,8 +749,14 @@ export const LearningProvider = ({ children }) => {
       if (isActMath) setG6MathWrong(updateWrongList);
       else setG6LitWrong(updateWrongList);
     } else if (activeGrade === '7') {
-      if (isActMath) setG7MathWrong(updateWrongList);
-      else setG7LitWrong(updateWrongList);
+      if (activeSubj === 'math') setG7MathWrong(updateWrongList);
+      else if (activeSubj === 'vietnamese') setG7LitWrong(updateWrongList);
+      else if (activeSubj === 'english') setG7EngWrong(updateWrongList);
+      else if (activeSubj === 'science') setG7SciWrong(updateWrongList);
+      else if (activeSubj === 'history_geo') setG7HisGeoWrong(updateWrongList);
+      else if (activeSubj === 'informatics') setG7InfoWrong(updateWrongList);
+      else if (activeSubj === 'civics') setG7CivWrong(updateWrongList);
+      else if (activeSubj === 'technology') setG7TechWrong(updateWrongList);
     }
 
     // Update week progress
@@ -597,8 +797,14 @@ export const LearningProvider = ({ children }) => {
         if (isActMath) setG6MathProgress(updateProgressObj);
         else setG6LitProgress(updateProgressObj);
       } else if (activeGrade === '7') {
-        if (isActMath) setG7MathProgress(updateProgressObj);
-        else setG7LitProgress(updateProgressObj);
+        if (activeSubj === 'math') setG7MathProgress(updateProgressObj);
+        else if (activeSubj === 'vietnamese') setG7LitProgress(updateProgressObj);
+        else if (activeSubj === 'english') setG7EngProgress(updateProgressObj);
+        else if (activeSubj === 'science') setG7SciProgress(updateProgressObj);
+        else if (activeSubj === 'history_geo') setG7HisGeoProgress(updateProgressObj);
+        else if (activeSubj === 'informatics') setG7InfoProgress(updateProgressObj);
+        else if (activeSubj === 'civics') setG7CivProgress(updateProgressObj);
+        else if (activeSubj === 'technology') setG7TechProgress(updateProgressObj);
       }
     }
 
@@ -662,21 +868,28 @@ export const LearningProvider = ({ children }) => {
       } catch (e) {
         console.error(e);
       }
+
+      // If switching to Grade 4, 5, 6 and currentSubject is an extended Grade 7 subject, reset to 'math'
+      if (['4', '5', '6'].includes(gStr) && !['math', 'vietnamese'].includes(currentSubject)) {
+        setCurrentSubject('math');
+        try {
+          localStorage.setItem(STORAGE_KEYS.SUBJECT, 'math');
+        } catch { /* ignore */ }
+      }
+
       sounds.playClick();
     }
   };
 
-  // Switch Subject (Toán <-> Tiếng Việt / Ngữ Văn)
+  // Switch Subject
   const switchSubject = (subj) => {
-    if (subj === 'math' || subj === 'vietnamese') {
-      setCurrentSubject(subj);
-      try {
-        localStorage.setItem(STORAGE_KEYS.SUBJECT, subj);
-      } catch (e) {
-        console.error(e);
-      }
-      sounds.playClick();
+    setCurrentSubject(subj);
+    try {
+      localStorage.setItem(STORAGE_KEYS.SUBJECT, subj);
+    } catch (e) {
+      console.error(e);
     }
+    sounds.playClick();
   };
 
   // Check if week is unlocked

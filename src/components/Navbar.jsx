@@ -76,7 +76,17 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     if (isGrade4) return isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4';
     if (isGrade5) return isMath ? 'Toán Lớp 5' : 'Tiếng Việt 5';
     if (isGrade6) return isMath ? 'Toán Lớp 6' : 'Ngữ Văn 6';
-    if (isGrade7) return isMath ? 'Toán Lớp 7' : 'Ngữ Văn 7';
+    if (isGrade7) {
+      if (currentSubject === 'math') return 'Toán Lớp 7';
+      if (currentSubject === 'vietnamese') return 'Ngữ Văn 7';
+      if (currentSubject === 'english') return 'Tiếng Anh 7';
+      if (currentSubject === 'science') return 'KHTN 7';
+      if (currentSubject === 'history_geo') return 'Lịch Sử & Địa Lí 7';
+      if (currentSubject === 'informatics') return 'Tin Học 7';
+      if (currentSubject === 'civics') return 'GDCD 7';
+      if (currentSubject === 'technology') return 'Công Nghệ 7';
+      return 'Toán Lớp 7';
+    }
     return isMath ? 'Toán Học' : 'Tiếng Việt';
   };
 
@@ -153,36 +163,66 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             })}
           </div>
 
-          {/* Subject Switcher (Toán / Tiếng Việt - Ngữ Văn) */}
-          <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner">
-            <button
-              onClick={() => switchSubject('math')}
-              className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all ${
-                isMath
-                  ? isSecondary
-                    ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-sm scale-105'
-                    : 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 shadow-sm scale-105'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
-              }`}
-            >
-              <Calculator className="w-3.5 h-3.5" />
-              <span>🧮 Toán {currentGrade}</span>
-            </button>
+          {/* Subject Switcher */}
+          {isGrade7 ? (
+            <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
+              {[
+                { id: 'math', label: 'Toán 7', color: 'from-blue-500 to-indigo-600' },
+                { id: 'vietnamese', label: 'Ngữ Văn 7', color: 'from-rose-500 to-purple-600' },
+                { id: 'english', label: 'Tiếng Anh 7', color: 'from-emerald-500 to-teal-600' },
+                { id: 'science', label: 'KHTN 7', color: 'from-purple-500 to-indigo-700' },
+                { id: 'history_geo', label: 'Sử & Địa Lí 7', color: 'from-amber-500 to-orange-600' },
+                { id: 'informatics', label: 'Tin Học 7', color: 'from-cyan-500 to-blue-600' },
+                { id: 'civics', label: 'GDCD 7', color: 'from-pink-500 to-rose-600' },
+                { id: 'technology', label: 'Công Nghệ 7', color: 'from-green-500 to-emerald-600' },
+              ].map(subj => {
+                const isSubjActive = currentSubject === subj.id;
+                return (
+                  <button
+                    key={subj.id}
+                    onClick={() => switchSubject(subj.id)}
+                    className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                      isSubjActive
+                        ? `bg-gradient-to-r ${subj.color} text-white shadow-sm scale-105`
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                    }`}
+                  >
+                    <span>{subj.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="bg-slate-100 p-1 rounded-2xl border-2 border-slate-200 flex items-center gap-1 shadow-inner">
+              <button
+                onClick={() => switchSubject('math')}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all cursor-pointer ${
+                  isMath
+                    ? isSecondary
+                      ? 'bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-sm scale-105'
+                      : 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 shadow-sm scale-105'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                }`}
+              >
+                <Calculator className="w-3.5 h-3.5" />
+                <span>🧮 Toán {currentGrade}</span>
+              </button>
 
-            <button
-              onClick={() => switchSubject('vietnamese')}
-              className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all ${
-                !isMath
-                  ? isSecondary
-                    ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-sm scale-105'
-                    : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-sm scale-105'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
-              }`}
-            >
-              <BookMarked className="w-3.5 h-3.5" />
-              <span>{isSecondary ? `📖 Ngữ Văn ${currentGrade}` : `📖 Tiếng Việt ${currentGrade}`}</span>
-            </button>
-          </div>
+              <button
+                onClick={() => switchSubject('vietnamese')}
+                className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-black text-xs sm:text-sm transition-all cursor-pointer ${
+                  currentSubject === 'vietnamese'
+                    ? isSecondary
+                      ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white shadow-sm scale-105'
+                      : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-sm scale-105'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                }`}
+              >
+                <BookMarked className="w-3.5 h-3.5" />
+                <span>{isSecondary ? `📖 Ngữ Văn ${currentGrade}` : `📖 Tiếng Việt ${currentGrade}`}</span>
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Stats Pill Badges */}

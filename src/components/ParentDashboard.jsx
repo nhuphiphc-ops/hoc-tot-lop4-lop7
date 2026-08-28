@@ -56,9 +56,24 @@ export const ParentDashboard = () => {
     return matchGrade && matchSubject;
   });
 
-  const subjectLabel = isMath
-    ? `Toán Lớp ${currentGrade}`
-    : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
+  const getSubjectLabel = () => {
+    if (currentGrade === '7') {
+      if (currentSubject === 'math') return 'Toán Lớp 7';
+      if (currentSubject === 'vietnamese') return 'Ngữ Văn 7';
+      if (currentSubject === 'english') return 'Tiếng Anh 7';
+      if (currentSubject === 'science') return 'KHTN 7';
+      if (currentSubject === 'history_geo') return 'Lịch Sử & Địa Lí 7';
+      if (currentSubject === 'informatics') return 'Tin Học 7';
+      if (currentSubject === 'civics') return 'GDCD 7';
+      if (currentSubject === 'technology') return 'Công Nghệ 7';
+      return 'Toán Lớp 7';
+    }
+    return isMath
+      ? `Toán Lớp ${currentGrade}`
+      : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
+  };
+
+  const subjectLabel = getSubjectLabel();
 
   // Overall Statistics for current subject
   const totalQuizzes = subjectHistory.length;
