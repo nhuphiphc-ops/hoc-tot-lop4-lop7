@@ -67,6 +67,9 @@ export const ResultModal = ({
     } else {
       sounds.playCorrect();
     }
+
+    // Voice narration in Vietnamese
+    sounds.speakSubmissionFeedback(score);
   }, [score]);
 
   // Format time spent (MM:SS)

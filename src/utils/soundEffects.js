@@ -1,9 +1,11 @@
-// Web Audio API based sound synthesizer for crisp, instant, dependency-free kid sound effects
+// Web Audio API & Web Speech API synthesizer for kid sound effects and Vietnamese voice feedback
 
 class SoundManager {
   constructor() {
     this.ctx = null;
     this.enabled = true;
+    this.vietnameseVoice = null;
+
     // Read sound setting from localStorage
     try {
       const saved = localStorage.getItem('toan4_sound_enabled');
@@ -17,11 +19,30 @@ class SoundManager {
     if (typeof window !== 'undefined') {
       const unlockAudio = () => {
         this.initContext();
+        this.initVoices();
         window.removeEventListener('click', unlockAudio);
         window.removeEventListener('touchstart', unlockAudio);
       };
       window.addEventListener('click', unlockAudio, { once: true, passive: true });
       window.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
+
+      // Init speech synthesis voices
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.onvoiceschanged = () => {
+          this.initVoices();
+        };
+      }
+    }
+  }
+
+  initVoices() {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      try {
+        const voices = window.speechSynthesis.getVoices();
+        this.vietnameseVoice = voices.find(v => v.lang && (v.lang.startsWith('vi') || v.lang.includes('VIE') || v.lang.includes('vietnam'))) || null;
+      } catch {
+        // ignore
+      }
     }
   }
 
@@ -46,6 +67,13 @@ class SoundManager {
     }
     if (this.enabled) {
       this.playClick();
+      this.speak("Đã bật âm thanh");
+    } else {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        try {
+          window.speechSynthesis.cancel();
+        } catch { /* ignore */ }
+      }
     }
     return this.enabled;
   }
@@ -61,6 +89,41 @@ class SoundManager {
 
   isSoundEnabled() {
     return this.enabled;
+  }
+
+  // Voice narration in Vietnamese
+  speak(text) {
+    if (!this.enabled) return;
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+
+    try {
+      window.speechSynthesis.cancel(); // Stop any pending speech
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'vi-VN';
+      utterance.rate = 0.95; // Gentle clear speaking rate
+      utterance.pitch = 1.05; // Warm friendly tone
+
+      if (!this.vietnameseVoice) {
+        this.initVoices();
+      }
+      if (this.vietnameseVoice) {
+        utterance.voice = this.vietnameseVoice;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    } catch {
+      // ignore speech errors
+    }
+  }
+
+  // Submission voice feedback
+  speakSubmissionFeedback(score) {
+    if (!this.enabled) return;
+    if (score === 100) {
+      this.speak("Con rất giỏi! Chúc mừng con đã trả lời đúng tất cả các câu hỏi!");
+    } else {
+      this.speak("Con cần cố gắng hơn, lưu ý xem lời giải chi tiết nhé!");
+    }
   }
 
   playTone(freq, type = 'sine', duration = 0.15, gainVal = 0.1, startDelay = 0) {
@@ -186,7 +249,7 @@ export const sounds = new Proxy(rawSounds, {
     if (prop in target) {
       return typeof target[prop] === 'function' ? target[prop].bind(target) : target[prop];
     }
-    // Fallback if an unknown sound method like playFanfare or playStart is called
+    // Fallback if an unknown sound method is called
     return () => {
       try {
         target.playClick();
