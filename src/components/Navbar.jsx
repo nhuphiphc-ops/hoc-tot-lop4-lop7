@@ -16,18 +16,10 @@ import {
   Sparkles,
   Check,
   Calculator,
-  BookMarked,
-  GraduationCap
+  BookMarked
 } from 'lucide-react';
-import { useLearning } from '../context/LearningContext';
+import { useLearning, SHOP_MASCOTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
-
-const MASCOTS = [
-  { id: 'elephant', name: 'Bé Voi Dũng Cảm', emoji: '🐘', desc: 'Siêu trí nhớ & Kiên trì' },
-  { id: 'owl', name: 'Cú Mèo Thông Thái', emoji: '🦉', desc: 'Bậc thầy tính nhẩm & Ngữ pháp' },
-  { id: 'squirrel', name: 'Sóc Con Nhanh Nhẹn', emoji: '🐿️', desc: 'Nhanh mắt nhanh tay' },
-  { id: 'cat', name: 'Mèo Miu Đáng Yêu', emoji: '🐱', desc: 'Chăm chỉ mỗi ngày' },
-];
 
 export const Navbar = ({ currentTab, onSelectTab }) => {
   const { 
@@ -50,7 +42,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     soundEnabled, 
     toggleSound, 
     isFreeMode, 
-    toggleFreeMode 
+    toggleFreeMode,
+    unlockedMascots 
   } = useLearning();
 
   const [showProfileModal, setShowProfileModal] = useState(false);
@@ -58,7 +51,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   const [tempSchool, setTempSchool] = useState(profile.school || 'Trường PTCS');
   const [tempMascot, setTempMascot] = useState(profile.mascot || 'elephant');
 
-  const currentMascotObj = MASCOTS.find(m => m.id === profile.mascot) || MASCOTS[0];
+  const currentMascotObj = SHOP_MASCOTS.find(m => m.id === profile.mascot) || SHOP_MASCOTS[0];
 
   const handleSaveProfile = () => {
     sounds.playClick();
@@ -346,11 +339,12 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
             {/* Mascot Selector */}
             <div className="mb-6">
-              <label className="block text-xs font-bold text-slate-600 mb-2">
-                Chọn Linh Vật Đồng Hành:
+              <label className="block text-xs font-bold text-slate-600 mb-2 flex items-center justify-between">
+                <span>Chọn Linh Vật Đồng Hành:</span>
+                <span className="text-[11px] text-amber-700 font-extrabold">Đổi thêm linh vật tại Tab "Bộ Sưu Tập"</span>
               </label>
-              <div className="grid grid-cols-2 gap-2.5">
-                {MASCOTS.map((m) => {
+              <div className="grid grid-cols-2 gap-2.5 max-h-56 overflow-y-auto pr-1">
+                {SHOP_MASCOTS.filter(m => (unlockedMascots || []).includes(m.id)).map((m) => {
                   const isSelected = tempMascot === m.id;
                   return (
                     <div
@@ -358,7 +352,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                       onClick={() => setTempMascot(m.id)}
                       className={`p-3 rounded-2xl border-2 cursor-pointer transition-all flex items-center gap-3 ${
                         isSelected 
-                          ? 'border-amber-400 bg-amber-50/80 shadow-sm' 
+                          ? 'border-amber-400 bg-amber-50/80 shadow-sm ring-2 ring-amber-300' 
                           : 'border-slate-200 hover:border-slate-300 bg-slate-50/50'
                       }`}
                     >
@@ -367,7 +361,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                         <div className="font-extrabold text-xs text-slate-800 truncate">{m.name}</div>
                         <div className="text-[11px] text-slate-500 truncate">{m.desc}</div>
                       </div>
-                      {isSelected && <Check className="w-4 h-4 text-amber-600" />}
+                      {isSelected && <Check className="w-4 h-4 text-amber-600 shrink-0" />}
                     </div>
                   );
                 })}

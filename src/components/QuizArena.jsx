@@ -31,13 +31,64 @@ export const QuizArena = ({
   const finishHandler = onFinishQuiz || onFinish || (() => {});
   const exitHandler = onExitQuiz || onExit || (() => {});
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState({}); // { [qIndex]: selectedOptionIndex }
-  const [flagged, setFlagged] = useState({}); // { [qIndex]: boolean }
-  const [timeLeft, setTimeLeft] = useState(activeTimeLimit);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    try {
+      const draft = JSON.parse(localStorage.getItem('toan_active_quiz_draft') || '{}');
+      if (draft.title === activeTitle && draft.currentIndex !== undefined) {
+        return draft.currentIndex;
+      }
+    } catch { /* ignore */ }
+    return 0;
+  });
+
+  const [answers, setAnswers] = useState(() => {
+    try {
+      const draft = JSON.parse(localStorage.getItem('toan_active_quiz_draft') || '{}');
+      if (draft.title === activeTitle && draft.answers) {
+        return draft.answers;
+      }
+    } catch { /* ignore */ }
+    return {};
+  });
+
+  const [flagged, setFlagged] = useState(() => {
+    try {
+      const draft = JSON.parse(localStorage.getItem('toan_active_quiz_draft') || '{}');
+      if (draft.title === activeTitle && draft.flagged) {
+        return draft.flagged;
+      }
+    } catch { /* ignore */ }
+    return {};
+  });
+
+  const [timeLeft, setTimeLeft] = useState(() => {
+    try {
+      const draft = JSON.parse(localStorage.getItem('toan_active_quiz_draft') || '{}');
+      if (draft.title === activeTitle && draft.timeLeft && draft.timeLeft > 5) {
+        return draft.timeLeft;
+      }
+    } catch { /* ignore */ }
+    return activeTimeLimit;
+  });
+
   const [isScratchpadOpen, setIsScratchpadOpen] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
+
+  // Auto save draft to LocalStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem('toan_active_quiz_draft', JSON.stringify({
+        title: activeTitle,
+        answers,
+        flagged,
+        timeLeft,
+        currentIndex,
+        updatedAt: Date.now()
+      }));
+    } catch { /* ignore */ }
+  }, [answers, flagged, timeLeft, currentIndex, activeTitle]);
 
   // Timer countdown
   useEffect(() => {
@@ -46,7 +97,7 @@ export const QuizArena = ({
       return;
     }
     const timer = setInterval(() => {
-      setTimeLeft(prev => prev - 1);
+      setTimeLeft(prev => Math.max(0, prev - 1));
     }, 1000);
     return () => clearInterval(timer);
   }, [timeLeft]);
@@ -144,6 +195,10 @@ export const QuizArena = ({
 
     const score = Math.round((correctCount / totalQuestions) * 100);
     const timeSpent = activeTimeLimit - timeLeft;
+
+    try {
+      localStorage.removeItem('toan_active_quiz_draft');
+    } catch { /* ignore */ }
 
     finishHandler({
       score,

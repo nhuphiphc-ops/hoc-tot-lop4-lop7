@@ -13,7 +13,13 @@ import {
   Layers,
   ChevronRight,
   BookOpen,
-  Calculator
+  Calculator,
+  Shield,
+  KeyRound,
+  FileSpreadsheet,
+  Trash2,
+  Lock,
+  Unlock
 } from 'lucide-react';
 import { useLearning } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
@@ -28,11 +34,20 @@ export const ParentDashboard = () => {
     streakData,
     isMath,
     currentGrade,
-    isGrade7,
     currentSubject,
     currentCategories,
-    switchSubject
+    parentPin,
+    setParentPin,
+    verifyParentPin,
+    clearAllData
   } = useLearning();
+
+  const [pinInput, setPinInput] = useState('');
+  const [isUnlockedByPin, setIsUnlockedByPin] = useState(!parentPin);
+  const [pinError, setPinError] = useState('');
+  const [showPinSetup, setShowPinSetup] = useState(false);
+  const [newPinVal, setNewPinVal] = useState('');
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
 
   // Filter history by current grade & subject
   const subjectHistory = history.filter(h => {
@@ -101,7 +116,7 @@ export const ParentDashboard = () => {
     };
   });
 
-  // Find Strongest and Weakest areas
+  // Strongest and Weakest topics
   const testedTopics = topicBreakdown.filter(t => t.accuracy !== null);
   const strongestTopic = testedTopics.length > 0 
     ? [...testedTopics].sort((a, b) => b.accuracy - a.accuracy)[0] 
@@ -110,11 +125,106 @@ export const ParentDashboard = () => {
     ? [...testedTopics].sort((a, b) => a.accuracy - b.accuracy)[0] 
     : null;
 
-  // Handle Export Report (Print friendly window)
-  const handleExportReport = () => {
-    sounds.playClick();
-    window.print();
+  // Handle PIN verification
+  const handleVerifyPin = (e) => {
+    e.preventDefault();
+    if (verifyParentPin(pinInput)) {
+      sounds.playVictory();
+      setIsUnlockedByPin(true);
+      setPinError('');
+    } else {
+      sounds.playWrong();
+      setPinError('Mã PIN không chính xác! Vui lòng thử lại.');
+    }
   };
+
+  // Handle Save New PIN
+  const handleSaveNewPin = (e) => {
+    e.preventDefault();
+    setParentPin(newPinVal);
+    setShowPinSetup(false);
+    setIsUnlockedByPin(true);
+  };
+
+  // Handle Export CSV
+  const handleExportCSV = () => {
+    sounds.playClick();
+    const rows = [
+      ['BÁO CÁO HỌC TẬP - HỌC TỐT LỚP 4 - LỚP 7'],
+      ['Học sinh:', profile.name || 'Nguyễn Công Nguyên'],
+      ['Trường:', profile.school || 'Trường PTCS'],
+      ['Môn học:', subjectLabel],
+      ['Ngày xuất:', new Date().toLocaleDateString('vi-VN')],
+      ['Tổng số bài đã làm:', totalQuizzes],
+      ['Điểm trung bình:', `${averageScore}%`],
+      ['Thời gian học:', `${totalMinutes} phút`],
+      ['Tổng số sao:', totalStars],
+      [''],
+      ['LỊCH SỬ CHI TIẾT BÀI LÀM'],
+      ['Thời gian', 'Tuần', 'Điểm', 'Số câu đúng', 'Tổng số câu', 'Thời gian làm (giây)', 'Sao đạt']
+    ];
+
+    subjectHistory.forEach(item => {
+      rows.push([
+        new Date(item.date).toLocaleString('vi-VN'),
+        item.week ? `Tuần ${item.week}` : 'Tự luyện',
+        `${item.score}%`,
+        item.correctCount,
+        item.totalCount,
+        item.timeSpent || 0,
+        item.earnedStars
+      ]);
+    });
+
+    const csvContent = 'data:text/csv;charset=utf-8,\uFEFF' + rows.map(e => e.map(cell => `"${cell}"`).join(',')).join('\n');
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement('a');
+    link.setAttribute('href', encodedUri);
+    link.setAttribute('download', `Bao_Cao_Hoc_Tap_${profile.name || 'HocSinh'}_${subjectLabel.replace(/\s+/g, '_')}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  // If Parent PIN is active and not unlocked yet
+  if (parentPin && !isUnlockedByPin) {
+    return (
+      <div className="max-w-md mx-auto my-12 p-6 bg-white rounded-3xl border-3 border-amber-300 shadow-bouncy text-center space-y-4">
+        <div className="w-16 h-16 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center mx-auto shadow-sm">
+          <KeyRound className="w-8 h-8" />
+        </div>
+        <h2 className="text-xl font-black text-slate-800">
+          Xác Thực Mã PIN Phụ Huynh 🔒
+        </h2>
+        <p className="text-xs font-semibold text-slate-500">
+          Khu vực này được bảo vệ bởi mã PIN phụ huynh để theo dõi báo cáo học tập và cài đặt dữ liệu.
+        </p>
+
+        <form onSubmit={handleVerifyPin} className="space-y-3 pt-2">
+          <input
+            type="password"
+            maxLength={6}
+            value={pinInput}
+            onChange={(e) => setPinInput(e.target.value)}
+            placeholder="Nhập mã PIN (4-6 số)"
+            className="w-full text-center tracking-widest text-2xl font-black px-4 py-3 rounded-2xl border-2 border-slate-200 focus:border-amber-400 focus:outline-none"
+            autoFocus
+          />
+
+          {pinError && (
+            <p className="text-xs font-black text-rose-600 animate-pulse">{pinError}</p>
+          )}
+
+          <button
+            type="submit"
+            className="w-full py-3 bg-amber-400 hover:bg-amber-500 text-amber-950 font-black text-sm rounded-2xl shadow-bouncy-sm btn-bouncy"
+          >
+            Mở Khóa Báo Cáo
+          </button>
+        </form>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-6 space-y-8 print:p-0">
@@ -136,16 +246,69 @@ export const ParentDashboard = () => {
           </p>
         </div>
 
-        <div className="flex items-center gap-2 print:hidden">
+        <div className="flex items-center gap-2 print:hidden flex-wrap">
           <button
-            onClick={handleExportReport}
-            className="px-4 py-2.5 bg-white text-slate-800 font-extrabold text-xs sm:text-sm rounded-xl shadow-bouncy-sm btn-bouncy flex items-center gap-1.5"
+            onClick={handleExportCSV}
+            className="px-3.5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xs sm:text-sm rounded-xl shadow-bouncy-sm btn-bouncy flex items-center gap-1.5 cursor-pointer"
+          >
+            <FileSpreadsheet className="w-4 h-4" />
+            Xuất Excel (CSV)
+          </button>
+
+          <button
+            onClick={() => { sounds.playClick(); window.print(); }}
+            className="px-3.5 py-2.5 bg-white text-slate-800 font-extrabold text-xs sm:text-sm rounded-xl shadow-bouncy-sm btn-bouncy flex items-center gap-1.5 cursor-pointer"
           >
             <Download className="w-4 h-4" />
             In Báo Cáo
           </button>
+
+          <button
+            onClick={() => { sounds.playClick(); setShowPinSetup(!showPinSetup); }}
+            className="px-3.5 py-2.5 bg-white/20 hover:bg-white/30 backdrop-blur-md text-white font-extrabold text-xs sm:text-sm rounded-xl border border-white/30 flex items-center gap-1.5 cursor-pointer"
+          >
+            <Shield className="w-4 h-4" />
+            {parentPin ? 'Đổi PIN' : 'Đặt Mã PIN'}
+          </button>
         </div>
       </div>
+
+      {/* PIN Setup Modal / Form */}
+      {showPinSetup && (
+        <div className="bg-amber-50 rounded-2xl border-2 border-amber-300 p-4 sm:p-6 space-y-3 animate-scale-in">
+          <div className="flex items-center justify-between">
+            <h3 className="text-sm font-black text-amber-950 flex items-center gap-2">
+              <Shield className="w-4 h-4 text-amber-600" />
+              Cài Đặt Mã PIN Bảo Vệ Góc Phụ Huynh
+            </h3>
+            <button
+              onClick={() => setShowPinSetup(false)}
+              className="text-xs font-bold text-slate-500 hover:text-slate-700"
+            >
+              Đóng
+            </button>
+          </div>
+          <p className="text-xs font-semibold text-slate-600">
+            Đặt mã PIN 4-6 số để bảo vệ trang phân tích này và tránh việc học sinh vô tình đặt lại dữ liệu. Để trống và lưu nếu muốn tắt mã PIN.
+          </p>
+          <form onSubmit={handleSaveNewPin} className="flex gap-2 max-w-sm">
+            <input
+              type="password"
+              maxLength={6}
+              value={newPinVal}
+              onChange={(e) => setNewPinVal(e.target.value)}
+              placeholder="Nhập PIN mới..."
+              className="px-3 py-2 bg-white rounded-xl border-2 border-slate-200 text-sm font-bold flex-1"
+            />
+            <button
+              type="submit"
+              className="px-4 py-2 bg-amber-400 hover:bg-amber-500 text-amber-950 font-black text-xs rounded-xl shadow-xs cursor-pointer"
+            >
+              Lưu PIN
+            </button>
+          </form>
+        </div>
+      )}
 
       {/* Key Metrics Overview Cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -206,7 +369,7 @@ export const ParentDashboard = () => {
       <div className="bg-gradient-to-br from-amber-50/80 to-orange-50/80 rounded-3xl border-2 border-amber-200 p-6 shadow-sm space-y-4">
         <div className="flex items-center gap-2 text-amber-900 font-black text-base">
           <Sparkles className="w-5 h-5 text-amber-600" />
-          Nhận Xét & Lời Khuyên Của Giáo Viên {isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4'}
+          Nhận Xét & Lời Khuyên Sư Phạm Của Giáo Viên {subjectLabel}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -242,7 +405,7 @@ export const ParentDashboard = () => {
         </div>
       </div>
 
-      {/* 6 Category Competency Breakdown */}
+      {/* Competency Breakdown */}
       <div className="bg-white rounded-3xl border-2 border-slate-200 p-6 sm:p-8 shadow-bouncy space-y-6">
         <div className="flex items-center justify-between pb-4 border-b-2 border-slate-100">
           <div>
@@ -296,7 +459,7 @@ export const ParentDashboard = () => {
       <div className="bg-white rounded-3xl border-2 border-slate-200 p-6 shadow-bouncy space-y-4">
         <h2 className="text-lg sm:text-xl font-black text-slate-800 flex items-center gap-2">
           <Calendar className="w-5 h-5 text-indigo-500" />
-          Lịch Sử 5 Bài Luyện Tập Gần Nhất
+          Lịch Sử Bài Luyện Tập Gần Nhất
         </h2>
 
         {subjectHistory.length === 0 ? (
@@ -316,7 +479,7 @@ export const ParentDashboard = () => {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 text-slate-700">
-                {subjectHistory.slice(0, 5).map((item) => (
+                {subjectHistory.slice(0, 10).map((item) => (
                   <tr key={item.id} className="hover:bg-slate-50/80">
                     <td className="py-3 px-3 text-slate-500">
                       {new Date(item.date).toLocaleDateString('vi-VN')} {new Date(item.date).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })}
@@ -346,6 +509,43 @@ export const ParentDashboard = () => {
               </tbody>
             </table>
           </div>
+        )}
+      </div>
+
+      {/* Danger Zone: Data Reset */}
+      <div className="p-6 rounded-3xl bg-slate-50 border-2 border-slate-200 flex flex-wrap items-center justify-between gap-4 print:hidden">
+        <div>
+          <h4 className="font-black text-slate-700 text-sm flex items-center gap-1.5">
+            <Trash2 className="w-4 h-4 text-rose-500" />
+            Đặt Lại Dữ Liệu Học Tập (Reset All)
+          </h4>
+          <p className="text-xs font-semibold text-slate-400">
+            Xóa toàn bộ điểm số, tiến trình sao và lịch sử làm bài để bắt đầu khóa học lại từ đầu.
+          </p>
+        </div>
+
+        {showResetConfirm ? (
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setShowResetConfirm(false)}
+              className="px-3 py-1.5 bg-slate-200 text-slate-700 font-black text-xs rounded-xl"
+            >
+              Hủy
+            </button>
+            <button
+              onClick={clearAllData}
+              className="px-3 py-1.5 bg-rose-600 text-white font-black text-xs rounded-xl shadow-xs"
+            >
+              Xác nhận xóa sạch
+            </button>
+          </div>
+        ) : (
+          <button
+            onClick={() => setShowResetConfirm(true)}
+            className="px-4 py-2 bg-slate-200 hover:bg-rose-100 hover:text-rose-700 text-slate-600 font-black text-xs rounded-xl transition-all cursor-pointer"
+          >
+            Đặt lại dữ liệu
+          </button>
         )}
       </div>
     </div>

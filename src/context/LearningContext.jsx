@@ -19,6 +19,19 @@ import { STAGES_LIT7, TOPIC_CATEGORIES_LIT7, WEEKS_METADATA_LIT7, QUESTION_BANK_
 
 const LearningContext = createContext();
 
+export const SHOP_MASCOTS = [
+  { id: 'elephant', name: 'Voi Thông Thái', emoji: '🐘', desc: 'Kiên trì và ghi nhớ siêu đẳng', price: 0 },
+  { id: 'tiger', name: 'Hổ Dũng Mãnh', emoji: '🐯', desc: 'Quyết đoán và chinh phục bài khó', price: 0 },
+  { id: 'cat', name: 'Mèo Nhanh Nhẹn', emoji: '🐱', desc: 'Tính toán nhanh như chớp', price: 0 },
+  { id: 'owl', name: 'Cú Trí Tuệ', emoji: '🦉', desc: 'Bậc thầy tư duy logic', price: 0 },
+  { id: 'dragon', name: 'Rồng Vàng Thần Thoại', emoji: '🐉', desc: 'Thần tài toán học đỉnh cao', price: 100 },
+  { id: 'phoenix', name: 'Phượng Hoàng Lửa', emoji: '🔥', desc: 'Bất khả chiến bại mọi đề thi', price: 150 },
+  { id: 'unicorn', name: 'Kỳ Lân Phép Thuật', emoji: '🦄', desc: 'Sáng tạo và cảm thụ văn học', price: 120 },
+  { id: 'eagle', name: 'Đại Bàng Tinh Anh', emoji: '🦅', desc: 'Tầm nhìn chiến lược điểm 10', price: 120 },
+  { id: 'lion', name: 'Sư Tử Đầu Đàn', emoji: '🦁', desc: 'Thủ khoa mọi kỳ thi', price: 100 },
+  { id: 'dolphin', name: 'Cá Heo Thông Minh', emoji: '🐬', desc: 'Nhanh nhẹn và chuẩn xác', price: 80 }
+];
+
 const STORAGE_KEYS = {
   GRADE: 'toan_current_grade',
   SUBJECT: 'toan_current_subject',
@@ -44,6 +57,9 @@ const STORAGE_KEYS = {
   STREAK: 'toan_streak_data',
   FREE_MODE: 'toan_free_mode',
   COINS: 'toan_coins',
+  UNLOCKED_MASCOTS: 'toan_unlocked_mascots',
+  PARENT_PIN: 'toan_parent_pin',
+  ACTIVE_DRAFT: 'toan_active_quiz_draft'
 };
 
 const DEFAULT_PROFILE = {
@@ -278,6 +294,23 @@ export const LearningProvider = ({ children }) => {
     } catch { return 50; }
   });
 
+  const [unlockedMascots, setUnlockedMascots] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.UNLOCKED_MASCOTS);
+      return saved ? JSON.parse(saved) : ['elephant', 'tiger', 'cat', 'owl'];
+    } catch {
+      return ['elephant', 'tiger', 'cat', 'owl'];
+    }
+  });
+
+  const [parentPin, setParentPinState] = useState(() => {
+    try {
+      return localStorage.getItem(STORAGE_KEYS.PARENT_PIN) || '';
+    } catch {
+      return '';
+    }
+  });
+
   const [soundEnabled, setSoundEnabled] = useState(sounds.isSoundEnabled());
 
   // Save to LocalStorage
@@ -305,6 +338,8 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.STREAK, JSON.stringify(streakData)); }, [streakData]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.FREE_MODE, JSON.stringify(isFreeMode)); }, [isFreeMode]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.COINS, JSON.stringify(coins)); }, [coins]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.UNLOCKED_MASCOTS, JSON.stringify(unlockedMascots)); }, [unlockedMascots]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PARENT_PIN, parentPin); }, [parentPin]);
 
   // Derived active state
   const isMath = currentSubject === 'math';
@@ -422,6 +457,57 @@ export const LearningProvider = ({ children }) => {
       setUnlockedBadges(prev => [...prev, ...newlyUnlocked]);
       sounds.playUnlock();
     }
+  };
+
+  // Remove single wrong question when student mastered it
+  const removeWrongQuestion = (questionId) => {
+    const filterFn = prev => prev.filter(q => q.id !== questionId);
+    if (isGrade4) {
+      if (isMath) setG4MathWrong(filterFn);
+      else setG4TvWrong(filterFn);
+    } else if (isGrade5) {
+      if (isMath) setG5MathWrong(filterFn);
+      else setG5TvWrong(filterFn);
+    } else if (isGrade6) {
+      if (isMath) setG6MathWrong(filterFn);
+      else setG6LitWrong(filterFn);
+    } else if (isGrade7) {
+      if (isMath) setG7MathWrong(filterFn);
+      else setG7LitWrong(filterFn);
+    }
+    sounds.playClick();
+  };
+
+  // Buy Mascot in Shop using coins (Safe transaction)
+  const buyShopMascot = (mascotId, price) => {
+    if (unlockedMascots.includes(mascotId)) {
+      // Already owned, just equip
+      setProfile(prev => ({ ...prev, mascot: mascotId }));
+      sounds.playClick();
+      return { success: true, message: 'Đã chọn linh vật!' };
+    }
+    if (coins < price) {
+      sounds.playWrong();
+      return { success: false, message: `Bé cần thêm ${price - coins} Xu để mở khóa linh vật này!` };
+    }
+
+    // Deduct coins & unlock
+    setCoins(prev => prev - price);
+    setUnlockedMascots(prev => [...prev, mascotId]);
+    setProfile(prev => ({ ...prev, mascot: mascotId }));
+    sounds.playVictory();
+    return { success: true, message: 'Chúc mừng bé đã mở khóa linh vật mới thành công!' };
+  };
+
+  // Parent PIN handlers
+  const setParentPin = (newPin) => {
+    setParentPinState(newPin.trim());
+    sounds.playClick();
+  };
+
+  const verifyParentPin = (inputPin) => {
+    if (!parentPin) return true; // No PIN set
+    return String(inputPin).trim() === parentPin;
   };
 
   // Save Quiz Result
@@ -545,6 +631,11 @@ export const LearningProvider = ({ children }) => {
     // Check Badges
     checkBadges(newHistory, totalStars + earnedStars);
 
+    // Clear active draft if any
+    try {
+      localStorage.removeItem(STORAGE_KEYS.ACTIVE_DRAFT);
+    } catch { /* ignore */ }
+
     return { earnedStars, earnedCoins };
   };
 
@@ -602,6 +693,15 @@ export const LearningProvider = ({ children }) => {
     sounds.playClick();
   };
 
+  const clearAllData = () => {
+    try {
+      localStorage.clear();
+      window.location.reload();
+    } catch {
+      window.location.reload();
+    }
+  };
+
   return (
     <LearningContext.Provider value={{
       currentGrade,
@@ -626,7 +726,14 @@ export const LearningProvider = ({ children }) => {
       toggleSound,
       history,
       wrongQuestions,
+      removeWrongQuestion,
       unlockedBadges,
+      unlockedMascots,
+      buyShopMascot,
+      parentPin,
+      setParentPin,
+      verifyParentPin,
+      clearAllData,
       saveQuizResult,
       isWeekUnlocked,
       currentBank,

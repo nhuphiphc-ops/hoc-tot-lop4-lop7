@@ -219,9 +219,17 @@ export const RoadmapView = ({ onStartQuiz }) => {
       {/* Hero Banner with Adventure Stats */}
       <div className={`relative overflow-hidden rounded-3xl p-6 sm:p-8 text-white shadow-bouncy ${getBannerGradient()}`}>
         <div className="relative z-10 max-w-2xl">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs sm:text-sm font-black mb-3">
-            <Sparkles className="w-4 h-4 text-yellow-200" />
-            Lộ Trình Học Tập Chuẩn 35 Tuần GDPT Mới Nhất 2026
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs sm:text-sm font-black">
+              <Sparkles className="w-4 h-4 text-yellow-200" />
+              Lộ Trình Học Tập Chuẩn 35 Tuần GDPT Mới Nhất 2026
+            </div>
+            {isFreeMode && (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-400 text-emerald-950 rounded-full text-xs font-black shadow-sm">
+                <Unlock className="w-3.5 h-3.5" />
+                Mở Khóa Tự Do (Tất cả 35 tuần đã mở)
+              </div>
+            )}
           </div>
           <h1 className="text-2xl sm:text-4xl font-black mb-2 tracking-tight">
             {getBannerTitle()}

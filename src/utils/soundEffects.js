@@ -13,6 +13,16 @@ class SoundManager {
     } catch {
       this.enabled = true;
     }
+
+    if (typeof window !== 'undefined') {
+      const unlockAudio = () => {
+        this.initContext();
+        window.removeEventListener('click', unlockAudio);
+        window.removeEventListener('touchstart', unlockAudio);
+      };
+      window.addEventListener('click', unlockAudio, { once: true, passive: true });
+      window.addEventListener('touchstart', unlockAudio, { once: true, passive: true });
+    }
   }
 
   initContext() {
@@ -23,7 +33,7 @@ class SoundManager {
       }
     }
     if (this.ctx && this.ctx.state === 'suspended') {
-      this.ctx.resume();
+      this.ctx.resume().catch(() => {});
     }
   }
 
