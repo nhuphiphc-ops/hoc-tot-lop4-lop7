@@ -556,7 +556,7 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_LIT, JSON.stringify(g7LitWrong)); }, [g7LitWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_ENG, JSON.stringify(g7EngWrong)); }, [g7EngWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_SCI, JSON.stringify(g7SciWrong)); }, [g7SciWrong]);
-  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_HISGEO, JSON.stringify(g7HisGeoWrong)); }, [g7HisGeoProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_HISGEO, JSON.stringify(g7HisGeoWrong)); }, [g7HisGeoWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_INFO, JSON.stringify(g7InfoWrong)); }, [g7InfoWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_CIV, JSON.stringify(g7CivWrong)); }, [g7CivWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G7_TECH, JSON.stringify(g7TechWrong)); }, [g7TechWrong]);
@@ -1115,6 +1115,13 @@ export const LearningProvider = ({ children }) => {
     };
   };
 
+  const isWeekUnlocked = (weekNum) => {
+    if (isFreeMode) return true;
+    if (Number(weekNum) === 1) return true;
+    const prevWeek = Number(weekNum) - 1;
+    return (progress[prevWeek]?.bestScore || 0) >= 50;
+  };
+
   return (
     <LearningContext.Provider
       value={{
@@ -1146,6 +1153,7 @@ export const LearningProvider = ({ children }) => {
         unlockedMascots,
         isFreeMode,
         toggleFreeMode,
+        isWeekUnlocked,
         soundEnabled,
         toggleSound,
         buyShopMascot,
