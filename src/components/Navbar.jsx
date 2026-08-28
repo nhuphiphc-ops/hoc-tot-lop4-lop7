@@ -48,7 +48,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
   const [showProfileModal, setShowProfileModal] = useState(false);
   const [tempName, setTempName] = useState(profile.name || 'Nguyễn Công Nguyên');
-  const [tempSchool, setTempSchool] = useState(profile.school || 'Trường PTCS');
+  const [tempSchool, setTempSchool] = useState(profile.school || 'Trường PTCS - Phú La');
   const [tempMascot, setTempMascot] = useState(profile.mascot || 'elephant');
 
   const currentMascotObj = SHOP_MASCOTS.find(m => m.id === profile.mascot) || SHOP_MASCOTS[0];
@@ -57,7 +57,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     sounds.playClick();
     updateProfile({
       name: tempName.trim() || 'Nguyễn Công Nguyên',
-      school: tempSchool.trim() || 'Trường PTCS',
+      school: tempSchool.trim() || 'Trường PTCS - Phú La',
       mascot: tempMascot
     });
     setShowProfileModal(false);
@@ -118,8 +118,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
               </span>
             </div>
             <div className="flex items-center gap-1.5 flex-wrap mt-1">
-              <span className="text-[15px] sm:text-[18px] font-bold text-slate-800 bg-amber-50/90 px-3 py-1 rounded-xl border-2 border-amber-300 shadow-sm flex items-center gap-1.5">
-                🏫 <span className="font-extrabold text-blue-700">{profile.school || 'Trường PTCS'}:</span> <span className="font-black text-emerald-800">Học sinh {profile.name || 'Nguyễn Công Nguyên'}</span>
+              <span className="text-[15px] sm:text-[18px] font-bold text-slate-800 bg-amber-50/90 px-3.5 py-1 rounded-xl border-2 border-amber-300 shadow-sm flex items-center gap-1.5 flex-wrap">
+                🏫 <span className="font-extrabold text-blue-700">{profile.school || 'Trường PTCS - Phú La'}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name || 'Nguyễn Công Nguyên'}</span>
               </span>
             </div>
           </div>
@@ -317,7 +317,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 value={tempSchool}
                 maxLength={40}
                 onChange={(e) => setTempSchool(e.target.value)}
-                placeholder="VD: Trường PTCS..."
+                placeholder="VD: Trường PTCS - Phú La..."
                 className="w-full px-4 py-2.5 rounded-xl border-2 border-slate-200 focus:border-amber-400 focus:outline-none font-bold text-slate-800"
               />
             </div>

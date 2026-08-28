@@ -64,7 +64,7 @@ const STORAGE_KEYS = {
 
 const DEFAULT_PROFILE = {
   name: 'Nguyễn Công Nguyên',
-  school: 'Trường PTCS',
+  school: 'Trường PTCS - Phú La',
   mascot: 'elephant',
   avatarColor: '#FFD166',
 };
@@ -113,8 +113,8 @@ export const LearningProvider = ({ children }) => {
         if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ') {
           parsed.name = 'Nguyễn Công Nguyên';
         }
-        if (!parsed.school) {
-          parsed.school = 'Trường PTCS';
+        if (!parsed.school || parsed.school === 'Trường PTCS') {
+          parsed.school = 'Trường PTCS - Phú La';
         }
         return parsed;
       }
