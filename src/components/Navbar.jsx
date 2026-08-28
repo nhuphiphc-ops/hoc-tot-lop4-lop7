@@ -16,7 +16,8 @@ import {
   Sparkles, 
   Check, 
   Calculator, 
-  BookMarked 
+  BookMarked,
+  Shield
 } from 'lucide-react';
 import { useLearning, SHOP_MASCOTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
@@ -71,6 +72,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     { id: 'wrong', label: 'Sửa Câu Sai', icon: RotateCcw, badge: wrongQuestions.length > 0 ? wrongQuestions.length : null },
     { id: 'dashboard', label: 'Góc Phụ Huynh', icon: BarChart3, badge: null },
     { id: 'badges', label: 'Bộ Sưu Tập', icon: Award, badge: null },
+    { id: 'members', label: 'Quản Trị & Phân Quyền', icon: Shield, badge: 'Mới' },
   ];
 
   // Dynamic titles

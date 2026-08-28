@@ -11,6 +11,7 @@ import { BadgesModal } from './components/BadgesModal';
 import { QuizArena } from './components/QuizArena';
 import { ResultModal } from './components/ResultModal';
 import { ExplanationView } from './components/ExplanationView';
+import { MemberManagement } from './components/MemberManagement';
 
 const MainContent = () => {
   const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath, wrongQuestions } = useLearning();
@@ -195,11 +196,15 @@ const MainContent = () => {
             )}
 
             {currentTab === 'dashboard' && (
-              <ParentDashboard />
+              <ParentDashboard onSelectTab={setCurrentTab} />
             )}
 
             {currentTab === 'badges' && (
               <BadgesModal onClose={() => setCurrentTab('roadmap')} />
+            )}
+
+            {currentTab === 'members' && (
+              <MemberManagement />
             )}
           </>
         )}

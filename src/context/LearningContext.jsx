@@ -159,6 +159,100 @@ const DEFAULT_PROFILE_MINH = {
   avatarColor: '#8B5CF6',
 };
 
+export const SYSTEM_ROLES = [
+  { id: 'truong_bks', label: 'Trưởng BKS', desc: 'Toàn quyền giám sát & kiểm tra chuyên đề', color: 'border-purple-500/50 bg-purple-500/10 text-purple-300', badgeColor: 'bg-purple-600', icon: 'Crown' },
+  { id: 'thanh_vien_bks', label: 'Thành viên BKS', desc: 'Kiểm tra chất lượng & xem báo cáo theo lớp', color: 'border-sky-500/50 bg-sky-500/10 text-sky-300', badgeColor: 'bg-sky-600', icon: 'Shield' },
+  { id: 'giang_vien', label: 'Giảng viên / GV Bộ môn', desc: 'Quản lý đề thi, ngân hàng câu hỏi & chấm điểm', color: 'border-emerald-500/50 bg-emerald-500/10 text-emerald-300', badgeColor: 'bg-emerald-600', icon: 'GraduationCap' },
+  { id: 'chu_nhiem', label: 'GV Chủ nhiệm', desc: 'Theo dõi tiến độ học sinh theo danh sách lớp', color: 'border-amber-500/50 bg-amber-500/10 text-amber-300', badgeColor: 'bg-amber-600', icon: 'BookOpen' },
+  { id: 'khach', label: 'Khách / Quan sát', desc: 'Chỉ xem thống kê tổng quan (Read-only)', color: 'border-slate-500/50 bg-slate-500/10 text-slate-300', badgeColor: 'bg-slate-600', icon: 'User' },
+  { id: 'admin', label: 'Quản trị viên (Admin)', desc: 'Toàn quyền hệ thống & phân quyền thành viên', color: 'border-rose-500/50 bg-rose-500/10 text-rose-300', badgeColor: 'bg-rose-600', icon: 'Zap' }
+];
+
+export const AVAILABLE_CLASSES = [
+  { id: 'lop_4a', label: 'Lớp 4A', grade: 4, group: 'Tiểu học' },
+  { id: 'lop_4b', label: 'Lớp 4B', grade: 4, group: 'Tiểu học' },
+  { id: 'lop_5a', label: 'Lớp 5A', grade: 5, group: 'Tiểu học' },
+  { id: 'lop_5b', label: 'Lớp 5B', grade: 5, group: 'Tiểu học' },
+  { id: 'lop_6a', label: 'Lớp 6A', grade: 6, group: 'THCS' },
+  { id: 'lop_6b', label: 'Lớp 6B', grade: 6, group: 'THCS' },
+  { id: 'lop_7a', label: 'Lớp 7A', grade: 7, group: 'THCS' },
+  { id: 'lop_7b', label: 'Lớp 7B', grade: 7, group: 'THCS' },
+  { id: 'lop_8a', label: 'Lớp 8A', grade: 8, group: 'THCS' },
+  { id: 'lop_8b', label: 'Lớp 8B', grade: 8, group: 'THCS' },
+  { id: 'lop_9a', label: 'Lớp 9A', grade: 9, group: 'THCS' },
+  { id: 'lop_10a', label: 'Lớp 10A', grade: 10, group: 'THPT' },
+  { id: 'lop_10b', label: 'Lớp 10B', grade: 10, group: 'THPT' },
+  { id: 'lop_11a', label: 'Lớp 11A', grade: 11, group: 'THPT' },
+  { id: 'lop_11b', label: 'Lớp 11B', grade: 11, group: 'THPT' },
+  { id: 'lop_12a1', label: 'Lớp 12A1', grade: 12, group: 'THPT' },
+  { id: 'lop_12a2', label: 'Lớp 12A2', grade: 12, group: 'THPT' },
+  { id: 'lop_12b1', label: 'Lớp 12B1', grade: 12, group: 'THPT' },
+  { id: 'lop_12d1', label: 'Lớp 12D1', grade: 12, group: 'THPT' }
+];
+
+export const DEFAULT_MEMBERS = [
+  {
+    id: 'usr_admin_01',
+    email: 'admin.phula@school.edu.vn',
+    fullName: 'Ban Giám Hiệu - Quản Trị Hệ Thống',
+    role: 'admin',
+    assignedClasses: ['all'],
+    status: 'active',
+    createdAt: '2026-08-01T08:00:00.000Z',
+    lastLogin: '2026-08-29T00:30:00.000Z'
+  },
+  {
+    id: 'usr_bks_01',
+    email: 'truongbks.tran@bks.edu.vn',
+    fullName: 'Trần Minh Tuấn (Trưởng Ban Kiểm Soát)',
+    role: 'truong_bks',
+    assignedClasses: ['lop_6a', 'lop_7a', 'lop_7b', 'lop_12a1', 'lop_12a2'],
+    status: 'active',
+    createdAt: '2026-08-10T09:15:00.000Z',
+    lastLogin: '2026-08-28T21:45:00.000Z'
+  },
+  {
+    id: 'usr_bks_02',
+    email: 'thanhvienbks.le@bks.edu.vn',
+    fullName: 'Lê Hoàng Hải (Thành Viên BKS)',
+    role: 'thanh_vien_bks',
+    assignedClasses: ['lop_7a', 'lop_7b', 'lop_12a1'],
+    status: 'active',
+    createdAt: '2026-08-15T14:20:00.000Z',
+    lastLogin: '2026-08-27T18:10:00.000Z'
+  },
+  {
+    id: 'usr_gv_01',
+    email: 'gvtoan.nguyen@phula.edu.vn',
+    fullName: 'Nguyễn Thị Mai (Giáo Viên Toán)',
+    role: 'giang_vien',
+    assignedClasses: ['lop_4a', 'lop_5a', 'lop_6a', 'lop_7b'],
+    status: 'active',
+    createdAt: '2026-08-18T10:00:00.000Z',
+    lastLogin: '2026-08-29T01:10:00.000Z'
+  },
+  {
+    id: 'usr_gv_02',
+    email: 'gv12.ngogiatu@ngogiatu.edu.vn',
+    fullName: 'Phạm Đức Dũng (Giáo Viên Ôn Thi 12)',
+    role: 'giang_vien',
+    assignedClasses: ['lop_12a1', 'lop_12a2', 'lop_12b1', 'lop_12d1'],
+    status: 'active',
+    createdAt: '2026-08-20T16:45:00.000Z',
+    lastLogin: '2026-08-28T22:30:00.000Z'
+  },
+  {
+    id: 'usr_guest_01',
+    email: 'observer.phuhuynh@gmail.com',
+    fullName: 'Đoàn Giám Sát Phụ Huynh',
+    role: 'khach',
+    assignedClasses: ['lop_4a', 'lop_7b', 'lop_12a1'],
+    status: 'active',
+    createdAt: '2026-08-25T11:00:00.000Z',
+    lastLogin: '2026-08-28T19:00:00.000Z'
+  }
+];
+
 export const BADGE_DEFINITIONS = [
   { id: 'first_quiz', name: 'Bước Chân Đầu Tiên', desc: 'Hoàn thành bài luyện tập đầu tiên', icon: 'Footprints', req: (h) => h.length >= 1 },
   { id: 'perfect_10', name: 'Điểm 10 Hoàn Hảo', desc: 'Đạt điểm tối đa 100% trong 1 bài thi', icon: 'Award', req: (h) => h.some(q => q.score === 100) },
@@ -503,6 +597,104 @@ export const LearningProvider = ({ children }) => {
       return localStorage.getItem(STORAGE_KEYS.PARENT_PIN) || '1234';
     } catch { return '1234'; }
   });
+
+  // Member Management & Access Control (RBAC)
+  const [membersList, setMembersList] = useState(() => {
+    try {
+      const saved = localStorage.getItem('toan_system_members');
+      return saved ? JSON.parse(saved) : DEFAULT_MEMBERS;
+    } catch {
+      return DEFAULT_MEMBERS;
+    }
+  });
+
+  const [activeAdminUser, setActiveAdminUser] = useState(() => {
+    try {
+      const saved = localStorage.getItem('toan_active_admin_user');
+      return saved ? JSON.parse(saved) : DEFAULT_MEMBERS[0];
+    } catch {
+      return DEFAULT_MEMBERS[0];
+    }
+  });
+
+  // Sync Members to LocalStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem('toan_system_members', JSON.stringify(membersList));
+    } catch { /* ignore */ }
+  }, [membersList]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('toan_active_admin_user', JSON.stringify(activeAdminUser));
+    } catch { /* ignore */ }
+  }, [activeAdminUser]);
+
+  const addMember = (newMemberData) => {
+    const newId = `usr_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+    const createdMember = {
+      id: newId,
+      email: newMemberData.email?.trim(),
+      fullName: newMemberData.fullName?.trim(),
+      password: newMemberData.password || '123456',
+      role: newMemberData.role || 'thanh_vien_bks',
+      assignedClasses: newMemberData.assignedClasses && newMemberData.assignedClasses.length > 0 
+        ? newMemberData.assignedClasses 
+        : ['lop_6a'],
+      status: 'active',
+      createdAt: new Date().toISOString(),
+      lastLogin: null
+    };
+
+    setMembersList(prev => [createdMember, ...prev]);
+    return createdMember;
+  };
+
+  const updateMemberPermissions = (id, { role, assignedClasses, fullName }) => {
+    setMembersList(prev => prev.map(m => {
+      if (m.id === id) {
+        return {
+          ...m,
+          ...(role ? { role } : {}),
+          ...(assignedClasses ? { assignedClasses } : {}),
+          ...(fullName ? { fullName } : {})
+        };
+      }
+      return m;
+    }));
+  };
+
+  const updateMemberPassword = (id, newPassword) => {
+    setMembersList(prev => prev.map(m => {
+      if (m.id === id) {
+        return {
+          ...m,
+          password: newPassword
+        };
+      }
+      return m;
+    }));
+  };
+
+  const toggleMemberStatus = (id) => {
+    setMembersList(prev => prev.map(m => {
+      if (m.id === id) {
+        return {
+          ...m,
+          status: m.status === 'active' ? 'suspended' : 'active'
+        };
+      }
+      return m;
+    }));
+  };
+
+  const deleteMember = (id) => {
+    setMembersList(prev => prev.filter(m => m.id !== id));
+  };
+
+  const switchActiveUser = (user) => {
+    setActiveAdminUser(user);
+  };
 
   // Sync to LocalStorage
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.GRADE, currentGrade); }, [currentGrade]);
@@ -1162,7 +1354,18 @@ export const LearningProvider = ({ children }) => {
         history,
         parentPin,
         setParentPin,
-        verifyParentPin
+        verifyParentPin,
+        // Member Management & RBAC
+        membersList,
+        activeAdminUser,
+        addMember,
+        updateMemberPermissions,
+        updateMemberPassword,
+        toggleMemberStatus,
+        deleteMember,
+        switchActiveUser,
+        availableClasses: AVAILABLE_CLASSES,
+        systemRoles: SYSTEM_ROLES
       }}
     >
       {children}

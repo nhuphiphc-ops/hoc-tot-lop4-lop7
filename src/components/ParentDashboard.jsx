@@ -24,7 +24,7 @@ import {
 import { useLearning } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
 
-export const ParentDashboard = () => {
+export const ParentDashboard = ({ onSelectTab }) => {
   const { 
     profile, 
     progress, 
@@ -298,6 +298,16 @@ export const ParentDashboard = () => {
             <Shield className="w-4 h-4" />
             {parentPin ? 'Đổi PIN' : 'Đặt Mã PIN'}
           </button>
+
+          {onSelectTab && (
+            <button
+              onClick={() => { sounds.playClick(); onSelectTab('members'); }}
+              className="px-3.5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-extrabold text-xs sm:text-sm rounded-xl shadow-bouncy-sm btn-bouncy flex items-center gap-1.5 cursor-pointer"
+            >
+              <Shield className="w-4 h-4 text-purple-200" />
+              Phân Quyền Thành Viên
+            </button>
+          )}
         </div>
       </div>
 
