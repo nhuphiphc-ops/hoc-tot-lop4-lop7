@@ -1,0 +1,31 @@
+{
+  "name": "Học Tốt Lớp 4 - Lớp 7 (GDPT Mới 2026)",
+  "short_name": "Học Tốt 4-7",
+  "description": "Nền tảng học tập trực tuyến chuẩn GDPT Mới 2026 cho học sinh Lớp 4, 5, 6, 7 - Trường PTCS - Phú La",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFBEB",
+  "theme_color": "#F59E0B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books"],
+  "shortcuts": [
+    {
+      "name": "Lớp 4",
+      "url": "/?grade=4",
+      "description": "Chương trình Lớp 4"
+    },
+    {
+      "name": "Lớp 7",
+      "url": "/?grade=7",
+      "description": "Chương trình Lớp 7"
+    }
+  ]
+}

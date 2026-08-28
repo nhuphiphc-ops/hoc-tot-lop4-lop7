@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { LearningProvider, useLearning } from './context/LearningContext';
 import { Navbar } from './components/Navbar';
+import { MobileBottomNav } from './components/MobileBottomNav';
+import { InstallAppBanner } from './components/InstallAppBanner';
 import { RoadmapView } from './components/RoadmapView';
 import { CustomPractice } from './components/CustomPractice';
 import { WrongQuestionsReview } from './components/WrongQuestionsReview';
@@ -11,7 +13,7 @@ import { ResultModal } from './components/ResultModal';
 import { ExplanationView } from './components/ExplanationView';
 
 const MainContent = () => {
-  const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath } = useLearning();
+  const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath, wrongQuestions } = useLearning();
   const [currentTab, setCurrentTab] = useState('roadmap'); // 'roadmap' | 'practice' | 'wrong' | 'dashboard' | 'badges'
   const [activeQuizConfig, setActiveQuizConfig] = useState(null);
   const [currentResultData, setCurrentResultData] = useState(null);
@@ -105,16 +107,16 @@ const MainContent = () => {
     const wrongItems = currentResultData.details.filter(d => !d.isCorrect);
     if (wrongItems.length === 0) return;
 
-    const wrongQuestions = wrongItems.map(d => d.question);
+    const wrongQuestionsList = wrongItems.map(d => d.question);
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveQuizConfig({
       type: 'retry_wrong',
       grade: currentGrade,
       subject: currentSubject,
       week: currentResultData.week,
-      title: `Luyện Lại Câu Sai (${wrongQuestions.length} câu)`,
-      questions: wrongQuestions,
-      timeLimitSec: Math.max(180, wrongQuestions.length * 90)
+      title: `Luyện Lại Câu Sai (${wrongQuestionsList.length} câu)`,
+      questions: wrongQuestionsList,
+      timeLimitSec: Math.max(180, wrongQuestionsList.length * 90)
     });
     setCurrentResultData(null);
     setIsViewingExplanation(false);
@@ -132,11 +134,14 @@ const MainContent = () => {
   };
 
   return (
-    <div className={`min-h-screen font-nunito text-slate-800 ${
+    <div className={`min-h-screen font-nunito text-slate-800 flex flex-col ${
       isMath 
         ? 'bg-gradient-to-b from-amber-50/50 via-white to-orange-50/30' 
         : 'bg-gradient-to-b from-rose-50/50 via-white to-purple-50/30'
     }`}>
+      {/* Mobile Install App Banner */}
+      <InstallAppBanner />
+
       {/* Top Navigation */}
       <Navbar 
         currentTab={currentTab} 
@@ -154,7 +159,7 @@ const MainContent = () => {
       />
 
       {/* Main Tab & Quiz Arena View Routing */}
-      <main className="pb-16 pt-4">
+      <main className="flex-1 pb-24 md:pb-16 pt-2">
         {/* Active Quiz Player */}
         {activeQuizConfig && !currentResultData && (
           <QuizArena
@@ -224,6 +229,18 @@ const MainContent = () => {
           onClose={handleExitQuiz}
           onExit={handleExitQuiz}
           onBackToRoadmap={handleExitQuiz}
+        />
+      )}
+
+      {/* Fixed Bottom Navigation Bar for Mobile Phones */}
+      {!activeQuizConfig && !isViewingExplanation && (
+        <MobileBottomNav
+          currentTab={currentTab}
+          onSelectTab={(tab) => {
+            handleExitQuiz();
+            setCurrentTab(tab);
+          }}
+          wrongCount={wrongQuestions?.length || 0}
         />
       )}
     </div>

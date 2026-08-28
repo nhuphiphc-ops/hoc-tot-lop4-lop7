@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <g filter="url(#shadow)">
+    <!-- Elephant mascot emoji or educational symbol -->
+    <circle cx="256" cy="230" r="140" fill="#FFFBEB" />
+    <text x="256" y="275" font-size="140" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">🐘</text>
+    <rect x="80" y="380" width="352" height="64" rx="32" fill="#FFFFFF" />
+    <text x="256" y="424" font-size="32" font-weight="900" text-anchor="middle" fill="#B45309" font-family="'Nunito', system-ui, sans-serif">HỌC TỐT 4 - 7</text>
+  </g>
+</svg>

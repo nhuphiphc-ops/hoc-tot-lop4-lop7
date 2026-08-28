@@ -43,6 +43,26 @@
   background: #D97706;
 }
 
+/* Hide scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Mobile Safe Area & PWA Touch Enhancements */
+.safe-bottom {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    -webkit-touch-callout: none;
+  }
+}
+
 /* Floating animation */
 @keyframes float {
   0%, 100% {
