@@ -266,6 +266,10 @@ class SoundManager {
     this.playTone(800, 'triangle', 0.04, 0, 0.08);
   }
 
+  playSelect() {
+    this.playTone(700, 'sine', 0.05, 0, 0.1);
+  }
+
   playPop() {
     this.playTone(600, 'sine', 0.06, 0, 0.1);
     this.playTone(900, 'sine', 0.08, 0.04, 0.1);

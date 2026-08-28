@@ -222,7 +222,7 @@ export const QuizArena = ({
     } catch { /* ignore */ }
 
     // Direct user-gesture speech trigger
-    sounds.speakSubmissionFeedback(score);
+    sounds.speakSubmissionFeedback(score, quizConfig?.grade === '12');
 
     finishHandler({
       score,
