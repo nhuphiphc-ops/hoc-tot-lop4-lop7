@@ -136,10 +136,10 @@ class SoundManager {
     if (!this.enabled) return;
     if (score === 100) {
       this.playVictory();
-      this.speak("Con rất giỏi! Chúc mừng con đã làm đúng tất cả các câu hỏi!");
+      this.speak("Công Nguyên của bố quá tuyệt vời!");
     } else {
       this.playCorrect();
-      this.speak("Con cần cố gắng hơn, lưu ý xem lời giải chi tiết nhé!");
+      this.speak("Công Nguyên cố gắng hơn tí nữa nhé!");
     }
   }
 

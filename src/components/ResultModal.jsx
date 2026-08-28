@@ -80,24 +80,24 @@ export const ResultModal = ({
   };
 
   // Praise title & mascot message
-  let title = "Cố Gắng Lên Nào Bé Ơi! 💪";
+  let title = "Công Nguyên Cố Gắng Hơn Tí Nữa Nhé! 💪";
   let message = "Hãy xem lại lời giải chi tiết để hiểu bài hơn và thử lại nhé!";
   let badgeColor = "bg-amber-100 text-amber-800 border-amber-300";
   let emoji = "🌱";
 
   if (score === 100) {
-    title = "Tuyệt Đỉnh Thần Đồng! 🌟";
-    message = "Bé đã trả lời chính xác tất cả các câu hỏi! Quá xuất sắc!";
+    title = "Công Nguyên Của Bố Quá Tuyệt Vời! 🌟";
+    message = "Con đã xuất sắc trả lời đúng tất cả các câu hỏi!";
     badgeColor = "bg-yellow-100 text-yellow-900 border-yellow-400";
     emoji = "👑";
   } else if (score >= 80) {
     title = "Thành Tích Xuất Sắc! 🚀";
-    message = "Kết quả rất tuyệt vời! Bé đã nắm vững kiến thức trọng tâm!";
+    message = "Công Nguyên đã nắm vững các kiến thức trọng tâm!";
     badgeColor = "bg-emerald-100 text-emerald-900 border-emerald-400";
     emoji = "🎖️";
   } else if (score >= 50) {
-    title = "Chiến Binh Chăm Chỉ! 👏";
-    message = "Bé đã vượt qua bài thi! Hãy luyện tập thêm một chút nữa nhé!";
+    title = "Công Nguyên Cố Gắng Hơn Tí Nữa Nhé! 👏";
+    message = "Con đã hoàn thành bài thi! Hãy luyện tập thêm một chút nữa nhé!";
     badgeColor = "bg-blue-100 text-blue-900 border-blue-400";
     emoji = "⭐";
   }
@@ -134,7 +134,7 @@ export const ResultModal = ({
           className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-100 hover:bg-amber-200 text-amber-900 font-extrabold text-xs rounded-full shadow-xs mb-4 transition-all cursor-pointer"
         >
           <span className="text-sm">🔊</span>
-          <span>Bấm để nghe cô dặn dò</span>
+          <span>Bấm để nghe lời dặn dò</span>
         </button>
 
         {/* Score Card Card */}
