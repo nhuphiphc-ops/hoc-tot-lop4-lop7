@@ -780,9 +780,19 @@ export const LearningProvider = ({ children }) => {
   const switchGrade = (gradeId) => {
     sounds.playClick();
     setCurrentGrade(gradeId);
-    // Reset subject to math if not supported
+    // Reset subject to supported subjects for target grade
     if (['4', '5', '6'].includes(gradeId)) {
       if (!['math', 'vietnamese'].includes(currentSubject)) {
+        setCurrentSubject('math');
+      }
+    } else if (gradeId === '7') {
+      const g7Valid = ['math', 'vietnamese', 'english', 'science', 'history_geo', 'informatics', 'civics', 'technology'];
+      if (!g7Valid.includes(currentSubject)) {
+        setCurrentSubject('math');
+      }
+    } else if (gradeId === '12') {
+      const g12Valid = ['math', 'vietnamese', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'econ_law', 'informatics', 'technology'];
+      if (!g12Valid.includes(currentSubject)) {
         setCurrentSubject('math');
       }
     }
