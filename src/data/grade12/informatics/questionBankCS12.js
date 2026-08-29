@@ -1,6 +1,7 @@
-// NGÂN HÀNG CÂU HỎI TIN HỌC 12 LỚP 12 - CHUẨN TỐT NGHIỆP THPT 2026 (GDPT MỚI)
+// NGÂN HÀNG BÀI TẬP VÀ CÂU HỎI THỰC HÀNH TIN HỌC 12 LỚP 12
+// CHUẨN ĐỀ THI TỐT NGHIỆP THPT 2026 (GDPT MỚI)
 // DÀNH CHO HỌC SINH NGUYỄN NHẬT MINH (TRƯỜNG PTTH NGÔ GIA TỰ)
-// 35 TUẦN HỌC - 350 CÂU HỎI ĐẶC SẮC CÓ ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+// 35 TUẦN - 350 BÀI TẬP CỤ THỂ, BÀI TOÁN TÍNH TOÁN, CÔNG THỨC & LỜI GIẢI CHI TIẾT
 
 export const STAGES_CS12 = [
   {
@@ -40,12 +41,12 @@ export const STAGES_CS12 = [
 export const TOPIC_CATEGORIES_CS12 = [
   {
     "id": "theory",
-    "name": "Nhận Biết & Lý Thuyết",
+    "name": "Nhận Biết & Định Lí",
     "color": "bg-blue-100 text-blue-800"
   },
   {
     "id": "application",
-    "name": "Thông Hiểu & Vận Dụng",
+    "name": "Thông Hiểu & Tính Toán",
     "color": "bg-emerald-100 text-emerald-800"
   },
   {
@@ -60,218 +61,7 @@ export const TOPIC_CATEGORIES_CS12 = [
   }
 ];
 
-export const WEEKS_METADATA_CS12 = {
-  "1": {
-    "title": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 1 môn Tin Học 12."
-  },
-  "2": {
-    "title": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 2 môn Tin Học 12."
-  },
-  "3": {
-    "title": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 3 môn Tin Học 12."
-  },
-  "4": {
-    "title": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 4 môn Tin Học 12."
-  },
-  "5": {
-    "title": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 5 môn Tin Học 12."
-  },
-  "6": {
-    "title": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 6 môn Tin Học 12."
-  },
-  "7": {
-    "title": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 7 môn Tin Học 12."
-  },
-  "8": {
-    "title": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 8 môn Tin Học 12."
-  },
-  "9": {
-    "title": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 9 môn Tin Học 12."
-  },
-  "10": {
-    "title": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 10 môn Tin Học 12."
-  },
-  "11": {
-    "title": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 11 môn Tin Học 12."
-  },
-  "12": {
-    "title": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 12 môn Tin Học 12."
-  },
-  "13": {
-    "title": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 13 môn Tin Học 12."
-  },
-  "14": {
-    "title": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 14 môn Tin Học 12."
-  },
-  "15": {
-    "title": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 15 môn Tin Học 12."
-  },
-  "16": {
-    "title": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 16 môn Tin Học 12."
-  },
-  "17": {
-    "title": "Lập trình tương tác trên Web với JavaScript cơ bản",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 17 môn Tin Học 12."
-  },
-  "18": {
-    "title": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 18 môn Tin Học 12."
-  },
-  "19": {
-    "title": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 19 môn Tin Học 12."
-  },
-  "20": {
-    "title": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 20 môn Tin Học 12."
-  },
-  "21": {
-    "title": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 21 môn Tin Học 12."
-  },
-  "22": {
-    "title": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 22 môn Tin Học 12."
-  },
-  "23": {
-    "title": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 23 môn Tin Học 12."
-  },
-  "24": {
-    "title": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 24 môn Tin Học 12."
-  },
-  "25": {
-    "title": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 25 môn Tin Học 12."
-  },
-  "26": {
-    "title": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 26 môn Tin Học 12."
-  },
-  "27": {
-    "title": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 27 môn Tin Học 12."
-  },
-  "28": {
-    "title": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 28 môn Tin Học 12."
-  },
-  "29": {
-    "title": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 29 môn Tin Học 12."
-  },
-  "30": {
-    "title": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 30 môn Tin Học 12."
-  },
-  "31": {
-    "title": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 31 môn Tin Học 12."
-  },
-  "32": {
-    "title": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 32 môn Tin Học 12."
-  },
-  "33": {
-    "title": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 33 môn Tin Học 12."
-  },
-  "34": {
-    "title": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 34 môn Tin Học 12."
-  },
-  "35": {
-    "title": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 35 môn Tin Học 12."
-  }
-};
+export const WEEKS_METADATA_CS12 = {};
 
 export const QUESTION_BANK_CS12 = [
   {
@@ -279,6650 +69,6650 @@ export const QUESTION_BANK_CS12 = [
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 1] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 1] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_01_02",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 2] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 2] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_01_03",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 3] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 3] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_01_04",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 4] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 4] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_01_05",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 5] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 5] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_01_06",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 6] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 6] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_01_07",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 7] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 7] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_01_08",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 8] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 8] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_01_09",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 9] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 9] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_01_10",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Kiến trúc mạng máy tính và mô hình OSI 7 tầng",
+    "topic": "Tin Học 12 - Tuần 1",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 1 - Câu 10] Trong bài học \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 1 - Bài tập 10] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Kiến trúc mạng máy tính và mô hình OSI 7 tầng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_02_01",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 1] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 1] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_02_02",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 2] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 2] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_02_03",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 3] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 3] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_02_04",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 4] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 4] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_02_05",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 5] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 5] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_02_06",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 6] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 6] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_02_07",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 7] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 7] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_02_08",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 8] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 8] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_02_09",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 9] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 9] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_02_10",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet",
+    "topic": "Tin Học 12 - Tuần 2",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 2 - Câu 10] Trong bài học \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 2 - Bài tập 10] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bộ giao thức TCP/IP và cơ chế truyền nhận gói tin trên Internet\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_03_01",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 1] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 1] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_03_02",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 2] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 2] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_03_03",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 3] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 3] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_03_04",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 4] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 4] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_03_05",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 5] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 5] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_03_06",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 6] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 6] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_03_07",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 7] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 7] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_03_08",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 8] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 8] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_03_09",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 9] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 9] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_03_10",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)",
+    "topic": "Tin Học 12 - Tuần 3",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 3 - Câu 10] Trong bài học \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 3 - Bài tập 10] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Địa chỉ IP (IPv4, IPv6), Subnet Mask và hệ thống phân giải tên miền (DNS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_04_01",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 1] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 1] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_04_02",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 2] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 2] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_04_03",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 3] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 3] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_04_04",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 4] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 4] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_04_05",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 5] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 5] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_04_06",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 6] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 6] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_04_07",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 7] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 7] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_04_08",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 8] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 8] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_04_09",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 9] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 9] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_04_10",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN",
+    "topic": "Tin Học 12 - Tuần 4",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 4 - Câu 10] Trong bài học \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 4 - Bài tập 10] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Các thiết bị mạng: Router, Switch, Modem, Access Point và cấu hình mạng LAN\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_05_01",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 1] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 1] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_05_02",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 2] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 2] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_05_03",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 3] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 3] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_05_04",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 4] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 4] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_05_05",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 5] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 5] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_05_06",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 6] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 6] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_05_07",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 7] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 7] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_05_08",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 8] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 8] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_05_09",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 9] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 9] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_05_10",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware",
+    "topic": "Tin Học 12 - Tuần 5",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 5 - Câu 10] Trong bài học \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 5 - Bài tập 10] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"An toàn thông tin mạng: Mã hóa dữ liệu, tường lửa (Firewall) và phòng chống Virus/Malware\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_06_01",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 1] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 1] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_06_02",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 2] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 2] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_06_03",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 3] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 3] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_06_04",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 4] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 4] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_06_05",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 5] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 5] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_06_06",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 6] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 6] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_06_07",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 7] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 7] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_06_08",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 8] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 8] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_06_09",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 9] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 9] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_06_10",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số",
+    "topic": "Tin Học 12 - Tuần 6",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 6 - Câu 10] Trong bài học \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 6 - Bài tập 10] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức, pháp luật và văn hóa ứng xử trong kỉ nguyên số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_07_01",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 1] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 1] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_07_02",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 2] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 2] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_07_03",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 3] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 3] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_07_04",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 4] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 4] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_07_05",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 5] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 5] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_07_06",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 6] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 6] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_07_07",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 7] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 7] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_07_08",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 8] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 8] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_07_09",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 9] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 9] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_07_10",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)",
+    "topic": "Tin Học 12 - Tuần 7",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 7 - Câu 10] Trong bài học \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 7 - Bài tập 10] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về Cơ sở dữ liệu (CSDL) và Hệ quản trị CSDL (DBMS)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_08_01",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 1] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 1] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_08_02",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 2] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 2] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_08_03",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 3] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 3] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_08_04",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 4] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 4] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_08_05",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 5] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 5] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_08_06",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 6] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 6] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_08_07",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 7] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 7] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_08_08",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 8] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 8] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_08_09",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 9] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 9] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_08_10",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi",
+    "topic": "Tin Học 12 - Tuần 8",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 8 - Câu 10] Trong bài học \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 8 - Bài tập 10] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Mô hình dữ liệu quan hệ (Relational Model): Bảng, trường, bản ghi\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_09_01",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 1] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 1] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_09_02",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 2] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 2] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_09_03",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 3] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 3] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_09_04",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 4] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 4] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_09_05",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 5] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 5] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_09_06",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 6] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 6] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_09_07",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 7] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 7] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_09_08",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 8] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 8] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_09_09",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 9] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 9] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_09_10",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng",
+    "topic": "Tin Học 12 - Tuần 9",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 9 - Câu 10] Trong bài học \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 9 - Bài tập 10] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khóa chính (Primary Key), khóa ngoại (Foreign Key) và liên kết giữa các bảng\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_10_01",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 1] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 1] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_10_02",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 2] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 2] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_10_03",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 3] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 3] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_10_04",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 4] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 4] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_10_05",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 5] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 5] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_10_06",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 6] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 6] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_10_07",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 7] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 7] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_10_08",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 8] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 8] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_10_09",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 9] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 9] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_10_10",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu",
+    "topic": "Tin Học 12 - Tuần 10",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 10 - Câu 10] Trong bài học \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 10 - Bài tập 10] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh tạo bảng CREATE TABLE và ràng buộc dữ liệu\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_11_01",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 1] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 1] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_11_02",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 2] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 2] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_11_03",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 3] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 3] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_11_04",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 4] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 4] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_11_05",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 5] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 5] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_11_06",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 6] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 6] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_11_07",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 7] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 7] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_11_08",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 8] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 8] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_11_09",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 9] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 9] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_11_10",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY",
+    "topic": "Tin Học 12 - Tuần 11",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 11 - Câu 10] Trong bài học \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 11 - Bài tập 10] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Lệnh truy vấn dữ liệu SELECT với WHERE, ORDER BY\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_12_01",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 1] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 1] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_12_02",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 2] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 2] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_12_03",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 3] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 3] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_12_04",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 4] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 4] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_12_05",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 5] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 5] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_12_06",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 6] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 6] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_12_07",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 7] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 7] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_12_08",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 8] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 8] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_12_09",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 9] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 9] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_12_10",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING",
+    "topic": "Tin Học 12 - Tuần 12",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 12 - Câu 10] Trong bài học \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 12 - Bài tập 10] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Các hàm tổng hợp COUNT, SUM, AVG và mệnh đề GROUP BY, HAVING\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_13_01",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 1] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 1] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_13_02",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 2] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 2] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_13_03",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 3] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 3] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_13_04",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 4] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 4] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_13_05",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 5] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 5] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_13_06",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 6] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 6] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_13_07",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 7] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 7] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_13_08",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 8] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 8] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_13_09",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 9] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 9] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_13_10",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)",
+    "topic": "Tin Học 12 - Tuần 13",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 13 - Câu 10] Trong bài học \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 13 - Bài tập 10] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Truy vấn kết hợp nhiều bảng (INNER JOIN, LEFT JOIN)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_14_01",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 1] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 1] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_14_02",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 2] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 2] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_14_03",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 3] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 3] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_14_04",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 4] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 4] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_14_05",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 5] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 5] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_14_06",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 6] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 6] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_14_07",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 7] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 7] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_14_08",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 8] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 8] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_14_09",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 9] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 9] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_14_10",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE",
+    "topic": "Tin Học 12 - Tuần 14",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 14 - Câu 10] Trong bài học \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 14 - Bài tập 10] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ngôn ngữ SQL: Thao tác dữ liệu INSERT INTO, UPDATE và DELETE\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_15_01",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 1] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 1] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_15_02",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 2] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 2] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_15_03",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 3] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 3] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_15_04",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 4] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 4] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_15_05",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 5] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 5] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_15_06",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 6] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 6] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_15_07",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 7] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 7] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_15_08",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 8] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 8] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_15_09",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 9] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 9] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_15_10",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12",
+    "topic": "Tin Học 12 - Tuần 15",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 15 - Câu 10] Trong bài học \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 15 - Bài tập 10] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Tin Học 12\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_16_01",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 1] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 1] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_16_02",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 2] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 2] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_16_03",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 3] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 3] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_16_04",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 4] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 4] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_16_05",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 5] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 5] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_16_06",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 6] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 6] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_16_07",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 7] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 7] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_16_08",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 8] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 8] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_16_09",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 9] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 9] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_16_10",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Nguyên lí thiết kế giao diện Web với HTML5 và CSS3",
+    "topic": "Tin Học 12 - Tuần 16",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 16 - Câu 10] Trong bài học \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 16 - Bài tập 10] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Nguyên lí thiết kế giao diện Web với HTML5 và CSS3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_17_01",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 1] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 1] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_17_02",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 2] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 2] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_17_03",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 3] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 3] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_17_04",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 4] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 4] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_17_05",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 5] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 5] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_17_06",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 6] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 6] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_17_07",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 7] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 7] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_17_08",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 8] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 8] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_17_09",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 9] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 9] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_17_10",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Lập trình tương tác trên Web với JavaScript cơ bản",
+    "topic": "Tin Học 12 - Tuần 17",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 17 - Câu 10] Trong bài học \"Lập trình tương tác trên Web với JavaScript cơ bản\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 17 - Bài tập 10] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Lập trình tương tác trên Web với JavaScript cơ bản\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Lập trình tương tác trên Web với JavaScript cơ bản\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_18_01",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 1] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 1] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_18_02",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 2] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 2] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_18_03",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 3] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 3] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_18_04",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 4] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 4] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_18_05",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 5] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 5] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_18_06",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 6] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 6] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_18_07",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 7] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 7] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_18_08",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 8] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 8] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_18_09",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 9] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 9] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_18_10",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON",
+    "topic": "Tin Học 12 - Tuần 18",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 18 - Câu 10] Trong bài học \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 18 - Bài tập 10] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khái niệm về API (Application Programming Interface) và trao đổi dữ liệu JSON\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_19_01",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 1] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 1] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_19_02",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 2] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 2] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_19_03",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 3] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 3] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_19_04",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 4] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 4] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_19_05",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 5] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 5] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_19_06",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 6] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 6] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_19_07",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 7] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 7] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_19_08",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 8] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 8] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_19_09",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 9] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 9] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_19_10",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)",
+    "topic": "Tin Học 12 - Tuần 19",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 19 - Câu 10] Trong bài học \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 19 - Bài tập 10] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Cơ sở dữ liệu NoSQL và xu hướng lưu trữ đám mây (Cloud Database)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_20_01",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 1] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 1] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_20_02",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 2] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 2] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_20_03",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 3] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 3] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_20_04",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 4] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 4] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_20_05",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 5] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 5] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_20_06",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 6] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 6] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_20_07",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 7] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 7] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_20_08",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 8] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 8] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_20_09",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 9] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 9] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_20_10",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI",
+    "topic": "Tin Học 12 - Tuần 20",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 20 - Câu 10] Trong bài học \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 20 - Bài tập 10] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng quan về Trí tuệ nhân tạo (AI): Lịch sử phát triển và phân loại AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_21_01",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 1] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 1] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_21_02",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 2] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 2] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_21_03",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 3] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 3] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_21_04",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 4] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 4] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_21_05",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 5] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 5] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_21_06",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 6] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 6] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_21_07",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 7] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 7] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_21_08",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 8] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 8] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_21_09",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 9] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 9] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_21_10",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường",
+    "topic": "Tin Học 12 - Tuần 21",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 21 - Câu 10] Trong bài học \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 21 - Bài tập 10] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Học máy (Machine Learning): Học có giám sát, học không giám sát và học tăng cường\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_22_01",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 1] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 1] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_22_02",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 2] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 2] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_22_03",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 3] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 3] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_22_04",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 4] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 4] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_22_05",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 5] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 5] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_22_06",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 6] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 6] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_22_07",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 7] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 7] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_22_08",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 8] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 8] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_22_09",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 9] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 9] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_22_10",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)",
+    "topic": "Tin Học 12 - Tuần 22",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 22 - Câu 10] Trong bài học \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 22 - Bài tập 10] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Xử lí ngôn ngữ tự nhiên (NLP) và mô hình ngôn ngữ lớn (LLM/ChatGPT)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_23_01",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 1] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 1] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_23_02",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 2] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 2] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_23_03",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 3] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 3] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_23_04",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 4] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 4] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_23_05",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 5] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 5] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_23_06",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 6] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 6] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_23_07",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 7] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 7] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_23_08",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 8] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 8] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_23_09",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 9] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 9] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_23_10",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể",
+    "topic": "Tin Học 12 - Tuần 23",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 23 - Câu 10] Trong bài học \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 23 - Bài tập 10] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Thị giác máy tính (Computer Vision) và nhận diện khuôn mặt, vật thể\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_24_01",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 1] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 1] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_24_02",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 2] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 2] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_24_03",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 3] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 3] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_24_04",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 4] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 4] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_24_05",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 5] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 5] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_24_06",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 6] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 6] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_24_07",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 7] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 7] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_24_08",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 8] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 8] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_24_09",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 9] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 9] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_24_10",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo",
+    "topic": "Tin Học 12 - Tuần 24",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 24 - Câu 10] Trong bài học \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 24 - Bài tập 10] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đạo đức AI và trách nhiệm xã hội khi phát triển công nghệ trí tuệ nhân tạo\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_25_01",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 1] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 1] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_25_02",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 2] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 2] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_25_03",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 3] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 3] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_25_04",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 4] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 4] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_25_05",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 5] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 5] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_25_06",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 6] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 6] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_25_07",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 7] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 7] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_25_08",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 8] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 8] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_25_09",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 9] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 9] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_25_10",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)",
+    "topic": "Tin Học 12 - Tuần 25",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 25 - Câu 10] Trong bài học \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 25 - Bài tập 10] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Khoa học dữ liệu (Data Science) và quy trình khai phá dữ liệu lớn (Big Data)\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_26_01",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 1] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 1] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_26_02",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 2] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 2] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_26_03",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 3] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 3] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_26_04",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 4] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 4] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_26_05",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 5] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 5] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_26_06",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 6] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 6] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_26_07",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 7] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 7] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_26_08",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 8] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 8] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_26_09",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 9] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 9] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_26_10",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS",
+    "topic": "Tin Học 12 - Tuần 26",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 26 - Câu 10] Trong bài học \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 26 - Bài tập 10] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bảo mật ứng dụng Web: Phòng chống SQL Injection và XSS\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_27_01",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 1] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 1] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_27_02",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 2] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 2] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_27_03",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 3] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 3] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_27_04",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 4] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 4] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_27_05",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 5] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 5] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_27_06",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 6] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 6] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_27_07",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 7] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 7] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_27_08",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 8] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 8] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_27_09",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 9] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 9] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_27_10",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Quy trình phát triển phần mềm theo mô hình Agile/Scrum",
+    "topic": "Tin Học 12 - Tuần 27",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 27 - Câu 10] Trong bài học \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 27 - Bài tập 10] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Quy trình phát triển phần mềm theo mô hình Agile/Scrum\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_28_01",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 1] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 1] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_28_02",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 2] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 2] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_28_03",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 3] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 3] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_28_04",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 4] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 4] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_28_05",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 5] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 5] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_28_06",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 6] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 6] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_28_07",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 7] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 7] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_28_08",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 8] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 8] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_28_09",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 9] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 9] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_28_10",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số",
+    "topic": "Tin Học 12 - Tuần 28",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 28 - Câu 10] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 28 - Bài tập 10] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Mạng và An toàn số\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_29_01",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 1] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 1] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_29_02",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 2] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 2] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_29_03",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 3] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 3] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_29_04",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 4] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 4] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_29_05",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 5] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 5] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_29_06",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 6] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 6] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_29_07",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 7] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 7] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_29_08",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 8] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 8] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_29_09",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 9] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 9] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_29_10",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL",
+    "topic": "Tin Học 12 - Tuần 29",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 29 - Câu 10] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 29 - Bài tập 10] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề CSDL & SQL\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_30_01",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 1] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 1] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_30_02",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 2] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 2] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_30_03",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 3] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 3] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_30_04",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 4] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 4] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_30_05",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 5] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 5] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_30_06",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 6] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 6] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_30_07",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 7] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 7] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_30_08",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 8] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 8] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_30_09",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 9] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 9] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_30_10",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI",
+    "topic": "Tin Học 12 - Tuần 30",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 30 - Câu 10] Trong bài học \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 30 - Bài tập 10] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Luyện đề Tốt nghiệp THPT Tin Học: Chuyên đề Công nghệ Web & AI\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_31_01",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 1] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 1] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_31_02",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 2] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 2] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_31_03",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 3] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 3] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_31_04",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 4] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 4] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_31_05",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 5] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 5] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_31_06",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 6] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 6] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_31_07",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 7] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 7] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_31_08",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 8] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 8] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_31_09",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 9] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 9] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_31_10",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1",
+    "topic": "Tin Học 12 - Tuần 31",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 31 - Câu 10] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 31 - Bài tập 10] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 1\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_32_01",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 1] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 1] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\"."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_32_02",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 2] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 2] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_32_03",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 3] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 3] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_32_04",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 4] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 4] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_32_05",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 5] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 5] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_32_06",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 6] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 6] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_32_07",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 7] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 7] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_32_08",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 8] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 8] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_32_09",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 9] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 9] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_32_10",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2",
+    "topic": "Tin Học 12 - Tuần 32",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 32 - Câu 10] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 32 - Bài tập 10] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 2\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_33_01",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 1] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 1] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_33_02",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 2] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 2] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\"."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_33_03",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 3] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 3] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_33_04",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 4] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 4] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_33_05",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 5] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 5] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_33_06",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 6] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 6] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_33_07",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 7] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 7] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_33_08",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 8] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 8] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_33_09",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 9] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 9] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_33_10",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3",
+    "topic": "Tin Học 12 - Tuần 33",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 33 - Câu 10] Trong bài học \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 33 - Bài tập 10] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Đề thi thử Tốt nghiệp THPT Tin Học 2026 - Đề số 3\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_34_01",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 1] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 1] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_34_02",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 2] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 2] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_34_03",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 3] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 3] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\"."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   },
   {
     "id": "CS12_34_04",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 4] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 4] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_34_05",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 5] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 5] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_34_06",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 6] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 6] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_34_07",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 7] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 7] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_34_08",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 8] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 8] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_34_09",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 9] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 9] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_34_10",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính",
+    "topic": "Tin Học 12 - Tuần 34",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 34 - Câu 10] Trong bài học \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 34 - Bài tập 10] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Bí quyết giải nhanh câu hỏi trắc nghiệm SQL và mạng máy tính\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_35_01",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 1] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 1] Thuật toán học máy nào sau đây thuộc nhóm 'Học có giám sát' (Supervised Learning)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Hồi quy tuyến tính (Linear Regression)",
+      "K-Means Clustering",
+      "PCA (Giảm chiều dữ liệu)",
+      "Q-Learning"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Linear Regression học dựa trên tập dữ liệu đã có nhãn đầu ra (labels), thuộc nhóm học có giám sát."
   },
   {
     "id": "CS12_35_02",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 2] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 2] Cú pháp HTML nào dùng để tạo một siêu liên kết đến trang web khác?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "<a href='url'>Link text</a>",
+      "<link src='url'>Link text</link>",
+      "<href='url'>Link</href>",
+      "<anchor url='url'>Link</anchor>"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thẻ <a> với thuộc tính href dùng để tạo siêu liên kết (Hyperlink) trong HTML."
   },
   {
     "id": "CS12_35_03",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 3] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 3] Trong cơ sở dữ liệu quan hệ, phép nối INNER JOIN giữa hai bảng A và B sẽ trả về:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Các bản ghi có giá trị khóa trùng khớp ở cả 2 bảng",
+      "Toàn bộ bản ghi của bảng A",
+      "Toàn bộ bản ghi của bảng B",
+      "Tích Descartes của hai bảng"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: INNER JOIN chỉ trả về các dòng dữ liệu thỏa mãn điều kiện kết nối ở cả hai bảng."
   },
   {
     "id": "CS12_35_04",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 4] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 4] Để đếm tổng số học sinh trong bảng 'HocSinh', câu lệnh SQL chính xác là:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\"."
+      "SELECT COUNT(*) FROM HocSinh;",
+      "SELECT SUM(*) FROM HocSinh;",
+      "SELECT TOTAL(HocSinh);",
+      "SELECT NUMBER FROM HocSinh;"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Hàm tổng hợp COUNT(*) trong SQL dùng để đếm tổng số dòng (bản ghi) trong bảng."
   },
   {
     "id": "CS12_35_05",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 5] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 5] Mô hình OSI có bao nhiêu tầng (layers)?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "7 tầng",
+      "4 tầng",
+      "5 tầng",
+      "6 tầng"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mô hình tham chiếu OSI gồm đúng 7 tầng: Vật lí, Liên kết dữ liệu, Mạng, Giao vận, Phiên, Trình diễn, Ứng dụng."
   },
   {
     "id": "CS12_35_06",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 6] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 6] Câu lệnh SQL nào dùng để truy xuất dữ liệu từ một bảng cơ sở dữ liệu?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Lệnh SELECT dùng để truy vấn và lấy các bản ghi dữ liệu từ bảng."
   },
   {
     "id": "CS12_35_07",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 7] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 7] Trong bảng CSDL 'HocSinh', trường 'MaHS' mang giá trị duy nhất cho mỗi học sinh được gọi là:",
     "options": [
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "Khóa chính (Primary Key)",
+      "Khóa ngoại (Foreign Key)",
+      "Trường chỉ mục phụ",
+      "Ràng buộc kiểm tra"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Khóa chính (Primary Key) là thuộc tính hoặc tập thuộc tính dùng để phân biệt duy nhất từng bản ghi."
   },
   {
     "id": "CS12_35_08",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 8] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 8] Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bit nhị phân?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\"."
+      "32 bit (4 byte)",
+      "64 bit",
+      "128 bit (IPv6)",
+      "16 bit"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Địa chỉ IPv4 gồm 32 bit, chia thành 4 octet (mỗi octet 8 bit, ví dụ 192.168.1.1)."
   },
   {
     "id": "CS12_35_09",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 9] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 9] Để sắp xếp kết quả truy vấn SQL theo thứ tự điểm thi giảm dần, ta sử dụng mệnh đề:",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "ORDER BY DiemThi DESC",
+      "ORDER BY DiemThi ASC",
+      "GROUP BY DiemThi",
+      "SORT BY DiemThi DOWN"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Mệnh đề ORDER BY ... DESC sắp xếp giảm dần (Descending); ASC là tăng dần (Ascending)."
   },
   {
     "id": "CS12_35_10",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai",
+    "topic": "Tin Học 12 - Tuần 35",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Tin Học 12 - Tuần 35 - Câu 10] Trong bài học \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\", phát biểu hoặc cú pháp kỹ thuật nào sau đây là CHÍNH XÁC?",
+    "question": "[Tin Học 12 - Tuần 35 - Bài tập 10] Giao thức nào được sử dụng để truyền tải an toàn các trang Web qua Internet có mã hóa SSL/TLS?",
     "options": [
-      "Cú pháp câu lệnh SQL bị lỗi cú pháp ở mệnh đề SELECT, WHERE, GROUP BY hoặc JOIN.",
-      "Mô tả chuẩn xác giao thức mạng / cấu trúc bảng CSDL / cú pháp truy vấn SQL / thuật toán trong \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-      "Nhầm lẫn chức năng giữa các tầng trong mô hình OSI hoặc giữa địa chỉ IP và địa chỉ MAC.",
-      "Thiết kế khóa chính, khóa ngoại trong bảng cơ sở dữ liệu quan hệ vi phạm tính toàn vẹn dữ liệu."
+      "HTTPS (cổng 443)",
+      "HTTP (cổng 80)",
+      "FTP (cổng 21)",
+      "SMTP (cổng 25)"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên lí mạng máy tính, mô hình CSDL quan hệ và lệnh SQL trong bài \"Tổng kết Tin Học 12 & Định hướng nghề nghiệp công nghệ thông tin tương lai\".",
-    "explanation": "Giải thích kỹ thuật: Lựa chọn đúng tuân thủ các chuẩn quốc tế về mạng máy tính (TCP/IP) và hệ quản trị cơ sở dữ liệu quan hệ trong chương trình Tin học 12."
+    "correctIndex": 0,
+    "hint": "Xem lại kiến thức mô hình mạng TCP/IP, hệ quản trị CSDL quan hệ và lệnh SQL lớp 12.",
+    "explanation": "Hướng dẫn giải chi tiết: HTTPS (Hypertext Transfer Protocol Secure) sử dụng chứng chỉ mã hóa TLS/SSL trên cổng 443 để bảo vệ dữ liệu."
   }
 ];
 

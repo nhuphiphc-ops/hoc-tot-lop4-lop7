@@ -1,37 +1,38 @@
-// NGÂN HÀNG CÂU HỎI SINH HỌC 12 LỚP 12 - CHUẨN TỐT NGHIỆP THPT 2026 (GDPT MỚI)
+// NGÂN HÀNG BÀI TẬP VÀ CÂU HỎI THỰC HÀNH SINH HỌC 12 LỚP 12
+// CHUẨN ĐỀ THI TỐT NGHIỆP THPT 2026 (GDPT MỚI)
 // DÀNH CHO HỌC SINH NGUYỄN NHẬT MINH (TRƯỜNG PTTH NGÔ GIA TỰ)
-// 35 TUẦN HỌC - 350 CÂU HỎI ĐẶC SẮC CÓ ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+// 35 TUẦN - 350 BÀI TẬP CỤ THỂ, BÀI TOÁN TÍNH TOÁN, CÔNG THỨC & LỜI GIẢI CHI TIẾT
 
 export const STAGES_BIO12 = [
   {
     "id": 1,
-    "title": "Chặng 1: Di Truyền Học Phân Tử & Tế Bào",
+    "title": "Chặng 1: Di Truyền Phân Tử & Đột Biến Gen",
     "range": "Tuần 1 - Tuần 9",
-    "desc": "DNA, RNA, nhân đôi, phiên mã, dịch mã, điều hòa gen và đột biến",
+    "desc": "DNA, RNA, nhân đôi, phiên mã, dịch mã, Operon Lac",
     "icon": "BookOpen",
     "color": "from-green-600 to-emerald-700"
   },
   {
     "id": 2,
-    "title": "Chặng 2: Quy Luật Di Truyền Men-đen & Tương Tác Gen",
+    "title": "Chặng 2: Quy Luật Di Truyền & Phả Hệ",
     "range": "Tuần 10 - Tuần 18",
-    "desc": "Phân li, phân li độc lập, tương tác gen, liên kết gen và hoán vị gen",
+    "desc": "Men-đen, tương tác gen, hoán vị gen, di truyền giới tính",
     "icon": "Compass",
     "color": "from-teal-600 to-cyan-700"
   },
   {
     "id": 3,
-    "title": "Chặng 3: Di Truyền Quần Thể, Công Nghệ Gen & Tiến Hóa",
+    "title": "Chặng 3: Di Truyền Quần Thể & Tiến Hóa",
     "range": "Tuần 19 - Tuần 27",
-    "desc": "Hardy-Weinberg, phả hệ, chọn lọc tự nhiên và loài mới",
+    "desc": "Hardy-Weinberg, CLTN, hình thành loài mới",
     "icon": "Award",
     "color": "from-amber-600 to-orange-600"
   },
   {
     "id": 4,
-    "title": "Chặng 4: Sinh Thái Học & Luyện Đề Tốt Nghiệp THPT 2026",
+    "title": "Chặng 4: Sinh Thái Học & Luyện Đề Tốt Nghiệp 2026",
     "range": "Tuần 28 - Tuần 35",
-    "desc": "Quần xã, hệ sinh thái, chuỗi thức ăn và luyện đề chuẩn Quốc gia",
+    "desc": "Quần xã, hệ sinh thái, chuỗi thức ăn và luyện đề",
     "icon": "GraduationCap",
     "color": "from-purple-600 to-pink-600"
   }
@@ -40,12 +41,12 @@ export const STAGES_BIO12 = [
 export const TOPIC_CATEGORIES_BIO12 = [
   {
     "id": "theory",
-    "name": "Nhận Biết & Lý Thuyết",
+    "name": "Nhận Biết & Định Lí",
     "color": "bg-blue-100 text-blue-800"
   },
   {
     "id": "application",
-    "name": "Thông Hiểu & Vận Dụng",
+    "name": "Thông Hiểu & Tính Toán",
     "color": "bg-emerald-100 text-emerald-800"
   },
   {
@@ -60,6869 +61,6658 @@ export const TOPIC_CATEGORIES_BIO12 = [
   }
 ];
 
-export const WEEKS_METADATA_BIO12 = {
-  "1": {
-    "title": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 1 môn Sinh Học 12."
-  },
-  "2": {
-    "title": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 2 môn Sinh Học 12."
-  },
-  "3": {
-    "title": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 3 môn Sinh Học 12."
-  },
-  "4": {
-    "title": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 4 môn Sinh Học 12."
-  },
-  "5": {
-    "title": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 5 môn Sinh Học 12."
-  },
-  "6": {
-    "title": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 6 môn Sinh Học 12."
-  },
-  "7": {
-    "title": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 7 môn Sinh Học 12."
-  },
-  "8": {
-    "title": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 8 môn Sinh Học 12."
-  },
-  "9": {
-    "title": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
-    "stageId": 1,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 9 môn Sinh Học 12."
-  },
-  "10": {
-    "title": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 10 môn Sinh Học 12."
-  },
-  "11": {
-    "title": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 11 môn Sinh Học 12."
-  },
-  "12": {
-    "title": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 12 môn Sinh Học 12."
-  },
-  "13": {
-    "title": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 13 môn Sinh Học 12."
-  },
-  "14": {
-    "title": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 14 môn Sinh Học 12."
-  },
-  "15": {
-    "title": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 15 môn Sinh Học 12."
-  },
-  "16": {
-    "title": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 16 môn Sinh Học 12."
-  },
-  "17": {
-    "title": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 17 môn Sinh Học 12."
-  },
-  "18": {
-    "title": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
-    "stageId": 2,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 18 môn Sinh Học 12."
-  },
-  "19": {
-    "title": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 19 môn Sinh Học 12."
-  },
-  "20": {
-    "title": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 20 môn Sinh Học 12."
-  },
-  "21": {
-    "title": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 21 môn Sinh Học 12."
-  },
-  "22": {
-    "title": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 22 môn Sinh Học 12."
-  },
-  "23": {
-    "title": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 23 môn Sinh Học 12."
-  },
-  "24": {
-    "title": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 24 môn Sinh Học 12."
-  },
-  "25": {
-    "title": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 25 môn Sinh Học 12."
-  },
-  "26": {
-    "title": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 26 môn Sinh Học 12."
-  },
-  "27": {
-    "title": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
-    "stageId": 3,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 27 môn Sinh Học 12."
-  },
-  "28": {
-    "title": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 28 môn Sinh Học 12."
-  },
-  "29": {
-    "title": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 29 môn Sinh Học 12."
-  },
-  "30": {
-    "title": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 30 môn Sinh Học 12."
-  },
-  "31": {
-    "title": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 31 môn Sinh Học 12."
-  },
-  "32": {
-    "title": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 32 môn Sinh Học 12."
-  },
-  "33": {
-    "title": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 33 môn Sinh Học 12."
-  },
-  "34": {
-    "title": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 34 môn Sinh Học 12."
-  },
-  "35": {
-    "title": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
-    "stageId": 4,
-    "category": "theory",
-    "desc": "Luyện tập chuyên sâu bài học Tuần 35 môn Sinh Học 12."
-  }
-};
+export const WEEKS_METADATA_BIO12 = {};
 
 export const QUESTION_BANK_BIO12 = [
   {
-    "id": "BIO12_01_01",
+    "id": "B12_01_01",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 1] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_01_02",
+    "id": "B12_01_02",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 2] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_01_03",
+    "id": "B12_01_03",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 3] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_01_04",
+    "id": "B12_01_04",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 4] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_01_05",
+    "id": "B12_01_05",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 5] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_01_06",
+    "id": "B12_01_06",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 6] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_01_07",
+    "id": "B12_01_07",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 7] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_01_08",
+    "id": "B12_01_08",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 8] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_01_09",
+    "id": "B12_01_09",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 9] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_01_10",
+    "id": "B12_01_10",
     "week": 1,
     "semester": 1,
     "stage": 1,
-    "topic": "Gen, mã di truyền và cấu trúc không gian của phân tử DNA",
+    "topic": "Sinh Học 12 - Tuần 1",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 1 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 1 - Câu 10] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Gen, mã di truyền và cấu trúc không gian của phân tử DNA\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_02_01",
+    "id": "B12_02_01",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 1] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_02_02",
+    "id": "B12_02_02",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 2] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_02_03",
+    "id": "B12_02_03",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 3] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_02_04",
+    "id": "B12_02_04",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 4] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_02_05",
+    "id": "B12_02_05",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 5] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_02_06",
+    "id": "B12_02_06",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 6] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_02_07",
+    "id": "B12_02_07",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 7] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_02_08",
+    "id": "B12_02_08",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 8] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_02_09",
+    "id": "B12_02_09",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 9] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_02_10",
+    "id": "B12_02_10",
     "week": 2,
     "semester": 1,
     "stage": 1,
-    "topic": "Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn",
+    "topic": "Sinh Học 12 - Tuần 2",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 2 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 2 - Câu 10] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình nhân đôi DNA (Tái bản DNA) theo nguyên tắc bán bảo tồn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_03_01",
+    "id": "B12_03_01",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 1] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_03_02",
+    "id": "B12_03_02",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 2] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_03_03",
+    "id": "B12_03_03",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 3] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_03_04",
+    "id": "B12_03_04",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 4] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_03_05",
+    "id": "B12_03_05",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 5] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_03_06",
+    "id": "B12_03_06",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 6] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_03_07",
+    "id": "B12_03_07",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 7] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_03_08",
+    "id": "B12_03_08",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 8] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_03_09",
+    "id": "B12_03_09",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 9] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_03_10",
+    "id": "B12_03_10",
     "week": 3,
     "semester": 1,
     "stage": 1,
-    "topic": "Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã",
+    "topic": "Sinh Học 12 - Tuần 3",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 3 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 3 - Câu 10] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Phiên mã tạo mRNA, tRNA, rRNA và cơ chế xử lý bản phiên mã\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_04_01",
+    "id": "B12_04_01",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 1] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_04_02",
+    "id": "B12_04_02",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 2] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_04_03",
+    "id": "B12_04_03",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 3] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_04_04",
+    "id": "B12_04_04",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 4] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_04_05",
+    "id": "B12_04_05",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 5] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_04_06",
+    "id": "B12_04_06",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 6] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_04_07",
+    "id": "B12_04_07",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 7] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_04_08",
+    "id": "B12_04_08",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 8] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_04_09",
+    "id": "B12_04_09",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 9] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_04_10",
+    "id": "B12_04_10",
     "week": 4,
     "semester": 1,
     "stage": 1,
-    "topic": "Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất",
+    "topic": "Sinh Học 12 - Tuần 4",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 4 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 4 - Câu 10] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Dịch mã (Tổng hợp protein) trên ribosome trong tế bào chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_05_01",
+    "id": "B12_05_01",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 1] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_05_02",
+    "id": "B12_05_02",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 2] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_05_03",
+    "id": "B12_05_03",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 3] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_05_04",
+    "id": "B12_05_04",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 4] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_05_05",
+    "id": "B12_05_05",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 5] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_05_06",
+    "id": "B12_05_06",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 6] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_05_07",
+    "id": "B12_05_07",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 7] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_05_08",
+    "id": "B12_05_08",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 8] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_05_09",
+    "id": "B12_05_09",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 9] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_05_10",
+    "id": "B12_05_10",
     "week": 5,
     "semester": 1,
     "stage": 1,
-    "topic": "Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli",
+    "topic": "Sinh Học 12 - Tuần 5",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 5 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 5 - Câu 10] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Điều hòa hoạt động của gen: Mô hình Operon Lac ở vi khuẩn E.coli\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_06_01",
+    "id": "B12_06_01",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 1] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_06_02",
+    "id": "B12_06_02",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 2] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_06_03",
+    "id": "B12_06_03",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 3] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_06_04",
+    "id": "B12_06_04",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 4] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_06_05",
+    "id": "B12_06_05",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 5] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_06_06",
+    "id": "B12_06_06",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 6] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_06_07",
+    "id": "B12_06_07",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 7] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_06_08",
+    "id": "B12_06_08",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 8] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_06_09",
+    "id": "B12_06_09",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 9] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_06_10",
+    "id": "B12_06_10",
     "week": 6,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide",
+    "topic": "Sinh Học 12 - Tuần 6",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 6 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 6 - Câu 10] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến gen: Đột biến thay thế, thêm và mất cặp nucleotide\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_07_01",
+    "id": "B12_07_01",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 1] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_07_02",
+    "id": "B12_07_02",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 2] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_07_03",
+    "id": "B12_07_03",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 3] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_07_04",
+    "id": "B12_07_04",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 4] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_07_05",
+    "id": "B12_07_05",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 5] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_07_06",
+    "id": "B12_07_06",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 6] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_07_07",
+    "id": "B12_07_07",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 7] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_07_08",
+    "id": "B12_07_08",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 8] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_07_09",
+    "id": "B12_07_09",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 9] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_07_10",
+    "id": "B12_07_10",
     "week": 7,
     "semester": 1,
     "stage": 1,
-    "topic": "Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome",
+    "topic": "Sinh Học 12 - Tuần 7",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 7 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 7 - Câu 10] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc nhiễm sắc thể (NST) ở sinh vật nhân thực: Nucleosome\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_08_01",
+    "id": "B12_08_01",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 1] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_08_02",
+    "id": "B12_08_02",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 2] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_08_03",
+    "id": "B12_08_03",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 3] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_08_04",
+    "id": "B12_08_04",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 4] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_08_05",
+    "id": "B12_08_05",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 5] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_08_06",
+    "id": "B12_08_06",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 6] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_08_07",
+    "id": "B12_08_07",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 7] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_08_08",
+    "id": "B12_08_08",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 8] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_08_09",
+    "id": "B12_08_09",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 9] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_08_10",
+    "id": "B12_08_10",
     "week": 8,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn",
+    "topic": "Sinh Học 12 - Tuần 8",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 8 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 8 - Câu 10] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến cấu trúc NST: Mất đoạn, lặp đoạn, đảo đoạn, chuyển đoạn\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_09_01",
+    "id": "B12_09_01",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 1] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_09_02",
+    "id": "B12_09_02",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 2] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_09_03",
+    "id": "B12_09_03",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 3] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_09_04",
+    "id": "B12_09_04",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 4] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_09_05",
+    "id": "B12_09_05",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 5] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_09_06",
+    "id": "B12_09_06",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 6] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_09_07",
+    "id": "B12_09_07",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 7] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_09_08",
+    "id": "B12_09_08",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 8] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_09_09",
+    "id": "B12_09_09",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 9] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_09_10",
+    "id": "B12_09_10",
     "week": 9,
     "semester": 1,
     "stage": 1,
-    "topic": "Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)",
+    "topic": "Sinh Học 12 - Tuần 9",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 9 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 9 - Câu 10] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đột biến số lượng NST: Thể lệch bội và thể đa bội (tự đa bội, dị đa bội)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_10_01",
+    "id": "B12_10_01",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 1] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_10_02",
+    "id": "B12_10_02",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 2] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_10_03",
+    "id": "B12_10_03",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 3] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_10_04",
+    "id": "B12_10_04",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 4] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_10_05",
+    "id": "B12_10_05",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 5] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_10_06",
+    "id": "B12_10_06",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 6] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_10_07",
+    "id": "B12_10_07",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 7] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_10_08",
+    "id": "B12_10_08",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 8] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_10_09",
+    "id": "B12_10_09",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 9] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_10_10",
+    "id": "B12_10_10",
     "week": 10,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 10",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 10 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 10 - Câu 10] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li và thí nghiệm lai một cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_11_01",
+    "id": "B12_11_01",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 1] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_11_02",
+    "id": "B12_11_02",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 2] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_11_03",
+    "id": "B12_11_03",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 3] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_11_04",
+    "id": "B12_11_04",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 4] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_11_05",
+    "id": "B12_11_05",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 5] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_11_06",
+    "id": "B12_11_06",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 6] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_11_07",
+    "id": "B12_11_07",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 7] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_11_08",
+    "id": "B12_11_08",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 8] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_11_09",
+    "id": "B12_11_09",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 9] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_11_10",
+    "id": "B12_11_10",
     "week": 11,
     "semester": 1,
     "stage": 2,
-    "topic": "Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen",
+    "topic": "Sinh Học 12 - Tuần 11",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 11 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 11 - Câu 10] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quy luật phân li độc lập và lai hai cặp tính trạng của Men-đen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_12_01",
+    "id": "B12_12_01",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 1] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_12_02",
+    "id": "B12_12_02",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 2] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_12_03",
+    "id": "B12_12_03",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 3] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_12_04",
+    "id": "B12_12_04",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 4] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_12_05",
+    "id": "B12_12_05",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 5] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_12_06",
+    "id": "B12_12_06",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 6] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_12_07",
+    "id": "B12_12_07",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 7] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_12_08",
+    "id": "B12_12_08",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 8] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_12_09",
+    "id": "B12_12_09",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 9] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_12_10",
+    "id": "B12_12_10",
     "week": 12,
     "semester": 1,
     "stage": 2,
-    "topic": "Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen",
+    "topic": "Sinh Học 12 - Tuần 12",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 12 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 12 - Câu 10] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Tương tác gen (Tương tác bổ sung, cộng gộp) và tác động đa hiệu của gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_13_01",
+    "id": "B12_13_01",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 1] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_13_02",
+    "id": "B12_13_02",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 2] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_13_03",
+    "id": "B12_13_03",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 3] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_13_04",
+    "id": "B12_13_04",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 4] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_13_05",
+    "id": "B12_13_05",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 5] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_13_06",
+    "id": "B12_13_06",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 6] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_13_07",
+    "id": "B12_13_07",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 7] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_13_08",
+    "id": "B12_13_08",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 8] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_13_09",
+    "id": "B12_13_09",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 9] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_13_10",
+    "id": "B12_13_10",
     "week": 13,
     "semester": 1,
     "stage": 2,
-    "topic": "Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen",
+    "topic": "Sinh Học 12 - Tuần 13",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 13 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 13 - Câu 10] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Liên kết gen hoàn toàn và hoán vị gen (Morgan): Tần số hoán vị gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_14_01",
+    "id": "B12_14_01",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 1] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_14_02",
+    "id": "B12_14_02",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 2] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_14_03",
+    "id": "B12_14_03",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 3] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_14_04",
+    "id": "B12_14_04",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 4] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_14_05",
+    "id": "B12_14_05",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 5] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_14_06",
+    "id": "B12_14_06",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 6] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_14_07",
+    "id": "B12_14_07",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 7] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_14_08",
+    "id": "B12_14_08",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 8] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_14_09",
+    "id": "B12_14_09",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 9] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_14_10",
+    "id": "B12_14_10",
     "week": 14,
     "semester": 1,
     "stage": 2,
-    "topic": "Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân",
+    "topic": "Sinh Học 12 - Tuần 14",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 14 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 14 - Câu 10] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền liên kết với giới tính (NST X, Y) và di truyền ngoài nhân\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_15_01",
+    "id": "B12_15_01",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 1] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_15_02",
+    "id": "B12_15_02",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 2] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_15_03",
+    "id": "B12_15_03",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 3] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_15_04",
+    "id": "B12_15_04",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 4] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_15_05",
+    "id": "B12_15_05",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 5] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_15_06",
+    "id": "B12_15_06",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 6] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_15_07",
+    "id": "B12_15_07",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 7] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_15_08",
+    "id": "B12_15_08",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 8] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_15_09",
+    "id": "B12_15_09",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 9] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_15_10",
+    "id": "B12_15_10",
     "week": 15,
     "semester": 1,
     "stage": 2,
-    "topic": "Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12",
+    "topic": "Sinh Học 12 - Tuần 15",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 15 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 15 - Câu 10] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ôn tập & Kiểm tra Học kỳ I môn Sinh Học 12\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_16_01",
+    "id": "B12_16_01",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 1] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_16_02",
+    "id": "B12_16_02",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 2] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_16_03",
+    "id": "B12_16_03",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 3] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_16_04",
+    "id": "B12_16_04",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 4] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_16_05",
+    "id": "B12_16_05",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 5] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_16_06",
+    "id": "B12_16_06",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 6] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_16_07",
+    "id": "B12_16_07",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 7] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_16_08",
+    "id": "B12_16_08",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 8] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_16_09",
+    "id": "B12_16_09",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 9] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_16_10",
+    "id": "B12_16_10",
     "week": 16,
     "semester": 1,
     "stage": 2,
-    "topic": "Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng",
+    "topic": "Sinh Học 12 - Tuần 16",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 16 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 16 - Câu 10] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Ảnh hưởng của môi trường lên sự biểu hiện của gen: Mức phản ứng\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_17_01",
+    "id": "B12_17_01",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 1] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_17_02",
+    "id": "B12_17_02",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 2] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_17_03",
+    "id": "B12_17_03",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 3] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_17_04",
+    "id": "B12_17_04",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 4] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_17_05",
+    "id": "B12_17_05",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 5] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_17_06",
+    "id": "B12_17_06",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 6] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_17_07",
+    "id": "B12_17_07",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 7] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_17_08",
+    "id": "B12_17_08",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 8] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_17_09",
+    "id": "B12_17_09",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 9] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_17_10",
+    "id": "B12_17_10",
     "week": 17,
     "semester": 1,
     "stage": 2,
-    "topic": "Cấu trúc di truyền của quần thể tự phối và ngẫu phối",
+    "topic": "Sinh Học 12 - Tuần 17",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 17 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 17 - Câu 10] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Cấu trúc di truyền của quần thể tự phối và ngẫu phối\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_18_01",
+    "id": "B12_18_01",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 1] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_18_02",
+    "id": "B12_18_02",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 2] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_18_03",
+    "id": "B12_18_03",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 3] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_18_04",
+    "id": "B12_18_04",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 4] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_18_05",
+    "id": "B12_18_05",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 5] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_18_06",
+    "id": "B12_18_06",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 6] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_18_07",
+    "id": "B12_18_07",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 7] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_18_08",
+    "id": "B12_18_08",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 8] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_18_09",
+    "id": "B12_18_09",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 9] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_18_10",
+    "id": "B12_18_10",
     "week": 18,
     "semester": 1,
     "stage": 2,
-    "topic": "Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)",
+    "topic": "Sinh Học 12 - Tuần 18",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 18 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 18 - Câu 10] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Trạng thái cân bằng di truyền của quần thể (Định luật Hardy - Weinberg)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_19_01",
+    "id": "B12_19_01",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 1] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_19_02",
+    "id": "B12_19_02",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 2] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_19_03",
+    "id": "B12_19_03",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 3] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_19_04",
+    "id": "B12_19_04",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 4] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_19_05",
+    "id": "B12_19_05",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 5] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_19_06",
+    "id": "B12_19_06",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 6] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_19_07",
+    "id": "B12_19_07",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 7] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_19_08",
+    "id": "B12_19_08",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 8] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_19_09",
+    "id": "B12_19_09",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 9] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_19_10",
+    "id": "B12_19_10",
     "week": 19,
     "semester": 2,
     "stage": 3,
-    "topic": "Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến",
+    "topic": "Sinh Học 12 - Tuần 19",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 19 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 19 - Câu 10] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chọn giống bằng nguồn biến dị tổ hợp và phương pháp gây đột biến\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_20_01",
+    "id": "B12_20_01",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 1] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_20_02",
+    "id": "B12_20_02",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 2] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_20_03",
+    "id": "B12_20_03",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 3] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_20_04",
+    "id": "B12_20_04",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 4] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_20_05",
+    "id": "B12_20_05",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 5] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_20_06",
+    "id": "B12_20_06",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 6] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_20_07",
+    "id": "B12_20_07",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 7] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_20_08",
+    "id": "B12_20_08",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 8] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_20_09",
+    "id": "B12_20_09",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 9] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_20_10",
+    "id": "B12_20_10",
     "week": 20,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)",
+    "topic": "Sinh Học 12 - Tuần 20",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 20 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 20 - Câu 10] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ tế bào thực vật và động vật (Nuôi cấy mô, cấy truyền phôi)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_21_01",
+    "id": "B12_21_01",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 1] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_21_02",
+    "id": "B12_21_02",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 2] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_21_03",
+    "id": "B12_21_03",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 3] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_21_04",
+    "id": "B12_21_04",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 4] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_21_05",
+    "id": "B12_21_05",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 5] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_21_06",
+    "id": "B12_21_06",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 6] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_21_07",
+    "id": "B12_21_07",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 7] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_21_08",
+    "id": "B12_21_08",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 8] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_21_09",
+    "id": "B12_21_09",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 9] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_21_10",
+    "id": "B12_21_10",
     "week": 21,
     "semester": 2,
     "stage": 3,
-    "topic": "Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen",
+    "topic": "Sinh Học 12 - Tuần 21",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 21 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 21 - Câu 10] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Công nghệ gen: Tạo DNA tái tổ hợp, thể truyền plasmid và sinh vật biến đổi gen\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_22_01",
+    "id": "B12_22_01",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 1] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_22_02",
+    "id": "B12_22_02",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 2] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_22_03",
+    "id": "B12_22_03",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 3] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_22_04",
+    "id": "B12_22_04",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 4] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_22_05",
+    "id": "B12_22_05",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 5] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_22_06",
+    "id": "B12_22_06",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 6] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_22_07",
+    "id": "B12_22_07",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 7] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_22_08",
+    "id": "B12_22_08",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 8] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_22_09",
+    "id": "B12_22_09",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 9] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_22_10",
+    "id": "B12_22_10",
     "week": 22,
     "semester": 2,
     "stage": 3,
-    "topic": "Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử",
+    "topic": "Sinh Học 12 - Tuần 22",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 22 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 22 - Câu 10] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Di truyền y học: Phương pháp nghiên cứu phả hệ và bệnh di truyền phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_23_01",
+    "id": "B12_23_01",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 1] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_23_02",
+    "id": "B12_23_02",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 2] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_23_03",
+    "id": "B12_23_03",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 3] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_23_04",
+    "id": "B12_23_04",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 4] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_23_05",
+    "id": "B12_23_05",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 5] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_23_06",
+    "id": "B12_23_06",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 6] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_23_07",
+    "id": "B12_23_07",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 7] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_23_08",
+    "id": "B12_23_08",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 8] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_23_09",
+    "id": "B12_23_09",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 9] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_23_10",
+    "id": "B12_23_10",
     "week": 23,
     "semester": 2,
     "stage": 3,
-    "topic": "Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử",
+    "topic": "Sinh Học 12 - Tuần 23",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 23 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 23 - Câu 10] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bằng chứng tiến hóa: Bằng chứng giải phẫu so sánh, phôi sinh học và phân tử\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_24_01",
-    "week": 24,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_24_02",
-    "week": 24,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_24_03",
-    "week": 24,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_24_04",
-    "week": 24,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
-    "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_24_05",
+    "id": "B12_24_01",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
+    "topic": "Sinh Học 12 - Tuần 24",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 1] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
+    "options": [
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
+  },
+  {
+    "id": "B12_24_02",
+    "week": 24,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 24",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 2] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
+    "options": [
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
+  },
+  {
+    "id": "B12_24_03",
+    "week": 24,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 24",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 3] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
+    "options": [
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
+  },
+  {
+    "id": "B12_24_04",
+    "week": 24,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 24",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 4] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
+    "options": [
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
+  },
+  {
+    "id": "B12_24_05",
+    "week": 24,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 5] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_24_06",
+    "id": "B12_24_06",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
+    "topic": "Sinh Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 6] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_24_07",
+    "id": "B12_24_07",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
+    "topic": "Sinh Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 7] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_24_08",
+    "id": "B12_24_08",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
+    "topic": "Sinh Học 12 - Tuần 24",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 8] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_24_09",
+    "id": "B12_24_09",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
+    "topic": "Sinh Học 12 - Tuần 24",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 9] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_24_10",
+    "id": "B12_24_10",
     "week": 24,
     "semester": 2,
     "stage": 3,
-    "topic": "Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)",
+    "topic": "Sinh Học 12 - Tuần 24",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 24 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 24 - Câu 10] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Thuyết tiến hóa hiện đại: Các nhân tố tiến hóa (Đột biến, CLTN, di - nhập gen)\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_25_01",
-    "week": 25,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_25_02",
+    "id": "B12_25_01",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
+    "topic": "Sinh Học 12 - Tuần 25",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 1] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_25_03",
-    "week": 25,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_25_04",
-    "week": 25,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
-    "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_25_05",
-    "week": 25,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_25_06",
+    "id": "B12_25_02",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
+    "topic": "Sinh Học 12 - Tuần 25",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 2] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
+    "options": [
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
+  },
+  {
+    "id": "B12_25_03",
+    "week": 25,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 25",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 3] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
+    "options": [
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
+  },
+  {
+    "id": "B12_25_04",
+    "week": 25,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 25",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 4] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
+    "options": [
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
+  },
+  {
+    "id": "B12_25_05",
+    "week": 25,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 5] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\"."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_25_07",
+    "id": "B12_25_06",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
+    "topic": "Sinh Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 6] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_25_08",
+    "id": "B12_25_07",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
+    "topic": "Sinh Học 12 - Tuần 25",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 7] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
+    "options": [
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
+  },
+  {
+    "id": "B12_25_08",
+    "week": 25,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 25",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 8] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_25_09",
+    "id": "B12_25_09",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
+    "topic": "Sinh Học 12 - Tuần 25",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 9] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_25_10",
+    "id": "B12_25_10",
     "week": 25,
     "semester": 2,
     "stage": 3,
-    "topic": "Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính",
+    "topic": "Sinh Học 12 - Tuần 25",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 25 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 25 - Câu 10] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quá trình hình thành loài mới: Cách li địa lí, cách li sinh thái, cách li tập tính\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_26_01",
-    "week": 26,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_26_02",
-    "week": 26,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_26_03",
+    "id": "B12_26_01",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
+    "topic": "Sinh Học 12 - Tuần 26",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 1] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_26_04",
-    "week": 26,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
-    "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_26_05",
-    "week": 26,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_26_06",
-    "week": 26,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_26_07",
+    "id": "B12_26_02",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
+    "topic": "Sinh Học 12 - Tuần 26",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 2] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
+    "options": [
+      "900",
+      "600",
+      "1200",
+      "1500"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
+  },
+  {
+    "id": "B12_26_03",
+    "week": 26,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 26",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 3] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
+    "options": [
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
+  },
+  {
+    "id": "B12_26_04",
+    "week": 26,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 26",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 4] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
+    "options": [
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
+  },
+  {
+    "id": "B12_26_05",
+    "week": 26,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 26",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 5] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_26_08",
+    "id": "B12_26_06",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
+    "topic": "Sinh Học 12 - Tuần 26",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 6] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
+    "options": [
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
+  },
+  {
+    "id": "B12_26_07",
+    "week": 26,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 26",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 7] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
+    "options": [
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
+  },
+  {
+    "id": "B12_26_08",
+    "week": 26,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 26",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 8] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_26_09",
+    "id": "B12_26_09",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
+    "topic": "Sinh Học 12 - Tuần 26",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 9] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_26_10",
+    "id": "B12_26_10",
     "week": 26,
     "semester": 2,
     "stage": 3,
-    "topic": "Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất",
+    "topic": "Sinh Học 12 - Tuần 26",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 26 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 26 - Câu 10] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Nguồn gốc sự sống và sự phát triển của sinh giới qua các đại địa chất\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_27_01",
+    "id": "B12_27_01",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
+    "topic": "Sinh Học 12 - Tuần 27",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 1] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_27_02",
-    "week": 27,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_27_03",
-    "week": 27,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_27_04",
+    "id": "B12_27_02",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
+    "topic": "Sinh Học 12 - Tuần 27",
     "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 2] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_27_05",
-    "week": 27,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_27_06",
-    "week": 27,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_27_07",
-    "week": 27,
-    "semester": 2,
-    "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_27_08",
+    "id": "B12_27_03",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
+    "topic": "Sinh Học 12 - Tuần 27",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 3] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
+    "options": [
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
+  },
+  {
+    "id": "B12_27_04",
+    "week": 27,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 27",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 4] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
+    "options": [
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
+  },
+  {
+    "id": "B12_27_05",
+    "week": 27,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 27",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 5] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
+    "options": [
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
+  },
+  {
+    "id": "B12_27_06",
+    "week": 27,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 27",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 6] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
+    "options": [
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
+  },
+  {
+    "id": "B12_27_07",
+    "week": 27,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 27",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 7] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
+    "options": [
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
+  },
+  {
+    "id": "B12_27_08",
+    "week": 27,
+    "semester": 2,
+    "stage": 3,
+    "topic": "Sinh Học 12 - Tuần 27",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 8] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_27_09",
+    "id": "B12_27_09",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
+    "topic": "Sinh Học 12 - Tuần 27",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 9] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_27_10",
+    "id": "B12_27_10",
     "week": 27,
     "semester": 2,
     "stage": 3,
-    "topic": "Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái",
+    "topic": "Sinh Học 12 - Tuần 27",
     "category": "advanced",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 27 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 27 - Câu 10] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Môi trường sống và các nhân tố sinh thái: Giới hạn sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_28_01",
+    "id": "B12_28_01",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 1] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_28_02",
+    "id": "B12_28_02",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 2] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_28_03",
+    "id": "B12_28_03",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 3] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_28_04",
+    "id": "B12_28_04",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 4] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_28_05",
+    "id": "B12_28_05",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 5] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_28_06",
+    "id": "B12_28_06",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 6] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_28_07",
+    "id": "B12_28_07",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 7] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_28_08",
+    "id": "B12_28_08",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 8] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_28_09",
+    "id": "B12_28_09",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 9] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_28_10",
+    "id": "B12_28_10",
     "week": 28,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể",
+    "topic": "Sinh Học 12 - Tuần 28",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 28 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 28 - Câu 10] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần thể sinh vật: Các đặc trưng cơ bản và biến động số lượng cá thể\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_29_01",
+    "id": "B12_29_01",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 1] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_29_02",
+    "id": "B12_29_02",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 2] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\"."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_29_03",
+    "id": "B12_29_03",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 3] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_29_04",
+    "id": "B12_29_04",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 4] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_29_05",
+    "id": "B12_29_05",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 5] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_29_06",
+    "id": "B12_29_06",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 6] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_29_07",
+    "id": "B12_29_07",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 7] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_29_08",
+    "id": "B12_29_08",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 8] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_29_09",
+    "id": "B12_29_09",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 9] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_29_10",
+    "id": "B12_29_10",
     "week": 29,
     "semester": 2,
     "stage": 4,
-    "topic": "Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái",
+    "topic": "Sinh Học 12 - Tuần 29",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 29 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 29 - Câu 10] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Quần xã sinh vật: Cấu trúc, mối quan hệ sinh thái và diễn thế sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_30_01",
+    "id": "B12_30_01",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 1] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_30_02",
+    "id": "B12_30_02",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 2] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_30_03",
+    "id": "B12_30_03",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 3] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_30_04",
+    "id": "B12_30_04",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 4] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_30_05",
+    "id": "B12_30_05",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 5] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_30_06",
+    "id": "B12_30_06",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 6] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_30_07",
+    "id": "B12_30_07",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 7] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_30_08",
+    "id": "B12_30_08",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 8] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_30_09",
+    "id": "B12_30_09",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 9] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_30_10",
+    "id": "B12_30_10",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái",
+    "topic": "Sinh Học 12 - Tuần 30",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 30 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 30 - Câu 10] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Hệ sinh thái: Chuỗi thức ăn, lưới thức ăn, bậc dinh dưỡng và tháp sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_31_01",
+    "id": "B12_31_01",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 1] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_31_02",
+    "id": "B12_31_02",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 2] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_31_03",
+    "id": "B12_31_03",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 3] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_31_04",
+    "id": "B12_31_04",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "theory",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 4] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_31_05",
+    "id": "B12_31_05",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 5] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_31_06",
+    "id": "B12_31_06",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 6] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_31_07",
+    "id": "B12_31_07",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 7] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_31_08",
+    "id": "B12_31_08",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 8] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_31_09",
+    "id": "B12_31_09",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 9] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_31_10",
+    "id": "B12_31_10",
     "week": 31,
     "semester": 2,
     "stage": 4,
-    "topic": "Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái",
+    "topic": "Sinh Học 12 - Tuần 31",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 31 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 31 - Câu 10] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Chu trình sinh địa hóa và dòng năng lượng trong hệ sinh thái\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_32_01",
-    "week": 32,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_32_02",
-    "week": 32,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_32_03",
-    "week": 32,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_32_04",
-    "week": 32,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
-    "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_32_05",
+    "id": "B12_32_01",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
+    "topic": "Sinh Học 12 - Tuần 32",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 1] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
+    "options": [
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
+  },
+  {
+    "id": "B12_32_02",
+    "week": 32,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 32",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 2] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
+    "options": [
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
+  },
+  {
+    "id": "B12_32_03",
+    "week": 32,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 32",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 3] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
+    "options": [
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
+  },
+  {
+    "id": "B12_32_04",
+    "week": 32,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 32",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 4] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
+    "options": [
+      "900",
+      "600",
+      "1200",
+      "1500"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
+  },
+  {
+    "id": "B12_32_05",
+    "week": 32,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 5] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\"."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_32_06",
+    "id": "B12_32_06",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
+    "topic": "Sinh Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 6] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_32_07",
+    "id": "B12_32_07",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
+    "topic": "Sinh Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 7] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_32_08",
+    "id": "B12_32_08",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
+    "topic": "Sinh Học 12 - Tuần 32",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 8] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_32_09",
+    "id": "B12_32_09",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
+    "topic": "Sinh Học 12 - Tuần 32",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 9] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\"."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_32_10",
+    "id": "B12_32_10",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1",
+    "topic": "Sinh Học 12 - Tuần 32",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 32 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 32 - Câu 10] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 1\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_33_01",
-    "week": 33,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_33_02",
+    "id": "B12_33_01",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
+    "topic": "Sinh Học 12 - Tuần 33",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 1] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_33_03",
-    "week": 33,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_33_04",
-    "week": 33,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
-    "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_33_05",
-    "week": 33,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_33_06",
+    "id": "B12_33_02",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
+    "topic": "Sinh Học 12 - Tuần 33",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 2] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
+    "options": [
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
+  },
+  {
+    "id": "B12_33_03",
+    "week": 33,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 33",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 3] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
+    "options": [
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
+  },
+  {
+    "id": "B12_33_04",
+    "week": 33,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 33",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 4] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
+    "options": [
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
+  },
+  {
+    "id": "B12_33_05",
+    "week": 33,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 5] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\"."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_33_07",
+    "id": "B12_33_06",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
+    "topic": "Sinh Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 6] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   },
   {
-    "id": "BIO12_33_08",
+    "id": "B12_33_07",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
+    "topic": "Sinh Học 12 - Tuần 33",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 7] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
+    "options": [
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
+  },
+  {
+    "id": "B12_33_08",
+    "week": 33,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 33",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 8] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_33_09",
+    "id": "B12_33_09",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
+    "topic": "Sinh Học 12 - Tuần 33",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 9] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
   },
   {
-    "id": "BIO12_33_10",
+    "id": "B12_33_10",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2",
+    "topic": "Sinh Học 12 - Tuần 33",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 33 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 33 - Câu 10] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 2\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_34_01",
-    "week": 34,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_34_02",
-    "week": 34,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
   },
   {
-    "id": "BIO12_34_03",
+    "id": "B12_34_01",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
+    "topic": "Sinh Học 12 - Tuần 34",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 1] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_34_04",
-    "week": 34,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
-    "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_34_05",
-    "week": 34,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_34_06",
-    "week": 34,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_34_07",
+    "id": "B12_34_02",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
+    "topic": "Sinh Học 12 - Tuần 34",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 2] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
+    "options": [
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
+  },
+  {
+    "id": "B12_34_03",
+    "week": 34,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 34",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 3] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
+    "options": [
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
+  },
+  {
+    "id": "B12_34_04",
+    "week": 34,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 34",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 4] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
+    "options": [
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
+  },
+  {
+    "id": "B12_34_05",
+    "week": 34,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 34",
     "category": "application",
     "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 5] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\"."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_34_08",
+    "id": "B12_34_06",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
+    "topic": "Sinh Học 12 - Tuần 34",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 6] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
+    "options": [
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
+  },
+  {
+    "id": "B12_34_07",
+    "week": 34,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 34",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 7] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
+    "options": [
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
+  },
+  {
+    "id": "B12_34_08",
+    "week": 34,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 34",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 8] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "900",
+      "600",
+      "1200",
+      "1500"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
   },
   {
-    "id": "BIO12_34_09",
+    "id": "B12_34_09",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
+    "topic": "Sinh Học 12 - Tuần 34",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 9] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
   },
   {
-    "id": "BIO12_34_10",
+    "id": "B12_34_10",
     "week": 34,
     "semester": 2,
     "stage": 4,
-    "topic": "Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3",
+    "topic": "Sinh Học 12 - Tuần 34",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 34 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 34 - Câu 10] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
     "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Đề thi thử Tốt nghiệp THPT Sinh Học 2026 - Đề số 3\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
   },
   {
-    "id": "BIO12_35_01",
+    "id": "B12_35_01",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
+    "topic": "Sinh Học 12 - Tuần 35",
     "category": "theory",
     "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 1] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 1] Mã mở đầu trên phân tử mRNA mã hóa cho amino acid Methionine ở sinh vật nhân thực có bộ ba là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_35_02",
-    "week": 35,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 2] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_35_03",
-    "week": 35,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
-    "category": "theory",
-    "difficulty": "easy",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 3] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "5'-AUG-3'",
+      "5'-UAA-3'",
+      "5'-UAG-3'",
+      "5'-UGA-3'"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Bộ ba 5'-AUG-3' là mã mở đầu quy định Methionine (Met) ở sinh vật nhân thực (hoặc Formyl-Met ở nhân sơ)."
   },
   {
-    "id": "BIO12_35_04",
+    "id": "B12_35_02",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
+    "topic": "Sinh Học 12 - Tuần 35",
     "category": "theory",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 4] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 2] Trong một chuỗi thức ăn: Cỏ -> Châu chấu -> Ếch -> Rắn -> Đại bàng. Sinh vật tiêu thụ bậc 2 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\"."
-    ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_35_05",
-    "week": 35,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 5] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_35_06",
-    "week": 35,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 6] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
-    ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
-  },
-  {
-    "id": "BIO12_35_07",
-    "week": 35,
-    "semester": 2,
-    "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
-    "category": "application",
-    "difficulty": "medium",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 7] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
-    "options": [
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "Ếch",
+      "Châu chấu",
+      "Rắn",
+      "Cỏ"
     ],
     "correctIndex": 0,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Cỏ (SV sản xuất) -> Châu chấu (SV tiêu thụ bậc 1) -> Ếch (SV tiêu thụ bậc 2) -> Rắn (SV tiêu thụ bậc 3)."
   },
   {
-    "id": "BIO12_35_08",
+    "id": "B12_35_03",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
+    "topic": "Sinh Học 12 - Tuần 35",
+    "category": "theory",
+    "difficulty": "easy",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 3] Một phân tử mRNA có 300 codon (bộ ba). Quá trình dịch mã tổng hợp nên 1 chuỗi polypeptide hoàn chỉnh gồm bao nhiêu amino acid?",
+    "options": [
+      "298 amino acid",
+      "299 amino acid",
+      "300 amino acid",
+      "301 amino acid"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: 300 codon gồm 1 codon mở đầu, 298 codon mã hóa và 1 codon kết thúc (không mã hóa). Khi hoàn chỉnh, acid amin mở đầu bị cắt bỏ nên chuỗi polypeptide còn 298 aa."
+  },
+  {
+    "id": "B12_35_04",
+    "week": 35,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 35",
+    "category": "theory",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 4] Hiện tượng một gen chi phối sự biểu hiện của nhiều tính trạng khác nhau được gọi là:",
+    "options": [
+      "Tác động đa hiệu của gen",
+      "Tương tác bổ sung",
+      "Tương tác cộng gộp",
+      "Liên kết gen hoàn toàn"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Tác động đa hiệu (Pleiotropy) là hiện tượng một gen chi phối và ảnh hưởng đến sự hình thành nhiều tính trạng khác nhau."
+  },
+  {
+    "id": "B12_35_05",
+    "week": 35,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 35",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 5] Một phân tử DNA có 3000 nucleotide, trong đó số nucleotide loại Adenine là A = 600. Số nucleotide loại Guanine (G) của phân tử DNA này là:",
+    "options": [
+      "900",
+      "600",
+      "1200",
+      "1500"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo nguyên tắc bổ sung A + G = 50% tổng số Nu = 1500. Suy ra G = 1500 - 600 = 900 Nu."
+  },
+  {
+    "id": "B12_35_06",
+    "week": 35,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 35",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 6] Một gen có chiều dài L = 4080 Å. Tổng số nucleotide của gen này là:",
+    "options": [
+      "2400 Nu",
+      "1200 Nu",
+      "3000 Nu",
+      "4080 Nu"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: N = (2 * L) / 3.4 = (2 * 4080) / 3.4 = 2400 nucleotide."
+  },
+  {
+    "id": "B12_35_07",
+    "week": 35,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 35",
+    "category": "application",
+    "difficulty": "medium",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 7] Trong mô hình Operon Lac ở E.coli, vùng nào là nơi protein ức chế gắn vào để ngăn cản quá trình phiên mã?",
+    "options": [
+      "Vùng vận hành (Operator - O)",
+      "Vùng khởi động (Promoter - P)",
+      "Gen điều hòa (R)",
+      "Nhóm gen cấu trúc (Z, Y, A)"
+    ],
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Protein ức chế do gen điều hòa R tổng hợp sẽ gắn vào vùng vận hành (Operator - O) để ngăn cản RNA polymerase phiên mã."
+  },
+  {
+    "id": "B12_35_08",
+    "week": 35,
+    "semester": 2,
+    "stage": 4,
+    "topic": "Sinh Học 12 - Tuần 35",
     "category": "application",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 8] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 8] Ở đậu Hà Lan, gen A quy định hạt vàng trội hoàn toàn so với a quy định hạt xanh. Cho cây hạt vàng dị hợp Aa tự thụ phấn, tỉ lệ kiểu hình ở đời F1 là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\"."
+      "3 hạt vàng : 1 hạt xanh",
+      "1 hạt vàng : 1 hạt xanh",
+      "100% hạt vàng",
+      "1 vàng : 2 đốm : 1 xanh"
     ],
-    "correctIndex": 3,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Phép lai Aa x Aa cho tỉ lệ kiểu gen 1 AA : 2 Aa : 1 aa -> Tỉ lệ kiểu hình 3 hạt vàng : 1 hạt xanh."
   },
   {
-    "id": "BIO12_35_09",
+    "id": "B12_35_09",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
+    "topic": "Sinh Học 12 - Tuần 35",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 9] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 9] Một quần thể ngẫu phối ở trạng thái cân bằng di truyền có tần số alen A = 0.6 và a = 0.4. Tỉ lệ cá thể có kiểu gen dị hợp Aa trong quần thể là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "0.48 (48%)",
+      "0.36 (36%)",
+      "0.16 (16%)",
+      "0.24 (24%)"
     ],
-    "correctIndex": 2,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Theo định luật Hardy - Weinberg, tỉ lệ kiểu gen dị hợp là 2pq = 2 * 0.6 * 0.4 = 0.48 (48%)."
   },
   {
-    "id": "BIO12_35_10",
+    "id": "B12_35_10",
     "week": 35,
     "semester": 2,
     "stage": 4,
-    "topic": "Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao",
+    "topic": "Sinh Học 12 - Tuần 35",
     "category": "exam",
     "difficulty": "hard",
-    "question": "[Sinh Học 12 - Tuần 35 - Câu 10] Về cơ chế di truyền và tiến hóa trong bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\", nhận định nào sau đây là CHÍNH XÁC?",
+    "question": "[Sinh Học 12 - Tuần 35 - Câu 10] Bộ nhiễm sắc thể lưỡng bội của loài là 2n = 24. Số lượng NST trong tế bào thể ba (2n + 1) của loài này là:",
     "options": [
-      "Nhầm lẫn giữa vai trò của enzyme DNA polymerase, RNA polymerase và ligase trong tế bào.",
-      "Nhận định mô tả đúng bản chất quá trình nhân đôi/phiên mã/dịch mã/quy luật di truyền trong \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-      "Tỉ lệ kiểu hình và kiểu gen tính toán sai lệch so với định luật Men-đen hoặc liên kết gen.",
-      "Giải thích sai cơ chế cách li sinh sản và tác động của các nhân tố tiến hóa trong quần thể."
+      "25 NST",
+      "23 NST",
+      "36 NST",
+      "48 NST"
     ],
-    "correctIndex": 1,
-    "hint": "Nhớ lại nguyên tắc bổ sung, chiều tổng hợp mạch mới và quy luật di truyền của bài \"Bí quyết phân tích bài toán phả hệ và quy luật di truyền nâng cao\".",
-    "explanation": "Phân tích: Áp dụng cơ chế sinh học phân tử và quy luật di truyền học hiện đại trong chương trình Sinh học 12 để xác định kết luận đúng nhất."
+    "correctIndex": 0,
+    "hint": "Áp dụng nguyên tắc bổ sung, công thức di truyền học phân tử và định luật di truyền 12.",
+    "explanation": "Hướng dẫn giải chi tiết: Thể ba nhiễm có dạng (2n + 1) = 24 + 1 = 25 nhiễm sắc thể."
   }
 ];
 
