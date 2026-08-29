@@ -80,6 +80,10 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     if (isGrade4) return isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4';
     if (isGrade5) return isMath ? 'Toán Lớp 5' : 'Tiếng Việt 5';
     if (isGrade6) return isMath ? 'Toán Lớp 6' : 'Ngữ Văn 6';
+    if (currentGrade === '8') return isMath ? 'Toán Lớp 8' : 'Ngữ Văn 8';
+    if (currentGrade === '9') return isMath ? 'Toán Lớp 9' : 'Ngữ Văn 9 (Vào 10)';
+    if (currentGrade === '10') return isMath ? 'Toán Lớp 10' : 'Ngữ Văn 10';
+    if (currentGrade === '11') return isMath ? 'Toán Lớp 11' : 'Ngữ Văn 11';
     if (isGrade7) {
       if (currentSubject === 'math') return 'Toán Lớp 7';
       if (currentSubject === 'vietnamese') return 'Ngữ Văn 7';
@@ -105,7 +109,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
       if (currentSubject === 'technology') return 'Công Nghệ 12';
       return 'Toán 12';
     }
-    return isMath ? 'Toán Học' : 'Tiếng Việt';
+    return isMath ? `Toán ${currentGrade}` : `Ngữ Văn ${currentGrade}`;
   };
 
   const gradeList = [
@@ -113,6 +117,10 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     { id: '5', label: 'Lớp 5', icon: '⭐', color: 'from-emerald-400 to-teal-500 text-white' },
     { id: '6', label: 'Lớp 6', icon: '📘', color: 'from-indigo-500 to-blue-600 text-white' },
     { id: '7', label: 'Lớp 7', icon: '🚀', color: 'from-purple-500 to-pink-600 text-white' },
+    { id: '8', label: 'Lớp 8', icon: '📐', color: 'from-blue-500 to-cyan-600 text-white' },
+    { id: '9', label: 'Lớp 9', icon: '🏆', color: 'from-orange-500 to-amber-600 text-white' },
+    { id: '10', label: 'Lớp 10', icon: '⚡', color: 'from-teal-500 to-emerald-600 text-white' },
+    { id: '11', label: 'Lớp 11', icon: '🔮', color: 'from-violet-500 to-purple-600 text-white' },
     { id: '12', label: 'Lớp 12', icon: '🎓', color: 'from-red-500 to-rose-600 text-white' },
   ];
 

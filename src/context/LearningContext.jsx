@@ -24,6 +24,22 @@ import { STAGES_HISGEO7, TOPIC_CATEGORIES_HISGEO7, WEEKS_METADATA_HISGEO7, QUEST
 import { STAGES_INFO7, TOPIC_CATEGORIES_INFO7, WEEKS_METADATA_INFO7, QUESTION_BANK_INFO7, getQuestionsByWeekINFO7, getFilteredQuestionsINFO7 } from '../data/grade7/informatics/questionBankInformatics7.js';
 import { STAGES_CIV7, TOPIC_CATEGORIES_CIV7, WEEKS_METADATA_CIV7, QUESTION_BANK_CIV7, getQuestionsByWeekCIV7, getFilteredQuestionsCIV7 } from '../data/grade7/civics/questionBankCivics7.js';
 import { STAGES_TECH7, TOPIC_CATEGORIES_TECH7, WEEKS_METADATA_TECH7, QUESTION_BANK_TECH7, getQuestionsByWeekTECH7, getFilteredQuestionsTECH7 } from '../data/grade7/technology/questionBankTech7.js';
+// Grade 8 Data
+import { STAGES_MATH8, TOPIC_CATEGORIES_MATH8, WEEKS_METADATA_MATH8, QUESTION_BANK_MATH8, getQuestionsByWeekMath8, getFilteredQuestionsMath8 } from '../data/grade8/math/questionBankMath8.js';
+import { STAGES_LIT8, TOPIC_CATEGORIES_LIT8, WEEKS_METADATA_LIT8, QUESTION_BANK_LIT8, getQuestionsByWeekLit8, getFilteredQuestionsLit8 } from '../data/grade8/literature/questionBankLit8.js';
+
+// Grade 9 Data
+import { STAGES_MATH9, TOPIC_CATEGORIES_MATH9, WEEKS_METADATA_MATH9, QUESTION_BANK_MATH9, getQuestionsByWeekMath9, getFilteredQuestionsMath9 } from '../data/grade9/math/questionBankMath9.js';
+import { STAGES_LIT9, TOPIC_CATEGORIES_LIT9, WEEKS_METADATA_LIT9, QUESTION_BANK_LIT9, getQuestionsByWeekLit9, getFilteredQuestionsLit9 } from '../data/grade9/literature/questionBankLit9.js';
+
+// Grade 10 Data
+import { STAGES_MATH10, TOPIC_CATEGORIES_MATH10, WEEKS_METADATA_MATH10, QUESTION_BANK_MATH10, getQuestionsByWeekMath10, getFilteredQuestionsMath10 } from '../data/grade10/math/questionBankMath10.js';
+import { STAGES_LIT10, TOPIC_CATEGORIES_LIT10, WEEKS_METADATA_LIT10, QUESTION_BANK_LIT10, getQuestionsByWeekLit10, getFilteredQuestionsLit10 } from '../data/grade10/literature/questionBankLit10.js';
+
+// Grade 11 Data
+import { STAGES_MATH11, TOPIC_CATEGORIES_MATH11, WEEKS_METADATA_MATH11, QUESTION_BANK_MATH11, getQuestionsByWeekMath11, getFilteredQuestionsMath11 } from '../data/grade11/math/questionBankMath11.js';
+import { STAGES_LIT11, TOPIC_CATEGORIES_LIT11, WEEKS_METADATA_LIT11, QUESTION_BANK_LIT11, getQuestionsByWeekLit11, getFilteredQuestionsLit11 } from '../data/grade11/literature/questionBankLit11.js';
+
 
 // Grade 12 (THPT 2026) Data - 11 Subjects for Nguyen Nhat Minh
 import { STAGES_MATH12, TOPIC_CATEGORIES_MATH12, WEEKS_METADATA_MATH12, QUESTION_BANK_MATH12, getQuestionsByWeekMath12, getFilteredQuestionsMath12 } from '../data/grade12/math/questionBankMath12.js';
@@ -97,6 +113,19 @@ const STORAGE_KEYS = {
   PROGRESS_G7_INFO: 'toan7_week_progress_info',
   PROGRESS_G7_CIV: 'toan7_week_progress_civ',
   PROGRESS_G7_TECH: 'toan7_week_progress_tech',
+  // Grade 8 Progress
+  PROGRESS_G8_MATH: 'toan8_week_progress_math',
+  PROGRESS_G8_LIT: 'toan8_week_progress_lit',
+  // Grade 9 Progress
+  PROGRESS_G9_MATH: 'toan9_week_progress_math',
+  PROGRESS_G9_LIT: 'toan9_week_progress_lit',
+  // Grade 10 Progress
+  PROGRESS_G10_MATH: 'toan10_week_progress_math',
+  PROGRESS_G10_LIT: 'toan10_week_progress_lit',
+  // Grade 11 Progress
+  PROGRESS_G11_MATH: 'toan11_week_progress_math',
+  PROGRESS_G11_LIT: 'toan11_week_progress_lit',
+
   // Grade 12 Progress
   PROGRESS_G12_MATH: 'g12_minh_week_progress_math',
   PROGRESS_G12_LIT: 'g12_minh_week_progress_lit',
@@ -124,6 +153,15 @@ const STORAGE_KEYS = {
   WRONG_G7_INFO: 'toan7_wrong_questions_info',
   WRONG_G7_CIV: 'toan7_wrong_questions_civ',
   WRONG_G7_TECH: 'toan7_wrong_questions_tech',
+  WRONG_G8_MATH: 'toan8_wrong_questions_math',
+  WRONG_G8_LIT: 'toan8_wrong_questions_lit',
+  WRONG_G9_MATH: 'toan9_wrong_questions_math',
+  WRONG_G9_LIT: 'toan9_wrong_questions_lit',
+  WRONG_G10_MATH: 'toan10_wrong_questions_math',
+  WRONG_G10_LIT: 'toan10_wrong_questions_lit',
+  WRONG_G11_MATH: 'toan11_wrong_questions_math',
+  WRONG_G11_LIT: 'toan11_wrong_questions_lit',
+
   // Grade 12 Wrongs
   WRONG_G12_MATH: 'g12_minh_wrong_math',
   WRONG_G12_LIT: 'g12_minh_wrong_lit',
@@ -274,7 +312,7 @@ export const LearningProvider = ({ children }) => {
   const [currentGrade, setCurrentGrade] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.GRADE);
-      return ['4', '5', '6', '7', '12'].includes(saved) ? saved : '4';
+      return ['4', '5', '6', '7', '8', '9', '10', '11', '12'].includes(saved) ? saved : '4';
     } catch {
       return '4';
     }
@@ -326,8 +364,18 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
+  const isGrade4 = currentGrade === '4';
+  const isGrade5 = currentGrade === '5';
+  const isGrade6 = currentGrade === '6';
+  const isGrade7 = currentGrade === '7';
+  const isGrade8 = currentGrade === '8';
+  const isGrade9 = currentGrade === '9';
+  const isGrade10 = currentGrade === '10';
+  const isGrade11 = currentGrade === '11';
   const isGrade12 = currentGrade === '12';
-  const profile = isGrade12 ? profileMinh : profileNguyen;
+  const isSecondary = ['6', '7', '8', '9'].includes(currentGrade);
+  const isHighSchool = ['10', '11', '12'].includes(currentGrade);
+  const profile = isHighSchool ? profileMinh : profileNguyen;
 
   // Progress Stores - Grade 4
   const [g4MathProgress, setG4MathProgress] = useState(() => {
@@ -514,6 +562,49 @@ export const LearningProvider = ({ children }) => {
   const [g7CivWrong, setG7CivWrong] = useState(() => {
     try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G7_CIV); return s ? JSON.parse(s) : []; } catch { return []; }
   });
+  
+  // Progress Stores - Grade 8
+  const [g8MathProgress, setG8MathProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G8_MATH); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+  const [g8LitProgress, setG8LitProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G8_LIT); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  // Progress Stores - Grade 9
+  const [g9MathProgress, setG9MathProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G9_MATH); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+  const [g9LitProgress, setG9LitProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G9_LIT); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  // Progress Stores - Grade 10
+  const [g10MathProgress, setG10MathProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G10_MATH); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+  const [g10LitProgress, setG10LitProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G10_LIT); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  // Progress Stores - Grade 11
+  const [g11MathProgress, setG11MathProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G11_MATH); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+  const [g11LitProgress, setG11LitProgress] = useState(() => {
+    try { const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G11_LIT); return saved ? JSON.parse(saved) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
+  });
+
+  // Wrong Questions Stores - Grade 8, 9, 10, 11
+  const [g8MathWrong, setG8MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G8_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g8LitWrong, setG8LitWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G8_LIT); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9MathWrong, setG9MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G9_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9LitWrong, setG9LitWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G9_LIT); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10MathWrong, setG10MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G10_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10LitWrong, setG10LitWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G10_LIT); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11MathWrong, setG11MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G11_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11LitWrong, setG11LitWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G11_LIT); return s ? JSON.parse(s) : []; } catch { return []; } });
+
   const [g7TechWrong, setG7TechWrong] = useState(() => {
     try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G7_TECH); return s ? JSON.parse(s) : []; } catch { return []; }
   });
@@ -716,6 +807,24 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_INFO, JSON.stringify(g7InfoProgress)); }, [g7InfoProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_CIV, JSON.stringify(g7CivProgress)); }, [g7CivProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_TECH, JSON.stringify(g7TechProgress)); }, [g7TechProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G8_MATH, JSON.stringify(g8MathProgress)); }, [g8MathProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G8_LIT, JSON.stringify(g8LitProgress)); }, [g8LitProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G9_MATH, JSON.stringify(g9MathProgress)); }, [g9MathProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G9_LIT, JSON.stringify(g9LitProgress)); }, [g9LitProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G10_MATH, JSON.stringify(g10MathProgress)); }, [g10MathProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G10_LIT, JSON.stringify(g10LitProgress)); }, [g10LitProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G11_MATH, JSON.stringify(g11MathProgress)); }, [g11MathProgress]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G11_LIT, JSON.stringify(g11LitProgress)); }, [g11LitProgress]);
+
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G8_MATH, JSON.stringify(g8MathWrong)); }, [g8MathWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G8_LIT, JSON.stringify(g8LitWrong)); }, [g8LitWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G9_MATH, JSON.stringify(g9MathWrong)); }, [g9MathWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G9_LIT, JSON.stringify(g9LitWrong)); }, [g9LitWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G10_MATH, JSON.stringify(g10MathWrong)); }, [g10MathWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G10_LIT, JSON.stringify(g10LitWrong)); }, [g10LitWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G11_MATH, JSON.stringify(g11MathWrong)); }, [g11MathWrong]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G11_LIT, JSON.stringify(g11LitWrong)); }, [g11LitWrong]);
+
 
   // Grade 12 Sync
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G12_MATH, JSON.stringify(g12MathProgress)); }, [g12MathProgress]);
@@ -781,7 +890,7 @@ export const LearningProvider = ({ children }) => {
     sounds.playClick();
     setCurrentGrade(gradeId);
     // Reset subject to supported subjects for target grade
-    if (['4', '5', '6'].includes(gradeId)) {
+    if (['4', '5', '6', '8', '9', '10', '11'].includes(gradeId)) {
       if (!['math', 'vietnamese'].includes(currentSubject)) {
         setCurrentSubject('math');
       }
@@ -812,12 +921,6 @@ export const LearningProvider = ({ children }) => {
   };
 
   // Helper getters
-  const isGrade4 = currentGrade === '4';
-  const isGrade5 = currentGrade === '5';
-  const isGrade6 = currentGrade === '6';
-  const isGrade7 = currentGrade === '7';
-  const isSecondary = isGrade6 || isGrade7;
-  const isHighSchool = isGrade12;
   const isMath = currentSubject === 'math';
 
   // Active Progress Map
@@ -825,6 +928,36 @@ export const LearningProvider = ({ children }) => {
     if (isGrade4) return isMath ? g4MathProgress : g4TvProgress;
     if (isGrade5) return isMath ? g5MathProgress : g5TvProgress;
     if (isGrade6) return isMath ? g6MathProgress : g6LitProgress;
+    
+    if (isGrade8) return isMath ? g8MathProgress : g8LitProgress;
+    if (isGrade9) return isMath ? g9MathProgress : g9LitProgress;
+    if (isGrade10) return isMath ? g10MathProgress : g10LitProgress;
+    if (isGrade11) return isMath ? g11MathProgress : g11LitProgress;
+
+    
+    if (isGrade8) return isMath ? g8MathWrong : g8LitWrong;
+    if (isGrade9) return isMath ? g9MathWrong : g9LitWrong;
+    if (isGrade10) return isMath ? g10MathWrong : g10LitWrong;
+    if (isGrade11) return isMath ? g11MathWrong : g11LitWrong;
+
+    
+    if (isGrade8) {
+      if (isMath) setG8MathProgress(prev => updateProgressRecord(prev));
+      else setG8LitProgress(prev => updateProgressRecord(prev));
+    }
+    if (isGrade9) {
+      if (isMath) setG9MathProgress(prev => updateProgressRecord(prev));
+      else setG9LitProgress(prev => updateProgressRecord(prev));
+    }
+    if (isGrade10) {
+      if (isMath) setG10MathProgress(prev => updateProgressRecord(prev));
+      else setG10LitProgress(prev => updateProgressRecord(prev));
+    }
+    if (isGrade11) {
+      if (isMath) setG11MathProgress(prev => updateProgressRecord(prev));
+      else setG11LitProgress(prev => updateProgressRecord(prev));
+    }
+
     if (isGrade7) {
       if (currentSubject === 'math') return g7MathProgress;
       if (currentSubject === 'vietnamese') return g7LitProgress;
@@ -886,6 +1019,11 @@ export const LearningProvider = ({ children }) => {
 
   // Active Stages
   const getActiveStages = () => {
+    if (isGrade8) return isMath ? STAGES_MATH8 : STAGES_LIT8;
+    if (isGrade9) return isMath ? STAGES_MATH9 : STAGES_LIT9;
+    if (isGrade10) return isMath ? STAGES_MATH10 : STAGES_LIT10;
+    if (isGrade11) return isMath ? STAGES_MATH11 : STAGES_LIT11;
+
     if (isGrade4) return isMath ? STAGES : STAGES_TV;
     if (isGrade5) return isMath ? STAGES_MATH5 : STAGES_TV5;
     if (isGrade6) return isMath ? STAGES_MATH6 : STAGES_LIT6;
@@ -918,6 +1056,11 @@ export const LearningProvider = ({ children }) => {
 
   // Active Topic Categories
   const getActiveCategories = () => {
+    if (isGrade8) return isMath ? TOPIC_CATEGORIES_MATH8 : TOPIC_CATEGORIES_LIT8;
+    if (isGrade9) return isMath ? TOPIC_CATEGORIES_MATH9 : TOPIC_CATEGORIES_LIT9;
+    if (isGrade10) return isMath ? TOPIC_CATEGORIES_MATH10 : TOPIC_CATEGORIES_LIT10;
+    if (isGrade11) return isMath ? TOPIC_CATEGORIES_MATH11 : TOPIC_CATEGORIES_LIT11;
+
     if (isGrade4) return isMath ? TOPIC_CATEGORIES : TOPIC_CATEGORIES_TV;
     if (isGrade5) return isMath ? TOPIC_CATEGORIES_MATH5 : TOPIC_CATEGORIES_TV5;
     if (isGrade6) return isMath ? TOPIC_CATEGORIES_MATH6 : TOPIC_CATEGORIES_LIT6;
@@ -950,6 +1093,11 @@ export const LearningProvider = ({ children }) => {
 
   // Active Weeks Metadata
   const getActiveWeeksMetadata = () => {
+    if (isGrade8) return isMath ? WEEKS_METADATA_MATH8 : WEEKS_METADATA_LIT8;
+    if (isGrade9) return isMath ? WEEKS_METADATA_MATH9 : WEEKS_METADATA_LIT9;
+    if (isGrade10) return isMath ? WEEKS_METADATA_MATH10 : WEEKS_METADATA_LIT10;
+    if (isGrade11) return isMath ? WEEKS_METADATA_MATH11 : WEEKS_METADATA_LIT11;
+
     if (isGrade4) return isMath ? WEEKS_METADATA : WEEKS_METADATA_TV;
     if (isGrade5) return isMath ? WEEKS_METADATA_MATH5 : WEEKS_METADATA_TV5;
     if (isGrade6) return isMath ? WEEKS_METADATA_MATH6 : WEEKS_METADATA_LIT6;
@@ -982,6 +1130,11 @@ export const LearningProvider = ({ children }) => {
 
   // Active Questions by Week Selector
   const getActiveQuestionsByWeek = (weekNum) => {
+    if (isGrade8) return isMath ? getQuestionsByWeekMath8(weekNum) : getQuestionsByWeekLit8(weekNum);
+    if (isGrade9) return isMath ? getQuestionsByWeekMath9(weekNum) : getQuestionsByWeekLit9(weekNum);
+    if (isGrade10) return isMath ? getQuestionsByWeekMath10(weekNum) : getQuestionsByWeekLit10(weekNum);
+    if (isGrade11) return isMath ? getQuestionsByWeekMath11(weekNum) : getQuestionsByWeekLit11(weekNum);
+
     if (isGrade4) return isMath ? getQuestionsByWeek(weekNum) : getQuestionsByWeekTV(weekNum);
     if (isGrade5) return isMath ? getQuestionsByWeekMath5(weekNum) : getQuestionsByWeekTV5(weekNum);
     if (isGrade6) return isMath ? getQuestionsByWeekMath6(weekNum) : getQuestionsByWeekLit6(weekNum);
@@ -1013,6 +1166,11 @@ export const LearningProvider = ({ children }) => {
 
   // Active Filtered Questions Selector
   const getActiveFilteredQuestions = (params) => {
+    if (isGrade8) return isMath ? getFilteredQuestionsMath8(params) : getFilteredQuestionsLit8(params);
+    if (isGrade9) return isMath ? getFilteredQuestionsMath9(params) : getFilteredQuestionsLit9(params);
+    if (isGrade10) return isMath ? getFilteredQuestionsMath10(params) : getFilteredQuestionsLit10(params);
+    if (isGrade11) return isMath ? getFilteredQuestionsMath11(params) : getFilteredQuestionsLit11(params);
+
     if (isGrade4) return isMath ? getFilteredQuestions(params) : getFilteredQuestionsTV(params);
     if (isGrade5) return isMath ? getFilteredQuestionsMath5(params) : getFilteredQuestionsTV5(params);
     if (isGrade6) return isMath ? getFilteredQuestionsMath6(params) : getFilteredQuestionsLit6(params);

@@ -147,6 +147,26 @@ export const RoadmapView = ({ onStartQuiz }) => {
         ? 'Làm chủ tập hợp số nguyên Z, phân số âm, hình học trực quan và xác suất thực nghiệm cùng 350 bài tập chuẩn GDPT 2026!'
         : 'Khám phá truyện dân gian, truyện đồng thoại, thơ lục bát, văn nghị luận và các biện pháp tu từ nghệ thuật Ngữ Văn 6!';
     }
+    if (currentGrade === '8') {
+      return isMath
+        ? 'Chinh phục hằng đẳng thức đáng nhớ, phân thức đại số, định lí Thalès, tam giác đồng dạng và hình chóp đều Lớp 8!'
+        : 'Rèn luyện đọc hiểu truyện ngắn hiện đại, thơ trữ tình, hài kịch và viết văn nghị luận xã hội sắc bén Lớp 8!';
+    }
+    if (currentGrade === '9') {
+      return isMath
+        ? 'Ôn thi vào Lớp 10 toàn diện: Rút gọn căn thức, hệ phương trình, định lí Vi-ét, góc với đường tròn và hình trụ nón cầu!'
+        : 'Rèn luyện đọc hiểu tác phẩm trọng tâm, làm chủ đoạn văn NLXH 200 chữ và phân tích văn học bứt phá điểm 9+ thi vào 10!';
+    }
+    if (currentGrade === '10') {
+      return isMath
+        ? 'Làm chủ mệnh đề tập hợp, bất phương trình bậc hai, hệ thức lượng tam giác, vectơ và ba đường Conic theo GDPT Mới 2026!'
+        : 'Khám phá sử thi, thần thoại, thơ ca dân gian, nghệ thuật tuồng chèo và rèn kỹ năng viết bài văn nghị luận Lớp 10!';
+    }
+    if (currentGrade === '11') {
+      return isMath
+        ? 'Chinh phục hàm lượng giác, cấp số cộng/nhân, giới hạn, đạo hàm, hàm số mũ logarit và quan hệ vuông góc không gian Lớp 11!'
+        : 'Cảm thụ phong trào Thơ mới 1932-1945, kiệt tác văn xuôi hiện thực phê phán và phong cách ngôn ngữ học thuật Lớp 11!';
+    }
     return isMath
       ? 'Làm chủ số hữu tỉ, số thực, đại số và hình học tam giác cùng hơn 350 bài tập phân cấp độ khó chuẩn chương trình GDPT 2026!'
       : 'Rèn luyện đọc hiểu thơ văn, làm chủ tiếng Việt và phân tích văn bản cùng 350+ câu hỏi và đề thi chuẩn GDPT mới nhất 2026!';
@@ -206,6 +226,10 @@ export const RoadmapView = ({ onStartQuiz }) => {
             { id: '5', label: 'Lớp 5', emoji: '⭐', color: 'from-emerald-400 to-teal-500 text-white border-emerald-400' },
             { id: '6', label: 'Lớp 6', emoji: '📘', color: 'from-indigo-500 to-blue-600 text-white border-indigo-400' },
             { id: '7', label: 'Lớp 7', emoji: '🚀', color: 'from-purple-500 to-pink-600 text-white border-purple-400' },
+            { id: '8', label: 'Lớp 8', emoji: '📐', color: 'from-blue-500 to-cyan-600 text-white border-blue-400' },
+            { id: '9', label: 'Lớp 9', emoji: '🏆', color: 'from-orange-500 to-amber-600 text-white border-orange-400' },
+            { id: '10', label: 'Lớp 10', emoji: '⚡', color: 'from-teal-500 to-emerald-600 text-white border-teal-400' },
+            { id: '11', label: 'Lớp 11', emoji: '🔮', color: 'from-violet-500 to-purple-600 text-white border-violet-400' },
             { id: '12', label: 'Lớp 12', emoji: '🎓', color: 'from-red-500 to-rose-600 text-white border-red-400' },
           ].map((g) => {
             const isSelected = currentGrade === g.id;

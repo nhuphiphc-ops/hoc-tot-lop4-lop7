@@ -27,6 +27,18 @@ export default defineConfig({
           if (id.includes('src/data/grade12/literature') || id.includes('src/data/grade12/english') || id.includes('src/data/grade12/history') || id.includes('src/data/grade12/geography') || id.includes('src/data/grade12/econ_law')) {
             return 'grade12-social';
           }
+          if (id.includes('src/data/grade11')) {
+            return 'grade11-data';
+          }
+          if (id.includes('src/data/grade10')) {
+            return 'grade10-data';
+          }
+          if (id.includes('src/data/grade9')) {
+            return 'grade9-data';
+          }
+          if (id.includes('src/data/grade8')) {
+            return 'grade8-data';
+          }
           if (id.includes('src/data/grade7')) {
             return 'grade7-data';
           }
