@@ -26,6 +26,10 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   const { 
     currentGrade,
     switchGrade,
+    isGrade1,
+    isGrade2,
+    isGrade3,
+    isPrimaryChuot,
     isGrade4,
     isGrade5,
     isGrade6,
@@ -77,6 +81,16 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
   // Dynamic titles
   const getSubjectTitle = () => {
+    if (isPrimaryChuot) {
+      if (currentSubject === 'vietnamese') return `Tiếng Việt ${currentGrade}`;
+      if (currentSubject === 'english') return `Tiếng Anh ${currentGrade}`;
+      if (currentSubject === 'science') return `TNXH ${currentGrade}`;
+      if (currentSubject === 'history_geo') return `Khám Phá Xã Hội ${currentGrade}`;
+      if (currentSubject === 'informatics') return `Tin Học ${currentGrade}`;
+      if (currentSubject === 'civics') return `Đạo Đức ${currentGrade}`;
+      if (currentSubject === 'technology') return `Công Nghệ ${currentGrade}`;
+      return `Toán Lớp ${currentGrade}`;
+    }
     if (isGrade4) return isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4';
     if (isGrade5) return isMath ? 'Toán Lớp 5' : 'Tiếng Việt 5';
     if (isGrade6) return isMath ? 'Toán Lớp 6' : 'Ngữ Văn 6';
@@ -113,6 +127,9 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   };
 
   const gradeList = [
+    { id: '1', label: 'Lớp 1', icon: '🐭', color: 'from-pink-400 to-rose-500 text-white' },
+    { id: '2', label: 'Lớp 2', icon: '🐹', color: 'from-amber-400 to-orange-500 text-white' },
+    { id: '3', label: 'Lớp 3', icon: '🐰', color: 'from-emerald-400 to-teal-500 text-white' },
     { id: '4', label: 'Lớp 4', icon: '🎒', color: 'from-amber-400 to-orange-400 text-amber-950' },
     { id: '5', label: 'Lớp 5', icon: '⭐', color: 'from-emerald-400 to-teal-500 text-white' },
     { id: '6', label: 'Lớp 6', icon: '📘', color: 'from-indigo-500 to-blue-600 text-white' },
@@ -122,6 +139,17 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     { id: '10', label: 'Lớp 10', icon: '⚡', color: 'from-teal-500 to-emerald-600 text-white' },
     { id: '11', label: 'Lớp 11', icon: '🔮', color: 'from-violet-500 to-purple-600 text-white' },
     { id: '12', label: 'Lớp 12', icon: '🎓', color: 'from-red-500 to-rose-600 text-white' },
+  ];
+
+  const primarySubjectsList = [
+    { id: 'math', label: `Toán ${currentGrade}`, color: 'from-amber-400 to-orange-500' },
+    { id: 'vietnamese', label: `Tiếng Việt ${currentGrade}`, color: 'from-rose-400 to-pink-500' },
+    { id: 'english', label: `Tiếng Anh ${currentGrade}`, color: 'from-emerald-400 to-teal-500' },
+    { id: 'science', label: `TNXH ${currentGrade}`, color: 'from-purple-400 to-indigo-500' },
+    { id: 'history_geo', label: `Xã Hội ${currentGrade}`, color: 'from-blue-400 to-cyan-500' },
+    { id: 'informatics', label: `Tin Học ${currentGrade}`, color: 'from-cyan-400 to-blue-500' },
+    { id: 'civics', label: `Đạo Đức ${currentGrade}`, color: 'from-pink-400 to-rose-500' },
+    { id: 'technology', label: `Công Nghệ ${currentGrade}`, color: 'from-lime-400 to-emerald-500' },
   ];
 
   const grade7SubjectsList = [
@@ -216,6 +244,25 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             {isGrade12 ? (
               <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
                 {grade12SubjectsList.map(subj => {
+                  const isSubjActive = currentSubject === subj.id;
+                  return (
+                    <button
+                      key={subj.id}
+                      onClick={() => switchSubject(subj.id)}
+                      className={`flex items-center gap-1 px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                        isSubjActive
+                          ? `bg-gradient-to-r ${subj.color} text-white shadow-sm scale-105`
+                          : 'text-slate-600 hover:text-slate-900 hover:bg-white/60'
+                      }`}
+                    >
+                      <span>{subj.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            ) : isPrimaryChuot ? (
+              <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
+                {primarySubjectsList.map(subj => {
                   const isSubjActive = currentSubject === subj.id;
                   return (
                     <button
@@ -484,6 +531,25 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
           {isGrade12 ? (
             <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
               {grade12SubjectsList.map(subj => {
+                const isSubjActive = currentSubject === subj.id;
+                return (
+                  <button
+                    key={subj.id}
+                    onClick={() => switchSubject(subj.id)}
+                    className={`px-2.5 py-1 rounded-xl font-black text-xs whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border ${
+                      isSubjActive
+                        ? `bg-gradient-to-r ${subj.color} text-white shadow-xs border-transparent scale-102`
+                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                    }`}
+                  >
+                    {subj.label}
+                  </button>
+                );
+              })}
+            </div>
+          ) : isPrimaryChuot ? (
+            <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
+              {primarySubjectsList.map(subj => {
                 const isSubjActive = currentSubject === subj.id;
                 return (
                   <button

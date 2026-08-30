@@ -18,7 +18,7 @@ import {
   Calculator,
   GraduationCap
 } from 'lucide-react';
-import { useLearning, GRADE_7_SUBJECTS, GRADE_12_SUBJECTS } from '../context/LearningContext';
+import { useLearning, GRADE_PRIMARY_SUBJECTS, GRADE_7_SUBJECTS, GRADE_12_SUBJECTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
 
 export const RoadmapView = ({ onStartQuiz }) => {
@@ -31,6 +31,10 @@ export const RoadmapView = ({ onStartQuiz }) => {
     switchGrade,
     currentSubject,
     switchSubject,
+    isGrade1,
+    isGrade2,
+    isGrade3,
+    isPrimaryChuot,
     isGrade4,
     isGrade5,
     isGrade6,
@@ -129,6 +133,11 @@ export const RoadmapView = ({ onStartQuiz }) => {
   };
 
   const getBannerDesc = () => {
+    if (isPrimaryChuot) {
+      if (currentGrade === '1') return 'Cùng Bé Chuột khám phá thế giới Lớp 1 diệu kỳ: Số đếm, chữ cái, tiếng Anh đố vui và kỹ năng sống bổ ích!';
+      if (currentGrade === '2') return 'Cùng Bé Chuột rèn luyện phép tính có nhớ, mở rộng vốn từ, bảng nhân chia và khám phá tự nhiên xã hội Lớp 2!';
+      if (currentGrade === '3') return 'Cùng Bé Chuột chinh phục bảng nhân chia 1-9, diện tích chu vi, biện pháp so sánh nhân hóa và kỹ năng Lớp 3!';
+    }
     if (isGrade12) {
       return 'Luyện thi toàn diện chuẩn ma trận đề thi Tốt nghiệp THPT 2026 với 35 tuần học tập chuyên sâu, giải thích cặn kẽ và tối ưu điểm số!';
     }
@@ -173,6 +182,17 @@ export const RoadmapView = ({ onStartQuiz }) => {
   };
 
   const getBannerGradient = () => {
+    if (isPrimaryChuot) {
+      if (currentSubject === 'math') return 'bg-gradient-to-r from-amber-400 via-orange-400 to-rose-400';
+      if (currentSubject === 'vietnamese') return 'bg-gradient-to-r from-rose-400 via-pink-400 to-purple-500';
+      if (currentSubject === 'english') return 'bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-500';
+      if (currentSubject === 'science') return 'bg-gradient-to-r from-purple-400 via-indigo-400 to-blue-500';
+      if (currentSubject === 'history_geo') return 'bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-500';
+      if (currentSubject === 'informatics') return 'bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-500';
+      if (currentSubject === 'civics') return 'bg-gradient-to-r from-pink-400 via-rose-400 to-orange-400';
+      if (currentSubject === 'technology') return 'bg-gradient-to-r from-lime-400 via-emerald-400 to-teal-500';
+      return 'bg-gradient-to-r from-pink-400 via-amber-400 to-rose-500';
+    }
     if (isGrade12) {
       if (currentSubject === 'math') return 'bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-600';
       if (currentSubject === 'vietnamese') return 'bg-gradient-to-r from-rose-700 via-purple-700 to-indigo-700';
@@ -222,6 +242,9 @@ export const RoadmapView = ({ onStartQuiz }) => {
         <div className="flex items-center gap-2 flex-wrap justify-center w-full md:w-auto">
           <span className="font-black text-xs uppercase tracking-wider text-slate-500 mr-1 hidden sm:inline">Khối Lớp:</span>
           {[
+            { id: '1', label: 'Lớp 1', emoji: '🐭', color: 'from-pink-400 to-rose-500 text-white border-pink-400' },
+            { id: '2', label: 'Lớp 2', emoji: '🐹', color: 'from-amber-400 to-orange-500 text-white border-amber-400' },
+            { id: '3', label: 'Lớp 3', emoji: '🐰', color: 'from-emerald-400 to-teal-500 text-white border-emerald-400' },
             { id: '4', label: 'Lớp 4', emoji: '🎒', color: 'from-amber-400 to-orange-400 text-amber-950 border-amber-300' },
             { id: '5', label: 'Lớp 5', emoji: '⭐', color: 'from-emerald-400 to-teal-500 text-white border-emerald-400' },
             { id: '6', label: 'Lớp 6', emoji: '📘', color: 'from-indigo-500 to-blue-600 text-white border-indigo-400' },
@@ -255,6 +278,26 @@ export const RoadmapView = ({ onStartQuiz }) => {
         {isGrade12 ? (
           <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none w-full md:w-auto justify-start md:justify-center py-1 max-w-full">
             {GRADE_12_SUBJECTS.map(subj => {
+              const isSelected = currentSubject === subj.id;
+              return (
+                <button
+                  key={subj.id}
+                  type="button"
+                  onClick={() => switchSubject(subj.id)}
+                  className={`px-3 py-1.5 rounded-2xl font-black text-xs sm:text-sm whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border-2 ${
+                    isSelected
+                      ? `bg-gradient-to-r ${subj.color} text-white shadow-md ring-2 ring-amber-300 scale-105`
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <span>{subj.label}</span>
+                </button>
+              );
+            })}
+          </div>
+        ) : isPrimaryChuot ? (
+          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none w-full md:w-auto justify-start md:justify-center py-1 max-w-full">
+            {GRADE_PRIMARY_SUBJECTS.map(subj => {
               const isSelected = currentSubject === subj.id;
               return (
                 <button

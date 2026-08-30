@@ -51,6 +51,15 @@ export default defineConfig({
           if (id.includes('src/data/questionBank') || id.includes('src/data/tiengviet')) {
             return 'grade4-data';
           }
+          if (id.includes('src/data/grade3')) {
+            return 'grade3-data';
+          }
+          if (id.includes('src/data/grade2')) {
+            return 'grade2-data';
+          }
+          if (id.includes('src/data/grade1')) {
+            return 'grade1-data';
+          }
         }
       }
     }

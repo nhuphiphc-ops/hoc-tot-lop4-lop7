@@ -1,6 +1,37 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import sounds from '../utils/soundEffects';
 
+
+// Grade 1 Data (8 Subjects for Be Chuot)
+import { STAGES_MATH1, TOPIC_CATEGORIES_MATH1, WEEKS_METADATA_MATH1, QUESTION_BANK_MATH1, getQuestionsByWeekMath1, getFilteredQuestionsMath1 } from '../data/grade1/math/questionBankMath1.js';
+import { STAGES_TV1, TOPIC_CATEGORIES_TV1, WEEKS_METADATA_TV1, QUESTION_BANK_TV1, getQuestionsByWeekTV1, getFilteredQuestionsTV1 } from '../data/grade1/vietnamese/questionBankTV1.js';
+import { STAGES_ENG1, TOPIC_CATEGORIES_ENG1, WEEKS_METADATA_ENG1, QUESTION_BANK_ENG1, getQuestionsByWeekEng1, getFilteredQuestionsEng1 } from '../data/grade1/english/questionBankEng1.js';
+import { STAGES_SCI1, TOPIC_CATEGORIES_SCI1, WEEKS_METADATA_SCI1, QUESTION_BANK_SCI1, getQuestionsByWeekSci1, getFilteredQuestionsSci1 } from '../data/grade1/science/questionBankSci1.js';
+import { STAGES_HISGEO1, TOPIC_CATEGORIES_HISGEO1, WEEKS_METADATA_HISGEO1, QUESTION_BANK_HISGEO1, getQuestionsByWeekHisGeo1, getFilteredQuestionsHisGeo1 } from '../data/grade1/history_geo/questionBankHisGeo1.js';
+import { STAGES_INFO1, TOPIC_CATEGORIES_INFO1, WEEKS_METADATA_INFO1, QUESTION_BANK_INFO1, getQuestionsByWeekInfo1, getFilteredQuestionsInfo1 } from '../data/grade1/informatics/questionBankInfo1.js';
+import { STAGES_CIV1, TOPIC_CATEGORIES_CIV1, WEEKS_METADATA_CIV1, QUESTION_BANK_CIV1, getQuestionsByWeekCiv1, getFilteredQuestionsCiv1 } from '../data/grade1/civics/questionBankCiv1.js';
+import { STAGES_TECH1, TOPIC_CATEGORIES_TECH1, WEEKS_METADATA_TECH1, QUESTION_BANK_TECH1, getQuestionsByWeekTech1, getFilteredQuestionsTech1 } from '../data/grade1/technology/questionBankTech1.js';
+
+// Grade 2 Data (8 Subjects for Be Chuot)
+import { STAGES_MATH2, TOPIC_CATEGORIES_MATH2, WEEKS_METADATA_MATH2, QUESTION_BANK_MATH2, getQuestionsByWeekMath2, getFilteredQuestionsMath2 } from '../data/grade2/math/questionBankMath2.js';
+import { STAGES_TV2, TOPIC_CATEGORIES_TV2, WEEKS_METADATA_TV2, QUESTION_BANK_TV2, getQuestionsByWeekTV2, getFilteredQuestionsTV2 } from '../data/grade2/vietnamese/questionBankTV2.js';
+import { STAGES_ENG2, TOPIC_CATEGORIES_ENG2, WEEKS_METADATA_ENG2, QUESTION_BANK_ENG2, getQuestionsByWeekEng2, getFilteredQuestionsEng2 } from '../data/grade2/english/questionBankEng2.js';
+import { STAGES_SCI2, TOPIC_CATEGORIES_SCI2, WEEKS_METADATA_SCI2, QUESTION_BANK_SCI2, getQuestionsByWeekSci2, getFilteredQuestionsSci2 } from '../data/grade2/science/questionBankSci2.js';
+import { STAGES_HISGEO2, TOPIC_CATEGORIES_HISGEO2, WEEKS_METADATA_HISGEO2, QUESTION_BANK_HISGEO2, getQuestionsByWeekHisGeo2, getFilteredQuestionsHisGeo2 } from '../data/grade2/history_geo/questionBankHisGeo2.js';
+import { STAGES_INFO2, TOPIC_CATEGORIES_INFO2, WEEKS_METADATA_INFO2, QUESTION_BANK_INFO2, getQuestionsByWeekInfo2, getFilteredQuestionsInfo2 } from '../data/grade2/informatics/questionBankInfo2.js';
+import { STAGES_CIV2, TOPIC_CATEGORIES_CIV2, WEEKS_METADATA_CIV2, QUESTION_BANK_CIV2, getQuestionsByWeekCiv2, getFilteredQuestionsCiv2 } from '../data/grade2/civics/questionBankCiv2.js';
+import { STAGES_TECH2, TOPIC_CATEGORIES_TECH2, WEEKS_METADATA_TECH2, QUESTION_BANK_TECH2, getQuestionsByWeekTech2, getFilteredQuestionsTech2 } from '../data/grade2/technology/questionBankTech2.js';
+
+// Grade 3 Data (8 Subjects for Be Chuot)
+import { STAGES_MATH3, TOPIC_CATEGORIES_MATH3, WEEKS_METADATA_MATH3, QUESTION_BANK_MATH3, getQuestionsByWeekMath3, getFilteredQuestionsMath3 } from '../data/grade3/math/questionBankMath3.js';
+import { STAGES_TV3, TOPIC_CATEGORIES_TV3, WEEKS_METADATA_TV3, QUESTION_BANK_TV3, getQuestionsByWeekTV3, getFilteredQuestionsTV3 } from '../data/grade3/vietnamese/questionBankTV3.js';
+import { STAGES_ENG3, TOPIC_CATEGORIES_ENG3, WEEKS_METADATA_ENG3, QUESTION_BANK_ENG3, getQuestionsByWeekEng3, getFilteredQuestionsEng3 } from '../data/grade3/english/questionBankEng3.js';
+import { STAGES_SCI3, TOPIC_CATEGORIES_SCI3, WEEKS_METADATA_SCI3, QUESTION_BANK_SCI3, getQuestionsByWeekSci3, getFilteredQuestionsSci3 } from '../data/grade3/science/questionBankSci3.js';
+import { STAGES_HISGEO3, TOPIC_CATEGORIES_HISGEO3, WEEKS_METADATA_HISGEO3, QUESTION_BANK_HISGEO3, getQuestionsByWeekHisGeo3, getFilteredQuestionsHisGeo3 } from '../data/grade3/history_geo/questionBankHisGeo3.js';
+import { STAGES_INFO3, TOPIC_CATEGORIES_INFO3, WEEKS_METADATA_INFO3, QUESTION_BANK_INFO3, getQuestionsByWeekInfo3, getFilteredQuestionsInfo3 } from '../data/grade3/informatics/questionBankInfo3.js';
+import { STAGES_CIV3, TOPIC_CATEGORIES_CIV3, WEEKS_METADATA_CIV3, QUESTION_BANK_CIV3, getQuestionsByWeekCiv3, getFilteredQuestionsCiv3 } from '../data/grade3/civics/questionBankCiv3.js';
+import { STAGES_TECH3, TOPIC_CATEGORIES_TECH3, WEEKS_METADATA_TECH3, QUESTION_BANK_TECH3, getQuestionsByWeekTech3, getFilteredQuestionsTech3 } from '../data/grade3/technology/questionBankTech3.js';
+
 // Grade 4 Data
 import { STAGES, TOPIC_CATEGORIES, WEEKS_METADATA, QUESTION_BANK, getQuestionsByWeek, getFilteredQuestions } from '../data/questionBank.js';
 import { STAGES_TV, TOPIC_CATEGORIES_TV, WEEKS_METADATA_TV, QUESTION_BANK_TV, getQuestionsByWeekTV, getFilteredQuestionsTV } from '../data/tiengviet/questionBankTV.js';
@@ -56,6 +87,26 @@ import { STAGES_TECH12, TOPIC_CATEGORIES_TECH12, WEEKS_METADATA_TECH12, QUESTION
 
 const LearningContext = createContext();
 
+
+export const GRADE_PRIMARY_SUBJECTS = [
+  { id: 'math', label: 'Toán Học', icon: 'Calculator', color: 'from-amber-400 to-orange-500', badgeColor: 'bg-amber-100 text-amber-800' },
+  { id: 'vietnamese', label: 'Tiếng Việt', icon: 'BookOpen', color: 'from-rose-400 to-pink-500', badgeColor: 'bg-rose-100 text-rose-800' },
+  { id: 'english', label: 'Tiếng Anh', icon: 'Globe', color: 'from-emerald-400 to-teal-500', badgeColor: 'bg-emerald-100 text-emerald-800' },
+  { id: 'science', label: 'Tự Nhiên & Xã Hội', icon: 'Atom', color: 'from-purple-400 to-indigo-500', badgeColor: 'bg-purple-100 text-purple-800' },
+  { id: 'history_geo', label: 'Khám Phá Xã Hội', icon: 'Compass', color: 'from-blue-400 to-cyan-500', badgeColor: 'bg-blue-100 text-blue-800' },
+  { id: 'informatics', label: 'Tin Học', icon: 'Laptop', color: 'from-cyan-400 to-blue-500', badgeColor: 'bg-cyan-100 text-cyan-800' },
+  { id: 'civics', label: 'Đạo Đức & Kỹ Năng', icon: 'HeartHandshake', color: 'from-pink-400 to-rose-500', badgeColor: 'bg-pink-100 text-pink-800' },
+  { id: 'technology', label: 'Công Nghệ & STEM', icon: 'Wrench', color: 'from-lime-400 to-emerald-500', badgeColor: 'bg-lime-100 text-lime-800' },
+];
+
+export const DEFAULT_PROFILE_CHUOT = {
+  name: 'Bé Chuột',
+  school: 'Trường Tiểu Học Phú La',
+  grade: '1',
+  avatar: '🐭',
+  mascot: 'cat'
+};
+
 export const GRADE_7_SUBJECTS = [
   { id: 'math', label: 'Toán 7', icon: 'Calculator', color: 'from-blue-500 to-indigo-600', badgeColor: 'bg-blue-100 text-blue-800' },
   { id: 'vietnamese', label: 'Ngữ Văn 7', icon: 'BookOpen', color: 'from-rose-500 to-purple-600', badgeColor: 'bg-rose-100 text-rose-800' },
@@ -99,6 +150,36 @@ const STORAGE_KEYS = {
   SUBJECT: 'toan_current_subject',
   PROFILE_NGUYEN: 'toan_user_profile',
   PROFILE_MINH: 'g12_minh_user_profile',
+
+  PROFILE_CHUOT: 'toan_user_profile_chuot',
+  // Grade 1 Progress
+  PROGRESS_G1_MATH: 'toan1_week_progress_math',
+  PROGRESS_G1_TV: 'toan1_week_progress_tv',
+  PROGRESS_G1_ENG: 'toan1_week_progress_eng',
+  PROGRESS_G1_SCI: 'toan1_week_progress_sci',
+  PROGRESS_G1_HISGEO: 'toan1_week_progress_hisgeo',
+  PROGRESS_G1_INFO: 'toan1_week_progress_info',
+  PROGRESS_G1_CIV: 'toan1_week_progress_civ',
+  PROGRESS_G1_TECH: 'toan1_week_progress_tech',
+  // Grade 2 Progress
+  PROGRESS_G2_MATH: 'toan2_week_progress_math',
+  PROGRESS_G2_TV: 'toan2_week_progress_tv',
+  PROGRESS_G2_ENG: 'toan2_week_progress_eng',
+  PROGRESS_G2_SCI: 'toan2_week_progress_sci',
+  PROGRESS_G2_HISGEO: 'toan2_week_progress_hisgeo',
+  PROGRESS_G2_INFO: 'toan2_week_progress_info',
+  PROGRESS_G2_CIV: 'toan2_week_progress_civ',
+  PROGRESS_G2_TECH: 'toan2_week_progress_tech',
+  // Grade 3 Progress
+  PROGRESS_G3_MATH: 'toan3_week_progress_math',
+  PROGRESS_G3_TV: 'toan3_week_progress_tv',
+  PROGRESS_G3_ENG: 'toan3_week_progress_eng',
+  PROGRESS_G3_SCI: 'toan3_week_progress_sci',
+  PROGRESS_G3_HISGEO: 'toan3_week_progress_hisgeo',
+  PROGRESS_G3_INFO: 'toan3_week_progress_info',
+  PROGRESS_G3_CIV: 'toan3_week_progress_civ',
+  PROGRESS_G3_TECH: 'toan3_week_progress_tech',
+
   PROGRESS_G4_MATH: 'toan4_week_progress',
   PROGRESS_G4_TV: 'toan4_week_progress_tv',
   PROGRESS_G5_MATH: 'toan5_week_progress_math',
@@ -139,6 +220,35 @@ const STORAGE_KEYS = {
   PROGRESS_G12_CS: 'g12_minh_week_progress_cs',
   PROGRESS_G12_TECH: 'g12_minh_week_progress_tech',
   HISTORY: 'toan_quiz_history',
+  
+  // Grade 1 Wrongs
+  WRONG_G1_MATH: 'toan1_wrong_questions_math',
+  WRONG_G1_TV: 'toan1_wrong_questions_tv',
+  WRONG_G1_ENG: 'toan1_wrong_questions_eng',
+  WRONG_G1_SCI: 'toan1_wrong_questions_sci',
+  WRONG_G1_HISGEO: 'toan1_wrong_questions_hisgeo',
+  WRONG_G1_INFO: 'toan1_wrong_questions_info',
+  WRONG_G1_CIV: 'toan1_wrong_questions_civ',
+  WRONG_G1_TECH: 'toan1_wrong_questions_tech',
+  // Grade 2 Wrongs
+  WRONG_G2_MATH: 'toan2_wrong_questions_math',
+  WRONG_G2_TV: 'toan2_wrong_questions_tv',
+  WRONG_G2_ENG: 'toan2_wrong_questions_eng',
+  WRONG_G2_SCI: 'toan2_wrong_questions_sci',
+  WRONG_G2_HISGEO: 'toan2_wrong_questions_hisgeo',
+  WRONG_G2_INFO: 'toan2_wrong_questions_info',
+  WRONG_G2_CIV: 'toan2_wrong_questions_civ',
+  WRONG_G2_TECH: 'toan2_wrong_questions_tech',
+  // Grade 3 Wrongs
+  WRONG_G3_MATH: 'toan3_wrong_questions_math',
+  WRONG_G3_TV: 'toan3_wrong_questions_tv',
+  WRONG_G3_ENG: 'toan3_wrong_questions_eng',
+  WRONG_G3_SCI: 'toan3_wrong_questions_sci',
+  WRONG_G3_HISGEO: 'toan3_wrong_questions_hisgeo',
+  WRONG_G3_INFO: 'toan3_wrong_questions_info',
+  WRONG_G3_CIV: 'toan3_wrong_questions_civ',
+  WRONG_G3_TECH: 'toan3_wrong_questions_tech',
+
   WRONG_G4_MATH: 'toan4_wrong_questions',
   WRONG_G4_TV: 'toan4_wrong_questions_tv',
   WRONG_G5_MATH: 'toan5_wrong_questions_math',
@@ -207,6 +317,13 @@ export const SYSTEM_ROLES = [
 ];
 
 export const AVAILABLE_CLASSES = [
+  { id: 'lop_1a', label: 'Lớp 1A (Bé Chuột)', grade: 1, group: 'Tiểu học' },
+  { id: 'lop_1b', label: 'Lớp 1B', grade: 1, group: 'Tiểu học' },
+  { id: 'lop_2a', label: 'Lớp 2A', grade: 2, group: 'Tiểu học' },
+  { id: 'lop_2b', label: 'Lớp 2B', grade: 2, group: 'Tiểu học' },
+  { id: 'lop_3a', label: 'Lớp 3A', grade: 3, group: 'Tiểu học' },
+  { id: 'lop_3b', label: 'Lớp 3B', grade: 3, group: 'Tiểu học' },
+
   { id: 'lop_4a', label: 'Lớp 4A', grade: 4, group: 'Tiểu học' },
   { id: 'lop_4b', label: 'Lớp 4B', grade: 4, group: 'Tiểu học' },
   { id: 'lop_5a', label: 'Lớp 5A', grade: 5, group: 'Tiểu học' },
@@ -312,7 +429,7 @@ export const LearningProvider = ({ children }) => {
   const [currentGrade, setCurrentGrade] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.GRADE);
-      return ['4', '5', '6', '7', '8', '9', '10', '11', '12'].includes(saved) ? saved : '4';
+      return ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'].includes(saved) ? saved : '4';
     } catch {
       return '4';
     }
@@ -348,6 +465,17 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
+  
+  // Profile for Be Chuot (Grades 1-3)
+  const [profileChuot, setProfileChuot] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROFILE_CHUOT);
+      return saved ? JSON.parse(saved) : DEFAULT_PROFILE_CHUOT;
+    } catch {
+      return DEFAULT_PROFILE_CHUOT;
+    }
+  });
+
   // Profile for Nguyen Nhat Minh (Grade 12)
   const [profileMinh, setProfileMinh] = useState(() => {
     try {
@@ -364,6 +492,10 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
+  const isGrade1 = currentGrade === '1';
+  const isGrade2 = currentGrade === '2';
+  const isGrade3 = currentGrade === '3';
+  const isPrimaryChuot = ['1', '2', '3'].includes(currentGrade);
   const isGrade4 = currentGrade === '4';
   const isGrade5 = currentGrade === '5';
   const isGrade6 = currentGrade === '6';
@@ -375,7 +507,68 @@ export const LearningProvider = ({ children }) => {
   const isGrade12 = currentGrade === '12';
   const isSecondary = ['6', '7', '8', '9'].includes(currentGrade);
   const isHighSchool = ['10', '11', '12'].includes(currentGrade);
-  const profile = isHighSchool ? profileMinh : profileNguyen;
+  const profile = isHighSchool ? profileMinh : (isPrimaryChuot ? profileChuot : profileNguyen);
+
+  
+  // Progress Stores - Grade 1 (8 Subjects)
+  const [g1MathProgress, setG1MathProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_MATH); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1TvProgress, setG1TvProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_TV); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1EngProgress, setG1EngProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_ENG); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1SciProgress, setG1SciProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_SCI); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1HisGeoProgress, setG1HisGeoProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_HISGEO); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1InfoProgress, setG1InfoProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_INFO); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1CivProgress, setG1CivProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_CIV); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g1TechProgress, setG1TechProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G1_TECH); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+
+  // Progress Stores - Grade 2 (8 Subjects)
+  const [g2MathProgress, setG2MathProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_MATH); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2TvProgress, setG2TvProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_TV); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2EngProgress, setG2EngProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_ENG); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2SciProgress, setG2SciProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_SCI); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2HisGeoProgress, setG2HisGeoProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_HISGEO); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2InfoProgress, setG2InfoProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_INFO); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2CivProgress, setG2CivProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_CIV); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g2TechProgress, setG2TechProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G2_TECH); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+
+  // Progress Stores - Grade 3 (8 Subjects)
+  const [g3MathProgress, setG3MathProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_MATH); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3TvProgress, setG3TvProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_TV); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3EngProgress, setG3EngProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_ENG); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3SciProgress, setG3SciProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_SCI); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3HisGeoProgress, setG3HisGeoProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_HISGEO); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3InfoProgress, setG3InfoProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_INFO); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3CivProgress, setG3CivProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_CIV); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g3TechProgress, setG3TechProgress] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.PROGRESS_G3_TECH); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+
+  // Wrong Questions Stores - Grade 1
+  const [g1MathWrong, setG1MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1TvWrong, setG1TvWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_TV); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1EngWrong, setG1EngWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_ENG); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1SciWrong, setG1SciWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_SCI); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1HisGeoWrong, setG1HisGeoWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_HISGEO); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1InfoWrong, setG1InfoWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_INFO); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1CivWrong, setG1CivWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_CIV); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g1TechWrong, setG1TechWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G1_TECH); return s ? JSON.parse(s) : []; } catch { return []; } });
+
+  // Wrong Questions Stores - Grade 2
+  const [g2MathWrong, setG2MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2TvWrong, setG2TvWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_TV); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2EngWrong, setG2EngWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_ENG); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2SciWrong, setG2SciWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_SCI); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2HisGeoWrong, setG2HisGeoWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_HISGEO); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2InfoWrong, setG2InfoWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_INFO); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2CivWrong, setG2CivWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_CIV); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g2TechWrong, setG2TechWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G2_TECH); return s ? JSON.parse(s) : []; } catch { return []; } });
+
+  // Wrong Questions Stores - Grade 3
+  const [g3MathWrong, setG3MathWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_MATH); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3TvWrong, setG3TvWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_TV); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3EngWrong, setG3EngWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_ENG); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3SciWrong, setG3SciWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_SCI); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3HisGeoWrong, setG3HisGeoWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_HISGEO); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3InfoWrong, setG3InfoWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_INFO); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3CivWrong, setG3CivWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_CIV); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g3TechWrong, setG3TechWrong] = useState(() => { try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G3_TECH); return s ? JSON.parse(s) : []; } catch { return []; } });
 
   // Progress Stores - Grade 4
   const [g4MathProgress, setG4MathProgress] = useState(() => {
@@ -890,7 +1083,15 @@ export const LearningProvider = ({ children }) => {
     sounds.playClick();
     setCurrentGrade(gradeId);
     // Reset subject to supported subjects for target grade
-    if (['4', '5', '6', '8', '9', '10', '11'].includes(gradeId)) {
+    
+    if (['1', '2', '3'].includes(gradeId)) {
+      const validPrimary = ['math', 'vietnamese', 'english', 'science', 'history_geo', 'informatics', 'civics', 'technology'];
+      if (!validPrimary.includes(currentSubject)) {
+        setCurrentSubject('math');
+        localStorage.setItem(STORAGE_KEYS.SUBJECT, 'math');
+      }
+    } else if (['4', '5', '6', '8', '9', '10', '11'].includes(gradeId)) {
+
       if (!['math', 'vietnamese'].includes(currentSubject)) {
         setCurrentSubject('math');
       }
@@ -913,8 +1114,10 @@ export const LearningProvider = ({ children }) => {
   };
 
   const updateProfile = (newProfile) => {
-    if (isGrade12) {
+    if (isHighSchool) {
       setProfileMinh(prev => ({ ...prev, ...newProfile }));
+    } else if (isPrimaryChuot) {
+      setProfileChuot(prev => ({ ...prev, ...newProfile }));
     } else {
       setProfileNguyen(prev => ({ ...prev, ...newProfile }));
     }
@@ -925,6 +1128,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Progress Map
   const getActiveProgress = () => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return g1TvProgress;
+      if (currentSubject === 'english') return g1EngProgress;
+      if (currentSubject === 'science') return g1SciProgress;
+      if (currentSubject === 'history_geo') return g1HisGeoProgress;
+      if (currentSubject === 'informatics') return g1InfoProgress;
+      if (currentSubject === 'civics') return g1CivProgress;
+      if (currentSubject === 'technology') return g1TechProgress;
+      return g1MathProgress;
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return g2TvProgress;
+      if (currentSubject === 'english') return g2EngProgress;
+      if (currentSubject === 'science') return g2SciProgress;
+      if (currentSubject === 'history_geo') return g2HisGeoProgress;
+      if (currentSubject === 'informatics') return g2InfoProgress;
+      if (currentSubject === 'civics') return g2CivProgress;
+      if (currentSubject === 'technology') return g2TechProgress;
+      return g2MathProgress;
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return g3TvProgress;
+      if (currentSubject === 'english') return g3EngProgress;
+      if (currentSubject === 'science') return g3SciProgress;
+      if (currentSubject === 'history_geo') return g3HisGeoProgress;
+      if (currentSubject === 'informatics') return g3InfoProgress;
+      if (currentSubject === 'civics') return g3CivProgress;
+      if (currentSubject === 'technology') return g3TechProgress;
+      return g3MathProgress;
+    }
+
     if (isGrade4) return isMath ? g4MathProgress : g4TvProgress;
     if (isGrade5) return isMath ? g5MathProgress : g5TvProgress;
     if (isGrade6) return isMath ? g6MathProgress : g6LitProgress;
@@ -941,6 +1175,38 @@ export const LearningProvider = ({ children }) => {
     if (isGrade11) return isMath ? g11MathWrong : g11LitWrong;
 
     
+    
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') setG1TvProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'english') setG1EngProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'science') setG1SciProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'history_geo') setG1HisGeoProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'informatics') setG1InfoProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'civics') setG1CivProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'technology') setG1TechProgress(prev => updateProgressRecord(prev));
+      else setG1MathProgress(prev => updateProgressRecord(prev));
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') setG2TvProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'english') setG2EngProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'science') setG2SciProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'history_geo') setG2HisGeoProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'informatics') setG2InfoProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'civics') setG2CivProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'technology') setG2TechProgress(prev => updateProgressRecord(prev));
+      else setG2MathProgress(prev => updateProgressRecord(prev));
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') setG3TvProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'english') setG3EngProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'science') setG3SciProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'history_geo') setG3HisGeoProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'informatics') setG3InfoProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'civics') setG3CivProgress(prev => updateProgressRecord(prev));
+      else if (currentSubject === 'technology') setG3TechProgress(prev => updateProgressRecord(prev));
+      else setG3MathProgress(prev => updateProgressRecord(prev));
+    }
+
     if (isGrade8) {
       if (isMath) setG8MathProgress(prev => updateProgressRecord(prev));
       else setG8LitProgress(prev => updateProgressRecord(prev));
@@ -987,6 +1253,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Wrong List
   const getActiveWrongs = () => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return g1TvWrong;
+      if (currentSubject === 'english') return g1EngWrong;
+      if (currentSubject === 'science') return g1SciWrong;
+      if (currentSubject === 'history_geo') return g1HisGeoWrong;
+      if (currentSubject === 'informatics') return g1InfoWrong;
+      if (currentSubject === 'civics') return g1CivWrong;
+      if (currentSubject === 'technology') return g1TechWrong;
+      return g1MathWrong;
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return g2TvWrong;
+      if (currentSubject === 'english') return g2EngWrong;
+      if (currentSubject === 'science') return g2SciWrong;
+      if (currentSubject === 'history_geo') return g2HisGeoWrong;
+      if (currentSubject === 'informatics') return g2InfoWrong;
+      if (currentSubject === 'civics') return g2CivWrong;
+      if (currentSubject === 'technology') return g2TechWrong;
+      return g2MathWrong;
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return g3TvWrong;
+      if (currentSubject === 'english') return g3EngWrong;
+      if (currentSubject === 'science') return g3SciWrong;
+      if (currentSubject === 'history_geo') return g3HisGeoWrong;
+      if (currentSubject === 'informatics') return g3InfoWrong;
+      if (currentSubject === 'civics') return g3CivWrong;
+      if (currentSubject === 'technology') return g3TechWrong;
+      return g3MathWrong;
+    }
+
     if (isGrade4) return isMath ? g4MathWrong : g4TvWrong;
     if (isGrade5) return isMath ? g5MathWrong : g5TvWrong;
     if (isGrade6) return isMath ? g6MathWrong : g6LitWrong;
@@ -1019,6 +1316,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Stages
   const getActiveStages = () => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return STAGES_TV1;
+      if (currentSubject === 'english') return STAGES_ENG1;
+      if (currentSubject === 'science') return STAGES_SCI1;
+      if (currentSubject === 'history_geo') return STAGES_HISGEO1;
+      if (currentSubject === 'informatics') return STAGES_INFO1;
+      if (currentSubject === 'civics') return STAGES_CIV1;
+      if (currentSubject === 'technology') return STAGES_TECH1;
+      return STAGES_MATH1;
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return STAGES_TV2;
+      if (currentSubject === 'english') return STAGES_ENG2;
+      if (currentSubject === 'science') return STAGES_SCI2;
+      if (currentSubject === 'history_geo') return STAGES_HISGEO2;
+      if (currentSubject === 'informatics') return STAGES_INFO2;
+      if (currentSubject === 'civics') return STAGES_CIV2;
+      if (currentSubject === 'technology') return STAGES_TECH2;
+      return STAGES_MATH2;
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return STAGES_TV3;
+      if (currentSubject === 'english') return STAGES_ENG3;
+      if (currentSubject === 'science') return STAGES_SCI3;
+      if (currentSubject === 'history_geo') return STAGES_HISGEO3;
+      if (currentSubject === 'informatics') return STAGES_INFO3;
+      if (currentSubject === 'civics') return STAGES_CIV3;
+      if (currentSubject === 'technology') return STAGES_TECH3;
+      return STAGES_MATH3;
+    }
+
     if (isGrade8) return isMath ? STAGES_MATH8 : STAGES_LIT8;
     if (isGrade9) return isMath ? STAGES_MATH9 : STAGES_LIT9;
     if (isGrade10) return isMath ? STAGES_MATH10 : STAGES_LIT10;
@@ -1056,6 +1384,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Topic Categories
   const getActiveCategories = () => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV1;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG1;
+      if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI1;
+      if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HISGEO1;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_INFO1;
+      if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV1;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH1;
+      return TOPIC_CATEGORIES_MATH1;
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV2;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG2;
+      if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI2;
+      if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HISGEO2;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_INFO2;
+      if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV2;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH2;
+      return TOPIC_CATEGORIES_MATH2;
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV3;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG3;
+      if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI3;
+      if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HISGEO3;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_INFO3;
+      if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV3;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH3;
+      return TOPIC_CATEGORIES_MATH3;
+    }
+
     if (isGrade8) return isMath ? TOPIC_CATEGORIES_MATH8 : TOPIC_CATEGORIES_LIT8;
     if (isGrade9) return isMath ? TOPIC_CATEGORIES_MATH9 : TOPIC_CATEGORIES_LIT9;
     if (isGrade10) return isMath ? TOPIC_CATEGORIES_MATH10 : TOPIC_CATEGORIES_LIT10;
@@ -1093,6 +1452,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Weeks Metadata
   const getActiveWeeksMetadata = () => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_TV1;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG1;
+      if (currentSubject === 'science') return WEEKS_METADATA_SCI1;
+      if (currentSubject === 'history_geo') return WEEKS_METADATA_HISGEO1;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_INFO1;
+      if (currentSubject === 'civics') return WEEKS_METADATA_CIV1;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH1;
+      return WEEKS_METADATA_MATH1;
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_TV2;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG2;
+      if (currentSubject === 'science') return WEEKS_METADATA_SCI2;
+      if (currentSubject === 'history_geo') return WEEKS_METADATA_HISGEO2;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_INFO2;
+      if (currentSubject === 'civics') return WEEKS_METADATA_CIV2;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH2;
+      return WEEKS_METADATA_MATH2;
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_TV3;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG3;
+      if (currentSubject === 'science') return WEEKS_METADATA_SCI3;
+      if (currentSubject === 'history_geo') return WEEKS_METADATA_HISGEO3;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_INFO3;
+      if (currentSubject === 'civics') return WEEKS_METADATA_CIV3;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH3;
+      return WEEKS_METADATA_MATH3;
+    }
+
     if (isGrade8) return isMath ? WEEKS_METADATA_MATH8 : WEEKS_METADATA_LIT8;
     if (isGrade9) return isMath ? WEEKS_METADATA_MATH9 : WEEKS_METADATA_LIT9;
     if (isGrade10) return isMath ? WEEKS_METADATA_MATH10 : WEEKS_METADATA_LIT10;
@@ -1130,6 +1520,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Questions by Week Selector
   const getActiveQuestionsByWeek = (weekNum) => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekTV1(weekNum);
+      if (currentSubject === 'english') return getQuestionsByWeekEng1(weekNum);
+      if (currentSubject === 'science') return getQuestionsByWeekSci1(weekNum);
+      if (currentSubject === 'history_geo') return getQuestionsByWeekHisGeo1(weekNum);
+      if (currentSubject === 'informatics') return getQuestionsByWeekInfo1(weekNum);
+      if (currentSubject === 'civics') return getQuestionsByWeekCiv1(weekNum);
+      if (currentSubject === 'technology') return getQuestionsByWeekTech1(weekNum);
+      return getQuestionsByWeekMath1(weekNum);
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekTV2(weekNum);
+      if (currentSubject === 'english') return getQuestionsByWeekEng2(weekNum);
+      if (currentSubject === 'science') return getQuestionsByWeekSci2(weekNum);
+      if (currentSubject === 'history_geo') return getQuestionsByWeekHisGeo2(weekNum);
+      if (currentSubject === 'informatics') return getQuestionsByWeekInfo2(weekNum);
+      if (currentSubject === 'civics') return getQuestionsByWeekCiv2(weekNum);
+      if (currentSubject === 'technology') return getQuestionsByWeekTech2(weekNum);
+      return getQuestionsByWeekMath2(weekNum);
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekTV3(weekNum);
+      if (currentSubject === 'english') return getQuestionsByWeekEng3(weekNum);
+      if (currentSubject === 'science') return getQuestionsByWeekSci3(weekNum);
+      if (currentSubject === 'history_geo') return getQuestionsByWeekHisGeo3(weekNum);
+      if (currentSubject === 'informatics') return getQuestionsByWeekInfo3(weekNum);
+      if (currentSubject === 'civics') return getQuestionsByWeekCiv3(weekNum);
+      if (currentSubject === 'technology') return getQuestionsByWeekTech3(weekNum);
+      return getQuestionsByWeekMath3(weekNum);
+    }
+
     if (isGrade8) return isMath ? getQuestionsByWeekMath8(weekNum) : getQuestionsByWeekLit8(weekNum);
     if (isGrade9) return isMath ? getQuestionsByWeekMath9(weekNum) : getQuestionsByWeekLit9(weekNum);
     if (isGrade10) return isMath ? getQuestionsByWeekMath10(weekNum) : getQuestionsByWeekLit10(weekNum);
@@ -1166,6 +1587,37 @@ export const LearningProvider = ({ children }) => {
 
   // Active Filtered Questions Selector
   const getActiveFilteredQuestions = (params) => {
+    if (isGrade1) {
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsTV1(params);
+      if (currentSubject === 'english') return getFilteredQuestionsEng1(params);
+      if (currentSubject === 'science') return getFilteredQuestionsSci1(params);
+      if (currentSubject === 'history_geo') return getFilteredQuestionsHisGeo1(params);
+      if (currentSubject === 'informatics') return getFilteredQuestionsInfo1(params);
+      if (currentSubject === 'civics') return getFilteredQuestionsCiv1(params);
+      if (currentSubject === 'technology') return getFilteredQuestionsTech1(params);
+      return getFilteredQuestionsMath1(params);
+    }
+    if (isGrade2) {
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsTV2(params);
+      if (currentSubject === 'english') return getFilteredQuestionsEng2(params);
+      if (currentSubject === 'science') return getFilteredQuestionsSci2(params);
+      if (currentSubject === 'history_geo') return getFilteredQuestionsHisGeo2(params);
+      if (currentSubject === 'informatics') return getFilteredQuestionsInfo2(params);
+      if (currentSubject === 'civics') return getFilteredQuestionsCiv2(params);
+      if (currentSubject === 'technology') return getFilteredQuestionsTech2(params);
+      return getFilteredQuestionsMath2(params);
+    }
+    if (isGrade3) {
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsTV3(params);
+      if (currentSubject === 'english') return getFilteredQuestionsEng3(params);
+      if (currentSubject === 'science') return getFilteredQuestionsSci3(params);
+      if (currentSubject === 'history_geo') return getFilteredQuestionsHisGeo3(params);
+      if (currentSubject === 'informatics') return getFilteredQuestionsInfo3(params);
+      if (currentSubject === 'civics') return getFilteredQuestionsCiv3(params);
+      if (currentSubject === 'technology') return getFilteredQuestionsTech3(params);
+      return getFilteredQuestionsMath3(params);
+    }
+
     if (isGrade8) return isMath ? getFilteredQuestionsMath8(params) : getFilteredQuestionsLit8(params);
     if (isGrade9) return isMath ? getFilteredQuestionsMath9(params) : getFilteredQuestionsLit9(params);
     if (isGrade10) return isMath ? getFilteredQuestionsMath10(params) : getFilteredQuestionsLit10(params);
@@ -1489,7 +1941,12 @@ export const LearningProvider = ({ children }) => {
         switchGrade,
         currentSubject,
         switchSubject,
-        isGrade4,
+        isGrade1,
+    isGrade2,
+    isGrade3,
+    isPrimaryChuot,
+    GRADE_PRIMARY_SUBJECTS,
+    isGrade4,
         isGrade5,
         isGrade6,
         isGrade7,
