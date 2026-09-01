@@ -1024,10 +1024,7 @@ export const VIDEO_LESSONS = [
       'Chiến tranh Lạnh kết thúc 1991 khi Liên Xô tan rã thành 15 nước cộng hòa'
     ]
   }
-];
-
-export const getVideoLessons = ({ grade, subject, week, stage, semester, searchQuery } = {}) => {
-  let list = [...VIDEO_LESSONS,
+,
   {
     id: 'vid_g6_lit_w01', grade: '6', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
     title: 'Ngữ Văn 6 - Bài 1: Bài học đường đời đầu tiên', desc: 'Dế Mèn phiêu lưu ký', teacher: 'Cô Thu Hương', duration: '20:00',
@@ -1071,3 +1068,43 @@ export const getVideoLessons = ({ grade, subject, week, stage, semester, searchQ
     chapters: []
   }
 ];
+
+export const getVideoLessons = ({ grade, subject, week, stage, semester, searchQuery } = {}) => {
+  let list = [...VIDEO_LESSONS];
+
+  if (grade && grade !== 'all') {
+    list = list.filter(v => v.grade === grade.toString());
+  }
+
+  if (subject && subject !== 'all') {
+    list = list.filter(v => v.subject === subject);
+  }
+
+  if (week) {
+    list = list.filter(v => v.week === parseInt(week, 10));
+  }
+
+  if (stage && stage !== 'all') {
+    list = list.filter(v => v.stage === parseInt(stage, 10));
+  }
+
+  if (semester && semester !== 'all') {
+    list = list.filter(v => v.semester === parseInt(semester, 10));
+  }
+
+  if (searchQuery && searchQuery.trim() !== '') {
+    const q = searchQuery.toLowerCase().trim();
+    list = list.filter(v =>
+      v.title.toLowerCase().includes(q) ||
+      v.desc.toLowerCase().includes(q) ||
+      v.teacher.toLowerCase().includes(q) ||
+      (v.keyTakeaways && v.keyTakeaways.some(k => k.toLowerCase().includes(q)))
+    );
+  }
+
+  return list;
+};
+
+export const getVideoLessonById = (id) => {
+  return VIDEO_LESSONS.find(v => v.id === id) || null;
+};
