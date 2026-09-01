@@ -1066,9 +1066,8 @@ export const VIDEO_LESSONS = [
     title: 'Ngữ Văn 12 - Tuyên Ngôn Độc Lập', desc: 'Hồ Chí Minh', teacher: 'Cô Thu Hương', duration: '20:00',
     thumbnail: 'https://img.youtube.com/vi/aAtKjYk75tc/hqdefault.jpg', embedId: 'aAtKjYk75tc',
     chapters: []
-  }
-
-  {
+  },
+{
     id: 'vid_g1_science_w01_auto', grade: '1', subject: 'science', week: 1, stage: 1, semester: 1,
     title: 'Khoa Học Tự Nhiên Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
     thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
