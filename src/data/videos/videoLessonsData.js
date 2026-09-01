@@ -1067,6 +1067,769 @@ export const VIDEO_LESSONS = [
     thumbnail: 'https://img.youtube.com/vi/aAtKjYk75tc/hqdefault.jpg', embedId: 'aAtKjYk75tc',
     chapters: []
   }
+
+  {
+    id: 'vid_g1_science_w01_auto', grade: '1', subject: 'science', week: 1, stage: 1, semester: 1,
+    title: 'Khoa Học Tự Nhiên Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_history_geo_w01_auto', grade: '1', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_informatics_w01_auto', grade: '1', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_civics_w01_auto', grade: '1', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_technology_w01_auto', grade: '1', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_physics_w01_auto', grade: '1', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_chemistry_w01_auto', grade: '1', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_biology_w01_auto', grade: '1', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_history_w01_auto', grade: '1', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_geography_w01_auto', grade: '1', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g1_econ_law_w01_auto', grade: '1', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 1 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_english_w01_auto', grade: '2', subject: 'english', week: 1, stage: 1, semester: 1,
+    title: 'Tiếng Anh Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/Ed9KwzpaH2s/hqdefault.jpg', embedId: 'Ed9KwzpaH2s',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_science_w01_auto', grade: '2', subject: 'science', week: 1, stage: 1, semester: 1,
+    title: 'Khoa Học Tự Nhiên Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_history_geo_w01_auto', grade: '2', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_informatics_w01_auto', grade: '2', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_civics_w01_auto', grade: '2', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_technology_w01_auto', grade: '2', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_physics_w01_auto', grade: '2', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_chemistry_w01_auto', grade: '2', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_biology_w01_auto', grade: '2', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_history_w01_auto', grade: '2', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_geography_w01_auto', grade: '2', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g2_econ_law_w01_auto', grade: '2', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 2 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_vietnamese_w01_auto', grade: '3', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn / Tiếng Việt Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/aAtKjYk75tc/hqdefault.jpg', embedId: 'aAtKjYk75tc',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_english_w01_auto', grade: '3', subject: 'english', week: 1, stage: 1, semester: 1,
+    title: 'Tiếng Anh Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/Ed9KwzpaH2s/hqdefault.jpg', embedId: 'Ed9KwzpaH2s',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_history_geo_w01_auto', grade: '3', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_informatics_w01_auto', grade: '3', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_civics_w01_auto', grade: '3', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_technology_w01_auto', grade: '3', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_physics_w01_auto', grade: '3', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_chemistry_w01_auto', grade: '3', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_biology_w01_auto', grade: '3', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_history_w01_auto', grade: '3', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_geography_w01_auto', grade: '3', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g3_econ_law_w01_auto', grade: '3', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 3 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_english_w01_auto', grade: '4', subject: 'english', week: 1, stage: 1, semester: 1,
+    title: 'Tiếng Anh Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/Ed9KwzpaH2s/hqdefault.jpg', embedId: 'Ed9KwzpaH2s',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_science_w01_auto', grade: '4', subject: 'science', week: 1, stage: 1, semester: 1,
+    title: 'Khoa Học Tự Nhiên Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_history_geo_w01_auto', grade: '4', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_informatics_w01_auto', grade: '4', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_civics_w01_auto', grade: '4', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_technology_w01_auto', grade: '4', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_physics_w01_auto', grade: '4', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_chemistry_w01_auto', grade: '4', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_biology_w01_auto', grade: '4', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_history_w01_auto', grade: '4', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_geography_w01_auto', grade: '4', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g4_econ_law_w01_auto', grade: '4', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 4 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_english_w01_auto', grade: '5', subject: 'english', week: 1, stage: 1, semester: 1,
+    title: 'Tiếng Anh Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/Ed9KwzpaH2s/hqdefault.jpg', embedId: 'Ed9KwzpaH2s',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_science_w01_auto', grade: '5', subject: 'science', week: 1, stage: 1, semester: 1,
+    title: 'Khoa Học Tự Nhiên Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_history_geo_w01_auto', grade: '5', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_informatics_w01_auto', grade: '5', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_civics_w01_auto', grade: '5', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_technology_w01_auto', grade: '5', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_physics_w01_auto', grade: '5', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_chemistry_w01_auto', grade: '5', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_biology_w01_auto', grade: '5', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_history_w01_auto', grade: '5', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_geography_w01_auto', grade: '5', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g5_econ_law_w01_auto', grade: '5', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 5 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_english_w01_auto', grade: '6', subject: 'english', week: 1, stage: 1, semester: 1,
+    title: 'Tiếng Anh Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/Ed9KwzpaH2s/hqdefault.jpg', embedId: 'Ed9KwzpaH2s',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_history_geo_w01_auto', grade: '6', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_informatics_w01_auto', grade: '6', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_civics_w01_auto', grade: '6', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_technology_w01_auto', grade: '6', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_physics_w01_auto', grade: '6', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_chemistry_w01_auto', grade: '6', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_biology_w01_auto', grade: '6', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_history_w01_auto', grade: '6', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_geography_w01_auto', grade: '6', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g6_econ_law_w01_auto', grade: '6', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 6 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_history_geo_w01_auto', grade: '7', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_informatics_w01_auto', grade: '7', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_civics_w01_auto', grade: '7', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_technology_w01_auto', grade: '7', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_physics_w01_auto', grade: '7', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_chemistry_w01_auto', grade: '7', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_biology_w01_auto', grade: '7', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_history_w01_auto', grade: '7', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_geography_w01_auto', grade: '7', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_econ_law_w01_auto', grade: '7', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 7 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_history_geo_w01_auto', grade: '8', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_informatics_w01_auto', grade: '8', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_civics_w01_auto', grade: '8', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_technology_w01_auto', grade: '8', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_physics_w01_auto', grade: '8', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_chemistry_w01_auto', grade: '8', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_biology_w01_auto', grade: '8', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_history_w01_auto', grade: '8', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_geography_w01_auto', grade: '8', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_econ_law_w01_auto', grade: '8', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 8 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_history_geo_w01_auto', grade: '9', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_informatics_w01_auto', grade: '9', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_civics_w01_auto', grade: '9', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_technology_w01_auto', grade: '9', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_physics_w01_auto', grade: '9', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_chemistry_w01_auto', grade: '9', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_biology_w01_auto', grade: '9', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_history_w01_auto', grade: '9', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_geography_w01_auto', grade: '9', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_econ_law_w01_auto', grade: '9', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 9 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_history_geo_w01_auto', grade: '10', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_informatics_w01_auto', grade: '10', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_civics_w01_auto', grade: '10', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_technology_w01_auto', grade: '10', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_physics_w01_auto', grade: '10', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_chemistry_w01_auto', grade: '10', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_biology_w01_auto', grade: '10', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_history_w01_auto', grade: '10', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_geography_w01_auto', grade: '10', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_econ_law_w01_auto', grade: '10', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 10 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_history_geo_w01_auto', grade: '11', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_informatics_w01_auto', grade: '11', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_civics_w01_auto', grade: '11', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_technology_w01_auto', grade: '11', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_physics_w01_auto', grade: '11', subject: 'physics', week: 1, stage: 1, semester: 1,
+    title: 'Vật Lí Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_chemistry_w01_auto', grade: '11', subject: 'chemistry', week: 1, stage: 1, semester: 1,
+    title: 'Hóa Học Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_biology_w01_auto', grade: '11', subject: 'biology', week: 1, stage: 1, semester: 1,
+    title: 'Sinh Học Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_history_w01_auto', grade: '11', subject: 'history', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_geography_w01_auto', grade: '11', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_econ_law_w01_auto', grade: '11', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 11 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_science_w01_auto', grade: '12', subject: 'science', week: 1, stage: 1, semester: 1,
+    title: 'Khoa Học Tự Nhiên Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_history_geo_w01_auto', grade: '12', subject: 'history_geo', week: 1, stage: 1, semester: 1,
+    title: 'Lịch Sử & Địa Lí Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_informatics_w01_auto', grade: '12', subject: 'informatics', week: 1, stage: 1, semester: 1,
+    title: 'Tin Học Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_civics_w01_auto', grade: '12', subject: 'civics', week: 1, stage: 1, semester: 1,
+    title: 'Giáo Dục Công Dân Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_technology_w01_auto', grade: '12', subject: 'technology', week: 1, stage: 1, semester: 1,
+    title: 'Công Nghệ Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_geography_w01_auto', grade: '12', subject: 'geography', week: 1, stage: 1, semester: 1,
+    title: 'Địa Lí Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_econ_law_w01_auto', grade: '12', subject: 'econ_law', week: 1, stage: 1, semester: 1,
+    title: 'GDKT & PL Lớp 12 - Bài giảng trực tuyến', desc: 'Bài giảng chuẩn SGK mới.', teacher: 'Giáo viên HocTot', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/K7qqMgF847o/hqdefault.jpg', embedId: 'K7qqMgF847o',
+    chapters: []
+  },
 ];
 
 export const getVideoLessons = ({ grade, subject, week, stage, semester, searchQuery } = {}) => {
