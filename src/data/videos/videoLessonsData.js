@@ -1027,41 +1027,47 @@ export const VIDEO_LESSONS = [
 ];
 
 export const getVideoLessons = ({ grade, subject, week, stage, semester, searchQuery } = {}) => {
-  let list = [...VIDEO_LESSONS];
-
-  if (grade && grade !== 'all') {
-    list = list.filter(v => v.grade === grade.toString());
+  let list = [...VIDEO_LESSONS,
+  {
+    id: 'vid_g6_lit_w01', grade: '6', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 6 - Bài 1: Bài học đường đời đầu tiên', desc: 'Dế Mèn phiêu lưu ký', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
+  },
+  {
+    id: 'vid_g7_lit_w01', grade: '7', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 7 - Bài 1: Cổng trường mở ra', desc: 'Phân tích văn bản Cổng trường mở ra', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
+  },
+  {
+    id: 'vid_g8_lit_w01', grade: '8', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 8 - Bài 1: Tôi đi học (Thanh Tịnh)', desc: 'Cảm nhận ngày đầu tiên đi học', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
+  },
+  {
+    id: 'vid_g9_lit_w01', grade: '9', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 9 - Bài 1: Phong cách Hồ Chí Minh', desc: 'Phong cách lãnh tụ', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
+  },
+  {
+    id: 'vid_g10_lit_w01', grade: '10', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 10 - Bài 1: Tổng quan văn học Việt Nam', desc: 'Văn học dân gian', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
+  },
+  {
+    id: 'vid_g11_lit_w01', grade: '11', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 11 - Bài 1: Vào phủ chúa Trịnh', desc: 'Lê Hữu Trác', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
+  },
+  {
+    id: 'vid_g12_lit_w01', grade: '12', subject: 'vietnamese', week: 1, stage: 1, semester: 1,
+    title: 'Ngữ Văn 12 - Tuyên Ngôn Độc Lập', desc: 'Hồ Chí Minh', teacher: 'Cô Thu Hương', duration: '20:00',
+    thumbnail: 'https://img.youtube.com/vi/IWgJi0en74E/hqdefault.jpg', embedId: 'IWgJi0en74E',
+    chapters: []
   }
-
-  if (subject && subject !== 'all') {
-    list = list.filter(v => v.subject === subject);
-  }
-
-  if (week) {
-    list = list.filter(v => v.week === parseInt(week, 10));
-  }
-
-  if (stage && stage !== 'all') {
-    list = list.filter(v => v.stage === parseInt(stage, 10));
-  }
-
-  if (semester && semester !== 'all') {
-    list = list.filter(v => v.semester === parseInt(semester, 10));
-  }
-
-  if (searchQuery && searchQuery.trim() !== '') {
-    const q = searchQuery.toLowerCase().trim();
-    list = list.filter(v =>
-      v.title.toLowerCase().includes(q) ||
-      v.desc.toLowerCase().includes(q) ||
-      v.teacher.toLowerCase().includes(q) ||
-      (v.keyTakeaways && v.keyTakeaways.some(k => k.toLowerCase().includes(q)))
-    );
-  }
-
-  return list;
-};
-
-export const getVideoLessonById = (id) => {
-  return VIDEO_LESSONS.find(v => v.id === id) || null;
-};
+];
