@@ -16,12 +16,13 @@ import {
   BookOpen, 
   Feather, 
   Calculator,
-  GraduationCap
+  GraduationCap,
+  Video
 } from 'lucide-react';
 import { useLearning, GRADE_PRIMARY_SUBJECTS, GRADE_7_SUBJECTS, GRADE_12_SUBJECTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
 
-export const RoadmapView = ({ onStartQuiz }) => {
+export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
   const { 
     progress, 
     totalStars, 
@@ -31,6 +32,7 @@ export const RoadmapView = ({ onStartQuiz }) => {
     switchGrade,
     currentSubject,
     switchSubject,
+    getVideoLessons,
     isGrade1,
     isGrade2,
     isGrade3,
@@ -647,6 +649,24 @@ export const RoadmapView = ({ onStartQuiz }) => {
 
             {/* Difficulty Level Buttons */}
             <div className="space-y-2 pt-1">
+              <button
+                onClick={() => {
+                  sounds.playPop();
+                  const vList = getVideoLessons({ grade: currentGrade, subject: currentSubject, week: activeWeekModal });
+                  const v = (vList && vList.length > 0) ? vList[0] : getVideoLessons({ grade: currentGrade, week: activeWeekModal })[0] || getVideoLessons({ grade: currentGrade })[0];
+                  if (v && onOpenVideoLesson) {
+                    setActiveWeekModal(null);
+                    onOpenVideoLesson(v);
+                  } else {
+                    alert(`Đang cập nhật video bài giảng cho Tuần ${activeWeekModal}! Bạn hãy bấm "Bắt Đầu Làm Bài Ngay" để luyện tập nhé.`);
+                  }
+                }}
+                className="w-full py-2.5 bg-gradient-to-r from-indigo-50 to-blue-50 hover:from-indigo-100 hover:to-blue-100 text-indigo-900 border-2 border-indigo-200 font-extrabold text-xs sm:text-sm rounded-2xl flex items-center justify-center gap-2 cursor-pointer transition-all shadow-xs"
+              >
+                <Video className="w-4 h-4 text-indigo-600" />
+                <span>📺 Xem Video Bài Giảng & Ôn Tập Tuần Này</span>
+              </button>
+
               <button
                 onClick={() => handleStartWeekQuiz(activeWeekModal, 'all')}
                 className="w-full py-3.5 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-amber-950 font-black text-base rounded-2xl shadow-bouncy btn-bouncy flex items-center justify-center gap-2 cursor-pointer"

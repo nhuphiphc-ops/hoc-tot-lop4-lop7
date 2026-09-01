@@ -17,7 +17,8 @@ import {
   Check, 
   Calculator, 
   BookMarked,
-  Shield
+  Shield,
+  Video
 } from 'lucide-react';
 import { useLearning, SHOP_MASCOTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
@@ -72,6 +73,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
   const navItems = [
     { id: 'roadmap', label: 'Lộ Trình 35 Tuần', icon: Compass, badge: null },
+    { id: 'videos', label: 'Bài Giảng Video', icon: Video, badge: 'Mới' },
     { id: 'practice', label: 'Phòng Luyện Thi', icon: BookOpen, badge: null },
     { id: 'wrong', label: 'Sửa Câu Sai', icon: RotateCcw, badge: wrongQuestions.length > 0 ? wrongQuestions.length : null },
     { id: 'dashboard', label: 'Góc Phụ Huynh', icon: BarChart3, badge: null },

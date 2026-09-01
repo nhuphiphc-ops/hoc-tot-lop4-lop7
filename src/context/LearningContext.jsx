@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import sounds from '../utils/soundEffects';
+import { VIDEO_LESSONS, getVideoLessons, getVideoLessonById } from '../data/videos/videoLessonsData.js';
 
 
 // Grade 1 Data (8 Subjects for Be Chuot)
@@ -290,7 +291,8 @@ const STORAGE_KEYS = {
   COINS: 'toan_coins',
   UNLOCKED_MASCOTS: 'toan_unlocked_mascots',
   PARENT_PIN: 'toan_parent_pin',
-  ACTIVE_DRAFT: 'toan_active_quiz_draft'
+  ACTIVE_DRAFT: 'toan_active_quiz_draft',
+  WATCHED_VIDEOS: 'toan_watched_video_ids'
 };
 
 const DEFAULT_PROFILE_NGUYEN = {
@@ -881,6 +883,37 @@ export const LearningProvider = ({ children }) => {
       return localStorage.getItem(STORAGE_KEYS.PARENT_PIN) || '1234';
     } catch { return '1234'; }
   });
+
+  // Video Lessons Watched Tracker
+  const [watchedVideos, setWatchedVideos] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.WATCHED_VIDEOS);
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
+
+  const markVideoWatched = (videoId) => {
+    if (!videoId) return;
+    setWatchedVideos(prev => {
+      if (prev.includes(videoId)) return prev;
+      const next = [...prev, videoId];
+      try {
+        localStorage.setItem(STORAGE_KEYS.WATCHED_VIDEOS, JSON.stringify(next));
+      } catch (e) {
+        console.error(e);
+      }
+      // Reward student for studying the video lecture
+      setCoins(c => {
+        const nextCoins = c + 5;
+        try { localStorage.setItem(STORAGE_KEYS.COINS, nextCoins.toString()); } catch { /* ignore */ }
+        return nextCoins;
+      });
+      sounds.playSuccess();
+      return next;
+    });
+  };
 
   // Member Management & Access Control (RBAC)
   const [membersList, setMembersList] = useState(() => {
@@ -1980,6 +2013,12 @@ export const LearningProvider = ({ children }) => {
         parentPin,
         setParentPin,
         verifyParentPin,
+        // Video Lessons & Lectures
+        videoLessons: VIDEO_LESSONS,
+        getVideoLessons,
+        getVideoLessonById,
+        watchedVideos,
+        markVideoWatched,
         // Member Management & RBAC
         membersList,
         activeAdminUser,

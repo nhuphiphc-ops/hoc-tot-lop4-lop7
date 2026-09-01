@@ -1,6 +1,7 @@
 import React from 'react';
 import { 
   Compass, 
+  Video,
   BookOpen, 
   RotateCcw, 
   BarChart3, 
@@ -11,6 +12,7 @@ import sounds from '../utils/soundEffects';
 export const MobileBottomNav = ({ currentTab, onSelectTab, wrongCount = 0 }) => {
   const tabs = [
     { id: 'roadmap', label: 'Lộ Trình', icon: Compass },
+    { id: 'videos', label: 'Bài Giảng', icon: Video },
     { id: 'practice', label: 'Luyện Thi', icon: BookOpen },
     { id: 'wrong', label: 'Sửa Sai', icon: RotateCcw, badge: wrongCount > 0 ? wrongCount : null },
     { id: 'dashboard', label: 'Phụ Huynh', icon: BarChart3 },

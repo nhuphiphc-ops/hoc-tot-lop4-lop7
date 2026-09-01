@@ -12,14 +12,17 @@ import { QuizArena } from './components/QuizArena';
 import { ResultModal } from './components/ResultModal';
 import { ExplanationView } from './components/ExplanationView';
 import { MemberManagement } from './components/MemberManagement';
+import { VideoLearningView } from './components/VideoLearningView';
+import { VideoPlayerModal } from './components/VideoPlayerModal';
 
 const MainContent = () => {
   const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath, wrongQuestions } = useLearning();
-  const [currentTab, setCurrentTab] = useState('roadmap'); // 'roadmap' | 'practice' | 'wrong' | 'dashboard' | 'badges'
+  const [currentTab, setCurrentTab] = useState('roadmap'); // 'roadmap' | 'videos' | 'practice' | 'wrong' | 'dashboard' | 'badges' | 'members'
   const [activeQuizConfig, setActiveQuizConfig] = useState(null);
   const [currentResultData, setCurrentResultData] = useState(null);
   const [currentEarnedRewards, setCurrentEarnedRewards] = useState(null);
   const [isViewingExplanation, setIsViewingExplanation] = useState(false);
+  const [activeVideoLesson, setActiveVideoLesson] = useState(null);
 
   // Track grade & subject changes to immediately close any ongoing quiz and show the new roadmap
   const prevGradeRef = useRef(currentGrade);
@@ -184,7 +187,17 @@ const MainContent = () => {
         {!activeQuizConfig && !isViewingExplanation && (
           <>
             {currentTab === 'roadmap' && (
-              <RoadmapView onStartQuiz={handleStartQuiz} />
+              <RoadmapView 
+                onStartQuiz={handleStartQuiz} 
+                onOpenVideoLesson={setActiveVideoLesson}
+              />
+            )}
+
+            {currentTab === 'videos' && (
+              <VideoLearningView 
+                onSelectVideo={setActiveVideoLesson}
+                onStartQuiz={handleStartQuiz}
+              />
             )}
 
             {currentTab === 'practice' && (
@@ -209,6 +222,15 @@ const MainContent = () => {
           </>
         )}
       </main>
+
+      {/* Global Video Lecture Player Modal */}
+      {activeVideoLesson && (
+        <VideoPlayerModal
+          video={activeVideoLesson}
+          onClose={() => setActiveVideoLesson(null)}
+          onStartQuiz={handleStartQuiz}
+        />
+      )}
 
       {/* Result Celebration Modal */}
       {currentResultData && !isViewingExplanation && (
