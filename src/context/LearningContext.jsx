@@ -1489,17 +1489,16 @@ export const LearningProvider = ({ children }) => {
         return [];
       }
     if (isGrade5) {
-      if (currentSubject === 'math5') return getQuestionsByWeekMath5(weekNum);
-      if (currentSubject === 'tv5') return getQuestionsByWeekTV5(weekNum);
-      if (currentSubject === 'english') return getQuestionsByWeekEng5(weekNum);
-      if (currentSubject === 'science') return getQuestionsByWeekSci5(weekNum);
-      if (currentSubject === 'history_geo') return getQuestionsByWeekHG5(weekNum);
-      if (currentSubject === 'informatics') return getQuestionsByWeekIT5(weekNum);
-      if (currentSubject === 'civics') return getQuestionsByWeekCiv5(weekNum);
-      if (currentSubject === 'technology') return getQuestionsByWeekTech5(weekNum);
+      if (currentSubject === 'math5' || currentSubject === 'math') return STAGES_MATH5;
+      if (currentSubject === 'tv5' || currentSubject === 'vietnamese') return STAGES_TV5;
+      if (currentSubject === 'english') return STAGES_ENG5;
+      if (currentSubject === 'science') return STAGES_SCI5;
+      if (currentSubject === 'history_geo') return STAGES_HG5;
+      if (currentSubject === 'informatics') return STAGES_IT5;
+      if (currentSubject === 'civics') return STAGES_CIV5;
+      if (currentSubject === 'technology') return STAGES_TECH5;
       return [];
     }
-    if (isGrade6) { if (currentSubject === 'math') return STAGES_MATH6; if (currentSubject === 'vietnamese') return STAGES_LIT6; return []; }
     if (isGrade7) {
       if (currentSubject === 'math') return STAGES_MATH7;
       if (currentSubject === 'vietnamese') return STAGES_LIT7;
