@@ -631,12 +631,29 @@ export const LearningProvider = ({ children }) => {
 
   
   // Grade 5 Extended Subjects
-  const [g5EngProgress, setG5EngProgress] = useState(() => JSON.parse(localStorage.getItem('g5EngProgress')) || {});
-  const [g5SciProgress, setG5SciProgress] = useState(() => JSON.parse(localStorage.getItem('g5SciProgress')) || {});
-  const [g5HgProgress, setG5HgProgress] = useState(() => JSON.parse(localStorage.getItem('g5HgProgress')) || {});
-  const [g5ItProgress, setG5ItProgress] = useState(() => JSON.parse(localStorage.getItem('g5ItProgress')) || {});
-  const [g5CivProgress, setG5CivProgress] = useState(() => JSON.parse(localStorage.getItem('g5CivProgress')) || {});
-  const [g5TechProgress, setG5TechProgress] = useState(() => JSON.parse(localStorage.getItem('g5TechProgress')) || {});
+      const [g5EngProgress, setG5EngProgress] = useState(() => {
+      try { const s = localStorage.getItem('g5EngProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; }
+    });
+    const [g5SciProgress, setG5SciProgress] = useState(() => {
+      try { const s = localStorage.getItem('g5SciProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; }
+    });
+    const [g5HgProgress, setG5HgProgress] = useState(() => {
+      try { const s = localStorage.getItem('g5HgProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; }
+    });
+    const [g5ItProgress, setG5ItProgress] = useState(() => {
+      try { const s = localStorage.getItem('g5ItProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; }
+    });
+    const [g5CivProgress, setG5CivProgress] = useState(() => {
+      try { const s = localStorage.getItem('g5CivProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; }
+    });
+    const [g5TechProgress, setG5TechProgress] = useState(() => {
+      try { const s = localStorage.getItem('g5TechProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; }
+    });
+  
+  
+  
+  
+  
 
   useEffect(() => { localStorage.setItem('g5EngProgress', JSON.stringify(g5EngProgress)); }, [g5EngProgress]);
   useEffect(() => { localStorage.setItem('g5SciProgress', JSON.stringify(g5SciProgress)); }, [g5SciProgress]);
