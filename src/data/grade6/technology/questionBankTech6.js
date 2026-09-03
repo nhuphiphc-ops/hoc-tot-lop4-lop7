@@ -77,7 +77,8 @@ export const QUESTION_BANK_TECH6 = [
       "Chỉ để trang trí",
       "Nơi làm việc của mọi người"
     ],
-    "answer": "Nơi trú ngụ, bảo vệ con người, nơi đáp ứng nhu cầu sinh hoạt",
+    "correctIndex": 1,
+    "hint": "Nhà ở là nơi trú ẩn an toàn và phục vụ đời sống tinh thần, vật chất của gia đình.",
     "explanation": "Nhà ở là nơi trú ẩn an toàn và phục vụ đời sống tinh thần, vật chất của gia đình.",
     "category": "knowledge"
   },
@@ -92,7 +93,8 @@ export const QUESTION_BANK_TECH6 = [
       "Mái nhà, tường bao",
       "Cửa sổ"
     ],
-    "answer": "Mái nhà, tường bao",
+    "correctIndex": 2,
+    "hint": "Mái nhà và tường bao che chắn nắng mưa, bảo vệ ngôi nhà.",
     "explanation": "Mái nhà và tường bao che chắn nắng mưa, bảo vệ ngôi nhà.",
     "category": "knowledge"
   },
@@ -107,7 +109,8 @@ export const QUESTION_BANK_TECH6 = [
       "Thường có sân, vườn, ao",
       "Gồm nhiều căn hộ chung cư"
     ],
-    "answer": "Thường có sân, vườn, ao",
+    "correctIndex": 2,
+    "hint": "Kiến trúc nông thôn xưa thường gắn liền với không gian mở, sân vườn.",
     "explanation": "Kiến trúc nông thôn xưa thường gắn liền với không gian mở, sân vườn.",
     "category": "knowledge"
   },
@@ -122,7 +125,8 @@ export const QUESTION_BANK_TECH6 = [
       "Tre, nứa, gỗ",
       "Thép"
     ],
-    "answer": "Tre, nứa, gỗ",
+    "correctIndex": 2,
+    "hint": "Tre nứa, gỗ được khai thác trực tiếp từ tự nhiên.",
     "explanation": "Tre nứa, gỗ được khai thác trực tiếp từ tự nhiên.",
     "category": "knowledge"
   },
@@ -137,7 +141,8 @@ export const QUESTION_BANK_TECH6 = [
       "Cát và sỏi",
       "Nhựa"
     ],
-    "answer": "Đá vôi và đất sét",
+    "correctIndex": 1,
+    "hint": "Xi măng là vật liệu nhân tạo sản xuất từ đá vôi, đất sét.",
     "explanation": "Xi măng là vật liệu nhân tạo sản xuất từ đá vôi, đất sét.",
     "category": "knowledge"
   },
@@ -152,7 +157,8 @@ export const QUESTION_BANK_TECH6 = [
       "4",
       "5"
     ],
-    "answer": "3",
+    "correctIndex": 1,
+    "hint": "3 bước: Chuẩn bị -> Thi công -> Hoàn thiện.",
     "explanation": "3 bước: Chuẩn bị -> Thi công -> Hoàn thiện.",
     "category": "knowledge"
   },
@@ -167,7 +173,8 @@ export const QUESTION_BANK_TECH6 = [
       "Sơn tường, lát nền",
       "Thiết kế bản vẽ"
     ],
-    "answer": "Sơn tường, lát nền",
+    "correctIndex": 2,
+    "hint": "Sơn tường, lát nền, lắp điện nước thuộc khâu hoàn thiện.",
     "explanation": "Sơn tường, lát nền, lắp điện nước thuộc khâu hoàn thiện.",
     "category": "knowledge"
   },
@@ -182,7 +189,8 @@ export const QUESTION_BANK_TECH6 = [
       "Không có cửa sổ",
       "Chỉ dùng điện mặt trời"
     ],
-    "answer": "Tự động hóa, điều khiển từ xa, tiết kiệm năng lượng",
+    "correctIndex": 1,
+    "hint": "Nhà thông minh ứng dụng công nghệ để tự động hóa.",
     "explanation": "Nhà thông minh ứng dụng công nghệ để tự động hóa.",
     "category": "knowledge"
   },
@@ -197,7 +205,8 @@ export const QUESTION_BANK_TECH6 = [
       "Tắt các thiết bị điện khi không sử dụng",
       "Mở tủ lạnh liên tục"
     ],
-    "answer": "Tắt các thiết bị điện khi không sử dụng",
+    "correctIndex": 2,
+    "hint": "Tắt thiết bị điện không cần thiết giúp giảm lãng phí.",
     "explanation": "Tắt thiết bị điện không cần thiết giúp giảm lãng phí.",
     "category": "knowledge"
   },
@@ -212,7 +221,8 @@ export const QUESTION_BANK_TECH6 = [
       "Tiêu tốn nhiều điện năng hơn",
       "Tạo ra nhiều rác thải"
     ],
-    "answer": "Tiết kiệm chi phí, thân thiện môi trường",
+    "correctIndex": 1,
+    "hint": "Năng lượng mặt trời là năng lượng sạch, tái tạo.",
     "explanation": "Năng lượng mặt trời là năng lượng sạch, tái tạo.",
     "category": "knowledge"
   },
@@ -227,7 +237,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 2.",
     "explanation": "Hướng dẫn giải tuần 2.",
     "category": "knowledge"
   },
@@ -242,7 +253,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 3.",
     "explanation": "Hướng dẫn giải tuần 3.",
     "category": "knowledge"
   },
@@ -257,7 +269,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 4.",
     "explanation": "Hướng dẫn giải tuần 4.",
     "category": "knowledge"
   },
@@ -272,7 +285,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 5.",
     "explanation": "Hướng dẫn giải tuần 5.",
     "category": "knowledge"
   },
@@ -287,7 +301,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 6.",
     "explanation": "Hướng dẫn giải tuần 6.",
     "category": "knowledge"
   },
@@ -302,7 +317,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 7.",
     "explanation": "Hướng dẫn giải tuần 7.",
     "category": "knowledge"
   },
@@ -317,7 +333,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 8.",
     "explanation": "Hướng dẫn giải tuần 8.",
     "category": "knowledge"
   },
@@ -332,7 +349,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 9.",
     "explanation": "Hướng dẫn giải tuần 9.",
     "category": "knowledge"
   },
@@ -347,7 +365,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 10.",
     "explanation": "Hướng dẫn giải tuần 10.",
     "category": "knowledge"
   },
@@ -362,7 +381,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 11.",
     "explanation": "Hướng dẫn giải tuần 11.",
     "category": "knowledge"
   },
@@ -377,7 +397,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 12.",
     "explanation": "Hướng dẫn giải tuần 12.",
     "category": "knowledge"
   },
@@ -392,7 +413,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 13.",
     "explanation": "Hướng dẫn giải tuần 13.",
     "category": "knowledge"
   },
@@ -407,7 +429,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 14.",
     "explanation": "Hướng dẫn giải tuần 14.",
     "category": "knowledge"
   },
@@ -422,7 +445,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 15.",
     "explanation": "Hướng dẫn giải tuần 15.",
     "category": "knowledge"
   },
@@ -437,7 +461,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 16.",
     "explanation": "Hướng dẫn giải tuần 16.",
     "category": "knowledge"
   },
@@ -452,7 +477,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 17.",
     "explanation": "Hướng dẫn giải tuần 17.",
     "category": "knowledge"
   },
@@ -467,7 +493,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 18.",
     "explanation": "Hướng dẫn giải tuần 18.",
     "category": "knowledge"
   },
@@ -482,7 +509,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 19.",
     "explanation": "Hướng dẫn giải tuần 19.",
     "category": "knowledge"
   },
@@ -497,7 +525,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 20.",
     "explanation": "Hướng dẫn giải tuần 20.",
     "category": "knowledge"
   },
@@ -512,7 +541,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 21.",
     "explanation": "Hướng dẫn giải tuần 21.",
     "category": "knowledge"
   },
@@ -527,7 +557,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 22.",
     "explanation": "Hướng dẫn giải tuần 22.",
     "category": "knowledge"
   },
@@ -542,7 +573,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 23.",
     "explanation": "Hướng dẫn giải tuần 23.",
     "category": "knowledge"
   },
@@ -557,7 +589,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 24.",
     "explanation": "Hướng dẫn giải tuần 24.",
     "category": "knowledge"
   },
@@ -572,7 +605,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 25.",
     "explanation": "Hướng dẫn giải tuần 25.",
     "category": "knowledge"
   },
@@ -587,7 +621,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 26.",
     "explanation": "Hướng dẫn giải tuần 26.",
     "category": "knowledge"
   },
@@ -602,7 +637,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 27.",
     "explanation": "Hướng dẫn giải tuần 27.",
     "category": "knowledge"
   },
@@ -617,7 +653,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 28.",
     "explanation": "Hướng dẫn giải tuần 28.",
     "category": "knowledge"
   },
@@ -632,7 +669,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 29.",
     "explanation": "Hướng dẫn giải tuần 29.",
     "category": "knowledge"
   },
@@ -647,7 +685,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 30.",
     "explanation": "Hướng dẫn giải tuần 30.",
     "category": "knowledge"
   },
@@ -662,7 +701,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 31.",
     "explanation": "Hướng dẫn giải tuần 31.",
     "category": "knowledge"
   },
@@ -677,7 +717,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 32.",
     "explanation": "Hướng dẫn giải tuần 32.",
     "category": "knowledge"
   },
@@ -692,7 +733,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 33.",
     "explanation": "Hướng dẫn giải tuần 33.",
     "category": "knowledge"
   },
@@ -707,7 +749,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 34.",
     "explanation": "Hướng dẫn giải tuần 34.",
     "category": "knowledge"
   },
@@ -722,7 +765,8 @@ export const QUESTION_BANK_TECH6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 35.",
     "explanation": "Hướng dẫn giải tuần 35.",
     "category": "knowledge"
   }

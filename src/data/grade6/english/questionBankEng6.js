@@ -77,7 +77,8 @@ export const QUESTION_BANK_ENG6 = [
       "are",
       "be"
     ],
-    "answer": "am",
+    "correctIndex": 0,
+    "hint": "Động từ to be đi với ngôi I là am.",
     "explanation": "Động từ to be đi với ngôi I là am.",
     "category": "knowledge"
   },
@@ -92,7 +93,8 @@ export const QUESTION_BANK_ENG6 = [
       "Who",
       "How"
     ],
-    "answer": "Where",
+    "correctIndex": 1,
+    "hint": "Hỏi địa điểm dùng Where.",
     "explanation": "Hỏi địa điểm dùng Where.",
     "category": "knowledge"
   },
@@ -107,7 +109,8 @@ export const QUESTION_BANK_ENG6 = [
       "having",
       "is having"
     ],
-    "answer": "has",
+    "correctIndex": 1,
+    "hint": "Chủ ngữ số ít 'My school' đi với 'has'.",
     "explanation": "Chủ ngữ số ít 'My school' đi với 'has'.",
     "category": "knowledge"
   },
@@ -122,7 +125,8 @@ export const QUESTION_BANK_ENG6 = [
       "do",
       "play"
     ],
-    "answer": "have",
+    "correctIndex": 0,
+    "hint": "Ăn sáng là 'have breakfast'.",
     "explanation": "Ăn sáng là 'have breakfast'.",
     "category": "knowledge"
   },
@@ -137,7 +141,8 @@ export const QUESTION_BANK_ENG6 = [
       "wearing",
       "to wear"
     ],
-    "answer": "wear",
+    "correctIndex": 0,
+    "hint": "Sau trợ động từ Do, động từ chính nguyên mẫu.",
     "explanation": "Sau trợ động từ Do, động từ chính nguyên mẫu.",
     "category": "knowledge"
   },
@@ -152,7 +157,8 @@ export const QUESTION_BANK_ENG6 = [
       "studying",
       "is studying"
     ],
-    "answer": "studies",
+    "correctIndex": 1,
+    "hint": "Thì hiện tại đơn, chủ ngữ She -> studies.",
     "explanation": "Thì hiện tại đơn, chủ ngữ She -> studies.",
     "category": "knowledge"
   },
@@ -167,7 +173,8 @@ export const QUESTION_BANK_ENG6 = [
       "Do",
       "Does"
     ],
-    "answer": "Do",
+    "correctIndex": 2,
+    "hint": "Câu hỏi với động từ thường 'like', chủ ngữ 'you' dùng trợ động từ 'Do'.",
     "explanation": "Câu hỏi với động từ thường 'like', chủ ngữ 'you' dùng trợ động từ 'Do'.",
     "category": "knowledge"
   },
@@ -182,7 +189,8 @@ export const QUESTION_BANK_ENG6 = [
       "clever",
       "shy"
     ],
-    "answer": "kind",
+    "correctIndex": 0,
+    "hint": "Kind: tốt bụng, hay giúp đỡ.",
     "explanation": "Kind: tốt bụng, hay giúp đỡ.",
     "category": "knowledge"
   },
@@ -197,7 +205,8 @@ export const QUESTION_BANK_ENG6 = [
       "are playing",
       "is playing"
     ],
-    "answer": "are playing",
+    "correctIndex": 2,
+    "hint": "Có chữ 'now' -> thì hiện tại tiếp diễn.",
     "explanation": "Có chữ 'now' -> thì hiện tại tiếp diễn.",
     "category": "knowledge"
   },
@@ -212,7 +221,8 @@ export const QUESTION_BANK_ENG6 = [
       "coming",
       "come"
     ],
-    "answer": "is coming",
+    "correctIndex": 0,
+    "hint": "Có 'Look!' -> hành động đang xảy ra (hiện tại tiếp diễn).",
     "explanation": "Có 'Look!' -> hành động đang xảy ra (hiện tại tiếp diễn).",
     "category": "knowledge"
   },
@@ -227,7 +237,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 2.",
     "explanation": "Hướng dẫn giải tuần 2.",
     "category": "knowledge"
   },
@@ -242,7 +253,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 3.",
     "explanation": "Hướng dẫn giải tuần 3.",
     "category": "knowledge"
   },
@@ -257,7 +269,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 4.",
     "explanation": "Hướng dẫn giải tuần 4.",
     "category": "knowledge"
   },
@@ -272,7 +285,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 5.",
     "explanation": "Hướng dẫn giải tuần 5.",
     "category": "knowledge"
   },
@@ -287,7 +301,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 6.",
     "explanation": "Hướng dẫn giải tuần 6.",
     "category": "knowledge"
   },
@@ -302,7 +317,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 7.",
     "explanation": "Hướng dẫn giải tuần 7.",
     "category": "knowledge"
   },
@@ -317,7 +333,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 8.",
     "explanation": "Hướng dẫn giải tuần 8.",
     "category": "knowledge"
   },
@@ -332,7 +349,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 9.",
     "explanation": "Hướng dẫn giải tuần 9.",
     "category": "knowledge"
   },
@@ -347,7 +365,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 10.",
     "explanation": "Hướng dẫn giải tuần 10.",
     "category": "knowledge"
   },
@@ -362,7 +381,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 11.",
     "explanation": "Hướng dẫn giải tuần 11.",
     "category": "knowledge"
   },
@@ -377,7 +397,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 12.",
     "explanation": "Hướng dẫn giải tuần 12.",
     "category": "knowledge"
   },
@@ -392,7 +413,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 13.",
     "explanation": "Hướng dẫn giải tuần 13.",
     "category": "knowledge"
   },
@@ -407,7 +429,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 14.",
     "explanation": "Hướng dẫn giải tuần 14.",
     "category": "knowledge"
   },
@@ -422,7 +445,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 15.",
     "explanation": "Hướng dẫn giải tuần 15.",
     "category": "knowledge"
   },
@@ -437,7 +461,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 16.",
     "explanation": "Hướng dẫn giải tuần 16.",
     "category": "knowledge"
   },
@@ -452,7 +477,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 17.",
     "explanation": "Hướng dẫn giải tuần 17.",
     "category": "knowledge"
   },
@@ -467,7 +493,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 18.",
     "explanation": "Hướng dẫn giải tuần 18.",
     "category": "knowledge"
   },
@@ -482,7 +509,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 19.",
     "explanation": "Hướng dẫn giải tuần 19.",
     "category": "knowledge"
   },
@@ -497,7 +525,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 20.",
     "explanation": "Hướng dẫn giải tuần 20.",
     "category": "knowledge"
   },
@@ -512,7 +541,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 21.",
     "explanation": "Hướng dẫn giải tuần 21.",
     "category": "knowledge"
   },
@@ -527,7 +557,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 22.",
     "explanation": "Hướng dẫn giải tuần 22.",
     "category": "knowledge"
   },
@@ -542,7 +573,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 23.",
     "explanation": "Hướng dẫn giải tuần 23.",
     "category": "knowledge"
   },
@@ -557,7 +589,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 24.",
     "explanation": "Hướng dẫn giải tuần 24.",
     "category": "knowledge"
   },
@@ -572,7 +605,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 25.",
     "explanation": "Hướng dẫn giải tuần 25.",
     "category": "knowledge"
   },
@@ -587,7 +621,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 26.",
     "explanation": "Hướng dẫn giải tuần 26.",
     "category": "knowledge"
   },
@@ -602,7 +637,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 27.",
     "explanation": "Hướng dẫn giải tuần 27.",
     "category": "knowledge"
   },
@@ -617,7 +653,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 28.",
     "explanation": "Hướng dẫn giải tuần 28.",
     "category": "knowledge"
   },
@@ -632,7 +669,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 29.",
     "explanation": "Hướng dẫn giải tuần 29.",
     "category": "knowledge"
   },
@@ -647,7 +685,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 30.",
     "explanation": "Hướng dẫn giải tuần 30.",
     "category": "knowledge"
   },
@@ -662,7 +701,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 31.",
     "explanation": "Hướng dẫn giải tuần 31.",
     "category": "knowledge"
   },
@@ -677,7 +717,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 32.",
     "explanation": "Hướng dẫn giải tuần 32.",
     "category": "knowledge"
   },
@@ -692,7 +733,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 33.",
     "explanation": "Hướng dẫn giải tuần 33.",
     "category": "knowledge"
   },
@@ -707,7 +749,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 34.",
     "explanation": "Hướng dẫn giải tuần 34.",
     "category": "knowledge"
   },
@@ -722,7 +765,8 @@ export const QUESTION_BANK_ENG6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 35.",
     "explanation": "Hướng dẫn giải tuần 35.",
     "category": "knowledge"
   }

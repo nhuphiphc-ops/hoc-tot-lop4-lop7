@@ -77,7 +77,8 @@ export const QUESTION_BANK_CIV6 = [
       "Bỏ qua các lễ nghi",
       "Chỉ biết đến bản thân"
     ],
-    "answer": "Giữ gìn và phát huy những điều tốt đẹp",
+    "correctIndex": 0,
+    "hint": "Tự hào là sự trân trọng, giữ gìn, phát huy các giá trị tốt đẹp.",
     "explanation": "Tự hào là sự trân trọng, giữ gìn, phát huy các giá trị tốt đẹp.",
     "category": "knowledge"
   },
@@ -92,7 +93,8 @@ export const QUESTION_BANK_CIV6 = [
       "Bỏ học đi chơi",
       "Nối nghiệp làm gốm của gia đình"
     ],
-    "answer": "Bỏ học đi chơi",
+    "correctIndex": 2,
+    "hint": "Bỏ học đi chơi là hành động sai trái, làm buồn lòng gia đình.",
     "explanation": "Bỏ học đi chơi là hành động sai trái, làm buồn lòng gia đình.",
     "category": "knowledge"
   },
@@ -107,7 +109,8 @@ export const QUESTION_BANK_CIV6 = [
       "Thờ ơ với nỗi đau của người khác",
       "Lợi dụng người khác"
     ],
-    "answer": "Quan tâm, giúp đỡ người khác",
+    "correctIndex": 0,
+    "hint": "Yêu thương con người là sự sẻ chia, cảm thông, giúp đỡ lẫn nhau.",
     "explanation": "Yêu thương con người là sự sẻ chia, cảm thông, giúp đỡ lẫn nhau.",
     "category": "knowledge"
   },
@@ -122,7 +125,8 @@ export const QUESTION_BANK_CIV6 = [
       "Bắt nạt bạn bè",
       "Thấy bạn ngã không đỡ"
     ],
-    "answer": "Quyên góp ủng hộ đồng bào lũ lụt",
+    "correctIndex": 1,
+    "hint": "Ủng hộ đồng bào vùng lũ là truyền thống lá lành đùm lá rách.",
     "explanation": "Ủng hộ đồng bào vùng lũ là truyền thống lá lành đùm lá rách.",
     "category": "knowledge"
   },
@@ -137,7 +141,8 @@ export const QUESTION_BANK_CIV6 = [
       "Giúp mình nổi tiếng",
       "Chỉ để được khen thưởng"
     ],
-    "answer": "Mang lại niềm vui, hạnh phúc cho bản thân và người khác",
+    "correctIndex": 1,
+    "hint": "Tình yêu thương tạo nên mối quan hệ tốt đẹp và sự gắn kết xã hội.",
     "explanation": "Tình yêu thương tạo nên mối quan hệ tốt đẹp và sự gắn kết xã hội.",
     "category": "knowledge"
   },
@@ -145,14 +150,15 @@ export const QUESTION_BANK_CIV6 = [
     "id": "Civ6_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu ca dao: 'Bầu ơi thương lấy bí cùng / Tuy rằng khác giống nhưng chung một giàn' khuyên chúng ta điều gì?",
+    "question": "Câu ca dao: 'Bầu ơi thương lấy bí cùng / Tuy rằng khác giống nhưng chung một giàn' khuyên chúng bắt ta điều gì?",
     "options": [
       "Chăm chỉ làm việc",
       "Yêu thương, đoàn kết, đùm bọc lẫn nhau",
       "Tiết kiệm",
       "Giữ gìn vệ sinh"
     ],
-    "answer": "Yêu thương, đoàn kết, đùm bọc lẫn nhau",
+    "correctIndex": 1,
+    "hint": "Câu ca dao nhấn mạnh sự đoàn kết và tình yêu thương đồng bào.",
     "explanation": "Câu ca dao nhấn mạnh sự đoàn kết và tình yêu thương đồng bào.",
     "category": "knowledge"
   },
@@ -167,7 +173,8 @@ export const QUESTION_BANK_CIV6 = [
       "Nhờ người khác làm hộ",
       "Chỉ học không làm việc nhà"
     ],
-    "answer": "Làm việc tự giác, cần cù, chịu khó",
+    "correctIndex": 1,
+    "hint": "Siêng năng là đức tính chăm chỉ, thường xuyên trong công việc.",
     "explanation": "Siêng năng là đức tính chăm chỉ, thường xuyên trong công việc.",
     "category": "knowledge"
   },
@@ -182,7 +189,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đổi mục tiêu liên tục",
       "Làm việc chống đối"
     ],
-    "answer": "Quyết tâm làm đến cùng dù gian khổ",
+    "correctIndex": 1,
+    "hint": "Kiên trì là nhẫn nại, nỗ lực đạt được mục tiêu.",
     "explanation": "Kiên trì là nhẫn nại, nỗ lực đạt được mục tiêu.",
     "category": "knowledge"
   },
@@ -197,7 +205,8 @@ export const QUESTION_BANK_CIV6 = [
       "Thường xuyên đạt được thành công",
       "Bị mọi người xa lánh"
     ],
-    "answer": "Thường xuyên đạt được thành công",
+    "correctIndex": 2,
+    "hint": "Siêng năng và kiên trì là chìa khóa của thành công.",
     "explanation": "Siêng năng và kiên trì là chìa khóa của thành công.",
     "category": "knowledge"
   },
@@ -212,7 +221,8 @@ export const QUESTION_BANK_CIV6 = [
       "Làm bài tập qua loa",
       "Trốn lao động"
     ],
-    "answer": "Dậy sớm tập thể dục mỗi ngày",
+    "correctIndex": 0,
+    "hint": "Duy trì thói quen tốt mỗi ngày đòi hỏi sự chăm chỉ.",
     "explanation": "Duy trì thói quen tốt mỗi ngày đòi hỏi sự chăm chỉ.",
     "category": "knowledge"
   },
@@ -227,7 +237,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 2.",
     "explanation": "Hướng dẫn giải tuần 2.",
     "category": "knowledge"
   },
@@ -242,7 +253,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 3.",
     "explanation": "Hướng dẫn giải tuần 3.",
     "category": "knowledge"
   },
@@ -257,7 +269,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 4.",
     "explanation": "Hướng dẫn giải tuần 4.",
     "category": "knowledge"
   },
@@ -272,7 +285,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 5.",
     "explanation": "Hướng dẫn giải tuần 5.",
     "category": "knowledge"
   },
@@ -287,7 +301,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 6.",
     "explanation": "Hướng dẫn giải tuần 6.",
     "category": "knowledge"
   },
@@ -302,7 +317,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 7.",
     "explanation": "Hướng dẫn giải tuần 7.",
     "category": "knowledge"
   },
@@ -317,7 +333,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 8.",
     "explanation": "Hướng dẫn giải tuần 8.",
     "category": "knowledge"
   },
@@ -332,7 +349,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 9.",
     "explanation": "Hướng dẫn giải tuần 9.",
     "category": "knowledge"
   },
@@ -347,7 +365,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 10.",
     "explanation": "Hướng dẫn giải tuần 10.",
     "category": "knowledge"
   },
@@ -362,7 +381,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 11.",
     "explanation": "Hướng dẫn giải tuần 11.",
     "category": "knowledge"
   },
@@ -377,7 +397,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 12.",
     "explanation": "Hướng dẫn giải tuần 12.",
     "category": "knowledge"
   },
@@ -392,7 +413,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 13.",
     "explanation": "Hướng dẫn giải tuần 13.",
     "category": "knowledge"
   },
@@ -407,7 +429,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 14.",
     "explanation": "Hướng dẫn giải tuần 14.",
     "category": "knowledge"
   },
@@ -422,7 +445,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 15.",
     "explanation": "Hướng dẫn giải tuần 15.",
     "category": "knowledge"
   },
@@ -437,7 +461,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 16.",
     "explanation": "Hướng dẫn giải tuần 16.",
     "category": "knowledge"
   },
@@ -452,7 +477,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 17.",
     "explanation": "Hướng dẫn giải tuần 17.",
     "category": "knowledge"
   },
@@ -467,7 +493,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 18.",
     "explanation": "Hướng dẫn giải tuần 18.",
     "category": "knowledge"
   },
@@ -482,7 +509,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 19.",
     "explanation": "Hướng dẫn giải tuần 19.",
     "category": "knowledge"
   },
@@ -497,7 +525,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 20.",
     "explanation": "Hướng dẫn giải tuần 20.",
     "category": "knowledge"
   },
@@ -512,7 +541,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 21.",
     "explanation": "Hướng dẫn giải tuần 21.",
     "category": "knowledge"
   },
@@ -527,7 +557,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 22.",
     "explanation": "Hướng dẫn giải tuần 22.",
     "category": "knowledge"
   },
@@ -542,7 +573,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 23.",
     "explanation": "Hướng dẫn giải tuần 23.",
     "category": "knowledge"
   },
@@ -557,7 +589,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 24.",
     "explanation": "Hướng dẫn giải tuần 24.",
     "category": "knowledge"
   },
@@ -572,7 +605,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 25.",
     "explanation": "Hướng dẫn giải tuần 25.",
     "category": "knowledge"
   },
@@ -587,7 +621,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 26.",
     "explanation": "Hướng dẫn giải tuần 26.",
     "category": "knowledge"
   },
@@ -602,7 +637,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 27.",
     "explanation": "Hướng dẫn giải tuần 27.",
     "category": "knowledge"
   },
@@ -617,7 +653,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 28.",
     "explanation": "Hướng dẫn giải tuần 28.",
     "category": "knowledge"
   },
@@ -632,7 +669,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 29.",
     "explanation": "Hướng dẫn giải tuần 29.",
     "category": "knowledge"
   },
@@ -647,7 +685,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 30.",
     "explanation": "Hướng dẫn giải tuần 30.",
     "category": "knowledge"
   },
@@ -662,7 +701,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 31.",
     "explanation": "Hướng dẫn giải tuần 31.",
     "category": "knowledge"
   },
@@ -677,7 +717,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 32.",
     "explanation": "Hướng dẫn giải tuần 32.",
     "category": "knowledge"
   },
@@ -692,7 +733,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 33.",
     "explanation": "Hướng dẫn giải tuần 33.",
     "category": "knowledge"
   },
@@ -707,7 +749,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 34.",
     "explanation": "Hướng dẫn giải tuần 34.",
     "category": "knowledge"
   },
@@ -722,7 +765,8 @@ export const QUESTION_BANK_CIV6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 35.",
     "explanation": "Hướng dẫn giải tuần 35.",
     "category": "knowledge"
   }

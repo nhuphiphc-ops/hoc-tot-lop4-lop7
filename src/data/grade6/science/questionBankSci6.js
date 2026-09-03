@@ -77,7 +77,8 @@ export const QUESTION_BANK_SCI6 = [
       "Sinh học",
       "Lịch sử"
     ],
-    "answer": "Lịch sử",
+    "correctIndex": 3,
+    "hint": "Lịch sử thuộc khoa học xã hội.",
     "explanation": "Lịch sử thuộc khoa học xã hội.",
     "category": "knowledge"
   },
@@ -92,7 +93,8 @@ export const QUESTION_BANK_SCI6 = [
       "Quyển vở",
       "Chiếc cốc"
     ],
-    "answer": "Cây bàng",
+    "correctIndex": 0,
+    "hint": "Cây bàng có sự trao đổi chất, lớn lên và sinh sản.",
     "explanation": "Cây bàng có sự trao đổi chất, lớn lên và sinh sản.",
     "category": "knowledge"
   },
@@ -107,7 +109,8 @@ export const QUESTION_BANK_SCI6 = [
       "Chạy nhảy trong phòng",
       "Tự ý pha trộn hóa chất"
     ],
-    "answer": "Đeo găng tay khi làm thí nghiệm",
+    "correctIndex": 1,
+    "hint": "Đeo găng tay để bảo vệ tay khỏi hóa chất.",
     "explanation": "Đeo găng tay để bảo vệ tay khỏi hóa chất.",
     "category": "knowledge"
   },
@@ -122,7 +125,8 @@ export const QUESTION_BANK_SCI6 = [
       "Vật rất lớn",
       "Vật trong bóng tối"
     ],
-    "answer": "Vật nhỏ",
+    "correctIndex": 1,
+    "hint": "Kính lúp giúp phóng to hình ảnh các vật nhỏ.",
     "explanation": "Kính lúp giúp phóng to hình ảnh các vật nhỏ.",
     "category": "knowledge"
   },
@@ -137,7 +141,8 @@ export const QUESTION_BANK_SCI6 = [
       "lít (l)",
       "giây (s)"
     ],
-    "answer": "mét (m)",
+    "correctIndex": 0,
+    "hint": "Mét là đơn vị đo chiều dài chuẩn SI.",
     "explanation": "Mét là đơn vị đo chiều dài chuẩn SI.",
     "category": "knowledge"
   },
@@ -152,7 +157,8 @@ export const QUESTION_BANK_SCI6 = [
       "Nhiệt kế",
       "Cốc đong"
     ],
-    "answer": "Cân",
+    "correctIndex": 1,
+    "hint": "Cân dùng để đo khối lượng.",
     "explanation": "Cân dùng để đo khối lượng.",
     "category": "knowledge"
   },
@@ -167,7 +173,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đo nhiệt độ không khí",
       "Đo độ ẩm"
     ],
-    "answer": "Đo nhiệt độ cơ thể người",
+    "correctIndex": 1,
+    "hint": "Nhiệt kế y tế thường có vạch chia từ 35 - 42 độ C để đo thân nhiệt.",
     "explanation": "Nhiệt kế y tế thường có vạch chia từ 35 - 42 độ C để đo thân nhiệt.",
     "category": "knowledge"
   },
@@ -182,7 +189,8 @@ export const QUESTION_BANK_SCI6 = [
       "Chiếc bàn gỗ",
       "Cây hoa hồng"
     ],
-    "answer": "Chiếc bàn gỗ",
+    "correctIndex": 2,
+    "hint": "Bàn gỗ không trao đổi chất và không lớn lên được.",
     "explanation": "Bàn gỗ không trao đổi chất và không lớn lên được.",
     "category": "knowledge"
   },
@@ -197,7 +205,8 @@ export const QUESTION_BANK_SCI6 = [
       "Bắt buộc",
       "Chỉ dẫn an toàn"
     ],
-    "answer": "Cảnh báo nguy hiểm",
+    "correctIndex": 0,
+    "hint": "Đó là biển cảnh báo nguy hiểm trong phòng thực hành.",
     "explanation": "Đó là biển cảnh báo nguy hiểm trong phòng thực hành.",
     "category": "knowledge"
   },
@@ -212,7 +221,8 @@ export const QUESTION_BANK_SCI6 = [
       "Mặc áo choàng",
       "Rửa tay sau khi học"
     ],
-    "answer": "Ngửi hóa chất trực tiếp",
+    "correctIndex": 1,
+    "hint": "Không được ngửi hóa chất trực tiếp vì có thể bị ngộ độc.",
     "explanation": "Không được ngửi hóa chất trực tiếp vì có thể bị ngộ độc.",
     "category": "knowledge"
   },
@@ -227,7 +237,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 2.",
     "explanation": "Hướng dẫn giải tuần 2.",
     "category": "knowledge"
   },
@@ -242,7 +253,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 3.",
     "explanation": "Hướng dẫn giải tuần 3.",
     "category": "knowledge"
   },
@@ -257,7 +269,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 4.",
     "explanation": "Hướng dẫn giải tuần 4.",
     "category": "knowledge"
   },
@@ -272,7 +285,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 5.",
     "explanation": "Hướng dẫn giải tuần 5.",
     "category": "knowledge"
   },
@@ -287,7 +301,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 6.",
     "explanation": "Hướng dẫn giải tuần 6.",
     "category": "knowledge"
   },
@@ -302,7 +317,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 7.",
     "explanation": "Hướng dẫn giải tuần 7.",
     "category": "knowledge"
   },
@@ -317,7 +333,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 8.",
     "explanation": "Hướng dẫn giải tuần 8.",
     "category": "knowledge"
   },
@@ -332,7 +349,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 9.",
     "explanation": "Hướng dẫn giải tuần 9.",
     "category": "knowledge"
   },
@@ -347,7 +365,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 10.",
     "explanation": "Hướng dẫn giải tuần 10.",
     "category": "knowledge"
   },
@@ -362,7 +381,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 11.",
     "explanation": "Hướng dẫn giải tuần 11.",
     "category": "knowledge"
   },
@@ -377,7 +397,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 12.",
     "explanation": "Hướng dẫn giải tuần 12.",
     "category": "knowledge"
   },
@@ -392,7 +413,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 13.",
     "explanation": "Hướng dẫn giải tuần 13.",
     "category": "knowledge"
   },
@@ -407,7 +429,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 14.",
     "explanation": "Hướng dẫn giải tuần 14.",
     "category": "knowledge"
   },
@@ -422,7 +445,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 15.",
     "explanation": "Hướng dẫn giải tuần 15.",
     "category": "knowledge"
   },
@@ -437,7 +461,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 16.",
     "explanation": "Hướng dẫn giải tuần 16.",
     "category": "knowledge"
   },
@@ -452,7 +477,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 17.",
     "explanation": "Hướng dẫn giải tuần 17.",
     "category": "knowledge"
   },
@@ -467,7 +493,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 18.",
     "explanation": "Hướng dẫn giải tuần 18.",
     "category": "knowledge"
   },
@@ -482,7 +509,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 19.",
     "explanation": "Hướng dẫn giải tuần 19.",
     "category": "knowledge"
   },
@@ -497,7 +525,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 20.",
     "explanation": "Hướng dẫn giải tuần 20.",
     "category": "knowledge"
   },
@@ -512,7 +541,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 21.",
     "explanation": "Hướng dẫn giải tuần 21.",
     "category": "knowledge"
   },
@@ -527,7 +557,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 22.",
     "explanation": "Hướng dẫn giải tuần 22.",
     "category": "knowledge"
   },
@@ -542,7 +573,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 23.",
     "explanation": "Hướng dẫn giải tuần 23.",
     "category": "knowledge"
   },
@@ -557,7 +589,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 24.",
     "explanation": "Hướng dẫn giải tuần 24.",
     "category": "knowledge"
   },
@@ -572,7 +605,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 25.",
     "explanation": "Hướng dẫn giải tuần 25.",
     "category": "knowledge"
   },
@@ -587,7 +621,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 26.",
     "explanation": "Hướng dẫn giải tuần 26.",
     "category": "knowledge"
   },
@@ -602,7 +637,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 27.",
     "explanation": "Hướng dẫn giải tuần 27.",
     "category": "knowledge"
   },
@@ -617,7 +653,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 28.",
     "explanation": "Hướng dẫn giải tuần 28.",
     "category": "knowledge"
   },
@@ -632,7 +669,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 29.",
     "explanation": "Hướng dẫn giải tuần 29.",
     "category": "knowledge"
   },
@@ -647,7 +685,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 30.",
     "explanation": "Hướng dẫn giải tuần 30.",
     "category": "knowledge"
   },
@@ -662,7 +701,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 31.",
     "explanation": "Hướng dẫn giải tuần 31.",
     "category": "knowledge"
   },
@@ -677,7 +717,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 32.",
     "explanation": "Hướng dẫn giải tuần 32.",
     "category": "knowledge"
   },
@@ -692,7 +733,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 33.",
     "explanation": "Hướng dẫn giải tuần 33.",
     "category": "knowledge"
   },
@@ -707,7 +749,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 34.",
     "explanation": "Hướng dẫn giải tuần 34.",
     "category": "knowledge"
   },
@@ -722,7 +765,8 @@ export const QUESTION_BANK_SCI6 = [
       "Đáp án C",
       "Đáp án D"
     ],
-    "answer": "Đáp án A",
+    "correctIndex": 0,
+    "hint": "Hướng dẫn giải tuần 35.",
     "explanation": "Hướng dẫn giải tuần 35.",
     "category": "knowledge"
   }

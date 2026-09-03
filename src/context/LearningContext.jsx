@@ -670,12 +670,12 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem('g5TechProgress', JSON.stringify(g5TechProgress)); }, [g5TechProgress]);
 
 // Progress Stores - Grade 6
-const [g6EngProgress, setG6EngProgress] = useState(() => { try { const s = localStorage.getItem('g6EngProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
-  const [g6SciProgress, setG6SciProgress] = useState(() => { try { const s = localStorage.getItem('g6SciProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
-  const [g6HgProgress, setG6HgProgress] = useState(() => { try { const s = localStorage.getItem('g6HgProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
-  const [g6ItProgress, setG6ItProgress] = useState(() => { try { const s = localStorage.getItem('g6ItProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
-  const [g6CivProgress, setG6CivProgress] = useState(() => { try { const s = localStorage.getItem('g6CivProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
-  const [g6TechProgress, setG6TechProgress] = useState(() => { try { const s = localStorage.getItem('g6TechProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+const [g6EngProgress, setG6EngProgress] = useState(() => { try { const s = localStorage.getItem('g6EngProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g6SciProgress, setG6SciProgress] = useState(() => { try { const s = localStorage.getItem('g6SciProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g6HgProgress, setG6HgProgress] = useState(() => { try { const s = localStorage.getItem('g6HgProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g6ItProgress, setG6ItProgress] = useState(() => { try { const s = localStorage.getItem('g6ItProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g6CivProgress, setG6CivProgress] = useState(() => { try { const s = localStorage.getItem('g6CivProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g6TechProgress, setG6TechProgress] = useState(() => { try { const s = localStorage.getItem('g6TechProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
 
   useEffect(() => { localStorage.setItem('g6EngProgress', JSON.stringify(g6EngProgress)); }, [g6EngProgress]);
   useEffect(() => { localStorage.setItem('g6SciProgress', JSON.stringify(g6SciProgress)); }, [g6SciProgress]);
