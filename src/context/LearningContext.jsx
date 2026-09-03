@@ -60,6 +60,13 @@ import { STAGES_TV5, TOPIC_CATEGORIES_TV5, WEEKS_METADATA_TV5, QUESTION_BANK_TV5
 
 
 
+// Grade 6 Extra Subjects
+import { STAGES_ENG6, TOPIC_CATEGORIES_ENG6, WEEKS_METADATA_ENG6, QUESTION_BANK_ENG6, getQuestionsByWeekEng6, getFilteredQuestionsEng6 } from '../data/grade6/english/questionBankEng6.js';
+import { STAGES_SCI6, TOPIC_CATEGORIES_SCI6, WEEKS_METADATA_SCI6, QUESTION_BANK_SCI6, getQuestionsByWeekSci6, getFilteredQuestionsSci6 } from '../data/grade6/science/questionBankSci6.js';
+import { STAGES_HG6, TOPIC_CATEGORIES_HG6, WEEKS_METADATA_HG6, QUESTION_BANK_HG6, getQuestionsByWeekHG6, getFilteredQuestionsHG6 } from '../data/grade6/history_geo/questionBankHG6.js';
+import { STAGES_IT6, TOPIC_CATEGORIES_IT6, WEEKS_METADATA_IT6, QUESTION_BANK_IT6, getQuestionsByWeekIT6, getFilteredQuestionsIT6 } from '../data/grade6/informatics/questionBankIT6.js';
+import { STAGES_CIV6, TOPIC_CATEGORIES_CIV6, WEEKS_METADATA_CIV6, QUESTION_BANK_CIV6, getQuestionsByWeekCiv6, getFilteredQuestionsCiv6 } from '../data/grade6/civics/questionBankCiv6.js';
+import { STAGES_TECH6, TOPIC_CATEGORIES_TECH6, WEEKS_METADATA_TECH6, QUESTION_BANK_TECH6, getQuestionsByWeekTech6, getFilteredQuestionsTech6 } from '../data/grade6/technology/questionBankTech6.js';
     // Grade 6 Data
 import { STAGES_MATH6, TOPIC_CATEGORIES_MATH6, WEEKS_METADATA_MATH6, QUESTION_BANK_MATH6, getQuestionsByWeekMath6, getFilteredQuestionsMath6 } from '../data/grade6/math/questionBankMath6.js';
 import { STAGES_LIT6, TOPIC_CATEGORIES_LIT6, WEEKS_METADATA_LIT6, QUESTION_BANK_LIT6, getQuestionsByWeekLit6, getFilteredQuestionsLit6 } from '../data/grade6/literature/questionBankLit6.js';
@@ -663,6 +670,19 @@ export const LearningProvider = ({ children }) => {
   useEffect(() => { localStorage.setItem('g5TechProgress', JSON.stringify(g5TechProgress)); }, [g5TechProgress]);
 
 // Progress Stores - Grade 6
+const [g6EngProgress, setG6EngProgress] = useState(() => { try { const s = localStorage.getItem('g6EngProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+  const [g6SciProgress, setG6SciProgress] = useState(() => { try { const s = localStorage.getItem('g6SciProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+  const [g6HgProgress, setG6HgProgress] = useState(() => { try { const s = localStorage.getItem('g6HgProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+  const [g6ItProgress, setG6ItProgress] = useState(() => { try { const s = localStorage.getItem('g6ItProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+  const [g6CivProgress, setG6CivProgress] = useState(() => { try { const s = localStorage.getItem('g6CivProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+  const [g6TechProgress, setG6TechProgress] = useState(() => { try { const s = localStorage.getItem('g6TechProgress'); return s ? JSON.parse(s) : {}; } catch { return {}; } });
+
+  useEffect(() => { localStorage.setItem('g6EngProgress', JSON.stringify(g6EngProgress)); }, [g6EngProgress]);
+  useEffect(() => { localStorage.setItem('g6SciProgress', JSON.stringify(g6SciProgress)); }, [g6SciProgress]);
+  useEffect(() => { localStorage.setItem('g6HgProgress', JSON.stringify(g6HgProgress)); }, [g6HgProgress]);
+  useEffect(() => { localStorage.setItem('g6ItProgress', JSON.stringify(g6ItProgress)); }, [g6ItProgress]);
+  useEffect(() => { localStorage.setItem('g6CivProgress', JSON.stringify(g6CivProgress)); }, [g6CivProgress]);
+  useEffect(() => { localStorage.setItem('g6TechProgress', JSON.stringify(g6TechProgress)); }, [g6TechProgress]);
   const [g6MathProgress, setG6MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G6_MATH);
@@ -790,6 +810,19 @@ export const LearningProvider = ({ children }) => {
   const [g5TvWrong, setG5TvWrong] = useState(() => {
     try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G5_TV); return s ? JSON.parse(s) : []; } catch { return []; }
   });
+const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorage.getItem('g6EngWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g6SciWrong, setG6SciWrong] = useState(() => { try { const s = localStorage.getItem('g6SciWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g6HgWrong, setG6HgWrong] = useState(() => { try { const s = localStorage.getItem('g6HgWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g6ItWrong, setG6ItWrong] = useState(() => { try { const s = localStorage.getItem('g6ItWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g6CivWrong, setG6CivWrong] = useState(() => { try { const s = localStorage.getItem('g6CivWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g6TechWrong, setG6TechWrong] = useState(() => { try { const s = localStorage.getItem('g6TechWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+
+  useEffect(() => { localStorage.setItem('g6EngWrong', JSON.stringify(g6EngWrong)); }, [g6EngWrong]);
+  useEffect(() => { localStorage.setItem('g6SciWrong', JSON.stringify(g6SciWrong)); }, [g6SciWrong]);
+  useEffect(() => { localStorage.setItem('g6HgWrong', JSON.stringify(g6HgWrong)); }, [g6HgWrong]);
+  useEffect(() => { localStorage.setItem('g6ItWrong', JSON.stringify(g6ItWrong)); }, [g6ItWrong]);
+  useEffect(() => { localStorage.setItem('g6CivWrong', JSON.stringify(g6CivWrong)); }, [g6CivWrong]);
+  useEffect(() => { localStorage.setItem('g6TechWrong', JSON.stringify(g6TechWrong)); }, [g6TechWrong]);
   const [g6MathWrong, setG6MathWrong] = useState(() => {
     try { const s = localStorage.getItem(STORAGE_KEYS.WRONG_G6_MATH); return s ? JSON.parse(s) : []; } catch { return []; }
   });
@@ -1282,7 +1315,17 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'technology') return g5TechProgress;
         return g5MathProgress;
       }
-    if (isGrade6) return isMath ? g6MathProgress : g6LitProgress;
+    if (isGrade6) {
+      if (currentSubject === 'math') return g6MathProgress;
+      if (currentSubject === 'vietnamese') return g6LitProgress;
+      if (currentSubject === 'english') return g6EngProgress;
+      if (currentSubject === 'science') return g6SciProgress;
+      if (currentSubject === 'history_geo') return g6HgProgress;
+      if (currentSubject === 'informatics') return g6ItProgress;
+      if (currentSubject === 'civics') return g6CivProgress;
+      if (currentSubject === 'technology') return g6TechProgress;
+      return g6MathProgress;
+    }
     
     if (isGrade8) return isMath ? g8MathProgress : g8LitProgress;
     if (isGrade9) return isMath ? g9MathProgress : g9LitProgress;
@@ -1411,7 +1454,17 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'tv5' || currentSubject === 'vietnamese') return g5TvWrong;
         return [];
       }
-    if (isGrade6) return isMath ? g6MathWrong : g6LitWrong;
+    if (isGrade6) {
+      if (currentSubject === 'math') return g6MathWrong;
+      if (currentSubject === 'vietnamese') return g6LitWrong;
+      if (currentSubject === 'english') return g6EngWrong;
+      if (currentSubject === 'science') return g6SciWrong;
+      if (currentSubject === 'history_geo') return g6HgWrong;
+      if (currentSubject === 'informatics') return g6ItWrong;
+      if (currentSubject === 'civics') return g6CivWrong;
+      if (currentSubject === 'technology') return g6TechWrong;
+      return g6MathWrong;
+    }
     if (isGrade7) {
       if (currentSubject === 'math') return g7MathWrong;
       if (currentSubject === 'vietnamese') return g7LitWrong;
@@ -1586,7 +1639,7 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH5;
         return [];
       }
-    if (isGrade6) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH6; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT6; return []; }
+    if (isGrade6) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH6; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT6; if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG6; if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI6; if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HG6; if (currentSubject === 'informatics') return TOPIC_CATEGORIES_IT6; if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV6; if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH6; return []; }
     if (isGrade7) {
       if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH7;
       if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT7;
@@ -1674,7 +1727,7 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'technology') return WEEKS_METADATA_TECH5;
         return {};
       }
-    if (isGrade6) { if (currentSubject === 'math') return WEEKS_METADATA_MATH6; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT6; return {}; }
+    if (isGrade6) { if (currentSubject === 'math') return WEEKS_METADATA_MATH6; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT6; if (currentSubject === 'english') return WEEKS_METADATA_ENG6; if (currentSubject === 'science') return WEEKS_METADATA_SCI6; if (currentSubject === 'history_geo') return WEEKS_METADATA_HG6; if (currentSubject === 'informatics') return WEEKS_METADATA_IT6; if (currentSubject === 'civics') return WEEKS_METADATA_CIV6; if (currentSubject === 'technology') return WEEKS_METADATA_TECH6; return {}; }
     if (isGrade7) {
       if (currentSubject === 'math') return WEEKS_METADATA_MATH7;
       if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT7;
@@ -1781,6 +1834,12 @@ export const LearningProvider = ({ children }) => {
     if (isGrade6) {
       if (currentSubject === 'math') return getQuestionsByWeekMath6(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekLit6(weekNum);
+      if (currentSubject === 'english') return getQuestionsByWeekEng6(weekNum);
+      if (currentSubject === 'science') return getQuestionsByWeekSci6(weekNum);
+      if (currentSubject === 'history_geo') return getQuestionsByWeekHG6(weekNum);
+      if (currentSubject === 'informatics') return getQuestionsByWeekIT6(weekNum);
+      if (currentSubject === 'civics') return getQuestionsByWeekCiv6(weekNum);
+      if (currentSubject === 'technology') return getQuestionsByWeekTech6(weekNum);
       return [];
     }
     if (isGrade7) {
@@ -1888,6 +1947,12 @@ export const LearningProvider = ({ children }) => {
     if (isGrade6) {
       if (currentSubject === 'math') return getFilteredQuestionsMath6(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsLit6(params);
+      if (currentSubject === 'english') return getFilteredQuestionsEng6(params);
+      if (currentSubject === 'science') return getFilteredQuestionsSci6(params);
+      if (currentSubject === 'history_geo') return getFilteredQuestionsHG6(params);
+      if (currentSubject === 'informatics') return getFilteredQuestionsIT6(params);
+      if (currentSubject === 'civics') return getFilteredQuestionsCiv6(params);
+      if (currentSubject === 'technology') return getFilteredQuestionsTech6(params);
       return [];
     }
     if (isGrade7) {
@@ -1972,8 +2037,14 @@ export const LearningProvider = ({ children }) => {
       if (isMath) setG5MathWrong(filterFn);
       else setG5TvWrong(filterFn);
     } else if (isGrade6) {
-      if (isMath) setG6MathWrong(filterFn);
-      else setG6LitWrong(filterFn);
+      if (currentSubject === 'math') setG6MathWrong(filterFn);
+      else if (currentSubject === 'vietnamese') setG6LitWrong(filterFn);
+      else if (currentSubject === 'english') setG6EngWrong(filterFn);
+      else if (currentSubject === 'science') setG6SciWrong(filterFn);
+      else if (currentSubject === 'history_geo') setG6HgWrong(filterFn);
+      else if (currentSubject === 'informatics') setG6ItWrong(filterFn);
+      else if (currentSubject === 'civics') setG6CivWrong(filterFn);
+      else if (currentSubject === 'technology') setG6TechWrong(filterFn);
     } else if (isGrade7) {
       if (currentSubject === 'math') setG7MathWrong(filterFn);
       else if (currentSubject === 'vietnamese') setG7LitWrong(filterFn);
@@ -2071,8 +2142,20 @@ export const LearningProvider = ({ children }) => {
       if (isActMath) setG5MathWrong(updateWrongList);
       else setG5TvWrong(updateWrongList);
     } else if (activeGrade === '6') {
-      if (isActMath) setG6MathWrong(updateWrongList);
-      else setG6LitWrong(updateWrongList);
+      if (activeSubj === 'math') setG6MathWrong(updateWrongList);
+      else if (activeSubj === 'vietnamese') setG6LitWrong(updateWrongList);
+      else if (activeSubj === 'english') setG6EngWrong(updateWrongList);
+      else if (activeSubj === 'science') setG6SciWrong(updateWrongList);
+      else if (activeSubj === 'history_geo') setG6HgWrong(updateWrongList);
+      else if (activeSubj === 'informatics') setG6ItWrong(updateWrongList);
+      else if (activeSubj === 'civics') setG6CivWrong(updateWrongList);
+      else if (activeSubj === 'technology') setG6TechWrong(updateWrongList);
+        else if (activeSubj === 'english') setG6EngProgress(updateProg);
+        else if (activeSubj === 'science') setG6SciProgress(updateProg);
+        else if (activeSubj === 'history_geo') setG6HgProgress(updateProg);
+        else if (activeSubj === 'informatics') setG6ItProgress(updateProg);
+        else if (activeSubj === 'civics') setG6CivProgress(updateProg);
+        else if (activeSubj === 'technology') setG6TechProgress(updateProg);
     } else if (activeGrade === '7') {
       if (activeSubj === 'math') setG7MathWrong(updateWrongList);
       else if (activeSubj === 'vietnamese') setG7LitWrong(updateWrongList);
@@ -2141,8 +2224,14 @@ export const LearningProvider = ({ children }) => {
         if (isActMath) setG5MathProgress(updateProg);
         else setG5TvProgress(updateProg);
       } else if (activeGrade === '6') {
-        if (isActMath) setG6MathProgress(updateProg);
-        else setG6LitProgress(updateProg);
+        if (activeSubj === 'math') setG6MathProgress(updateProg);
+        else if (activeSubj === 'vietnamese') setG6LitProgress(updateProg);
+        else if (activeSubj === 'english') setG6EngProgress(updateProg);
+        else if (activeSubj === 'science') setG6SciProgress(updateProg);
+        else if (activeSubj === 'history_geo') setG6HgProgress(updateProg);
+        else if (activeSubj === 'informatics') setG6ItProgress(updateProg);
+        else if (activeSubj === 'civics') setG6CivProgress(updateProg);
+        else if (activeSubj === 'technology') setG6TechProgress(updateProg);
       } else if (activeGrade === '7') {
         if (activeSubj === 'math') setG7MathProgress(updateProg);
         else if (activeSubj === 'vietnamese') setG7LitProgress(updateProg);
