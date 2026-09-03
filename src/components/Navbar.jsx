@@ -83,7 +83,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
   // Dynamic titles
   const getSubjectTitle = () => {
-    if (isPrimaryChuot) {
+    if (!isSecondary && !isHighSchool) {
       if (currentSubject === 'vietnamese') return `Tiếng Việt ${currentGrade}`;
       if (currentSubject === 'english') return `Tiếng Anh ${currentGrade}`;
       if (currentSubject === 'science') return `TNXH ${currentGrade}`;
@@ -100,8 +100,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     if (currentGrade === '9') return isMath ? 'Toán Lớp 9' : 'Ngữ Văn 9 (Vào 10)';
     if (currentGrade === '10') return isMath ? 'Toán Lớp 10' : 'Ngữ Văn 10';
     if (currentGrade === '11') return isMath ? 'Toán Lớp 11' : 'Ngữ Văn 11';
-    if (isGrade7) {
-      if (currentSubject === 'math') return 'Toán Lớp 7';
+    if (isSecondary) {
+      if (currentSubject === 'math') return `Toán Lớp ${currentGrade}`;
       if (currentSubject === 'vietnamese') return 'Ngữ Văn 7';
       if (currentSubject === 'english') return 'Tiếng Anh 7';
       if (currentSubject === 'science') return 'KHTN 7';
@@ -109,10 +109,10 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
       if (currentSubject === 'informatics') return 'Tin Học 7';
       if (currentSubject === 'civics') return 'GDCD 7';
       if (currentSubject === 'technology') return 'Công Nghệ 7';
-      return 'Toán Lớp 7';
+      return `Toán Lớp ${currentGrade}`;
     }
-    if (isGrade12) {
-      if (currentSubject === 'math') return 'Toán 12';
+    if (isHighSchool) {
+      if (currentSubject === 'math') return `Toán Lớp ${currentGrade}`;
       if (currentSubject === 'vietnamese') return 'Ngữ Văn 12';
       if (currentSubject === 'english') return 'Tiếng Anh 12';
       if (currentSubject === 'physics') return 'Vật Lí 12';
@@ -123,7 +123,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
       if (currentSubject === 'econ_law') return 'GDKT & PL 12';
       if (currentSubject === 'informatics') return 'Tin Học 12';
       if (currentSubject === 'technology') return 'Công Nghệ 12';
-      return 'Toán 12';
+      return `Toán Lớp ${currentGrade}`;
     }
     return isMath ? `Toán ${currentGrade}` : `Ngữ Văn ${currentGrade}`;
   };
@@ -155,28 +155,28 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   ];
 
   const grade7SubjectsList = [
-    { id: 'math', label: 'Toán 7', color: 'from-blue-500 to-indigo-600' },
-    { id: 'vietnamese', label: 'Ngữ Văn 7', color: 'from-rose-500 to-purple-600' },
-    { id: 'english', label: 'Tiếng Anh 7', color: 'from-emerald-500 to-teal-600' },
-    { id: 'science', label: 'KHTN 7', color: 'from-purple-500 to-indigo-700' },
-    { id: 'history_geo', label: 'Sử & Địa Lí 7', color: 'from-amber-500 to-orange-600' },
-    { id: 'informatics', label: 'Tin Học 7', color: 'from-cyan-500 to-blue-600' },
-    { id: 'civics', label: 'GDCD 7', color: 'from-pink-500 to-rose-600' },
-    { id: 'technology', label: 'Công Nghệ 7', color: 'from-green-500 to-emerald-600' },
+    { id: 'math', label: `Toán ${currentGrade}`, color: 'from-blue-500 to-indigo-600' },
+    { id: 'vietnamese', label: `Ngữ Văn ${currentGrade}`, color: 'from-rose-500 to-purple-600' },
+    { id: 'english', label: `Tiếng Anh ${currentGrade}`, color: 'from-emerald-500 to-teal-600' },
+    { id: 'science', label: `KHTN ${currentGrade}`, color: 'from-purple-500 to-indigo-700' },
+    { id: 'history_geo', label: `Sử & Địa Lí ${currentGrade}`, color: 'from-amber-500 to-orange-600' },
+    { id: 'informatics', label: `Tin Học ${currentGrade}`, color: 'from-cyan-500 to-blue-600' },
+    { id: 'civics', label: `GDCD ${currentGrade}`, color: 'from-pink-500 to-rose-600' },
+    { id: 'technology', label: `Công Nghệ ${currentGrade}`, color: 'from-green-500 to-emerald-600' },
   ];
 
   const grade12SubjectsList = [
-    { id: 'math', label: 'Toán 12', color: 'from-blue-600 to-indigo-700' },
-    { id: 'vietnamese', label: 'Ngữ Văn 12', color: 'from-rose-600 to-purple-700' },
-    { id: 'english', label: 'Tiếng Anh 12', color: 'from-emerald-600 to-teal-700' },
-    { id: 'physics', label: 'Vật Lí 12', color: 'from-sky-600 to-blue-700' },
-    { id: 'chemistry', label: 'Hóa Học 12', color: 'from-purple-600 to-indigo-800' },
-    { id: 'biology', label: 'Sinh Học 12', color: 'from-green-600 to-emerald-700' },
-    { id: 'history', label: 'Lịch Sử 12', color: 'from-amber-600 to-orange-700' },
-    { id: 'geography', label: 'Địa Lí 12', color: 'from-teal-600 to-cyan-700' },
-    { id: 'econ_law', label: 'GDKT & PL 12', color: 'from-pink-600 to-rose-700' },
-    { id: 'informatics', label: 'Tin Học 12', color: 'from-cyan-600 to-blue-700' },
-    { id: 'technology', label: 'Công Nghệ 12', color: 'from-lime-600 to-emerald-700' },
+    { id: 'math', label: `Toán ${currentGrade}`, color: 'from-blue-600 to-indigo-700' },
+    { id: 'vietnamese', label: `Ngữ Văn ${currentGrade}`, color: 'from-rose-600 to-purple-700' },
+    { id: 'english', label: `Tiếng Anh ${currentGrade}`, color: 'from-emerald-600 to-teal-700' },
+    { id: 'physics', label: `Vật Lí ${currentGrade}`, color: 'from-sky-600 to-blue-700' },
+    { id: 'chemistry', label: `Hóa Học ${currentGrade}`, color: 'from-purple-600 to-indigo-800' },
+    { id: 'biology', label: `Sinh Học ${currentGrade}`, color: 'from-green-600 to-emerald-700' },
+    { id: 'history', label: `Lịch Sử ${currentGrade}`, color: 'from-amber-600 to-orange-700' },
+    { id: 'geography', label: `Địa Lí ${currentGrade}`, color: 'from-teal-600 to-cyan-700' },
+    { id: 'econ_law', label: `GDKT & PL ${currentGrade}`, color: 'from-pink-600 to-rose-700' },
+    { id: 'informatics', label: `Tin Học ${currentGrade}`, color: 'from-cyan-600 to-blue-700' },
+    { id: 'technology', label: `Công Nghệ ${currentGrade}`, color: 'from-lime-600 to-emerald-700' },
   ];
 
   return (
@@ -243,7 +243,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             </div>
 
             {/* Subject Switcher */}
-            {isGrade12 ? (
+            {isHighSchool ? (
               <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
                 {grade12SubjectsList.map(subj => {
                   const isSubjActive = currentSubject === subj.id;
@@ -262,7 +262,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                   );
                 })}
               </div>
-            ) : isPrimaryChuot ? (
+            ) : (!isSecondary && !isHighSchool) ? (
               <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
                 {primarySubjectsList.map(subj => {
                   const isSubjActive = currentSubject === subj.id;
@@ -281,7 +281,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                   );
                 })}
               </div>
-            ) : isGrade7 ? (
+            ) : isSecondary ? (
               <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner max-w-full overflow-x-auto scrollbar-none py-1">
                 {grade7SubjectsList.map(subj => {
                   const isSubjActive = currentSubject === subj.id;
@@ -530,7 +530,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
         {/* Mobile Row 4: Subject Selector */}
         <div className="w-full min-w-0 max-w-full overflow-hidden">
-          {isGrade12 ? (
+          {isHighSchool ? (
             <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
               {grade12SubjectsList.map(subj => {
                 const isSubjActive = currentSubject === subj.id;
@@ -549,7 +549,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 );
               })}
             </div>
-          ) : isPrimaryChuot ? (
+          ) : (!isSecondary && !isHighSchool) ? (
             <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
               {primarySubjectsList.map(subj => {
                 const isSubjActive = currentSubject === subj.id;
@@ -568,7 +568,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 );
               })}
             </div>
-          ) : isGrade7 ? (
+          ) : isSecondary ? (
             <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 px-0.5 w-full">
               {grade7SubjectsList.map(subj => {
                 const isSubjActive = currentSubject === subj.id;
@@ -628,7 +628,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <h3 className="text-lg font-black text-slate-800 flex items-center gap-2">
                 <User className="w-5 h-5 text-amber-500" />
-                Hồ Sơ Học Sinh {isGrade12 ? '(Lớp 12 - THPT)' : '(Lớp 4 - 7)'}
+                Hồ Sơ Học Sinh {isHighSchool ? '(Lớp 12 - THPT)' : '(Lớp 4 - 7)'}
               </h3>
               <button 
                 onClick={() => setShowProfileModal(false)}

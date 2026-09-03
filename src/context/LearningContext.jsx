@@ -1584,14 +1584,42 @@ export const LearningProvider = ({ children }) => {
       return getQuestionsByWeekMath3(weekNum);
     }
 
-    if (isGrade8) return isMath ? getQuestionsByWeekMath8(weekNum) : getQuestionsByWeekLit8(weekNum);
-    if (isGrade9) return isMath ? getQuestionsByWeekMath9(weekNum) : getQuestionsByWeekLit9(weekNum);
-    if (isGrade10) return isMath ? getQuestionsByWeekMath10(weekNum) : getQuestionsByWeekLit10(weekNum);
-    if (isGrade11) return isMath ? getQuestionsByWeekMath11(weekNum) : getQuestionsByWeekLit11(weekNum);
+    if (isGrade8) {
+      if (currentSubject === 'math') return getQuestionsByWeekMath8(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekLit8(weekNum);
+      return [];
+    }
+    if (isGrade9) {
+      if (currentSubject === 'math') return getQuestionsByWeekMath9(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekLit9(weekNum);
+      return [];
+    }
+    if (isGrade10) {
+      if (currentSubject === 'math') return getQuestionsByWeekMath10(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekLit10(weekNum);
+      return [];
+    }
+    if (isGrade11) {
+      if (currentSubject === 'math') return getQuestionsByWeekMath11(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekLit11(weekNum);
+      return [];
+    }
 
-    if (isGrade4) return isMath ? getQuestionsByWeek(weekNum) : getQuestionsByWeekTV(weekNum);
-    if (isGrade5) return isMath ? getQuestionsByWeekMath5(weekNum) : getQuestionsByWeekTV5(weekNum);
-    if (isGrade6) return isMath ? getQuestionsByWeekMath6(weekNum) : getQuestionsByWeekLit6(weekNum);
+    if (isGrade4) {
+      if (currentSubject === 'math') return getQuestionsByWeek(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekTV(weekNum);
+      return [];
+    }
+    if (isGrade5) {
+      if (currentSubject === 'math') return getQuestionsByWeekMath5(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekTV5(weekNum);
+      return [];
+    }
+    if (isGrade6) {
+      if (currentSubject === 'math') return getQuestionsByWeekMath6(weekNum);
+      if (currentSubject === 'vietnamese') return getQuestionsByWeekLit6(weekNum);
+      return [];
+    }
     if (isGrade7) {
       if (currentSubject === 'math') return getQuestionsByWeekMath7(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekLit7(weekNum);
@@ -1651,14 +1679,42 @@ export const LearningProvider = ({ children }) => {
       return getFilteredQuestionsMath3(params);
     }
 
-    if (isGrade8) return isMath ? getFilteredQuestionsMath8(params) : getFilteredQuestionsLit8(params);
-    if (isGrade9) return isMath ? getFilteredQuestionsMath9(params) : getFilteredQuestionsLit9(params);
-    if (isGrade10) return isMath ? getFilteredQuestionsMath10(params) : getFilteredQuestionsLit10(params);
-    if (isGrade11) return isMath ? getFilteredQuestionsMath11(params) : getFilteredQuestionsLit11(params);
+    if (isGrade8) {
+      if (currentSubject === 'math') return getFilteredQuestionsMath8(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsLit8(params);
+      return [];
+    }
+    if (isGrade9) {
+      if (currentSubject === 'math') return getFilteredQuestionsMath9(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsLit9(params);
+      return [];
+    }
+    if (isGrade10) {
+      if (currentSubject === 'math') return getFilteredQuestionsMath10(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsLit10(params);
+      return [];
+    }
+    if (isGrade11) {
+      if (currentSubject === 'math') return getFilteredQuestionsMath11(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsLit11(params);
+      return [];
+    }
 
-    if (isGrade4) return isMath ? getFilteredQuestions(params) : getFilteredQuestionsTV(params);
-    if (isGrade5) return isMath ? getFilteredQuestionsMath5(params) : getFilteredQuestionsTV5(params);
-    if (isGrade6) return isMath ? getFilteredQuestionsMath6(params) : getFilteredQuestionsLit6(params);
+    if (isGrade4) {
+      if (currentSubject === 'math') return getFilteredQuestions(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsTV(params);
+      return [];
+    }
+    if (isGrade5) {
+      if (currentSubject === 'math') return getFilteredQuestionsMath5(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsTV5(params);
+      return [];
+    }
+    if (isGrade6) {
+      if (currentSubject === 'math') return getFilteredQuestionsMath6(params);
+      if (currentSubject === 'vietnamese') return getFilteredQuestionsLit6(params);
+      return [];
+    }
     if (isGrade7) {
       if (currentSubject === 'math') return getFilteredQuestionsMath7(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsLit7(params);
