@@ -212,284 +212,284 @@ export const TOPIC_CATEGORIES_SCI4 = [
 
 export const QUESTION_BANK_SCI4 = [
   {
-    "id": "SCI4_W1_Q1",
+    "id": "Sci4_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nước có những tính chất gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Không màu, không mùi, không vị.",
+      "Có màu xanh, có vị ngọt.",
+      "Không màu, có mùi thơm.",
+      "Màu trắng đục, không vị."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Không màu, không mùi, không vị.",
+    "explanation": "Nước tinh khiết là chất lỏng không màu, không mùi, không vị."
   },
   {
-    "id": "SCI4_W1_Q2",
+    "id": "Sci4_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nước tồn tại ở những thể nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thể lỏng và thể rắn.",
+      "Thể lỏng và thể khí.",
+      "Thể rắn, thể lỏng và thể khí.",
+      "Chỉ có thể lỏng."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Thể rắn, thể lỏng và thể khí.",
+    "explanation": "Nước có 3 thể: rắn (nước đá), lỏng (nước thường), khí (hơi nước)."
   },
   {
-    "id": "SCI4_W1_Q3",
+    "id": "Sci4_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hiện tượng nước từ thể lỏng chuyển sang thể khí gọi là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Ngưng tụ",
+      "Bay hơi",
+      "Đông đặc",
+      "Nóng chảy"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Bay hơi",
+    "explanation": "Nước lỏng chuyển thành hơi nước (khí) khi được đun nóng hoặc phơi ngoài nắng gọi là hiện tượng bay hơi."
   },
   {
-    "id": "SCI4_W1_Q4",
+    "id": "Sci4_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hình dạng của nước ở thể lỏng là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Có hình dạng cố định.",
+      "Có hình vuông.",
+      "Không có hình dạng cố định.",
+      "Có hình tròn."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Không có hình dạng cố định.",
+    "explanation": "Nước ở thể lỏng mang hình dạng của vật chứa nó."
   },
   {
-    "id": "SCI4_W1_Q5",
+    "id": "Sci4_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nước có thể hòa tan chất nào sau đây?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đá cuội",
+      "Cát",
+      "Muối",
+      "Nhựa"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Muối",
+    "explanation": "Nước là dung môi có thể hòa tan nhiều chất như muối, đường."
   },
   {
-    "id": "SCI4_W1_Q6",
+    "id": "Sci4_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nước đá là nước ở thể gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thể lỏng",
+      "Thể rắn",
+      "Thể khí",
+      "Thể plasma"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Thể rắn",
+    "explanation": "Nước khi bị làm lạnh dưới 0 độ C sẽ đông đặc thành nước đá ở thể rắn."
   },
   {
-    "id": "SCI4_W1_Q7",
+    "id": "Sci4_W1_Q7",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hiện tượng hơi nước bay lên gặp lạnh biến thành các giọt nước nhỏ gọi là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Bay hơi",
+      "Ngưng tụ",
+      "Đông đặc",
+      "Nóng chảy"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Ngưng tụ",
+    "explanation": "Sự ngưng tụ là quá trình chất khí chuyển thành chất lỏng khi gặp lạnh."
   },
   {
-    "id": "SCI4_W1_Q8",
+    "id": "Sci4_W1_Q8",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nguyên nhân chính gây ô nhiễm nguồn nước là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Rác thải sinh hoạt, nước thải công nghiệp.",
+      "Trồng nhiều cây xanh quanh ao hồ.",
+      "Sử dụng nước mưa để tưới cây.",
+      "Thả cá xuống sông."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Rác thải sinh hoạt, nước thải công nghiệp.",
+    "explanation": "Việc xả trực tiếp rác và nước thải chưa qua xử lý làm ô nhiễm nghiêm trọng nguồn nước."
   },
   {
-    "id": "SCI4_W1_Q9",
+    "id": "Sci4_W1_Q9",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nước chiếm khoảng bao nhiêu phần trăm cơ thể con người?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Khoảng 20 - 30%",
+      "Khoảng 60 - 70%",
+      "Khoảng 90%",
+      "Dưới 10%"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Khoảng 60 - 70%",
+    "explanation": "Cơ thể con người phần lớn là nước, chiếm từ 60 đến 70% trọng lượng."
   },
   {
-    "id": "SCI4_W1_Q10",
+    "id": "Sci4_W1_Q10",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Khoa Học (TNXH) - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hành động nào giúp bảo vệ nguồn nước sạch?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Vứt rác xuống ao hồ.",
+      "Sử dụng thuốc trừ sâu quá mức.",
+      "Đóng vòi nước khi không sử dụng.",
+      "Đổ dầu mỡ thừa xuống bồn cầu."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 1 môn Khoa Học (TNXH)."
+    "correctAnswer": "Đóng vòi nước khi không sử dụng.",
+    "explanation": "Tiết kiệm nước và không xả rác/dầu mỡ xuống cống là cách bảo vệ nguồn nước."
   },
   {
-    "id": "SCI4_W2_Q1",
+    "id": "Sci4_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Không khí có những tính chất gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Không màu, không mùi, không vị.",
+      "Có màu xanh nhạt.",
+      "Có vị mặn.",
+      "Có mùi hắc."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Không màu, không mùi, không vị.",
+    "explanation": "Tương tự nước, không khí trong sạch không có màu, mùi hay vị."
   },
   {
-    "id": "SCI4_W2_Q2",
+    "id": "Sci4_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khí nào trong không khí duy trì sự cháy và sự sống?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Khí Ni-tơ",
+      "Khí Ô-xi",
+      "Khí Các-bô-níc",
+      "Khí Hi-đrô"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Khí Ô-xi",
+    "explanation": "Khí Oxi (Oxygen) là thành phần thiết yếu giúp duy trì sự hô hấp và sự cháy."
   },
   {
-    "id": "SCI4_W2_Q3",
+    "id": "Sci4_W2_Q3",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Không khí chiếm khoảng không gian như thế nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Chỉ tồn tại trong nhà.",
+      "Bao quanh Trái Đất và mọi vật.",
+      "Chỉ có ở trên cao.",
+      "Chỉ có trong lòng đất."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Bao quanh Trái Đất và mọi vật.",
+    "explanation": "Không khí bao quanh Trái Đất tạo thành khí quyển và chui vào các khe hở của mọi vật."
   },
   {
-    "id": "SCI4_W2_Q4",
+    "id": "Sci4_W2_Q4",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khí nào chiếm tỉ lệ lớn nhất trong không khí?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Khí Ô-xi",
+      "Khí Ni-tơ",
+      "Khí Các-bô-níc",
+      "Hơi nước"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Khí Ni-tơ",
+    "explanation": "Khí Ni-tơ (Nitrogen) chiếm khoảng 78% thể tích không khí."
   },
   {
-    "id": "SCI4_W2_Q5",
+    "id": "Sci4_W2_Q5",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thí nghiệm úp cốc thủy tinh lên ngọn nến đang cháy chứng minh điều gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Không khí duy trì sự cháy.",
+      "Không khí có thể bị nén.",
+      "Không khí có mùi.",
+      "Ngọn nến không cần không khí."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Không khí duy trì sự cháy.",
+    "explanation": "Khi lượng Ô-xi trong cốc cạn kiệt, nến sẽ tắt, chứng tỏ Ô-xi duy trì sự cháy."
   },
   {
-    "id": "SCI4_W2_Q6",
+    "id": "Sci4_W2_Q6",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Dấu hiệu nào cho thấy không khí đang bị ô nhiễm?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Trời xanh mây trắng.",
+      "Có mùi hôi, khói bụi mịt mù.",
+      "Nước trong hồ mát mẻ.",
+      "Cây cối tươi tốt."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Có mùi hôi, khói bụi mịt mù.",
+    "explanation": "Khói bụi, khí thải nhà máy, phương tiện giao thông gây ô nhiễm không khí."
   },
   {
-    "id": "SCI4_W2_Q7",
+    "id": "Sci4_W2_Q7",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Gió được tạo ra là do đâu?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Do lá cây đung đưa.",
+      "Do quạt máy quạt ra.",
+      "Sự chuyển động của không khí từ nơi lạnh đến nơi nóng.",
+      "Do mưa rơi xuống."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Sự chuyển động của không khí từ nơi lạnh đến nơi nóng.",
+    "explanation": "Không khí nóng nhẹ bay lên, không khí lạnh nặng tràn tới thế chỗ tạo ra gió."
   },
   {
-    "id": "SCI4_W2_Q8",
+    "id": "Sci4_W2_Q8",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Làm thế nào để bảo vệ bầu không khí trong sạch?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Chặt nhiều cây rừng.",
+      "Đốt rác bừa bãi.",
+      "Trồng nhiều cây xanh, giảm khói bụi.",
+      "Sử dụng nhiều than củi."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Trồng nhiều cây xanh, giảm khói bụi.",
+    "explanation": "Cây xanh hấp thụ khí Các-bô-níc và nhả ra khí Ô-xi giúp thanh lọc không khí."
   },
   {
-    "id": "SCI4_W2_Q9",
+    "id": "Sci4_W2_Q9",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lớp không khí bao quanh Trái Đất gọi là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Sinh quyển",
+      "Thủy quyển",
+      "Khí quyển",
+      "Thạch quyển"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Khí quyển",
+    "explanation": "Khí quyển là lớp áo giáp không khí bao bọc và bảo vệ Trái Đất."
   },
   {
-    "id": "SCI4_W2_Q10",
+    "id": "Sci4_W2_Q10",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Khoa Học (TNXH) - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khí Các-bô-níc trong không khí tăng cao sẽ gây ra hiện tượng gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Trái Đất lạnh đi.",
+      "Hiệu ứng nhà kính, Trái Đất nóng lên.",
+      "Cây cối ngừng phát triển.",
+      "Nước biển đóng băng."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 2 môn Khoa Học (TNXH)."
+    "correctAnswer": "Hiệu ứng nhà kính, Trái Đất nóng lên.",
+    "explanation": "Lượng khí Các-bô-níc dư thừa giữ lại nhiệt lượng, làm nhiệt độ toàn cầu tăng."
   }
 ];
 

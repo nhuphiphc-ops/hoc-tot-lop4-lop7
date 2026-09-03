@@ -215,281 +215,281 @@ export const QUESTION_BANK_HG4 = [
     "id": "HG4_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Bản đồ là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Là hình vẽ thu nhỏ một khu vực lên mặt phẳng.",
+      "Là bức ảnh chụp Trái Đất từ vũ trụ.",
+      "Là bức tranh vẽ phong cảnh.",
+      "Là mô hình quả địa cầu."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Là hình vẽ thu nhỏ một khu vực lên mặt phẳng.",
+    "explanation": "Bản đồ là hình vẽ thu nhỏ một khu vực hay toàn bộ bề mặt Trái Đất theo một tỉ lệ nhất định."
   },
   {
     "id": "HG4_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để đọc được bản đồ, em cần xem phần nào đầu tiên?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tỉ lệ bản đồ",
+      "Bảng chú giải",
+      "Tên bản đồ",
+      "Kí hiệu bản đồ"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Tên bản đồ",
+    "explanation": "Tên bản đồ cho biết nội dung chính và khu vực được thể hiện trên bản đồ."
   },
   {
     "id": "HG4_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Bảng chú giải trên bản đồ dùng để làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đo khoảng cách.",
+      "Giải thích ý nghĩa của các kí hiệu.",
+      "Cho biết tên quốc gia.",
+      "Chỉ phương hướng."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Giải thích ý nghĩa của các kí hiệu.",
+    "explanation": "Bảng chú giải giúp người xem hiểu các kí hiệu, màu sắc được dùng trên bản đồ."
   },
   {
     "id": "HG4_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Màu xanh dương trên bản đồ địa lí thường chỉ địa hình gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đồng bằng",
+      "Biển, sông, hồ",
+      "Đồi núi",
+      "Cao nguyên"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Biển, sông, hồ",
+    "explanation": "Màu xanh dương luôn được quy ước dùng để biểu diễn các vực nước như sông, hồ, biển."
   },
   {
     "id": "HG4_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Phần phía trên của bản đồ thông thường chỉ hướng nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Hướng Bắc",
+      "Hướng Nam",
+      "Hướng Đông",
+      "Hướng Tây"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Hướng Bắc",
+    "explanation": "Theo quy ước chung, phía trên bản đồ là hướng Bắc, dưới là Nam, phải là Đông, trái là Tây."
   },
   {
     "id": "HG4_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Việt Nam nằm ở khu vực nào của châu Á?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đông Á",
+      "Đông Nam Á",
+      "Nam Á",
+      "Tây Á"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Đông Nam Á",
+    "explanation": "Việt Nam là một quốc gia thuộc khu vực Đông Nam Á."
   },
   {
     "id": "HG4_W1_Q7",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thủ đô của nước Việt Nam là thành phố nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "TP. Hồ Chí Minh",
+      "Đà Nẵng",
+      "Hà Nội",
+      "Huế"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Hà Nội",
+    "explanation": "Hà Nội là thủ đô của nước Cộng hòa Xã hội chủ nghĩa Việt Nam."
   },
   {
     "id": "HG4_W1_Q8",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Biển Đông nằm ở phía nào của phần đất liền nước ta?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Phía Bắc",
+      "Phía Tây",
+      "Phía Đông và Nam",
+      "Phía Tây Bắc"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Phía Đông và Nam",
+    "explanation": "Biển Đông bao bọc phần đất liền của nước ta ở các phía Đông, Nam và Tây Nam."
   },
   {
     "id": "HG4_W1_Q9",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Dãy núi nào được coi là ranh giới tự nhiên giữa miền Bắc và miền Nam nước ta?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Dãy Hoàng Liên Sơn",
+      "Dãy Trường Sơn",
+      "Dãy Bạch Mã",
+      "Dãy Cửu Long"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Dãy Bạch Mã",
+    "explanation": "Dãy núi Bạch Mã cắt ngang miền Trung, là ranh giới khí hậu và địa lí Bắc - Nam."
   },
   {
     "id": "HG4_W1_Q10",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Lịch Sử & Địa Lí - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Quốc kỳ Việt Nam có đặc điểm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Cờ đỏ sao vàng năm cánh",
+      "Cờ xanh sao trắng",
+      "Cờ sọc đỏ trắng",
+      "Cờ đỏ có lưỡi liềm"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 1 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Cờ đỏ sao vàng năm cánh",
+    "explanation": "Quốc kỳ Việt Nam là lá cờ đỏ với ngôi sao vàng 5 cánh ở trung tâm."
   },
   {
     "id": "HG4_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Vua Hùng đã dựng nên nhà nước đầu tiên của nước ta tên là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Âu Lạc",
+      "Văn Lang",
+      "Đại Việt",
+      "Vạn Xuân"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Văn Lang",
+    "explanation": "Nhà nước đầu tiên của dân tộc ta là nhà nước Văn Lang do vua Hùng cai trị."
   },
   {
     "id": "HG4_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Kinh đô của nhà nước Văn Lang được đặt ở đâu?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Hoa Lư",
+      "Thăng Long",
+      "Phong Châu (Phú Thọ)",
+      "Cổ Loa (Hà Nội)"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Phong Châu (Phú Thọ)",
+    "explanation": "Phong Châu (thuộc tỉnh Phú Thọ ngày nay) là kinh đô của nhà nước Văn Lang."
   },
   {
     "id": "HG4_W2_Q3",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Truyền thuyết nào giải thích về nguồn gốc của dân tộc Việt Nam?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Sơn Tinh - Thủy Tinh",
+      "Con Rồng cháu Tiên",
+      "Thánh Gióng",
+      "Bánh chưng bánh giầy"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Con Rồng cháu Tiên",
+    "explanation": "Truyền thuyết Lạc Long Quân và Âu Cơ đẻ ra bọc trăm trứng lí giải nguồn gốc dân tộc."
   },
   {
     "id": "HG4_W2_Q4",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Truyền thuyết 'Bánh chưng, bánh giầy' gắn liền với đời vua Hùng thứ mấy?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thứ nhất",
+      "Thứ tư",
+      "Thứ sáu",
+      "Thứ mười tám"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Thứ sáu",
+    "explanation": "Vua Hùng thứ 6 đã truyền ngôi cho Lang Liêu nhờ mâm cúng bánh chưng bánh giầy ý nghĩa."
   },
   {
     "id": "HG4_W2_Q5",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Người xưa dùng gì để làm vũ khí và công cụ lao động thời Văn Lang?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Chủ yếu bằng đồng",
+      "Bằng sắt",
+      "Bằng nhựa",
+      "Bằng nhôm"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Chủ yếu bằng đồng",
+    "explanation": "Cư dân Văn Lang rất thạo nghề đúc đồng (ví dụ: Trống đồng Đông Sơn)."
   },
   {
     "id": "HG4_W2_Q6",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Sự tích Thánh Gióng nói về truyền thống gì của dân tộc ta?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tôn sư trọng đạo",
+      "Đoàn kết tương trợ",
+      "Chống giặc ngoại xâm",
+      "Lao động cần cù"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Chống giặc ngoại xâm",
+    "explanation": "Thánh Gióng là biểu tượng của tinh thần quật cường đánh giặc Ân cứu nước."
   },
   {
     "id": "HG4_W2_Q7",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Trống đồng Đông Sơn là di vật tiêu biểu của thời đại nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thời nhà Nguyễn",
+      "Thời đại Hùng Vương",
+      "Thời kì chống Mỹ",
+      "Thời nhà Trần"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Thời đại Hùng Vương",
+    "explanation": "Trống đồng Đông Sơn là minh chứng cho sự phát triển rực rỡ của văn hóa thời Hùng Vương."
   },
   {
     "id": "HG4_W2_Q8",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Tục lệ ăn trầu, nhuộm răng đen bắt đầu có từ thời kì nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thời Hùng Vương",
+      "Thời Pháp thuộc",
+      "Thế kỉ 20",
+      "Thời nhà Lê"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Thời Hùng Vương",
+    "explanation": "Ăn trầu, nhuộm răng đen, làm bánh chưng là những phong tục cổ truyền từ thời Văn Lang."
   },
   {
     "id": "HG4_W2_Q9",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lễ hội Đền Hùng được tổ chức hàng năm vào ngày tháng nào âm lịch?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Mùng 10 tháng 3",
+      "Rằm tháng 8",
+      "Mùng 1 Tết",
+      "Mùng 5 tháng 5"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Mùng 10 tháng 3",
+    "explanation": "Dù ai đi ngược về xuôi/Nhớ ngày giỗ Tổ mùng mười tháng ba."
   },
   {
     "id": "HG4_W2_Q10",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Lịch Sử & Địa Lí - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Người phụ việc giúp vua Hùng trông coi đất nước được gọi là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thái thú",
+      "Lạc tướng, Lạc hầu",
+      "Thừa tướng",
+      "Quan tri huyện"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 2 môn Lịch Sử & Địa Lí."
+    "correctAnswer": "Lạc tướng, Lạc hầu",
+    "explanation": "Bộ máy cai trị thời Văn Lang gồm vua Hùng, đứng đầu các bộ là Lạc tướng, giúp việc là Lạc hầu."
   }
 ];
 

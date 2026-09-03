@@ -212,284 +212,284 @@ export const TOPIC_CATEGORIES_TECH4 = [
 
 export const QUESTION_BANK_TECH4 = [
   {
-    "id": "TECH4_W1_Q1",
+    "id": "Tech4_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Đồ chơi dân gian thường được làm từ những vật liệu gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Nhựa cao cấp",
+      "Vật liệu tự nhiên như tre, nứa, giấy, đất sét.",
+      "Chỉ làm từ kim loại",
+      "Làm từ mạch điện tử"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Vật liệu tự nhiên như tre, nứa, giấy, đất sét.",
+    "explanation": "Đồ chơi dân gian xuất phát từ làng quê nên chủ yếu tận dụng vật liệu tự nhiên, dễ tìm."
   },
   {
-    "id": "TECH4_W1_Q2",
+    "id": "Tech4_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Đâu là một loại đồ chơi dân gian của Việt Nam?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Lego",
+      "Tò he",
+      "Xe điều khiển từ xa",
+      "Robot biến hình"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Tò he",
+    "explanation": "Tò he là món đồ chơi dân gian truyền thống làm bằng bột gạo nhuộm màu."
   },
   {
-    "id": "TECH4_W1_Q3",
+    "id": "Tech4_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Đèn ông sao thường được trẻ em chơi vào dịp lễ nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tết Nguyên Đán",
+      "Tết Thiếu nhi 1/6",
+      "Tết Trung Thu",
+      "Giáng sinh"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Tết Trung Thu",
+    "explanation": "Đèn ông sao là biểu tượng không thể thiếu của rước đèn đêm rằm Trung thu."
   },
   {
-    "id": "TECH4_W1_Q4",
+    "id": "Tech4_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Con diều bay được lên trời là nhờ yếu tố tự nhiên nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Sức nước",
+      "Năng lượng Mặt Trời",
+      "Sức gió",
+      "Trọng lực"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Sức gió",
+    "explanation": "Diều mượn lực đẩy của gió để cất cánh bay cao."
   },
   {
-    "id": "TECH4_W1_Q5",
+    "id": "Tech4_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Chong chóng giấy có thể quay được khi nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Khi ngâm dưới nước.",
+      "Khi có luồng gió thổi qua.",
+      "Khi để trong bóng tối.",
+      "Khi bị nung nóng."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Khi có luồng gió thổi qua.",
+    "explanation": "Luồng không khí (gió) thổi vào cánh chong chóng tạo ra lực đẩy làm nó quay."
   },
   {
-    "id": "TECH4_W1_Q6",
+    "id": "Tech4_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để làm một chiếc diều giấy đơn giản, em KHÔNG cần vật liệu nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Giấy",
+      "Khung tre",
+      "Dây chỉ",
+      "Mô tơ điện"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Mô tơ điện",
+    "explanation": "Diều giấy truyền thống chỉ cần khung tre, giấy, hồ dán và dây chỉ."
   },
   {
-    "id": "TECH4_W1_Q7",
+    "id": "Tech4_W1_Q7",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Tò he sau khi chơi xong, nếu làm từ bột gạo sạch, ta có thể làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Phải vứt đi vì rất độc.",
+      "Có thể ăn được.",
+      "Dùng để tưới cây.",
+      "Đốt đi."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Có thể ăn được.",
+    "explanation": "Tò he truyền thống được luộc chín và nhuộm màu tự nhiên (gấc, lá dứa) nên có thể ăn được."
   },
   {
-    "id": "TECH4_W1_Q8",
+    "id": "Tech4_W1_Q8",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Trò chơi nào sau đây là trò chơi vận động dân gian?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Trò chơi điện tử",
+      "Bắn bi, nhảy dây, ô ăn quan",
+      "Xem Youtube",
+      "Lắp ráp Lego"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Bắn bi, nhảy dây, ô ăn quan",
+    "explanation": "Đây là những trò chơi phổ biến của trẻ em vùng nông thôn Việt Nam thời trước."
   },
   {
-    "id": "TECH4_W1_Q9",
+    "id": "Tech4_W1_Q9",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lợi ích của việc làm và chơi đồ chơi dân gian là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tốn rất nhiều tiền.",
+      "Giúp rèn luyện sự khéo léo, tính sáng tạo và giữ gìn văn hóa.",
+      "Làm cho trẻ em thụ động hơn.",
+      "Gây hại cho mắt."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Giúp rèn luyện sự khéo léo, tính sáng tạo và giữ gìn văn hóa.",
+    "explanation": "Chơi đồ chơi dân gian kết nối trẻ với thiên nhiên và văn hóa truyền thống."
   },
   {
-    "id": "TECH4_W1_Q10",
+    "id": "Tech4_W1_Q10",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Công Nghệ - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khung của đèn ông sao thường được tạo thành từ mấy que tre bằng nhau?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "5 que",
+      "10 que",
+      "Làm từ 5 thanh tre dài gấp thành 5 cánh.",
+      "Không dùng que tre."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 1 môn Công Nghệ."
+    "correctAnswer": "Làm từ 5 thanh tre dài gấp thành 5 cánh.",
+    "explanation": "Khung đèn cấu tạo từ các nan tre được buộc chắc chắn để tạo hình ngôi sao 5 cánh."
   },
   {
-    "id": "TECH4_W2_Q1",
+    "id": "Tech4_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Trong bộ lắp ghép kĩ thuật, cờ-lê dùng để làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Cắt giấy",
+      "Siết chặt hoặc tháo lỏng ốc vít (ê-cu).",
+      "Gõ đinh",
+      "Đo kích thước"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Siết chặt hoặc tháo lỏng ốc vít (ê-cu).",
+    "explanation": "Cờ-lê và tua-vít là bộ đôi dụng cụ để vặn ốc, siết ê-cu."
   },
   {
-    "id": "TECH4_W2_Q2",
+    "id": "Tech4_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Tua-vít được sử dụng để làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Vặn, tháo ốc vít.",
+      "Đập vỡ các chi tiết.",
+      "Cưa gỗ.",
+      "Mài mòn sắt."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Vặn, tháo ốc vít.",
+    "explanation": "Tua-vít lắp vào rãnh trên đầu ốc để xoay vặn."
   },
   {
-    "id": "TECH4_W2_Q3",
+    "id": "Tech4_W2_Q3",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để lắp chặt 2 thanh thẳng với nhau, em cần dùng chi tiết nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Bánh xe",
+      "Trục quay",
+      "Ốc vít và ê-cu",
+      "Dây chun"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Ốc vít và ê-cu",
+    "explanation": "Ốc luồn qua lỗ 2 thanh, sau đó dùng ê-cu vặn chặt ở đầu kia để cố định."
   },
   {
-    "id": "TECH4_W2_Q4",
+    "id": "Tech4_W2_Q4",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khi lắp ghép mô hình, em cần thực hiện theo bước nào trước tiên?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tháo rời các chi tiết ngay lập tức.",
+      "Quan sát hình mẫu và phân loại các chi tiết cần dùng.",
+      "Dùng búa gõ mạnh.",
+      "Cất đồ nghề đi."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Quan sát hình mẫu và phân loại các chi tiết cần dùng.",
+    "explanation": "Việc quan sát và chuẩn bị chi tiết đúng loại giúp quá trình lắp ráp không bị sai sót."
   },
   {
-    "id": "TECH4_W2_Q5",
+    "id": "Tech4_W2_Q5",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nếu muốn mô hình bánh xe quay được, ta KHÔNG được làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Lắp qua một trục trơn.",
+      "Siết ốc ép thật chặt bánh xe vào khung cản trở vòng quay.",
+      "Lắp lỏng vừa phải.",
+      "Dùng vòng hãm để bánh không rơi ra ngoài."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Siết ốc ép thật chặt bánh xe vào khung cản trở vòng quay.",
+    "explanation": "Bánh xe cần độ rơ (khoảng hở) nhất định quanh trục để có thể xoay tự do."
   },
   {
-    "id": "TECH4_W2_Q6",
+    "id": "Tech4_W2_Q6",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lợi ích của việc chơi lắp ghép mô hình là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Làm tăng khả năng tư duy không gian, logic và rèn luyện đôi tay khéo léo.",
+      "Khiến trẻ em bạo lực hơn.",
+      "Chỉ để giết thời gian vô ích.",
+      "Làm giảm trí nhớ."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Làm tăng khả năng tư duy không gian, logic và rèn luyện đôi tay khéo léo.",
+    "explanation": "Mô hình kĩ thuật là nền tảng cơ bản của giáo dục STEM."
   },
   {
-    "id": "TECH4_W2_Q7",
+    "id": "Tech4_W2_Q7",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Sau khi học xong bài thực hành lắp ghép, em cần làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Vứt bừa bãi trên bàn.",
+      "Mang về nhà giấu.",
+      "Tháo rời mô hình, sắp xếp các chi tiết gọn gàng vào hộp.",
+      "Nhờ bố mẹ dọn giúp."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Tháo rời mô hình, sắp xếp các chi tiết gọn gàng vào hộp.",
+    "explanation": "Rèn luyện tính kỉ luật và ngăn nắp sau khi sử dụng đồ dùng chung."
   },
   {
-    "id": "TECH4_W2_Q8",
+    "id": "Tech4_W2_Q8",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Ê-cu (đai ốc) có đặc điểm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Có ren ở mặt ngoài.",
+      "Có lỗ rỗng ở giữa và các đường ren ở mặt trong để vặn vào ốc.",
+      "Là thanh dài, nhẵn bóng.",
+      "Có bánh xe gắn kèm."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Có lỗ rỗng ở giữa và các đường ren ở mặt trong để vặn vào ốc.",
+    "explanation": "Ê-cu kết hợp với ốc vít tạo thành cơ cấu kẹp chặt nhờ các đường xoắn ốc (ren)."
   },
   {
-    "id": "TECH4_W2_Q9",
+    "id": "Tech4_W2_Q9",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Trong bộ lắp ghép, tấm nền (bản đế) thường có chức năng gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Làm bánh xe.",
+      "Làm tua-vít.",
+      "Làm bộ khung cơ sở để gắn các chi tiết khác lên.",
+      "Làm động cơ."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Làm bộ khung cơ sở để gắn các chi tiết khác lên.",
+    "explanation": "Tấm nền có nhiều lỗ để cố định kết cấu chính của mô hình."
   },
   {
-    "id": "TECH4_W2_Q10",
+    "id": "Tech4_W2_Q10",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Công Nghệ - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hình ảnh chiếc cầu bập bênh hoạt động dựa trên nguyên lí gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Động cơ điện",
+      "Lực đẩy Archimedes",
+      "Nguyên lí đòn bẩy",
+      "Nam châm hút nhau"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 2 môn Công Nghệ."
+    "correctAnswer": "Nguyên lí đòn bẩy",
+    "explanation": "Bập bênh có một điểm tựa ở giữa và hai cánh tay đòn, dùng sức nặng hai bên để nhún."
   }
 ];
 

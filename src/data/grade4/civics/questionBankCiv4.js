@@ -212,284 +212,284 @@ export const TOPIC_CATEGORIES_CIV4 = [
 
 export const QUESTION_BANK_CIV4 = [
   {
-    "id": "CIV4_W1_Q1",
+    "id": "Civ4_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hành động nào thể hiện đức tính trung thực?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Nói dối bố mẹ để đi chơi.",
+      "Nhặt được của rơi trả lại người mất.",
+      "Quay cóp bài trong giờ kiểm tra.",
+      "Đổ lỗi cho bạn khác khi mình làm sai."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Nhặt được của rơi trả lại người mất.",
+    "explanation": "Trung thực là ngay thẳng, thật thà, không tham lam của người khác."
   },
   {
-    "id": "CIV4_W1_Q2",
+    "id": "Civ4_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khi em lỡ làm vỡ bình hoa của mẹ, em nên làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đem giấu đi.",
+      "Nói dối là con mèo làm vỡ.",
+      "Nhận lỗi với mẹ và xin lỗi.",
+      "Đổ lỗi cho em trai."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Nhận lỗi với mẹ và xin lỗi.",
+    "explanation": "Dũng cảm nhận lỗi là biểu hiện của người trung thực và có trách nhiệm."
   },
   {
-    "id": "CIV4_W1_Q3",
+    "id": "Civ4_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lợi ích của việc sống trung thực là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Bị mọi người xa lánh.",
+      "Được mọi người tin yêu, quý mến.",
+      "Thường xuyên bị phạt.",
+      "Kiếm được nhiều tiền."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Được mọi người tin yêu, quý mến.",
+    "explanation": "Sống trung thực mang lại uy tín, sự bình an trong tâm hồn và sự tôn trọng từ người khác."
   },
   {
-    "id": "CIV4_W1_Q4",
+    "id": "Civ4_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Câu ca dao nào khuyên chúng ta nên trung thực?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Lời nói chẳng mất tiền mua/ Lựa lời mà nói cho vừa lòng nhau.",
+      "Cây ngay không sợ chết đứng.",
+      "Bán anh em xa mua láng giềng gần.",
+      "Một con ngựa đau cả tàu bỏ cỏ."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Cây ngay không sợ chết đứng.",
+    "explanation": "Người ngay thẳng, trung thực (cây ngay) thì không sợ bị oan uổng hay đàm tiếu."
   },
   {
-    "id": "CIV4_W1_Q5",
+    "id": "Civ4_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Trong giờ kiểm tra Toán, bạn Minh không làm được bài và muốn chép bài của em. Em sẽ làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Cho bạn chép để thể hiện tình bạn.",
+      "Che bài lại không cho bạn chép và khuyên bạn tự làm.",
+      "Mắng bạn thật to trong lớp.",
+      "Lấy tiền của bạn rồi mới cho chép."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Che bài lại không cho bạn chép và khuyên bạn tự làm.",
+    "explanation": "Giúp bạn quay cóp là gian lận, vi phạm nội quy, không phải là giúp bạn thực sự."
   },
   {
-    "id": "CIV4_W1_Q6",
+    "id": "Civ4_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Người không trung thực sẽ gặp hậu quả gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Luôn vui vẻ.",
+      "Sẽ bị mất lòng tin của người khác.",
+      "Sẽ học giỏi hơn.",
+      "Được khen thưởng."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Sẽ bị mất lòng tin của người khác.",
+    "explanation": "Khi đã quen nói dối, đến lúc nói thật cũng không ai tin (như Cậu bé chăn cừu)."
   },
   {
-    "id": "CIV4_W1_Q7",
+    "id": "Civ4_W1_Q7",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nhặt được ví tiền ở sân trường, em sẽ xử lý thế nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Lấy tiền đi mua bánh kẹo.",
+      "Bỏ lại chỗ cũ không quan tâm.",
+      "Nộp cho thầy cô giáo hoặc phòng giám thị để trả lại người mất.",
+      "Mang về nhà giấu."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Nộp cho thầy cô giáo hoặc phòng giám thị để trả lại người mất.",
+    "explanation": "Hành động đúng đắn để trả lại tài sản cho người đánh rơi."
   },
   {
-    "id": "CIV4_W1_Q8",
+    "id": "Civ4_W1_Q8",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Em hứa cuối tuần sang dạy bạn học, nhưng lại có phim hay. Em nên làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Nói dối bạn là bị ốm.",
+      "Cứ ở nhà xem phim, mặc kệ bạn đợi.",
+      "Gọi điện xin lỗi bạn, hẹn lúc khác để xem phim, hoặc vẫn sang nhà bạn giữ đúng lời hứa.",
+      "Đến trễ 2 tiếng cũng không sao."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Gọi điện xin lỗi bạn, hẹn lúc khác để xem phim, hoặc vẫn sang nhà bạn giữ đúng lời hứa.",
+    "explanation": "Giữ chữ tín và lời hứa cũng là biểu hiện của người trung thực."
   },
   {
-    "id": "CIV4_W1_Q9",
+    "id": "Civ4_W1_Q9",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hành động nào là GIAN LẬN trong học tập?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Học nhóm cùng bạn.",
+      "Làm bài tập về nhà đầy đủ.",
+      "Chép bài của bạn bè khi làm bài thi.",
+      "Hỏi cô giáo bài chưa hiểu."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Chép bài của bạn bè khi làm bài thi.",
+    "explanation": "Thi cử cần đánh giá năng lực thực chất, chép bài là hành vi gian lận."
   },
   {
-    "id": "CIV4_W1_Q10",
+    "id": "Civ4_W1_Q10",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Đạo Đức - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thành ngữ 'Ăn ngay nói thật' có ý nghĩa gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Khuyên nên ăn uống ngay ngắn.",
+      "Chỉ người thật thà, thẳng thắn.",
+      "Chỉ người hay nói dối.",
+      "Chỉ người tham lam."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 1 môn Đạo Đức."
+    "correctAnswer": "Chỉ người thật thà, thẳng thắn.",
+    "explanation": "Thành ngữ ngợi ca lối sống chân thật, không gian dối."
   },
   {
-    "id": "CIV4_W2_Q1",
+    "id": "Civ4_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thế nào là yêu thương con người?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Chỉ quan tâm đến bản thân.",
+      "Giúp đỡ người khác khi họ gặp khó khăn.",
+      "Ghen tị với thành công của bạn bè.",
+      "Bắt nạt các em lớp dưới."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Giúp đỡ người khác khi họ gặp khó khăn.",
+    "explanation": "Yêu thương con người là quan tâm, chia sẻ và sẵn sàng giúp đỡ mọi người."
   },
   {
-    "id": "CIV4_W2_Q2",
+    "id": "Civ4_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hành động nào thể hiện sự yêu thương, chia sẻ?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Quyên góp sách vở cũ cho trẻ em vùng lũ.",
+      "Trêu chọc người khuyết tật.",
+      "Vứt rác bừa bãi.",
+      "Thờ ơ khi thấy người khác bị tai nạn."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Quyên góp sách vở cũ cho trẻ em vùng lũ.",
+    "explanation": "Đóng góp vật chất hoặc tinh thần cho những người yếu thế là hành động nhân ái."
   },
   {
-    "id": "CIV4_W2_Q3",
+    "id": "Civ4_W2_Q3",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Câu tục ngữ nào nói về tình yêu thương con người?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Lá lành đùm lá rách.",
+      "Có công mài sắt có ngày nên kim.",
+      "Nước chảy đá mòn.",
+      "Gần mực thì đen, gần đèn thì rạng."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Lá lành đùm lá rách.",
+    "explanation": "Khuyên những người có điều kiện tốt hơn giúp đỡ những người gặp khó khăn."
   },
   {
-    "id": "CIV4_W2_Q4",
+    "id": "Civ4_W2_Q4",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khi thấy bạn mình bị ốm không đi học được, em nên làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Không quan tâm.",
+      "Vui vì bớt một đối thủ trong lớp.",
+      "Hỏi thăm bạn và chép bài giúp bạn.",
+      "Cười nhạo bạn."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Hỏi thăm bạn và chép bài giúp bạn.",
+    "explanation": "Quan tâm và hỗ trợ bạn bè lúc khó khăn là tình bạn đẹp."
   },
   {
-    "id": "CIV4_W2_Q5",
+    "id": "Civ4_W2_Q5",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thái độ vô cảm trước nỗi đau của người khác là đúng hay sai?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đúng",
+      "Sai",
+      "Bình thường",
+      "Rất đáng khen"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Sai",
+    "explanation": "Vô cảm, thờ ơ làm mai một tính nhân văn và tình người trong xã hội."
   },
   {
-    "id": "CIV4_W2_Q6",
+    "id": "Civ4_W2_Q6",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Gia đình bạn Hoa có hoàn cảnh khó khăn, em sẽ làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tránh xa không chơi với Hoa.",
+      "Chia sẻ, an ủi và rủ các bạn cùng giúp đỡ Hoa.",
+      "Trêu chọc Hoa.",
+      "Xin tiền Hoa."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Chia sẻ, an ủi và rủ các bạn cùng giúp đỡ Hoa.",
+    "explanation": "Nên giúp đỡ người khó khăn thay vì miệt thị họ."
   },
   {
-    "id": "CIV4_W2_Q7",
+    "id": "Civ4_W2_Q7",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lòng nhân ái giúp con người ta điều gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Có thêm nhiều tiền.",
+      "Gắn kết mọi người, tạo ra xã hội tốt đẹp hơn.",
+      "Trở nên nổi tiếng.",
+      "Có thể thi đỗ đại học."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Gắn kết mọi người, tạo ra xã hội tốt đẹp hơn.",
+    "explanation": "Tình thương mang lại sự ấm áp, hòa bình và đoàn kết."
   },
   {
-    "id": "CIV4_W2_Q8",
+    "id": "Civ4_W2_Q8",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Biểu hiện nào KHÔNG PHẢI là yêu thương con người?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thăm hỏi người già neo đơn.",
+      "Chăm sóc em nhỏ.",
+      "Chế giễu ngoại hình của người khác.",
+      "Nhường ghế cho người già trên xe buýt."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Chế giễu ngoại hình của người khác.",
+    "explanation": "Miệt thị ngoại hình (body shaming) gây tổn thương sâu sắc cho người khác."
   },
   {
-    "id": "CIV4_W2_Q9",
+    "id": "Civ4_W2_Q9",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Bác Hồ đã khuyên thiếu niên nhi đồng điều gì về tình yêu thương?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Yêu Tổ quốc, yêu đồng bào.",
+      "Học tập tốt, lao động tốt.",
+      "Đoàn kết tốt, kỷ luật tốt.",
+      "Tất cả các ý trên."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Tất cả các ý trên.",
+    "explanation": "5 điều Bác Hồ dạy là cẩm nang rèn luyện đạo đức cho học sinh."
   },
   {
-    "id": "CIV4_W2_Q10",
+    "id": "Civ4_W2_Q10",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Đạo Đức - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khi em có lỗi với người khác, để giữ tình yêu thương, em cần làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Im lặng bỏ đi.",
+      "Chân thành xin lỗi và sửa sai.",
+      "Đổ lỗi cho hoàn cảnh.",
+      "Tức giận ngược lại."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 2 môn Đạo Đức."
+    "correctAnswer": "Chân thành xin lỗi và sửa sai.",
+    "explanation": "Biết nhận lỗi giúp xoa dịu tổn thương và củng cố các mối quan hệ."
   }
 ];
 

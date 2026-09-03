@@ -215,281 +215,281 @@ export const QUESTION_BANK_IT4 = [
     "id": "IT4_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Máy tính để bàn thường có mấy bộ phận cơ bản?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "2 bộ phận",
+      "3 bộ phận",
+      "4 bộ phận",
+      "5 bộ phận"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 1 môn Tin Học."
+    "correctAnswer": "4 bộ phận",
+    "explanation": "Gồm: Màn hình, Thân máy (CPU), Bàn phím và Chuột."
   },
   {
     "id": "IT4_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Bộ phận nào được coi là 'bộ não' của máy tính?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Màn hình",
+      "Chuột",
+      "Bàn phím",
+      "Thân máy (CPU)"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 1 môn Tin Học."
+    "correctAnswer": "Thân máy (CPU)",
+    "explanation": "Thân máy chứa bộ vi xử lý trung tâm (CPU) điều khiển mọi hoạt động của máy tính."
   },
   {
     "id": "IT4_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để gõ chữ vào máy tính, em sử dụng bộ phận nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Chuột",
+      "Màn hình",
+      "Loa",
+      "Bàn phím"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 1 môn Tin Học."
+    "correctAnswer": "Bàn phím",
+    "explanation": "Bàn phím (Keyboard) là thiết bị nhập liệu để gõ chữ, số và lệnh."
   },
   {
     "id": "IT4_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thao tác 'Nháy đúp chuột' nghĩa là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Nhấn nút chuột phải 1 lần.",
+      "Nhấn nút chuột trái 2 lần liên tiếp nhanh.",
+      "Nhấn giữ nút trái chuột và kéo.",
+      "Lăn bánh xe chuột."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 1 môn Tin Học."
+    "correctAnswer": "Nhấn nút chuột trái 2 lần liên tiếp nhanh.",
+    "explanation": "Nháy đúp (Double-click) là bấm phím trái chuột 2 lần thật nhanh để mở thư mục/phần mềm."
   },
   {
     "id": "IT4_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Trong các phần mềm sau, phần mềm nào dùng để vẽ?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Microsoft Word",
+      "Paint",
+      "Google Chrome",
+      "Excel"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 1 môn Tin Học."
+    "correctAnswer": "Paint",
+    "explanation": "Paint là phần mềm đồ họa cơ bản tích hợp sẵn trong Windows dùng để vẽ."
   },
   {
     "id": "IT4_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Phím nào dùng để xóa chữ đứng TRƯỚC con trỏ soạn thảo?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Delete",
+      "Backspace",
+      "Enter",
+      "Spacebar"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 1 môn Tin Học."
+    "correctAnswer": "Backspace",
+    "explanation": "Phím Backspace xóa kí tự bên trái (phía trước) con trỏ."
   },
   {
     "id": "IT4_W1_Q7",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Phím nào dùng để viết hoa toàn bộ các chữ cái?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Shift",
+      "Ctrl",
+      "Caps Lock",
+      "Alt"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 1 môn Tin Học."
+    "correctAnswer": "Caps Lock",
+    "explanation": "Khi bật đèn Caps Lock, các chữ cái gõ ra đều được viết hoa."
   },
   {
     "id": "IT4_W1_Q8",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để máy tính bền và hoạt động tốt, em KHÔNG nên làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Đặt máy ở nơi khô ráo.",
+      "Ăn uống ngay trên bàn phím.",
+      "Tắt máy tính đúng cách.",
+      "Vệ sinh máy định kì."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 1 môn Tin Học."
+    "correctAnswer": "Ăn uống ngay trên bàn phím.",
+    "explanation": "Nước và vụn thức ăn có thể làm hỏng linh kiện điện tử bên trong."
   },
   {
     "id": "IT4_W1_Q9",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Màn hình máy tính thuộc loại thiết bị gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Thiết bị nhập",
+      "Thiết bị xuất",
+      "Thiết bị lưu trữ",
+      "Thiết bị xử lý"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 1 môn Tin Học."
+    "correctAnswer": "Thiết bị xuất",
+    "explanation": "Màn hình hiển thị kết quả xử lý ra cho người xem nên gọi là thiết bị xuất (Output)."
   },
   {
     "id": "IT4_W1_Q10",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Tin Học - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Hàng phím cơ sở trên bàn phím bắt đầu bằng các phím nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Q, W, E, R",
+      "Z, X, C, V",
+      "A, S, D, F",
+      "1, 2, 3, 4"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 1 môn Tin Học."
+    "correctAnswer": "A, S, D, F",
+    "explanation": "Hàng phím cơ sở nằm ở giữa bàn phím, bắt đầu là ASDF và có 2 phím gai F, J."
   },
   {
     "id": "IT4_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thư mục trong máy tính dùng để làm gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Để nghe nhạc.",
+      "Để chứa các tệp tin và thư mục con.",
+      "Để vẽ tranh.",
+      "Để soạn thảo văn bản."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 2 môn Tin Học."
+    "correctAnswer": "Để chứa các tệp tin và thư mục con.",
+    "explanation": "Thư mục (Folder) hoạt động như một ngăn tủ giúp sắp xếp, phân loại dữ liệu."
   },
   {
     "id": "IT4_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thư mục có biểu tượng hình gì trong hệ điều hành Windows?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Hình chữ E màu xanh",
+      "Hình loa",
+      "Hình kẹp giấy (Cặp tài liệu màu vàng)",
+      "Hình bánh răng"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 2 môn Tin Học."
+    "correctAnswer": "Hình kẹp giấy (Cặp tài liệu màu vàng)",
+    "explanation": "Biểu tượng mặc định của Folder là hình cái kẹp hồ sơ màu vàng."
   },
   {
     "id": "IT4_W2_Q3",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để tạo một thư mục mới, em nháy chuột phải vào vùng trống và chọn gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "View -> Folder",
+      "New -> Folder",
+      "Copy -> Folder",
+      "Refresh"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 2 môn Tin Học."
+    "correctAnswer": "New -> Folder",
+    "explanation": "Lệnh 'New' dùng để tạo mới, 'Folder' là thư mục."
   },
   {
     "id": "IT4_W2_Q4",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Tệp tin (File) khác với Thư mục (Folder) ở điểm nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Tệp tin không thể chứa thư mục.",
+      "Tệp tin luôn màu vàng.",
+      "Thư mục không thể đổi tên.",
+      "Tệp tin chứa được tệp tin khác."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 2 môn Tin Học."
+    "correctAnswer": "Tệp tin không thể chứa thư mục.",
+    "explanation": "Tệp tin chứa dữ liệu cụ thể (văn bản, ảnh...), không thể chứa các tệp hay thư mục khác."
   },
   {
     "id": "IT4_W2_Q5",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Lệnh 'Rename' khi nháy chuột phải vào thư mục có tác dụng gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Xóa thư mục",
+      "Sao chép thư mục",
+      "Đổi tên thư mục",
+      "Mở thư mục"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 2 môn Tin Học."
+    "correctAnswer": "Đổi tên thư mục",
+    "explanation": "Rename trong tiếng Anh nghĩa là Đổi tên."
   },
   {
     "id": "IT4_W2_Q6",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Để xóa một thư mục, em chọn lệnh nào?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Copy",
+      "Paste",
+      "Delete",
+      "Cut"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 2 môn Tin Học."
+    "correctAnswer": "Delete",
+    "explanation": "Lệnh Delete (Xóa) sẽ chuyển thư mục vào Thùng rác (Recycle Bin)."
   },
   {
     "id": "IT4_W2_Q7",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Phím tắt để sao chép (Copy) tệp/thư mục là gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + Z"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 2 môn Tin Học."
+    "correctAnswer": "Ctrl + C",
+    "explanation": "Ctrl + C (Copy) dùng để sao chép dữ liệu."
   },
   {
     "id": "IT4_W2_Q8",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Khi em lưu một bài vẽ trong Paint, máy tính sẽ tạo ra một gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Một thư mục",
+      "Một tệp tin (File) hình ảnh",
+      "Một ổ đĩa mới",
+      "Một phần mềm mới"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 2 môn Tin Học."
+    "correctAnswer": "Một tệp tin (File) hình ảnh",
+    "explanation": "Mỗi bản vẽ được lưu lại sẽ thành một tệp tin (file) cụ thể trên ổ đĩa."
   },
   {
     "id": "IT4_W2_Q9",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Cấu trúc lưu trữ thư mục trong máy tính thường có dạng gì?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Dạng đường tròn",
+      "Dạng cái cây (cấu trúc cây)",
+      "Dạng đường thẳng",
+      "Dạng lưới"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 2 môn Tin Học."
+    "correctAnswer": "Dạng cái cây (cấu trúc cây)",
+    "explanation": "Từ thư mục gốc tỏa ra các thư mục nhánh (thư mục con) giống như cành cây."
   },
   {
     "id": "IT4_W2_Q10",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Tin Học - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Thư mục bị xóa sẽ thường nằm tạm ở đâu trước khi mất hẳn?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "My Computer",
+      "Recycle Bin (Thùng rác)",
+      "Paint",
+      "Control Panel"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 2 môn Tin Học."
+    "correctAnswer": "Recycle Bin (Thùng rác)",
+    "explanation": "Dữ liệu bị xóa sẽ vào Recycle Bin để người dùng có cơ hội khôi phục lại nếu lỡ tay."
   }
 ];
 

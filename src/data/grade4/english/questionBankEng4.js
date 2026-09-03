@@ -212,284 +212,284 @@ export const TOPIC_CATEGORIES_ENG4 = [
 
 export const QUESTION_BANK_ENG4 = [
   {
-    "id": "ENG4_W1_Q1",
+    "id": "Eng4_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Where are you from?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "I am from Vietnam.",
+      "I am Vietnam.",
+      "My name is Nam.",
+      "Hello."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "I am from Vietnam.",
+    "explanation": "'Where are you from?' dùng để hỏi bạn đến từ đâu. Trả lời: I am from + Tên quốc gia."
   },
   {
-    "id": "ENG4_W1_Q2",
+    "id": "Eng4_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Choose the odd one out:",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "America",
+      "Vietnam",
+      "English",
+      "Japan"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "English",
+    "explanation": "'English' là môn học/ngôn ngữ, còn lại là tên các quốc gia."
   },
   {
-    "id": "ENG4_W1_Q3",
+    "id": "Eng4_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Nice to _____ you again.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "see",
+      "look",
+      "watch",
+      "meet"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "see",
+    "explanation": "Cấu trúc chào hỏi quen thuộc: 'Nice to see you again' (Rất vui được gặp lại bạn)."
   },
   {
-    "id": "ENG4_W1_Q4",
+    "id": "Eng4_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "She _____ from England.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "am",
+      "is",
+      "are",
+      "do"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "is",
+    "explanation": "Chủ ngữ 'She' đi với động từ to be 'is'."
   },
   {
-    "id": "ENG4_W1_Q5",
+    "id": "Eng4_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Are you from America? - No, I _____.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "am",
+      "am not",
+      "are",
+      "aren't"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "am not",
+    "explanation": "Câu hỏi 'Are you...?', trả lời phủ định là 'No, I am not'."
   },
   {
-    "id": "ENG4_W1_Q6",
+    "id": "Eng4_W1_Q6",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "What nationality are you?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "I am Vietnamese.",
+      "I am from Vietnam.",
+      "I live in Vietnam.",
+      "Vietnam."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "I am Vietnamese.",
+    "explanation": "Câu hỏi về quốc tịch (nationality), trả lời bằng tính từ chỉ quốc tịch: 'Vietnamese'."
   },
   {
-    "id": "ENG4_W1_Q7",
+    "id": "Eng4_W1_Q7",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "I have a lot of _____ in Vietnam.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "friend",
+      "friends",
+      "friendly",
+      "friendship"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "friends",
+    "explanation": "'a lot of' cộng với danh từ số nhiều đếm được (friends)."
   },
   {
-    "id": "ENG4_W1_Q8",
+    "id": "Eng4_W1_Q8",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Where _____ he from?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "do",
+      "does",
+      "is",
+      "are"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "is",
+    "explanation": "Hỏi 'anh ấy từ đâu đến': Where is he from?"
   },
   {
-    "id": "ENG4_W1_Q9",
+    "id": "Eng4_W1_Q9",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Translate into English: 'Xin chào, mình đến từ Nhật Bản.'",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Hello, I am from Japan.",
+      "Hello, I am Japan.",
+      "Hi, I from Japan.",
+      "Hi, my name Japan."
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "Hello, I am from Japan.",
+    "explanation": "'đến từ Nhật Bản' là 'from Japan'."
   },
   {
-    "id": "ENG4_W1_Q10",
+    "id": "Eng4_W1_Q10",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Tiếng Anh - Tuần 1): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Tokyo is in _____.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Vietnam",
+      "America",
+      "Japan",
+      "England"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 1 môn Tiếng Anh."
+    "correctAnswer": "Japan",
+    "explanation": "Tokyo là thủ đô của Nhật Bản (Japan)."
   },
   {
-    "id": "ENG4_W2_Q1",
+    "id": "Eng4_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 1 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "When is your birthday?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "It is on the first of May.",
+      "It is in the first of May.",
+      "I am nine years old.",
+      "Happy birthday!"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 1 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "It is on the first of May.",
+    "explanation": "Dùng giới từ 'on' trước ngày trong tháng."
   },
   {
-    "id": "ENG4_W2_Q2",
+    "id": "Eng4_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 2 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "What is the _____ today?",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "date",
+      "day",
+      "time",
+      "month"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 2 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "date",
+    "explanation": "Hỏi ngày tháng: What is the date today?"
   },
   {
-    "id": "ENG4_W2_Q3",
+    "id": "Eng4_W2_Q3",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 3 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "It is _____ the second of October.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "in",
+      "on",
+      "at",
+      "to"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 3 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "on",
+    "explanation": "Giới từ 'on' đi với ngày cụ thể (the second of October)."
   },
   {
-    "id": "ENG4_W2_Q4",
+    "id": "Eng4_W2_Q4",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 4 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "January, February, March, _____.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "May",
+      "April",
+      "June",
+      "July"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 4 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "April",
+    "explanation": "Tháng thứ 4 trong năm là April (Tháng 4)."
   },
   {
-    "id": "ENG4_W2_Q5",
+    "id": "Eng4_W2_Q5",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 5 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Choose the correct spelling:",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "Novemer",
+      "November",
+      "Novamber",
+      "Nuvember"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 5 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "November",
+    "explanation": "November là cách viết đúng của tháng 11."
   },
   {
-    "id": "ENG4_W2_Q6",
+    "id": "Eng4_W2_Q6",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 6 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "We have Teachers' Day in _____.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "September",
+      "October",
+      "November",
+      "December"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 6 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "November",
+    "explanation": "Ngày Nhà giáo Việt Nam (Teachers' Day) là 20/11, thuộc tháng November."
   },
   {
-    "id": "ENG4_W2_Q7",
+    "id": "Eng4_W2_Q7",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 7 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "My birthday is _____ September.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "on",
+      "in",
+      "at",
+      "from"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 7 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "in",
+    "explanation": "Dùng giới từ 'in' trước tên tháng (không có ngày cụ thể)."
   },
   {
-    "id": "ENG4_W2_Q8",
+    "id": "Eng4_W2_Q8",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 8 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "First, second, third, _____.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "four",
+      "five",
+      "fourth",
+      "fiveth"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 8 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "fourth",
+    "explanation": "Số thứ tự tiếp theo của third (3rd) là fourth (4th)."
   },
   {
-    "id": "ENG4_W2_Q9",
+    "id": "Eng4_W2_Q9",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 9 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "Is your birthday in May? - Yes, _____.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "it is",
+      "it isn't",
+      "is it",
+      "I am"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 9 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "it is",
+    "explanation": "Câu hỏi Yes/No với chủ ngữ giả 'it' và 'is', trả lời là 'Yes, it is'."
   },
   {
-    "id": "ENG4_W2_Q10",
+    "id": "Eng4_W2_Q10",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi 10 (Tiếng Anh - Tuần 2): Đây là nội dung mẫu để học sinh luyện tập.",
+    "question": "October is the _____ month of the year.",
     "options": [
-      "Đáp án A (Đúng)",
-      "Đáp án B (Sai)",
-      "Đáp án C (Sai)",
-      "Đáp án D (Sai)"
+      "eighth",
+      "ninth",
+      "tenth",
+      "eleventh"
     ],
-    "correctAnswer": "Đáp án A (Đúng)",
-    "explanation": "Giải thích chi tiết cho câu 10 tuần 2 môn Tiếng Anh."
+    "correctAnswer": "tenth",
+    "explanation": "Tháng 10 (October) là tháng thứ mười (tenth) trong năm."
   }
 ];
 
