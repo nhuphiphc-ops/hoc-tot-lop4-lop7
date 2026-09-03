@@ -122,15 +122,13 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
   const progressPercent = Math.round((completedWeeksCount / 35) * 100);
 
   const getBannerTitle = () => {
-    if (isGrade12) {
-      const subj = GRADE_12_SUBJECTS.find(s => s.id === currentSubject)?.label || 'Toán 12';
-      return `Chinh Phục ${subj} (Tốt Nghiệp THPT 2026) 🎓`;
-    }
-    if (isGrade7) {
-      const subj = GRADE_7_SUBJECTS.find(s => s.id === currentSubject)?.label || 'Toán 7';
-      return `Chinh Phục ${subj} (GDPT Mới 2026) 🚀`;
-    }
-    const subjName = isMath ? `Toán Lớp ${currentGrade}` : (isSecondary ? `Ngữ Văn Lớp ${currentGrade}` : `Tiếng Việt Lớp ${currentGrade}`);
+    let list = primarySubjectsList;
+    if (isHighSchool) list = highSchoolSubjectsList;
+    else if (isSecondary) list = secondarySubjectsList;
+    
+    const subj = list.find(s => s.id === currentSubject);
+    const subjName = subj ? subj.label : `Toán Lớp ${currentGrade}`;
+    
     return `Chinh Phục ${subjName} (GDPT Mới 2026) 🚀`;
   };
 
@@ -182,6 +180,44 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
       ? 'Làm chủ số hữu tỉ, số thực, đại số và hình học tam giác cùng hơn 350 bài tập phân cấp độ khó chuẩn chương trình GDPT 2026!'
       : 'Rèn luyện đọc hiểu thơ văn, làm chủ tiếng Việt và phân tích văn bản cùng 350+ câu hỏi và đề thi chuẩn GDPT mới nhất 2026!';
   };
+
+  
+  const isPrimary = ['1', '2', '3', '4', '5'].includes(currentGrade);
+  const primarySubjectsList = [
+    { id: 'math', label: `Toán ${currentGrade}`, color: 'from-amber-400 to-orange-500' },
+    { id: 'vietnamese', label: `Tiếng Việt ${currentGrade}`, color: 'from-rose-400 to-pink-500' },
+    { id: 'english', label: `Tiếng Anh ${currentGrade}`, color: 'from-emerald-400 to-teal-500' },
+    { id: 'science', label: `TNXH ${currentGrade}`, color: 'from-purple-400 to-indigo-500' },
+    { id: 'history_geo', label: `Xã Hội ${currentGrade}`, color: 'from-blue-400 to-cyan-500' },
+    { id: 'informatics', label: `Tin Học ${currentGrade}`, color: 'from-cyan-400 to-blue-500' },
+    { id: 'civics', label: `Đạo Đức ${currentGrade}`, color: 'from-pink-400 to-rose-500' },
+    { id: 'technology', label: `Công Nghệ ${currentGrade}`, color: 'from-lime-400 to-emerald-500' },
+  ];
+
+  const secondarySubjectsList = [
+    { id: 'math', label: `Toán ${currentGrade}`, color: 'from-blue-500 to-indigo-600' },
+    { id: 'vietnamese', label: `Ngữ Văn ${currentGrade}`, color: 'from-rose-500 to-purple-600' },
+    { id: 'english', label: `Tiếng Anh ${currentGrade}`, color: 'from-emerald-500 to-teal-600' },
+    { id: 'science', label: `KHTN ${currentGrade}`, color: 'from-purple-500 to-indigo-700' },
+    { id: 'history_geo', label: `Sử & Địa Lí ${currentGrade}`, color: 'from-amber-500 to-orange-600' },
+    { id: 'informatics', label: `Tin Học ${currentGrade}`, color: 'from-cyan-500 to-blue-600' },
+    { id: 'civics', label: `GDCD ${currentGrade}`, color: 'from-pink-500 to-rose-600' },
+    { id: 'technology', label: `Công Nghệ ${currentGrade}`, color: 'from-green-500 to-emerald-600' },
+  ];
+
+  const highSchoolSubjectsList = [
+    { id: 'math', label: `Toán ${currentGrade}`, color: 'from-blue-600 to-indigo-700' },
+    { id: 'vietnamese', label: `Ngữ Văn ${currentGrade}`, color: 'from-rose-600 to-purple-700' },
+    { id: 'english', label: `Tiếng Anh ${currentGrade}`, color: 'from-emerald-600 to-teal-700' },
+    { id: 'physics', label: `Vật Lí ${currentGrade}`, color: 'from-sky-600 to-blue-700' },
+    { id: 'chemistry', label: `Hóa Học ${currentGrade}`, color: 'from-purple-600 to-indigo-800' },
+    { id: 'biology', label: `Sinh Học ${currentGrade}`, color: 'from-green-600 to-emerald-700' },
+    { id: 'history', label: `Lịch Sử ${currentGrade}`, color: 'from-amber-600 to-orange-700' },
+    { id: 'geography', label: `Địa Lí ${currentGrade}`, color: 'from-teal-600 to-cyan-700' },
+    { id: 'econ_law', label: `GDKT & PL ${currentGrade}`, color: 'from-pink-600 to-rose-700' },
+    { id: 'informatics', label: `Tin Học ${currentGrade}`, color: 'from-cyan-600 to-blue-700' },
+    { id: 'technology', label: `Công Nghệ ${currentGrade}`, color: 'from-lime-600 to-emerald-700' },
+  ];
 
   const getBannerGradient = () => {
     if (isPrimaryChuot) {
@@ -277,9 +313,8 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
         </div>
 
         {/* Subject Selection Buttons */}
-        {isGrade12 ? (
           <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none w-full md:w-auto justify-start md:justify-center py-1 max-w-full">
-            {GRADE_12_SUBJECTS.map(subj => {
+            {(isHighSchool ? highSchoolSubjectsList : isSecondary ? secondarySubjectsList : primarySubjectsList).map(subj => {
               const isSelected = currentSubject === subj.id;
               return (
                 <button
@@ -297,78 +332,9 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
               );
             })}
           </div>
-        ) : isPrimaryChuot ? (
-          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none w-full md:w-auto justify-start md:justify-center py-1 max-w-full">
-            {GRADE_PRIMARY_SUBJECTS.map(subj => {
-              const isSelected = currentSubject === subj.id;
-              return (
-                <button
-                  key={subj.id}
-                  type="button"
-                  onClick={() => switchSubject(subj.id)}
-                  className={`px-3 py-1.5 rounded-2xl font-black text-xs sm:text-sm whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border-2 ${
-                    isSelected
-                      ? `bg-gradient-to-r ${subj.color} text-white shadow-md ring-2 ring-amber-300 scale-105`
-                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-                  }`}
-                >
-                  <span>{subj.label}</span>
-                </button>
-              );
-            })}
-          </div>
-        ) : isGrade7 ? (
-          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none w-full md:w-auto justify-start md:justify-center py-1 max-w-full">
-            {GRADE_7_SUBJECTS.map(subj => {
-              const isSelected = currentSubject === subj.id;
-              return (
-                <button
-                  key={subj.id}
-                  type="button"
-                  onClick={() => switchSubject(subj.id)}
-                  className={`px-3 py-1.5 rounded-2xl font-black text-xs sm:text-sm whitespace-nowrap flex-shrink-0 transition-all cursor-pointer border-2 ${
-                    isSelected
-                      ? `bg-gradient-to-r ${subj.color} text-white shadow-md ring-2 ring-amber-300 scale-105`
-                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-                  }`}
-                >
-                  <span>{subj.label}</span>
-                </button>
-              );
-            })}
-          </div>
-        ) : (
-          <div className="flex items-center gap-2 w-full md:w-auto justify-center">
-            <button
-              type="button"
-              onClick={() => switchSubject('math')}
-              className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
-                isMath
-                  ? 'bg-gradient-to-r from-amber-400 to-orange-400 text-amber-950 border-amber-300 shadow-md ring-2 ring-amber-300 scale-105'
-                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-              }`}
-            >
-              <Calculator className="w-4 h-4" />
-              <span>Toán {currentGrade}</span>
-            </button>
+        </div>
 
-            <button
-              type="button"
-              onClick={() => switchSubject('vietnamese')}
-              className={`flex-1 md:flex-initial flex items-center justify-center gap-2 px-4 py-2 rounded-2xl font-black text-sm sm:text-base transition-all cursor-pointer border-2 ${
-                currentSubject === 'vietnamese'
-                  ? 'bg-gradient-to-r from-rose-500 to-purple-600 text-white border-rose-400 shadow-md ring-2 ring-rose-300 scale-105'
-                  : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-              }`}
-            >
-              <BookOpen className="w-4 h-4" />
-              <span>{isSecondary ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`}</span>
-            </button>
-          </div>
-        )}
-      </div>
-
-      {/* Hero Banner with Stats & Progress */}
+        {/* Hero Banner with Stats & Progress */}
       <div className={`rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden transition-all duration-500 ${getBannerGradient()}`}>
         {/* Background decorative elements */}
         <div className="absolute top-0 right-0 -mt-10 -mr-10 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none" />
