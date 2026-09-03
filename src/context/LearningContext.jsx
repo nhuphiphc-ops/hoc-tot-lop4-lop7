@@ -1770,6 +1770,12 @@ export const LearningProvider = ({ children }) => {
     if (isGrade5) {
       if (currentSubject === 'math') return getQuestionsByWeekMath5(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekTV5(weekNum);
+      if (currentSubject === 'english') return getQuestionsByWeekEng5(weekNum);
+      if (currentSubject === 'science') return getQuestionsByWeekSci5(weekNum);
+      if (currentSubject === 'history_geo') return getQuestionsByWeekHG5(weekNum);
+      if (currentSubject === 'informatics') return getQuestionsByWeekIT5(weekNum);
+      if (currentSubject === 'civics') return getQuestionsByWeekCiv5(weekNum);
+      if (currentSubject === 'technology') return getQuestionsByWeekTech5(weekNum);
       return [];
     }
     if (isGrade6) {
@@ -1871,6 +1877,12 @@ export const LearningProvider = ({ children }) => {
     if (isGrade5) {
       if (currentSubject === 'math') return getFilteredQuestionsMath5(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsTV5(params);
+      if (currentSubject === 'english') return getFilteredQuestionsEng5(params);
+      if (currentSubject === 'science') return getFilteredQuestionsSci5(params);
+      if (currentSubject === 'history_geo') return getFilteredQuestionsHG5(params);
+      if (currentSubject === 'informatics') return getFilteredQuestionsIT5(params);
+      if (currentSubject === 'civics') return getFilteredQuestionsCiv5(params);
+      if (currentSubject === 'technology') return getFilteredQuestionsTech5(params);
       return [];
     }
     if (isGrade6) {
