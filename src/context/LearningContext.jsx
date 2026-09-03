@@ -1254,7 +1254,17 @@ export const LearningProvider = ({ children }) => {
       if (currentSubject === 'technology') return g4TechProgress;
       return g4MathProgress;
     }
-    if (isGrade5) return isMath ? g5MathProgress : g5TvProgress;
+    if (isGrade5) {
+        if (currentSubject === 'math5' || currentSubject === 'math') return g5MathProgress;
+        if (currentSubject === 'tv5' || currentSubject === 'vietnamese') return g5TvProgress;
+        if (currentSubject === 'english') return g5EngProgress;
+        if (currentSubject === 'science') return g5SciProgress;
+        if (currentSubject === 'history_geo') return g5HgProgress;
+        if (currentSubject === 'informatics') return g5ItProgress;
+        if (currentSubject === 'civics') return g5CivProgress;
+        if (currentSubject === 'technology') return g5TechProgress;
+        return g5MathProgress;
+      }
     if (isGrade6) return isMath ? g6MathProgress : g6LitProgress;
     
     if (isGrade8) return isMath ? g8MathProgress : g8LitProgress;
@@ -1379,7 +1389,11 @@ export const LearningProvider = ({ children }) => {
     }
 
     if (isGrade4) return isMath ? g4MathWrong : g4TvWrong;
-    if (isGrade5) return isMath ? g5MathWrong : g5TvWrong;
+    if (isGrade5) {
+        if (currentSubject === 'math5' || currentSubject === 'math') return g5MathWrong;
+        if (currentSubject === 'tv5' || currentSubject === 'vietnamese') return g5TvWrong;
+        return [];
+      }
     if (isGrade6) return isMath ? g6MathWrong : g6LitWrong;
     if (isGrade7) {
       if (currentSubject === 'math') return g7MathWrong;
@@ -1545,7 +1559,17 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH4;
         return [];
       }
-    if (isGrade5) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH5; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV5; return []; }
+    if (isGrade5) {
+        if (currentSubject === 'math5' || currentSubject === 'math') return TOPIC_CATEGORIES_MATH5;
+        if (currentSubject === 'tv5' || currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV5;
+        if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG5;
+        if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI5;
+        if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HG5;
+        if (currentSubject === 'informatics') return TOPIC_CATEGORIES_IT5;
+        if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV5;
+        if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH5;
+        return [];
+      }
     if (isGrade6) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH6; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT6; return []; }
     if (isGrade7) {
       if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH7;
@@ -1623,7 +1647,17 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'technology') return WEEKS_METADATA_TECH4;
         return {};
       }
-    if (isGrade5) { if (currentSubject === 'math') return WEEKS_METADATA_MATH5; if (currentSubject === 'vietnamese') return WEEKS_METADATA_TV5; return {}; }
+    if (isGrade5) {
+        if (currentSubject === 'math5' || currentSubject === 'math') return WEEKS_METADATA_MATH5;
+        if (currentSubject === 'tv5' || currentSubject === 'vietnamese') return WEEKS_METADATA_TV5;
+        if (currentSubject === 'english') return WEEKS_METADATA_ENG5;
+        if (currentSubject === 'science') return WEEKS_METADATA_SCI5;
+        if (currentSubject === 'history_geo') return WEEKS_METADATA_HG5;
+        if (currentSubject === 'informatics') return WEEKS_METADATA_IT5;
+        if (currentSubject === 'civics') return WEEKS_METADATA_CIV5;
+        if (currentSubject === 'technology') return WEEKS_METADATA_TECH5;
+        return {};
+      }
     if (isGrade6) { if (currentSubject === 'math') return WEEKS_METADATA_MATH6; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT6; return {}; }
     if (isGrade7) {
       if (currentSubject === 'math') return WEEKS_METADATA_MATH7;
