@@ -84,8 +84,12 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   // Dynamic titles
   const getSubjectTitle = () => {
     let list = primarySubjectsList;
-    if (isHighSchool) list = highSchoolSubjectsList;
-    else if (isSecondary) list = secondarySubjectsList;
+    // Handle both naming conventions just in case
+    const highSchoolList = typeof highSchoolSubjectsList !== 'undefined' ? highSchoolSubjectsList : (typeof grade12SubjectsList !== 'undefined' ? grade12SubjectsList : []);
+    const secondaryList = typeof secondarySubjectsList !== 'undefined' ? secondarySubjectsList : (typeof grade7SubjectsList !== 'undefined' ? grade7SubjectsList : []);
+
+    if (isHighSchool) list = highSchoolList;
+    else if (isSecondary) list = secondaryList;
     
     const subj = list.find(s => s.id === currentSubject);
     if (subj) return subj.label;
