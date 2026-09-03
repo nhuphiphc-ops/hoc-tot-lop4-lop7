@@ -35,13 +35,32 @@ export const CustomPractice = ({ onStartQuiz }) => {
   const [isTimed, setIsTimed] = useState(true);
 
   const getSubjectLabel = () => {
-    if (isGrade12) {
-      return GRADE_12_SUBJECTS.find(s => s.id === currentSubject)?.label || 'Toán 12';
-    }
-    if (isGrade7) {
-      return GRADE_7_SUBJECTS.find(s => s.id === currentSubject)?.label || 'Toán 7';
-    }
-    return isMath ? `Toán Lớp ${currentGrade}` : (Number(currentGrade) >= 6 ? `Ngữ Văn ${currentGrade}` : `Tiếng Việt ${currentGrade}`);
+    const isHighSchool = ['10', '11', '12'].includes(currentGrade);
+    const isSecondary = ['6', '7', '8', '9'].includes(currentGrade);
+    
+    // We need to import the lists or just define a simple fallback, 
+    // actually CustomPractice just needs the label. Let's just use a simple switch or pass it from context if possible.
+    // Wait, LearningContext has GRADE_PRIMARY_SUBJECTS, but they are not dynamically exported for all grades.
+    // Let's just define a generic mapping here.
+    const subjectNames = {
+      'math': 'Toán',
+      'vietnamese': Number(currentGrade) >= 6 ? 'Ngữ Văn' : 'Tiếng Việt',
+      'english': 'Tiếng Anh',
+      'science': 'Khoa Học Tự Nhiên',
+      'history_geo': 'Lịch Sử & Địa Lí',
+      'informatics': 'Tin Học',
+      'civics': 'Giáo Dục Công Dân',
+      'technology': 'Công Nghệ',
+      'physics': 'Vật Lí',
+      'chemistry': 'Hóa Học',
+      'biology': 'Sinh Học',
+      'history': 'Lịch Sử',
+      'geography': 'Địa Lí',
+      'econ_law': 'GDKT & PL'
+    };
+    
+    const name = subjectNames[currentSubject] || 'Môn Học';
+    return `${name} ${currentGrade}`;
   };
   const subjectLabel = getSubjectLabel();
 

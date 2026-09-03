@@ -83,49 +83,14 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
   // Dynamic titles
   const getSubjectTitle = () => {
-    if (!isSecondary && !isHighSchool) {
-      if (currentSubject === 'vietnamese') return `Tiếng Việt ${currentGrade}`;
-      if (currentSubject === 'english') return `Tiếng Anh ${currentGrade}`;
-      if (currentSubject === 'science') return `TNXH ${currentGrade}`;
-      if (currentSubject === 'history_geo') return `Khám Phá Xã Hội ${currentGrade}`;
-      if (currentSubject === 'informatics') return `Tin Học ${currentGrade}`;
-      if (currentSubject === 'civics') return `Đạo Đức ${currentGrade}`;
-      if (currentSubject === 'technology') return `Công Nghệ ${currentGrade}`;
-      return `Toán Lớp ${currentGrade}`;
-    }
-    if (isGrade4) return isMath ? 'Toán Lớp 4' : 'Tiếng Việt 4';
-    if (isGrade5) return isMath ? 'Toán Lớp 5' : 'Tiếng Việt 5';
-    if (isGrade6) return isMath ? 'Toán Lớp 6' : 'Ngữ Văn 6';
-    if (currentGrade === '8') return isMath ? 'Toán Lớp 8' : 'Ngữ Văn 8';
-    if (currentGrade === '9') return isMath ? 'Toán Lớp 9' : 'Ngữ Văn 9 (Vào 10)';
-    if (currentGrade === '10') return isMath ? 'Toán Lớp 10' : 'Ngữ Văn 10';
-    if (currentGrade === '11') return isMath ? 'Toán Lớp 11' : 'Ngữ Văn 11';
-    if (isSecondary) {
-      if (currentSubject === 'math') return `Toán Lớp ${currentGrade}`;
-      if (currentSubject === 'vietnamese') return 'Ngữ Văn 7';
-      if (currentSubject === 'english') return 'Tiếng Anh 7';
-      if (currentSubject === 'science') return 'KHTN 7';
-      if (currentSubject === 'history_geo') return 'Lịch Sử & Địa Lí 7';
-      if (currentSubject === 'informatics') return 'Tin Học 7';
-      if (currentSubject === 'civics') return 'GDCD 7';
-      if (currentSubject === 'technology') return 'Công Nghệ 7';
-      return `Toán Lớp ${currentGrade}`;
-    }
-    if (isHighSchool) {
-      if (currentSubject === 'math') return `Toán Lớp ${currentGrade}`;
-      if (currentSubject === 'vietnamese') return 'Ngữ Văn 12';
-      if (currentSubject === 'english') return 'Tiếng Anh 12';
-      if (currentSubject === 'physics') return 'Vật Lí 12';
-      if (currentSubject === 'chemistry') return 'Hóa Học 12';
-      if (currentSubject === 'biology') return 'Sinh Học 12';
-      if (currentSubject === 'history') return 'Lịch Sử 12';
-      if (currentSubject === 'geography') return 'Địa Lí 12';
-      if (currentSubject === 'econ_law') return 'GDKT & PL 12';
-      if (currentSubject === 'informatics') return 'Tin Học 12';
-      if (currentSubject === 'technology') return 'Công Nghệ 12';
-      return `Toán Lớp ${currentGrade}`;
-    }
-    return isMath ? `Toán ${currentGrade}` : `Ngữ Văn ${currentGrade}`;
+    let list = primarySubjectsList;
+    if (isHighSchool) list = highSchoolSubjectsList;
+    else if (isSecondary) list = secondarySubjectsList;
+    
+    const subj = list.find(s => s.id === currentSubject);
+    if (subj) return subj.label;
+    
+    return `Lớp ${currentGrade}`;
   };
 
   const gradeList = [

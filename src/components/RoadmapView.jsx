@@ -416,6 +416,17 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
 
       {/* Stages & Weeks Grid */}
       <div className="space-y-8">
+        {displayStages.length === 0 && (
+          <div className="flex flex-col items-center justify-center py-20 text-center bg-white/40 backdrop-blur-sm rounded-3xl border border-white/60 shadow-sm mt-8">
+            <div className="w-20 h-20 mb-4 bg-slate-100 rounded-full flex items-center justify-center shadow-inner">
+              <span className="text-4xl">🚧</span>
+            </div>
+            <h3 className="text-xl sm:text-2xl font-black text-slate-700 mb-2 font-nunito">Nội dung đang được cập nhật</h3>
+            <p className="text-slate-500 font-semibold text-sm sm:text-base max-w-sm mx-auto leading-relaxed">
+              Các bài học, câu hỏi và lộ trình cho môn học này đang được đội ngũ biên soạn và sẽ sớm ra mắt!
+            </p>
+          </div>
+        )}
         {displayStages.map((stage) => {
           // Extract week range safely
           let stageWeeks = [];

@@ -1380,14 +1380,14 @@ export const LearningProvider = ({ children }) => {
       return STAGES_MATH3;
     }
 
-    if (isGrade8) return isMath ? STAGES_MATH8 : STAGES_LIT8;
-    if (isGrade9) return isMath ? STAGES_MATH9 : STAGES_LIT9;
-    if (isGrade10) return isMath ? STAGES_MATH10 : STAGES_LIT10;
-    if (isGrade11) return isMath ? STAGES_MATH11 : STAGES_LIT11;
+    if (isGrade8) { if (currentSubject === 'math') return STAGES_MATH8; if (currentSubject === 'vietnamese') return STAGES_LIT8; return []; }
+    if (isGrade9) { if (currentSubject === 'math') return STAGES_MATH9; if (currentSubject === 'vietnamese') return STAGES_LIT9; return []; }
+    if (isGrade10) { if (currentSubject === 'math') return STAGES_MATH10; if (currentSubject === 'vietnamese') return STAGES_LIT10; return []; }
+    if (isGrade11) { if (currentSubject === 'math') return STAGES_MATH11; if (currentSubject === 'vietnamese') return STAGES_LIT11; return []; }
 
-    if (isGrade4) return isMath ? STAGES : STAGES_TV;
-    if (isGrade5) return isMath ? STAGES_MATH5 : STAGES_TV5;
-    if (isGrade6) return isMath ? STAGES_MATH6 : STAGES_LIT6;
+    if (isGrade4) { if (currentSubject === 'math') return STAGES; if (currentSubject === 'vietnamese') return STAGES_TV; return []; }
+    if (isGrade5) { if (currentSubject === 'math') return STAGES_MATH5; if (currentSubject === 'vietnamese') return STAGES_TV5; return []; }
+    if (isGrade6) { if (currentSubject === 'math') return STAGES_MATH6; if (currentSubject === 'vietnamese') return STAGES_LIT6; return []; }
     if (isGrade7) {
       if (currentSubject === 'math') return STAGES_MATH7;
       if (currentSubject === 'vietnamese') return STAGES_LIT7;
@@ -1448,14 +1448,14 @@ export const LearningProvider = ({ children }) => {
       return TOPIC_CATEGORIES_MATH3;
     }
 
-    if (isGrade8) return isMath ? TOPIC_CATEGORIES_MATH8 : TOPIC_CATEGORIES_LIT8;
-    if (isGrade9) return isMath ? TOPIC_CATEGORIES_MATH9 : TOPIC_CATEGORIES_LIT9;
-    if (isGrade10) return isMath ? TOPIC_CATEGORIES_MATH10 : TOPIC_CATEGORIES_LIT10;
-    if (isGrade11) return isMath ? TOPIC_CATEGORIES_MATH11 : TOPIC_CATEGORIES_LIT11;
+    if (isGrade8) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH8; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT8; return []; }
+    if (isGrade9) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH9; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT9; return []; }
+    if (isGrade10) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH10; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT10; return []; }
+    if (isGrade11) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH11; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT11; return []; }
 
-    if (isGrade4) return isMath ? TOPIC_CATEGORIES : TOPIC_CATEGORIES_TV;
-    if (isGrade5) return isMath ? TOPIC_CATEGORIES_MATH5 : TOPIC_CATEGORIES_TV5;
-    if (isGrade6) return isMath ? TOPIC_CATEGORIES_MATH6 : TOPIC_CATEGORIES_LIT6;
+    if (isGrade4) { if (currentSubject === 'math') return TOPIC_CATEGORIES; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV; return []; }
+    if (isGrade5) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH5; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_TV5; return []; }
+    if (isGrade6) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH6; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT6; return []; }
     if (isGrade7) {
       if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH7;
       if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT7;
@@ -1516,14 +1516,14 @@ export const LearningProvider = ({ children }) => {
       return WEEKS_METADATA_MATH3;
     }
 
-    if (isGrade8) return isMath ? WEEKS_METADATA_MATH8 : WEEKS_METADATA_LIT8;
-    if (isGrade9) return isMath ? WEEKS_METADATA_MATH9 : WEEKS_METADATA_LIT9;
-    if (isGrade10) return isMath ? WEEKS_METADATA_MATH10 : WEEKS_METADATA_LIT10;
-    if (isGrade11) return isMath ? WEEKS_METADATA_MATH11 : WEEKS_METADATA_LIT11;
+    if (isGrade8) { if (currentSubject === 'math') return WEEKS_METADATA_MATH8; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT8; return {}; }
+    if (isGrade9) { if (currentSubject === 'math') return WEEKS_METADATA_MATH9; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT9; return {}; }
+    if (isGrade10) { if (currentSubject === 'math') return WEEKS_METADATA_MATH10; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT10; return {}; }
+    if (isGrade11) { if (currentSubject === 'math') return WEEKS_METADATA_MATH11; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT11; return {}; }
 
-    if (isGrade4) return isMath ? WEEKS_METADATA : WEEKS_METADATA_TV;
-    if (isGrade5) return isMath ? WEEKS_METADATA_MATH5 : WEEKS_METADATA_TV5;
-    if (isGrade6) return isMath ? WEEKS_METADATA_MATH6 : WEEKS_METADATA_LIT6;
+    if (isGrade4) { if (currentSubject === 'math') return WEEKS_METADATA; if (currentSubject === 'vietnamese') return WEEKS_METADATA_TV; return {}; }
+    if (isGrade5) { if (currentSubject === 'math') return WEEKS_METADATA_MATH5; if (currentSubject === 'vietnamese') return WEEKS_METADATA_TV5; return {}; }
+    if (isGrade6) { if (currentSubject === 'math') return WEEKS_METADATA_MATH6; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT6; return {}; }
     if (isGrade7) {
       if (currentSubject === 'math') return WEEKS_METADATA_MATH7;
       if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT7;
