@@ -141,44 +141,37 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
     if (isGrade12) {
       return 'Luyện thi toàn diện chuẩn ma trận đề thi Tốt nghiệp THPT 2026 với 35 tuần học tập chuyên sâu, giải thích cặn kẽ và tối ưu điểm số!';
     }
-    if (isGrade4) {
-      return isMath
-        ? 'Làm chủ số tự nhiên, phân số, hình học và giải toán có lời văn cùng hơn 350 bài tập phân cấp độ khó chuẩn GDPT 2026!'
-        : 'Rèn luyện đọc hiểu cảm thụ, thành thạo từ loại và câu cùng 350+ bài tập đặc sắc chuẩn GDPT 2026!';
+    
+    // For Math and Vietnamese, use the custom descriptions
+    if (currentSubject === 'math') {
+      if (currentGrade === '4') return 'Làm chủ số tự nhiên, phân số, hình học và giải toán có lời văn cùng hơn 350 bài tập phân cấp độ khó chuẩn GDPT 2026!';
+      if (currentGrade === '5') return 'Chinh phục số thập phân, tỉ số phần trăm, diện tích thể tích và toán chuyển động đều cùng 350 bài tập chuẩn bị chuyển cấp Lớp 6!';
+      if (currentGrade === '6') return 'Làm chủ tập hợp số nguyên Z, phân số âm, hình học trực quan và xác suất thực nghiệm cùng 350 bài tập chuẩn GDPT 2026!';
+      if (currentGrade === '7') return 'Làm chủ số hữu tỉ, số thực, đại số và hình học tam giác cùng hơn 350 bài tập phân cấp độ khó chuẩn chương trình GDPT 2026!';
+      if (currentGrade === '8') return 'Chinh phục hằng đẳng thức đáng nhớ, phân thức đại số, định lí Thalès, tam giác đồng dạng và hình chóp đều Lớp 8!';
+      if (currentGrade === '9') return 'Ôn thi vào Lớp 10 toàn diện: Rút gọn căn thức, hệ phương trình, định lí Vi-ét, góc với đường tròn và hình trụ nón cầu!';
+      if (currentGrade === '10') return 'Làm chủ mệnh đề tập hợp, bất phương trình bậc hai, hệ thức lượng tam giác, vectơ và ba đường Conic theo GDPT Mới 2026!';
+      if (currentGrade === '11') return 'Chinh phục hàm lượng giác, cấp số cộng/nhân, giới hạn, đạo hàm, hàm số mũ logarit và quan hệ vuông góc không gian Lớp 11!';
+    } else if (currentSubject === 'vietnamese') {
+      if (currentGrade === '4') return 'Rèn luyện đọc hiểu cảm thụ, thành thạo từ loại và câu cùng 350+ bài tập đặc sắc chuẩn GDPT 2026!';
+      if (currentGrade === '5') return 'Khám phá từ đồng nghĩa, từ trái nghĩa, câu ghép, các biện pháp tu từ và cảm thụ văn học đỉnh cao Lớp 5!';
+      if (currentGrade === '6') return 'Khám phá truyện dân gian, truyện đồng thoại, thơ lục bát, văn nghị luận và các biện pháp tu từ nghệ thuật Ngữ Văn 6!';
+      if (currentGrade === '7') return 'Rèn luyện đọc hiểu, viết đoạn văn, cảm thụ văn bản và làm chủ tiếng Việt cùng hơn 350 bài tập chuẩn GDPT 2026!';
+      if (currentGrade === '8') return 'Rèn luyện đọc hiểu truyện ngắn hiện đại, thơ trữ tình, hài kịch và viết văn nghị luận xã hội sắc bén Lớp 8!';
+      if (currentGrade === '9') return 'Rèn luyện đọc hiểu tác phẩm trọng tâm, làm chủ đoạn văn NLXH 200 chữ và phân tích văn học bứt phá điểm 9+ thi vào 10!';
+      if (currentGrade === '10') return 'Khám phá sử thi, thần thoại, thơ ca dân gian, nghệ thuật tuồng chèo và rèn kỹ năng viết bài văn nghị luận Lớp 10!';
+      if (currentGrade === '11') return 'Cảm thụ phong trào Thơ mới 1932-1945, kiệt tác văn xuôi hiện thực phê phán và phong cách ngôn ngữ học thuật Lớp 11!';
     }
-    if (isGrade5) {
-      return isMath
-        ? 'Chinh phục số thập phân, tỉ số phần trăm, diện tích thể tích và toán chuyển động đều cùng 350 bài tập chuẩn bị chuyển cấp Lớp 6!'
-        : 'Khám phá từ đồng nghĩa, từ trái nghĩa, câu ghép, các biện pháp tu từ và cảm thụ văn học đỉnh cao Lớp 5!';
-    }
-    if (isGrade6) {
-      return isMath
-        ? 'Làm chủ tập hợp số nguyên Z, phân số âm, hình học trực quan và xác suất thực nghiệm cùng 350 bài tập chuẩn GDPT 2026!'
-        : 'Khám phá truyện dân gian, truyện đồng thoại, thơ lục bát, văn nghị luận và các biện pháp tu từ nghệ thuật Ngữ Văn 6!';
-    }
-    if (currentGrade === '8') {
-      return isMath
-        ? 'Chinh phục hằng đẳng thức đáng nhớ, phân thức đại số, định lí Thalès, tam giác đồng dạng và hình chóp đều Lớp 8!'
-        : 'Rèn luyện đọc hiểu truyện ngắn hiện đại, thơ trữ tình, hài kịch và viết văn nghị luận xã hội sắc bén Lớp 8!';
-    }
-    if (currentGrade === '9') {
-      return isMath
-        ? 'Ôn thi vào Lớp 10 toàn diện: Rút gọn căn thức, hệ phương trình, định lí Vi-ét, góc với đường tròn và hình trụ nón cầu!'
-        : 'Rèn luyện đọc hiểu tác phẩm trọng tâm, làm chủ đoạn văn NLXH 200 chữ và phân tích văn học bứt phá điểm 9+ thi vào 10!';
-    }
-    if (currentGrade === '10') {
-      return isMath
-        ? 'Làm chủ mệnh đề tập hợp, bất phương trình bậc hai, hệ thức lượng tam giác, vectơ và ba đường Conic theo GDPT Mới 2026!'
-        : 'Khám phá sử thi, thần thoại, thơ ca dân gian, nghệ thuật tuồng chèo và rèn kỹ năng viết bài văn nghị luận Lớp 10!';
-    }
-    if (currentGrade === '11') {
-      return isMath
-        ? 'Chinh phục hàm lượng giác, cấp số cộng/nhân, giới hạn, đạo hàm, hàm số mũ logarit và quan hệ vuông góc không gian Lớp 11!'
-        : 'Cảm thụ phong trào Thơ mới 1932-1945, kiệt tác văn xuôi hiện thực phê phán và phong cách ngôn ngữ học thuật Lớp 11!';
-    }
-    return isMath
-      ? 'Làm chủ số hữu tỉ, số thực, đại số và hình học tam giác cùng hơn 350 bài tập phân cấp độ khó chuẩn chương trình GDPT 2026!'
-      : 'Rèn luyện đọc hiểu thơ văn, làm chủ tiếng Việt và phân tích văn bản cùng 350+ câu hỏi và đề thi chuẩn GDPT mới nhất 2026!';
+
+    // Generic fallback for all other new subjects
+    let list = primarySubjectsList;
+    if (isHighSchool) list = highSchoolSubjectsList;
+    else if (isSecondary) list = secondarySubjectsList;
+    
+    const subj = list.find(s => s.id === currentSubject);
+    const subjName = subj ? subj.label : 'môn học này';
+    
+    return `Khám phá các chủ đề trọng tâm, rèn luyện kỹ năng giải bài tập và làm bài thi tự tin bứt phá điểm số ${subjName}!`;
   };
 
   
