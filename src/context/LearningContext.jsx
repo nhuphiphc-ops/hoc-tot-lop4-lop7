@@ -45,11 +45,22 @@ import { STAGES_IT4, TOPIC_CATEGORIES_IT4, WEEKS_METADATA_IT4, QUESTION_BANK_IT4
 import { STAGES_CIV4, TOPIC_CATEGORIES_CIV4, WEEKS_METADATA_CIV4, QUESTION_BANK_CIV4, getQuestionsByWeekCiv4, getFilteredQuestionsCiv4 }  from '../data/grade4/civics/questionBankCiv4.js';
 import { STAGES_TECH4, TOPIC_CATEGORIES_TECH4, WEEKS_METADATA_TECH4, QUESTION_BANK_TECH4, getQuestionsByWeekTech4, getFilteredQuestionsTech4 }  from '../data/grade4/technology/questionBankTech4.js';
 
+
+// Grade 5 Additional Subjects
+import { STAGES_ENG5, TOPIC_CATEGORIES_ENG5, WEEKS_METADATA_ENG5, QUESTION_BANK_ENG5, getQuestionsByWeekEng5, getFilteredQuestionsEng5 }  from '../data/grade5/english/questionBankEng5.js';
+import { STAGES_SCI5, TOPIC_CATEGORIES_SCI5, WEEKS_METADATA_SCI5, QUESTION_BANK_SCI5, getQuestionsByWeekSci5, getFilteredQuestionsSci5 }  from '../data/grade5/science/questionBankSci5.js';
+import { STAGES_HG5, TOPIC_CATEGORIES_HG5, WEEKS_METADATA_HG5, QUESTION_BANK_HG5, getQuestionsByWeekHG5, getFilteredQuestionsHG5 }  from '../data/grade5/history_geo/questionBankHG5.js';
+import { STAGES_IT5, TOPIC_CATEGORIES_IT5, WEEKS_METADATA_IT5, QUESTION_BANK_IT5, getQuestionsByWeekIT5, getFilteredQuestionsIT5 }  from '../data/grade5/informatics/questionBankIT5.js';
+import { STAGES_CIV5, TOPIC_CATEGORIES_CIV5, WEEKS_METADATA_CIV5, QUESTION_BANK_CIV5, getQuestionsByWeekCiv5, getFilteredQuestionsCiv5 }  from '../data/grade5/civics/questionBankCiv5.js';
+import { STAGES_TECH5, TOPIC_CATEGORIES_TECH5, WEEKS_METADATA_TECH5, QUESTION_BANK_TECH5, getQuestionsByWeekTech5, getFilteredQuestionsTech5 }  from '../data/grade5/technology/questionBankTech5.js';
+
 // Grade 5 Data
 import { STAGES_MATH5, TOPIC_CATEGORIES_MATH5, WEEKS_METADATA_MATH5, QUESTION_BANK_MATH5, getQuestionsByWeekMath5, getFilteredQuestionsMath5 } from '../data/grade5/math/questionBankMath5.js';
 import { STAGES_TV5, TOPIC_CATEGORIES_TV5, WEEKS_METADATA_TV5, QUESTION_BANK_TV5, getQuestionsByWeekTV5, getFilteredQuestionsTV5 } from '../data/grade5/vietnamese/questionBankTV5.js';
 
-// Grade 6 Data
+
+
+    // Grade 6 Data
 import { STAGES_MATH6, TOPIC_CATEGORIES_MATH6, WEEKS_METADATA_MATH6, QUESTION_BANK_MATH6, getQuestionsByWeekMath6, getFilteredQuestionsMath6 } from '../data/grade6/math/questionBankMath6.js';
 import { STAGES_LIT6, TOPIC_CATEGORIES_LIT6, WEEKS_METADATA_LIT6, QUESTION_BANK_LIT6, getQuestionsByWeekLit6, getFilteredQuestionsLit6 } from '../data/grade6/literature/questionBankLit6.js';
 
@@ -618,7 +629,23 @@ export const LearningProvider = ({ children }) => {
     } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; }
   });
 
-  // Progress Stores - Grade 6
+  
+  // Grade 5 Extended Subjects
+  const [g5EngProgress, setG5EngProgress] = useState(() => JSON.parse(localStorage.getItem('g5EngProgress')) || {});
+  const [g5SciProgress, setG5SciProgress] = useState(() => JSON.parse(localStorage.getItem('g5SciProgress')) || {});
+  const [g5HgProgress, setG5HgProgress] = useState(() => JSON.parse(localStorage.getItem('g5HgProgress')) || {});
+  const [g5ItProgress, setG5ItProgress] = useState(() => JSON.parse(localStorage.getItem('g5ItProgress')) || {});
+  const [g5CivProgress, setG5CivProgress] = useState(() => JSON.parse(localStorage.getItem('g5CivProgress')) || {});
+  const [g5TechProgress, setG5TechProgress] = useState(() => JSON.parse(localStorage.getItem('g5TechProgress')) || {});
+
+  useEffect(() => { localStorage.setItem('g5EngProgress', JSON.stringify(g5EngProgress)); }, [g5EngProgress]);
+  useEffect(() => { localStorage.setItem('g5SciProgress', JSON.stringify(g5SciProgress)); }, [g5SciProgress]);
+  useEffect(() => { localStorage.setItem('g5HgProgress', JSON.stringify(g5HgProgress)); }, [g5HgProgress]);
+  useEffect(() => { localStorage.setItem('g5ItProgress', JSON.stringify(g5ItProgress)); }, [g5ItProgress]);
+  useEffect(() => { localStorage.setItem('g5CivProgress', JSON.stringify(g5CivProgress)); }, [g5CivProgress]);
+  useEffect(() => { localStorage.setItem('g5TechProgress', JSON.stringify(g5TechProgress)); }, [g5TechProgress]);
+
+// Progress Stores - Grade 6
   const [g6MathProgress, setG6MathProgress] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS_G6_MATH);
@@ -1430,7 +1457,17 @@ export const LearningProvider = ({ children }) => {
         if (currentSubject === 'technology') return STAGES_TECH4;
         return [];
       }
-    if (isGrade5) { if (currentSubject === 'math') return STAGES_MATH5; if (currentSubject === 'vietnamese') return STAGES_TV5; return []; }
+    if (isGrade5) {
+      if (currentSubject === 'math5') return getQuestionsByWeekMath5(weekNum);
+      if (currentSubject === 'tv5') return getQuestionsByWeekTV5(weekNum);
+      if (currentSubject === 'english') return getQuestionsByWeekEng5(weekNum);
+      if (currentSubject === 'science') return getQuestionsByWeekSci5(weekNum);
+      if (currentSubject === 'history_geo') return getQuestionsByWeekHG5(weekNum);
+      if (currentSubject === 'informatics') return getQuestionsByWeekIT5(weekNum);
+      if (currentSubject === 'civics') return getQuestionsByWeekCiv5(weekNum);
+      if (currentSubject === 'technology') return getQuestionsByWeekTech5(weekNum);
+      return [];
+    }
     if (isGrade6) { if (currentSubject === 'math') return STAGES_MATH6; if (currentSubject === 'vietnamese') return STAGES_LIT6; return []; }
     if (isGrade7) {
       if (currentSubject === 'math') return STAGES_MATH7;
