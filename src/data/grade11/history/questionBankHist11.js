@@ -1,12 +1,12 @@
-// Dữ liệu môn Tiếng Anh 8
-export const STAGES_ENG8 = [
+// Dữ liệu môn Lịch sử 11
+export const STAGES_HIST11 = [
     { "id": 1, "title": "Chặng 1: Khởi động", "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9] },
     { "id": 2, "title": "Chặng 2: Khám phá", "weeks": [10, 11, 12, 13, 14, 15, 16, 17, 18] },
     { "id": 3, "title": "Chặng 3: Bứt phá", "weeks": [19, 20, 21, 22, 23, 24, 25, 26, 27] },
     { "id": 4, "title": "Chặng 4: Chinh phục", "weeks": [28, 29, 30, 31, 32, 33, 34, 35] }
   ];
 
-export const WEEKS_METADATA_ENG8 = {
+export const WEEKS_METADATA_HIST11 = {
   "1": { "title": "Bài Học Tuần 1", "desc": "Nắm vững kiến thức tuần 1 chuẩn GDPT 2026." },
   "2": { "title": "Bài Học Tuần 2", "desc": "Nắm vững kiến thức tuần 2 chuẩn GDPT 2026." },
   "3": { "title": "Bài Học Tuần 3", "desc": "Nắm vững kiến thức tuần 3 chuẩn GDPT 2026." },
@@ -44,17 +44,17 @@ export const WEEKS_METADATA_ENG8 = {
   "35": { "title": "Bài Học Tuần 35", "desc": "Nắm vững kiến thức tuần 35 chuẩn GDPT 2026." }
 };
 
-export const TOPIC_CATEGORIES_ENG8 = [
+export const TOPIC_CATEGORIES_HIST11 = [
   { id: "all", label: "Tất cả chủ đề", icon: "📚" },
   { id: "knowledge", label: "Kiến thức trọng tâm", icon: "🎯" }
 ];
 
-export const QUESTION_BANK_ENG8 = [
+export const QUESTION_BANK_HIST11 = [
   {
-    "id": "Eng8_W1_Q1",
+    "id": "Hist11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 1 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 1 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -67,10 +67,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W1_Q2",
+    "id": "Hist11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 1 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 1 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -83,10 +83,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W2_Q1",
+    "id": "Hist11_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 2 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 2 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -99,10 +99,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W2_Q2",
+    "id": "Hist11_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 2 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 2 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -115,10 +115,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W3_Q1",
+    "id": "Hist11_W3_Q1",
     "week": 3,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 3 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 3 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -131,10 +131,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W3_Q2",
+    "id": "Hist11_W3_Q2",
     "week": 3,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 3 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 3 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -147,10 +147,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W4_Q1",
+    "id": "Hist11_W4_Q1",
     "week": 4,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 4 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 4 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -163,10 +163,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W4_Q2",
+    "id": "Hist11_W4_Q2",
     "week": 4,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 4 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 4 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -179,10 +179,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W5_Q1",
+    "id": "Hist11_W5_Q1",
     "week": 5,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 5 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 5 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -195,10 +195,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W5_Q2",
+    "id": "Hist11_W5_Q2",
     "week": 5,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 5 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 5 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -211,10 +211,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W6_Q1",
+    "id": "Hist11_W6_Q1",
     "week": 6,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 6 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 6 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -227,10 +227,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W6_Q2",
+    "id": "Hist11_W6_Q2",
     "week": 6,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 6 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 6 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -243,10 +243,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W7_Q1",
+    "id": "Hist11_W7_Q1",
     "week": 7,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 7 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 7 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -259,10 +259,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W7_Q2",
+    "id": "Hist11_W7_Q2",
     "week": 7,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 7 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 7 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -275,10 +275,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W8_Q1",
+    "id": "Hist11_W8_Q1",
     "week": 8,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 8 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 8 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -291,10 +291,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W8_Q2",
+    "id": "Hist11_W8_Q2",
     "week": 8,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 8 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 8 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -307,10 +307,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W9_Q1",
+    "id": "Hist11_W9_Q1",
     "week": 9,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 9 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 9 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -323,10 +323,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W9_Q2",
+    "id": "Hist11_W9_Q2",
     "week": 9,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 9 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 9 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -339,10 +339,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W10_Q1",
+    "id": "Hist11_W10_Q1",
     "week": 10,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 10 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 10 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -355,10 +355,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W10_Q2",
+    "id": "Hist11_W10_Q2",
     "week": 10,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 10 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 10 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -371,10 +371,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W11_Q1",
+    "id": "Hist11_W11_Q1",
     "week": 11,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 11 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 11 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -387,10 +387,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W11_Q2",
+    "id": "Hist11_W11_Q2",
     "week": 11,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 11 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 11 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -403,10 +403,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W12_Q1",
+    "id": "Hist11_W12_Q1",
     "week": 12,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 12 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 12 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -419,10 +419,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W12_Q2",
+    "id": "Hist11_W12_Q2",
     "week": 12,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 12 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 12 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -435,10 +435,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W13_Q1",
+    "id": "Hist11_W13_Q1",
     "week": 13,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 13 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 13 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -451,10 +451,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W13_Q2",
+    "id": "Hist11_W13_Q2",
     "week": 13,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 13 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 13 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -467,10 +467,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W14_Q1",
+    "id": "Hist11_W14_Q1",
     "week": 14,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 14 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 14 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -483,10 +483,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W14_Q2",
+    "id": "Hist11_W14_Q2",
     "week": 14,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 14 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 14 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -499,10 +499,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W15_Q1",
+    "id": "Hist11_W15_Q1",
     "week": 15,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 15 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 15 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -515,10 +515,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W15_Q2",
+    "id": "Hist11_W15_Q2",
     "week": 15,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 15 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 15 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -531,10 +531,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W16_Q1",
+    "id": "Hist11_W16_Q1",
     "week": 16,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 16 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 16 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -547,10 +547,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W16_Q2",
+    "id": "Hist11_W16_Q2",
     "week": 16,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 16 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 16 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -563,10 +563,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W17_Q1",
+    "id": "Hist11_W17_Q1",
     "week": 17,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 17 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 17 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -579,10 +579,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W17_Q2",
+    "id": "Hist11_W17_Q2",
     "week": 17,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 17 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 17 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -595,10 +595,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W18_Q1",
+    "id": "Hist11_W18_Q1",
     "week": 18,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 18 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 18 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -611,10 +611,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W18_Q2",
+    "id": "Hist11_W18_Q2",
     "week": 18,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 18 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 18 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -627,10 +627,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W19_Q1",
+    "id": "Hist11_W19_Q1",
     "week": 19,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 19 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 19 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -643,10 +643,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W19_Q2",
+    "id": "Hist11_W19_Q2",
     "week": 19,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 19 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 19 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -659,10 +659,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W20_Q1",
+    "id": "Hist11_W20_Q1",
     "week": 20,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 20 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 20 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -675,10 +675,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W20_Q2",
+    "id": "Hist11_W20_Q2",
     "week": 20,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 20 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 20 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -691,10 +691,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W21_Q1",
+    "id": "Hist11_W21_Q1",
     "week": 21,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 21 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 21 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -707,10 +707,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W21_Q2",
+    "id": "Hist11_W21_Q2",
     "week": 21,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 21 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 21 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -723,10 +723,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W22_Q1",
+    "id": "Hist11_W22_Q1",
     "week": 22,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 22 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 22 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -739,10 +739,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W22_Q2",
+    "id": "Hist11_W22_Q2",
     "week": 22,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 22 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 22 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -755,10 +755,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W23_Q1",
+    "id": "Hist11_W23_Q1",
     "week": 23,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 23 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 23 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -771,10 +771,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W23_Q2",
+    "id": "Hist11_W23_Q2",
     "week": 23,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 23 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 23 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -787,10 +787,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W24_Q1",
+    "id": "Hist11_W24_Q1",
     "week": 24,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 24 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 24 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -803,10 +803,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W24_Q2",
+    "id": "Hist11_W24_Q2",
     "week": 24,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 24 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 24 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -819,10 +819,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W25_Q1",
+    "id": "Hist11_W25_Q1",
     "week": 25,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 25 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 25 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -835,10 +835,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W25_Q2",
+    "id": "Hist11_W25_Q2",
     "week": 25,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 25 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 25 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -851,10 +851,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W26_Q1",
+    "id": "Hist11_W26_Q1",
     "week": 26,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 26 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 26 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -867,10 +867,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W26_Q2",
+    "id": "Hist11_W26_Q2",
     "week": 26,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 26 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 26 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -883,10 +883,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W27_Q1",
+    "id": "Hist11_W27_Q1",
     "week": 27,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 27 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 27 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -899,10 +899,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W27_Q2",
+    "id": "Hist11_W27_Q2",
     "week": 27,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 27 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 27 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -915,10 +915,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W28_Q1",
+    "id": "Hist11_W28_Q1",
     "week": 28,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 28 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 28 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -931,10 +931,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W28_Q2",
+    "id": "Hist11_W28_Q2",
     "week": 28,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 28 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 28 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -947,10 +947,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W29_Q1",
+    "id": "Hist11_W29_Q1",
     "week": 29,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 29 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 29 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -963,10 +963,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W29_Q2",
+    "id": "Hist11_W29_Q2",
     "week": 29,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 29 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 29 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -979,10 +979,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W30_Q1",
+    "id": "Hist11_W30_Q1",
     "week": 30,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 30 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 30 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -995,10 +995,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W30_Q2",
+    "id": "Hist11_W30_Q2",
     "week": 30,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 30 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 30 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1011,10 +1011,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W31_Q1",
+    "id": "Hist11_W31_Q1",
     "week": 31,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 31 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 31 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1027,10 +1027,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W31_Q2",
+    "id": "Hist11_W31_Q2",
     "week": 31,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 31 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 31 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1043,10 +1043,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W32_Q1",
+    "id": "Hist11_W32_Q1",
     "week": 32,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 32 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 32 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1059,10 +1059,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W32_Q2",
+    "id": "Hist11_W32_Q2",
     "week": 32,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 32 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 32 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1075,10 +1075,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W33_Q1",
+    "id": "Hist11_W33_Q1",
     "week": 33,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 33 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 33 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1091,10 +1091,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W33_Q2",
+    "id": "Hist11_W33_Q2",
     "week": 33,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 33 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 33 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1107,10 +1107,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W34_Q1",
+    "id": "Hist11_W34_Q1",
     "week": 34,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 34 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 34 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1123,10 +1123,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W34_Q2",
+    "id": "Hist11_W34_Q2",
     "week": 34,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 34 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 34 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1139,10 +1139,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W35_Q1",
+    "id": "Hist11_W35_Q1",
     "week": 35,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 35 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 35 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1155,10 +1155,10 @@ export const QUESTION_BANK_ENG8 = [
     "category": "knowledge"
   },
   {
-    "id": "Eng8_W35_Q2",
+    "id": "Hist11_W35_Q2",
     "week": 35,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 35 - Tiếng Anh 8 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi bài tập tuần 35 - Lịch sử 11 (Chuẩn GDPT 2026)?",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1172,12 +1172,12 @@ export const QUESTION_BANK_ENG8 = [
   }
 ];
 
-export const getQuestionsByWeekEng8 = (week) => {
-  return QUESTION_BANK_ENG8.filter(q => q.week === parseInt(week));
+export const getQuestionsByWeekHist11 = (week) => {
+  return QUESTION_BANK_HIST11.filter(q => q.week === parseInt(week));
 };
 
-export const getFilteredQuestionsEng8 = ({ category, week }) => {
-  let filtered = QUESTION_BANK_ENG8;
+export const getFilteredQuestionsHist11 = ({ category, week }) => {
+  let filtered = QUESTION_BANK_HIST11;
   if (category && category !== 'all') {
     filtered = filtered.filter(q => q.category === category);
   }

@@ -85,18 +85,48 @@ import { STAGES_TECH7, TOPIC_CATEGORIES_TECH7, WEEKS_METADATA_TECH7, QUESTION_BA
 // Grade 8 Data
 import { STAGES_MATH8, TOPIC_CATEGORIES_MATH8, WEEKS_METADATA_MATH8, QUESTION_BANK_MATH8, getQuestionsByWeekMath8, getFilteredQuestionsMath8 } from '../data/grade8/math/questionBankMath8.js';
 import { STAGES_LIT8, TOPIC_CATEGORIES_LIT8, WEEKS_METADATA_LIT8, QUESTION_BANK_LIT8, getQuestionsByWeekLit8, getFilteredQuestionsLit8 } from '../data/grade8/literature/questionBankLit8.js';
+import { STAGES_ENG8, TOPIC_CATEGORIES_ENG8, WEEKS_METADATA_ENG8, QUESTION_BANK_ENG8, getQuestionsByWeekEng8, getFilteredQuestionsEng8 } from '../data/grade8/english/questionBankEng8.js';
+import { STAGES_SCI8, TOPIC_CATEGORIES_SCI8, WEEKS_METADATA_SCI8, QUESTION_BANK_SCI8, getQuestionsByWeekSci8, getFilteredQuestionsSci8 } from '../data/grade8/science/questionBankSci8.js';
+import { STAGES_HG8, TOPIC_CATEGORIES_HG8, WEEKS_METADATA_HG8, QUESTION_BANK_HG8, getQuestionsByWeekHG8, getFilteredQuestionsHG8 } from '../data/grade8/history_geo/questionBankHG8.js';
+import { STAGES_IT8, TOPIC_CATEGORIES_IT8, WEEKS_METADATA_IT8, QUESTION_BANK_IT8, getQuestionsByWeekIT8, getFilteredQuestionsIT8 } from '../data/grade8/informatics/questionBankIT8.js';
+import { STAGES_CIV8, TOPIC_CATEGORIES_CIV8, WEEKS_METADATA_CIV8, QUESTION_BANK_CIV8, getQuestionsByWeekCiv8, getFilteredQuestionsCiv8 } from '../data/grade8/civics/questionBankCiv8.js';
+import { STAGES_TECH8, TOPIC_CATEGORIES_TECH8, WEEKS_METADATA_TECH8, QUESTION_BANK_TECH8, getQuestionsByWeekTech8, getFilteredQuestionsTech8 } from '../data/grade8/technology/questionBankTech8.js';
 
 // Grade 9 Data
 import { STAGES_MATH9, TOPIC_CATEGORIES_MATH9, WEEKS_METADATA_MATH9, QUESTION_BANK_MATH9, getQuestionsByWeekMath9, getFilteredQuestionsMath9 } from '../data/grade9/math/questionBankMath9.js';
 import { STAGES_LIT9, TOPIC_CATEGORIES_LIT9, WEEKS_METADATA_LIT9, QUESTION_BANK_LIT9, getQuestionsByWeekLit9, getFilteredQuestionsLit9 } from '../data/grade9/literature/questionBankLit9.js';
+import { STAGES_ENG9, TOPIC_CATEGORIES_ENG9, WEEKS_METADATA_ENG9, QUESTION_BANK_ENG9, getQuestionsByWeekEng9, getFilteredQuestionsEng9 } from '../data/grade9/english/questionBankEng9.js';
+import { STAGES_SCI9, TOPIC_CATEGORIES_SCI9, WEEKS_METADATA_SCI9, QUESTION_BANK_SCI9, getQuestionsByWeekSci9, getFilteredQuestionsSci9 } from '../data/grade9/science/questionBankSci9.js';
+import { STAGES_HG9, TOPIC_CATEGORIES_HG9, WEEKS_METADATA_HG9, QUESTION_BANK_HG9, getQuestionsByWeekHG9, getFilteredQuestionsHG9 } from '../data/grade9/history_geo/questionBankHG9.js';
+import { STAGES_IT9, TOPIC_CATEGORIES_IT9, WEEKS_METADATA_IT9, QUESTION_BANK_IT9, getQuestionsByWeekIT9, getFilteredQuestionsIT9 } from '../data/grade9/informatics/questionBankIT9.js';
+import { STAGES_CIV9, TOPIC_CATEGORIES_CIV9, WEEKS_METADATA_CIV9, QUESTION_BANK_CIV9, getQuestionsByWeekCiv9, getFilteredQuestionsCiv9 } from '../data/grade9/civics/questionBankCiv9.js';
+import { STAGES_TECH9, TOPIC_CATEGORIES_TECH9, WEEKS_METADATA_TECH9, QUESTION_BANK_TECH9, getQuestionsByWeekTech9, getFilteredQuestionsTech9 } from '../data/grade9/technology/questionBankTech9.js';
 
 // Grade 10 Data
 import { STAGES_MATH10, TOPIC_CATEGORIES_MATH10, WEEKS_METADATA_MATH10, QUESTION_BANK_MATH10, getQuestionsByWeekMath10, getFilteredQuestionsMath10 } from '../data/grade10/math/questionBankMath10.js';
 import { STAGES_LIT10, TOPIC_CATEGORIES_LIT10, WEEKS_METADATA_LIT10, QUESTION_BANK_LIT10, getQuestionsByWeekLit10, getFilteredQuestionsLit10 } from '../data/grade10/literature/questionBankLit10.js';
+import { STAGES_ENG10, TOPIC_CATEGORIES_ENG10, WEEKS_METADATA_ENG10, QUESTION_BANK_ENG10, getQuestionsByWeekEng10, getFilteredQuestionsEng10 } from '../data/grade10/english/questionBankEng10.js';
+import { STAGES_PHY10, TOPIC_CATEGORIES_PHY10, WEEKS_METADATA_PHY10, QUESTION_BANK_PHY10, getQuestionsByWeekPhy10, getFilteredQuestionsPhy10 } from '../data/grade10/physics/questionBankPhy10.js';
+import { STAGES_CHEM10, TOPIC_CATEGORIES_CHEM10, WEEKS_METADATA_CHEM10, QUESTION_BANK_CHEM10, getQuestionsByWeekChem10, getFilteredQuestionsChem10 } from '../data/grade10/chemistry/questionBankChem10.js';
+import { STAGES_BIO10, TOPIC_CATEGORIES_BIO10, WEEKS_METADATA_BIO10, QUESTION_BANK_BIO10, getQuestionsByWeekBio10, getFilteredQuestionsBio10 } from '../data/grade10/biology/questionBankBio10.js';
+import { STAGES_HIST10, TOPIC_CATEGORIES_HIST10, WEEKS_METADATA_HIST10, QUESTION_BANK_HIST10, getQuestionsByWeekHist10, getFilteredQuestionsHist10 } from '../data/grade10/history/questionBankHist10.js';
+import { STAGES_GEO10, TOPIC_CATEGORIES_GEO10, WEEKS_METADATA_GEO10, QUESTION_BANK_GEO10, getQuestionsByWeekGeo10, getFilteredQuestionsGeo10 } from '../data/grade10/geography/questionBankGeo10.js';
+import { STAGES_ECONLAW10, TOPIC_CATEGORIES_ECONLAW10, WEEKS_METADATA_ECONLAW10, QUESTION_BANK_ECONLAW10, getQuestionsByWeekEconLaw10, getFilteredQuestionsEconLaw10 } from '../data/grade10/econ_law/questionBankEconLaw10.js';
+import { STAGES_CS10, TOPIC_CATEGORIES_CS10, WEEKS_METADATA_CS10, QUESTION_BANK_CS10, getQuestionsByWeekCS10, getFilteredQuestionsCS10 } from '../data/grade10/informatics/questionBankCS10.js';
+import { STAGES_TECH10, TOPIC_CATEGORIES_TECH10, WEEKS_METADATA_TECH10, QUESTION_BANK_TECH10, getQuestionsByWeekTech10, getFilteredQuestionsTech10 } from '../data/grade10/technology/questionBankTech10.js';
 
 // Grade 11 Data
 import { STAGES_MATH11, TOPIC_CATEGORIES_MATH11, WEEKS_METADATA_MATH11, QUESTION_BANK_MATH11, getQuestionsByWeekMath11, getFilteredQuestionsMath11 } from '../data/grade11/math/questionBankMath11.js';
 import { STAGES_LIT11, TOPIC_CATEGORIES_LIT11, WEEKS_METADATA_LIT11, QUESTION_BANK_LIT11, getQuestionsByWeekLit11, getFilteredQuestionsLit11 } from '../data/grade11/literature/questionBankLit11.js';
+import { STAGES_ENG11, TOPIC_CATEGORIES_ENG11, WEEKS_METADATA_ENG11, QUESTION_BANK_ENG11, getQuestionsByWeekEng11, getFilteredQuestionsEng11 } from '../data/grade11/english/questionBankEng11.js';
+import { STAGES_PHY11, TOPIC_CATEGORIES_PHY11, WEEKS_METADATA_PHY11, QUESTION_BANK_PHY11, getQuestionsByWeekPhy11, getFilteredQuestionsPhy11 } from '../data/grade11/physics/questionBankPhy11.js';
+import { STAGES_CHEM11, TOPIC_CATEGORIES_CHEM11, WEEKS_METADATA_CHEM11, QUESTION_BANK_CHEM11, getQuestionsByWeekChem11, getFilteredQuestionsChem11 } from '../data/grade11/chemistry/questionBankChem11.js';
+import { STAGES_BIO11, TOPIC_CATEGORIES_BIO11, WEEKS_METADATA_BIO11, QUESTION_BANK_BIO11, getQuestionsByWeekBio11, getFilteredQuestionsBio11 } from '../data/grade11/biology/questionBankBio11.js';
+import { STAGES_HIST11, TOPIC_CATEGORIES_HIST11, WEEKS_METADATA_HIST11, QUESTION_BANK_HIST11, getQuestionsByWeekHist11, getFilteredQuestionsHist11 } from '../data/grade11/history/questionBankHist11.js';
+import { STAGES_GEO11, TOPIC_CATEGORIES_GEO11, WEEKS_METADATA_GEO11, QUESTION_BANK_GEO11, getQuestionsByWeekGeo11, getFilteredQuestionsGeo11 } from '../data/grade11/geography/questionBankGeo11.js';
+import { STAGES_ECONLAW11, TOPIC_CATEGORIES_ECONLAW11, WEEKS_METADATA_ECONLAW11, QUESTION_BANK_ECONLAW11, getQuestionsByWeekEconLaw11, getFilteredQuestionsEconLaw11 } from '../data/grade11/econ_law/questionBankEconLaw11.js';
+import { STAGES_CS11, TOPIC_CATEGORIES_CS11, WEEKS_METADATA_CS11, QUESTION_BANK_CS11, getQuestionsByWeekCS11, getFilteredQuestionsCS11 } from '../data/grade11/informatics/questionBankCS11.js';
+import { STAGES_TECH11, TOPIC_CATEGORIES_TECH11, WEEKS_METADATA_TECH11, QUESTION_BANK_TECH11, getQuestionsByWeekTech11, getFilteredQuestionsTech11 } from '../data/grade11/technology/questionBankTech11.js';
 
 
 // Grade 12 (THPT 2026) Data - 11 Subjects for Nguyen Nhat Minh
@@ -1136,21 +1166,141 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G7_TECH, JSON.stringify(g7TechProgress)); }, [g7TechProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G8_MATH, JSON.stringify(g8MathProgress)); }, [g8MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G8_LIT, JSON.stringify(g8LitProgress)); }, [g8LitProgress]);
+  const [g8EngProgress, setG8EngProgress] = useState(() => { try { const s = localStorage.getItem('g8EngProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g8SciProgress, setG8SciProgress] = useState(() => { try { const s = localStorage.getItem('g8SciProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g8HGProgress, setG8HGProgress] = useState(() => { try { const s = localStorage.getItem('g8HGProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g8ITProgress, setG8ITProgress] = useState(() => { try { const s = localStorage.getItem('g8ITProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g8CivProgress, setG8CivProgress] = useState(() => { try { const s = localStorage.getItem('g8CivProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g8TechProgress, setG8TechProgress] = useState(() => { try { const s = localStorage.getItem('g8TechProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  useEffect(() => { localStorage.setItem('g8EngProgress', JSON.stringify(g8EngProgress)); }, [g8EngProgress]);
+  useEffect(() => { localStorage.setItem('g8SciProgress', JSON.stringify(g8SciProgress)); }, [g8SciProgress]);
+  useEffect(() => { localStorage.setItem('g8HGProgress', JSON.stringify(g8HGProgress)); }, [g8HGProgress]);
+  useEffect(() => { localStorage.setItem('g8ITProgress', JSON.stringify(g8ITProgress)); }, [g8ITProgress]);
+  useEffect(() => { localStorage.setItem('g8CivProgress', JSON.stringify(g8CivProgress)); }, [g8CivProgress]);
+  useEffect(() => { localStorage.setItem('g8TechProgress', JSON.stringify(g8TechProgress)); }, [g8TechProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G9_MATH, JSON.stringify(g9MathProgress)); }, [g9MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G9_LIT, JSON.stringify(g9LitProgress)); }, [g9LitProgress]);
+  const [g9EngProgress, setG9EngProgress] = useState(() => { try { const s = localStorage.getItem('g9EngProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g9SciProgress, setG9SciProgress] = useState(() => { try { const s = localStorage.getItem('g9SciProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g9HGProgress, setG9HGProgress] = useState(() => { try { const s = localStorage.getItem('g9HGProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g9ITProgress, setG9ITProgress] = useState(() => { try { const s = localStorage.getItem('g9ITProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g9CivProgress, setG9CivProgress] = useState(() => { try { const s = localStorage.getItem('g9CivProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g9TechProgress, setG9TechProgress] = useState(() => { try { const s = localStorage.getItem('g9TechProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  useEffect(() => { localStorage.setItem('g9EngProgress', JSON.stringify(g9EngProgress)); }, [g9EngProgress]);
+  useEffect(() => { localStorage.setItem('g9SciProgress', JSON.stringify(g9SciProgress)); }, [g9SciProgress]);
+  useEffect(() => { localStorage.setItem('g9HGProgress', JSON.stringify(g9HGProgress)); }, [g9HGProgress]);
+  useEffect(() => { localStorage.setItem('g9ITProgress', JSON.stringify(g9ITProgress)); }, [g9ITProgress]);
+  useEffect(() => { localStorage.setItem('g9CivProgress', JSON.stringify(g9CivProgress)); }, [g9CivProgress]);
+  useEffect(() => { localStorage.setItem('g9TechProgress', JSON.stringify(g9TechProgress)); }, [g9TechProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G10_MATH, JSON.stringify(g10MathProgress)); }, [g10MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G10_LIT, JSON.stringify(g10LitProgress)); }, [g10LitProgress]);
+  const [g10EngProgress, setG10EngProgress] = useState(() => { try { const s = localStorage.getItem('g10EngProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10PhyProgress, setG10PhyProgress] = useState(() => { try { const s = localStorage.getItem('g10PhyProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10ChemProgress, setG10ChemProgress] = useState(() => { try { const s = localStorage.getItem('g10ChemProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10BioProgress, setG10BioProgress] = useState(() => { try { const s = localStorage.getItem('g10BioProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10HistProgress, setG10HistProgress] = useState(() => { try { const s = localStorage.getItem('g10HistProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10GeoProgress, setG10GeoProgress] = useState(() => { try { const s = localStorage.getItem('g10GeoProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10EconLawProgress, setG10EconLawProgress] = useState(() => { try { const s = localStorage.getItem('g10EconLawProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10CSProgress, setG10CSProgress] = useState(() => { try { const s = localStorage.getItem('g10CSProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g10TechProgress, setG10TechProgress] = useState(() => { try { const s = localStorage.getItem('g10TechProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  useEffect(() => { localStorage.setItem('g10EngProgress', JSON.stringify(g10EngProgress)); }, [g10EngProgress]);
+  useEffect(() => { localStorage.setItem('g10PhyProgress', JSON.stringify(g10PhyProgress)); }, [g10PhyProgress]);
+  useEffect(() => { localStorage.setItem('g10ChemProgress', JSON.stringify(g10ChemProgress)); }, [g10ChemProgress]);
+  useEffect(() => { localStorage.setItem('g10BioProgress', JSON.stringify(g10BioProgress)); }, [g10BioProgress]);
+  useEffect(() => { localStorage.setItem('g10HistProgress', JSON.stringify(g10HistProgress)); }, [g10HistProgress]);
+  useEffect(() => { localStorage.setItem('g10GeoProgress', JSON.stringify(g10GeoProgress)); }, [g10GeoProgress]);
+  useEffect(() => { localStorage.setItem('g10EconLawProgress', JSON.stringify(g10EconLawProgress)); }, [g10EconLawProgress]);
+  useEffect(() => { localStorage.setItem('g10CSProgress', JSON.stringify(g10CSProgress)); }, [g10CSProgress]);
+  useEffect(() => { localStorage.setItem('g10TechProgress', JSON.stringify(g10TechProgress)); }, [g10TechProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G11_MATH, JSON.stringify(g11MathProgress)); }, [g11MathProgress]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G11_LIT, JSON.stringify(g11LitProgress)); }, [g11LitProgress]);
+  const [g11EngProgress, setG11EngProgress] = useState(() => { try { const s = localStorage.getItem('g11EngProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11PhyProgress, setG11PhyProgress] = useState(() => { try { const s = localStorage.getItem('g11PhyProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11ChemProgress, setG11ChemProgress] = useState(() => { try { const s = localStorage.getItem('g11ChemProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11BioProgress, setG11BioProgress] = useState(() => { try { const s = localStorage.getItem('g11BioProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11HistProgress, setG11HistProgress] = useState(() => { try { const s = localStorage.getItem('g11HistProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11GeoProgress, setG11GeoProgress] = useState(() => { try { const s = localStorage.getItem('g11GeoProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11EconLawProgress, setG11EconLawProgress] = useState(() => { try { const s = localStorage.getItem('g11EconLawProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11CSProgress, setG11CSProgress] = useState(() => { try { const s = localStorage.getItem('g11CSProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  const [g11TechProgress, setG11TechProgress] = useState(() => { try { const s = localStorage.getItem('g11TechProgress'); return s ? JSON.parse(s) : { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } catch { return { 1: { bestScore: 0, stars: 0, attempts: 0, unlocked: true } }; } });
+  useEffect(() => { localStorage.setItem('g11EngProgress', JSON.stringify(g11EngProgress)); }, [g11EngProgress]);
+  useEffect(() => { localStorage.setItem('g11PhyProgress', JSON.stringify(g11PhyProgress)); }, [g11PhyProgress]);
+  useEffect(() => { localStorage.setItem('g11ChemProgress', JSON.stringify(g11ChemProgress)); }, [g11ChemProgress]);
+  useEffect(() => { localStorage.setItem('g11BioProgress', JSON.stringify(g11BioProgress)); }, [g11BioProgress]);
+  useEffect(() => { localStorage.setItem('g11HistProgress', JSON.stringify(g11HistProgress)); }, [g11HistProgress]);
+  useEffect(() => { localStorage.setItem('g11GeoProgress', JSON.stringify(g11GeoProgress)); }, [g11GeoProgress]);
+  useEffect(() => { localStorage.setItem('g11EconLawProgress', JSON.stringify(g11EconLawProgress)); }, [g11EconLawProgress]);
+  useEffect(() => { localStorage.setItem('g11CSProgress', JSON.stringify(g11CSProgress)); }, [g11CSProgress]);
+  useEffect(() => { localStorage.setItem('g11TechProgress', JSON.stringify(g11TechProgress)); }, [g11TechProgress]);
 
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G8_MATH, JSON.stringify(g8MathWrong)); }, [g8MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G8_LIT, JSON.stringify(g8LitWrong)); }, [g8LitWrong]);
+  const [g8EngWrong, setG8EngWrong] = useState(() => { try { const s = localStorage.getItem('g8EngWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g8SciWrong, setG8SciWrong] = useState(() => { try { const s = localStorage.getItem('g8SciWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g8HGWrong, setG8HGWrong] = useState(() => { try { const s = localStorage.getItem('g8HGWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g8ITWrong, setG8ITWrong] = useState(() => { try { const s = localStorage.getItem('g8ITWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g8CivWrong, setG8CivWrong] = useState(() => { try { const s = localStorage.getItem('g8CivWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g8TechWrong, setG8TechWrong] = useState(() => { try { const s = localStorage.getItem('g8TechWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  useEffect(() => { localStorage.setItem('g8EngWrong', JSON.stringify(g8EngWrong)); }, [g8EngWrong]);
+  useEffect(() => { localStorage.setItem('g8SciWrong', JSON.stringify(g8SciWrong)); }, [g8SciWrong]);
+  useEffect(() => { localStorage.setItem('g8HGWrong', JSON.stringify(g8HGWrong)); }, [g8HGWrong]);
+  useEffect(() => { localStorage.setItem('g8ITWrong', JSON.stringify(g8ITWrong)); }, [g8ITWrong]);
+  useEffect(() => { localStorage.setItem('g8CivWrong', JSON.stringify(g8CivWrong)); }, [g8CivWrong]);
+  useEffect(() => { localStorage.setItem('g8TechWrong', JSON.stringify(g8TechWrong)); }, [g8TechWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G9_MATH, JSON.stringify(g9MathWrong)); }, [g9MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G9_LIT, JSON.stringify(g9LitWrong)); }, [g9LitWrong]);
+  const [g9EngWrong, setG9EngWrong] = useState(() => { try { const s = localStorage.getItem('g9EngWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9SciWrong, setG9SciWrong] = useState(() => { try { const s = localStorage.getItem('g9SciWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9HGWrong, setG9HGWrong] = useState(() => { try { const s = localStorage.getItem('g9HGWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9ITWrong, setG9ITWrong] = useState(() => { try { const s = localStorage.getItem('g9ITWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9CivWrong, setG9CivWrong] = useState(() => { try { const s = localStorage.getItem('g9CivWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g9TechWrong, setG9TechWrong] = useState(() => { try { const s = localStorage.getItem('g9TechWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  useEffect(() => { localStorage.setItem('g9EngWrong', JSON.stringify(g9EngWrong)); }, [g9EngWrong]);
+  useEffect(() => { localStorage.setItem('g9SciWrong', JSON.stringify(g9SciWrong)); }, [g9SciWrong]);
+  useEffect(() => { localStorage.setItem('g9HGWrong', JSON.stringify(g9HGWrong)); }, [g9HGWrong]);
+  useEffect(() => { localStorage.setItem('g9ITWrong', JSON.stringify(g9ITWrong)); }, [g9ITWrong]);
+  useEffect(() => { localStorage.setItem('g9CivWrong', JSON.stringify(g9CivWrong)); }, [g9CivWrong]);
+  useEffect(() => { localStorage.setItem('g9TechWrong', JSON.stringify(g9TechWrong)); }, [g9TechWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G10_MATH, JSON.stringify(g10MathWrong)); }, [g10MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G10_LIT, JSON.stringify(g10LitWrong)); }, [g10LitWrong]);
+  const [g10EngWrong, setG10EngWrong] = useState(() => { try { const s = localStorage.getItem('g10EngWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10PhyWrong, setG10PhyWrong] = useState(() => { try { const s = localStorage.getItem('g10PhyWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10ChemWrong, setG10ChemWrong] = useState(() => { try { const s = localStorage.getItem('g10ChemWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10BioWrong, setG10BioWrong] = useState(() => { try { const s = localStorage.getItem('g10BioWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10HistWrong, setG10HistWrong] = useState(() => { try { const s = localStorage.getItem('g10HistWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10GeoWrong, setG10GeoWrong] = useState(() => { try { const s = localStorage.getItem('g10GeoWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10EconLawWrong, setG10EconLawWrong] = useState(() => { try { const s = localStorage.getItem('g10EconLawWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10CSWrong, setG10CSWrong] = useState(() => { try { const s = localStorage.getItem('g10CSWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g10TechWrong, setG10TechWrong] = useState(() => { try { const s = localStorage.getItem('g10TechWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  useEffect(() => { localStorage.setItem('g10EngWrong', JSON.stringify(g10EngWrong)); }, [g10EngWrong]);
+  useEffect(() => { localStorage.setItem('g10PhyWrong', JSON.stringify(g10PhyWrong)); }, [g10PhyWrong]);
+  useEffect(() => { localStorage.setItem('g10ChemWrong', JSON.stringify(g10ChemWrong)); }, [g10ChemWrong]);
+  useEffect(() => { localStorage.setItem('g10BioWrong', JSON.stringify(g10BioWrong)); }, [g10BioWrong]);
+  useEffect(() => { localStorage.setItem('g10HistWrong', JSON.stringify(g10HistWrong)); }, [g10HistWrong]);
+  useEffect(() => { localStorage.setItem('g10GeoWrong', JSON.stringify(g10GeoWrong)); }, [g10GeoWrong]);
+  useEffect(() => { localStorage.setItem('g10EconLawWrong', JSON.stringify(g10EconLawWrong)); }, [g10EconLawWrong]);
+  useEffect(() => { localStorage.setItem('g10CSWrong', JSON.stringify(g10CSWrong)); }, [g10CSWrong]);
+  useEffect(() => { localStorage.setItem('g10TechWrong', JSON.stringify(g10TechWrong)); }, [g10TechWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G11_MATH, JSON.stringify(g11MathWrong)); }, [g11MathWrong]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.WRONG_G11_LIT, JSON.stringify(g11LitWrong)); }, [g11LitWrong]);
+  const [g11EngWrong, setG11EngWrong] = useState(() => { try { const s = localStorage.getItem('g11EngWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11PhyWrong, setG11PhyWrong] = useState(() => { try { const s = localStorage.getItem('g11PhyWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11ChemWrong, setG11ChemWrong] = useState(() => { try { const s = localStorage.getItem('g11ChemWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11BioWrong, setG11BioWrong] = useState(() => { try { const s = localStorage.getItem('g11BioWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11HistWrong, setG11HistWrong] = useState(() => { try { const s = localStorage.getItem('g11HistWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11GeoWrong, setG11GeoWrong] = useState(() => { try { const s = localStorage.getItem('g11GeoWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11EconLawWrong, setG11EconLawWrong] = useState(() => { try { const s = localStorage.getItem('g11EconLawWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11CSWrong, setG11CSWrong] = useState(() => { try { const s = localStorage.getItem('g11CSWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  const [g11TechWrong, setG11TechWrong] = useState(() => { try { const s = localStorage.getItem('g11TechWrong'); return s ? JSON.parse(s) : []; } catch { return []; } });
+  useEffect(() => { localStorage.setItem('g11EngWrong', JSON.stringify(g11EngWrong)); }, [g11EngWrong]);
+  useEffect(() => { localStorage.setItem('g11PhyWrong', JSON.stringify(g11PhyWrong)); }, [g11PhyWrong]);
+  useEffect(() => { localStorage.setItem('g11ChemWrong', JSON.stringify(g11ChemWrong)); }, [g11ChemWrong]);
+  useEffect(() => { localStorage.setItem('g11BioWrong', JSON.stringify(g11BioWrong)); }, [g11BioWrong]);
+  useEffect(() => { localStorage.setItem('g11HistWrong', JSON.stringify(g11HistWrong)); }, [g11HistWrong]);
+  useEffect(() => { localStorage.setItem('g11GeoWrong', JSON.stringify(g11GeoWrong)); }, [g11GeoWrong]);
+  useEffect(() => { localStorage.setItem('g11EconLawWrong', JSON.stringify(g11EconLawWrong)); }, [g11EconLawWrong]);
+  useEffect(() => { localStorage.setItem('g11CSWrong', JSON.stringify(g11CSWrong)); }, [g11CSWrong]);
+  useEffect(() => { localStorage.setItem('g11TechWrong', JSON.stringify(g11TechWrong)); }, [g11TechWrong]);
 
 
   // Grade 12 Sync
@@ -1327,16 +1477,108 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       return g6MathProgress;
     }
     
-    if (isGrade8) return isMath ? g8MathProgress : g8LitProgress;
-    if (isGrade9) return isMath ? g9MathProgress : g9LitProgress;
-    if (isGrade10) return isMath ? g10MathProgress : g10LitProgress;
-    if (isGrade11) return isMath ? g11MathProgress : g11LitProgress;
+    if (isGrade8) {
+      if (currentSubject === 'math') return g8MathProgress;
+      if (currentSubject === 'vietnamese') return g8LitProgress;
+      if (currentSubject === 'english') return g8EngProgress;
+      if (currentSubject === 'science') return g8SciProgress;
+      if (currentSubject === 'history_geo') return g8HGProgress;
+      if (currentSubject === 'informatics') return g8ITProgress;
+      if (currentSubject === 'civics') return g8CivProgress;
+      if (currentSubject === 'technology') return g8TechProgress;
+      return g8MathProgress;
+    }
+    if (isGrade9) {
+      if (currentSubject === 'math') return g9MathProgress;
+      if (currentSubject === 'vietnamese') return g9LitProgress;
+      if (currentSubject === 'english') return g9EngProgress;
+      if (currentSubject === 'science') return g9SciProgress;
+      if (currentSubject === 'history_geo') return g9HGProgress;
+      if (currentSubject === 'informatics') return g9ITProgress;
+      if (currentSubject === 'civics') return g9CivProgress;
+      if (currentSubject === 'technology') return g9TechProgress;
+      return g9MathProgress;
+    }
+    if (isGrade10) {
+      if (currentSubject === 'math') return g10MathProgress;
+      if (currentSubject === 'vietnamese') return g10LitProgress;
+      if (currentSubject === 'english') return g10EngProgress;
+      if (currentSubject === 'physics') return g10PhyProgress;
+      if (currentSubject === 'chemistry') return g10ChemProgress;
+      if (currentSubject === 'biology') return g10BioProgress;
+      if (currentSubject === 'history') return g10HistProgress;
+      if (currentSubject === 'geography') return g10GeoProgress;
+      if (currentSubject === 'econ_law') return g10EconLawProgress;
+      if (currentSubject === 'informatics') return g10CSProgress;
+      if (currentSubject === 'technology') return g10TechProgress;
+      return g10MathProgress;
+    }
+    if (isGrade11) {
+      if (currentSubject === 'math') return g11MathProgress;
+      if (currentSubject === 'vietnamese') return g11LitProgress;
+      if (currentSubject === 'english') return g11EngProgress;
+      if (currentSubject === 'physics') return g11PhyProgress;
+      if (currentSubject === 'chemistry') return g11ChemProgress;
+      if (currentSubject === 'biology') return g11BioProgress;
+      if (currentSubject === 'history') return g11HistProgress;
+      if (currentSubject === 'geography') return g11GeoProgress;
+      if (currentSubject === 'econ_law') return g11EconLawProgress;
+      if (currentSubject === 'informatics') return g11CSProgress;
+      if (currentSubject === 'technology') return g11TechProgress;
+      return g11MathProgress;
+    }
 
     
-    if (isGrade8) return isMath ? g8MathWrong : g8LitWrong;
-    if (isGrade9) return isMath ? g9MathWrong : g9LitWrong;
-    if (isGrade10) return isMath ? g10MathWrong : g10LitWrong;
-    if (isGrade11) return isMath ? g11MathWrong : g11LitWrong;
+    if (isGrade8) {
+      if (currentSubject === 'math') return g8MathWrong;
+      if (currentSubject === 'vietnamese') return g8LitWrong;
+      if (currentSubject === 'english') return g8EngWrong;
+      if (currentSubject === 'science') return g8SciWrong;
+      if (currentSubject === 'history_geo') return g8HGWrong;
+      if (currentSubject === 'informatics') return g8ITWrong;
+      if (currentSubject === 'civics') return g8CivWrong;
+      if (currentSubject === 'technology') return g8TechWrong;
+      return g8MathWrong;
+    }
+    if (isGrade9) {
+      if (currentSubject === 'math') return g9MathWrong;
+      if (currentSubject === 'vietnamese') return g9LitWrong;
+      if (currentSubject === 'english') return g9EngWrong;
+      if (currentSubject === 'science') return g9SciWrong;
+      if (currentSubject === 'history_geo') return g9HGWrong;
+      if (currentSubject === 'informatics') return g9ITWrong;
+      if (currentSubject === 'civics') return g9CivWrong;
+      if (currentSubject === 'technology') return g9TechWrong;
+      return g9MathWrong;
+    }
+    if (isGrade10) {
+      if (currentSubject === 'math') return g10MathWrong;
+      if (currentSubject === 'vietnamese') return g10LitWrong;
+      if (currentSubject === 'english') return g10EngWrong;
+      if (currentSubject === 'physics') return g10PhyWrong;
+      if (currentSubject === 'chemistry') return g10ChemWrong;
+      if (currentSubject === 'biology') return g10BioWrong;
+      if (currentSubject === 'history') return g10HistWrong;
+      if (currentSubject === 'geography') return g10GeoWrong;
+      if (currentSubject === 'econ_law') return g10EconLawWrong;
+      if (currentSubject === 'informatics') return g10CSWrong;
+      if (currentSubject === 'technology') return g10TechWrong;
+      return g10MathWrong;
+    }
+    if (isGrade11) {
+      if (currentSubject === 'math') return g11MathWrong;
+      if (currentSubject === 'vietnamese') return g11LitWrong;
+      if (currentSubject === 'english') return g11EngWrong;
+      if (currentSubject === 'physics') return g11PhyWrong;
+      if (currentSubject === 'chemistry') return g11ChemWrong;
+      if (currentSubject === 'biology') return g11BioWrong;
+      if (currentSubject === 'history') return g11HistWrong;
+      if (currentSubject === 'geography') return g11GeoWrong;
+      if (currentSubject === 'econ_law') return g11EconLawWrong;
+      if (currentSubject === 'informatics') return g11CSWrong;
+      if (currentSubject === 'technology') return g11TechWrong;
+      return g11MathWrong;
+    }
 
     
     
@@ -1790,21 +2032,51 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
 
     if (isGrade8) {
       if (currentSubject === 'math') return getQuestionsByWeekMath8(weekNum);
+        if (currentSubject === 'english') return getQuestionsByWeekEng8(weekNum);
+        if (currentSubject === 'science') return getQuestionsByWeekSci8(weekNum);
+        if (currentSubject === 'history_geo') return getQuestionsByWeekHG8(weekNum);
+        if (currentSubject === 'informatics') return getQuestionsByWeekIT8(weekNum);
+        if (currentSubject === 'civics') return getQuestionsByWeekCiv8(weekNum);
+        if (currentSubject === 'technology') return getQuestionsByWeekTech8(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekLit8(weekNum);
       return [];
     }
     if (isGrade9) {
       if (currentSubject === 'math') return getQuestionsByWeekMath9(weekNum);
+        if (currentSubject === 'english') return getQuestionsByWeekEng9(weekNum);
+        if (currentSubject === 'science') return getQuestionsByWeekSci9(weekNum);
+        if (currentSubject === 'history_geo') return getQuestionsByWeekHG9(weekNum);
+        if (currentSubject === 'informatics') return getQuestionsByWeekIT9(weekNum);
+        if (currentSubject === 'civics') return getQuestionsByWeekCiv9(weekNum);
+        if (currentSubject === 'technology') return getQuestionsByWeekTech9(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekLit9(weekNum);
       return [];
     }
     if (isGrade10) {
       if (currentSubject === 'math') return getQuestionsByWeekMath10(weekNum);
+        if (currentSubject === 'english') return getQuestionsByWeekEng10(weekNum);
+        if (currentSubject === 'physics') return getQuestionsByWeekPhy10(weekNum);
+        if (currentSubject === 'chemistry') return getQuestionsByWeekChem10(weekNum);
+        if (currentSubject === 'biology') return getQuestionsByWeekBio10(weekNum);
+        if (currentSubject === 'history') return getQuestionsByWeekHist10(weekNum);
+        if (currentSubject === 'geography') return getQuestionsByWeekGeo10(weekNum);
+        if (currentSubject === 'econ_law') return getQuestionsByWeekEconLaw10(weekNum);
+        if (currentSubject === 'informatics') return getQuestionsByWeekCS10(weekNum);
+        if (currentSubject === 'technology') return getQuestionsByWeekTech10(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekLit10(weekNum);
       return [];
     }
     if (isGrade11) {
       if (currentSubject === 'math') return getQuestionsByWeekMath11(weekNum);
+        if (currentSubject === 'english') return getQuestionsByWeekEng11(weekNum);
+        if (currentSubject === 'physics') return getQuestionsByWeekPhy11(weekNum);
+        if (currentSubject === 'chemistry') return getQuestionsByWeekChem11(weekNum);
+        if (currentSubject === 'biology') return getQuestionsByWeekBio11(weekNum);
+        if (currentSubject === 'history') return getQuestionsByWeekHist11(weekNum);
+        if (currentSubject === 'geography') return getQuestionsByWeekGeo11(weekNum);
+        if (currentSubject === 'econ_law') return getQuestionsByWeekEconLaw11(weekNum);
+        if (currentSubject === 'informatics') return getQuestionsByWeekCS11(weekNum);
+        if (currentSubject === 'technology') return getQuestionsByWeekTech11(weekNum);
       if (currentSubject === 'vietnamese') return getQuestionsByWeekLit11(weekNum);
       return [];
     }
@@ -1903,21 +2175,51 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
 
     if (isGrade8) {
       if (currentSubject === 'math') return getFilteredQuestionsMath8(params);
+        if (currentSubject === 'english') return getFilteredQuestionsEng8(params);
+        if (currentSubject === 'science') return getFilteredQuestionsSci8(params);
+        if (currentSubject === 'history_geo') return getFilteredQuestionsHG8(params);
+        if (currentSubject === 'informatics') return getFilteredQuestionsIT8(params);
+        if (currentSubject === 'civics') return getFilteredQuestionsCiv8(params);
+        if (currentSubject === 'technology') return getFilteredQuestionsTech8(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsLit8(params);
       return [];
     }
     if (isGrade9) {
       if (currentSubject === 'math') return getFilteredQuestionsMath9(params);
+        if (currentSubject === 'english') return getFilteredQuestionsEng9(params);
+        if (currentSubject === 'science') return getFilteredQuestionsSci9(params);
+        if (currentSubject === 'history_geo') return getFilteredQuestionsHG9(params);
+        if (currentSubject === 'informatics') return getFilteredQuestionsIT9(params);
+        if (currentSubject === 'civics') return getFilteredQuestionsCiv9(params);
+        if (currentSubject === 'technology') return getFilteredQuestionsTech9(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsLit9(params);
       return [];
     }
     if (isGrade10) {
       if (currentSubject === 'math') return getFilteredQuestionsMath10(params);
+        if (currentSubject === 'english') return getFilteredQuestionsEng10(params);
+        if (currentSubject === 'physics') return getFilteredQuestionsPhy10(params);
+        if (currentSubject === 'chemistry') return getFilteredQuestionsChem10(params);
+        if (currentSubject === 'biology') return getFilteredQuestionsBio10(params);
+        if (currentSubject === 'history') return getFilteredQuestionsHist10(params);
+        if (currentSubject === 'geography') return getFilteredQuestionsGeo10(params);
+        if (currentSubject === 'econ_law') return getFilteredQuestionsEconLaw10(params);
+        if (currentSubject === 'informatics') return getFilteredQuestionsCS10(params);
+        if (currentSubject === 'technology') return getFilteredQuestionsTech10(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsLit10(params);
       return [];
     }
     if (isGrade11) {
       if (currentSubject === 'math') return getFilteredQuestionsMath11(params);
+        if (currentSubject === 'english') return getFilteredQuestionsEng11(params);
+        if (currentSubject === 'physics') return getFilteredQuestionsPhy11(params);
+        if (currentSubject === 'chemistry') return getFilteredQuestionsChem11(params);
+        if (currentSubject === 'biology') return getFilteredQuestionsBio11(params);
+        if (currentSubject === 'history') return getFilteredQuestionsHist11(params);
+        if (currentSubject === 'geography') return getFilteredQuestionsGeo11(params);
+        if (currentSubject === 'econ_law') return getFilteredQuestionsEconLaw11(params);
+        if (currentSubject === 'informatics') return getFilteredQuestionsCS11(params);
+        if (currentSubject === 'technology') return getFilteredQuestionsTech11(params);
       if (currentSubject === 'vietnamese') return getFilteredQuestionsLit11(params);
       return [];
     }
@@ -2165,6 +2467,49 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       else if (activeSubj === 'informatics') setG7InfoWrong(updateWrongList);
       else if (activeSubj === 'civics') setG7CivWrong(updateWrongList);
       else if (activeSubj === 'technology') setG7TechWrong(updateWrongList);
+    } else if (activeGrade === '8') {
+      if (activeSubj === 'math') setG8MathWrong(updateWrongList);
+      else if (activeSubj === 'vietnamese') setG8LitWrong(updateWrongList);
+      else if (activeSubj === 'english') setG8EngWrong(updateWrongList);
+      else if (activeSubj === 'science') setG8SciWrong(updateWrongList);
+      else if (activeSubj === 'history_geo') setG8HGWrong(updateWrongList);
+      else if (activeSubj === 'informatics') setG8ITWrong(updateWrongList);
+      else if (activeSubj === 'civics') setG8CivWrong(updateWrongList);
+      else if (activeSubj === 'technology') setG8TechWrong(updateWrongList);
+    } else if (activeGrade === '9') {
+      if (activeSubj === 'math') setG9MathWrong(updateWrongList);
+      else if (activeSubj === 'vietnamese') setG9LitWrong(updateWrongList);
+      else if (activeSubj === 'english') setG9EngWrong(updateWrongList);
+      else if (activeSubj === 'science') setG9SciWrong(updateWrongList);
+      else if (activeSubj === 'history_geo') setG9HGWrong(updateWrongList);
+      else if (activeSubj === 'informatics') setG9ITWrong(updateWrongList);
+      else if (activeSubj === 'civics') setG9CivWrong(updateWrongList);
+      else if (activeSubj === 'technology') setG9TechWrong(updateWrongList);
+    } else if (activeGrade === '10') {
+      if (activeSubj === 'math') setG10MathWrong(updateWrongList);
+      else if (activeSubj === 'vietnamese') setG10LitWrong(updateWrongList);
+      else if (activeSubj === 'english') setG10EngWrong(updateWrongList);
+      else if (activeSubj === 'physics') setG10PhyWrong(updateWrongList);
+      else if (activeSubj === 'chemistry') setG10ChemWrong(updateWrongList);
+      else if (activeSubj === 'biology') setG10BioWrong(updateWrongList);
+      else if (activeSubj === 'history') setG10HistWrong(updateWrongList);
+      else if (activeSubj === 'geography') setG10GeoWrong(updateWrongList);
+      else if (activeSubj === 'econ_law') setG10EconLawWrong(updateWrongList);
+      else if (activeSubj === 'informatics') setG10CSWrong(updateWrongList);
+      else if (activeSubj === 'technology') setG10TechWrong(updateWrongList);
+    } else if (activeGrade === '11') {
+      if (activeSubj === 'math') setG11MathWrong(updateWrongList);
+      else if (activeSubj === 'vietnamese') setG11LitWrong(updateWrongList);
+      else if (activeSubj === 'english') setG11EngWrong(updateWrongList);
+      else if (activeSubj === 'physics') setG11PhyWrong(updateWrongList);
+      else if (activeSubj === 'chemistry') setG11ChemWrong(updateWrongList);
+      else if (activeSubj === 'biology') setG11BioWrong(updateWrongList);
+      else if (activeSubj === 'history') setG11HistWrong(updateWrongList);
+      else if (activeSubj === 'geography') setG11GeoWrong(updateWrongList);
+      else if (activeSubj === 'econ_law') setG11EconLawWrong(updateWrongList);
+      else if (activeSubj === 'informatics') setG11CSWrong(updateWrongList);
+      else if (activeSubj === 'technology') setG11TechWrong(updateWrongList);
+
     } else if (activeGrade === '12') {
       if (activeSubj === 'math') setG12MathWrong(updateWrongList);
       else if (activeSubj === 'vietnamese') setG12LitWrong(updateWrongList);
@@ -2241,7 +2586,50 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
         else if (activeSubj === 'informatics') setG7InfoProgress(updateProg);
         else if (activeSubj === 'civics') setG7CivProgress(updateProg);
         else if (activeSubj === 'technology') setG7TechProgress(updateProg);
-      } else if (activeGrade === '12') {
+      } else if (activeGrade === '8') {
+      if (activeSubj === 'math') setG8MathProgress(updateProg);
+      else if (activeSubj === 'vietnamese') setG8LitProgress(updateProg);
+      else if (activeSubj === 'english') setG8EngProgress(updateProg);
+      else if (activeSubj === 'science') setG8SciProgress(updateProg);
+      else if (activeSubj === 'history_geo') setG8HGProgress(updateProg);
+      else if (activeSubj === 'informatics') setG8ITProgress(updateProg);
+      else if (activeSubj === 'civics') setG8CivProgress(updateProg);
+      else if (activeSubj === 'technology') setG8TechProgress(updateProg);
+    } else if (activeGrade === '9') {
+      if (activeSubj === 'math') setG9MathProgress(updateProg);
+      else if (activeSubj === 'vietnamese') setG9LitProgress(updateProg);
+      else if (activeSubj === 'english') setG9EngProgress(updateProg);
+      else if (activeSubj === 'science') setG9SciProgress(updateProg);
+      else if (activeSubj === 'history_geo') setG9HGProgress(updateProg);
+      else if (activeSubj === 'informatics') setG9ITProgress(updateProg);
+      else if (activeSubj === 'civics') setG9CivProgress(updateProg);
+      else if (activeSubj === 'technology') setG9TechProgress(updateProg);
+    } else if (activeGrade === '10') {
+      if (activeSubj === 'math') setG10MathProgress(updateProg);
+      else if (activeSubj === 'vietnamese') setG10LitProgress(updateProg);
+      else if (activeSubj === 'english') setG10EngProgress(updateProg);
+      else if (activeSubj === 'physics') setG10PhyProgress(updateProg);
+      else if (activeSubj === 'chemistry') setG10ChemProgress(updateProg);
+      else if (activeSubj === 'biology') setG10BioProgress(updateProg);
+      else if (activeSubj === 'history') setG10HistProgress(updateProg);
+      else if (activeSubj === 'geography') setG10GeoProgress(updateProg);
+      else if (activeSubj === 'econ_law') setG10EconLawProgress(updateProg);
+      else if (activeSubj === 'informatics') setG10CSProgress(updateProg);
+      else if (activeSubj === 'technology') setG10TechProgress(updateProg);
+    } else if (activeGrade === '11') {
+      if (activeSubj === 'math') setG11MathProgress(updateProg);
+      else if (activeSubj === 'vietnamese') setG11LitProgress(updateProg);
+      else if (activeSubj === 'english') setG11EngProgress(updateProg);
+      else if (activeSubj === 'physics') setG11PhyProgress(updateProg);
+      else if (activeSubj === 'chemistry') setG11ChemProgress(updateProg);
+      else if (activeSubj === 'biology') setG11BioProgress(updateProg);
+      else if (activeSubj === 'history') setG11HistProgress(updateProg);
+      else if (activeSubj === 'geography') setG11GeoProgress(updateProg);
+      else if (activeSubj === 'econ_law') setG11EconLawProgress(updateProg);
+      else if (activeSubj === 'informatics') setG11CSProgress(updateProg);
+      else if (activeSubj === 'technology') setG11TechProgress(updateProg);
+
+    } else if (activeGrade === '12') {
         if (activeSubj === 'math') setG12MathProgress(updateProg);
         else if (activeSubj === 'vietnamese') setG12LitProgress(updateProg);
         else if (activeSubj === 'english') setG12EngProgress(updateProg);
