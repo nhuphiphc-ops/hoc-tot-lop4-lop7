@@ -222,6 +222,7 @@ export const QUESTION_BANK_SCI5 = [
       "Giúp con người khỏe mạnh hơn.",
       "Làm cho dân số giảm đi."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Duy trì nòi giống, giúp thế hệ này nối tiếp thế hệ khác.",
     "explanation": "Sinh sản đảm bảo cho con người duy trì nòi giống qua nhiều thế hệ."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_SCI5 = [
       "Giống bố mẹ hoặc ông bà, tổ tiên",
       "Không giống ai"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Giống bố mẹ hoặc ông bà, tổ tiên",
     "explanation": "Do yếu tố di truyền, trẻ em thường mang những nét giống bố mẹ, ông bà."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_SCI5 = [
       "Từ quá trình phân chia của vi khuẩn.",
       "Tự sinh ra."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Từ sự kết hợp giữa trứng của mẹ và tinh trùng của bố.",
     "explanation": "Quá trình thụ tinh (trứng kết hợp tinh trùng) tạo ra hợp tử và phát triển thành thai nhi."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_SCI5 = [
       "Trong tim",
       "Trong phổi"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Trong tử cung (dạ con)",
     "explanation": "Thai nhi lớn lên và phát triển trong tử cung của người mẹ."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_SCI5 = [
       "Cơ quan sinh dục",
       "Độ dài mái tóc"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Cơ quan sinh dục",
     "explanation": "Đặc điểm nhận dạng sinh học cơ bản nhất giữa nam và nữ là cấu tạo cơ quan sinh dục."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_SCI5 = [
       "Cả nam và nữ",
       "Không phân biệt"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Nữ giới",
     "explanation": "Theo đặc điểm sinh học, chỉ cơ thể nữ giới mới có khả năng mang thai và sinh con."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_SCI5 = [
       "Nam và nữ đều 18 tuổi",
       "Chỉ xảy ra lúc 20 tuổi"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Nữ: 10-15 tuổi, Nam: 13-17 tuổi",
     "explanation": "Bé gái thường dậy thì sớm hơn bé trai vài năm."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_SCI5 = [
       "Nam và nữ bình đẳng",
       "Tùy thuộc vào độ tuổi"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Nam và nữ bình đẳng",
     "explanation": "Trong xã hội hiện đại, nam nữ đều có cơ hội, quyền và nghĩa vụ ngang nhau."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_SCI5 = [
       "Tuổi trưởng thành",
       "Tuổi già"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Tuổi dậy thì",
     "explanation": "Tuổi dậy thì là bước ngoặt quan trọng, cơ thể thay đổi vượt bậc cả về thể chất lẫn tâm sinh lý."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_SCI5 = [
       "Chỉ cần ăn nhiều kẹo ngọt",
       "Không cần làm gì"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Ăn uống đủ chất, vệ sinh cơ thể sạch sẽ, vận động hợp lý",
     "explanation": "Vệ sinh đúng cách và dinh dưỡng giúp cơ thể phát triển khỏe mạnh."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_SCI5 = [
       "Muỗi A-nô-phen hút máu truyền kí sinh trùng",
       "Qua việc tiếp xúc da"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Muỗi A-nô-phen hút máu truyền kí sinh trùng",
     "explanation": "Muỗi Anophen mang kí sinh trùng Plasmodium truyền bệnh sốt rét sang người."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_SCI5 = [
       "Chỉ xuất hiện vào mùa đông",
       "Muỗi có màu xanh lá cây"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Thân và chân có vằn trắng đen",
     "explanation": "Muỗi Aedes (muỗi vằn) có các đốm vằn trắng trên thân, chân."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_SCI5 = [
       "Giữa trưa nắng gắt",
       "Chỉ đốt khi trời mưa"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Ban ngày (đặc biệt sáng sớm và chiều tối)",
     "explanation": "Muỗi vằn chủ yếu hoạt động và đốt người vào ban ngày."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_SCI5 = [
       "Sốt cao đột ngột, đau đầu, có chấm xuất huyết ngoài da",
       "Bị dị ứng thức ăn"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Sốt cao đột ngột, đau đầu, có chấm xuất huyết ngoài da",
     "explanation": "Dấu hiệu phát ban, chảy máu cam, sốt cao là đặc trưng của sốt xuất huyết."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_SCI5 = [
       "Trên lá cây khô",
       "Dưới bùn lầy"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Vũng nước đọng, chum vại chứa nước quanh nhà",
     "explanation": "Muỗi vằn đẻ trứng ở vùng nước trong, tĩnh lặng, thường là đồ chứa nước nhân tạo."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_SCI5 = [
       "Diệt muỗi, diệt lăng quăng/bọ gậy, ngủ màn",
       "Chỉ rửa tay bằng xà phòng"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Diệt muỗi, diệt lăng quăng/bọ gậy, ngủ màn",
     "explanation": "Giữ vệ sinh môi trường không cho muỗi sinh sản là biện pháp hiệu quả nhất."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_SCI5 = [
       "Chuột",
       "Gà"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chim, Lợn (Heo)",
     "explanation": "Bệnh viêm não Nhật Bản lây qua muỗi từ các ổ chứa vi-rút như chim, lợn."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_SCI5 = [
       "Đậy kín nắp hoặc thả cá ăn bọ gậy",
       "Bỏ vỏ chai vào trong"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Đậy kín nắp hoặc thả cá ăn bọ gậy",
     "explanation": "Đậy nắp ngăn muỗi vào đẻ trứng, thả cá để ăn lăng quăng."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_SCI5 = [
       "Làm muỗi biến thành bướm",
       "Không có tác dụng phụ"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Gây ngộ độc, ảnh hưởng sức khỏe con người",
     "explanation": "Hóa chất diệt côn trùng rất độc hại, cần sử dụng đúng liều lượng và tránh hít phải."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_SCI5 = [
       "Uống kháng sinh là khỏi",
       "Có thể tự khỏi mà không cần bác sĩ"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chưa có thuốc đặc trị, chỉ điều trị triệu chứng",
     "explanation": "Hiện chưa có thuốc chữa đặc trị sốt xuất huyết, việc điều trị chủ yếu là hạ sốt và bù nước."
   }

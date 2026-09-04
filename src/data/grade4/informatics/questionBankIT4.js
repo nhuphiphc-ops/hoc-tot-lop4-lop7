@@ -222,6 +222,7 @@ export const QUESTION_BANK_IT4 = [
       "4 bộ phận",
       "5 bộ phận"
     ],
+    "correctIndex": 2,
     "correctAnswer": "4 bộ phận",
     "explanation": "Gồm: Màn hình, Thân máy (CPU), Bàn phím và Chuột."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_IT4 = [
       "Bàn phím",
       "Thân máy (CPU)"
     ],
+    "correctIndex": 3,
     "correctAnswer": "Thân máy (CPU)",
     "explanation": "Thân máy chứa bộ vi xử lý trung tâm (CPU) điều khiển mọi hoạt động của máy tính."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_IT4 = [
       "Loa",
       "Bàn phím"
     ],
+    "correctIndex": 3,
     "correctAnswer": "Bàn phím",
     "explanation": "Bàn phím (Keyboard) là thiết bị nhập liệu để gõ chữ, số và lệnh."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_IT4 = [
       "Nhấn giữ nút trái chuột và kéo.",
       "Lăn bánh xe chuột."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Nhấn nút chuột trái 2 lần liên tiếp nhanh.",
     "explanation": "Nháy đúp (Double-click) là bấm phím trái chuột 2 lần thật nhanh để mở thư mục/phần mềm."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_IT4 = [
       "Google Chrome",
       "Excel"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Paint",
     "explanation": "Paint là phần mềm đồ họa cơ bản tích hợp sẵn trong Windows dùng để vẽ."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_IT4 = [
       "Enter",
       "Spacebar"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Backspace",
     "explanation": "Phím Backspace xóa kí tự bên trái (phía trước) con trỏ."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_IT4 = [
       "Caps Lock",
       "Alt"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Caps Lock",
     "explanation": "Khi bật đèn Caps Lock, các chữ cái gõ ra đều được viết hoa."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_IT4 = [
       "Tắt máy tính đúng cách.",
       "Vệ sinh máy định kì."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Ăn uống ngay trên bàn phím.",
     "explanation": "Nước và vụn thức ăn có thể làm hỏng linh kiện điện tử bên trong."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_IT4 = [
       "Thiết bị lưu trữ",
       "Thiết bị xử lý"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Thiết bị xuất",
     "explanation": "Màn hình hiển thị kết quả xử lý ra cho người xem nên gọi là thiết bị xuất (Output)."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_IT4 = [
       "A, S, D, F",
       "1, 2, 3, 4"
     ],
+    "correctIndex": 2,
     "correctAnswer": "A, S, D, F",
     "explanation": "Hàng phím cơ sở nằm ở giữa bàn phím, bắt đầu là ASDF và có 2 phím gai F, J."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_IT4 = [
       "Để vẽ tranh.",
       "Để soạn thảo văn bản."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Để chứa các tệp tin và thư mục con.",
     "explanation": "Thư mục (Folder) hoạt động như một ngăn tủ giúp sắp xếp, phân loại dữ liệu."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_IT4 = [
       "Hình kẹp giấy (Cặp tài liệu màu vàng)",
       "Hình bánh răng"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Hình kẹp giấy (Cặp tài liệu màu vàng)",
     "explanation": "Biểu tượng mặc định của Folder là hình cái kẹp hồ sơ màu vàng."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_IT4 = [
       "Copy -> Folder",
       "Refresh"
     ],
+    "correctIndex": 1,
     "correctAnswer": "New -> Folder",
     "explanation": "Lệnh 'New' dùng để tạo mới, 'Folder' là thư mục."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_IT4 = [
       "Thư mục không thể đổi tên.",
       "Tệp tin chứa được tệp tin khác."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Tệp tin không thể chứa thư mục.",
     "explanation": "Tệp tin chứa dữ liệu cụ thể (văn bản, ảnh...), không thể chứa các tệp hay thư mục khác."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_IT4 = [
       "Đổi tên thư mục",
       "Mở thư mục"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Đổi tên thư mục",
     "explanation": "Rename trong tiếng Anh nghĩa là Đổi tên."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_IT4 = [
       "Delete",
       "Cut"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Delete",
     "explanation": "Lệnh Delete (Xóa) sẽ chuyển thư mục vào Thùng rác (Recycle Bin)."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_IT4 = [
       "Ctrl + X",
       "Ctrl + Z"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Ctrl + C",
     "explanation": "Ctrl + C (Copy) dùng để sao chép dữ liệu."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_IT4 = [
       "Một ổ đĩa mới",
       "Một phần mềm mới"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Một tệp tin (File) hình ảnh",
     "explanation": "Mỗi bản vẽ được lưu lại sẽ thành một tệp tin (file) cụ thể trên ổ đĩa."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_IT4 = [
       "Dạng đường thẳng",
       "Dạng lưới"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Dạng cái cây (cấu trúc cây)",
     "explanation": "Từ thư mục gốc tỏa ra các thư mục nhánh (thư mục con) giống như cành cây."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_IT4 = [
       "Paint",
       "Control Panel"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Recycle Bin (Thùng rác)",
     "explanation": "Dữ liệu bị xóa sẽ vào Recycle Bin để người dùng có cơ hội khôi phục lại nếu lỡ tay."
   }

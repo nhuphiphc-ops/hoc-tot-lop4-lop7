@@ -222,6 +222,7 @@ export const QUESTION_BANK_TECH4 = [
       "Chỉ làm từ kim loại",
       "Làm từ mạch điện tử"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Vật liệu tự nhiên như tre, nứa, giấy, đất sét.",
     "explanation": "Đồ chơi dân gian xuất phát từ làng quê nên chủ yếu tận dụng vật liệu tự nhiên, dễ tìm."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_TECH4 = [
       "Xe điều khiển từ xa",
       "Robot biến hình"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Tò he",
     "explanation": "Tò he là món đồ chơi dân gian truyền thống làm bằng bột gạo nhuộm màu."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_TECH4 = [
       "Tết Trung Thu",
       "Giáng sinh"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Tết Trung Thu",
     "explanation": "Đèn ông sao là biểu tượng không thể thiếu của rước đèn đêm rằm Trung thu."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_TECH4 = [
       "Sức gió",
       "Trọng lực"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Sức gió",
     "explanation": "Diều mượn lực đẩy của gió để cất cánh bay cao."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_TECH4 = [
       "Khi để trong bóng tối.",
       "Khi bị nung nóng."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Khi có luồng gió thổi qua.",
     "explanation": "Luồng không khí (gió) thổi vào cánh chong chóng tạo ra lực đẩy làm nó quay."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_TECH4 = [
       "Dây chỉ",
       "Mô tơ điện"
     ],
+    "correctIndex": 3,
     "correctAnswer": "Mô tơ điện",
     "explanation": "Diều giấy truyền thống chỉ cần khung tre, giấy, hồ dán và dây chỉ."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_TECH4 = [
       "Dùng để tưới cây.",
       "Đốt đi."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Có thể ăn được.",
     "explanation": "Tò he truyền thống được luộc chín và nhuộm màu tự nhiên (gấc, lá dứa) nên có thể ăn được."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_TECH4 = [
       "Xem Youtube",
       "Lắp ráp Lego"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Bắn bi, nhảy dây, ô ăn quan",
     "explanation": "Đây là những trò chơi phổ biến của trẻ em vùng nông thôn Việt Nam thời trước."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_TECH4 = [
       "Làm cho trẻ em thụ động hơn.",
       "Gây hại cho mắt."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Giúp rèn luyện sự khéo léo, tính sáng tạo và giữ gìn văn hóa.",
     "explanation": "Chơi đồ chơi dân gian kết nối trẻ với thiên nhiên và văn hóa truyền thống."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_TECH4 = [
       "Làm từ 5 thanh tre dài gấp thành 5 cánh.",
       "Không dùng que tre."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Làm từ 5 thanh tre dài gấp thành 5 cánh.",
     "explanation": "Khung đèn cấu tạo từ các nan tre được buộc chắc chắn để tạo hình ngôi sao 5 cánh."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_TECH4 = [
       "Gõ đinh",
       "Đo kích thước"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Siết chặt hoặc tháo lỏng ốc vít (ê-cu).",
     "explanation": "Cờ-lê và tua-vít là bộ đôi dụng cụ để vặn ốc, siết ê-cu."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_TECH4 = [
       "Cưa gỗ.",
       "Mài mòn sắt."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Vặn, tháo ốc vít.",
     "explanation": "Tua-vít lắp vào rãnh trên đầu ốc để xoay vặn."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_TECH4 = [
       "Ốc vít và ê-cu",
       "Dây chun"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Ốc vít và ê-cu",
     "explanation": "Ốc luồn qua lỗ 2 thanh, sau đó dùng ê-cu vặn chặt ở đầu kia để cố định."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_TECH4 = [
       "Dùng búa gõ mạnh.",
       "Cất đồ nghề đi."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Quan sát hình mẫu và phân loại các chi tiết cần dùng.",
     "explanation": "Việc quan sát và chuẩn bị chi tiết đúng loại giúp quá trình lắp ráp không bị sai sót."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_TECH4 = [
       "Lắp lỏng vừa phải.",
       "Dùng vòng hãm để bánh không rơi ra ngoài."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Siết ốc ép thật chặt bánh xe vào khung cản trở vòng quay.",
     "explanation": "Bánh xe cần độ rơ (khoảng hở) nhất định quanh trục để có thể xoay tự do."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_TECH4 = [
       "Chỉ để giết thời gian vô ích.",
       "Làm giảm trí nhớ."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Làm tăng khả năng tư duy không gian, logic và rèn luyện đôi tay khéo léo.",
     "explanation": "Mô hình kĩ thuật là nền tảng cơ bản của giáo dục STEM."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_TECH4 = [
       "Tháo rời mô hình, sắp xếp các chi tiết gọn gàng vào hộp.",
       "Nhờ bố mẹ dọn giúp."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Tháo rời mô hình, sắp xếp các chi tiết gọn gàng vào hộp.",
     "explanation": "Rèn luyện tính kỉ luật và ngăn nắp sau khi sử dụng đồ dùng chung."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_TECH4 = [
       "Là thanh dài, nhẵn bóng.",
       "Có bánh xe gắn kèm."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Có lỗ rỗng ở giữa và các đường ren ở mặt trong để vặn vào ốc.",
     "explanation": "Ê-cu kết hợp với ốc vít tạo thành cơ cấu kẹp chặt nhờ các đường xoắn ốc (ren)."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_TECH4 = [
       "Làm bộ khung cơ sở để gắn các chi tiết khác lên.",
       "Làm động cơ."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Làm bộ khung cơ sở để gắn các chi tiết khác lên.",
     "explanation": "Tấm nền có nhiều lỗ để cố định kết cấu chính của mô hình."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_TECH4 = [
       "Nguyên lí đòn bẩy",
       "Nam châm hút nhau"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Nguyên lí đòn bẩy",
     "explanation": "Bập bênh có một điểm tựa ở giữa và hai cánh tay đòn, dùng sức nặng hai bên để nhún."
   }

@@ -512,7 +512,6 @@ export const STAGE_2_QUESTIONS = [
     id: "T13_06",
     week: 13,
     semester: 1,
-    stage: 1,
     stage: 2,
     topic: "Phép nhân",
     category: "operations",

@@ -6740,6 +6740,11 @@ export const STAGES_INFO7 = [
 
 export const TOPIC_CATEGORIES_INFO7 = [
   {
+    "id": "hardware",
+    "name": "Phần Cứng & Thiết Bị Vào - Ra",
+    "color": "bg-slate-100 text-slate-800 border-slate-300"
+  },
+  {
     "id": "spreadsheet",
     "name": "Bảng Tính Điện Tử (Excel/Sheets)",
     "color": "bg-emerald-100 text-emerald-800 border-emerald-300"

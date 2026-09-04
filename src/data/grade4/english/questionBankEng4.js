@@ -222,6 +222,7 @@ export const QUESTION_BANK_ENG4 = [
       "My name is Nam.",
       "Hello."
     ],
+    "correctIndex": 0,
     "correctAnswer": "I am from Vietnam.",
     "explanation": "'Where are you from?' dùng để hỏi bạn đến từ đâu. Trả lời: I am from + Tên quốc gia."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_ENG4 = [
       "English",
       "Japan"
     ],
+    "correctIndex": 2,
     "correctAnswer": "English",
     "explanation": "'English' là môn học/ngôn ngữ, còn lại là tên các quốc gia."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_ENG4 = [
       "watch",
       "meet"
     ],
+    "correctIndex": 0,
     "correctAnswer": "see",
     "explanation": "Cấu trúc chào hỏi quen thuộc: 'Nice to see you again' (Rất vui được gặp lại bạn)."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_ENG4 = [
       "are",
       "do"
     ],
+    "correctIndex": 1,
     "correctAnswer": "is",
     "explanation": "Chủ ngữ 'She' đi với động từ to be 'is'."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_ENG4 = [
       "are",
       "aren't"
     ],
+    "correctIndex": 1,
     "correctAnswer": "am not",
     "explanation": "Câu hỏi 'Are you...?', trả lời phủ định là 'No, I am not'."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_ENG4 = [
       "I live in Vietnam.",
       "Vietnam."
     ],
+    "correctIndex": 0,
     "correctAnswer": "I am Vietnamese.",
     "explanation": "Câu hỏi về quốc tịch (nationality), trả lời bằng tính từ chỉ quốc tịch: 'Vietnamese'."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_ENG4 = [
       "friendly",
       "friendship"
     ],
+    "correctIndex": 1,
     "correctAnswer": "friends",
     "explanation": "'a lot of' cộng với danh từ số nhiều đếm được (friends)."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_ENG4 = [
       "is",
       "are"
     ],
+    "correctIndex": 2,
     "correctAnswer": "is",
     "explanation": "Hỏi 'anh ấy từ đâu đến': Where is he from?"
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_ENG4 = [
       "Hi, I from Japan.",
       "Hi, my name Japan."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Hello, I am from Japan.",
     "explanation": "'đến từ Nhật Bản' là 'from Japan'."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_ENG4 = [
       "Japan",
       "England"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Japan",
     "explanation": "Tokyo là thủ đô của Nhật Bản (Japan)."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_ENG4 = [
       "I am nine years old.",
       "Happy birthday!"
     ],
+    "correctIndex": 0,
     "correctAnswer": "It is on the first of May.",
     "explanation": "Dùng giới từ 'on' trước ngày trong tháng."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_ENG4 = [
       "time",
       "month"
     ],
+    "correctIndex": 0,
     "correctAnswer": "date",
     "explanation": "Hỏi ngày tháng: What is the date today?"
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_ENG4 = [
       "at",
       "to"
     ],
+    "correctIndex": 1,
     "correctAnswer": "on",
     "explanation": "Giới từ 'on' đi với ngày cụ thể (the second of October)."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_ENG4 = [
       "June",
       "July"
     ],
+    "correctIndex": 1,
     "correctAnswer": "April",
     "explanation": "Tháng thứ 4 trong năm là April (Tháng 4)."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_ENG4 = [
       "Novamber",
       "Nuvember"
     ],
+    "correctIndex": 1,
     "correctAnswer": "November",
     "explanation": "November là cách viết đúng của tháng 11."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_ENG4 = [
       "November",
       "December"
     ],
+    "correctIndex": 2,
     "correctAnswer": "November",
     "explanation": "Ngày Nhà giáo Việt Nam (Teachers' Day) là 20/11, thuộc tháng November."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_ENG4 = [
       "at",
       "from"
     ],
+    "correctIndex": 1,
     "correctAnswer": "in",
     "explanation": "Dùng giới từ 'in' trước tên tháng (không có ngày cụ thể)."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_ENG4 = [
       "fourth",
       "fiveth"
     ],
+    "correctIndex": 2,
     "correctAnswer": "fourth",
     "explanation": "Số thứ tự tiếp theo của third (3rd) là fourth (4th)."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_ENG4 = [
       "is it",
       "I am"
     ],
+    "correctIndex": 0,
     "correctAnswer": "it is",
     "explanation": "Câu hỏi Yes/No với chủ ngữ giả 'it' và 'is', trả lời là 'Yes, it is'."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_ENG4 = [
       "tenth",
       "eleventh"
     ],
+    "correctIndex": 2,
     "correctAnswer": "tenth",
     "explanation": "Tháng 10 (October) là tháng thứ mười (tenth) trong năm."
   }

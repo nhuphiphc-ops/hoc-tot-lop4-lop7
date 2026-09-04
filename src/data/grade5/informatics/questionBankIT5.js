@@ -222,6 +222,7 @@ export const QUESTION_BANK_IT5 = [
       "Là một loại màn hình hiển thị.",
       "Là con chuột máy tính."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Là các chương trình chạy bên trong máy tính để điều khiển máy hoạt động.",
     "explanation": "Khác với phần cứng cầm nắm được, phần mềm là chương trình, chỉ thị ảo (như Windows, Word, game)."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_IT5 = [
       "Windows",
       "Paint"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Windows",
     "explanation": "Microsoft Windows là hệ điều hành máy tính được sử dụng rộng rãi nhất."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_IT5 = [
       "Để hiển thị hình ảnh",
       "Để gõ chữ"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Để lưu trữ dữ liệu, hệ điều hành và phần mềm",
     "explanation": "Ổ cứng (HDD/SSD) là nơi lưu trữ dài hạn mọi tệp tin, dữ liệu của người dùng."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_IT5 = [
       "Nhấn phím Delete",
       "Nhấn Ctrl + C"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Mở thư mục đó ra, nhấp chuột phải chọn New -> Folder",
     "explanation": "Lệnh New -> Folder cho phép tạo thư mục ở bất kỳ vị trí nào."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_IT5 = [
       "Ctrl",
       "Enter"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Shift",
     "explanation": "Click tệp đầu tiên, giữ Shift và click tệp cuối cùng sẽ chọn toàn bộ dải."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_IT5 = [
       "Alt",
       "Tab"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Ctrl",
     "explanation": "Giữ Ctrl và click vào từng tệp mong muốn để chọn các tệp nằm rải rác."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_IT5 = [
       "Cắt (Di chuyển)",
       "Lưu"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Cắt (Di chuyển)",
     "explanation": "Ctrl + X (Cut) sẽ di chuyển tệp khỏi vị trí cũ để dán (Paste) sang chỗ mới."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_IT5 = [
       "Paint",
       "Google Chrome"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Microsoft Word",
     "explanation": "Các tệp văn bản của Word thường có đuôi là .doc hoặc .docx."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_IT5 = [
       "Âm thanh",
       "Văn bản"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Hình ảnh",
     "explanation": "JPG, PNG là các định dạng phổ biến của tệp tin hình ảnh."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_IT5 = [
       "CPU",
       "Màn hình"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Ổ flash USB",
     "explanation": "USB nhỏ gọn, dễ dàng mang theo để chép và lưu trữ dữ liệu."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_IT5 = [
       "Là tên một loại điện thoại",
       "Là một phần mềm gõ văn bản"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Là mạng máy tính toàn cầu kết nối hàng triệu máy tính với nhau",
     "explanation": "Internet giúp kết nối thế giới, chia sẻ thông tin toàn cầu."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_IT5 = [
       "Phần mềm diệt virus",
       "Trình phát nhạc"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Trình duyệt web",
     "explanation": "Ví dụ: Google Chrome, Cốc Cốc, Microsoft Edge là các trình duyệt (Browser)."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_IT5 = [
       "Mario",
       "Paint"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Google",
     "explanation": "Google Search là máy tìm kiếm lớn và phổ biến nhất."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_IT5 = [
       "Web World Wide",
       "Win Word Web"
     ],
+    "correctIndex": 0,
     "correctAnswer": "World Wide Web",
     "explanation": "Hệ thống thông tin toàn cầu trên nền tảng Internet."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_IT5 = [
       "Lịch sử Việt Nam",
       "Tìm giùm tôi lịch sử"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Lịch sử Việt Nam",
     "explanation": "Từ khóa càng rõ ràng, sát với chủ đề thì kết quả càng chính xác."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_IT5 = [
       "Chỉ có văn bản, không có hình ảnh",
       "Rất ít và khó tìm"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Vô cùng phong phú nhưng cũng có những thông tin sai lệch, độc hại",
     "explanation": "Người dùng cần có kỹ năng chọn lọc, kiểm chứng thông tin."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_IT5 = [
       "Hỏi bài bạn bè",
       "Gửi hình ảnh vui vẻ cho người thân"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chia sẻ thông tin cá nhân (địa chỉ nhà, mật khẩu) cho người lạ",
     "explanation": "Việc lộ thông tin cá nhân trên mạng có thể dẫn tới bị lừa đảo hoặc kẻ xấu lợi dụng."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_IT5 = [
       "Mạng viễn thông",
       "Tên một loại trình duyệt"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Mạng máy tính nội bộ (phạm vi nhỏ như trường học, công ty)",
     "explanation": "Local Area Network kết nối các máy tính ở gần nhau."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_IT5 = [
       "Để tải virus",
       "Để tăng độ sáng màn hình"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Click vào để chuyển sang một trang web hoặc mục khác",
     "explanation": "Link (đường dẫn) thường có màu xanh và gạch chân, giúp điều hướng giữa các trang."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_IT5 = [
       "Không click vào, chặn hoặc báo cáo người gửi",
       "Gửi tiếp cho bạn bè"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Không click vào, chặn hoặc báo cáo người gửi",
     "explanation": "Link lạ có thể chứa mã độc (virus) nhằm đánh cắp thông tin."
   }

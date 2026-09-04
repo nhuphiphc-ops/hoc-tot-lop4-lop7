@@ -222,6 +222,7 @@ export const QUESTION_BANK_HG5 = [
       "Bán đảo Ả Rập",
       "Bán đảo Scandinavia"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Bán đảo Đông Dương",
     "explanation": "Việt Nam nằm ở rìa phía Đông của bán đảo Đông Dương thuộc khu vực Đông Nam Á."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_HG5 = [
       "Chữ S",
       "Chữ V"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Chữ S",
     "explanation": "Đất liền Việt Nam trải dài từ Bắc chí Nam mang hình dáng chữ S."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_HG5 = [
       "Lào, Thái Lan, Malaysia",
       "Trung Quốc, Lào, Myanmar"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Trung Quốc, Lào, Campuchia",
     "explanation": "Phía Bắc giáp Trung Quốc, phía Tây giáp Lào và Campuchia."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_HG5 = [
       "Chỉ ở phía Đông",
       "Tây và Bắc"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Đông, Nam và Tây Nam",
     "explanation": "Biển Đông trải dọc sườn Đông, kéo dài xuống phía Nam và Tây Nam tổ quốc."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_HG5 = [
       "Biển Đông",
       "Vịnh Thái Lan"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Biển Đông",
     "explanation": "Hai quần đảo tiền tiêu này thuộc chủ quyền Việt Nam trên Biển Đông."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_HG5 = [
       "2000 km",
       "3260 km"
     ],
+    "correctIndex": 1,
     "correctAnswer": "1650 km",
     "explanation": "Theo đường chim bay, từ Lũng Cú (Hà Giang) đến Đất Mũi (Cà Mau) dài khoảng 1650km."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_HG5 = [
       "4000 km",
       "2500 km"
     ],
+    "correctIndex": 0,
     "correctAnswer": "3260 km",
     "explanation": "Bờ biển Việt Nam uốn cong hình chữ S dài khoảng 3260km từ Móng Cái đến Hà Tiên."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_HG5 = [
       "Miền Nam (Cà Mau)",
       "Tây Nguyên (Đắk Lắk)"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Miền Trung (Quảng Bình)",
     "explanation": "Chỗ hẹp nhất nước ta chưa đầy 50km thuộc tỉnh Quảng Bình."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_HG5 = [
       "Hoang mạc",
       "Sông ngòi"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Đồi núi",
     "explanation": "Đồi núi chiếm 3/4 diện tích lãnh thổ, chủ yếu là đồi núi thấp."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_HG5 = [
       "Đồng bằng sông Hồng và Đồng bằng sông Đồng Nai",
       "Đồng bằng sông Cửu Long và Đồng bằng Tây Nguyên"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Đồng bằng sông Hồng và Đồng bằng sông Cửu Long",
     "explanation": "Đây là 2 vựa lúa lớn nhất cả nước do phù sa sông bồi đắp."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_HG5 = [
       "1884",
       "1954"
     ],
+    "correctIndex": 0,
     "correctAnswer": "1858",
     "explanation": "Năm 1858, liên quân Pháp - Tây Ban Nha nổ súng tấn công bán đảo Sơn Trà (Đà Nẵng)."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_HG5 = [
       "Bán đảo Sơn Trà (Đà Nẵng)",
       "Hà Nội"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Bán đảo Sơn Trà (Đà Nẵng)",
     "explanation": "Pháp chọn Đà Nẵng làm điểm nổ súng mở đầu cuộc xâm lược."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_HG5 = [
       "Phan Đình Phùng",
       "Hoàng Hoa Thám"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Trương Định",
     "explanation": "Dù triều đình ra lệnh bãi binh, Trương Định vẫn ở lại lãnh đạo nhân dân kháng chiến và được suy tôn làm Bình Tây Đại nguyên soái."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_HG5 = [
       "Kí hòa ước nhượng đất cho Pháp",
       "Bỏ kinh thành chạy trốn ngay lập tức"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Kí hòa ước nhượng đất cho Pháp",
     "explanation": "Triều đình hèn nhát đã kí hòa ước 1862 và các hòa ước tiếp theo, nhượng dần lãnh thổ cho Pháp."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_HG5 = [
       "Cầu viện Nhật Bản",
       "Dạy học ở các làng quê"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Gửi bản Điều trần xin canh tân đất nước",
     "explanation": "Ông đề nghị mở rộng buôn bán, phát triển kĩ thuật, lập trường học... nhưng không được triều đình chấp nhận."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_HG5 = [
       "Phái thân Pháp",
       "Phái trung lập"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Phái chủ chiến",
     "explanation": "Ông là quan đại thần kiên quyết đấu tranh chống Pháp, tổ chức phản công ở kinh thành Huế."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_HG5 = [
       "1885",
       "1900"
     ],
+    "correctIndex": 2,
     "correctAnswer": "1885",
     "explanation": "Đêm mùng 4 rạng mùng 5/7/1885, phe chủ chiến tấn công Pháp tại đồn Mang Cá."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_HG5 = [
       "Vua Bảo Đại",
       "Vua Minh Mạng"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Vua Hàm Nghi",
     "explanation": "Tôn Thất Thuyết đưa vua Hàm Nghi ra Tân Sở phát hịch Cần Vương kêu gọi nhân dân đánh Pháp."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_HG5 = [
       "Đầu hàng giặc",
       "Xây dựng vương quốc mới"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Giúp vua cứu nước",
     "explanation": "Cần Vương (giúp vua) là phong trào vũ trang chống Pháp hưởng ứng chiếu Cần Vương của vua Hàm Nghi."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_HG5 = [
       "Khởi nghĩa Lam Sơn",
       "Khởi nghĩa Tây Sơn"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Khởi nghĩa Hương Khê",
     "explanation": "Khởi nghĩa Bãi Sậy, Ba Đình, Hương Khê là 3 cuộc khởi nghĩa lớn nhất phong trào Cần Vương."
   }

@@ -222,6 +222,7 @@ export const QUESTION_BANK_ENG5 = [
       "school",
       "class"
     ],
+    "correctIndex": 0,
     "correctAnswer": "address",
     "explanation": "'address' nghĩa là địa chỉ. Câu trả lời chỉ một địa điểm cụ thể trên đường."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_ENG5 = [
       "are",
       "is"
     ],
+    "correctIndex": 1,
     "correctAnswer": "do",
     "explanation": "Chủ ngữ 'you' đi với trợ động từ 'do'."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_ENG5 = [
       "at",
       "from"
     ],
+    "correctIndex": 1,
     "correctAnswer": "on",
     "explanation": "Dùng giới từ 'on' để chỉ việc ở trên một tầng nào đó (on the second floor)."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_ENG5 = [
       "Crowded village",
       "Noisy village"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Peaceful village",
     "explanation": "Peaceful nghĩa là yên bình, village là làng quê."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_ENG5 = [
       "with",
       "at"
     ],
+    "correctIndex": 0,
     "correctAnswer": "from",
     "explanation": "Cấu trúc 'far from' mang nghĩa là 'cách xa' nơi nào đó."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_ENG5 = [
       "village",
       "street"
     ],
+    "correctIndex": 2,
     "correctAnswer": "village",
     "explanation": "Village (làng quê) thường được miêu tả là 'small and quiet' (nhỏ và yên tĩnh)."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_ENG5 = [
       "city",
       "village"
     ],
+    "correctIndex": 2,
     "correctAnswer": "city",
     "explanation": "Đà Nẵng là một thành phố (city) lớn."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_ENG5 = [
       "flat",
       "in"
     ],
+    "correctIndex": 1,
     "correctAnswer": "lives",
     "explanation": "Chủ ngữ 'I' thì động từ không thêm 's/es', phải sửa thành 'live'."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_ENG5 = [
       "tower",
       "street"
     ],
+    "correctIndex": 1,
     "correctAnswer": "village",
     "explanation": "Ở nông thôn (countryside) thường có các làng (village)."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_ENG5 = [
       "How",
       "Who"
     ],
+    "correctIndex": 1,
     "correctAnswer": "What",
     "explanation": "Hỏi địa chỉ dùng từ để hỏi 'What'."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_ENG5 = [
       "at",
       "for"
     ],
+    "correctIndex": 0,
     "correctAnswer": "in",
     "explanation": "Dùng giới từ 'in' với các buổi trong ngày (in the morning/afternoon/evening)."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_ENG5 = [
       "seldom",
       "rarely"
     ],
+    "correctIndex": 0,
     "correctAnswer": "always",
     "explanation": "Thường xuyên dậy sớm tập thể dục, chọn 'always' (luôn luôn)."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_ENG5 = [
       "often",
       "old"
     ],
+    "correctIndex": 2,
     "correctAnswer": "often",
     "explanation": "Hỏi về mức độ thường xuyên dùng 'How often'."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_ENG5 = [
       "second",
       "twos"
     ],
+    "correctIndex": 1,
     "correctAnswer": "twice",
     "explanation": "'twice a day' nghĩa là 2 lần một ngày."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_ENG5 = [
       "watches",
       "watching"
     ],
+    "correctIndex": 2,
     "correctAnswer": "watches",
     "explanation": "Chủ ngữ 'She' là ngôi thứ 3 số ít, động từ kết thúc bằng 'ch' phải thêm 'es'."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_ENG5 = [
       "doing",
       "did"
     ],
+    "correctIndex": 1,
     "correctAnswer": "does",
     "explanation": "Chủ ngữ 'He' đi với động từ 'does'."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_ENG5 = [
       "with",
       "about"
     ],
+    "correctIndex": 2,
     "correctAnswer": "with",
     "explanation": "play with sb: chơi cùng ai đó."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_ENG5 = [
       "first",
       "ones"
     ],
+    "correctIndex": 1,
     "correctAnswer": "once",
     "explanation": "'once a week' nghĩa là một lần mỗi tuần."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_ENG5 = [
       "Always I have breakfast at 6:30.",
       "I always breakfast have at 6:30."
     ],
+    "correctIndex": 0,
     "correctAnswer": "I always have breakfast at 6:30.",
     "explanation": "Trạng từ chỉ tần suất (always) đứng trước động từ thường (have)."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_ENG5 = [
       "in",
       "with"
     ],
+    "correctIndex": 0,
     "correctAnswer": "after",
     "explanation": "'after school' nghĩa là sau giờ học."
   }

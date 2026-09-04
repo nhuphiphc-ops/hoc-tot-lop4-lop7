@@ -222,6 +222,7 @@ export const QUESTION_BANK_SCI4 = [
       "Không màu, có mùi thơm.",
       "Màu trắng đục, không vị."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Không màu, không mùi, không vị.",
     "explanation": "Nước tinh khiết là chất lỏng không màu, không mùi, không vị."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_SCI4 = [
       "Thể rắn, thể lỏng và thể khí.",
       "Chỉ có thể lỏng."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Thể rắn, thể lỏng và thể khí.",
     "explanation": "Nước có 3 thể: rắn (nước đá), lỏng (nước thường), khí (hơi nước)."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_SCI4 = [
       "Đông đặc",
       "Nóng chảy"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Bay hơi",
     "explanation": "Nước lỏng chuyển thành hơi nước (khí) khi được đun nóng hoặc phơi ngoài nắng gọi là hiện tượng bay hơi."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_SCI4 = [
       "Không có hình dạng cố định.",
       "Có hình tròn."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Không có hình dạng cố định.",
     "explanation": "Nước ở thể lỏng mang hình dạng của vật chứa nó."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_SCI4 = [
       "Muối",
       "Nhựa"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Muối",
     "explanation": "Nước là dung môi có thể hòa tan nhiều chất như muối, đường."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_SCI4 = [
       "Thể khí",
       "Thể plasma"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Thể rắn",
     "explanation": "Nước khi bị làm lạnh dưới 0 độ C sẽ đông đặc thành nước đá ở thể rắn."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_SCI4 = [
       "Đông đặc",
       "Nóng chảy"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Ngưng tụ",
     "explanation": "Sự ngưng tụ là quá trình chất khí chuyển thành chất lỏng khi gặp lạnh."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_SCI4 = [
       "Sử dụng nước mưa để tưới cây.",
       "Thả cá xuống sông."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Rác thải sinh hoạt, nước thải công nghiệp.",
     "explanation": "Việc xả trực tiếp rác và nước thải chưa qua xử lý làm ô nhiễm nghiêm trọng nguồn nước."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_SCI4 = [
       "Khoảng 90%",
       "Dưới 10%"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Khoảng 60 - 70%",
     "explanation": "Cơ thể con người phần lớn là nước, chiếm từ 60 đến 70% trọng lượng."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_SCI4 = [
       "Đóng vòi nước khi không sử dụng.",
       "Đổ dầu mỡ thừa xuống bồn cầu."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Đóng vòi nước khi không sử dụng.",
     "explanation": "Tiết kiệm nước và không xả rác/dầu mỡ xuống cống là cách bảo vệ nguồn nước."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_SCI4 = [
       "Có vị mặn.",
       "Có mùi hắc."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Không màu, không mùi, không vị.",
     "explanation": "Tương tự nước, không khí trong sạch không có màu, mùi hay vị."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_SCI4 = [
       "Khí Các-bô-níc",
       "Khí Hi-đrô"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Khí Ô-xi",
     "explanation": "Khí Oxi (Oxygen) là thành phần thiết yếu giúp duy trì sự hô hấp và sự cháy."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_SCI4 = [
       "Chỉ có ở trên cao.",
       "Chỉ có trong lòng đất."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Bao quanh Trái Đất và mọi vật.",
     "explanation": "Không khí bao quanh Trái Đất tạo thành khí quyển và chui vào các khe hở của mọi vật."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_SCI4 = [
       "Khí Các-bô-níc",
       "Hơi nước"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Khí Ni-tơ",
     "explanation": "Khí Ni-tơ (Nitrogen) chiếm khoảng 78% thể tích không khí."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_SCI4 = [
       "Không khí có mùi.",
       "Ngọn nến không cần không khí."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Không khí duy trì sự cháy.",
     "explanation": "Khi lượng Ô-xi trong cốc cạn kiệt, nến sẽ tắt, chứng tỏ Ô-xi duy trì sự cháy."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_SCI4 = [
       "Nước trong hồ mát mẻ.",
       "Cây cối tươi tốt."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Có mùi hôi, khói bụi mịt mù.",
     "explanation": "Khói bụi, khí thải nhà máy, phương tiện giao thông gây ô nhiễm không khí."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_SCI4 = [
       "Sự chuyển động của không khí từ nơi lạnh đến nơi nóng.",
       "Do mưa rơi xuống."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Sự chuyển động của không khí từ nơi lạnh đến nơi nóng.",
     "explanation": "Không khí nóng nhẹ bay lên, không khí lạnh nặng tràn tới thế chỗ tạo ra gió."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_SCI4 = [
       "Trồng nhiều cây xanh, giảm khói bụi.",
       "Sử dụng nhiều than củi."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Trồng nhiều cây xanh, giảm khói bụi.",
     "explanation": "Cây xanh hấp thụ khí Các-bô-níc và nhả ra khí Ô-xi giúp thanh lọc không khí."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_SCI4 = [
       "Khí quyển",
       "Thạch quyển"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Khí quyển",
     "explanation": "Khí quyển là lớp áo giáp không khí bao bọc và bảo vệ Trái Đất."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_SCI4 = [
       "Cây cối ngừng phát triển.",
       "Nước biển đóng băng."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Hiệu ứng nhà kính, Trái Đất nóng lên.",
     "explanation": "Lượng khí Các-bô-níc dư thừa giữ lại nhiệt lượng, làm nhiệt độ toàn cầu tăng."
   }

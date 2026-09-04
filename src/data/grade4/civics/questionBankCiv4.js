@@ -222,6 +222,7 @@ export const QUESTION_BANK_CIV4 = [
       "Quay cóp bài trong giờ kiểm tra.",
       "Đổ lỗi cho bạn khác khi mình làm sai."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Nhặt được của rơi trả lại người mất.",
     "explanation": "Trung thực là ngay thẳng, thật thà, không tham lam của người khác."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_CIV4 = [
       "Nhận lỗi với mẹ và xin lỗi.",
       "Đổ lỗi cho em trai."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Nhận lỗi với mẹ và xin lỗi.",
     "explanation": "Dũng cảm nhận lỗi là biểu hiện của người trung thực và có trách nhiệm."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_CIV4 = [
       "Thường xuyên bị phạt.",
       "Kiếm được nhiều tiền."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Được mọi người tin yêu, quý mến.",
     "explanation": "Sống trung thực mang lại uy tín, sự bình an trong tâm hồn và sự tôn trọng từ người khác."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_CIV4 = [
       "Bán anh em xa mua láng giềng gần.",
       "Một con ngựa đau cả tàu bỏ cỏ."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Cây ngay không sợ chết đứng.",
     "explanation": "Người ngay thẳng, trung thực (cây ngay) thì không sợ bị oan uổng hay đàm tiếu."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_CIV4 = [
       "Mắng bạn thật to trong lớp.",
       "Lấy tiền của bạn rồi mới cho chép."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Che bài lại không cho bạn chép và khuyên bạn tự làm.",
     "explanation": "Giúp bạn quay cóp là gian lận, vi phạm nội quy, không phải là giúp bạn thực sự."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_CIV4 = [
       "Sẽ học giỏi hơn.",
       "Được khen thưởng."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Sẽ bị mất lòng tin của người khác.",
     "explanation": "Khi đã quen nói dối, đến lúc nói thật cũng không ai tin (như Cậu bé chăn cừu)."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_CIV4 = [
       "Nộp cho thầy cô giáo hoặc phòng giám thị để trả lại người mất.",
       "Mang về nhà giấu."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Nộp cho thầy cô giáo hoặc phòng giám thị để trả lại người mất.",
     "explanation": "Hành động đúng đắn để trả lại tài sản cho người đánh rơi."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_CIV4 = [
       "Gọi điện xin lỗi bạn, hẹn lúc khác để xem phim, hoặc vẫn sang nhà bạn giữ đúng lời hứa.",
       "Đến trễ 2 tiếng cũng không sao."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Gọi điện xin lỗi bạn, hẹn lúc khác để xem phim, hoặc vẫn sang nhà bạn giữ đúng lời hứa.",
     "explanation": "Giữ chữ tín và lời hứa cũng là biểu hiện của người trung thực."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_CIV4 = [
       "Chép bài của bạn bè khi làm bài thi.",
       "Hỏi cô giáo bài chưa hiểu."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Chép bài của bạn bè khi làm bài thi.",
     "explanation": "Thi cử cần đánh giá năng lực thực chất, chép bài là hành vi gian lận."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_CIV4 = [
       "Chỉ người hay nói dối.",
       "Chỉ người tham lam."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chỉ người thật thà, thẳng thắn.",
     "explanation": "Thành ngữ ngợi ca lối sống chân thật, không gian dối."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_CIV4 = [
       "Ghen tị với thành công của bạn bè.",
       "Bắt nạt các em lớp dưới."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Giúp đỡ người khác khi họ gặp khó khăn.",
     "explanation": "Yêu thương con người là quan tâm, chia sẻ và sẵn sàng giúp đỡ mọi người."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_CIV4 = [
       "Vứt rác bừa bãi.",
       "Thờ ơ khi thấy người khác bị tai nạn."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Quyên góp sách vở cũ cho trẻ em vùng lũ.",
     "explanation": "Đóng góp vật chất hoặc tinh thần cho những người yếu thế là hành động nhân ái."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_CIV4 = [
       "Nước chảy đá mòn.",
       "Gần mực thì đen, gần đèn thì rạng."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Lá lành đùm lá rách.",
     "explanation": "Khuyên những người có điều kiện tốt hơn giúp đỡ những người gặp khó khăn."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_CIV4 = [
       "Hỏi thăm bạn và chép bài giúp bạn.",
       "Cười nhạo bạn."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Hỏi thăm bạn và chép bài giúp bạn.",
     "explanation": "Quan tâm và hỗ trợ bạn bè lúc khó khăn là tình bạn đẹp."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_CIV4 = [
       "Bình thường",
       "Rất đáng khen"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Sai",
     "explanation": "Vô cảm, thờ ơ làm mai một tính nhân văn và tình người trong xã hội."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_CIV4 = [
       "Trêu chọc Hoa.",
       "Xin tiền Hoa."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chia sẻ, an ủi và rủ các bạn cùng giúp đỡ Hoa.",
     "explanation": "Nên giúp đỡ người khó khăn thay vì miệt thị họ."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_CIV4 = [
       "Trở nên nổi tiếng.",
       "Có thể thi đỗ đại học."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Gắn kết mọi người, tạo ra xã hội tốt đẹp hơn.",
     "explanation": "Tình thương mang lại sự ấm áp, hòa bình và đoàn kết."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_CIV4 = [
       "Chế giễu ngoại hình của người khác.",
       "Nhường ghế cho người già trên xe buýt."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Chế giễu ngoại hình của người khác.",
     "explanation": "Miệt thị ngoại hình (body shaming) gây tổn thương sâu sắc cho người khác."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_CIV4 = [
       "Đoàn kết tốt, kỷ luật tốt.",
       "Tất cả các ý trên."
     ],
+    "correctIndex": 3,
     "correctAnswer": "Tất cả các ý trên.",
     "explanation": "5 điều Bác Hồ dạy là cẩm nang rèn luyện đạo đức cho học sinh."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_CIV4 = [
       "Đổ lỗi cho hoàn cảnh.",
       "Tức giận ngược lại."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chân thành xin lỗi và sửa sai.",
     "explanation": "Biết nhận lỗi giúp xoa dịu tổn thương và củng cố các mối quan hệ."
   }

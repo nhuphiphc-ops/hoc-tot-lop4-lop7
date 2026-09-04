@@ -222,6 +222,7 @@ export const QUESTION_BANK_HG4 = [
       "Là bức tranh vẽ phong cảnh.",
       "Là mô hình quả địa cầu."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Là hình vẽ thu nhỏ một khu vực lên mặt phẳng.",
     "explanation": "Bản đồ là hình vẽ thu nhỏ một khu vực hay toàn bộ bề mặt Trái Đất theo một tỉ lệ nhất định."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_HG4 = [
       "Tên bản đồ",
       "Kí hiệu bản đồ"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Tên bản đồ",
     "explanation": "Tên bản đồ cho biết nội dung chính và khu vực được thể hiện trên bản đồ."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_HG4 = [
       "Cho biết tên quốc gia.",
       "Chỉ phương hướng."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Giải thích ý nghĩa của các kí hiệu.",
     "explanation": "Bảng chú giải giúp người xem hiểu các kí hiệu, màu sắc được dùng trên bản đồ."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_HG4 = [
       "Đồi núi",
       "Cao nguyên"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Biển, sông, hồ",
     "explanation": "Màu xanh dương luôn được quy ước dùng để biểu diễn các vực nước như sông, hồ, biển."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_HG4 = [
       "Hướng Đông",
       "Hướng Tây"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Hướng Bắc",
     "explanation": "Theo quy ước chung, phía trên bản đồ là hướng Bắc, dưới là Nam, phải là Đông, trái là Tây."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_HG4 = [
       "Nam Á",
       "Tây Á"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Đông Nam Á",
     "explanation": "Việt Nam là một quốc gia thuộc khu vực Đông Nam Á."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_HG4 = [
       "Hà Nội",
       "Huế"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Hà Nội",
     "explanation": "Hà Nội là thủ đô của nước Cộng hòa Xã hội chủ nghĩa Việt Nam."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_HG4 = [
       "Phía Đông và Nam",
       "Phía Tây Bắc"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Phía Đông và Nam",
     "explanation": "Biển Đông bao bọc phần đất liền của nước ta ở các phía Đông, Nam và Tây Nam."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_HG4 = [
       "Dãy Bạch Mã",
       "Dãy Cửu Long"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Dãy Bạch Mã",
     "explanation": "Dãy núi Bạch Mã cắt ngang miền Trung, là ranh giới khí hậu và địa lí Bắc - Nam."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_HG4 = [
       "Cờ sọc đỏ trắng",
       "Cờ đỏ có lưỡi liềm"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Cờ đỏ sao vàng năm cánh",
     "explanation": "Quốc kỳ Việt Nam là lá cờ đỏ với ngôi sao vàng 5 cánh ở trung tâm."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_HG4 = [
       "Đại Việt",
       "Vạn Xuân"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Văn Lang",
     "explanation": "Nhà nước đầu tiên của dân tộc ta là nhà nước Văn Lang do vua Hùng cai trị."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_HG4 = [
       "Phong Châu (Phú Thọ)",
       "Cổ Loa (Hà Nội)"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Phong Châu (Phú Thọ)",
     "explanation": "Phong Châu (thuộc tỉnh Phú Thọ ngày nay) là kinh đô của nhà nước Văn Lang."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_HG4 = [
       "Thánh Gióng",
       "Bánh chưng bánh giầy"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Con Rồng cháu Tiên",
     "explanation": "Truyền thuyết Lạc Long Quân và Âu Cơ đẻ ra bọc trăm trứng lí giải nguồn gốc dân tộc."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_HG4 = [
       "Thứ sáu",
       "Thứ mười tám"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Thứ sáu",
     "explanation": "Vua Hùng thứ 6 đã truyền ngôi cho Lang Liêu nhờ mâm cúng bánh chưng bánh giầy ý nghĩa."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_HG4 = [
       "Bằng nhựa",
       "Bằng nhôm"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Chủ yếu bằng đồng",
     "explanation": "Cư dân Văn Lang rất thạo nghề đúc đồng (ví dụ: Trống đồng Đông Sơn)."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_HG4 = [
       "Chống giặc ngoại xâm",
       "Lao động cần cù"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Chống giặc ngoại xâm",
     "explanation": "Thánh Gióng là biểu tượng của tinh thần quật cường đánh giặc Ân cứu nước."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_HG4 = [
       "Thời kì chống Mỹ",
       "Thời nhà Trần"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Thời đại Hùng Vương",
     "explanation": "Trống đồng Đông Sơn là minh chứng cho sự phát triển rực rỡ của văn hóa thời Hùng Vương."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_HG4 = [
       "Thế kỉ 20",
       "Thời nhà Lê"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Thời Hùng Vương",
     "explanation": "Ăn trầu, nhuộm răng đen, làm bánh chưng là những phong tục cổ truyền từ thời Văn Lang."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_HG4 = [
       "Mùng 1 Tết",
       "Mùng 5 tháng 5"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Mùng 10 tháng 3",
     "explanation": "Dù ai đi ngược về xuôi/Nhớ ngày giỗ Tổ mùng mười tháng ba."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_HG4 = [
       "Thừa tướng",
       "Quan tri huyện"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Lạc tướng, Lạc hầu",
     "explanation": "Bộ máy cai trị thời Văn Lang gồm vua Hùng, đứng đầu các bộ là Lạc tướng, giúp việc là Lạc hầu."
   }

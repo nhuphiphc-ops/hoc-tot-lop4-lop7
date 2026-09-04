@@ -222,6 +222,7 @@ export const QUESTION_BANK_CIV5 = [
       "Khuyên ta không nên dùng sắt.",
       "Chỉ người có sức khỏe tốt."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Khuyên ta kiên trì, nỗ lực ắt sẽ thành công.",
     "explanation": "Dù việc khó đến đâu, nếu có ý chí và sự bền bỉ thì cuối cùng cũng đạt kết quả."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_CIV5 = [
       "Chỉ làm những việc dễ dàng.",
       "Hay phàn nàn, đổ lỗi cho hoàn cảnh."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Kiên nhẫn suy nghĩ, tìm cách giải bài toán khó.",
     "explanation": "Người có ý chí luôn tìm cách đối mặt và vượt qua thử thách."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_CIV5 = [
       "Mạc Đĩnh Chi",
       "Kim Đồng"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Thầy Nguyễn Ngọc Ký",
     "explanation": "Thầy Nguyễn Ngọc Ký bị liệt 2 tay từ nhỏ nhưng đã rèn luyện viết bằng chân và trở thành Nhà giáo Ưu tú."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_CIV5 = [
       "Tìm hiểu nguyên nhân, nhờ người lớn hướng dẫn lại và tiếp tục tập.",
       "Đổ lỗi do chiếc xe bị hỏng."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Tìm hiểu nguyên nhân, nhờ người lớn hướng dẫn lại và tiếp tục tập.",
     "explanation": "Không ai thành công ngay lần đầu tiên, sự nỗ lực kiên trì là chìa khóa."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_CIV5 = [
       "Uống nước nhớ nguồn.",
       "Ăn quả nhớ kẻ trồng cây."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Chớ thấy sóng cả mà ngã tay chèo.",
     "explanation": "Câu này khuyên con người đừng vì thấy khó khăn, thử thách lớn (sóng cả) mà buông xuôi, bỏ cuộc."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_CIV5 = [
       "Rèn luyện bản lĩnh, giúp ta trưởng thành hơn.",
       "Không có tác dụng gì."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Rèn luyện bản lĩnh, giúp ta trưởng thành hơn.",
     "explanation": "Vượt qua khó khăn là cách để con người học hỏi và mạnh mẽ hơn."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_CIV5 = [
       "Vẫn cố gắng đi học, sắp xếp thời gian hợp lý để vừa học vừa giúp mẹ.",
       "Đi chơi điện tử thay vì làm việc."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Vẫn cố gắng đi học, sắp xếp thời gian hợp lý để vừa học vừa giúp mẹ.",
     "explanation": "Nghị lực sống là vươn lên từ nghịch cảnh."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_CIV5 = [
       "Chỉ cần cố gắng 1 lần là đủ.",
       "Đợi khi trưởng thành rồi mới rèn luyện."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Từ những việc nhỏ nhất trong học tập và sinh hoạt hàng ngày.",
     "explanation": "Ý chí được bồi đắp dần dần qua từng thử thách nhỏ."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_CIV5 = [
       "Do rèn luyện liên tục và nhận thức đúng đắn.",
       "Do người khác cho tặng."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Do rèn luyện liên tục và nhận thức đúng đắn.",
     "explanation": "Không ai tự nhiên mà có nghị lực, tất cả phải qua trui rèn."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_CIV5 = [
       "Bỏ học đi chơi mưu mẹo.",
       "Dùng tiền mua bằng cấp."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Bắt đom đóm bỏ vào vỏ trứng để lấy ánh sáng học bài.",
     "explanation": "Tấm gương Trạng lường Lương Thế Vinh (hoặc Mạc Đĩnh Chi) nổi tiếng với việc bắt đóm đóm làm đèn học."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_CIV5 = [
       "Lá lành đùm lá rách",
       "Tiên học lễ, hậu học văn"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Uống nước nhớ nguồn",
     "explanation": "Biết ơn và tưởng nhớ công lao sinh thành, nuôi dưỡng của các thế hệ đi trước."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_CIV5 = [
       "Ngày sinh nhật bạn bè",
       "Ngày nào cũng bắt buộc phải cúng mâm cỗ"
     ],
+    "correctIndex": 0,
     "correctAnswer": "Giỗ, Tết, các ngày lễ quan trọng",
     "explanation": "Tết Nguyên Đán và ngày Giỗ là những dịp lễ quan trọng để con cháu đoàn tụ và tưởng nhớ."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_CIV5 = [
       "Không cần làm gì vì tổ tiên đã khuất.",
       "Chỉ đến ngày Tết mới dọn dẹp bàn thờ."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Cố gắng học tập, tu dưỡng đạo đức để làm rạng danh dòng họ.",
     "explanation": "Sự tiếp nối và phát huy truyền thống gia đình là cách báo hiếu ý nghĩa nhất."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_CIV5 = [
       "Con người phải biết cội nguồn, gốc gác của mình.",
       "Con người phải trồng nhiều cây."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Con người phải biết cội nguồn, gốc gác của mình.",
     "explanation": "Hình ảnh cây có cội, sông có nguồn để ví với việc con người có tổ tiên, dòng họ."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_CIV5 = [
       "Ngoài sân vườn.",
       "Dưới gầm cầu thang."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Nơi trang trọng, sạch sẽ nhất trong nhà.",
     "explanation": "Để thể hiện sự tôn kính, bàn thờ luôn đặt ở không gian thiêng liêng nhất."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_CIV5 = [
       "Lễ hội Chùa Hương",
       "Lễ hội đua thuyền"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Lễ Giỗ tổ Hùng Vương",
     "explanation": "Quốc giỗ ngày mùng 10 tháng 3 âm lịch."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_CIV5 = [
       "Thắp nén nhang tưởng nhớ ông bà.",
       "Chăm sóc lăng mộ dòng họ sạch sẽ."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Cười đùa, chạy nhảy ồn ào trước bàn thờ.",
     "explanation": "Khu vực thờ cúng cần sự trang nghiêm, tĩnh lặng."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_CIV5 = [
       "tông",
       "tổ tiên"
     ],
+    "correctIndex": 2,
     "correctAnswer": "tông",
     "explanation": "Câu thành ngữ nguyên văn: Chim có tổ, người có tông."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_CIV5 = [
       "Để tranh giành tài sản.",
       "Để lập danh sách đi chơi."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Để lưu giữ truyền thống, nhắc nhở con cháu biết thứ bậc và cội nguồn.",
     "explanation": "Gia phả là cuốn sách ghi chép các đời trong một dòng họ."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_CIV5 = [
       "Của toàn dân tộc Việt Nam (các Vua Hùng, anh hùng dân tộc).",
       "Của người nước ngoài."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Của toàn dân tộc Việt Nam (các Vua Hùng, anh hùng dân tộc).",
     "explanation": "Lòng tự hào và biết ơn những người có công khai phá, bảo vệ đất nước."
   }

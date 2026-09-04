@@ -222,6 +222,7 @@ export const QUESTION_BANK_TECH5 = [
       "Là các hiện tượng tự nhiên như mưa, gió.",
       "Là các hòn đá ngoài đường."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Là sản phẩm do con người tạo ra, sử dụng tri thức kĩ thuật để phục vụ đời sống.",
     "explanation": "Sản phẩm công nghệ (tủ lạnh, tivi, xe máy...) ra đời từ sự sáng tạo của con người."
   },
@@ -236,6 +237,7 @@ export const QUESTION_BANK_TECH5 = [
       "Ô tô, máy bay",
       "Đồng hồ"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Ô tô, máy bay",
     "explanation": "Phương tiện giao thông cơ giới là những phát minh kĩ thuật cách mạng."
   },
@@ -250,6 +252,7 @@ export const QUESTION_BANK_TECH5 = [
       "Giúp bảo quản thức ăn lâu hỏng.",
       "Giúp giải trí, xem phim."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Giúp giặt, vắt quần áo tiết kiệm thời gian và công sức.",
     "explanation": "Máy giặt giải phóng sức lao động thủ công trong việc giặt giũ."
   },
@@ -264,6 +267,7 @@ export const QUESTION_BANK_TECH5 = [
       "Làm tăng trí nhớ.",
       "Cơ thể khỏe mạnh hơn."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Gây cận thị, mỏi mắt, lười vận động.",
     "explanation": "Lạm dụng đồ công nghệ gây tác động tiêu cực đến sức khỏe thể chất và tâm lý."
   },
@@ -278,6 +282,7 @@ export const QUESTION_BANK_TECH5 = [
       "Chữa bệnh",
       "Khám phá vũ trụ"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Giao tiếp, liên lạc từ xa",
     "explanation": "Điện thoại thu hẹp khoảng cách không gian, giúp con người nói chuyện dễ dàng mọi lúc mọi nơi."
   },
@@ -292,6 +297,7 @@ export const QUESTION_BANK_TECH5 = [
       "Nhiệt năng thành điện năng",
       "Hóa năng thành cơ năng"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Điện năng thành cơ năng (chuyển động quay)",
     "explanation": "Động cơ điện biến dòng điện thành lực quay cánh quạt tạo gió."
   },
@@ -306,6 +312,7 @@ export const QUESTION_BANK_TECH5 = [
       "Tạo ra không gian lạnh để bảo quản thực phẩm tươi lâu hơn.",
       "Xay sinh tố."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Tạo ra không gian lạnh để bảo quản thực phẩm tươi lâu hơn.",
     "explanation": "Nhiệt độ thấp ức chế sự sinh sôi của vi khuẩn, giúp thức ăn lâu ôi thiu."
   },
@@ -320,6 +327,7 @@ export const QUESTION_BANK_TECH5 = [
       "Mở to hết công suất.",
       "Chỉ tắt bằng điều khiển từ xa mà không ngắt nguồn."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Tắt công tắc và rút phích cắm điện.",
     "explanation": "Ngắt điện hoàn toàn giúp tiết kiệm năng lượng và phòng chống cháy nổ."
   },
@@ -334,6 +342,7 @@ export const QUESTION_BANK_TECH5 = [
       "Sử dụng thiết bị có lớp cách điện tốt, không sờ tay vào ổ điện.",
       "Để dây điện đứt hở lõi nhôm đồng ra ngoài."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Sử dụng thiết bị có lớp cách điện tốt, không sờ tay vào ổ điện.",
     "explanation": "Tuân thủ quy tắc an toàn điện để tránh nguy cơ điện giật."
   },
@@ -348,6 +357,7 @@ export const QUESTION_BANK_TECH5 = [
       "Bếp ga",
       "Tivi"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Đèn pin, đèn LED",
     "explanation": "Đèn LED tiêu thụ ít điện và cung cấp quang thông (ánh sáng) rất tốt."
   },
@@ -362,6 +372,7 @@ export const QUESTION_BANK_TECH5 = [
       "Chỉ để làm đẹp phong cảnh.",
       "Để làm đường giao thông."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Cung cấp lương thực, thực phẩm cho con người và vật nuôi.",
     "explanation": "Nông nghiệp (trồng trọt, chăn nuôi) là nguồn cung cấp thức ăn cốt lõi."
   },
@@ -376,6 +387,7 @@ export const QUESTION_BANK_TECH5 = [
       "Làm đất, gieo hạt",
       "Tưới nước"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Làm đất, gieo hạt",
     "explanation": "Đất cần được làm tơi xốp trước khi gieo mầm sống (hạt giống)."
   },
@@ -390,6 +402,7 @@ export const QUESTION_BANK_TECH5 = [
       "Chỉ cần nước dơ.",
       "Chỉ cần cắt tỉa cành."
     ],
+    "correctIndex": 0,
     "correctAnswer": "Ánh sáng, nước, không khí và chất dinh dưỡng trong đất.",
     "explanation": "Cây xanh dùng ánh sáng mặt trời tổng hợp CO2 và nước thành chất hữu cơ nuôi cây."
   },
@@ -404,6 +417,7 @@ export const QUESTION_BANK_TECH5 = [
       "Cung cấp bổ sung chất dinh dưỡng (đạm, lân, kali) giúp cây sinh trưởng tốt.",
       "Thay thế hoàn toàn cho nước tưới."
     ],
+    "correctIndex": 2,
     "correctAnswer": "Cung cấp bổ sung chất dinh dưỡng (đạm, lân, kali) giúp cây sinh trưởng tốt.",
     "explanation": "Đất trồng lâu ngày sẽ cạn kiệt dinh dưỡng, phân bón giúp bổ sung lại."
   },
@@ -418,6 +432,7 @@ export const QUESTION_BANK_TECH5 = [
       "Làm cho cây trồng bị ngập úng.",
       "Làm cây không quang hợp được."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Bảo vệ cây trồng khỏi côn trùng, thời tiết khắc nghiệt, kiểm soát được nhiệt độ.",
     "explanation": "Nông nghiệp công nghệ cao thường trồng rau hoa trong nhà kính để đạt năng suất tối đa."
   },
@@ -432,6 +447,7 @@ export const QUESTION_BANK_TECH5 = [
       "Gà, vịt, ngan, ngỗng",
       "Chó, mèo"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Gà, vịt, ngan, ngỗng",
     "explanation": "Gia cầm là các loài chim được con người thuần hóa và chăn nuôi."
   },
@@ -446,6 +462,7 @@ export const QUESTION_BANK_TECH5 = [
       "Sợi len",
       "Da giày"
     ],
+    "correctIndex": 1,
     "correctAnswer": "Thịt gà và Trứng gà",
     "explanation": "Nuôi gà để lấy trứng (gà đẻ) và lấy thịt (gà thịt)."
   },
@@ -460,6 +477,7 @@ export const QUESTION_BANK_TECH5 = [
       "Vật nuôi ngủ ngon hơn.",
       "Vật nuôi sinh nhiều con hơn."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Vật nuôi dễ mắc bệnh lây nhiễm.",
     "explanation": "Vệ sinh chuồng trại kém tạo môi trường cho vi khuẩn, virus gây dịch bệnh phát triển."
   },
@@ -474,6 +492,7 @@ export const QUESTION_BANK_TECH5 = [
       "Vứt vỏ bao bì thuốc bảo vệ thực vật xuống sông.",
       "Đốt đồng làm khói bụi lan rộng."
     ],
+    "correctIndex": 1,
     "correctAnswer": "Sử dụng phân hữu cơ, ủ phân vi sinh thay thế hóa chất.",
     "explanation": "Canh tác hữu cơ giảm ô nhiễm đất, nước và an toàn cho người sử dụng."
   },
@@ -488,6 +507,7 @@ export const QUESTION_BANK_TECH5 = [
       "Cái cuốc, cái cào",
       "Cái kìm"
     ],
+    "correctIndex": 2,
     "correctAnswer": "Cái cuốc, cái cào",
     "explanation": "Cuốc và cào là hai nông cụ thô sơ đặc trưng dùng để cày xới, làm tơi đất trồng."
   }

@@ -2618,12 +2618,6 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       else if (activeSubj === 'informatics') setG6ItWrong(updateWrongList);
       else if (activeSubj === 'civics') setG6CivWrong(updateWrongList);
       else if (activeSubj === 'technology') setG6TechWrong(updateWrongList);
-        else if (activeSubj === 'english') setG6EngProgress(updateProg);
-        else if (activeSubj === 'science') setG6SciProgress(updateProg);
-        else if (activeSubj === 'history_geo') setG6HgProgress(updateProg);
-        else if (activeSubj === 'informatics') setG6ItProgress(updateProg);
-        else if (activeSubj === 'civics') setG6CivProgress(updateProg);
-        else if (activeSubj === 'technology') setG6TechProgress(updateProg);
     } else if (activeGrade === '7') {
       if (activeSubj === 'math') setG7MathWrong(updateWrongList);
       else if (activeSubj === 'vietnamese') setG7LitWrong(updateWrongList);
