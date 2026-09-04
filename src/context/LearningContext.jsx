@@ -157,8 +157,8 @@ export const GRADE_PRIMARY_SUBJECTS = [
 ];
 
 export const DEFAULT_PROFILE_CHUOT = {
-  name: 'Bé Chuột',
-  school: 'Trường Tiểu Học Phú La',
+  name: 'Bé Chuột của Mẹ Loan',
+  school: '',
   grade: '1',
   avatar: '🐭',
   mascot: 'cat'
@@ -1142,6 +1142,7 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.GRADE, currentGrade); }, [currentGrade]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.SUBJECT, currentSubject); }, [currentSubject]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_NGUYEN, JSON.stringify(profileNguyen)); }, [profileNguyen]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_CHUOT, JSON.stringify(profileChuot)); }, [profileChuot]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_MINH, JSON.stringify(profileMinh)); }, [profileMinh]);
 
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G4_MATH, JSON.stringify(g4MathProgress)); }, [g4MathProgress]);
