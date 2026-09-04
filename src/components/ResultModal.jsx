@@ -30,8 +30,9 @@ export const ResultModal = ({
   onExit,
   onClose
 }) => {
-  const { isGrade12 } = useLearning();
-  const studentName = isGrade12 ? 'Nhật Minh' : 'Công Nguyên';
+  const { currentGrade, profile } = useLearning();
+  const isGrade12 = currentGrade === '12';
+  const studentName = profile?.name ? profile.name.split(' của ')[0] : (isGrade12 ? 'Nhật Minh' : 'Công Nguyên');
 
   const { score, correctCount, totalCount, timeSpent, details } = resultData || { score: 0, correctCount: 0, totalCount: 0, timeSpent: 0, details: [] };
   const { earnedStars, earnedCoins } = earnedRewards || { earnedStars: 0, earnedCoins: 0 };
@@ -73,8 +74,8 @@ export const ResultModal = ({
     }
 
     // Voice narration in Vietnamese
-    sounds.speakSubmissionFeedback(score, isGrade12);
-  }, [score, isGrade12]);
+    sounds.speakSubmissionFeedback(score, currentGrade);
+  }, [score, currentGrade]);
 
   // Format time spent (MM:SS)
   const formatTime = (secs) => {
@@ -90,7 +91,7 @@ export const ResultModal = ({
   let emoji = isGrade12 ? "🐉" : "🌱";
 
   if (score === 100) {
-    title = `${studentName} Của Bố Quá Tuyệt Vời! 🌟`;
+    title = ['1','2','3','4','5','6'].includes(currentGrade) ? `${studentName} Giỏi Quá! 🌟` : `${studentName} Của Bố Quá Tuyệt Vời! 🌟`;
     message = "Con đã xuất sắc trả lời đúng tất cả các câu hỏi!";
     badgeColor = "bg-yellow-100 text-yellow-900 border-yellow-400";
     emoji = "👑";
@@ -134,7 +135,7 @@ export const ResultModal = ({
         {/* Voice replay button */}
         <button
           type="button"
-          onClick={() => sounds.speakSubmissionFeedback(score, isGrade12)}
+          onClick={() => sounds.speakSubmissionFeedback(score, currentGrade)}
           className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-100 hover:bg-amber-200 text-amber-900 font-extrabold text-xs rounded-full shadow-xs mb-4 transition-all cursor-pointer"
         >
           <span className="text-sm">🔊</span>

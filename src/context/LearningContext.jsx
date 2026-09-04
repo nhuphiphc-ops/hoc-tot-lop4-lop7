@@ -2831,7 +2831,7 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
     checkBadges(newHistory, totalStars + earnedStars);
 
     // Personalized voice feedback
-    sounds.speakSubmissionFeedback(score, activeGrade === '12');
+    sounds.speakSubmissionFeedback(score, activeGrade);
 
     return {
       earnedStars,
