@@ -1,10 +1,10 @@
 // Dữ liệu môn Tiếng Anh 9
 export const STAGES_ENG9 = [
-    { "id": 1, "title": "Chặng 1: Khởi động", "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9] },
-    { "id": 2, "title": "Chặng 2: Khám phá", "weeks": [10, 11, 12, 13, 14, 15, 16, 17, 18] },
-    { "id": 3, "title": "Chặng 3: Bứt phá", "weeks": [19, 20, 21, 22, 23, 24, 25, 26, 27] },
-    { "id": 4, "title": "Chặng 4: Chinh phục", "weeks": [28, 29, 30, 31, 32, 33, 34, 35] }
-  ];
+  { "id": 1, "title": "Chặng 1: Khởi động", "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9] },
+  { "id": 2, "title": "Chặng 2: Khám phá", "weeks": [10, 11, 12, 13, 14, 15, 16, 17, 18] },
+  { "id": 3, "title": "Chặng 3: Bứt phá", "weeks": [19, 20, 21, 22, 23, 24, 25, 26, 27] },
+  { "id": 4, "title": "Chặng 4: Chinh phục", "weeks": [28, 29, 30, 31, 32, 33, 34, 35] }
+];
 
 export const WEEKS_METADATA_ENG9 = {
   "1": { "title": "Bài Học Tuần 1", "desc": "Nắm vững kiến thức tuần 1 chuẩn GDPT 2026." },
@@ -54,39 +54,87 @@ export const QUESTION_BANK_ENG9 = [
     "id": "Eng9_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 1 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Choose the correct answer: I _____ to school by bus every day.",
     "options": [
-      "Đáp án A",
-      "Đáp án B",
-      "Đáp án C",
-      "Đáp án D"
+      "go",
+      "goes",
+      "going",
+      "went"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 1.",
-    "explanation": "Hướng dẫn giải tuần 1.",
+    "hint": "Thì hiện tại đơn với chủ ngữ I.",
+    "explanation": "Thì hiện tại đơn với chủ ngữ I.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 1 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "My father _____ television in the living room now.",
     "options": [
-      "Đáp án A",
-      "Đáp án B",
-      "Đáp án C",
-      "Đáp án D"
+      "watches",
+      "watched",
+      "is watching",
+      "watching"
     ],
-    "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 1.",
-    "explanation": "Hướng dẫn giải tuần 1.",
+    "correctIndex": 2,
+    "hint": "Có 'now' -> hiện tại tiếp diễn.",
+    "explanation": "Có 'now' -> hiện tại tiếp diễn.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Eng9_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "They have lived here _____ 2010.",
+    "options": [
+      "for",
+      "since",
+      "in",
+      "on"
+    ],
+    "correctIndex": 1,
+    "hint": "since + mốc thời gian.",
+    "explanation": "since + mốc thời gian.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Eng9_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "She is the _____ student in our class.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "most tall"
+    ],
+    "correctIndex": 2,
+    "hint": "So sánh nhất với tính từ ngắn.",
+    "explanation": "So sánh nhất với tính từ ngắn.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Eng9_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "If it rains tomorrow, we _____ at home.",
+    "options": [
+      "stay",
+      "will stay",
+      "stayed",
+      "would stay"
+    ],
+    "correctIndex": 1,
+    "hint": "Câu điều kiện loại 1.",
+    "explanation": "Câu điều kiện loại 1.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 2 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 2 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -94,15 +142,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 2.",
-    "explanation": "Hướng dẫn giải tuần 2.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 2 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 2 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -110,15 +158,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 2.",
-    "explanation": "Hướng dẫn giải tuần 2.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W3_Q1",
     "week": 3,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 3 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 3 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -126,15 +174,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 3.",
-    "explanation": "Hướng dẫn giải tuần 3.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W3_Q2",
     "week": 3,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 3 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 3 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -142,15 +190,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 3.",
-    "explanation": "Hướng dẫn giải tuần 3.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W4_Q1",
     "week": 4,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 4 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 4 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -158,15 +206,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 4.",
-    "explanation": "Hướng dẫn giải tuần 4.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W4_Q2",
     "week": 4,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 4 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 4 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -174,15 +222,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 4.",
-    "explanation": "Hướng dẫn giải tuần 4.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W5_Q1",
     "week": 5,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 5 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 5 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -190,15 +238,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 5.",
-    "explanation": "Hướng dẫn giải tuần 5.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W5_Q2",
     "week": 5,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 5 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 5 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -206,15 +254,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 5.",
-    "explanation": "Hướng dẫn giải tuần 5.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W6_Q1",
     "week": 6,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 6 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 6 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -222,15 +270,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 6.",
-    "explanation": "Hướng dẫn giải tuần 6.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W6_Q2",
     "week": 6,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 6 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 6 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -238,15 +286,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 6.",
-    "explanation": "Hướng dẫn giải tuần 6.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W7_Q1",
     "week": 7,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 7 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 7 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -254,15 +302,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 7.",
-    "explanation": "Hướng dẫn giải tuần 7.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W7_Q2",
     "week": 7,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 7 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 7 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -270,15 +318,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 7.",
-    "explanation": "Hướng dẫn giải tuần 7.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W8_Q1",
     "week": 8,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 8 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 8 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -286,15 +334,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 8.",
-    "explanation": "Hướng dẫn giải tuần 8.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W8_Q2",
     "week": 8,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 8 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 8 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -302,15 +350,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 8.",
-    "explanation": "Hướng dẫn giải tuần 8.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W9_Q1",
     "week": 9,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 9 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 9 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -318,15 +366,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 9.",
-    "explanation": "Hướng dẫn giải tuần 9.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W9_Q2",
     "week": 9,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 9 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 9 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -334,15 +382,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 9.",
-    "explanation": "Hướng dẫn giải tuần 9.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W10_Q1",
     "week": 10,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 10 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 10 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -350,15 +398,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 10.",
-    "explanation": "Hướng dẫn giải tuần 10.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W10_Q2",
     "week": 10,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 10 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 10 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -366,15 +414,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 10.",
-    "explanation": "Hướng dẫn giải tuần 10.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W11_Q1",
     "week": 11,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 11 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 11 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -382,15 +430,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 11.",
-    "explanation": "Hướng dẫn giải tuần 11.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W11_Q2",
     "week": 11,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 11 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 11 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -398,15 +446,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 11.",
-    "explanation": "Hướng dẫn giải tuần 11.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W12_Q1",
     "week": 12,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 12 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 12 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -414,15 +462,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 12.",
-    "explanation": "Hướng dẫn giải tuần 12.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W12_Q2",
     "week": 12,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 12 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 12 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -430,15 +478,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 12.",
-    "explanation": "Hướng dẫn giải tuần 12.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W13_Q1",
     "week": 13,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 13 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 13 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -446,15 +494,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 13.",
-    "explanation": "Hướng dẫn giải tuần 13.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W13_Q2",
     "week": 13,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 13 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 13 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -462,15 +510,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 13.",
-    "explanation": "Hướng dẫn giải tuần 13.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W14_Q1",
     "week": 14,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 14 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 14 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -478,15 +526,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 14.",
-    "explanation": "Hướng dẫn giải tuần 14.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W14_Q2",
     "week": 14,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 14 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 14 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -494,15 +542,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 14.",
-    "explanation": "Hướng dẫn giải tuần 14.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W15_Q1",
     "week": 15,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 15 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 15 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -510,15 +558,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 15.",
-    "explanation": "Hướng dẫn giải tuần 15.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W15_Q2",
     "week": 15,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 15 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 15 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -526,15 +574,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 15.",
-    "explanation": "Hướng dẫn giải tuần 15.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W16_Q1",
     "week": 16,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 16 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 16 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -542,15 +590,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 16.",
-    "explanation": "Hướng dẫn giải tuần 16.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W16_Q2",
     "week": 16,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 16 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 16 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -558,15 +606,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 16.",
-    "explanation": "Hướng dẫn giải tuần 16.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W17_Q1",
     "week": 17,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 17 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 17 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -574,15 +622,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 17.",
-    "explanation": "Hướng dẫn giải tuần 17.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W17_Q2",
     "week": 17,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 17 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 17 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -590,15 +638,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 17.",
-    "explanation": "Hướng dẫn giải tuần 17.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W18_Q1",
     "week": 18,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 18 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 18 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -606,15 +654,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 18.",
-    "explanation": "Hướng dẫn giải tuần 18.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W18_Q2",
     "week": 18,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 18 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 18 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -622,15 +670,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 18.",
-    "explanation": "Hướng dẫn giải tuần 18.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W19_Q1",
     "week": 19,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 19 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 19 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -638,15 +686,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 19.",
-    "explanation": "Hướng dẫn giải tuần 19.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W19_Q2",
     "week": 19,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 19 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 19 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -654,15 +702,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 19.",
-    "explanation": "Hướng dẫn giải tuần 19.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W20_Q1",
     "week": 20,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 20 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 20 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -670,15 +718,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 20.",
-    "explanation": "Hướng dẫn giải tuần 20.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W20_Q2",
     "week": 20,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 20 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 20 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -686,15 +734,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 20.",
-    "explanation": "Hướng dẫn giải tuần 20.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W21_Q1",
     "week": 21,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 21 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 21 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -702,15 +750,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 21.",
-    "explanation": "Hướng dẫn giải tuần 21.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W21_Q2",
     "week": 21,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 21 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 21 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -718,15 +766,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 21.",
-    "explanation": "Hướng dẫn giải tuần 21.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W22_Q1",
     "week": 22,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 22 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 22 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -734,15 +782,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 22.",
-    "explanation": "Hướng dẫn giải tuần 22.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W22_Q2",
     "week": 22,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 22 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 22 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -750,15 +798,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 22.",
-    "explanation": "Hướng dẫn giải tuần 22.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W23_Q1",
     "week": 23,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 23 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 23 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -766,15 +814,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 23.",
-    "explanation": "Hướng dẫn giải tuần 23.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W23_Q2",
     "week": 23,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 23 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 23 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -782,15 +830,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 23.",
-    "explanation": "Hướng dẫn giải tuần 23.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W24_Q1",
     "week": 24,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 24 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 24 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -798,15 +846,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 24.",
-    "explanation": "Hướng dẫn giải tuần 24.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W24_Q2",
     "week": 24,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 24 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 24 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -814,15 +862,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 24.",
-    "explanation": "Hướng dẫn giải tuần 24.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W25_Q1",
     "week": 25,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 25 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 25 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -830,15 +878,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 25.",
-    "explanation": "Hướng dẫn giải tuần 25.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W25_Q2",
     "week": 25,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 25 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 25 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -846,15 +894,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 25.",
-    "explanation": "Hướng dẫn giải tuần 25.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W26_Q1",
     "week": 26,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 26 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 26 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -862,15 +910,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 26.",
-    "explanation": "Hướng dẫn giải tuần 26.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W26_Q2",
     "week": 26,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 26 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 26 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -878,15 +926,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 26.",
-    "explanation": "Hướng dẫn giải tuần 26.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W27_Q1",
     "week": 27,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 27 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 27 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -894,15 +942,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 27.",
-    "explanation": "Hướng dẫn giải tuần 27.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W27_Q2",
     "week": 27,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 27 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 27 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -910,15 +958,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 27.",
-    "explanation": "Hướng dẫn giải tuần 27.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W28_Q1",
     "week": 28,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 28 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 28 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -926,15 +974,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 28.",
-    "explanation": "Hướng dẫn giải tuần 28.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W28_Q2",
     "week": 28,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 28 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 28 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -942,15 +990,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 28.",
-    "explanation": "Hướng dẫn giải tuần 28.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W29_Q1",
     "week": 29,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 29 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 29 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -958,15 +1006,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 29.",
-    "explanation": "Hướng dẫn giải tuần 29.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W29_Q2",
     "week": 29,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 29 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 29 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -974,15 +1022,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 29.",
-    "explanation": "Hướng dẫn giải tuần 29.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W30_Q1",
     "week": 30,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 30 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 30 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -990,15 +1038,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 30.",
-    "explanation": "Hướng dẫn giải tuần 30.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W30_Q2",
     "week": 30,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 30 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 30 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1006,15 +1054,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 30.",
-    "explanation": "Hướng dẫn giải tuần 30.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W31_Q1",
     "week": 31,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 31 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 31 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1022,15 +1070,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 31.",
-    "explanation": "Hướng dẫn giải tuần 31.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W31_Q2",
     "week": 31,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 31 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 31 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1038,15 +1086,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 31.",
-    "explanation": "Hướng dẫn giải tuần 31.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W32_Q1",
     "week": 32,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 32 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 32 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1054,15 +1102,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 32.",
-    "explanation": "Hướng dẫn giải tuần 32.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W32_Q2",
     "week": 32,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 32 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 32 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1070,15 +1118,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 32.",
-    "explanation": "Hướng dẫn giải tuần 32.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W33_Q1",
     "week": 33,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 33 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 33 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1086,15 +1134,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 33.",
-    "explanation": "Hướng dẫn giải tuần 33.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W33_Q2",
     "week": 33,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 33 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 33 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1102,15 +1150,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 33.",
-    "explanation": "Hướng dẫn giải tuần 33.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W34_Q1",
     "week": 34,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 34 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 34 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1118,15 +1166,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 34.",
-    "explanation": "Hướng dẫn giải tuần 34.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W34_Q2",
     "week": 34,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 34 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 34 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1134,15 +1182,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 34.",
-    "explanation": "Hướng dẫn giải tuần 34.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W35_Q1",
     "week": 35,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 35 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 35 - Tiếng Anh 9 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1150,15 +1198,15 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 35.",
-    "explanation": "Hướng dẫn giải tuần 35.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W35_Q2",
     "week": 35,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 35 - Tiếng Anh 9 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 35 - Tiếng Anh 9",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1166,8 +1214,8 @@ export const QUESTION_BANK_ENG9 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 35.",
-    "explanation": "Hướng dẫn giải tuần 35.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   }
 ];

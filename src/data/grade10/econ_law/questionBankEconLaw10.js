@@ -1,10 +1,10 @@
 // Dữ liệu môn GDKT & PL 10
 export const STAGES_ECONLAW10 = [
-    { "id": 1, "title": "Chặng 1: Khởi động", "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9] },
-    { "id": 2, "title": "Chặng 2: Khám phá", "weeks": [10, 11, 12, 13, 14, 15, 16, 17, 18] },
-    { "id": 3, "title": "Chặng 3: Bứt phá", "weeks": [19, 20, 21, 22, 23, 24, 25, 26, 27] },
-    { "id": 4, "title": "Chặng 4: Chinh phục", "weeks": [28, 29, 30, 31, 32, 33, 34, 35] }
-  ];
+  { "id": 1, "title": "Chặng 1: Khởi động", "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9] },
+  { "id": 2, "title": "Chặng 2: Khám phá", "weeks": [10, 11, 12, 13, 14, 15, 16, 17, 18] },
+  { "id": 3, "title": "Chặng 3: Bứt phá", "weeks": [19, 20, 21, 22, 23, 24, 25, 26, 27] },
+  { "id": 4, "title": "Chặng 4: Chinh phục", "weeks": [28, 29, 30, 31, 32, 33, 34, 35] }
+];
 
 export const WEEKS_METADATA_ECONLAW10 = {
   "1": { "title": "Bài Học Tuần 1", "desc": "Nắm vững kiến thức tuần 1 chuẩn GDPT 2026." },
@@ -54,39 +54,39 @@ export const QUESTION_BANK_ECONLAW10 = [
     "id": "EconLaw10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 1 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Chủ thể nào đóng vai trò quản lý nền kinh tế vĩ mô?",
     "options": [
-      "Đáp án A",
-      "Đáp án B",
-      "Đáp án C",
-      "Đáp án D"
+      "Nhà nước",
+      "Doanh nghiệp",
+      "Người tiêu dùng",
+      "Ngân hàng thương mại"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 1.",
-    "explanation": "Hướng dẫn giải tuần 1.",
+    "hint": "Thông qua các chính sách.",
+    "explanation": "Thông qua các chính sách.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 1 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Hiến pháp hiện hành của Việt Nam được ban hành năm nào?",
     "options": [
-      "Đáp án A",
-      "Đáp án B",
-      "Đáp án C",
-      "Đáp án D"
+      "2013",
+      "1992",
+      "1980",
+      "2015"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 1.",
-    "explanation": "Hướng dẫn giải tuần 1.",
+    "hint": "Hiến pháp năm 2013.",
+    "explanation": "Hiến pháp năm 2013.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W2_Q1",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 2 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 2 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -94,15 +94,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 2.",
-    "explanation": "Hướng dẫn giải tuần 2.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W2_Q2",
     "week": 2,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 2 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 2 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -110,15 +110,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 2.",
-    "explanation": "Hướng dẫn giải tuần 2.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W3_Q1",
     "week": 3,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 3 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 3 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -126,15 +126,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 3.",
-    "explanation": "Hướng dẫn giải tuần 3.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W3_Q2",
     "week": 3,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 3 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 3 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -142,15 +142,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 3.",
-    "explanation": "Hướng dẫn giải tuần 3.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W4_Q1",
     "week": 4,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 4 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 4 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -158,15 +158,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 4.",
-    "explanation": "Hướng dẫn giải tuần 4.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W4_Q2",
     "week": 4,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 4 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 4 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -174,15 +174,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 4.",
-    "explanation": "Hướng dẫn giải tuần 4.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W5_Q1",
     "week": 5,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 5 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 5 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -190,15 +190,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 5.",
-    "explanation": "Hướng dẫn giải tuần 5.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W5_Q2",
     "week": 5,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 5 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 5 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -206,15 +206,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 5.",
-    "explanation": "Hướng dẫn giải tuần 5.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W6_Q1",
     "week": 6,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 6 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 6 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -222,15 +222,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 6.",
-    "explanation": "Hướng dẫn giải tuần 6.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W6_Q2",
     "week": 6,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 6 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 6 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -238,15 +238,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 6.",
-    "explanation": "Hướng dẫn giải tuần 6.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W7_Q1",
     "week": 7,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 7 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 7 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -254,15 +254,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 7.",
-    "explanation": "Hướng dẫn giải tuần 7.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W7_Q2",
     "week": 7,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 7 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 7 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -270,15 +270,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 7.",
-    "explanation": "Hướng dẫn giải tuần 7.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W8_Q1",
     "week": 8,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 8 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 8 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -286,15 +286,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 8.",
-    "explanation": "Hướng dẫn giải tuần 8.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W8_Q2",
     "week": 8,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 8 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 8 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -302,15 +302,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 8.",
-    "explanation": "Hướng dẫn giải tuần 8.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W9_Q1",
     "week": 9,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 9 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 9 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -318,15 +318,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 9.",
-    "explanation": "Hướng dẫn giải tuần 9.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W9_Q2",
     "week": 9,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 9 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 9 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -334,15 +334,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 9.",
-    "explanation": "Hướng dẫn giải tuần 9.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W10_Q1",
     "week": 10,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 10 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 10 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -350,15 +350,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 10.",
-    "explanation": "Hướng dẫn giải tuần 10.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W10_Q2",
     "week": 10,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 10 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 10 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -366,15 +366,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 10.",
-    "explanation": "Hướng dẫn giải tuần 10.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W11_Q1",
     "week": 11,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 11 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 11 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -382,15 +382,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 11.",
-    "explanation": "Hướng dẫn giải tuần 11.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W11_Q2",
     "week": 11,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 11 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 11 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -398,15 +398,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 11.",
-    "explanation": "Hướng dẫn giải tuần 11.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W12_Q1",
     "week": 12,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 12 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 12 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -414,15 +414,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 12.",
-    "explanation": "Hướng dẫn giải tuần 12.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W12_Q2",
     "week": 12,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 12 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 12 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -430,15 +430,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 12.",
-    "explanation": "Hướng dẫn giải tuần 12.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W13_Q1",
     "week": 13,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 13 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 13 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -446,15 +446,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 13.",
-    "explanation": "Hướng dẫn giải tuần 13.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W13_Q2",
     "week": 13,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 13 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 13 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -462,15 +462,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 13.",
-    "explanation": "Hướng dẫn giải tuần 13.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W14_Q1",
     "week": 14,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 14 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 14 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -478,15 +478,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 14.",
-    "explanation": "Hướng dẫn giải tuần 14.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W14_Q2",
     "week": 14,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 14 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 14 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -494,15 +494,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 14.",
-    "explanation": "Hướng dẫn giải tuần 14.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W15_Q1",
     "week": 15,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 15 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 15 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -510,15 +510,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 15.",
-    "explanation": "Hướng dẫn giải tuần 15.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W15_Q2",
     "week": 15,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 15 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 15 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -526,15 +526,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 15.",
-    "explanation": "Hướng dẫn giải tuần 15.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W16_Q1",
     "week": 16,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 16 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 16 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -542,15 +542,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 16.",
-    "explanation": "Hướng dẫn giải tuần 16.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W16_Q2",
     "week": 16,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 16 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 16 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -558,15 +558,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 16.",
-    "explanation": "Hướng dẫn giải tuần 16.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W17_Q1",
     "week": 17,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 17 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 17 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -574,15 +574,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 17.",
-    "explanation": "Hướng dẫn giải tuần 17.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W17_Q2",
     "week": 17,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 17 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 17 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -590,15 +590,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 17.",
-    "explanation": "Hướng dẫn giải tuần 17.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W18_Q1",
     "week": 18,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 18 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 18 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -606,15 +606,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 18.",
-    "explanation": "Hướng dẫn giải tuần 18.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W18_Q2",
     "week": 18,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 18 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 18 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -622,15 +622,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 18.",
-    "explanation": "Hướng dẫn giải tuần 18.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W19_Q1",
     "week": 19,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 19 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 19 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -638,15 +638,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 19.",
-    "explanation": "Hướng dẫn giải tuần 19.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W19_Q2",
     "week": 19,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 19 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 19 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -654,15 +654,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 19.",
-    "explanation": "Hướng dẫn giải tuần 19.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W20_Q1",
     "week": 20,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 20 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 20 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -670,15 +670,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 20.",
-    "explanation": "Hướng dẫn giải tuần 20.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W20_Q2",
     "week": 20,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 20 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 20 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -686,15 +686,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 20.",
-    "explanation": "Hướng dẫn giải tuần 20.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W21_Q1",
     "week": 21,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 21 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 21 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -702,15 +702,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 21.",
-    "explanation": "Hướng dẫn giải tuần 21.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W21_Q2",
     "week": 21,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 21 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 21 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -718,15 +718,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 21.",
-    "explanation": "Hướng dẫn giải tuần 21.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W22_Q1",
     "week": 22,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 22 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 22 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -734,15 +734,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 22.",
-    "explanation": "Hướng dẫn giải tuần 22.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W22_Q2",
     "week": 22,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 22 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 22 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -750,15 +750,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 22.",
-    "explanation": "Hướng dẫn giải tuần 22.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W23_Q1",
     "week": 23,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 23 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 23 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -766,15 +766,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 23.",
-    "explanation": "Hướng dẫn giải tuần 23.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W23_Q2",
     "week": 23,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 23 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 23 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -782,15 +782,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 23.",
-    "explanation": "Hướng dẫn giải tuần 23.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W24_Q1",
     "week": 24,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 24 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 24 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -798,15 +798,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 24.",
-    "explanation": "Hướng dẫn giải tuần 24.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W24_Q2",
     "week": 24,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 24 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 24 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -814,15 +814,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 24.",
-    "explanation": "Hướng dẫn giải tuần 24.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W25_Q1",
     "week": 25,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 25 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 25 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -830,15 +830,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 25.",
-    "explanation": "Hướng dẫn giải tuần 25.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W25_Q2",
     "week": 25,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 25 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 25 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -846,15 +846,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 25.",
-    "explanation": "Hướng dẫn giải tuần 25.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W26_Q1",
     "week": 26,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 26 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 26 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -862,15 +862,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 26.",
-    "explanation": "Hướng dẫn giải tuần 26.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W26_Q2",
     "week": 26,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 26 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 26 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -878,15 +878,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 26.",
-    "explanation": "Hướng dẫn giải tuần 26.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W27_Q1",
     "week": 27,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 27 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 27 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -894,15 +894,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 27.",
-    "explanation": "Hướng dẫn giải tuần 27.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W27_Q2",
     "week": 27,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 27 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 27 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -910,15 +910,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 27.",
-    "explanation": "Hướng dẫn giải tuần 27.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W28_Q1",
     "week": 28,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 28 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 28 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -926,15 +926,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 28.",
-    "explanation": "Hướng dẫn giải tuần 28.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W28_Q2",
     "week": 28,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 28 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 28 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -942,15 +942,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 28.",
-    "explanation": "Hướng dẫn giải tuần 28.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W29_Q1",
     "week": 29,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 29 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 29 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -958,15 +958,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 29.",
-    "explanation": "Hướng dẫn giải tuần 29.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W29_Q2",
     "week": 29,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 29 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 29 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -974,15 +974,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 29.",
-    "explanation": "Hướng dẫn giải tuần 29.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W30_Q1",
     "week": 30,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 30 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 30 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -990,15 +990,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 30.",
-    "explanation": "Hướng dẫn giải tuần 30.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W30_Q2",
     "week": 30,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 30 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 30 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1006,15 +1006,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 30.",
-    "explanation": "Hướng dẫn giải tuần 30.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W31_Q1",
     "week": 31,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 31 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 31 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1022,15 +1022,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 31.",
-    "explanation": "Hướng dẫn giải tuần 31.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W31_Q2",
     "week": 31,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 31 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 31 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1038,15 +1038,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 31.",
-    "explanation": "Hướng dẫn giải tuần 31.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W32_Q1",
     "week": 32,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 32 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 32 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1054,15 +1054,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 32.",
-    "explanation": "Hướng dẫn giải tuần 32.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W32_Q2",
     "week": 32,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 32 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 32 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1070,15 +1070,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 32.",
-    "explanation": "Hướng dẫn giải tuần 32.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W33_Q1",
     "week": 33,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 33 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 33 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1086,15 +1086,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 33.",
-    "explanation": "Hướng dẫn giải tuần 33.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W33_Q2",
     "week": 33,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 33 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 33 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1102,15 +1102,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 33.",
-    "explanation": "Hướng dẫn giải tuần 33.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W34_Q1",
     "week": 34,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 34 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 34 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1118,15 +1118,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 34.",
-    "explanation": "Hướng dẫn giải tuần 34.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W34_Q2",
     "week": 34,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 34 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 34 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1134,15 +1134,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 34.",
-    "explanation": "Hướng dẫn giải tuần 34.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W35_Q1",
     "week": 35,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 35 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Câu hỏi luyện tập tuần 35 - GDKT & PL 10 (Nội dung chi tiết đang được cập nhật)",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1150,15 +1150,15 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 35.",
-    "explanation": "Hướng dẫn giải tuần 35.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W35_Q2",
     "week": 35,
     "type": "multiple-choice",
-    "question": "Câu hỏi bài tập tuần 35 - GDKT & PL 10 (Chuẩn GDPT 2026)?",
+    "question": "Bài tập vận dụng tuần 35 - GDKT & PL 10",
     "options": [
       "Đáp án A",
       "Đáp án B",
@@ -1166,8 +1166,8 @@ export const QUESTION_BANK_ECONLAW10 = [
       "Đáp án D"
     ],
     "correctIndex": 0,
-    "hint": "Hướng dẫn giải tuần 35.",
-    "explanation": "Hướng dẫn giải tuần 35.",
+    "hint": "Hướng dẫn giải đang được cập nhật.",
+    "explanation": "Hướng dẫn giải chi tiết sẽ sớm ra mắt.",
     "category": "knowledge"
   }
 ];
