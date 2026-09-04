@@ -55,7 +55,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   } = useLearning();
 
   const [showProfileModal, setShowProfileModal] = useState(false);
-  const [tempName, setTempName] = useState(profile.name || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Bé Chuột của Mẹ Loan'));
+  const [tempName, setTempName] = useState(profile.name);
   const [tempSchool, setTempSchool] = useState(profile.school || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : ''));
   const [tempMascot, setTempMascot] = useState(profile.mascot || (isGrade12 ? 'dragon' : 'elephant'));
 
@@ -64,7 +64,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   const handleSaveProfile = () => {
     sounds.playClick();
     updateProfile({
-      name: tempName.trim() || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Bé Chuột của Mẹ Loan'),
+      name: tempName.trim() || profile.name,
       school: tempSchool.trim() || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : ''),
       mascot: tempMascot
     });

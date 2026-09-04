@@ -164,6 +164,14 @@ export const DEFAULT_PROFILE_CHUOT = {
   mascot: 'cat'
 };
 
+export const DEFAULT_PROFILE_SOC = {
+  name: 'Bé Sóc của Mẹ Loan',
+  school: '',
+  grade: '5',
+  avatar: '🐿️',
+  mascot: 'cat'
+};
+
 export const GRADE_7_SUBJECTS = [
   { id: 'math', label: 'Toán 7', icon: 'Calculator', color: 'from-blue-500 to-indigo-600', badgeColor: 'bg-blue-100 text-blue-800' },
   { id: 'vietnamese', label: 'Ngữ Văn 7', icon: 'BookOpen', color: 'from-rose-500 to-purple-600', badgeColor: 'bg-rose-100 text-rose-800' },
@@ -209,6 +217,7 @@ const STORAGE_KEYS = {
   PROFILE_MINH: 'g12_minh_user_profile',
 
   PROFILE_CHUOT: 'toan_user_profile_chuot',
+  PROFILE_SOC: 'toan_user_profile_soc',
   // Grade 1 Progress
   PROGRESS_G1_MATH: 'toan1_week_progress_math',
   PROGRESS_G1_TV: 'toan1_week_progress_tv',
@@ -352,8 +361,8 @@ const STORAGE_KEYS = {
 };
 
 const DEFAULT_PROFILE_NGUYEN = {
-  name: 'Bé Chuột của Mẹ Loan',
-  school: '',
+  name: 'Nguyễn Công Nguyên',
+  school: 'Trường PTCS - Phú La',
   mascot: 'elephant',
   avatarColor: '#FFD166',
 };
@@ -509,11 +518,11 @@ export const LearningProvider = ({ children }) => {
       const saved = localStorage.getItem(STORAGE_KEYS.PROFILE_NGUYEN);
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ' || parsed.name === 'Nguyễn Công Nguyên') {
-            parsed.name = 'Bé Chuột của Mẹ Loan';
+        if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ') {
+            parsed.name = 'Nguyễn Công Nguyên';
           }
-        if (!parsed.school || parsed.school === 'Trường PTCS' || parsed.school === 'Trường PTCS - Phú La') {
-            parsed.school = '';
+        if (!parsed.school || parsed.school === 'Trường PTCS') {
+            parsed.school = 'Trường PTCS - Phú La';
           }
         return parsed;
       }
@@ -536,6 +545,18 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
+  // Profile for Be Soc (Grades 5-6)
+  const [profileSoc, setProfileSoc] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.PROFILE_SOC);
+      const parsed = saved ? JSON.parse(saved) : null;
+      if (parsed && (!parsed.name || parsed.name === 'Bé Sóc')) { parsed.name = 'Bé Sóc của Mẹ Loan'; parsed.school = ''; }
+      return parsed || DEFAULT_PROFILE_SOC;
+    } catch {
+      return DEFAULT_PROFILE_SOC;
+    }
+  });
+
   // Profile for Nguyen Nhat Minh (Grade 12)
   const [profileMinh, setProfileMinh] = useState(() => {
     try {
@@ -555,7 +576,8 @@ export const LearningProvider = ({ children }) => {
   const isGrade1 = currentGrade === '1';
   const isGrade2 = currentGrade === '2';
   const isGrade3 = currentGrade === '3';
-  const isPrimaryChuot = ['1', '2', '3'].includes(currentGrade);
+  const isPrimaryChuot = ['1', '2', '3', '4'].includes(currentGrade);
+  const isSoc = ['5', '6'].includes(currentGrade);
   const isGrade4 = currentGrade === '4';
   const isGrade5 = currentGrade === '5';
   const isGrade6 = currentGrade === '6';
@@ -567,7 +589,7 @@ export const LearningProvider = ({ children }) => {
   const isGrade12 = currentGrade === '12';
   const isSecondary = ['6', '7', '8', '9'].includes(currentGrade);
   const isHighSchool = ['10', '11', '12'].includes(currentGrade);
-  const profile = isHighSchool ? profileMinh : (isPrimaryChuot ? profileChuot : profileNguyen);
+  const profile = isHighSchool ? profileMinh : (isPrimaryChuot ? profileChuot : (isSoc ? profileSoc : profileNguyen));
 
   
   // Progress Stores - Grade 1 (8 Subjects)
@@ -1143,6 +1165,7 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.SUBJECT, currentSubject); }, [currentSubject]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_NGUYEN, JSON.stringify(profileNguyen)); }, [profileNguyen]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_CHUOT, JSON.stringify(profileChuot)); }, [profileChuot]);
+  useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_SOC, JSON.stringify(profileSoc)); }, [profileSoc]);
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROFILE_MINH, JSON.stringify(profileMinh)); }, [profileMinh]);
 
   useEffect(() => { localStorage.setItem(STORAGE_KEYS.PROGRESS_G4_MATH, JSON.stringify(g4MathProgress)); }, [g4MathProgress]);
@@ -1405,6 +1428,8 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       setProfileMinh(prev => ({ ...prev, ...newProfile }));
     } else if (isPrimaryChuot) {
       setProfileChuot(prev => ({ ...prev, ...newProfile }));
+    } else if (isSoc) {
+      setProfileSoc(prev => ({ ...prev, ...newProfile }));
     } else {
       setProfileNguyen(prev => ({ ...prev, ...newProfile }));
     }
