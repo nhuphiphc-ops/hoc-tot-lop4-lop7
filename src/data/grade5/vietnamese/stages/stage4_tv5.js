@@ -8,16 +8,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
     "difficulty": "easy",
-    "question": "Dấu hai chấm trong câu có tác dụng gì?",
+    "question": "Dấu chấm dùng để làm gì?",
     "options": [
-      "Báo hiệu phần giải thích, thuyết minh hoặc lời nói trực tiếp của nhân vật",
-      "Kết thúc câu kể",
-      "Ngăn cách các vế câu",
-      "Bộc lộ cảm xúc"
+      "Đặt ở cuối câu kể (câu trần thuật) để kết thúc câu",
+      "Đặt ở cuối câu hỏi",
+      "Đặt ở cuối câu cảm",
+      "Ngăn cách các bộ phận trong câu"
     ],
     "correctIndex": 0,
-    "hint": "Dấu hai chấm báo hiệu lời nói hoặc phần giải thích.",
-    "explanation": "Dấu hai chấm báo hiệu bộ phận câu đứng sau nó là lời nói của một nhân vật hoặc là lời giải thích cho bộ phận đứng trước."
+    "hint": "Dùng cho câu kể.",
+    "explanation": "Dấu chấm đặt ở cuối câu kể (câu trần thuật) để kết thúc câu."
   },
   {
     "id": "TV5_28_02",
@@ -27,16 +27,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
     "difficulty": "easy",
-    "question": "Dấu ngoặc kép trong câu thường dùng để làm gì?",
+    "question": "Dấu chấm hỏi dùng để làm gì?",
     "options": [
-      "Đánh dấu từ ngữ được trích dẫn trực tiếp hoặc có ý nghĩa đặc biệt",
-      "Kết thúc câu cảm",
-      "Ngăn cách trạng ngữ với chủ ngữ",
-      "Tách các đoạn văn"
+      "Đặt ở cuối câu hỏi",
+      "Đặt ở cuối câu kể",
+      "Đặt ở cuối câu cầu khiến",
+      "Ngăn cách các vế câu"
     ],
     "correctIndex": 0,
-    "hint": "Dẫn lời trực tiếp hoặc từ ngữ mang ý nghĩa đặc biệt.",
-    "explanation": "Dấu ngoặc kép thường dùng để dẫn lời nói trực tiếp của nhân vật hoặc của người nào đó, hoặc đánh dấu từ ngữ được dùng với ý nghĩa đặc biệt."
+    "hint": "Dùng khi muốn hỏi.",
+    "explanation": "Dấu chấm hỏi (?) đặt ở cuối câu hỏi (câu nghi vấn)."
   },
   {
     "id": "TV5_28_03",
@@ -45,17 +45,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
-    "difficulty": "medium",
-    "question": "Xác định tác dụng của dấu phẩy trong câu: 'Sáng nay, lớp em lao động dọn vệ sinh trường lớp.' (Câu 3)",
+    "difficulty": "easy",
+    "question": "Dấu chấm than dùng để làm gì?",
     "options": [
-      "Ngăn cách trạng ngữ với chủ ngữ và vị ngữ",
-      "Ngăn cách các vế trong câu ghép",
-      "Ngăn cách các từ cùng chức vụ trong câu",
-      "Báo hiệu lời nói trực tiếp"
+      "Đặt ở cuối câu cảm hoặc câu cầu khiến",
+      "Đặt ở cuối câu kể",
+      "Đặt ở cuối câu hỏi",
+      "Ngăn cách chủ ngữ và vị ngữ"
     ],
     "correctIndex": 0,
-    "hint": "'Sáng nay' là trạng ngữ chỉ thời gian.",
-    "explanation": "Dấu phẩy dùng để ngăn cách trạng ngữ chỉ thời gian 'Sáng nay' với thành phần chính (CN-VN) của câu."
+    "hint": "Dùng khi bộc lộ cảm xúc hoặc ra lệnh.",
+    "explanation": "Dấu chấm than (!) đặt ở cuối câu cảm (bộc lộ cảm xúc) hoặc câu cầu khiến (yêu cầu, đề nghị)."
   },
   {
     "id": "TV5_28_04",
@@ -64,17 +64,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
-    "difficulty": "medium",
-    "question": "Xác định tác dụng của dấu phẩy trong câu: 'Sáng nay, lớp em lao động dọn vệ sinh trường lớp.' (Câu 4)",
+    "difficulty": "easy",
+    "question": "Điền dấu thích hợp: \"Ôi, cảnh biển đẹp quá_____\"",
     "options": [
-      "Ngăn cách trạng ngữ với chủ ngữ và vị ngữ",
-      "Ngăn cách các vế trong câu ghép",
-      "Ngăn cách các từ cùng chức vụ trong câu",
-      "Báo hiệu lời nói trực tiếp"
+      "Dấu chấm than (!)",
+      "Dấu chấm (.)",
+      "Dấu chấm hỏi (?)",
+      "Dấu phẩy (,)"
     ],
     "correctIndex": 0,
-    "hint": "'Sáng nay' là trạng ngữ chỉ thời gian.",
-    "explanation": "Dấu phẩy dùng để ngăn cách trạng ngữ chỉ thời gian 'Sáng nay' với thành phần chính (CN-VN) của câu."
+    "hint": "Câu bộc lộ cảm xúc.",
+    "explanation": "Câu bộc lộ cảm xúc thán phục nên kết thúc bằng dấu chấm than."
   },
   {
     "id": "TV5_28_05",
@@ -83,17 +83,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Điền dấu thích hợp: \"Bạn đã làm xong bài tập chưa_____\"",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Dấu chấm hỏi (?)",
+      "Dấu chấm (.)",
+      "Dấu chấm than (!)",
+      "Dấu hai chấm (:)"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Câu này để hỏi.",
+    "explanation": "Câu hỏi nên kết thúc bằng dấu chấm hỏi."
   },
   {
     "id": "TV5_28_06",
@@ -102,17 +102,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Câu nào dùng dấu kết thúc SAI?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Bạn có đi cùng chúng tôi không.",
+      "Trời hôm nay rất đẹp.",
+      "Nhanh lên nào!",
+      "Bạn tên là gì?"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Câu nào là câu hỏi mà lại dùng dấu chấm?",
+    "explanation": "\"Bạn có đi cùng chúng tôi không\" là câu hỏi nên phải dùng dấu chấm hỏi, không dùng dấu chấm."
   },
   {
     "id": "TV5_28_07",
@@ -121,17 +121,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Điền dấu thích hợp: \"Các em hãy giữ trật tự_____\"",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Dấu chấm than (!)",
+      "Dấu chấm hỏi (?)",
+      "Dấu phẩy (,)",
+      "Dấu hai chấm (:)"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Câu này yêu cầu, đề nghị.",
+    "explanation": "Câu cầu khiến (yêu cầu giữ trật tự) nên kết thúc bằng dấu chấm than."
   },
   {
     "id": "TV5_28_08",
@@ -140,17 +140,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Trong đoạn \"Trời đã tối Mẹ vẫn chưa về Em rất lo\", cần thêm những dấu gì?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Thêm dấu chấm sau \"tối\" và sau \"về\": \"Trời đã tối. Mẹ vẫn chưa về. Em rất lo.\"",
+      "Thêm dấu chấm hỏi ở cả ba chỗ",
+      "Thêm dấu phẩy ở cả ba chỗ",
+      "Không cần thêm dấu gì"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Ba câu kể riêng biệt.",
+    "explanation": "Đoạn gồm ba câu kể riêng biệt nên phải tách bằng dấu chấm: \"Trời đã tối. Mẹ vẫn chưa về. Em rất lo.\""
   },
   {
     "id": "TV5_28_09",
@@ -160,16 +160,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
     "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "question": "Vì sao câu \"Bạn có biết vì sao lá cây có màu xanh không\" phải dùng dấu chấm hỏi dù có từ \"không\" ở cuối?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Vì đây là câu hỏi trực tiếp hỏi người nghe, có từ nghi vấn \"có ... không\"",
+      "Vì câu quá dài",
+      "Vì câu có từ \"xanh\"",
+      "Vì câu không phải câu hỏi"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Câu này hỏi ai và có chờ trả lời không?",
+    "explanation": "Câu dùng cấu trúc nghi vấn \"có ... không\" để hỏi trực tiếp người nghe và chờ câu trả lời nên phải dùng dấu chấm hỏi."
   },
   {
     "id": "TV5_28_10",
@@ -179,16 +179,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu kết thúc câu",
     "category": "punctuation",
     "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "question": "Trong câu \"Em không biết bạn ấy có đi học hôm nay không.\", vì sao dùng dấu chấm mà không dùng dấu chấm hỏi?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Vì đây là câu kể về điều em không biết, không phải câu hỏi trực tiếp gửi tới người nghe",
+      "Vì câu quá dài",
+      "Vì câu có từ \"không\"",
+      "Vì câu thiếu chủ ngữ"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Câu này đang hỏi ai, hay chỉ đang kể?",
+    "explanation": "Câu đang kể lại điều người nói không biết (câu kể có mệnh đề nghi vấn bên trong), không hỏi trực tiếp người nghe nên dùng dấu chấm."
   },
   {
     "id": "TV5_29_01",
@@ -198,16 +198,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu phẩy",
     "category": "punctuation",
     "difficulty": "easy",
-    "question": "Dấu hai chấm trong câu có tác dụng gì?",
+    "question": "Dấu phẩy có tác dụng chính là gì?",
     "options": [
-      "Báo hiệu phần giải thích, thuyết minh hoặc lời nói trực tiếp của nhân vật",
-      "Kết thúc câu kể",
-      "Ngăn cách các vế câu",
-      "Bộc lộ cảm xúc"
+      "Ngăn cách các bộ phận cùng chức vụ, ngăn cách trạng ngữ với nòng cốt câu và ngăn cách các vế câu ghép",
+      "Kết thúc câu",
+      "Đánh dấu lời nói trực tiếp",
+      "Báo hiệu phần liệt kê"
     ],
     "correctIndex": 0,
-    "hint": "Dấu hai chấm báo hiệu lời nói hoặc phần giải thích.",
-    "explanation": "Dấu hai chấm báo hiệu bộ phận câu đứng sau nó là lời nói của một nhân vật hoặc là lời giải thích cho bộ phận đứng trước."
+    "hint": "Dấu phẩy dùng bên trong câu.",
+    "explanation": "Dấu phẩy ngăn cách các bộ phận cùng chức vụ, ngăn cách trạng ngữ với nòng cốt câu và ngăn cách các vế của câu ghép."
   },
   {
     "id": "TV5_29_02",
@@ -217,16 +217,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu phẩy",
     "category": "punctuation",
     "difficulty": "easy",
-    "question": "Dấu ngoặc kép trong câu thường dùng để làm gì?",
+    "question": "Trong câu \"Sáng nay, lớp em đi lao động.\", dấu phẩy có tác dụng gì?",
     "options": [
-      "Đánh dấu từ ngữ được trích dẫn trực tiếp hoặc có ý nghĩa đặc biệt",
-      "Kết thúc câu cảm",
-      "Ngăn cách trạng ngữ với chủ ngữ",
-      "Tách các đoạn văn"
+      "Ngăn cách trạng ngữ \"Sáng nay\" với nòng cốt câu",
+      "Ngăn cách hai vế câu ghép",
+      "Ngăn cách các từ cùng chức vụ",
+      "Kết thúc câu"
     ],
     "correctIndex": 0,
-    "hint": "Dẫn lời trực tiếp hoặc từ ngữ mang ý nghĩa đặc biệt.",
-    "explanation": "Dấu ngoặc kép thường dùng để dẫn lời nói trực tiếp của nhân vật hoặc của người nào đó, hoặc đánh dấu từ ngữ được dùng với ý nghĩa đặc biệt."
+    "hint": "\"Sáng nay\" là thành phần gì?",
+    "explanation": "Dấu phẩy ngăn cách trạng ngữ chỉ thời gian \"Sáng nay\" với nòng cốt câu \"lớp em đi lao động\"."
   },
   {
     "id": "TV5_29_03",
@@ -235,17 +235,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu phẩy",
     "category": "punctuation",
-    "difficulty": "medium",
-    "question": "Xác định tác dụng của dấu phẩy trong câu: 'Sáng nay, lớp em lao động dọn vệ sinh trường lớp.' (Câu 3)",
+    "difficulty": "easy",
+    "question": "Trong câu \"Vườn em có cam, bưởi, ổi và xoài.\", dấu phẩy có tác dụng gì?",
     "options": [
-      "Ngăn cách trạng ngữ với chủ ngữ và vị ngữ",
-      "Ngăn cách các vế trong câu ghép",
-      "Ngăn cách các từ cùng chức vụ trong câu",
-      "Báo hiệu lời nói trực tiếp"
+      "Ngăn cách các bộ phận cùng chức vụ (các loại cây trong danh sách)",
+      "Ngăn cách trạng ngữ",
+      "Ngăn cách hai vế câu ghép",
+      "Kết thúc câu"
     ],
     "correctIndex": 0,
-    "hint": "'Sáng nay' là trạng ngữ chỉ thời gian.",
-    "explanation": "Dấu phẩy dùng để ngăn cách trạng ngữ chỉ thời gian 'Sáng nay' với thành phần chính (CN-VN) của câu."
+    "hint": "Các từ được liệt kê có cùng vai trò không?",
+    "explanation": "Dấu phẩy ngăn cách các bộ phận cùng chức vụ - các loại quả được liệt kê."
   },
   {
     "id": "TV5_29_04",
@@ -254,17 +254,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu phẩy",
     "category": "punctuation",
-    "difficulty": "medium",
-    "question": "Xác định tác dụng của dấu phẩy trong câu: 'Sáng nay, lớp em lao động dọn vệ sinh trường lớp.' (Câu 4)",
+    "difficulty": "easy",
+    "question": "Trong câu \"Trời mưa to, đường phố ngập nước.\", dấu phẩy có tác dụng gì?",
     "options": [
-      "Ngăn cách trạng ngữ với chủ ngữ và vị ngữ",
-      "Ngăn cách các vế trong câu ghép",
-      "Ngăn cách các từ cùng chức vụ trong câu",
-      "Báo hiệu lời nói trực tiếp"
+      "Ngăn cách hai vế của câu ghép",
+      "Ngăn cách trạng ngữ",
+      "Ngăn cách các từ cùng chức vụ",
+      "Đánh dấu lời nói trực tiếp"
     ],
     "correctIndex": 0,
-    "hint": "'Sáng nay' là trạng ngữ chỉ thời gian.",
-    "explanation": "Dấu phẩy dùng để ngăn cách trạng ngữ chỉ thời gian 'Sáng nay' với thành phần chính (CN-VN) của câu."
+    "hint": "Hai bên dấu phẩy có mấy cụm chủ - vị?",
+    "explanation": "Dấu phẩy ngăn cách hai vế của câu ghép: \"Trời mưa to\" và \"đường phố ngập nước\"."
   },
   {
     "id": "TV5_29_05",
@@ -273,17 +273,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu phẩy",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Câu nào dùng dấu phẩy SAI?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Em, rất thích đọc sách.",
+      "Hôm qua, em đi thăm bà.",
+      "Em thích cam, quýt và bưởi.",
+      "Trời tối, mẹ vẫn chưa về."
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Không được tách chủ ngữ khỏi vị ngữ.",
+    "explanation": "Không được dùng dấu phẩy tách chủ ngữ \"Em\" khỏi vị ngữ \"rất thích đọc sách\"."
   },
   {
     "id": "TV5_29_06",
@@ -292,17 +292,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu phẩy",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Thêm dấu phẩy vào câu: \"Trên sân trường các bạn nam chơi bóng các bạn nữ nhảy dây.\"",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Trên sân trường, các bạn nam chơi bóng, các bạn nữ nhảy dây.",
+      "Trên, sân trường các bạn nam chơi bóng các bạn nữ nhảy dây.",
+      "Trên sân trường các bạn nam, chơi bóng các bạn nữ nhảy dây.",
+      "Không cần thêm dấu phẩy nào."
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Cần tách trạng ngữ và tách hai vế câu.",
+    "explanation": "Cần một dấu phẩy sau trạng ngữ \"Trên sân trường\" và một dấu phẩy ngăn cách hai vế câu ghép."
   },
   {
     "id": "TV5_29_07",
@@ -311,17 +311,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu phẩy",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Vì sao đặt dấu phẩy sai vị trí có thể làm câu sai nghĩa?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Vì dấu phẩy quyết định cách nhóm các bộ phận trong câu, đặt sai chỗ sẽ làm người đọc hiểu sai quan hệ giữa chúng",
+      "Vì dấu phẩy làm câu dài hơn",
+      "Vì dấu phẩy chỉ để trang trí",
+      "Vì dấu phẩy không ảnh hưởng gì tới nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "So sánh \"Ăn, không được nói\" và \"Ăn không được, nói\".",
+    "explanation": "Dấu phẩy quyết định cách nhóm các bộ phận trong câu; đặt sai chỗ sẽ làm người đọc hiểu sai quan hệ giữa chúng, ví dụ \"Ăn, không được nói\" khác hẳn \"Ăn không được, nói\"."
   },
   {
     "id": "TV5_29_08",
@@ -330,17 +330,17 @@ export const STAGE_4_TV5_QUESTIONS = [
     "stage": 4,
     "topic": "Dấu phẩy",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Trong câu \"Nam, lớp trưởng lớp 5A, học rất giỏi.\", hai dấu phẩy có tác dụng gì?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Ngăn cách phần giải thích thêm về Nam với các thành phần khác của câu",
+      "Ngăn cách hai vế câu ghép",
+      "Ngăn cách trạng ngữ",
+      "Ngăn cách chủ ngữ và vị ngữ"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Cụm giữa hai dấu phẩy nói thêm về ai?",
+    "explanation": "Hai dấu phẩy ngăn cách phần giải thích thêm (\"lớp trưởng lớp 5A\") về Nam với các thành phần khác của câu."
   },
   {
     "id": "TV5_29_09",
@@ -350,16 +350,16 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu phẩy",
     "category": "punctuation",
     "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "question": "Câu \"Mời các bạn ăn, không được nói chuyện\" và \"Mời các bạn ăn không được, nói chuyện\" khác nghĩa thế nào?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Câu đầu: mời ăn và yêu cầu không nói chuyện; câu sau: nói rằng không ăn được rồi mới nói chuyện - nghĩa hoàn toàn khác",
+      "Hai câu cùng nghĩa",
+      "Câu sau không có nghĩa",
+      "Chỉ khác về độ dài"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Đọc từng câu theo đúng vị trí dấu phẩy.",
+    "explanation": "Vị trí dấu phẩy thay đổi cách nhóm từ nên nghĩa hai câu hoàn toàn khác nhau - cho thấy tầm quan trọng của việc đặt dấu phẩy đúng chỗ."
   },
   {
     "id": "TV5_29_10",
@@ -369,206 +369,206 @@ export const STAGE_4_TV5_QUESTIONS = [
     "topic": "Dấu phẩy",
     "category": "punctuation",
     "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "question": "Thêm dấu phẩy vào câu để có nghĩa: \"Chiều nay sau khi tan học chúng em sẽ đến thư viện đọc sách rồi cùng nhau về nhà.\"",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Chiều nay, sau khi tan học, chúng em sẽ đến thư viện đọc sách, rồi cùng nhau về nhà.",
+      "Chiều nay sau, khi tan học chúng em, sẽ đến thư viện đọc sách rồi cùng nhau về nhà.",
+      "Chiều nay sau khi tan học, chúng em sẽ đến, thư viện đọc sách rồi cùng nhau về nhà.",
+      "Không cần thêm dấu phẩy nào."
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Tách các trạng ngữ và các hành động liệt kê.",
+    "explanation": "Cần dấu phẩy sau các trạng ngữ \"Chiều nay\", \"sau khi tan học\" và trước \"rồi\" để tách hai hành động liên tiếp, giúp câu rõ ràng, dễ đọc."
   },
   {
     "id": "TV5_30_01",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
     "difficulty": "easy",
-    "question": "Dấu hai chấm trong câu có tác dụng gì?",
+    "question": "Dấu hai chấm có tác dụng gì?",
     "options": [
-      "Báo hiệu phần giải thích, thuyết minh hoặc lời nói trực tiếp của nhân vật",
-      "Kết thúc câu kể",
-      "Ngăn cách các vế câu",
-      "Bộc lộ cảm xúc"
+      "Báo hiệu phần đứng sau là lời giải thích, liệt kê hoặc lời nói trực tiếp",
+      "Kết thúc câu",
+      "Ngăn cách trạng ngữ",
+      "Đánh dấu tên tác phẩm"
     ],
     "correctIndex": 0,
-    "hint": "Dấu hai chấm báo hiệu lời nói hoặc phần giải thích.",
-    "explanation": "Dấu hai chấm báo hiệu bộ phận câu đứng sau nó là lời nói của một nhân vật hoặc là lời giải thích cho bộ phận đứng trước."
+    "hint": "Nó báo hiệu điều sắp được nêu ra.",
+    "explanation": "Dấu hai chấm báo hiệu phần đứng sau là lời giải thích, phần liệt kê hoặc lời nói trực tiếp của nhân vật."
   },
   {
     "id": "TV5_30_02",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
     "difficulty": "easy",
-    "question": "Dấu ngoặc kép trong câu thường dùng để làm gì?",
+    "question": "Dấu ngoặc kép thường dùng để làm gì?",
     "options": [
-      "Đánh dấu từ ngữ được trích dẫn trực tiếp hoặc có ý nghĩa đặc biệt",
-      "Kết thúc câu cảm",
-      "Ngăn cách trạng ngữ với chủ ngữ",
-      "Tách các đoạn văn"
+      "Đánh dấu lời nói trực tiếp, tên tác phẩm hoặc từ ngữ dùng theo nghĩa đặc biệt",
+      "Kết thúc câu",
+      "Ngăn cách các vế câu",
+      "Ngăn cách trạng ngữ"
     ],
     "correctIndex": 0,
-    "hint": "Dẫn lời trực tiếp hoặc từ ngữ mang ý nghĩa đặc biệt.",
-    "explanation": "Dấu ngoặc kép thường dùng để dẫn lời nói trực tiếp của nhân vật hoặc của người nào đó, hoặc đánh dấu từ ngữ được dùng với ý nghĩa đặc biệt."
+    "hint": "Nó bao lấy phần cần đánh dấu.",
+    "explanation": "Dấu ngoặc kép đánh dấu lời nói trực tiếp, tên tác phẩm hoặc từ ngữ được dùng theo nghĩa đặc biệt."
   },
   {
     "id": "TV5_30_03",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
-    "difficulty": "medium",
-    "question": "Xác định tác dụng của dấu phẩy trong câu: 'Sáng nay, lớp em lao động dọn vệ sinh trường lớp.' (Câu 3)",
+    "difficulty": "easy",
+    "question": "Trong câu \"Vườn em có nhiều loại quả: cam, bưởi, ổi, xoài.\", dấu hai chấm có tác dụng gì?",
     "options": [
-      "Ngăn cách trạng ngữ với chủ ngữ và vị ngữ",
-      "Ngăn cách các vế trong câu ghép",
-      "Ngăn cách các từ cùng chức vụ trong câu",
-      "Báo hiệu lời nói trực tiếp"
+      "Báo hiệu phần liệt kê các loại quả",
+      "Đánh dấu lời nói trực tiếp",
+      "Kết thúc câu",
+      "Ngăn cách hai vế câu ghép"
     ],
     "correctIndex": 0,
-    "hint": "'Sáng nay' là trạng ngữ chỉ thời gian.",
-    "explanation": "Dấu phẩy dùng để ngăn cách trạng ngữ chỉ thời gian 'Sáng nay' với thành phần chính (CN-VN) của câu."
+    "hint": "Sau dấu hai chấm là gì?",
+    "explanation": "Dấu hai chấm báo hiệu phần liệt kê các loại quả có trong vườn."
   },
   {
     "id": "TV5_30_04",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
-    "difficulty": "medium",
-    "question": "Xác định tác dụng của dấu phẩy trong câu: 'Sáng nay, lớp em lao động dọn vệ sinh trường lớp.' (Câu 4)",
+    "difficulty": "easy",
+    "question": "Trong câu Mẹ bảo: \"Con nhớ mang áo mưa nhé.\", dấu hai chấm và dấu ngoặc kép dùng để làm gì?",
     "options": [
-      "Ngăn cách trạng ngữ với chủ ngữ và vị ngữ",
-      "Ngăn cách các vế trong câu ghép",
-      "Ngăn cách các từ cùng chức vụ trong câu",
-      "Báo hiệu lời nói trực tiếp"
+      "Dấu hai chấm báo hiệu lời nói trực tiếp, dấu ngoặc kép đánh dấu lời nói đó",
+      "Cả hai đều kết thúc câu",
+      "Cả hai đều ngăn cách trạng ngữ",
+      "Cả hai đều liệt kê"
     ],
     "correctIndex": 0,
-    "hint": "'Sáng nay' là trạng ngữ chỉ thời gian.",
-    "explanation": "Dấu phẩy dùng để ngăn cách trạng ngữ chỉ thời gian 'Sáng nay' với thành phần chính (CN-VN) của câu."
+    "hint": "Phần trong ngoặc kép là lời của ai?",
+    "explanation": "Dấu hai chấm báo hiệu sắp có lời nói trực tiếp; dấu ngoặc kép đánh dấu chính lời nói đó của mẹ."
   },
   {
     "id": "TV5_30_05",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Điền dấu thích hợp: Cô giáo nói _____ Các em hãy giữ vệ sinh lớp học._____",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Dấu hai chấm và dấu ngoặc kép",
+      "Dấu phẩy và dấu chấm",
+      "Dấu chấm hỏi và dấu phẩy",
+      "Không cần dấu gì"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Đây là lời nói trực tiếp.",
+    "explanation": "Lời nói trực tiếp cần dấu hai chấm báo hiệu và dấu ngoặc kép bao quanh: Cô giáo nói: \"Các em hãy giữ vệ sinh lớp học.\""
   },
   {
     "id": "TV5_30_06",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Trong câu Em rất thích bài thơ \"Hạt gạo làng ta\" của nhà thơ Trần Đăng Khoa., dấu ngoặc kép dùng để làm gì?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Đánh dấu tên tác phẩm",
+      "Đánh dấu lời nói trực tiếp",
+      "Đánh dấu từ dùng nghĩa đặc biệt",
+      "Kết thúc câu"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "\"Hạt gạo làng ta\" là gì?",
+    "explanation": "Dấu ngoặc kép ở đây đánh dấu tên tác phẩm - bài thơ \"Hạt gạo làng ta\"."
   },
   {
     "id": "TV5_30_07",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Trong câu Bạn ấy được cả lớp gọi là \"cây Toán\" của lớp., dấu ngoặc kép dùng để làm gì?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Đánh dấu từ ngữ dùng theo nghĩa đặc biệt (không phải cây thật)",
+      "Đánh dấu tên tác phẩm",
+      "Đánh dấu lời nói trực tiếp",
+      "Ngăn cách các vế câu"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "\"Cây Toán\" có phải cây thật không?",
+    "explanation": "Dấu ngoặc kép đánh dấu từ ngữ dùng theo nghĩa đặc biệt: \"cây Toán\" nghĩa là người rất giỏi Toán, không phải cây thật."
   },
   {
     "id": "TV5_30_08",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "difficulty": "medium",
+    "question": "Câu nào dùng dấu hai chấm SAI?",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Em thích: đọc sách.",
+      "Em thích nhiều môn: Toán, Văn, Tiếng Anh.",
+      "Mẹ dặn: \"Con nhớ khoá cửa.\"",
+      "Vườn có ba loại cây: mít, xoài, nhãn."
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Sau dấu hai chấm phải là liệt kê, giải thích hay lời nói trực tiếp.",
+    "explanation": "\"Em thích: đọc sách.\" dùng sai vì sau dấu hai chấm không có phần liệt kê, giải thích hay lời nói trực tiếp; phải viết \"Em thích đọc sách.\""
   },
   {
     "id": "TV5_30_09",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
     "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "question": "Đặt dấu câu thích hợp: Nam bảo Ngày mai lớp mình đi cắm trại nhé",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Nam bảo: \"Ngày mai lớp mình đi cắm trại nhé!\"",
+      "Nam bảo, \"Ngày mai lớp mình đi cắm trại nhé\".",
+      "Nam bảo \"Ngày mai lớp mình đi cắm trại nhé\"",
+      "Nam bảo: Ngày mai lớp mình đi cắm trại nhé."
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Cần dấu hai chấm, ngoặc kép và dấu kết thúc phù hợp.",
+    "explanation": "Lời nói trực tiếp cần dấu hai chấm báo hiệu, dấu ngoặc kép bao quanh; câu có từ \"nhé\" mang sắc thái đề nghị nên dùng dấu chấm than: Nam bảo: \"Ngày mai lớp mình đi cắm trại nhé!\""
   },
   {
     "id": "TV5_30_10",
     "week": 30,
     "semester": 2,
     "stage": 4,
-    "topic": "Dấu hai chấm & ngoặc kép",
+    "topic": "Dấu hai chấm & dấu ngoặc kép",
     "category": "punctuation",
     "difficulty": "hard",
-    "question": "[Nâng cao] Đặt dấu câu thích hợp vào câu: Nam bảo 'Ngày mai lớp mình đi cắm trại nhé' thì cần dùng những dấu câu nào?",
+    "question": "Phân biệt cách dùng dấu ngoặc kép trong hai câu: (1) Cô nói: \"Các em ngoan lắm.\" và (2) Bạn ấy là \"cây văn\" của lớp.",
     "options": [
-      "Dấu hai chấm, dấu mở ngoặc kép, dấu chấm than (hoặc chấm hỏi), dấu đóng ngoặc kép",
-      "Chỉ cần dấu phẩy",
-      "Chỉ cần dấu chấm",
-      "Dấu gạch ngang và dấu chấm"
+      "Câu (1) đánh dấu lời nói trực tiếp; câu (2) đánh dấu từ ngữ dùng theo nghĩa đặc biệt",
+      "Cả hai đều đánh dấu lời nói trực tiếp",
+      "Cả hai đều đánh dấu tên tác phẩm",
+      "Cả hai đều dùng sai"
     ],
     "correctIndex": 0,
-    "hint": "Sau từ 'bảo' dùng dấu hai chấm và mở ngoặc kép dẫn lời trực tiếp.",
-    "explanation": "Câu đúng: Nam bảo: 'Ngày mai lớp mình đi cắm trại nhé!'."
+    "hint": "Phần trong ngoặc kép ở mỗi câu là gì?",
+    "explanation": "Câu (1): phần trong ngoặc kép là lời cô nói - đánh dấu lời nói trực tiếp. Câu (2): \"cây văn\" là cách nói ví, dùng theo nghĩa đặc biệt chỉ người giỏi Văn."
   },
   {
     "id": "TV5_31_01",

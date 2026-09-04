@@ -8,16 +8,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thế nào là từ đồng nghĩa?",
+    "question": "Từ đồng nghĩa là những từ như thế nào?",
     "options": [
-      "Những từ có nghĩa giống nhau hoặc gần giống nhau",
-      "Những từ có nghĩa hoàn toàn trái ngược nhau",
-      "Những từ phát âm giống nhau nhưng nghĩa khác nhau",
-      "Những từ viết giống nhau"
+      "Có nghĩa giống nhau hoặc gần giống nhau",
+      "Có nghĩa trái ngược nhau",
+      "Phát âm giống nhau nhưng nghĩa khác nhau",
+      "Có nhiều nét nghĩa khác nhau"
     ],
     "correctIndex": 0,
-    "hint": "Từ đồng nghĩa có nghĩa tương đương hoặc gần nhau.",
-    "explanation": "Từ đồng nghĩa là những từ có nghĩa giống nhau hoặc gần giống nhau (Ví dụ: siêng năng, chăm chỉ, cần cù)."
+    "hint": "Chú ý chữ \"đồng\" nghĩa là giống.",
+    "explanation": "Từ đồng nghĩa là những từ có nghĩa giống nhau hoặc gần giống nhau, ví dụ: siêng năng - chăm chỉ - cần cù."
   },
   {
     "id": "TV5_01_02",
@@ -27,16 +27,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Cặp từ nào dưới đây là từ đồng nghĩa hoàn toàn (có thể thay thế cho nhau)?",
+    "question": "Từ nào đồng nghĩa với từ \"học sinh\"?",
     "options": [
-      "mẹ - má",
-      "chết - hi sinh",
-      "xanh biếc - xanh um",
-      "to lớn - vĩ đại"
+      "học trò",
+      "thầy giáo",
+      "nhà trường",
+      "lớp học"
     ],
     "correctIndex": 0,
-    "hint": "mẹ và má đều chỉ người sinh ra mình và sắc thái biểu cảm như nhau.",
-    "explanation": "'mẹ - má' là từ đồng nghĩa hoàn toàn, có thể thay thế cho nhau trong nhiều ngữ cảnh."
+    "hint": "Cùng chỉ người đi học.",
+    "explanation": "\"Học trò\" và \"học sinh\" đều chỉ người đang đi học nên là hai từ đồng nghĩa."
   },
   {
     "id": "TV5_01_03",
@@ -45,17 +45,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Chọn từ đồng nghĩa thích hợp nhất với từ 'chăm chỉ' trong câu sau (Câu 3):",
+    "difficulty": "easy",
+    "question": "Từ nào đồng nghĩa với từ \"to lớn\"?",
     "options": [
-      "cần cù",
-      "thông minh",
-      "nhanh nhẹn",
-      "dũng cảm"
+      "khổng lồ",
+      "bé nhỏ",
+      "xinh xắn",
+      "gầy gò"
     ],
     "correctIndex": 0,
-    "hint": "Chăm chỉ đồng nghĩa với cần cù, chịu khó.",
-    "explanation": "'Chăm chỉ' và 'cần cù' là hai từ đồng nghĩa chỉ đức tính kiên trì lao động."
+    "hint": "Cùng chỉ kích thước lớn.",
+    "explanation": "\"Khổng lồ\" và \"to lớn\" đều chỉ kích thước lớn nên là từ đồng nghĩa."
   },
   {
     "id": "TV5_01_04",
@@ -64,17 +64,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Chọn từ đồng nghĩa thích hợp nhất với từ 'chăm chỉ' trong câu sau (Câu 4):",
+    "difficulty": "easy",
+    "question": "Nhóm từ nào dưới đây gồm các từ đồng nghĩa?",
     "options": [
-      "cần cù",
-      "thông minh",
-      "nhanh nhẹn",
-      "dũng cảm"
+      "quê hương - quê quán - quê cha đất tổ",
+      "trắng - đen - xám",
+      "đi - đứng - ngồi",
+      "cao - thấp - vừa"
     ],
     "correctIndex": 0,
-    "hint": "Chăm chỉ đồng nghĩa với cần cù, chịu khó.",
-    "explanation": "'Chăm chỉ' và 'cần cù' là hai từ đồng nghĩa chỉ đức tính kiên trì lao động."
+    "hint": "Cả nhóm cùng chỉ một ý.",
+    "explanation": "Ba từ \"quê hương\", \"quê quán\", \"quê cha đất tổ\" đều chỉ nơi mình sinh ra và gắn bó."
   },
   {
     "id": "TV5_01_05",
@@ -83,17 +83,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Từ đồng nghĩa được chia thành mấy loại?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "Hai loại: đồng nghĩa hoàn toàn và đồng nghĩa không hoàn toàn",
+      "Một loại duy nhất",
+      "Ba loại",
+      "Bốn loại"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Có loại thay thế được, có loại không.",
+    "explanation": "Từ đồng nghĩa gồm hai loại: đồng nghĩa hoàn toàn (thay thế được cho nhau) và đồng nghĩa không hoàn toàn (khác nhau về sắc thái)."
   },
   {
     "id": "TV5_01_06",
@@ -102,17 +102,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Cặp từ nào là từ đồng nghĩa HOÀN TOÀN (thay thế được cho nhau)?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "trái - quả",
+      "chết - hi sinh",
+      "ăn - chén",
+      "nhìn - nhòm"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Thay vào câu mà nghĩa không đổi.",
+    "explanation": "\"Trái\" và \"quả\" thay thế được cho nhau trong mọi trường hợp (trái cam = quả cam) nên là đồng nghĩa hoàn toàn."
   },
   {
     "id": "TV5_01_07",
@@ -121,17 +121,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Cặp từ \"hi sinh - chết\" là đồng nghĩa không hoàn toàn vì sao?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "Vì \"hi sinh\" mang sắc thái kính trọng, chỉ dùng cho người chết vì lí tưởng cao đẹp",
+      "Vì hai từ khác nhau về số chữ",
+      "Vì hai từ khác nhau về cách viết",
+      "Vì hai từ trái nghĩa nhau"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Chú ý sắc thái biểu cảm.",
+    "explanation": "Hai từ cùng chỉ việc mất đi sự sống, nhưng \"hi sinh\" mang sắc thái kính trọng nên không thể thay cho \"chết\" trong mọi câu."
   },
   {
     "id": "TV5_01_08",
@@ -140,17 +140,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Chọn từ thích hợp: \"Các anh hùng đã _____ vì Tổ quốc.\"",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "hi sinh",
+      "chết",
+      "mất",
+      "toi"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Cần từ mang sắc thái kính trọng.",
+    "explanation": "Nói về anh hùng vì Tổ quốc phải dùng \"hi sinh\" để thể hiện sự kính trọng."
   },
   {
     "id": "TV5_01_09",
@@ -160,16 +160,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "question": "Trong câu \"Bác Hồ đã cống hiến trọn đời cho non sông đất nước\", từ \"non sông\" đồng nghĩa với từ nào?",
     "options": [
-      "tổ quốc",
+      "Tổ quốc",
       "sông ngòi",
       "núi rừng",
       "thiên nhiên"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "\"Non sông\" là cách nói hình ảnh.",
+    "explanation": "\"Non sông\" (núi và sông) là cách nói hình ảnh chỉ đất nước, Tổ quốc."
   },
   {
     "id": "TV5_01_10",
@@ -179,16 +179,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "question": "Vì sao không thể thay từ \"gầy\" bằng \"gầy gò\" trong câu \"Chị ấy có dáng người gầy nhưng rất khỏe\"?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "Vì \"gầy gò\" mang sắc thái tiêu cực, gợi sự yếu ớt, không phù hợp với ý \"rất khỏe\"",
+      "Vì \"gầy gò\" là từ trái nghĩa với \"gầy\"",
+      "Vì \"gầy gò\" không phải từ tiếng Việt",
+      "Vì hai từ hoàn toàn thay thế được"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Xét sắc thái của mỗi từ.",
+    "explanation": "Hai từ đồng nghĩa không hoàn toàn: \"gầy gò\" gợi vẻ yếu ớt, trái với ý \"rất khỏe\" trong câu nên không thay được."
   },
   {
     "id": "TV5_02_01",
@@ -198,16 +198,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thế nào là từ đồng nghĩa?",
+    "question": "Từ nào đồng nghĩa với \"siêng năng\"?",
     "options": [
-      "Những từ có nghĩa giống nhau hoặc gần giống nhau",
-      "Những từ có nghĩa hoàn toàn trái ngược nhau",
-      "Những từ phát âm giống nhau nhưng nghĩa khác nhau",
-      "Những từ viết giống nhau"
+      "cần cù",
+      "lười nhác",
+      "chậm rãi",
+      "vội vàng"
     ],
     "correctIndex": 0,
-    "hint": "Từ đồng nghĩa có nghĩa tương đương hoặc gần nhau.",
-    "explanation": "Từ đồng nghĩa là những từ có nghĩa giống nhau hoặc gần giống nhau (Ví dụ: siêng năng, chăm chỉ, cần cù)."
+    "hint": "Cùng chỉ tính chăm làm.",
+    "explanation": "\"Cần cù\" và \"siêng năng\" đều chỉ tính chăm chỉ làm việc."
   },
   {
     "id": "TV5_02_02",
@@ -217,16 +217,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Cặp từ nào dưới đây là từ đồng nghĩa hoàn toàn (có thể thay thế cho nhau)?",
+    "question": "Từ nào đồng nghĩa với \"dũng cảm\"?",
     "options": [
-      "mẹ - má",
-      "chết - hi sinh",
-      "xanh biếc - xanh um",
-      "to lớn - vĩ đại"
+      "gan dạ",
+      "nhút nhát",
+      "cẩn thận",
+      "hiền lành"
     ],
     "correctIndex": 0,
-    "hint": "mẹ và má đều chỉ người sinh ra mình và sắc thái biểu cảm như nhau.",
-    "explanation": "'mẹ - má' là từ đồng nghĩa hoàn toàn, có thể thay thế cho nhau trong nhiều ngữ cảnh."
+    "hint": "Cùng chỉ sự không sợ nguy hiểm.",
+    "explanation": "\"Gan dạ\" và \"dũng cảm\" đều chỉ phẩm chất không sợ nguy hiểm."
   },
   {
     "id": "TV5_02_03",
@@ -235,17 +235,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Chọn từ đồng nghĩa thích hợp nhất với từ 'chăm chỉ' trong câu sau (Câu 3):",
+    "difficulty": "easy",
+    "question": "Từ nào đồng nghĩa với \"vui vẻ\"?",
     "options": [
-      "cần cù",
-      "thông minh",
-      "nhanh nhẹn",
-      "dũng cảm"
+      "phấn khởi",
+      "buồn bã",
+      "tức giận",
+      "lo lắng"
     ],
     "correctIndex": 0,
-    "hint": "Chăm chỉ đồng nghĩa với cần cù, chịu khó.",
-    "explanation": "'Chăm chỉ' và 'cần cù' là hai từ đồng nghĩa chỉ đức tính kiên trì lao động."
+    "hint": "Cùng chỉ tâm trạng tốt.",
+    "explanation": "\"Phấn khởi\" và \"vui vẻ\" đều chỉ tâm trạng vui, hào hứng."
   },
   {
     "id": "TV5_02_04",
@@ -254,17 +254,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Chọn từ đồng nghĩa thích hợp nhất với từ 'chăm chỉ' trong câu sau (Câu 4):",
+    "difficulty": "easy",
+    "question": "Từ nào đồng nghĩa với \"nhanh nhẹn\"?",
     "options": [
-      "cần cù",
-      "thông minh",
-      "nhanh nhẹn",
-      "dũng cảm"
+      "hoạt bát",
+      "chậm chạp",
+      "nặng nề",
+      "ì ạch"
     ],
     "correctIndex": 0,
-    "hint": "Chăm chỉ đồng nghĩa với cần cù, chịu khó.",
-    "explanation": "'Chăm chỉ' và 'cần cù' là hai từ đồng nghĩa chỉ đức tính kiên trì lao động."
+    "hint": "Cùng chỉ sự linh hoạt.",
+    "explanation": "\"Hoạt bát\" và \"nhanh nhẹn\" đều chỉ sự linh hoạt, nhanh trong hành động."
   },
   {
     "id": "TV5_02_05",
@@ -273,17 +273,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Chọn từ thích hợp nhất: \"Mẹ em rất _____, ngày nào cũng dậy từ 5 giờ để chuẩn bị bữa sáng.\"",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "đảm đang",
+      "lười nhác",
+      "hờ hững",
+      "khó tính"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Chú ý việc mẹ làm trong câu.",
+    "explanation": "\"Đảm đang\" chỉ người phụ nữ chăm lo tốt việc gia đình, phù hợp với việc dậy sớm chuẩn bị bữa sáng."
   },
   {
     "id": "TV5_02_06",
@@ -292,17 +292,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Chọn từ thích hợp nhất: \"Bạn Nam rất _____ khi giúp bà cụ sang đường.\"",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "tốt bụng",
+      "khôn ngoan",
+      "nhanh nhẹn",
+      "cẩn thận"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Chú ý hành động giúp người khác.",
+    "explanation": "\"Tốt bụng\" chỉ lòng thương người, phù hợp với việc giúp bà cụ sang đường."
   },
   {
     "id": "TV5_02_07",
@@ -311,17 +311,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Trong nhóm từ \"nhìn - ngắm - nhòm - dòm\", từ nào mang sắc thái thiếu lịch sự?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "nhòm, dòm",
+      "nhìn",
+      "ngắm",
+      "cả bốn từ đều lịch sự"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Xét sắc thái của mỗi từ.",
+    "explanation": "\"Nhòm\", \"dòm\" mang sắc thái tò mò, thiếu lịch sự; còn \"nhìn\", \"ngắm\" trung tính hoặc trang trọng."
   },
   {
     "id": "TV5_02_08",
@@ -330,17 +330,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "difficulty": "medium",
+    "question": "Đặt câu nào dùng từ đồng nghĩa ĐÚNG sắc thái?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "Ông em đã qua đời năm ngoái.",
+      "Ông em đã toi năm ngoái.",
+      "Ông em đã hi sinh năm ngoái vì bệnh nặng.",
+      "Ông em đã chết queo năm ngoái."
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Cần sắc thái tôn kính, phù hợp hoàn cảnh.",
+    "explanation": "\"Qua đời\" là cách nói trang trọng, phù hợp khi nói về người thân; \"hi sinh\" chỉ dùng cho người mất vì lí tưởng cao đẹp."
   },
   {
     "id": "TV5_02_09",
@@ -350,16 +350,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "question": "Vì sao trong câu \"Đoàn quân trùng trùng tiến ra mặt trận\" không thể thay \"tiến\" bằng \"đi\"?",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "Vì \"tiến\" gợi khí thế mạnh mẽ, hướng về phía trước, phù hợp không khí ra mặt trận; \"đi\" quá trung tính",
+      "Vì \"đi\" là từ trái nghĩa với \"tiến\"",
+      "Vì \"đi\" không phải từ tiếng Việt",
+      "Vì hai từ hoàn toàn không liên quan"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Xét sức gợi của từ trong câu văn.",
+    "explanation": "\"Tiến\" gợi khí thế mạnh mẽ, hướng về phía trước, phù hợp không khí hào hùng; \"đi\" quá trung tính nên làm mất sức gợi của câu."
   },
   {
     "id": "TV5_02_10",
@@ -369,16 +369,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Luyện tập từ đồng nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Trong câu 'Bác Hồ đã cống hiến trọn đời cho non sông đất nước', từ 'non sông' đồng nghĩa với từ nào sau đây?",
+    "question": "Chọn cách dùng từ đồng nghĩa CHÍNH XÁC nhất: \"Bức tranh có màu xanh _____ của bầu trời mùa thu.\"",
     "options": [
-      "tổ quốc",
-      "sông ngòi",
-      "núi rừng",
-      "thiên nhiên"
+      "trong veo",
+      "um tùm",
+      "rì",
+      "lè"
     ],
     "correctIndex": 0,
-    "hint": "Non sông mang nghĩa chỉ đất nước, tổ quốc.",
-    "explanation": "'Non sông' là từ Hán Việt đồng nghĩa với 'tổ quốc', 'đất nước', 'giang sơn'."
+    "hint": "Xét từ nào đi được với bầu trời.",
+    "explanation": "\"Xanh trong veo\" phù hợp với bầu trời; \"xanh um tùm\" dùng cho cây cối, \"xanh rì\" cho cỏ, \"xanh lè\" mang nghĩa xấu."
   },
   {
     "id": "TV5_03_01",
@@ -388,16 +388,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ trái nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Cặp từ nào sau đây là cặp từ trái nghĩa?",
+    "question": "Từ trái nghĩa là những từ như thế nào?",
     "options": [
-      "chân thật - dối trá",
-      "dũng cảm - gan dạ",
-      "học tập - rèn luyện",
-      "hiền lành - dịu dàng"
+      "Có nghĩa trái ngược nhau",
+      "Có nghĩa giống nhau",
+      "Phát âm giống nhau",
+      "Có nhiều nét nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Tìm cặp từ có nghĩa trái ngược nhau.",
-    "explanation": "'Chân thật' trái nghĩa với 'dối trá'."
+    "hint": "Chú ý chữ \"trái\" nghĩa là ngược.",
+    "explanation": "Từ trái nghĩa là những từ có nghĩa trái ngược nhau, ví dụ: cao - thấp, sáng - tối."
   },
   {
     "id": "TV5_03_02",
@@ -407,16 +407,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ trái nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thành ngữ nào dưới đây chứa cặp từ trái nghĩa?",
+    "question": "Từ trái nghĩa với \"cao\" là gì?",
     "options": [
-      "Gạn đục khơi trong",
-      "Chân lấm tay bùn",
-      "Đi một ngày đàng học một sàng khôn",
-      "Uống nước nhớ nguồn"
+      "thấp",
+      "to",
+      "dài",
+      "rộng"
     ],
     "correctIndex": 0,
-    "hint": "'đục' trái nghĩa với 'trong'.",
-    "explanation": "Trong thành ngữ 'Gạn đục khơi trong', cặp từ trái nghĩa là 'đục' - 'trong'."
+    "hint": "Ngược về chiều cao.",
+    "explanation": "\"Thấp\" trái nghĩa với \"cao\" vì hai từ chỉ hai đầu đối lập của chiều cao."
   },
   {
     "id": "TV5_03_03",
@@ -425,17 +425,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ trái nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Tìm từ trái nghĩa với từ 'nhỏ bé' (Câu 3):",
+    "difficulty": "easy",
+    "question": "Từ trái nghĩa với \"siêng năng\" là gì?",
     "options": [
-      "khổng lồ",
-      "nhỏ nhắn",
-      "tí hon",
-      "mảnh dẻ"
+      "lười nhác",
+      "cần cù",
+      "chăm chỉ",
+      "cần mẫn"
     ],
     "correctIndex": 0,
-    "hint": "Trái nghĩa với nhỏ bé là to lớn, khổng lồ.",
-    "explanation": "'Khổng lồ' là từ trái nghĩa với 'nhỏ bé'."
+    "hint": "Ba từ kia là đồng nghĩa.",
+    "explanation": "\"Lười nhác\" trái nghĩa với \"siêng năng\"; cần cù, chăm chỉ, cần mẫn đều đồng nghĩa với siêng năng."
   },
   {
     "id": "TV5_03_04",
@@ -444,17 +444,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ trái nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Tìm từ trái nghĩa với từ 'nhỏ bé' (Câu 4):",
+    "difficulty": "easy",
+    "question": "Cặp từ nào sau đây là cặp từ trái nghĩa?",
     "options": [
-      "khổng lồ",
-      "nhỏ nhắn",
-      "tí hon",
-      "mảnh dẻ"
+      "sáng - tối",
+      "nhà - cửa",
+      "bàn - ghế",
+      "sách - vở"
     ],
     "correctIndex": 0,
-    "hint": "Trái nghĩa với nhỏ bé là to lớn, khổng lồ.",
-    "explanation": "'Khổng lồ' là từ trái nghĩa với 'nhỏ bé'."
+    "hint": "Chọn cặp có nghĩa đối lập.",
+    "explanation": "\"Sáng - tối\" là cặp từ trái nghĩa; các cặp còn lại chỉ là những từ cùng nhóm nghĩa."
   },
   {
     "id": "TV5_03_05",
@@ -463,17 +463,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Tác dụng của việc dùng từ trái nghĩa trong câu là gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Tạo sự tương phản, làm nổi bật ý cần diễn đạt",
+      "Làm câu dài hơn",
+      "Làm câu khó hiểu hơn",
+      "Không có tác dụng gì"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Đặt hai điều đối lập cạnh nhau.",
+    "explanation": "Từ trái nghĩa tạo sự tương phản, làm nổi bật ý cần diễn đạt và gây ấn tượng cho người đọc."
   },
   {
     "id": "TV5_03_06",
@@ -482,17 +482,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Câu tục ngữ nào dưới đây chứa cặp từ trái nghĩa?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Lên voi xuống ngựa",
+      "Ăn quả nhớ người trồng cây",
+      "Có công mài sắt có ngày nên kim",
+      "Uống nước nhớ nguồn"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Tìm hai từ đối lập trong câu.",
+    "explanation": "\"Lên voi xuống ngựa\" chứa cặp trái nghĩa \"lên - xuống\" (và \"voi - ngựa\" đối nhau về địa vị)."
   },
   {
     "id": "TV5_03_07",
@@ -501,17 +501,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Tìm cặp từ trái nghĩa trong câu: \"Chị em như chuối nhiều tàu, tấm lành che tấm rách.\"",
     "options": [
       "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "chị - em",
+      "chuối - tàu",
+      "nhiều - tấm"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Xét ý nghĩa đối lập.",
+    "explanation": "Cặp \"lành - rách\" là từ trái nghĩa, dùng để nói về sự đùm bọc giữa chị em."
   },
   {
     "id": "TV5_03_08",
@@ -520,17 +520,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Từ trái nghĩa với \"nhỏ bé\" là gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "to lớn",
+      "xinh xắn",
+      "bé xíu",
+      "nhỏ nhắn"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Ba từ kia đều chỉ sự nhỏ.",
+    "explanation": "\"To lớn\" trái nghĩa với \"nhỏ bé\"; xinh xắn, bé xíu, nhỏ nhắn đều chỉ sự nhỏ."
   },
   {
     "id": "TV5_03_09",
@@ -540,16 +540,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ trái nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "question": "Câu tục ngữ \"Lá lành đùm lá rách\" dùng cặp từ trái nghĩa để khuyên điều gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Người có điều kiện tốt hơn nên giúp đỡ người khó khăn",
+      "Nên chọn lá lành mà dùng",
+      "Nên bỏ lá rách đi",
+      "Nên gói bánh bằng lá chuối"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Cặp \"lành - rách\" tượng trưng cho hai hoàn cảnh.",
+    "explanation": "Cặp trái nghĩa \"lành - rách\" tượng trưng cho người có điều kiện và người khó khăn; câu tục ngữ khuyên phải đùm bọc, giúp đỡ nhau."
   },
   {
     "id": "TV5_03_10",
@@ -559,16 +559,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ trái nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "question": "Vì sao \"sáng\" và \"tối\" là cặp trái nghĩa còn \"sáng\" và \"nắng\" thì không?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Vì trái nghĩa phải cùng chỉ một mặt của sự vật và đối lập nhau; \"sáng - tối\" cùng chỉ độ sáng, còn \"nắng\" không cùng mặt đó",
+      "Vì \"nắng\" không phải từ tiếng Việt",
+      "Vì \"nắng\" là từ đồng nghĩa với \"sáng\"",
+      "Vì \"nắng\" chỉ dùng cho trời"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Trái nghĩa cần cùng một tiêu chí so sánh.",
+    "explanation": "Từ trái nghĩa phải cùng chỉ một mặt (một tiêu chí) của sự vật và đối lập nhau. \"Sáng - tối\" cùng chỉ độ sáng; \"nắng\" thuộc mặt khác nên không tạo thành cặp trái nghĩa."
   },
   {
     "id": "TV5_04_01",
@@ -578,16 +578,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Cặp từ nào sau đây là cặp từ trái nghĩa?",
+    "question": "Thành ngữ \"Trước lạ sau quen\" chứa cặp từ trái nghĩa nào?",
     "options": [
-      "chân thật - dối trá",
-      "dũng cảm - gan dạ",
-      "học tập - rèn luyện",
-      "hiền lành - dịu dàng"
+      "lạ - quen",
+      "trước - sau và lạ - quen",
+      "chỉ trước - sau",
+      "không có cặp nào"
     ],
-    "correctIndex": 0,
-    "hint": "Tìm cặp từ có nghĩa trái ngược nhau.",
-    "explanation": "'Chân thật' trái nghĩa với 'dối trá'."
+    "correctIndex": 1,
+    "hint": "Đọc kĩ cả bốn tiếng.",
+    "explanation": "Thành ngữ này chứa hai cặp trái nghĩa: \"trước - sau\" và \"lạ - quen\"."
   },
   {
     "id": "TV5_04_02",
@@ -597,16 +597,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thành ngữ nào dưới đây chứa cặp từ trái nghĩa?",
+    "question": "Tục ngữ \"Đói cho sạch, rét cho thơm\" khuyên điều gì?",
     "options": [
-      "Gạn đục khơi trong",
-      "Chân lấm tay bùn",
-      "Đi một ngày đàng học một sàng khôn",
-      "Uống nước nhớ nguồn"
+      "Dù khó khăn vẫn phải giữ phẩm chất trong sạch",
+      "Phải ăn thật sạch",
+      "Phải mặc thật thơm",
+      "Phải tránh trời rét"
     ],
     "correctIndex": 0,
-    "hint": "'đục' trái nghĩa với 'trong'.",
-    "explanation": "Trong thành ngữ 'Gạn đục khơi trong', cặp từ trái nghĩa là 'đục' - 'trong'."
+    "hint": "Nói về nhân cách con người.",
+    "explanation": "Câu tục ngữ khuyên dù nghèo đói, khó khăn vẫn phải giữ gìn phẩm chất trong sạch, đứng đắn."
   },
   {
     "id": "TV5_04_03",
@@ -615,17 +615,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Tìm từ trái nghĩa với từ 'nhỏ bé' (Câu 3):",
+    "difficulty": "easy",
+    "question": "Thành ngữ \"Kẻ trước người sau\" chứa cặp trái nghĩa nào?",
     "options": [
-      "khổng lồ",
-      "nhỏ nhắn",
-      "tí hon",
-      "mảnh dẻ"
+      "trước - sau",
+      "kẻ - người",
+      "trước - người",
+      "không có"
     ],
     "correctIndex": 0,
-    "hint": "Trái nghĩa với nhỏ bé là to lớn, khổng lồ.",
-    "explanation": "'Khổng lồ' là từ trái nghĩa với 'nhỏ bé'."
+    "hint": "Chọn cặp đối lập về thứ tự.",
+    "explanation": "Cặp \"trước - sau\" là cặp từ trái nghĩa chỉ thứ tự."
   },
   {
     "id": "TV5_04_04",
@@ -634,17 +634,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Tìm từ trái nghĩa với từ 'nhỏ bé' (Câu 4):",
+    "difficulty": "easy",
+    "question": "Tục ngữ nào chứa cặp trái nghĩa \"ít - nhiều\"?",
     "options": [
-      "khổng lồ",
-      "nhỏ nhắn",
-      "tí hon",
-      "mảnh dẻ"
+      "Ăn ít no lâu, ăn nhiều chóng đói",
+      "Có công mài sắt có ngày nên kim",
+      "Đói cho sạch rét cho thơm",
+      "Uống nước nhớ nguồn"
     ],
     "correctIndex": 0,
-    "hint": "Trái nghĩa với nhỏ bé là to lớn, khổng lồ.",
-    "explanation": "'Khổng lồ' là từ trái nghĩa với 'nhỏ bé'."
+    "hint": "Tìm câu có cả \"ít\" và \"nhiều\".",
+    "explanation": "Câu \"Ăn ít no lâu, ăn nhiều chóng đói\" chứa cặp trái nghĩa \"ít - nhiều\" và cả \"no - đói\"."
   },
   {
     "id": "TV5_04_05",
@@ -653,17 +653,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Tục ngữ \"Gần mực thì đen, gần đèn thì sáng\" dùng cặp trái nghĩa nào và để nói điều gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Cặp \"đen - sáng\", nói về ảnh hưởng của môi trường tới con người",
+      "Cặp \"mực - đèn\", nói về đồ dùng học tập",
+      "Cặp \"gần - xa\", nói về khoảng cách",
+      "Không có cặp trái nghĩa nào"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Xét ý nghĩa khuyên răn của câu.",
+    "explanation": "Cặp trái nghĩa \"đen - sáng\" tạo tương phản để nói: sống gần cái xấu dễ bị nhiễm xấu, gần cái tốt sẽ tiến bộ."
   },
   {
     "id": "TV5_04_06",
@@ -672,17 +672,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Thành ngữ \"Lên thác xuống ghềnh\" nói về điều gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Cuộc sống vất vả, phải trải qua nhiều gian nan",
+      "Việc đi lại trên sông rất thuận lợi",
+      "Việc leo núi rất dễ",
+      "Việc bơi lội giỏi"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Cặp \"lên - xuống\" gợi sự gian nan.",
+    "explanation": "Cặp trái nghĩa \"lên - xuống\" cùng hình ảnh thác, ghềnh gợi cuộc sống vất vả, trải qua nhiều gian nan."
   },
   {
     "id": "TV5_04_07",
@@ -691,17 +691,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Tục ngữ \"Chết đứng còn hơn sống quỳ\" đề cao điều gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Khí phách, lòng tự trọng của con người",
+      "Việc đứng lâu tốt cho sức khỏe",
+      "Việc không nên quỳ",
+      "Việc nên sống lâu"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Chú ý cặp \"chết - sống\" và \"đứng - quỳ\".",
+    "explanation": "Hai cặp trái nghĩa \"chết - sống\" và \"đứng - quỳ\" tạo tương phản mạnh, đề cao khí phách và lòng tự trọng."
   },
   {
     "id": "TV5_04_08",
@@ -710,17 +710,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "difficulty": "medium",
+    "question": "Điền cặp trái nghĩa thích hợp: \"Việc gì cũng phải nghĩ trước tính _____.\"",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "sau",
+      "trên",
+      "xa",
+      "nhanh"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Cần từ trái nghĩa với \"trước\".",
+    "explanation": "\"Nghĩ trước tính sau\" - cặp trái nghĩa \"trước - sau\" chỉ sự cân nhắc cẩn thận."
   },
   {
     "id": "TV5_04_09",
@@ -730,16 +730,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "question": "Vì sao trong tục ngữ, người Việt thường dùng cặp từ trái nghĩa?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Vì cặp trái nghĩa tạo tương phản, làm câu dễ nhớ, dễ thuộc và ý khuyên răn nổi bật",
+      "Vì cặp trái nghĩa làm câu dài hơn",
+      "Vì tiếng Việt bắt buộc phải dùng",
+      "Vì để câu khó hiểu hơn"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "Xét tác dụng về nghĩa và về hình thức.",
+    "explanation": "Cặp trái nghĩa tạo sự tương phản làm ý khuyên răn nổi bật, đồng thời tạo nhịp đối xứng nên câu dễ nhớ, dễ truyền miệng."
   },
   {
     "id": "TV5_04_10",
@@ -749,16 +749,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Thành ngữ tục ngữ trái nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Câu tục ngữ 'Lá lành đùm lá rách' sử dụng cặp từ trái nghĩa nào để khuyên nhủ con người về lòng tương thân tương ái?",
+    "question": "Câu \"Một miếng khi đói bằng một gói khi no\" dùng cặp trái nghĩa \"đói - no\" để nói điều gì?",
     "options": [
-      "lành - rách",
-      "lá - đùm",
-      "đùm - rách",
-      "lá lành - người nghèo"
+      "Sự giúp đỡ lúc khó khăn có giá trị hơn nhiều so với lúc đầy đủ",
+      "Nên ăn ít khi đói",
+      "Nên gói thức ăn lại khi no",
+      "Miếng và gói có kích thước bằng nhau"
     ],
     "correctIndex": 0,
-    "hint": "'lành' trái nghĩa với 'rách'.",
-    "explanation": "Cặp từ trái nghĩa 'lành - rách' mang ý nghĩa ẩn dụ về người có cuộc sống đủ đầy giúp đỡ người gặp khó khăn, hoạn nạn."
+    "hint": "So sánh giá trị của sự giúp đỡ theo hoàn cảnh.",
+    "explanation": "Cặp trái nghĩa \"đói - no\" làm nổi bật ý: giúp người đúng lúc họ khó khăn thì giá trị hơn nhiều khi họ đã đầy đủ."
   },
   {
     "id": "TV5_05_01",
@@ -768,16 +768,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng âm",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thế nào là từ đồng âm?",
+    "question": "Từ đồng âm là những từ như thế nào?",
     "options": [
-      "Những từ phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau",
-      "Những từ có nghĩa giống nhau",
-      "Những từ có một nghĩa gốc và nhiều nghĩa chuyển",
-      "Những từ chỉ dùng trong văn thơ"
+      "Phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau",
+      "Có nghĩa giống nhau",
+      "Có nghĩa trái ngược nhau",
+      "Có nhiều nét nghĩa liên quan nhau"
     ],
     "correctIndex": 0,
-    "hint": "Đồng âm: âm giống nhau, nghĩa không liên quan.",
-    "explanation": "Từ đồng âm là những từ giống nhau về âm thanh nhưng nghĩa hoàn toàn khác nhau, không có mối liên hệ nào về nghĩa."
+    "hint": "Chú ý chữ \"âm\" nghĩa là tiếng.",
+    "explanation": "Từ đồng âm là những từ giống nhau về âm thanh nhưng nghĩa hoàn toàn khác nhau và không liên quan."
   },
   {
     "id": "TV5_05_02",
@@ -787,16 +787,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng âm",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Từ 'chân' trong câu 'Bé đau chân' và 'Chân bàn bị gãy' là hiện tượng gì của từ?",
+    "question": "Từ \"bàn\" trong \"cái bàn\" và \"bàn công việc\" là hiện tượng gì?",
     "options": [
-      "Từ nhiều nghĩa",
       "Từ đồng âm",
       "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Từ trái nghĩa",
+      "Từ nhiều nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Cùng có nét nghĩa chỉ bộ phận dưới cùng nâng đỡ.",
-    "explanation": "Đây là từ nhiều nghĩa: 'chân người' là nghĩa gốc, 'chân bàn' là nghĩa chuyển theo phương thức ẩn dụ."
+    "hint": "Hai nghĩa hoàn toàn không liên quan.",
+    "explanation": "\"Bàn\" (đồ vật) và \"bàn\" (thảo luận) có nghĩa hoàn toàn khác nhau, không liên quan nên là từ đồng âm."
   },
   {
     "id": "TV5_05_03",
@@ -805,17 +805,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng âm",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Từ 'đường' trong 'đường đi' và 'đường kính trắng' là hiện tượng từ gì? (Câu 3)",
+    "difficulty": "easy",
+    "question": "Từ \"đá\" trong \"hòn đá\" và \"đá bóng\" là hiện tượng gì?",
     "options": [
       "Từ đồng âm",
-      "Từ nhiều nghĩa",
       "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Từ trái nghĩa",
+      "Từ nhiều nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Đường đi và đường ăn hoàn toàn không có mối liên hệ nghĩa nào.",
-    "explanation": "Đây là từ đồng âm vì phát âm giống nhau nhưng nghĩa hoàn toàn khác biệt."
+    "hint": "Một là vật, một là hành động.",
+    "explanation": "\"Đá\" (hòn đá - vật) và \"đá\" (đá bóng - hành động) hoàn toàn khác nghĩa nên là từ đồng âm."
   },
   {
     "id": "TV5_05_04",
@@ -824,17 +824,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng âm",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Từ 'đường' trong 'đường đi' và 'đường kính trắng' là hiện tượng từ gì? (Câu 4)",
+    "difficulty": "easy",
+    "question": "Trong câu \"Con ruồi đậu trên đĩa đậu\", từ \"đậu\" là hiện tượng gì?",
     "options": [
       "Từ đồng âm",
-      "Từ nhiều nghĩa",
       "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Từ trái nghĩa",
+      "Từ láy"
     ],
     "correctIndex": 0,
-    "hint": "Đường đi và đường ăn hoàn toàn không có mối liên hệ nghĩa nào.",
-    "explanation": "Đây là từ đồng âm vì phát âm giống nhau nhưng nghĩa hoàn toàn khác biệt."
+    "hint": "Một là hành động, một là loại hạt.",
+    "explanation": "\"Đậu\" (hành động dừng lại) và \"đậu\" (loại hạt) hoàn toàn khác nghĩa nên là từ đồng âm."
   },
   {
     "id": "TV5_05_05",
@@ -843,17 +843,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng âm",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Từ đồng âm khác từ nhiều nghĩa ở điểm nào?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Từ đồng âm có các nghĩa không liên quan; từ nhiều nghĩa có các nghĩa liên quan với nhau",
+      "Từ đồng âm luôn dài hơn",
+      "Từ nhiều nghĩa phát âm khác nhau",
+      "Hai loại giống nhau hoàn toàn"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Xét các nghĩa có liên quan hay không.",
+    "explanation": "Từ đồng âm: các nghĩa hoàn toàn không liên quan. Từ nhiều nghĩa: các nghĩa đều xuất phát từ một nghĩa gốc nên có liên quan."
   },
   {
     "id": "TV5_05_06",
@@ -862,17 +862,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng âm",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Cặp nào sau đây là TỪ ĐỒNG ÂM (không phải từ nhiều nghĩa)?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "\"chín\" (số 9) và \"chín\" (quả chín)",
+      "\"chân\" (chân người) và \"chân\" (chân bàn)",
+      "\"mũi\" (mũi người) và \"mũi\" (mũi thuyền)",
+      "\"ngọt\" (vị ngọt) và \"ngọt\" (lời nói ngọt)"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Tìm cặp có nghĩa hoàn toàn không liên quan.",
+    "explanation": "\"Chín\" (số 9) và \"chín\" (quả đã chín) hoàn toàn không liên quan nên là từ đồng âm; ba cặp còn lại là từ nhiều nghĩa."
   },
   {
     "id": "TV5_05_07",
@@ -881,17 +881,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng âm",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Trong câu \"Bà tôi mua một cân cân đường\", từ \"cân\" xuất hiện hai lần với nghĩa gì?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Một là đơn vị khối lượng, một là hành động đo khối lượng - đây là từ đồng âm",
+      "Cả hai đều là đơn vị khối lượng",
+      "Cả hai đều là hành động",
+      "Đây là từ nhiều nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Xét từng chữ \"cân\" trong câu.",
+    "explanation": "\"Một cân\" là đơn vị khối lượng, \"cân đường\" là hành động đo - hai nghĩa không liên quan nên là từ đồng âm."
   },
   {
     "id": "TV5_05_08",
@@ -900,17 +900,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ đồng âm",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Cách nào giúp phân biệt nghĩa của từ đồng âm?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Dựa vào ngữ cảnh (các từ đứng xung quanh) trong câu",
+      "Dựa vào số chữ của từ",
+      "Dựa vào dấu thanh",
+      "Không thể phân biệt được"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Câu văn cho biết nghĩa nào đang được dùng.",
+    "explanation": "Phải dựa vào ngữ cảnh - các từ xung quanh trong câu - để biết từ đồng âm đang mang nghĩa nào."
   },
   {
     "id": "TV5_05_09",
@@ -920,16 +920,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng âm",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "question": "Từ \"đường\" trong \"đường đi\" và \"đường kính trắng\" thuộc hiện tượng nào và vì sao?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Từ đồng âm, vì lối đi và chất tạo vị ngọt hoàn toàn không liên quan về nghĩa",
+      "Từ nhiều nghĩa, vì đều bắt nguồn từ một nghĩa gốc",
+      "Từ đồng nghĩa",
+      "Từ trái nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Hai nghĩa có liên quan gì không?",
+    "explanation": "\"Đường\" (lối đi) và \"đường\" (chất tạo vị ngọt) hoàn toàn không liên quan về nghĩa nên là từ đồng âm, không phải từ nhiều nghĩa."
   },
   {
     "id": "TV5_05_10",
@@ -939,16 +939,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ đồng âm",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "question": "Câu đối \"Ruồi đậu mâm xôi đậu, kiến bò đĩa thịt bò\" thú vị vì sao?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Vì dùng hai cặp từ đồng âm \"đậu - đậu\" và \"bò - bò\" tạo cách nói dí dỏm",
+      "Vì dùng nhiều từ trái nghĩa",
+      "Vì tất cả các từ đều đồng nghĩa",
+      "Vì câu không có nghĩa gì"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Xét các từ lặp lại trong câu.",
+    "explanation": "Câu đối dùng hai cặp từ đồng âm: \"đậu\" (bám vào / hạt đậu) và \"bò\" (di chuyển / con bò), tạo nên cách nói dí dỏm, tài tình."
   },
   {
     "id": "TV5_06_01",
@@ -958,16 +958,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thế nào là từ đồng âm?",
+    "question": "Từ nhiều nghĩa là từ như thế nào?",
     "options": [
-      "Những từ phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau",
-      "Những từ có nghĩa giống nhau",
-      "Những từ có một nghĩa gốc và nhiều nghĩa chuyển",
-      "Những từ chỉ dùng trong văn thơ"
+      "Có một nghĩa gốc và một hay nhiều nghĩa chuyển liên quan với nghĩa gốc",
+      "Có các nghĩa hoàn toàn không liên quan",
+      "Có nghĩa giống từ khác",
+      "Có nghĩa trái ngược nhau"
     ],
     "correctIndex": 0,
-    "hint": "Đồng âm: âm giống nhau, nghĩa không liên quan.",
-    "explanation": "Từ đồng âm là những từ giống nhau về âm thanh nhưng nghĩa hoàn toàn khác nhau, không có mối liên hệ nào về nghĩa."
+    "hint": "Các nghĩa đều liên quan tới nhau.",
+    "explanation": "Từ nhiều nghĩa có một nghĩa gốc và một hay nhiều nghĩa chuyển; các nghĩa chuyển đều có liên hệ với nghĩa gốc."
   },
   {
     "id": "TV5_06_02",
@@ -977,16 +977,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Từ 'chân' trong câu 'Bé đau chân' và 'Chân bàn bị gãy' là hiện tượng gì của từ?",
+    "question": "Trong \"chân người\" và \"chân bàn\", từ \"chân\" ở đâu là NGHĨA GỐC?",
     "options": [
-      "Từ nhiều nghĩa",
-      "Từ đồng âm",
-      "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "\"chân người\"",
+      "\"chân bàn\"",
+      "Cả hai đều là nghĩa gốc",
+      "Cả hai đều là nghĩa chuyển"
     ],
     "correctIndex": 0,
-    "hint": "Cùng có nét nghĩa chỉ bộ phận dưới cùng nâng đỡ.",
-    "explanation": "Đây là từ nhiều nghĩa: 'chân người' là nghĩa gốc, 'chân bàn' là nghĩa chuyển theo phương thức ẩn dụ."
+    "hint": "Nghĩa gốc gắn với bộ phận cơ thể.",
+    "explanation": "Nghĩa gốc của \"chân\" là bộ phận dưới cùng của cơ thể dùng để đi; \"chân bàn\" là nghĩa chuyển."
   },
   {
     "id": "TV5_06_03",
@@ -995,17 +995,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Từ 'đường' trong 'đường đi' và 'đường kính trắng' là hiện tượng từ gì? (Câu 3)",
+    "difficulty": "easy",
+    "question": "Trong \"mắt người\" và \"mắt dứa\", từ \"mắt\" ở đâu là nghĩa chuyển?",
     "options": [
-      "Từ đồng âm",
-      "Từ nhiều nghĩa",
-      "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "\"mắt dứa\"",
+      "\"mắt người\"",
+      "Cả hai đều nghĩa gốc",
+      "Không có nghĩa chuyển"
     ],
     "correctIndex": 0,
-    "hint": "Đường đi và đường ăn hoàn toàn không có mối liên hệ nghĩa nào.",
-    "explanation": "Đây là từ đồng âm vì phát âm giống nhau nhưng nghĩa hoàn toàn khác biệt."
+    "hint": "Nghĩa gốc gắn với bộ phận cơ thể.",
+    "explanation": "\"Mắt người\" là nghĩa gốc; \"mắt dứa\" là nghĩa chuyển do giống hình dạng của mắt."
   },
   {
     "id": "TV5_06_04",
@@ -1014,17 +1014,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Từ 'đường' trong 'đường đi' và 'đường kính trắng' là hiện tượng từ gì? (Câu 4)",
+    "difficulty": "easy",
+    "question": "Từ \"ngọt\" trong câu nào mang NGHĨA GỐC?",
     "options": [
-      "Từ đồng âm",
-      "Từ nhiều nghĩa",
-      "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Quả cam này rất ngọt.",
+      "Cô ấy nói ngọt lắm.",
+      "Dao này cắt ngọt.",
+      "Tiếng đàn nghe thật ngọt."
     ],
     "correctIndex": 0,
-    "hint": "Đường đi và đường ăn hoàn toàn không có mối liên hệ nghĩa nào.",
-    "explanation": "Đây là từ đồng âm vì phát âm giống nhau nhưng nghĩa hoàn toàn khác biệt."
+    "hint": "Nghĩa gốc chỉ vị của thức ăn.",
+    "explanation": "Nghĩa gốc của \"ngọt\" chỉ vị như vị của đường, mật - \"quả cam rất ngọt\"."
   },
   {
     "id": "TV5_06_05",
@@ -1033,17 +1033,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Nghĩa chuyển của từ thường được tạo ra dựa trên cơ sở nào?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Dựa trên sự giống nhau về hình dạng, vị trí hoặc chức năng với nghĩa gốc",
+      "Dựa trên số chữ của từ",
+      "Dựa trên dấu thanh",
+      "Hoàn toàn ngẫu nhiên"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Vì sao \"chân bàn\" lại gọi là chân?",
+    "explanation": "Nghĩa chuyển hình thành dựa trên sự giống nhau về hình dạng, vị trí hay chức năng với nghĩa gốc: chân bàn ở dưới cùng và đỡ mặt bàn, giống chân người."
   },
   {
     "id": "TV5_06_06",
@@ -1052,17 +1052,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Trong câu \"Nam là học sinh đứng đầu lớp\", từ \"đầu\" mang nghĩa gì?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Nghĩa chuyển - chỉ vị trí thứ nhất, cao nhất",
+      "Nghĩa gốc - bộ phận cơ thể",
+      "Nghĩa của từ đồng âm",
+      "Không có nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Có phải nói về bộ phận cơ thể không?",
+    "explanation": "\"Đứng đầu lớp\" dùng nghĩa chuyển của \"đầu\": chỉ vị trí thứ nhất, cao nhất - chuyển từ nghĩa gốc là bộ phận trên cùng của cơ thể."
   },
   {
     "id": "TV5_06_07",
@@ -1071,17 +1071,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Từ \"lưng\" trong cụm nào mang nghĩa chuyển?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "lưng đồi",
+      "lưng người",
+      "đau lưng",
+      "xoa lưng"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Đồi có lưng thật không?",
+    "explanation": "\"Lưng đồi\" là nghĩa chuyển - phần giữa của sườn đồi, giống vị trí lưng trên cơ thể."
   },
   {
     "id": "TV5_06_08",
@@ -1090,17 +1090,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Từ \"cổ\" trong cụm nào mang nghĩa gốc?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "cổ người",
+      "cổ chai",
+      "cổ áo",
+      "cổ tay"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Nghĩa gốc là bộ phận nối đầu với thân.",
+    "explanation": "Nghĩa gốc của \"cổ\" là bộ phận nối đầu với thân mình; cổ chai, cổ áo, cổ tay đều là nghĩa chuyển."
   },
   {
     "id": "TV5_06_09",
@@ -1110,16 +1110,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "question": "Xác định nghĩa chuyển của từ \"mũi\" trong các cụm: mũi thuyền, mũi dao, mũi đất.",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Đều chỉ phần nhô ra phía trước, nhọn - chuyển từ nghĩa gốc là mũi trên mặt người",
+      "Đều chỉ phần dưới cùng",
+      "Đều chỉ phần rộng nhất",
+      "Đều là từ đồng âm với \"mũi\" người"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Điểm chung về hình dạng là gì?",
+    "explanation": "Mũi thuyền, mũi dao, mũi đất đều chỉ phần nhô ra phía trước và thường nhọn - nghĩa chuyển dựa trên sự giống nhau về hình dạng với mũi trên mặt người."
   },
   {
     "id": "TV5_06_10",
@@ -1129,16 +1129,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "question": "Vì sao \"chân người - chân bàn\" là từ nhiều nghĩa còn \"đá (hòn đá) - đá (đá bóng)\" là từ đồng âm?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Vì \"chân bàn\" và \"chân người\" đều chỉ phần dưới cùng có tác dụng đỡ, nghĩa có liên quan; còn hai nghĩa của \"đá\" hoàn toàn không liên quan",
+      "Vì \"chân\" dài hơn \"đá\"",
+      "Vì \"đá\" không phải từ tiếng Việt",
+      "Vì cả hai cặp đều là từ đồng âm"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Xét các nghĩa có liên hệ với nhau hay không.",
+    "explanation": "\"Chân người\" và \"chân bàn\" đều chỉ phần dưới cùng có tác dụng đỡ nên các nghĩa có liên quan (từ nhiều nghĩa); hai nghĩa của \"đá\" hoàn toàn không liên quan nên là từ đồng âm."
   },
   {
     "id": "TV5_07_01",
@@ -1148,16 +1148,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Thế nào là từ đồng âm?",
+    "question": "Trong câu \"Trăng tròn như mắt cá\", từ \"mắt\" mang nghĩa gì?",
     "options": [
-      "Những từ phát âm giống nhau nhưng nghĩa hoàn toàn khác nhau",
-      "Những từ có nghĩa giống nhau",
-      "Những từ có một nghĩa gốc và nhiều nghĩa chuyển",
-      "Những từ chỉ dùng trong văn thơ"
+      "Nghĩa gốc - bộ phận để nhìn của con cá",
+      "Nghĩa chuyển",
+      "Nghĩa của từ đồng âm",
+      "Không có nghĩa"
     ],
     "correctIndex": 0,
-    "hint": "Đồng âm: âm giống nhau, nghĩa không liên quan.",
-    "explanation": "Từ đồng âm là những từ giống nhau về âm thanh nhưng nghĩa hoàn toàn khác nhau, không có mối liên hệ nào về nghĩa."
+    "hint": "Mắt cá là bộ phận thật của con cá.",
+    "explanation": "\"Mắt cá\" ở đây là mắt thật của con cá nên dùng nghĩa gốc; câu văn dùng phép so sánh để tả trăng."
   },
   {
     "id": "TV5_07_02",
@@ -1167,16 +1167,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "easy",
-    "question": "Từ 'chân' trong câu 'Bé đau chân' và 'Chân bàn bị gãy' là hiện tượng gì của từ?",
+    "question": "Từ \"chảy\" trong câu nào mang nghĩa chuyển?",
     "options": [
-      "Từ nhiều nghĩa",
-      "Từ đồng âm",
-      "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Thời gian chảy qua rất nhanh.",
+      "Nước chảy từ trên núi xuống.",
+      "Dòng suối chảy êm đềm.",
+      "Mưa chảy thành dòng trên mái nhà."
     ],
     "correctIndex": 0,
-    "hint": "Cùng có nét nghĩa chỉ bộ phận dưới cùng nâng đỡ.",
-    "explanation": "Đây là từ nhiều nghĩa: 'chân người' là nghĩa gốc, 'chân bàn' là nghĩa chuyển theo phương thức ẩn dụ."
+    "hint": "Thời gian có chảy như nước không?",
+    "explanation": "\"Thời gian chảy\" là nghĩa chuyển - chuyển từ nghĩa gốc chỉ sự di chuyển của chất lỏng sang chỉ sự trôi đi của thời gian."
   },
   {
     "id": "TV5_07_03",
@@ -1185,17 +1185,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Từ 'đường' trong 'đường đi' và 'đường kính trắng' là hiện tượng từ gì? (Câu 3)",
+    "difficulty": "easy",
+    "question": "Từ \"nặng\" trong câu nào mang nghĩa chuyển?",
     "options": [
-      "Từ đồng âm",
-      "Từ nhiều nghĩa",
-      "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Bệnh của ông đã nặng hơn.",
+      "Cái cặp này rất nặng.",
+      "Bao gạo nặng 50 kg.",
+      "Hòn đá nặng quá."
     ],
     "correctIndex": 0,
-    "hint": "Đường đi và đường ăn hoàn toàn không có mối liên hệ nghĩa nào.",
-    "explanation": "Đây là từ đồng âm vì phát âm giống nhau nhưng nghĩa hoàn toàn khác biệt."
+    "hint": "Bệnh có khối lượng không?",
+    "explanation": "\"Bệnh nặng\" là nghĩa chuyển - chỉ mức độ trầm trọng, chuyển từ nghĩa gốc chỉ khối lượng lớn."
   },
   {
     "id": "TV5_07_04",
@@ -1204,17 +1204,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "medium",
-    "question": "Từ 'đường' trong 'đường đi' và 'đường kính trắng' là hiện tượng từ gì? (Câu 4)",
+    "difficulty": "easy",
+    "question": "Việc dùng từ nhiều nghĩa trong văn thơ có tác dụng gì?",
     "options": [
-      "Từ đồng âm",
-      "Từ nhiều nghĩa",
-      "Từ đồng nghĩa",
-      "Từ trái nghĩa"
+      "Làm câu văn giàu hình ảnh, gợi cảm và sâu sắc hơn",
+      "Làm câu văn dài hơn",
+      "Làm câu văn khó hiểu",
+      "Không có tác dụng gì"
     ],
     "correctIndex": 0,
-    "hint": "Đường đi và đường ăn hoàn toàn không có mối liên hệ nghĩa nào.",
-    "explanation": "Đây là từ đồng âm vì phát âm giống nhau nhưng nghĩa hoàn toàn khác biệt."
+    "hint": "So sánh \"thời gian trôi\" với \"thời gian chảy\".",
+    "explanation": "Từ nhiều nghĩa giúp câu văn giàu hình ảnh, gợi cảm và diễn đạt được những ý sâu sắc, tinh tế hơn."
   },
   {
     "id": "TV5_07_05",
@@ -1223,17 +1223,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Trong câu thơ \"Mặt trời của bắp thì nằm trên đồi / Mặt trời của mẹ, em nằm trên lưng\", từ \"mặt trời\" ở dòng thứ hai chỉ ai?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Chỉ em bé - nghĩa chuyển, thể hiện em là niềm sống, nguồn hạnh phúc của mẹ",
+      "Chỉ ngôi sao trên trời",
+      "Chỉ cây bắp",
+      "Chỉ ngọn đồi"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Em bé nằm trên lưng mẹ được ví như gì?",
+    "explanation": "\"Mặt trời của mẹ\" là nghĩa chuyển đầy tình cảm: em bé chính là niềm sống, nguồn hạnh phúc và ánh sáng của mẹ."
   },
   {
     "id": "TV5_07_06",
@@ -1242,17 +1242,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Trong câu \"Lòng mẹ bao la như biển Thái Bình\", từ \"lòng\" mang nghĩa gì?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Nghĩa chuyển - chỉ tình cảm, tấm lòng của mẹ",
+      "Nghĩa gốc - bộ phận bên trong cơ thể",
+      "Nghĩa của từ đồng âm",
+      "Nghĩa trái ngược"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Có phải nói về nội tạng không?",
+    "explanation": "\"Lòng mẹ\" ở đây là nghĩa chuyển, chỉ tình cảm, tấm lòng thương yêu của mẹ, không phải bộ phận cơ thể."
   },
   {
     "id": "TV5_07_07",
@@ -1261,17 +1261,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Trong câu \"Cả nhà ngọt ngào bên nhau\", từ \"ngọt ngào\" gợi điều gì?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Không khí ấm áp, hạnh phúc, đầy yêu thương",
+      "Vị ngọt của thức ăn",
+      "Mùi thơm của hoa",
+      "Âm thanh của tiếng đàn"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Nghĩa chuyển từ vị sang cảm xúc.",
+    "explanation": "\"Ngọt ngào\" ở đây chuyển từ nghĩa chỉ vị sang chỉ cảm xúc: gợi không khí ấm áp, hạnh phúc, đầy yêu thương."
   },
   {
     "id": "TV5_07_08",
@@ -1280,17 +1280,17 @@ export const STAGE_1_TV5_QUESTIONS = [
     "stage": 1,
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "difficulty": "medium",
+    "question": "Từ \"ấm\" trong cụm nào mang nghĩa chuyển?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "tình cảm ấm áp",
+      "nước ấm",
+      "trời ấm",
+      "áo ấm"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Tình cảm có nhiệt độ không?",
+    "explanation": "\"Tình cảm ấm áp\" là nghĩa chuyển - chỉ sự thân thiết, dễ chịu về tinh thần, chuyển từ nghĩa gốc chỉ nhiệt độ."
   },
   {
     "id": "TV5_07_09",
@@ -1300,16 +1300,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "question": "Trong câu \"Ngày ngày mặt trời đi qua trên lăng / Thấy một mặt trời trong lăng rất đỏ\", hai từ \"mặt trời\" khác nhau thế nào?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "\"Mặt trời\" thứ nhất là nghĩa gốc chỉ thiên thể; thứ hai là nghĩa chuyển chỉ Bác Hồ - vĩ đại và bất tử như mặt trời",
+      "Cả hai đều là nghĩa gốc",
+      "Cả hai đều chỉ Bác Hồ",
+      "Đây là hai từ đồng âm"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Trong lăng có thiên thể không?",
+    "explanation": "\"Mặt trời\" thứ nhất chỉ thiên thể (nghĩa gốc); \"mặt trời trong lăng\" là nghĩa chuyển chỉ Bác Hồ - thể hiện sự vĩ đại, bất tử và lòng biết ơn sâu sắc."
   },
   {
     "id": "TV5_07_10",
@@ -1319,16 +1319,16 @@ export const STAGE_1_TV5_QUESTIONS = [
     "topic": "Cảm thụ từ nhiều nghĩa",
     "category": "vocab",
     "difficulty": "hard",
-    "question": "[Nâng cao] Tìm nét nghĩa chuyển của từ 'mũi' trong các câu sau:",
+    "question": "Vì sao dùng \"trái tim nóng, cái đầu lạnh\" lại diễn đạt hay hơn \"nhiệt tình nhưng tỉnh táo\"?",
     "options": [
-      "Mũi thuyền rẽ sóng ra khơi",
-      "Bé có cái mũi dọc dừa",
-      "Mũi người hít thở không khí",
-      "Vết muỗi cắn ở mũi"
+      "Vì hai nghĩa chuyển \"nóng - lạnh\" tạo hình ảnh cụ thể, tương phản, gây ấn tượng và dễ nhớ hơn cách nói trực tiếp",
+      "Vì cách nói này ngắn hơn",
+      "Vì cách nói này dùng ít từ khó hơn",
+      "Vì hai cách nói không liên quan gì"
     ],
     "correctIndex": 0,
-    "hint": "Mũi thuyền là bộ phận nhọn phía trước của con thuyền (nghĩa chuyển).",
-    "explanation": "'Mũi thuyền' là nghĩa chuyển (chỉ bộ phận nhọn phía trước). Các câu còn lại dùng theo nghĩa gốc chỉ giác quan."
+    "hint": "Xét sức gợi hình và sự tương phản.",
+    "explanation": "Nghĩa chuyển của \"nóng - lạnh\" tạo hình ảnh cụ thể và sự tương phản mạnh, làm ý \"nhiệt tình nhưng tỉnh táo\" trở nên sinh động, ấn tượng và dễ nhớ."
   },
   {
     "id": "TV5_08_01",

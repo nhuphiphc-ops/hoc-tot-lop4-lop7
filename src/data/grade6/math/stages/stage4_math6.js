@@ -765,380 +765,380 @@ export const STAGE_4_MATH6_QUESTIONS = [
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
     "difficulty": "easy",
-    "question": "Tung một đồng xu cân đối 20 lần thấy có 12 lần xuất hiện mặt ngửa (N). Xác suất thực nghiệm xuất hiện mặt ngửa là:",
+    "question": "Có mấy cách thu thập dữ liệu thường dùng?",
     "options": [
-      "12/20 = 3/5 = 60%",
-      "8/20 = 40%",
-      "12/10 = 120%",
-      "1/2 = 50%"
+      "Quan sát, làm thí nghiệm, lập phiếu hỏi hoặc thu thập từ nguồn có sẵn",
+      "Chỉ có cách quan sát",
+      "Chỉ có cách lập phiếu hỏi",
+      "Không có cách nào"
     ],
     "correctIndex": 0,
-    "hint": "Xác suất thực nghiệm = Số lần xuất hiện / Tổng số lần tung.",
-    "explanation": "Xác suất thực nghiệm xuất hiện mặt N = 12 / 20 = 3/5 = 60%."
+    "hint": "Kể các cách lấy số liệu.",
+    "explanation": "Dữ liệu có thể thu thập bằng cách quan sát, làm thí nghiệm, lập phiếu hỏi hoặc lấy từ những nguồn có sẵn như sách, báo, Internet."
   },
   {
     "id": "M6_32_02",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
     "difficulty": "easy",
-    "question": "Gieo một con xúc xắc 6 mặt 20 lần, mặt 6 chấm xuất hiện 4 lần. Xác suất thực nghiệm mặt 6 chấm là: (Câu 2)",
+    "question": "Bảng thống kê dùng để làm gì?",
     "options": [
-      "4/20 = 20%",
-      "6/20 = 30%",
-      "1/6",
-      "50%"
+      "Tổ chức, sắp xếp dữ liệu đã thu thập cho gọn gàng, dễ đọc",
+      "Vẽ hình học",
+      "Tính chu vi",
+      "Giải phương trình"
     ],
     "correctIndex": 0,
-    "hint": "Lấy số lần xuất hiện chia cho tổng số lần gieo.",
-    "explanation": "Xác suất thực nghiệm = 4 / 20 = 2/10 = 20%."
+    "hint": "Sắp xếp số liệu thành hàng và cột.",
+    "explanation": "Bảng thống kê giúp tổ chức, sắp xếp dữ liệu đã thu thập thành các hàng, cột cho gọn gàng, dễ đọc và dễ so sánh."
   },
   {
     "id": "M6_32_03",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
-    "difficulty": "medium",
-    "question": "Gieo một con xúc xắc 6 mặt 30 lần, mặt 6 chấm xuất hiện 6 lần. Xác suất thực nghiệm mặt 6 chấm là: (Câu 3)",
+    "difficulty": "easy",
+    "question": "Trong biểu đồ tranh, mỗi hình vẽ (biểu tượng) thể hiện điều gì?",
     "options": [
-      "6/30 = 20%",
-      "9/30 = 30%",
-      "1/6",
-      "50%"
+      "Một số lượng nhất định đã được quy ước",
+      "Luôn là một đơn vị",
+      "Tên của đối tượng",
+      "Không thể hiện gì"
     ],
     "correctIndex": 0,
-    "hint": "Lấy số lần xuất hiện chia cho tổng số lần gieo.",
-    "explanation": "Xác suất thực nghiệm = 6 / 30 = 2/10 = 20%."
+    "hint": "Chú ý phần chú thích của biểu đồ.",
+    "explanation": "Trong biểu đồ tranh, mỗi biểu tượng thể hiện một số lượng nhất định theo quy ước ghi ở phần chú thích, ví dụ một hình quyển sách ứng với 10 quyển."
   },
   {
     "id": "M6_32_04",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
-    "difficulty": "medium",
-    "question": "Gieo một con xúc xắc 6 mặt 40 lần, mặt 6 chấm xuất hiện 8 lần. Xác suất thực nghiệm mặt 6 chấm là: (Câu 4)",
+    "difficulty": "easy",
+    "question": "Biểu đồ cột kép dùng để làm gì?",
     "options": [
-      "8/40 = 20%",
-      "12/40 = 30%",
-      "1/6",
-      "50%"
+      "So sánh hai (hoặc nhiều) bộ dữ liệu cùng loại trên cùng một biểu đồ",
+      "Chỉ biểu diễn một bộ dữ liệu",
+      "Vẽ đường tròn",
+      "Tính diện tích"
     ],
     "correctIndex": 0,
-    "hint": "Lấy số lần xuất hiện chia cho tổng số lần gieo.",
-    "explanation": "Xác suất thực nghiệm = 8 / 40 = 2/10 = 20%."
+    "hint": "\"Kép\" nghĩa là có hai cột cạnh nhau.",
+    "explanation": "Biểu đồ cột kép dùng để so sánh hai hay nhiều bộ dữ liệu cùng loại trên cùng một biểu đồ, ví dụ so sánh điểm của lớp 6A và 6B."
   },
   {
     "id": "M6_32_05",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Trong biểu đồ tranh, một hình quyển sách ứng với 5 quyển. Nếu hàng \"Lớp 6A\" có 7 hình quyển sách thì lớp 6A quyên góp bao nhiêu quyển?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "35 quyển",
+      "12 quyển",
+      "7 quyển",
+      "5 quyển"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Nhân số hình với quy ước.",
+    "explanation": "Số quyển = 7 × 5 = 35 quyển."
   },
   {
     "id": "M6_32_06",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Một bảng thống kê cho biết số học sinh thích các môn: Toán 12, Văn 8, Anh 10. Tổng số học sinh được hỏi là bao nhiêu?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "30 học sinh",
+      "12 học sinh",
+      "20 học sinh",
+      "10 học sinh"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Cộng tất cả các giá trị.",
+    "explanation": "Tổng = 12 + 8 + 10 = 30 học sinh."
   },
   {
     "id": "M6_32_07",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Với bảng thống kê: Toán 12, Văn 8, Anh 10 (tổng 30), môn nào được nhiều học sinh thích nhất và chiếm bao nhiêu phần trăm?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Môn Toán, chiếm 40%",
+      "Môn Văn, chiếm 40%",
+      "Môn Anh, chiếm 40%",
+      "Môn Toán, chiếm 12%"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Lấy 12 chia 30 rồi nhân 100.",
+    "explanation": "Môn Toán được nhiều nhất với 12 học sinh; tỉ lệ = 12 : 30 × 100% = 40%."
   },
   {
     "id": "M6_32_08",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Khi đọc biểu đồ cột, ta cần chú ý điều gì trước tiên?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Đọc tên biểu đồ, tên các trục và đơn vị đo",
+      "Chỉ cần xem cột nào cao nhất",
+      "Chỉ cần xem màu của cột",
+      "Không cần chú ý gì"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Không có đơn vị thì số liệu vô nghĩa.",
+    "explanation": "Cần đọc tên biểu đồ, tên các trục và đơn vị đo trước, vì nếu không rõ đơn vị thì việc so sánh số liệu sẽ sai lệch."
   },
   {
     "id": "M6_32_09",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
     "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "question": "Biểu đồ cột kép cho thấy số học sinh giỏi của lớp 6A là 12 và lớp 6B là 8 ở học kì 1; sang học kì 2 lần lượt là 15 và 14. Lớp nào tiến bộ nhiều hơn?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Lớp 6B, vì tăng 6 học sinh trong khi lớp 6A chỉ tăng 3",
+      "Lớp 6A, vì có nhiều học sinh giỏi hơn",
+      "Hai lớp tiến bộ như nhau",
+      "Không thể so sánh được"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "So sánh mức TĂNG, không so sánh tổng số.",
+    "explanation": "Lớp 6A tăng 15 − 12 = 3 học sinh; lớp 6B tăng 14 − 8 = 6 học sinh. Vậy lớp 6B tiến bộ nhiều hơn dù tổng số học sinh giỏi vẫn ít hơn."
   },
   {
     "id": "M6_32_10",
     "week": 32,
     "semester": 2,
     "stage": 4,
-    "topic": "Thống kê dữ liệu",
+    "topic": "Thu thập, tổ chức dữ liệu & Biểu đồ tranh, biểu đồ cột kép",
     "category": "statistics6",
     "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "question": "Vì sao khi vẽ biểu đồ cột, trục số lượng nên bắt đầu từ 0?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Vì nếu không bắt đầu từ 0, độ cao các cột sẽ phóng đại chênh lệch và gây hiểu sai số liệu",
+      "Vì quy định bắt buộc phải như vậy",
+      "Vì như thế biểu đồ đẹp hơn",
+      "Vì không có lí do gì"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Thử tưởng tượng trục bắt đầu từ 10 thay vì 0.",
+    "explanation": "Nếu trục số lượng không bắt đầu từ 0, tỉ lệ độ cao giữa các cột sẽ không còn đúng với tỉ lệ số liệu, làm chênh lệch bị phóng đại và người đọc hiểu sai dữ liệu."
   },
   {
     "id": "M6_33_01",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
     "difficulty": "easy",
-    "question": "Tung một đồng xu cân đối 20 lần thấy có 12 lần xuất hiện mặt ngửa (N). Xác suất thực nghiệm xuất hiện mặt ngửa là:",
+    "question": "Khi tung một đồng xu cân đối, có bao nhiêu kết quả có thể xảy ra?",
     "options": [
-      "12/20 = 3/5 = 60%",
-      "8/20 = 40%",
-      "12/10 = 120%",
-      "1/2 = 50%"
+      "Hai kết quả: mặt sấp và mặt ngửa",
+      "Một kết quả",
+      "Ba kết quả",
+      "Sáu kết quả"
     ],
     "correctIndex": 0,
-    "hint": "Xác suất thực nghiệm = Số lần xuất hiện / Tổng số lần tung.",
-    "explanation": "Xác suất thực nghiệm xuất hiện mặt N = 12 / 20 = 3/5 = 60%."
+    "hint": "Đồng xu có mấy mặt?",
+    "explanation": "Tung một đồng xu có hai kết quả có thể xảy ra: mặt sấp (S) và mặt ngửa (N)."
   },
   {
     "id": "M6_33_02",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
     "difficulty": "easy",
-    "question": "Gieo một con xúc xắc 6 mặt 20 lần, mặt 6 chấm xuất hiện 4 lần. Xác suất thực nghiệm mặt 6 chấm là: (Câu 2)",
+    "question": "Khi gieo một con xúc xắc 6 mặt, có bao nhiêu kết quả có thể xảy ra?",
     "options": [
-      "4/20 = 20%",
-      "6/20 = 30%",
-      "1/6",
-      "50%"
+      "Sáu kết quả",
+      "Hai kết quả",
+      "Ba kết quả",
+      "Mười hai kết quả"
     ],
     "correctIndex": 0,
-    "hint": "Lấy số lần xuất hiện chia cho tổng số lần gieo.",
-    "explanation": "Xác suất thực nghiệm = 4 / 20 = 2/10 = 20%."
+    "hint": "Xúc xắc có mấy mặt?",
+    "explanation": "Gieo một con xúc xắc 6 mặt có 6 kết quả có thể xảy ra: 1, 2, 3, 4, 5, 6 chấm."
   },
   {
     "id": "M6_33_03",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
-    "difficulty": "medium",
-    "question": "Gieo một con xúc xắc 6 mặt 30 lần, mặt 6 chấm xuất hiện 6 lần. Xác suất thực nghiệm mặt 6 chấm là: (Câu 3)",
+    "difficulty": "easy",
+    "question": "Xác suất thực nghiệm của một sự kiện được tính thế nào?",
     "options": [
-      "6/30 = 20%",
-      "9/30 = 30%",
-      "1/6",
-      "50%"
+      "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện",
+      "Số lần sự kiện xảy ra nhân tổng số lần",
+      "Tổng số lần chia số lần xảy ra",
+      "Số lần xảy ra cộng tổng số lần"
     ],
     "correctIndex": 0,
-    "hint": "Lấy số lần xuất hiện chia cho tổng số lần gieo.",
-    "explanation": "Xác suất thực nghiệm = 6 / 30 = 2/10 = 20%."
+    "hint": "Lấy phần chia cho tổng.",
+    "explanation": "Xác suất thực nghiệm = (số lần sự kiện xảy ra) : (tổng số lần thực hiện)."
   },
   {
     "id": "M6_33_04",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
-    "difficulty": "medium",
-    "question": "Gieo một con xúc xắc 6 mặt 40 lần, mặt 6 chấm xuất hiện 8 lần. Xác suất thực nghiệm mặt 6 chấm là: (Câu 4)",
+    "difficulty": "easy",
+    "question": "Tung một đồng xu 20 lần, có 12 lần xuất hiện mặt ngửa. Xác suất thực nghiệm của sự kiện \"xuất hiện mặt ngửa\" là bao nhiêu?",
     "options": [
-      "8/40 = 20%",
-      "12/40 = 30%",
-      "1/6",
-      "50%"
+      "0,6",
+      "0,4",
+      "12",
+      "20"
     ],
     "correctIndex": 0,
-    "hint": "Lấy số lần xuất hiện chia cho tổng số lần gieo.",
-    "explanation": "Xác suất thực nghiệm = 8 / 40 = 2/10 = 20%."
+    "hint": "Lấy 12 chia 20.",
+    "explanation": "Xác suất thực nghiệm = 12 : 20 = 0,6 (tức 60%)."
   },
   {
     "id": "M6_33_05",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Gieo một con xúc xắc 30 lần, mặt 6 chấm xuất hiện 6 lần. Xác suất thực nghiệm của sự kiện \"xuất hiện mặt 6 chấm\" là bao nhiêu?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "0,2",
+      "0,6",
+      "6",
+      "0,3"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Lấy 6 chia 30.",
+    "explanation": "Xác suất thực nghiệm = 6 : 30 = 0,2 (tức 20%)."
   },
   {
     "id": "M6_33_06",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Một hộp có 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên. Có bao nhiêu kết quả có thể xảy ra về màu bi?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Hai kết quả: bi xanh hoặc bi đỏ",
+      "Tám kết quả",
+      "Năm kết quả",
+      "Ba kết quả"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Xét theo màu, không xét từng viên.",
+    "explanation": "Xét theo màu, có hai kết quả có thể xảy ra: lấy được bi xanh hoặc lấy được bi đỏ."
   },
   {
     "id": "M6_33_07",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Sự kiện nào sau đây là sự kiện CHẮC CHẮN xảy ra khi gieo một con xúc xắc 6 mặt?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Số chấm xuất hiện nhỏ hơn 7",
+      "Số chấm xuất hiện bằng 7",
+      "Số chấm xuất hiện lớn hơn 6",
+      "Số chấm xuất hiện bằng 0"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Xúc xắc chỉ có từ 1 đến 6 chấm.",
+    "explanation": "Vì xúc xắc chỉ có các mặt 1 đến 6 chấm, sự kiện \"số chấm nhỏ hơn 7\" luôn xảy ra nên là sự kiện chắc chắn."
   },
   {
     "id": "M6_33_08",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
-    "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "difficulty": "medium",
+    "question": "Sự kiện nào sau đây KHÔNG THỂ xảy ra khi gieo một con xúc xắc 6 mặt?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Số chấm xuất hiện bằng 8",
+      "Số chấm xuất hiện là số lẻ",
+      "Số chấm xuất hiện lớn hơn 3",
+      "Số chấm xuất hiện bằng 6"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Xúc xắc lớn nhất là mấy chấm?",
+    "explanation": "Xúc xắc chỉ có tối đa 6 chấm nên sự kiện \"số chấm bằng 8\" không thể xảy ra."
   },
   {
     "id": "M6_33_09",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
     "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "question": "Bạn Nam tung đồng xu 100 lần được 48 lần mặt ngửa; bạn Mai tung 10 lần được 7 lần mặt ngửa. Kết quả của ai gần với xác suất lí thuyết (0,5) hơn và vì sao?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "Nam, vì số lần thực hiện càng lớn thì xác suất thực nghiệm càng gần xác suất lí thuyết",
+      "Mai, vì Mai có nhiều lần ngửa hơn theo tỉ lệ",
+      "Hai bạn như nhau",
+      "Không so sánh được"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Số lần thử ảnh hưởng thế nào tới kết quả?",
+    "explanation": "Nam: 48 : 100 = 0,48 (gần 0,5). Mai: 7 : 10 = 0,7 (xa 0,5). Số lần thực hiện càng lớn thì xác suất thực nghiệm càng gần với xác suất lí thuyết."
   },
   {
     "id": "M6_33_10",
     "week": 33,
     "semester": 2,
     "stage": 4,
-    "topic": "Xác suất thực nghiệm",
+    "topic": "Kết quả có thể, sự kiện & Xác suất thực nghiệm",
     "category": "statistics6",
     "difficulty": "hard",
-    "question": "[Nâng cao] Một hộp chứa 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Số kết quả có thể xảy ra là:",
+    "question": "Trong 200 lần gieo một con xúc xắc, mặt 1 chấm xuất hiện 30 lần, mặt 2 chấm 35 lần, mặt 3 chấm 33 lần, mặt 4 chấm 34 lần, mặt 5 chấm 32 lần. Mặt 6 chấm xuất hiện bao nhiêu lần và xác suất thực nghiệm là bao nhiêu?",
     "options": [
-      "8 kết quả (có thể lấy được 1 trong 8 viên bi)",
-      "2 kết quả",
-      "5 kết quả",
-      "3 kết quả"
+      "36 lần, xác suất 0,18",
+      "30 lần, xác suất 0,15",
+      "40 lần, xác suất 0,2",
+      "35 lần, xác suất 0,175"
     ],
     "correctIndex": 0,
-    "hint": "Tổng số viên bi trong hộp là 5 + 3 = 8 viên.",
-    "explanation": "Vì trong hộp có 5 + 3 = 8 viên bi nên có 8 kết quả có thể xảy ra khi rút ngẫu nhiên 1 viên bi."
+    "hint": "Lấy 200 trừ tổng các mặt đã biết.",
+    "explanation": "Số lần mặt 6 chấm = 200 − (30 + 35 + 33 + 34 + 32) = 200 − 164 = 36 lần. Xác suất thực nghiệm = 36 : 200 = 0,18."
   },
   {
     "id": "M6_34_01",
