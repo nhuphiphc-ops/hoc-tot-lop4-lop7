@@ -1767,10 +1767,56 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       return STAGES_MATH3;
     }
 
-    if (isGrade8) { if (currentSubject === 'math') return STAGES_MATH8; if (currentSubject === 'vietnamese') return STAGES_LIT8; return []; }
-    if (isGrade9) { if (currentSubject === 'math') return STAGES_MATH9; if (currentSubject === 'vietnamese') return STAGES_LIT9; return []; }
-    if (isGrade10) { if (currentSubject === 'math') return STAGES_MATH10; if (currentSubject === 'vietnamese') return STAGES_LIT10; return []; }
-    if (isGrade11) { if (currentSubject === 'math') return STAGES_MATH11; if (currentSubject === 'vietnamese') return STAGES_LIT11; return []; }
+        if (isGrade8) {
+      if (currentSubject === 'math') return STAGES_MATH8;
+      if (currentSubject === 'vietnamese') return STAGES_LIT8;
+      if (currentSubject === 'english') return STAGES_ENG8;
+      if (currentSubject === 'science') return STAGES_SCI8;
+      if (currentSubject === 'history_geo') return STAGES_HG8;
+      if (currentSubject === 'informatics') return STAGES_IT8;
+      if (currentSubject === 'civics') return STAGES_CIV8;
+      if (currentSubject === 'technology') return STAGES_TECH8;
+      return [];
+    }
+        if (isGrade9) {
+      if (currentSubject === 'math') return STAGES_MATH9;
+      if (currentSubject === 'vietnamese') return STAGES_LIT9;
+      if (currentSubject === 'english') return STAGES_ENG9;
+      if (currentSubject === 'science') return STAGES_SCI9;
+      if (currentSubject === 'history_geo') return STAGES_HG9;
+      if (currentSubject === 'informatics') return STAGES_IT9;
+      if (currentSubject === 'civics') return STAGES_CIV9;
+      if (currentSubject === 'technology') return STAGES_TECH9;
+      return [];
+    }
+        if (isGrade10) {
+      if (currentSubject === 'math') return STAGES_MATH10;
+      if (currentSubject === 'vietnamese') return STAGES_LIT10;
+      if (currentSubject === 'english') return STAGES_ENG10;
+      if (currentSubject === 'physics') return STAGES_PHY10;
+      if (currentSubject === 'chemistry') return STAGES_CHEM10;
+      if (currentSubject === 'biology') return STAGES_BIO10;
+      if (currentSubject === 'history') return STAGES_HIST10;
+      if (currentSubject === 'geography') return STAGES_GEO10;
+      if (currentSubject === 'econ_law') return STAGES_ECONLAW10;
+      if (currentSubject === 'informatics') return STAGES_CS10;
+      if (currentSubject === 'technology') return STAGES_TECH10;
+      return [];
+    }
+        if (isGrade11) {
+      if (currentSubject === 'math') return STAGES_MATH11;
+      if (currentSubject === 'vietnamese') return STAGES_LIT11;
+      if (currentSubject === 'english') return STAGES_ENG11;
+      if (currentSubject === 'physics') return STAGES_PHY11;
+      if (currentSubject === 'chemistry') return STAGES_CHEM11;
+      if (currentSubject === 'biology') return STAGES_BIO11;
+      if (currentSubject === 'history') return STAGES_HIST11;
+      if (currentSubject === 'geography') return STAGES_GEO11;
+      if (currentSubject === 'econ_law') return STAGES_ECONLAW11;
+      if (currentSubject === 'informatics') return STAGES_CS11;
+      if (currentSubject === 'technology') return STAGES_TECH11;
+      return [];
+    }
 
     if (isGrade4) {
         if (currentSubject === 'math') return STAGES;
@@ -1854,10 +1900,56 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       return TOPIC_CATEGORIES_MATH3;
     }
 
-    if (isGrade8) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH8; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT8; return []; }
-    if (isGrade9) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH9; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT9; return []; }
-    if (isGrade10) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH10; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT10; return []; }
-    if (isGrade11) { if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH11; if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT11; return []; }
+        if (isGrade8) {
+      if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH8;
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT8;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG8;
+      if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI8;
+      if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HG8;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_IT8;
+      if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV8;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH8;
+      return [];
+    }
+        if (isGrade9) {
+      if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH9;
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT9;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG9;
+      if (currentSubject === 'science') return TOPIC_CATEGORIES_SCI9;
+      if (currentSubject === 'history_geo') return TOPIC_CATEGORIES_HG9;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_IT9;
+      if (currentSubject === 'civics') return TOPIC_CATEGORIES_CIV9;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH9;
+      return [];
+    }
+        if (isGrade10) {
+      if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH10;
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT10;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG10;
+      if (currentSubject === 'physics') return TOPIC_CATEGORIES_PHY10;
+      if (currentSubject === 'chemistry') return TOPIC_CATEGORIES_CHEM10;
+      if (currentSubject === 'biology') return TOPIC_CATEGORIES_BIO10;
+      if (currentSubject === 'history') return TOPIC_CATEGORIES_HIST10;
+      if (currentSubject === 'geography') return TOPIC_CATEGORIES_GEO10;
+      if (currentSubject === 'econ_law') return TOPIC_CATEGORIES_ECONLAW10;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_CS10;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH10;
+      return [];
+    }
+        if (isGrade11) {
+      if (currentSubject === 'math') return TOPIC_CATEGORIES_MATH11;
+      if (currentSubject === 'vietnamese') return TOPIC_CATEGORIES_LIT11;
+      if (currentSubject === 'english') return TOPIC_CATEGORIES_ENG11;
+      if (currentSubject === 'physics') return TOPIC_CATEGORIES_PHY11;
+      if (currentSubject === 'chemistry') return TOPIC_CATEGORIES_CHEM11;
+      if (currentSubject === 'biology') return TOPIC_CATEGORIES_BIO11;
+      if (currentSubject === 'history') return TOPIC_CATEGORIES_HIST11;
+      if (currentSubject === 'geography') return TOPIC_CATEGORIES_GEO11;
+      if (currentSubject === 'econ_law') return TOPIC_CATEGORIES_ECONLAW11;
+      if (currentSubject === 'informatics') return TOPIC_CATEGORIES_CS11;
+      if (currentSubject === 'technology') return TOPIC_CATEGORIES_TECH11;
+      return [];
+    }
 
     if (isGrade4) {
         if (currentSubject === 'math') return TOPIC_CATEGORIES;
@@ -1942,10 +2034,56 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
       return WEEKS_METADATA_MATH3;
     }
 
-    if (isGrade8) { if (currentSubject === 'math') return WEEKS_METADATA_MATH8; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT8; return {}; }
-    if (isGrade9) { if (currentSubject === 'math') return WEEKS_METADATA_MATH9; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT9; return {}; }
-    if (isGrade10) { if (currentSubject === 'math') return WEEKS_METADATA_MATH10; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT10; return {}; }
-    if (isGrade11) { if (currentSubject === 'math') return WEEKS_METADATA_MATH11; if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT11; return {}; }
+        if (isGrade8) {
+      if (currentSubject === 'math') return WEEKS_METADATA_MATH8;
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT8;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG8;
+      if (currentSubject === 'science') return WEEKS_METADATA_SCI8;
+      if (currentSubject === 'history_geo') return WEEKS_METADATA_HG8;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_IT8;
+      if (currentSubject === 'civics') return WEEKS_METADATA_CIV8;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH8;
+      return {};
+    }
+        if (isGrade9) {
+      if (currentSubject === 'math') return WEEKS_METADATA_MATH9;
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT9;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG9;
+      if (currentSubject === 'science') return WEEKS_METADATA_SCI9;
+      if (currentSubject === 'history_geo') return WEEKS_METADATA_HG9;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_IT9;
+      if (currentSubject === 'civics') return WEEKS_METADATA_CIV9;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH9;
+      return {};
+    }
+        if (isGrade10) {
+      if (currentSubject === 'math') return WEEKS_METADATA_MATH10;
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT10;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG10;
+      if (currentSubject === 'physics') return WEEKS_METADATA_PHY10;
+      if (currentSubject === 'chemistry') return WEEKS_METADATA_CHEM10;
+      if (currentSubject === 'biology') return WEEKS_METADATA_BIO10;
+      if (currentSubject === 'history') return WEEKS_METADATA_HIST10;
+      if (currentSubject === 'geography') return WEEKS_METADATA_GEO10;
+      if (currentSubject === 'econ_law') return WEEKS_METADATA_ECONLAW10;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_CS10;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH10;
+      return {};
+    }
+        if (isGrade11) {
+      if (currentSubject === 'math') return WEEKS_METADATA_MATH11;
+      if (currentSubject === 'vietnamese') return WEEKS_METADATA_LIT11;
+      if (currentSubject === 'english') return WEEKS_METADATA_ENG11;
+      if (currentSubject === 'physics') return WEEKS_METADATA_PHY11;
+      if (currentSubject === 'chemistry') return WEEKS_METADATA_CHEM11;
+      if (currentSubject === 'biology') return WEEKS_METADATA_BIO11;
+      if (currentSubject === 'history') return WEEKS_METADATA_HIST11;
+      if (currentSubject === 'geography') return WEEKS_METADATA_GEO11;
+      if (currentSubject === 'econ_law') return WEEKS_METADATA_ECONLAW11;
+      if (currentSubject === 'informatics') return WEEKS_METADATA_CS11;
+      if (currentSubject === 'technology') return WEEKS_METADATA_TECH11;
+      return {};
+    }
 
     if (isGrade4) {
         if (currentSubject === 'math') return WEEKS_METADATA;
