@@ -170,37 +170,39 @@ class SoundManager {
     this._lastSpeakTime = Date.now();
 
     const g = String(grade);
+    const delay = score === 100 ? 800 : 300; // wait for chime to finish
+
     if (['10', '11', '12'].includes(g)) {
       if (score === 100) {
         this.playVictory();
-        this.playVoiceAudio(AUDIO_PATHS.PRAISE_MINH, "Nhật Minh của bố quá tuyệt vời!");
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.PRAISE_MINH, "Nhật Minh của bố quá tuyệt vời!"), delay);
       } else {
         this.playCorrect();
-        this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_MINH, "Nhật Minh cố gắng hơn tí nữa nhé!");
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_MINH, "Nhật Minh cố gắng hơn tí nữa nhé!"), delay);
       }
     } else if (['1', '2', '3', '4'].includes(g)) {
       if (score === 100) {
         this.playVictory();
-        this.playVoiceAudio(null, "Bé Chuột giỏi quá!");
+        setTimeout(() => this.playVoiceAudio(null, "Bé Chuột giỏi quá!"), delay);
       } else {
         this.playCorrect();
-        this.playVoiceAudio(null, "Bé Chuột cố gắng thêm nhé!");
+        setTimeout(() => this.playVoiceAudio(null, "Bé Chuột cố gắng thêm nhé!"), delay);
       }
     } else if (['5', '6'].includes(g)) {
       if (score === 100) {
         this.playVictory();
-        this.playVoiceAudio(null, "Bé Sóc giỏi quá!");
+        setTimeout(() => this.playVoiceAudio(null, "Bé Sóc giỏi quá!"), delay);
       } else {
         this.playCorrect();
-        this.playVoiceAudio(null, "Bé Sóc cố gắng thêm nhé!");
+        setTimeout(() => this.playVoiceAudio(null, "Bé Sóc cố gắng thêm nhé!"), delay);
       }
     } else {
       if (score === 100) {
         this.playVictory();
-        this.playVoiceAudio(AUDIO_PATHS.PRAISE_NGUYEN, "Công Nguyên của bố quá tuyệt vời!");
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.PRAISE_NGUYEN, "Công Nguyên của bố quá tuyệt vời!"), delay);
       } else {
         this.playCorrect();
-        this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_NGUYEN, "Công Nguyên cố gắng hơn tí nữa nhé!");
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_NGUYEN, "Công Nguyên cố gắng hơn tí nữa nhé!"), delay);
       }
     }
   }
