@@ -131,6 +131,7 @@ class SoundManager {
     if (typeof window === 'undefined') return;
 
     try {
+      if (!audioSrc) { this.speakWebSpeech(fallbackText); return; }
       if (this.currentAudio) {
         this.currentAudio.pause();
         this.currentAudio.currentTime = 0;
@@ -159,17 +160,39 @@ class SoundManager {
     }
   }
 
+  
   // Submission voice feedback - student personalized
-  speakSubmissionFeedback(score, isGrade12 = false) {
+  speakSubmissionFeedback(score, grade = '4') {
     if (!this.enabled) return;
 
-    if (isGrade12) {
+    // Prevent overlapping if called multiple times rapidly
+    if (this._lastSpeakTime && Date.now() - this._lastSpeakTime < 1000) return;
+    this._lastSpeakTime = Date.now();
+
+    const g = String(grade);
+    if (['10', '11', '12'].includes(g)) {
       if (score === 100) {
         this.playVictory();
         this.playVoiceAudio(AUDIO_PATHS.PRAISE_MINH, "Nhật Minh của bố quá tuyệt vời!");
       } else {
         this.playCorrect();
         this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_MINH, "Nhật Minh cố gắng hơn tí nữa nhé!");
+      }
+    } else if (['1', '2', '3', '4'].includes(g)) {
+      if (score === 100) {
+        this.playVictory();
+        this.playVoiceAudio(null, "Bé Chuột giỏi quá!");
+      } else {
+        this.playCorrect();
+        this.playVoiceAudio(null, "Bé Chuột cố gắng thêm nhé!");
+      }
+    } else if (['5', '6'].includes(g)) {
+      if (score === 100) {
+        this.playVictory();
+        this.playVoiceAudio(null, "Bé Sóc giỏi quá!");
+      } else {
+        this.playCorrect();
+        this.playVoiceAudio(null, "Bé Sóc cố gắng thêm nhé!");
       }
     } else {
       if (score === 100) {
