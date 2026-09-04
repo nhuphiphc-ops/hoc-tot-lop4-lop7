@@ -180,7 +180,7 @@ export const ParentDashboard = ({ onSelectTab }) => {
     const rows = [
       ['BÁO CÁO HỌC TẬP - HỌC TỐT LỚP 4 - LỚP 7'],
       ['Học sinh:', profile.name || 'Nguyễn Công Nguyên'],
-      ['Trường:', profile.school || 'Trường PTCS - Phú La'],
+      ['Trường:', profile.school || ''],
       ['Môn học:', subjectLabel],
       ['Ngày xuất:', new Date().toLocaleDateString('vi-VN')],
       ['Tổng số bài đã làm:', totalQuizzes],
@@ -270,7 +270,7 @@ export const ParentDashboard = ({ onSelectTab }) => {
             Báo Cáo Học Tập Của {profile.name || 'Nguyễn Công Nguyên'} 📊
           </h1>
           <p className="text-xs sm:text-sm font-bold text-blue-100">
-            Học sinh: <span className="underline">{profile.name || 'Nguyễn Công Nguyên'}</span> • <span className="underline">{profile.school || 'Trường PTCS - Phú La'}</span> • Dữ liệu trực quan giúp phụ huynh nắm bắt chính xác tiến độ rèn luyện của con.
+            Học sinh: <span className="underline">{profile.name || 'Nguyễn Công Nguyên'}</span> {profile.school ? <>• <span className="underline">{profile.school}</span></> : null} • Dữ liệu trực quan giúp phụ huynh nắm bắt chính xác tiến độ rèn luyện của con.
           </p>
         </div>
 

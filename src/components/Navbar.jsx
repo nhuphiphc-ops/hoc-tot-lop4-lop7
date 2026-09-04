@@ -182,7 +182,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
               </div>
               <div className="flex items-center gap-1.5 flex-wrap mt-1">
                 <span className="text-[14px] sm:text-[16px] font-bold text-slate-800 bg-amber-50/90 px-3 py-0.5 rounded-xl border border-amber-300 shadow-xs flex items-center gap-1.5 flex-wrap">
-                  🏫 <span className="font-extrabold text-blue-700">{profile.school}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name}</span>
+                  {profile.school ? (<>🏫 <span className="font-extrabold text-blue-700">{profile.school}</span> <span className="text-slate-400 font-bold">-</span> <span className="font-black text-emerald-800">Học sinh: {profile.name}</span></>) : (<span className="font-black text-emerald-800 text-lg">❤️ {profile.name}</span>)}
                 </span>
               </div>
             </div>
@@ -419,7 +419,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
                 </span>
               </div>
               <div className="text-[11px] font-bold text-slate-600 truncate">
-                🏫 <span className="text-blue-700 font-extrabold">{profile.school}</span> • <span className="text-emerald-700 font-black">{profile.name}</span>
+                {profile.school ? (<>🏫 <span className="text-blue-700 font-extrabold">{profile.school}</span> • <span className="text-emerald-700 font-black">{profile.name}</span></>) : (<span className="text-emerald-700 font-black">❤️ {profile.name}</span>)}
               </div>
             </div>
           </div>

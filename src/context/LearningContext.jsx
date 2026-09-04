@@ -528,7 +528,9 @@ export const LearningProvider = ({ children }) => {
   const [profileChuot, setProfileChuot] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PROFILE_CHUOT);
-      return saved ? JSON.parse(saved) : DEFAULT_PROFILE_CHUOT;
+      const parsed = saved ? JSON.parse(saved) : null;
+        if (parsed && (!parsed.name || parsed.name === 'Bé Chuột')) { parsed.name = 'Bé Chuột của Mẹ Loan'; parsed.school = ''; }
+        return parsed || DEFAULT_PROFILE_CHUOT;
     } catch {
       return DEFAULT_PROFILE_CHUOT;
     }
