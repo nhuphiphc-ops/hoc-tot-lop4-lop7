@@ -518,10 +518,10 @@ export const LearningProvider = ({ children }) => {
       const saved = localStorage.getItem(STORAGE_KEYS.PROFILE_NGUYEN);
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ') {
+        if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ' || parsed.name === 'Bé Chuột của Mẹ Loan') {
             parsed.name = 'Nguyễn Công Nguyên';
           }
-        if (!parsed.school || parsed.school === 'Trường PTCS') {
+        if (!parsed.school || parsed.school === 'Trường PTCS' || parsed.school === '') {
             parsed.school = 'Trường PTCS - Phú La';
           }
         return parsed;
