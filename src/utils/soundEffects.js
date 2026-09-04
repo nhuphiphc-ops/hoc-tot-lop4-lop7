@@ -125,13 +125,18 @@ class SoundManager {
     return this.enabled;
   }
 
-  // Play direct Audio file with fallback to SpeechSynthesis
+  // Play direct Audio file with fallback to SpeechSynthesis or Google TTS
   playVoiceAudio(audioSrc, fallbackText) {
     if (!this.enabled) return;
     if (typeof window === 'undefined') return;
 
     try {
-      if (!audioSrc) { this.speakWebSpeech(fallbackText); return; }
+      // If no local MP3 provided, use Google Translate TTS
+      if (!audioSrc && fallbackText) {
+        audioSrc = 'https://translate.google.com/translate_tts?ie=UTF-8&tl=vi&client=tw-ob&q=' + encodeURIComponent(fallbackText);
+      }
+      if (!audioSrc) return;
+
       if (this.currentAudio) {
         this.currentAudio.pause();
         this.currentAudio.currentTime = 0;
@@ -160,7 +165,6 @@ class SoundManager {
     }
   }
 
-  
   // Submission voice feedback - student personalized
   speakSubmissionFeedback(score, grade = '4') {
     if (!this.enabled) return;
@@ -169,7 +173,16 @@ class SoundManager {
     if (this._lastSpeakTime && Date.now() - this._lastSpeakTime < 1000) return;
     this._lastSpeakTime = Date.now();
 
-    const g = String(grade);
+    
+    let g = String(grade);
+    if (g === 'undefined' || g === 'null' || !grade) {
+      try {
+        g = localStorage.getItem('toan_current_grade') || '4';
+      } catch (e) {
+        g = '4';
+      }
+    }
+
     const delay = score === 100 ? 800 : 300; // wait for chime to finish
 
     if (['10', '11', '12'].includes(g)) {
