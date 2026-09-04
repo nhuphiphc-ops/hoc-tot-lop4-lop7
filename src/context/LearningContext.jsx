@@ -352,8 +352,8 @@ const STORAGE_KEYS = {
 };
 
 const DEFAULT_PROFILE_NGUYEN = {
-  name: 'Nguyễn Công Nguyên',
-  school: 'Trường PTCS - Phú La',
+  name: 'Bé Chuột của Mẹ Loan',
+  school: '',
   mascot: 'elephant',
   avatarColor: '#FFD166',
 };
@@ -509,12 +509,12 @@ export const LearningProvider = ({ children }) => {
       const saved = localStorage.getItem(STORAGE_KEYS.PROFILE_NGUYEN);
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ') {
-          parsed.name = 'Nguyễn Công Nguyên';
-        }
-        if (!parsed.school || parsed.school === 'Trường PTCS') {
-          parsed.school = 'Trường PTCS - Phú La';
-        }
+        if (!parsed.name || parsed.name === 'Học Sinh Chăm Chỉ' || parsed.name === 'Bé Chăm Chỉ' || parsed.name === 'Nguyễn Công Nguyên') {
+            parsed.name = 'Bé Chuột của Mẹ Loan';
+          }
+        if (!parsed.school || parsed.school === 'Trường PTCS' || parsed.school === 'Trường PTCS - Phú La') {
+            parsed.school = '';
+          }
         return parsed;
       }
       return DEFAULT_PROFILE_NGUYEN;

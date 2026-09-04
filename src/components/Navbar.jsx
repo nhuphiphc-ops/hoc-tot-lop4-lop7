@@ -55,8 +55,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   } = useLearning();
 
   const [showProfileModal, setShowProfileModal] = useState(false);
-  const [tempName, setTempName] = useState(profile.name || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Nguyễn Công Nguyên'));
-  const [tempSchool, setTempSchool] = useState(profile.school || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : 'Trường PTCS - Phú La'));
+  const [tempName, setTempName] = useState(profile.name || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Bé Chuột của Mẹ Loan'));
+  const [tempSchool, setTempSchool] = useState(profile.school || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : ''));
   const [tempMascot, setTempMascot] = useState(profile.mascot || (isGrade12 ? 'dragon' : 'elephant'));
 
   const currentMascotObj = SHOP_MASCOTS.find(m => m.id === profile.mascot) || SHOP_MASCOTS[0];
@@ -64,8 +64,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   const handleSaveProfile = () => {
     sounds.playClick();
     updateProfile({
-      name: tempName.trim() || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Nguyễn Công Nguyên'),
-      school: tempSchool.trim() || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : 'Trường PTCS - Phú La'),
+      name: tempName.trim() || (isGrade12 ? 'Nguyễn Nhật Minh' : 'Bé Chuột của Mẹ Loan'),
+      school: tempSchool.trim() || (isGrade12 ? 'Trường PTTH Ngô Gia Tự' : ''),
       mascot: tempMascot
     });
     setShowProfileModal(false);
