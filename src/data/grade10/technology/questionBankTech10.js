@@ -54,80 +54,80 @@ export const QUESTION_BANK_TECH10 = [
     "id": "Tech10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bản vẽ kĩ thuật là gì?",
+    "question": "Công nghệ là gì?",
     "options": [
-      "Là ngôn ngữ chung dùng trong kĩ thuật",
-      "Là bức tranh nghệ thuật",
-      "Là văn bản hướng dẫn sử dụng",
-      "Là bản nháp thiết kế"
+      "Các giải pháp áp dụng khoa học để giải quyết vấn đề thực tiễn",
+      "Việc quan sát thế giới tự nhiên",
+      "Các quy luật vật lí",
+      "Một môn học nghệ thuật"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để giao tiếp trong thiết kế.",
-    "explanation": "Dùng để giao tiếp trong thiết kế.",
+    "hint": "Khoa học tạo ra kiến thức, công nghệ tạo ra sản phẩm.",
+    "explanation": "Khoa học tạo ra kiến thức, công nghệ tạo ra sản phẩm.",
     "category": "knowledge"
   },
   {
     "id": "Tech10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hình chiếu bằng có hướng chiếu từ đâu?",
+    "question": "Hệ thống kĩ thuật bao gồm các thành phần cơ bản nào?",
     "options": [
-      "Từ trên xuống",
-      "Từ trước tới",
-      "Từ trái sang",
-      "Từ phải sang"
+      "Đầu vào, phần xử lý, đầu ra",
+      "Máy tính và màn hình",
+      "Con người và công cụ",
+      "Nguyên vật liệu và phế thải"
     ],
     "correctIndex": 0,
-    "hint": "Hình chiếu từ trên nhìn xuống.",
-    "explanation": "Hình chiếu từ trên nhìn xuống.",
+    "hint": "Mô hình hộp đen hệ thống.",
+    "explanation": "Mô hình hộp đen hệ thống.",
     "category": "knowledge"
   },
   {
     "id": "Tech10_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vật liệu kim loại thường có tính chất gì?",
+    "question": "Đổi mới công nghệ mang lại lợi ích gì?",
     "options": [
-      "Dẫn điện, dẫn nhiệt tốt",
-      "Cách điện tốt",
-      "Rất nhẹ",
-      "Dễ vỡ"
+      "Tăng năng suất, chất lượng và hạ giá thành",
+      "Làm giảm năng suất lao động",
+      "Tăng ô nhiễm môi trường",
+      "Chỉ làm tăng giá sản phẩm"
     ],
     "correctIndex": 0,
-    "hint": "Sắt, đồng, nhôm.",
-    "explanation": "Sắt, đồng, nhôm.",
+    "hint": "Thúc đẩy phát triển kinh tế.",
+    "explanation": "Thúc đẩy phát triển kinh tế.",
     "category": "knowledge"
   },
   {
     "id": "Tech10_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Mối ghép bằng ren thuộc loại mối ghép nào?",
+    "question": "Năng lượng tái tạo bao gồm các nguồn nào?",
     "options": [
-      "Mối ghép tháo được",
-      "Mối ghép không tháo được",
-      "Mối ghép đinh tán",
-      "Mối ghép hàn"
+      "Năng lượng mặt trời, gió, thủy điện",
+      "Than đá, dầu mỏ",
+      "Khí thiên nhiên",
+      "Năng lượng hạt nhân"
     ],
     "correctIndex": 0,
-    "hint": "Có thể vặn ốc để tháo ra.",
-    "explanation": "Có thể vặn ốc để tháo ra.",
+    "hint": "Sạch và vô hạn.",
+    "explanation": "Sạch và vô hạn.",
     "category": "knowledge"
   },
   {
     "id": "Tech10_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để phòng ngừa tai nạn điện, ta không nên làm gì?",
+    "question": "Bản vẽ kĩ thuật được xây dựng dựa trên nguyên tắc nào?",
     "options": [
-      "Sử dụng dây điện bị hở cách điện",
-      "Tắt công tắc trước khi sửa chữa",
-      "Dùng dụng cụ có chuôi cách điện",
-      "Kiểm tra rò điện định kỳ"
+      "Tuân thủ các tiêu chuẩn kĩ thuật quốc gia/quốc tế",
+      "Vẽ tùy ý theo sở thích",
+      "Chỉ dùng chữ không dùng hình",
+      "Chỉ vẽ đen trắng"
     ],
     "correctIndex": 0,
-    "hint": "Dây hở rất nguy hiểm.",
-    "explanation": "Dây hở rất nguy hiểm.",
+    "hint": "Để làm ngôn ngữ chung trong kĩ thuật.",
+    "explanation": "Để làm ngôn ngữ chung trong kĩ thuật.",
     "category": "knowledge"
   },
   {

@@ -54,80 +54,80 @@ export const QUESTION_BANK_HG9 = [
     "id": "HG9_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đặc điểm địa hình chủ yếu của Đông Nam Á lục địa là gì?",
+    "question": "Cách mạng tháng Mười Nga diễn ra vào năm nào?",
     "options": [
-      "Núi và cao nguyên",
-      "Đồng bằng rộng lớn",
-      "Sa mạc",
-      "Băng dốc"
+      "1917",
+      "1914",
+      "1945",
+      "1911"
     ],
     "correctIndex": 0,
-    "hint": "Địa hình bị chia cắt mạnh.",
-    "explanation": "Địa hình bị chia cắt mạnh.",
+    "hint": "Lãnh đạo bởi V.I. Lênin.",
+    "explanation": "Lãnh đạo bởi V.I. Lênin.",
     "category": "knowledge"
   },
   {
     "id": "HG9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Khí hậu chủ yếu của Việt Nam là gì?",
+    "question": "Dân số Việt Nam có đặc điểm gì nổi bật?",
     "options": [
-      "Nhiệt đới ẩm gió mùa",
-      "Ôn đới",
-      "Hàn đới",
-      "Cận nhiệt đới khô"
+      "Dân số đông, đang trong thời kỳ già hóa",
+      "Dân số rất ít",
+      "Tỉ lệ sinh tăng vọt",
+      "Chỉ tập trung ở miền núi"
     ],
     "correctIndex": 0,
-    "hint": "Nắng nóng, mưa nhiều, có gió mùa.",
-    "explanation": "Nắng nóng, mưa nhiều, có gió mùa.",
+    "hint": "Đặc điểm dân cư VN hiện nay.",
+    "explanation": "Đặc điểm dân cư VN hiện nay.",
     "category": "knowledge"
   },
   {
     "id": "HG9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
+    "question": "Phong trào Ngũ Tứ (1919) diễn ra ở nước nào?",
     "options": [
-      "Anh",
-      "Pháp",
-      "Mỹ",
-      "Đức"
+      "Trung Quốc",
+      "Nhật Bản",
+      "Ấn Độ",
+      "Triều Tiên"
     ],
     "correctIndex": 0,
-    "hint": "Bắt đầu vào cuối thế kỷ 18.",
-    "explanation": "Bắt đầu vào cuối thế kỷ 18.",
+    "hint": "Phong trào yêu nước của sinh viên Bắc Kinh.",
+    "explanation": "Phong trào yêu nước của sinh viên Bắc Kinh.",
     "category": "knowledge"
   },
   {
     "id": "HG9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vương triều nào đã thống nhất đất nước sau thời kỳ nội chiến ở Nhật Bản thế kỷ 16?",
+    "question": "Vùng kinh tế trọng điểm phía Nam bao gồm những tỉnh thành nào?",
     "options": [
-      "Mạc phủ Tokugawa",
-      "Triều đại Minh Trị",
-      "Triều đại Kamakura",
-      "Mạc phủ Muromachi"
+      "TP.HCM, Đồng Nai, Bình Dương, Bà Rịa - Vũng Tàu...",
+      "Hà Nội, Hải Phòng, Quảng Ninh...",
+      "Đà Nẵng, Quảng Nam, Quảng Ngãi...",
+      "Cần Thơ, An Giang, Kiên Giang..."
     ],
     "correctIndex": 0,
-    "hint": "Tokugawa Ieyasu.",
-    "explanation": "Tokugawa Ieyasu.",
+    "hint": "Trung tâm công nghiệp lớn nhất cả nước.",
+    "explanation": "Trung tâm công nghiệp lớn nhất cả nước.",
     "category": "knowledge"
   },
   {
     "id": "HG9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Sông ngòi ở nước ta có đặc điểm gì nổi bật?",
+    "question": "Thực dân Pháp bắt đầu xâm lược Việt Nam vào năm nào?",
     "options": [
-      "Mạng lưới dày đặc, nhiều nước, nhiều phù sa",
-      "Ít sông, nghèo nước",
-      "Sông đóng băng vào mùa đông",
-      "Chỉ có sông ngắn và dốc"
+      "1858",
+      "1884",
+      "1945",
+      "1930"
     ],
     "correctIndex": 0,
-    "hint": "Do mưa nhiều và địa hình.",
-    "explanation": "Do mưa nhiều và địa hình.",
+    "hint": "Liên quân Pháp - Tây Ban Nha nổ súng ở Đà Nẵng.",
+    "explanation": "Liên quân Pháp - Tây Ban Nha nổ súng ở Đà Nẵng.",
     "category": "knowledge"
   },
   {

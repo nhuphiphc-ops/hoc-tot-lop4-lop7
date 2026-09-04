@@ -54,80 +54,80 @@ export const QUESTION_BANK_CIV9 = [
     "id": "Civ9_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bảo vệ lẽ phải có ý nghĩa như thế nào?",
+    "question": "Chí công vô tư là phẩm chất đạo đức thể hiện điều gì?",
     "options": [
-      "Giúp xã hội công bằng, ổn định và phát triển",
-      "Gây chia rẽ nội bộ",
-      "Chỉ mang lại lợi ích cho cá nhân",
-      "Làm mất lòng mọi người"
+      "Công bằng, không thiên vị, giải quyết công việc theo lẽ phải",
+      "Chỉ quan tâm lợi ích bản thân",
+      "Bao che cho người thân",
+      "Chia rẽ nội bộ"
     ],
     "correctIndex": 0,
-    "hint": "Lẽ phải là điều đúng đắn.",
-    "explanation": "Lẽ phải là điều đúng đắn.",
+    "hint": "Làm việc vì lợi ích chung.",
+    "explanation": "Làm việc vì lợi ích chung.",
     "category": "knowledge"
   },
   {
     "id": "Civ9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Tôn trọng người khác thể hiện qua hành động nào?",
+    "question": "Lý tưởng sống của thanh niên Việt Nam hiện nay là gì?",
     "options": [
-      "Lắng nghe ý kiến của người khác",
-      "Ngắt lời người khác khi đang nói",
-      "Chỉ làm theo ý mình",
-      "Phân biệt đối xử"
+      "Phấn đấu vì mục tiêu dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
+      "Chỉ cần sống hưởng thụ",
+      "Làm giàu bất chấp pháp luật",
+      "Không quan tâm đến xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Tôn trọng ý kiến người khác.",
-    "explanation": "Tôn trọng ý kiến người khác.",
+    "hint": "Lý tưởng cao đẹp.",
+    "explanation": "Lý tưởng cao đẹp.",
     "category": "knowledge"
   },
   {
     "id": "Civ9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Pháp luật có đặc điểm gì?",
+    "question": "Bảo vệ hòa bình là trách nhiệm của?",
     "options": [
-      "Tính quy phạm phổ biến, tính bắt buộc chung",
-      "Chỉ áp dụng cho một nhóm người",
-      "Không có tính ép buộc",
-      "Tùy ý thực hiện"
+      "Toàn nhân loại",
+      "Chỉ của Liên Hợp Quốc",
+      "Chỉ của các nước lớn",
+      "Của quân đội"
     ],
     "correctIndex": 0,
-    "hint": "Ai cũng phải tuân thủ.",
-    "explanation": "Ai cũng phải tuân thủ.",
+    "hint": "Hòa bình là mong ước chung.",
+    "explanation": "Hòa bình là mong ước chung.",
     "category": "knowledge"
   },
   {
     "id": "Civ9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Nghĩa vụ của công dân đối với Tổ quốc là gì?",
+    "question": "Hợp tác cùng phát triển phải dựa trên nguyên tắc nào?",
     "options": [
-      "Trung thành và bảo vệ Tổ quốc",
-      "Chỉ tập trung làm giàu cá nhân",
-      "Không quan tâm đến tình hình đất nước",
-      "Phá hoại tài sản công cộng"
+      "Bình đẳng, cùng có lợi, tôn trọng lẫn nhau",
+      "Áp đặt ý chí của nước lớn",
+      "Chỉ có lợi cho một bên",
+      "Không can thiệp luật pháp quốc tế"
     ],
     "correctIndex": 0,
-    "hint": "Bảo vệ đất nước.",
-    "explanation": "Bảo vệ đất nước.",
+    "hint": "Nguyên tắc hợp tác quốc tế.",
+    "explanation": "Nguyên tắc hợp tác quốc tế.",
     "category": "knowledge"
   },
   {
     "id": "Civ9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Tính tự lập giúp chúng ta điều gì?",
+    "question": "Quyền tham gia quản lý nhà nước của công dân được thể hiện qua việc?",
     "options": [
-      "Vượt qua khó khăn, tự tin trong cuộc sống",
-      "Sống ỷ lại vào gia đình",
-      "Không cần học hỏi ai",
-      "Tách biệt khỏi xã hội"
+      "Bầu cử đại biểu Quốc hội",
+      "Tự ý thay đổi luật pháp",
+      "Không đóng thuế",
+      "Phá hoại tài sản công"
     ],
     "correctIndex": 0,
-    "hint": "Tự lập là tự giải quyết vấn đề.",
-    "explanation": "Tự lập là tự giải quyết vấn đề.",
+    "hint": "Thực hiện quyền dân chủ.",
+    "explanation": "Thực hiện quyền dân chủ.",
     "category": "knowledge"
   },
   {

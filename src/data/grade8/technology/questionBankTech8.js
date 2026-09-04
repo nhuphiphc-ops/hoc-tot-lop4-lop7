@@ -54,80 +54,80 @@ export const QUESTION_BANK_TECH8 = [
     "id": "Tech8_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bản vẽ kĩ thuật là gì?",
+    "question": "Tiêu chuẩn trình bày bản vẽ kĩ thuật bao gồm những gì?",
     "options": [
-      "Là ngôn ngữ chung dùng trong kĩ thuật",
-      "Là bức tranh nghệ thuật",
-      "Là văn bản hướng dẫn sử dụng",
-      "Là bản nháp thiết kế"
+      "Khổ giấy, tỉ lệ, nét vẽ, ghi kích thước",
+      "Màu sắc, hoa văn, chất liệu giấy",
+      "Bút chì, thước kẻ, compa",
+      "Bóng tối, ánh sáng, phối cảnh"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để giao tiếp trong thiết kế.",
-    "explanation": "Dùng để giao tiếp trong thiết kế.",
+    "hint": "Theo TCVN.",
+    "explanation": "Theo TCVN.",
     "category": "knowledge"
   },
   {
     "id": "Tech8_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hình chiếu bằng có hướng chiếu từ đâu?",
+    "question": "Nét liền đậm trên bản vẽ dùng để thể hiện gì?",
     "options": [
-      "Từ trên xuống",
-      "Từ trước tới",
-      "Từ trái sang",
-      "Từ phải sang"
+      "Đường bao thấy, cạnh thấy",
+      "Đường tâm",
+      "Đường kích thước",
+      "Đường bao khuất"
     ],
     "correctIndex": 0,
-    "hint": "Hình chiếu từ trên nhìn xuống.",
-    "explanation": "Hình chiếu từ trên nhìn xuống.",
+    "hint": "Các chi tiết nhìn thấy được.",
+    "explanation": "Các chi tiết nhìn thấy được.",
     "category": "knowledge"
   },
   {
     "id": "Tech8_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vật liệu kim loại thường có tính chất gì?",
+    "question": "Hình chiếu đứng có hướng chiếu từ đâu?",
     "options": [
-      "Dẫn điện, dẫn nhiệt tốt",
-      "Cách điện tốt",
-      "Rất nhẹ",
-      "Dễ vỡ"
+      "Từ trước tới",
+      "Từ trên xuống",
+      "Từ trái sang",
+      "Từ dưới lên"
     ],
     "correctIndex": 0,
-    "hint": "Sắt, đồng, nhôm.",
-    "explanation": "Sắt, đồng, nhôm.",
+    "hint": "Là hình chiếu quan trọng nhất.",
+    "explanation": "Là hình chiếu quan trọng nhất.",
     "category": "knowledge"
   },
   {
     "id": "Tech8_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Mối ghép bằng ren thuộc loại mối ghép nào?",
+    "question": "Tỉ lệ 1:2 trên bản vẽ có nghĩa là gì?",
     "options": [
-      "Mối ghép tháo được",
-      "Mối ghép không tháo được",
-      "Mối ghép đinh tán",
-      "Mối ghép hàn"
+      "Kích thước bản vẽ nhỏ hơn thực tế 2 lần",
+      "Kích thước bản vẽ lớn hơn thực tế 2 lần",
+      "Kích thước bằng nhau",
+      "Không xác định được"
     ],
     "correctIndex": 0,
-    "hint": "Có thể vặn ốc để tháo ra.",
-    "explanation": "Có thể vặn ốc để tháo ra.",
+    "hint": "Tỉ lệ thu nhỏ.",
+    "explanation": "Tỉ lệ thu nhỏ.",
     "category": "knowledge"
   },
   {
     "id": "Tech8_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để phòng ngừa tai nạn điện, ta không nên làm gì?",
+    "question": "Quy trình thiết kế kĩ thuật thường bắt đầu bằng bước nào?",
     "options": [
-      "Sử dụng dây điện bị hở cách điện",
-      "Tắt công tắc trước khi sửa chữa",
-      "Dùng dụng cụ có chuôi cách điện",
-      "Kiểm tra rò điện định kỳ"
+      "Xác định vấn đề, nhu cầu",
+      "Lập bản vẽ kĩ thuật",
+      "Chế tạo mẫu thử",
+      "Đánh giá sản phẩm"
     ],
     "correctIndex": 0,
-    "hint": "Dây hở rất nguy hiểm.",
-    "explanation": "Dây hở rất nguy hiểm.",
+    "hint": "Bước 1 là tìm hiểu nhu cầu.",
+    "explanation": "Bước 1 là tìm hiểu nhu cầu.",
     "category": "knowledge"
   },
   {

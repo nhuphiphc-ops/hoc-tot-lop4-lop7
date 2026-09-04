@@ -54,80 +54,80 @@ export const QUESTION_BANK_IT8 = [
     "id": "IT8_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Thuật toán là gì?",
+    "question": "Thế hệ máy tính điện tử đầu tiên sử dụng linh kiện gì?",
     "options": [
-      "Một dãy các thao tác cần thực hiện để giải quyết bài toán",
-      "Một phần mềm máy tính",
-      "Một ngôn ngữ lập trình",
-      "Một thiết bị phần cứng"
+      "Đèn điện tử chân không",
+      "Bóng bán dẫn (Transistor)",
+      "Vi mạch (IC)",
+      "Vi xử lý (Microprocessor)"
     ],
     "correctIndex": 0,
-    "hint": "Các bước giải quyết vấn đề.",
-    "explanation": "Các bước giải quyết vấn đề.",
+    "hint": "Thế hệ thứ nhất (1945-1955).",
+    "explanation": "Thế hệ thứ nhất (1945-1955).",
     "category": "knowledge"
   },
   {
     "id": "IT8_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Phần mềm nào sau đây là phần mềm trình chiếu?",
+    "question": "Thông tin kĩ thuật số là gì?",
     "options": [
-      "Microsoft PowerPoint",
-      "Microsoft Word",
-      "Microsoft Excel",
-      "Google Chrome"
+      "Thông tin được biểu diễn dưới dạng dãy bit (0 và 1)",
+      "Thông tin được viết trên giấy",
+      "Thông tin dạng âm thanh tự nhiên",
+      "Thông tin truyền miệng"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để tạo bài thuyết trình.",
-    "explanation": "Dùng để tạo bài thuyết trình.",
+    "hint": "Máy tính chỉ xử lý được dãy bit.",
+    "explanation": "Máy tính chỉ xử lý được dãy bit.",
     "category": "knowledge"
   },
   {
     "id": "IT8_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Cấu trúc lặp trong lập trình được sử dụng khi nào?",
+    "question": "Hành vi nào vi phạm đạo đức, pháp luật khi sử dụng công nghệ kĩ thuật số?",
     "options": [
-      "Khi cần thực hiện một công việc nhiều lần",
-      "Khi cần rẽ nhánh chương trình",
-      "Khi cần khai báo biến",
-      "Khi cần tính toán số học"
+      "Chia sẻ tin giả, sai sự thật trên mạng",
+      "Tìm kiếm tài liệu học tập",
+      "Sử dụng phần mềm có bản quyền",
+      "Gửi email cho bạn bè"
     ],
     "correctIndex": 0,
-    "hint": "Ví dụ: lặp lại 10 lần.",
-    "explanation": "Ví dụ: lặp lại 10 lần.",
+    "hint": "Vi phạm Luật An ninh mạng.",
+    "explanation": "Vi phạm Luật An ninh mạng.",
     "category": "knowledge"
   },
   {
     "id": "IT8_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để bảo vệ thông tin cá nhân trên mạng, chúng ta nên làm gì?",
+    "question": "Trong lập trình trực quan (ví dụ Scratch), khối lệnh 'Lặp lại 10 lần' thuộc nhóm nào?",
     "options": [
-      "Không chia sẻ mật khẩu cho người khác",
-      "Đăng mọi thông tin cá nhân lên Facebook",
-      "Dùng chung một mật khẩu cho mọi tài khoản",
-      "Nhấp vào mọi đường link gửi qua tin nhắn"
+      "Điều khiển",
+      "Chuyển động",
+      "Hiển thị",
+      "Sự kiện"
     ],
     "correctIndex": 0,
-    "hint": "Bảo mật tài khoản.",
-    "explanation": "Bảo mật tài khoản.",
+    "hint": "Nhóm lệnh Control.",
+    "explanation": "Nhóm lệnh Control.",
     "category": "knowledge"
   },
   {
     "id": "IT8_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Kiểu dữ liệu Integer trong lập trình dùng để lưu trữ gì?",
+    "question": "Phần mềm bảng tính (như Excel) thường dùng để làm gì?",
     "options": [
-      "Số nguyên",
-      "Văn bản",
-      "Số thực",
-      "Hình ảnh"
+      "Tính toán, xử lý và trình bày số liệu",
+      "Chỉnh sửa video",
+      "Soạn thảo văn bản",
+      "Lập trình ứng dụng"
     ],
     "correctIndex": 0,
-    "hint": "Integer = số nguyên.",
-    "explanation": "Integer = số nguyên.",
+    "hint": "Có các hàm và công thức.",
+    "explanation": "Có các hàm và công thức.",
     "category": "knowledge"
   },
   {

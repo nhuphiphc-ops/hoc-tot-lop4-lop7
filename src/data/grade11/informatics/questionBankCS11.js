@@ -54,80 +54,80 @@ export const QUESTION_BANK_CS11 = [
     "id": "CS11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Thuật toán là gì?",
+    "question": "Hệ điều hành là gì?",
     "options": [
-      "Một dãy các thao tác cần thực hiện để giải quyết bài toán",
-      "Một phần mềm máy tính",
-      "Một ngôn ngữ lập trình",
-      "Một thiết bị phần cứng"
+      "Phần mềm hệ thống quản lý tài nguyên máy tính và làm cầu nối giữa người dùng và phần cứng",
+      "Một phần mềm gõ văn bản",
+      "Một con chip bên trong máy tính",
+      "Một ngôn ngữ lập trình"
     ],
     "correctIndex": 0,
-    "hint": "Các bước giải quyết vấn đề.",
-    "explanation": "Các bước giải quyết vấn đề.",
+    "hint": "Ví dụ: Windows, macOS, Linux.",
+    "explanation": "Ví dụ: Windows, macOS, Linux.",
     "category": "knowledge"
   },
   {
     "id": "CS11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Phần mềm nào sau đây là phần mềm trình chiếu?",
+    "question": "Chức năng nào KHÔNG phải của hệ điều hành?",
     "options": [
-      "Microsoft PowerPoint",
-      "Microsoft Word",
-      "Microsoft Excel",
-      "Google Chrome"
+      "Biên dịch mã nguồn C++",
+      "Quản lý tệp tin và thư mục",
+      "Quản lý bộ nhớ",
+      "Điều khiển thiết bị ngoại vi"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để tạo bài thuyết trình.",
-    "explanation": "Dùng để tạo bài thuyết trình.",
+    "hint": "Đây là chức năng của trình biên dịch.",
+    "explanation": "Đây là chức năng của trình biên dịch.",
     "category": "knowledge"
   },
   {
     "id": "CS11_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Cấu trúc lặp trong lập trình được sử dụng khi nào?",
+    "question": "Mã nguồn mở (Open Source) nghĩa là gì?",
     "options": [
-      "Khi cần thực hiện một công việc nhiều lần",
-      "Khi cần rẽ nhánh chương trình",
-      "Khi cần khai báo biến",
-      "Khi cần tính toán số học"
+      "Mã nguồn phần mềm được công khai, cho phép người dùng tự do sử dụng và sửa đổi",
+      "Phần mềm phải trả rất nhiều tiền",
+      "Phần mềm không thể cài đặt",
+      "Mã nguồn bị khóa hoàn toàn"
     ],
     "correctIndex": 0,
-    "hint": "Ví dụ: lặp lại 10 lần.",
-    "explanation": "Ví dụ: lặp lại 10 lần.",
+    "hint": "Ví dụ: Hệ điều hành Linux.",
+    "explanation": "Ví dụ: Hệ điều hành Linux.",
     "category": "knowledge"
   },
   {
     "id": "CS11_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để bảo vệ thông tin cá nhân trên mạng, chúng ta nên làm gì?",
+    "question": "Phần mềm diệt virus thuộc nhóm phần mềm nào?",
     "options": [
-      "Không chia sẻ mật khẩu cho người khác",
-      "Đăng mọi thông tin cá nhân lên Facebook",
-      "Dùng chung một mật khẩu cho mọi tài khoản",
-      "Nhấp vào mọi đường link gửi qua tin nhắn"
+      "Phần mềm tiện ích / hệ thống",
+      "Phần mềm xử lý đồ họa",
+      "Phần mềm bảng tính",
+      "Phần mềm hệ quản trị cơ sở dữ liệu"
     ],
     "correctIndex": 0,
-    "hint": "Bảo mật tài khoản.",
-    "explanation": "Bảo mật tài khoản.",
+    "hint": "Bảo vệ hệ thống máy tính.",
+    "explanation": "Bảo vệ hệ thống máy tính.",
     "category": "knowledge"
   },
   {
     "id": "CS11_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Kiểu dữ liệu Integer trong lập trình dùng để lưu trữ gì?",
+    "question": "Cơ sở dữ liệu (Database) là gì?",
     "options": [
-      "Số nguyên",
-      "Văn bản",
-      "Số thực",
-      "Hình ảnh"
+      "Tập hợp dữ liệu có cấu trúc được lưu trữ trên máy tính",
+      "Một loại cáp mạng",
+      "Một linh kiện phần cứng",
+      "Một hệ điều hành"
     ],
     "correctIndex": 0,
-    "hint": "Integer = số nguyên.",
-    "explanation": "Integer = số nguyên.",
+    "hint": "Lưu trữ thông tin để dễ dàng truy xuất.",
+    "explanation": "Lưu trữ thông tin để dễ dàng truy xuất.",
     "category": "knowledge"
   },
   {

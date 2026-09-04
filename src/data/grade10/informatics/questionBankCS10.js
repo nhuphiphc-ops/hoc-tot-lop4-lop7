@@ -54,80 +54,80 @@ export const QUESTION_BANK_CS10 = [
     "id": "CS10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Thuật toán là gì?",
+    "question": "Thiết bị nào sau đây là thiết bị đầu vào của máy tính?",
     "options": [
-      "Một dãy các thao tác cần thực hiện để giải quyết bài toán",
-      "Một phần mềm máy tính",
-      "Một ngôn ngữ lập trình",
-      "Một thiết bị phần cứng"
+      "Bàn phím (Keyboard)",
+      "Màn hình (Monitor)",
+      "Máy in (Printer)",
+      "Loa (Speaker)"
     ],
     "correctIndex": 0,
-    "hint": "Các bước giải quyết vấn đề.",
-    "explanation": "Các bước giải quyết vấn đề.",
+    "hint": "Đưa dữ liệu vào máy tính.",
+    "explanation": "Đưa dữ liệu vào máy tính.",
     "category": "knowledge"
   },
   {
     "id": "CS10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Phần mềm nào sau đây là phần mềm trình chiếu?",
+    "question": "Dữ liệu được lưu trữ trong máy tính dưới dạng nào?",
     "options": [
-      "Microsoft PowerPoint",
-      "Microsoft Word",
-      "Microsoft Excel",
-      "Google Chrome"
+      "Dãy bit (0 và 1)",
+      "Số thập phân",
+      "Chữ cái tiếng Anh",
+      "Hình ảnh analog"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để tạo bài thuyết trình.",
-    "explanation": "Dùng để tạo bài thuyết trình.",
+    "hint": "Dạng nhị phân.",
+    "explanation": "Dạng nhị phân.",
     "category": "knowledge"
   },
   {
     "id": "CS10_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Cấu trúc lặp trong lập trình được sử dụng khi nào?",
+    "question": "Internet of Things (IoT) là gì?",
     "options": [
-      "Khi cần thực hiện một công việc nhiều lần",
-      "Khi cần rẽ nhánh chương trình",
-      "Khi cần khai báo biến",
-      "Khi cần tính toán số học"
+      "Vạn vật kết nối Internet",
+      "Một phần mềm diệt virus",
+      "Một loại cáp mạng",
+      "Mạng xã hội"
     ],
     "correctIndex": 0,
-    "hint": "Ví dụ: lặp lại 10 lần.",
-    "explanation": "Ví dụ: lặp lại 10 lần.",
+    "hint": "Kết nối các thiết bị thông minh.",
+    "explanation": "Kết nối các thiết bị thông minh.",
     "category": "knowledge"
   },
   {
     "id": "CS10_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để bảo vệ thông tin cá nhân trên mạng, chúng ta nên làm gì?",
+    "question": "Điện toán đám mây (Cloud Computing) cho phép người dùng làm gì?",
     "options": [
-      "Không chia sẻ mật khẩu cho người khác",
-      "Đăng mọi thông tin cá nhân lên Facebook",
-      "Dùng chung một mật khẩu cho mọi tài khoản",
-      "Nhấp vào mọi đường link gửi qua tin nhắn"
+      "Lưu trữ và xử lý dữ liệu trên máy chủ qua Internet",
+      "Chỉ chơi game offline",
+      "In tài liệu mà không cần điện",
+      "Cài đặt hệ điều hành cục bộ"
     ],
     "correctIndex": 0,
-    "hint": "Bảo mật tài khoản.",
-    "explanation": "Bảo mật tài khoản.",
+    "hint": "Ví dụ Google Drive, iCloud.",
+    "explanation": "Ví dụ Google Drive, iCloud.",
     "category": "knowledge"
   },
   {
     "id": "CS10_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Kiểu dữ liệu Integer trong lập trình dùng để lưu trữ gì?",
+    "question": "Hành động nào sau đây đảm bảo an toàn thông tin?",
     "options": [
-      "Số nguyên",
-      "Văn bản",
-      "Số thực",
-      "Hình ảnh"
+      "Sử dụng mật khẩu mạnh và xác thực 2 bước",
+      "Dùng chung mật khẩu cho mọi tài khoản",
+      "Nhấp vào mọi đường link gửi qua email",
+      "Tắt tường lửa (Firewall)"
     ],
     "correctIndex": 0,
-    "hint": "Integer = số nguyên.",
-    "explanation": "Integer = số nguyên.",
+    "hint": "Bảo vệ tài khoản khỏi hacker.",
+    "explanation": "Bảo vệ tài khoản khỏi hacker.",
     "category": "knowledge"
   },
   {

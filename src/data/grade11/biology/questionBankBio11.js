@@ -54,32 +54,80 @@ export const QUESTION_BANK_BIO11 = [
     "id": "Bio11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bào quan nào được ví như 'nhà máy năng lượng' của tế bào?",
+    "question": "Quá trình trao đổi chất ở sinh vật bao gồm các quá trình nào?",
     "options": [
-      "Ti thể",
-      "Lục lạp",
-      "Ribôxôm",
-      "Không bào"
+      "Đồng hóa và dị hóa",
+      "Hô hấp và bài tiết",
+      "Sinh sản và sinh trưởng",
+      "Hấp thụ và vận chuyển"
     ],
     "correctIndex": 0,
-    "hint": "Nơi diễn ra hô hấp tế bào.",
-    "explanation": "Nơi diễn ra hô hấp tế bào.",
+    "hint": "Hai mặt đối lập nhưng thống nhất.",
+    "explanation": "Hai mặt đối lập nhưng thống nhất.",
     "category": "knowledge"
   },
   {
     "id": "Bio11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vật chất di truyền chủ yếu ở sinh vật nhân thực là?",
+    "question": "Nước và muối khoáng ở thực vật được rễ hấp thụ chủ yếu qua bộ phận nào?",
     "options": [
-      "DNA",
-      "RNA",
-      "Protein",
-      "Lipid"
+      "Miền lông hút",
+      "Chóp rễ",
+      "Thân cây",
+      "Lá cây"
     ],
     "correctIndex": 0,
-    "hint": "Nằm trong nhân tế bào.",
-    "explanation": "Nằm trong nhân tế bào.",
+    "hint": "Tế bào biểu bì kéo dài.",
+    "explanation": "Tế bào biểu bì kéo dài.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Bio11_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Mạch gỗ (xylem) có chức năng gì trong cây?",
+    "options": [
+      "Vận chuyển nước và ion khoáng từ rễ lên lá",
+      "Vận chuyển chất hữu cơ từ lá xuống rễ",
+      "Chỉ bảo vệ thân cây",
+      "Quang hợp"
+    ],
+    "correctIndex": 0,
+    "hint": "Dòng đi lên.",
+    "explanation": "Dòng đi lên.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Bio11_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Quá trình thoát hơi nước ở lá chủ yếu qua con đường nào?",
+    "options": [
+      "Qua khí khổng",
+      "Qua lớp cutin",
+      "Qua biểu bì",
+      "Qua mạch rây"
+    ],
+    "correctIndex": 0,
+    "hint": "Khí khổng đóng mở điều tiết lượng nước.",
+    "explanation": "Khí khổng đóng mở điều tiết lượng nước.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Bio11_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Nguyên tố khoáng nào sau đây là nguyên tố đại lượng?",
+    "options": [
+      "Nitrogen (N)",
+      "Sắt (Fe)",
+      "Kẽm (Zn)",
+      "Đồng (Cu)"
+    ],
+    "correctIndex": 0,
+    "hint": "Cần lượng lớn trong cây (N, P, K, Ca, Mg, S).",
+    "explanation": "Cần lượng lớn trong cây (N, P, K, Ca, Mg, S).",
     "category": "knowledge"
   },
   {

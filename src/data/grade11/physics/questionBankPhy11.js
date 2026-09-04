@@ -54,32 +54,80 @@ export const QUESTION_BANK_PHY11 = [
     "id": "Phy11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đại lượng đặc trưng cho khả năng sinh công là gì?",
+    "question": "Dao động điều hòa là dao động trong đó li độ của vật là một hàm?",
     "options": [
-      "Năng lượng",
-      "Lực",
-      "Vận tốc",
-      "Gia tốc"
+      "Sin hay cosin theo thời gian",
+      "Bậc hai theo thời gian",
+      "Bậc nhất theo thời gian",
+      "Logarit theo thời gian"
     ],
     "correctIndex": 0,
-    "hint": "Đơn vị là Joule.",
-    "explanation": "Đơn vị là Joule.",
+    "hint": "Phương trình x = A cos(wt + phi).",
+    "explanation": "Phương trình x = A cos(wt + phi).",
     "category": "knowledge"
   },
   {
     "id": "Phy11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đơn vị của gia tốc trong hệ SI là?",
+    "question": "Đại lượng nào đặc trưng cho sự luân phiên nhanh chậm của dao động?",
     "options": [
-      "m/s²",
-      "m/s",
-      "N",
-      "J"
+      "Tần số (hoặc chu kì)",
+      "Biên độ",
+      "Li độ",
+      "Pha ban đầu"
     ],
     "correctIndex": 0,
-    "hint": "Thay đổi vận tốc theo thời gian.",
-    "explanation": "Thay đổi vận tốc theo thời gian.",
+    "hint": "Tần số càng lớn dao động càng nhanh.",
+    "explanation": "Tần số càng lớn dao động càng nhanh.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Phy11_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Trong dao động điều hòa, vận tốc của vật đạt giá trị cực đại khi vật đi qua?",
+    "options": [
+      "Vị trí cân bằng",
+      "Vị trí biên dương",
+      "Vị trí biên âm",
+      "Vị trí có li độ bằng một nửa biên độ"
+    ],
+    "correctIndex": 0,
+    "hint": "Khi x = 0.",
+    "explanation": "Khi x = 0.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Phy11_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Sóng cơ học KHÔNG truyền được trong môi trường nào?",
+    "options": [
+      "Chân không",
+      "Chất rắn",
+      "Chất lỏng",
+      "Chất khí"
+    ],
+    "correctIndex": 0,
+    "hint": "Cần các hạt vật chất để truyền sóng.",
+    "explanation": "Cần các hạt vật chất để truyền sóng.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Phy11_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Công thức tính bước sóng là gì?",
+    "options": [
+      "λ = v.T = v/f",
+      "λ = v/T",
+      "λ = f/v",
+      "λ = v.f"
+    ],
+    "correctIndex": 0,
+    "hint": "Quãng đường sóng truyền trong 1 chu kì.",
+    "explanation": "Quãng đường sóng truyền trong 1 chu kì.",
     "category": "knowledge"
   },
   {

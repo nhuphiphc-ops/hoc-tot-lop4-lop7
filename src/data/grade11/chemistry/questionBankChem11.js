@@ -54,32 +54,80 @@ export const QUESTION_BANK_CHEM11 = [
     "id": "Chem11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hạt nhân nguyên tử được cấu tạo bởi những hạt nào?",
+    "question": "Trạng thái cân bằng hóa học là trạng thái của phản ứng thuận nghịch khi?",
     "options": [
-      "Proton và nơtron",
-      "Electron và proton",
-      "Electron và nơtron",
-      "Chỉ có proton"
+      "Tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch",
+      "Phản ứng dừng lại hoàn toàn",
+      "Chỉ còn chất sản phẩm",
+      "Tốc độ phản ứng thuận lớn hơn tốc độ nghịch"
     ],
     "correctIndex": 0,
-    "hint": "Nằm ở trung tâm nguyên tử.",
-    "explanation": "Nằm ở trung tâm nguyên tử.",
+    "hint": "Cân bằng động.",
+    "explanation": "Cân bằng động.",
     "category": "knowledge"
   },
   {
     "id": "Chem11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Nguyên tố hóa học phổ biến nhất trong vũ trụ là?",
+    "question": "Nguyên lý Le Chatelier áp dụng cho hệ ở trạng thái nào?",
     "options": [
-      "Hydrogen",
-      "Oxygen",
-      "Carbon",
-      "Helium"
+      "Trạng thái cân bằng",
+      "Phản ứng một chiều",
+      "Phản ứng đang xảy ra mãnh liệt",
+      "Trạng thái bay hơi"
     ],
     "correctIndex": 0,
-    "hint": "Kí hiệu là H.",
-    "explanation": "Kí hiệu là H.",
+    "hint": "Sự chuyển dịch cân bằng hóa học.",
+    "explanation": "Sự chuyển dịch cân bằng hóa học.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Chem11_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Khí Nitrogen (N2) chiếm khoảng bao nhiêu phần trăm thể tích không khí?",
+    "options": [
+      "78%",
+      "21%",
+      "1%",
+      "50%"
+    ],
+    "correctIndex": 0,
+    "hint": "Thành phần chính của không khí.",
+    "explanation": "Thành phần chính của không khí.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Chem11_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Đặc điểm liên kết trong phân tử N2 là gì?",
+    "options": [
+      "Liên kết ba rất bền vững",
+      "Liên kết đôi",
+      "Liên kết đơn",
+      "Liên kết ion"
+    ],
+    "correctIndex": 0,
+    "hint": "Chứa 1 liên kết sigma, 2 liên kết pi.",
+    "explanation": "Chứa 1 liên kết sigma, 2 liên kết pi.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Chem11_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Axit Nitric (HNO3) có tính chất hóa học nổi bật nào?",
+    "options": [
+      "Tính axit mạnh và tính oxi hóa mạnh",
+      "Chỉ có tính axit yếu",
+      "Tính khử mạnh",
+      "Tính bazơ"
+    ],
+    "correctIndex": 0,
+    "hint": "Hòa tan được hầu hết kim loại.",
+    "explanation": "Hòa tan được hầu hết kim loại.",
     "category": "knowledge"
   },
   {

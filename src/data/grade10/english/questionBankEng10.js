@@ -54,80 +54,80 @@ export const QUESTION_BANK_ENG10 = [
     "id": "Eng10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Choose the correct answer: I _____ to school by bus every day.",
+    "question": "My parents divide the household _____ equally.",
     "options": [
-      "go",
-      "goes",
-      "going",
-      "went"
+      "chores",
+      "jobs",
+      "works",
+      "tasks"
     ],
     "correctIndex": 0,
-    "hint": "Thì hiện tại đơn với chủ ngữ I.",
-    "explanation": "Thì hiện tại đơn với chủ ngữ I.",
+    "hint": "Household chores = việc nhà.",
+    "explanation": "Household chores = việc nhà.",
     "category": "knowledge"
   },
   {
     "id": "Eng10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "My father _____ television in the living room now.",
+    "question": "Look at those dark clouds! It _____ rain.",
     "options": [
-      "watches",
-      "watched",
-      "is watching",
-      "watching"
+      "is going to",
+      "will",
+      "is raining",
+      "rains"
     ],
-    "correctIndex": 2,
-    "hint": "Có 'now' -> hiện tại tiếp diễn.",
-    "explanation": "Có 'now' -> hiện tại tiếp diễn.",
+    "correctIndex": 0,
+    "hint": "Dự đoán có căn cứ ở hiện tại.",
+    "explanation": "Dự đoán có căn cứ ở hiện tại.",
     "category": "knowledge"
   },
   {
     "id": "Eng10_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "They have lived here _____ 2010.",
+    "question": "I usually _____ the laundry while my sister washes the dishes.",
     "options": [
-      "for",
-      "since",
-      "in",
-      "on"
+      "do",
+      "make",
+      "take",
+      "have"
     ],
-    "correctIndex": 1,
-    "hint": "since + mốc thời gian.",
-    "explanation": "since + mốc thời gian.",
+    "correctIndex": 0,
+    "hint": "Do the laundry = giặt quần áo.",
+    "explanation": "Do the laundry = giặt quần áo.",
     "category": "knowledge"
   },
   {
     "id": "Eng10_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "She is the _____ student in our class.",
+    "question": "We are responsible _____ taking out the rubbish.",
     "options": [
-      "tall",
-      "taller",
-      "tallest",
-      "most tall"
+      "for",
+      "of",
+      "with",
+      "in"
     ],
-    "correctIndex": 2,
-    "hint": "So sánh nhất với tính từ ngắn.",
-    "explanation": "So sánh nhất với tính từ ngắn.",
+    "correctIndex": 0,
+    "hint": "Responsible for + V-ing/N.",
+    "explanation": "Responsible for + V-ing/N.",
     "category": "knowledge"
   },
   {
     "id": "Eng10_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "If it rains tomorrow, we _____ at home.",
+    "question": "This is a device _____ helps you clean the floor automatically.",
     "options": [
-      "stay",
-      "will stay",
-      "stayed",
-      "would stay"
+      "which",
+      "who",
+      "whom",
+      "whose"
     ],
-    "correctIndex": 1,
-    "hint": "Câu điều kiện loại 1.",
-    "explanation": "Câu điều kiện loại 1.",
+    "correctIndex": 0,
+    "hint": "Đại từ quan hệ chỉ vật.",
+    "explanation": "Đại từ quan hệ chỉ vật.",
     "category": "knowledge"
   },
   {

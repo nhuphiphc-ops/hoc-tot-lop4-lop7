@@ -54,80 +54,80 @@ export const QUESTION_BANK_HG8 = [
     "id": "HG8_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đặc điểm địa hình chủ yếu của Đông Nam Á lục địa là gì?",
+    "question": "Cuộc cách mạng tư sản đầu tiên trên thế giới diễn ra ở đâu?",
     "options": [
-      "Núi và cao nguyên",
-      "Đồng bằng rộng lớn",
-      "Sa mạc",
-      "Băng dốc"
+      "Hà Lan",
+      "Anh",
+      "Pháp",
+      "Mỹ"
     ],
     "correctIndex": 0,
-    "hint": "Địa hình bị chia cắt mạnh.",
-    "explanation": "Địa hình bị chia cắt mạnh.",
+    "hint": "Cách mạng Hà Lan (thế kỷ XVI).",
+    "explanation": "Cách mạng Hà Lan (thế kỷ XVI).",
     "category": "knowledge"
   },
   {
     "id": "HG8_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Khí hậu chủ yếu của Việt Nam là gì?",
+    "question": "Đặc điểm nổi bật của vị trí địa lí Việt Nam là gì?",
     "options": [
-      "Nhiệt đới ẩm gió mùa",
-      "Ôn đới",
-      "Hàn đới",
-      "Cận nhiệt đới khô"
+      "Nằm trong đới khí hậu nhiệt đới gió mùa",
+      "Nằm hoàn toàn ở bán cầu Tây",
+      "Không giáp biển",
+      "Nằm ở vùng cận cực"
     ],
     "correctIndex": 0,
-    "hint": "Nắng nóng, mưa nhiều, có gió mùa.",
-    "explanation": "Nắng nóng, mưa nhiều, có gió mùa.",
+    "hint": "Thuộc Đông Nam Á, giáp biển Đông.",
+    "explanation": "Thuộc Đông Nam Á, giáp biển Đông.",
     "category": "knowledge"
   },
   {
     "id": "HG8_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
+    "question": "Tuyên ngôn Độc lập của nước Mỹ được công bố vào năm nào?",
     "options": [
-      "Anh",
-      "Pháp",
-      "Mỹ",
-      "Đức"
+      "1776",
+      "1789",
+      "1640",
+      "1804"
     ],
     "correctIndex": 0,
-    "hint": "Bắt đầu vào cuối thế kỷ 18.",
-    "explanation": "Bắt đầu vào cuối thế kỷ 18.",
+    "hint": "Ngày 4/7/1776.",
+    "explanation": "Ngày 4/7/1776.",
     "category": "knowledge"
   },
   {
     "id": "HG8_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vương triều nào đã thống nhất đất nước sau thời kỳ nội chiến ở Nhật Bản thế kỷ 16?",
+    "question": "Diện tích phần đất liền của Việt Nam khoảng bao nhiêu?",
     "options": [
-      "Mạc phủ Tokugawa",
-      "Triều đại Minh Trị",
-      "Triều đại Kamakura",
-      "Mạc phủ Muromachi"
+      "331.212 km2",
+      "500.000 km2",
+      "1 triệu km2",
+      "33.000 km2"
     ],
     "correctIndex": 0,
-    "hint": "Tokugawa Ieyasu.",
-    "explanation": "Tokugawa Ieyasu.",
+    "hint": "Đây là diện tích lãnh thổ đất liền chuẩn.",
+    "explanation": "Đây là diện tích lãnh thổ đất liền chuẩn.",
     "category": "knowledge"
   },
   {
     "id": "HG8_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Sông ngòi ở nước ta có đặc điểm gì nổi bật?",
+    "question": "Cuộc cách mạng công nghiệp lần thứ nhất sử dụng nguồn động lực chính là gì?",
     "options": [
-      "Mạng lưới dày đặc, nhiều nước, nhiều phù sa",
-      "Ít sông, nghèo nước",
-      "Sông đóng băng vào mùa đông",
-      "Chỉ có sông ngắn và dốc"
+      "Máy hơi nước",
+      "Điện",
+      "Năng lượng nguyên tử",
+      "Năng lượng mặt trời"
     ],
     "correctIndex": 0,
-    "hint": "Do mưa nhiều và địa hình.",
-    "explanation": "Do mưa nhiều và địa hình.",
+    "hint": "Phát minh của James Watt.",
+    "explanation": "Phát minh của James Watt.",
     "category": "knowledge"
   },
   {

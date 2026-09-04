@@ -54,32 +54,80 @@ export const QUESTION_BANK_CHEM10 = [
     "id": "Chem10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hạt nhân nguyên tử được cấu tạo bởi những hạt nào?",
+    "question": "Thành phần cấu tạo của nguyên tử gồm những gì?",
     "options": [
-      "Proton và nơtron",
-      "Electron và proton",
-      "Electron và nơtron",
-      "Chỉ có proton"
+      "Hạt nhân chứa proton, nơtron và lớp vỏ chứa electron",
+      "Chỉ có proton và electron",
+      "Hạt nhân chứa electron",
+      "Chỉ có nơtron"
     ],
     "correctIndex": 0,
-    "hint": "Nằm ở trung tâm nguyên tử.",
-    "explanation": "Nằm ở trung tâm nguyên tử.",
+    "hint": "Mô hình nguyên tử hiện đại.",
+    "explanation": "Mô hình nguyên tử hiện đại.",
     "category": "knowledge"
   },
   {
     "id": "Chem10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Nguyên tố hóa học phổ biến nhất trong vũ trụ là?",
+    "question": "Hạt mang điện tích âm trong nguyên tử là?",
     "options": [
-      "Hydrogen",
-      "Oxygen",
-      "Carbon",
-      "Helium"
+      "Electron",
+      "Proton",
+      "Nơtron",
+      "Notron và Proton"
     ],
     "correctIndex": 0,
-    "hint": "Kí hiệu là H.",
-    "explanation": "Kí hiệu là H.",
+    "hint": "Chuyển động quanh hạt nhân.",
+    "explanation": "Chuyển động quanh hạt nhân.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Chem10_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Đồng vị là những nguyên tử có cùng số proton nhưng khác nhau về?",
+    "options": [
+      "Số nơtron",
+      "Số electron",
+      "Số hiệu nguyên tử",
+      "Cấu hình electron"
+    ],
+    "correctIndex": 0,
+    "hint": "Do đó khác nhau về số khối A.",
+    "explanation": "Do đó khác nhau về số khối A.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Chem10_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Lớp electron ngoài cùng quyết định tính chất gì của nguyên tố?",
+    "options": [
+      "Tính chất hóa học",
+      "Khối lượng nguyên tử",
+      "Tính chất vật lí",
+      "Màu sắc"
+    ],
+    "correctIndex": 0,
+    "hint": "Ví dụ có 1-3e ngoài cùng là kim loại.",
+    "explanation": "Ví dụ có 1-3e ngoài cùng là kim loại.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Chem10_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Phân lớp p chứa tối đa bao nhiêu electron?",
+    "options": [
+      "6",
+      "2",
+      "10",
+      "14"
+    ],
+    "correctIndex": 0,
+    "hint": "s:2, p:6, d:10, f:14.",
+    "explanation": "s:2, p:6, d:10, f:14.",
     "category": "knowledge"
   },
   {

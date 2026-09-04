@@ -54,32 +54,80 @@ export const QUESTION_BANK_ECONLAW10 = [
     "id": "EconLaw10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Chủ thể nào đóng vai trò quản lý nền kinh tế vĩ mô?",
+    "question": "Hoạt động kinh tế đóng vai trò cơ sở, quyết định các hoạt động khác là?",
     "options": [
-      "Nhà nước",
-      "Doanh nghiệp",
-      "Người tiêu dùng",
-      "Ngân hàng thương mại"
+      "Sản xuất",
+      "Phân phối",
+      "Trao đổi",
+      "Tiêu dùng"
     ],
     "correctIndex": 0,
-    "hint": "Thông qua các chính sách.",
-    "explanation": "Thông qua các chính sách.",
+    "hint": "Tạo ra của cải vật chất.",
+    "explanation": "Tạo ra của cải vật chất.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hiến pháp hiện hành của Việt Nam được ban hành năm nào?",
+    "question": "Chủ thể tiêu dùng có vai trò gì trong nền kinh tế?",
     "options": [
-      "2013",
-      "1992",
-      "1980",
-      "2015"
+      "Định hướng, tạo động lực cho sản xuất",
+      "Tạo ra hàng hóa, dịch vụ",
+      "Ban hành chính sách vĩ mô",
+      "Phân phối hàng hóa"
     ],
     "correctIndex": 0,
-    "hint": "Hiến pháp năm 2013.",
-    "explanation": "Hiến pháp năm 2013.",
+    "hint": "Nhu cầu tiêu dùng quyết định sản xuất.",
+    "explanation": "Nhu cầu tiêu dùng quyết định sản xuất.",
+    "category": "knowledge"
+  },
+  {
+    "id": "EconLaw10_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Chủ thể nào đóng vai trò quản lý nền kinh tế vĩ mô?",
+    "options": [
+      "Nhà nước",
+      "Doanh nghiệp",
+      "Người tiêu dùng",
+      "Người lao động"
+    ],
+    "correctIndex": 0,
+    "hint": "Qua các chính sách tài khóa, tiền tệ.",
+    "explanation": "Qua các chính sách tài khóa, tiền tệ.",
+    "category": "knowledge"
+  },
+  {
+    "id": "EconLaw10_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Thuế là gì?",
+    "options": [
+      "Khoản nộp ngân sách nhà nước bắt buộc",
+      "Khoản tiền ủng hộ tự nguyện",
+      "Lợi nhuận của doanh nghiệp",
+      "Quỹ từ thiện"
+    ],
+    "correctIndex": 0,
+    "hint": "Theo luật định.",
+    "explanation": "Theo luật định.",
+    "category": "knowledge"
+  },
+  {
+    "id": "EconLaw10_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Đặc điểm của thuế trực thu là gì?",
+    "options": [
+      "Người nộp thuế đồng thời là người chịu thuế",
+      "Người nộp thuế không phải là người chịu thuế",
+      "Chỉ áp dụng cho doanh nghiệp",
+      "Chỉ đánh vào hàng hóa nhập khẩu"
+    ],
+    "correctIndex": 0,
+    "hint": "Ví dụ: Thuế thu nhập cá nhân.",
+    "explanation": "Ví dụ: Thuế thu nhập cá nhân.",
     "category": "knowledge"
   },
   {

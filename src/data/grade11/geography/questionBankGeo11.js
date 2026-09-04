@@ -54,32 +54,80 @@ export const QUESTION_BANK_GEO11 = [
     "id": "Geo11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đối tượng nghiên cứu của Địa lí kinh tế - xã hội là gì?",
+    "question": "Toàn cầu hóa kinh tế là quá trình?",
     "options": [
-      "Sự phân bố các ngành kinh tế và dân cư",
-      "Cấu tạo địa chất trái đất",
-      "Hệ thống sông ngòi",
-      "Hoạt động của khí quyển"
+      "Liên kết các quốc gia trên thế giới về nhiều mặt, từ kinh tế, văn hóa, khoa học",
+      "Các nước đóng cửa nền kinh tế",
+      "Chia rẽ các khu vực kinh tế",
+      "Chỉ giao thương nội địa"
     ],
     "correctIndex": 0,
-    "hint": "Nghiên cứu về con người và kinh tế.",
-    "explanation": "Nghiên cứu về con người và kinh tế.",
+    "hint": "Sự phụ thuộc lẫn nhau ngày càng tăng.",
+    "explanation": "Sự phụ thuộc lẫn nhau ngày càng tăng.",
     "category": "knowledge"
   },
   {
     "id": "Geo11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Trái Đất có hình dạng gì?",
+    "question": "Đặc điểm kinh tế nổi bật của nhóm nước phát triển là gì?",
     "options": [
-      "Hình cầu hơi dẹt ở hai cực",
-      "Hình tròn",
-      "Hình lập phương",
-      "Hình nón"
+      "GDP bình quân đầu người cao, dịch vụ chiếm tỉ trọng lớn",
+      "Tỉ trọng nông nghiệp rất cao",
+      "Thu nhập bình quân đầu người thấp",
+      "Kinh tế chủ yếu dựa vào xuất khẩu nguyên liệu thô"
     ],
     "correctIndex": 0,
-    "hint": "Bán kính xích đạo lớn hơn.",
-    "explanation": "Bán kính xích đạo lớn hơn.",
+    "hint": "Trình độ công nghệ cao.",
+    "explanation": "Trình độ công nghệ cao.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Geo11_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Khu vực Mỹ La-tinh có tài nguyên nổi bật nào?",
+    "options": [
+      "Khoáng sản (đồng, bạc, dầu mỏ) và rừng nhiệt đới",
+      "Băng tuyết vĩnh cửu",
+      "Sa mạc lớn nhất thế giới",
+      "Các loài thú có túi"
+    ],
+    "correctIndex": 0,
+    "hint": "Đặc biệt là rừng Amazon.",
+    "explanation": "Đặc biệt là rừng Amazon.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Geo11_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Liên minh châu Âu (EU) hiện nay là trung tâm kinh tế như thế nào?",
+    "options": [
+      "Một trong ba trung tâm kinh tế lớn nhất thế giới",
+      "Trung tâm kinh tế nghèo nàn",
+      "Chỉ mạnh về nông nghiệp",
+      "Không có sức ảnh hưởng toàn cầu"
+    ],
+    "correctIndex": 0,
+    "hint": "Cùng với Bắc Mỹ và Đông Á.",
+    "explanation": "Cùng với Bắc Mỹ và Đông Á.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Geo11_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Tổ chức Thương mại Thế giới được viết tắt là gì?",
+    "options": [
+      "WTO",
+      "WHO",
+      "IMF",
+      "WB"
+    ],
+    "correctIndex": 0,
+    "hint": "World Trade Organization.",
+    "explanation": "World Trade Organization.",
     "category": "knowledge"
   },
   {

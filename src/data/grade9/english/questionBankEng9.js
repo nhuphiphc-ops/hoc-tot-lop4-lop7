@@ -54,80 +54,80 @@ export const QUESTION_BANK_ENG9 = [
     "id": "Eng9_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Choose the correct answer: I _____ to school by bus every day.",
+    "question": "She wishes she _____ a new laptop.",
     "options": [
-      "go",
-      "goes",
-      "going",
-      "went"
+      "had",
+      "has",
+      "will have",
+      "have"
     ],
     "correctIndex": 0,
-    "hint": "Thì hiện tại đơn với chủ ngữ I.",
-    "explanation": "Thì hiện tại đơn với chủ ngữ I.",
+    "hint": "Câu điều ước ở hiện tại lùi 1 thì (quá khứ đơn).",
+    "explanation": "Câu điều ước ở hiện tại lùi 1 thì (quá khứ đơn).",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "My father _____ television in the living room now.",
+    "question": "They suggest _____ a taxi to the airport.",
     "options": [
-      "watches",
-      "watched",
-      "is watching",
-      "watching"
+      "taking",
+      "take",
+      "to take",
+      "took"
     ],
-    "correctIndex": 2,
-    "hint": "Có 'now' -> hiện tại tiếp diễn.",
-    "explanation": "Có 'now' -> hiện tại tiếp diễn.",
+    "correctIndex": 0,
+    "hint": "Suggest + V-ing.",
+    "explanation": "Suggest + V-ing.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "They have lived here _____ 2010.",
+    "question": "The local _____ are famous for making conical hats.",
     "options": [
-      "for",
-      "since",
-      "in",
-      "on"
+      "artisans",
+      "farmers",
+      "teachers",
+      "tourists"
     ],
-    "correctIndex": 1,
-    "hint": "since + mốc thời gian.",
-    "explanation": "since + mốc thời gian.",
+    "correctIndex": 0,
+    "hint": "Artisan = thợ thủ công.",
+    "explanation": "Artisan = thợ thủ công.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "She is the _____ student in our class.",
+    "question": "This city is quite different _____ what I expected.",
     "options": [
-      "tall",
-      "taller",
-      "tallest",
-      "most tall"
+      "from",
+      "to",
+      "with",
+      "for"
     ],
-    "correctIndex": 2,
-    "hint": "So sánh nhất với tính từ ngắn.",
-    "explanation": "So sánh nhất với tính từ ngắn.",
+    "correctIndex": 0,
+    "hint": "Different from = khác với.",
+    "explanation": "Different from = khác với.",
     "category": "knowledge"
   },
   {
     "id": "Eng9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "If it rains tomorrow, we _____ at home.",
+    "question": "If you want to pass the exam, you _____ study harder.",
     "options": [
-      "stay",
-      "will stay",
-      "stayed",
-      "would stay"
+      "must",
+      "can",
+      "will",
+      "could"
     ],
-    "correctIndex": 1,
-    "hint": "Câu điều kiện loại 1.",
-    "explanation": "Câu điều kiện loại 1.",
+    "correctIndex": 0,
+    "hint": "Động từ khuyết thiếu mang tính bắt buộc.",
+    "explanation": "Động từ khuyết thiếu mang tính bắt buộc.",
     "category": "knowledge"
   },
   {

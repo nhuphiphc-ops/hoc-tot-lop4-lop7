@@ -54,32 +54,80 @@ export const QUESTION_BANK_HIST11 = [
     "id": "Hist11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Văn minh Văn Lang - Âu Lạc thuộc thời đại nào?",
+    "question": "Tính chất của cuộc Cách mạng tư sản Pháp (1789) là gì?",
     "options": [
-      "Thời đại đồ đồng - sắt sớm",
-      "Thời kỳ đá cũ",
-      "Thời kỳ phong kiến",
-      "Thời kỳ thuộc Pháp"
+      "Cuộc cách mạng tư sản triệt để nhất",
+      "Cách mạng vô sản",
+      "Cách mạng tư sản không triệt để",
+      "Cách mạng giải phóng dân tộc"
     ],
     "correctIndex": 0,
-    "hint": "Thời đại Hùng Vương.",
-    "explanation": "Thời đại Hùng Vương.",
+    "hint": "Lật đổ tận gốc chế độ phong kiến.",
+    "explanation": "Lật đổ tận gốc chế độ phong kiến.",
     "category": "knowledge"
   },
   {
     "id": "Hist11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Sự kiện nào đánh dấu bước ngoặt của lịch sử Việt Nam năm 938?",
+    "question": "Bản Tuyên ngôn Nhân quyền và Dân quyền (1789) của nước nào?",
     "options": [
-      "Chiến thắng Bạch Đằng",
-      "Khởi nghĩa Hai Bà Trưng",
-      "Lý Thái Tổ dời đô",
-      "Khởi nghĩa Lam Sơn"
+      "Pháp",
+      "Mỹ",
+      "Anh",
+      "Nga"
     ],
     "correctIndex": 0,
-    "hint": "Do Ngô Quyền lãnh đạo.",
-    "explanation": "Do Ngô Quyền lãnh đạo.",
+    "hint": "Nêu cao khẩu hiệu Tự do - Bình đẳng - Bác ái.",
+    "explanation": "Nêu cao khẩu hiệu Tự do - Bình đẳng - Bác ái.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Hist11_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Đặc trưng của chủ nghĩa tư bản độc quyền là sự xuất hiện của?",
+    "options": [
+      "Các tổ chức độc quyền chi phối nền kinh tế",
+      "Cạnh tranh tự do hoàn toàn",
+      "Nhà nước bảo trợ toàn bộ nền kinh tế",
+      "Kinh tế tự cung tự cấp"
+    ],
+    "correctIndex": 0,
+    "hint": "Sự tập trung sản xuất cao độ.",
+    "explanation": "Sự tập trung sản xuất cao độ.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Hist11_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Liên minh châu Âu (EU) ra đời nhằm mục đích gì?",
+    "options": [
+      "Liên kết kinh tế, chính trị, củng cố an ninh chung của châu Âu",
+      "Gây chiến tranh với các châu lục khác",
+      "Chống lại nước Mỹ",
+      "Mở rộng thuộc địa ở châu Phi"
+    ],
+    "correctIndex": 0,
+    "hint": "Khởi nguồn từ Cộng đồng Than Thép.",
+    "explanation": "Khởi nguồn từ Cộng đồng Than Thép.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Hist11_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập năm nào?",
+    "options": [
+      "1967",
+      "1995",
+      "1977",
+      "1945"
+    ],
+    "correctIndex": 0,
+    "hint": "Thành lập tại Bangkok (Thái Lan).",
+    "explanation": "Thành lập tại Bangkok (Thái Lan).",
     "category": "knowledge"
   },
   {

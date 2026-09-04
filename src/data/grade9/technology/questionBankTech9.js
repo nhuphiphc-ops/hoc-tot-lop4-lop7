@@ -62,72 +62,72 @@ export const QUESTION_BANK_TECH9 = [
       "Nối dây"
     ],
     "correctIndex": 0,
-    "hint": "Xác định vị trí các thiết bị trên bảng điện.",
-    "explanation": "Xác định vị trí các thiết bị trên bảng điện.",
+    "hint": "Xác định vị trí trên bảng điện.",
+    "explanation": "Xác định vị trí trên bảng điện.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để đo điện áp, ta dùng dụng cụ đo nào?",
+    "question": "Cầu chì có chức năng gì trong mạch điện?",
     "options": [
-      "Vôn kế",
-      "Ampe kế",
-      "Ôm kế",
-      "Công tơ điện"
+      "Bảo vệ mạch điện khi quá tải, ngắn mạch",
+      "Điều khiển đèn",
+      "Tăng điện áp",
+      "Giảm dòng điện"
     ],
     "correctIndex": 0,
-    "hint": "Ampe kế đo dòng điện, Vôn kế đo điện áp.",
-    "explanation": "Ampe kế đo dòng điện, Vôn kế đo điện áp.",
+    "hint": "Sẽ bị đứt khi dòng quá cao.",
+    "explanation": "Sẽ bị đứt khi dòng quá cao.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Công tắc điện được mắc như thế nào trong mạch?",
+    "question": "Cây ăn quả cần được trồng ở loại đất như thế nào?",
     "options": [
-      "Nối tiếp với tải (bóng đèn)",
-      "Song song với tải",
-      "Nối trực tiếp vào hai dây nguồn",
-      "Không cần nối"
+      "Đất tơi xốp, nhiều mùn, thoát nước tốt",
+      "Đất nhiễm mặn",
+      "Đất sét cứng",
+      "Đất ngập nước liên tục"
     ],
     "correctIndex": 0,
-    "hint": "Để điều khiển đóng/ngắt mạch điện.",
-    "explanation": "Để điều khiển đóng/ngắt mạch điện.",
+    "hint": "Giúp rễ phát triển.",
+    "explanation": "Giúp rễ phát triển.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Mạng điện trong nhà thường có cấp điện áp là bao nhiêu?",
+    "question": "Chiết cành là phương pháp nhân giống gì?",
     "options": [
-      "220V",
-      "110V",
-      "380V",
-      "500kV"
+      "Nhân giống vô tính",
+      "Nhân giống hữu tính",
+      "Gieo hạt",
+      "Lai tạo giống mới"
     ],
     "correctIndex": 0,
-    "hint": "Mạng điện dân dụng ở Việt Nam.",
-    "explanation": "Mạng điện dân dụng ở Việt Nam.",
+    "hint": "Tạo rễ trên cành ngay khi còn trên cây mẹ.",
+    "explanation": "Tạo rễ trên cành ngay khi còn trên cây mẹ.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Cầu chì có chức năng gì trong mạch điện?",
+    "question": "Đồng hồ vạn năng dùng để đo các đại lượng nào?",
     "options": [
-      "Bảo vệ mạch điện khi quá tải hoặc ngắn mạch",
-      "Điều khiển bật tắt đèn",
-      "Tăng điện áp",
-      "Giảm điện áp"
+      "Điện áp, dòng điện, điện trở",
+      "Chỉ đo nhiệt độ",
+      "Đo áp suất",
+      "Đo khối lượng"
     ],
     "correctIndex": 0,
-    "hint": "Sợi dây chảy sẽ đứt khi dòng điện quá lớn.",
-    "explanation": "Sợi dây chảy sẽ đứt khi dòng điện quá lớn.",
+    "hint": "Là thiết bị đo điện đa năng.",
+    "explanation": "Là thiết bị đo điện đa năng.",
     "category": "knowledge"
   },
   {

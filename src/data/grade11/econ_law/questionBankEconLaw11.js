@@ -54,32 +54,80 @@ export const QUESTION_BANK_ECONLAW11 = [
     "id": "EconLaw11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Chủ thể nào đóng vai trò quản lý nền kinh tế vĩ mô?",
+    "question": "Cạnh tranh trong nền kinh tế thị trường có vai trò gì?",
     "options": [
-      "Nhà nước",
-      "Doanh nghiệp",
-      "Người tiêu dùng",
-      "Ngân hàng thương mại"
+      "Thúc đẩy sản xuất phát triển, nâng cao chất lượng sản phẩm",
+      "Làm giảm năng suất lao động",
+      "Gây thiệt hại cho người tiêu dùng",
+      "Triệt tiêu sự sáng tạo"
     ],
     "correctIndex": 0,
-    "hint": "Thông qua các chính sách.",
-    "explanation": "Thông qua các chính sách.",
+    "hint": "Tạo động lực phát triển.",
+    "explanation": "Tạo động lực phát triển.",
     "category": "knowledge"
   },
   {
     "id": "EconLaw11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hiến pháp hiện hành của Việt Nam được ban hành năm nào?",
+    "question": "Mối quan hệ giữa Cung và Cầu trên thị trường là gì?",
     "options": [
-      "2013",
-      "1992",
-      "1980",
-      "2015"
+      "Tác động lẫn nhau để xác định giá cả và lượng giao dịch",
+      "Cung không liên quan đến Cầu",
+      "Cầu luôn cố định",
+      "Giá cả không bị ảnh hưởng bởi Cung Cầu"
     ],
     "correctIndex": 0,
-    "hint": "Hiến pháp năm 2013.",
-    "explanation": "Hiến pháp năm 2013.",
+    "hint": "Quy luật Cung - Cầu.",
+    "explanation": "Quy luật Cung - Cầu.",
+    "category": "knowledge"
+  },
+  {
+    "id": "EconLaw11_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Lạm phát là tình trạng gì của nền kinh tế?",
+    "options": [
+      "Mức giá chung của hàng hóa và dịch vụ tăng lên liên tục",
+      "Hàng hóa rẻ đi liên tục",
+      "Sản xuất đình trệ hoàn toàn",
+      "Tiền tệ tăng giá trị liên tục"
+    ],
+    "correctIndex": 0,
+    "hint": "Tiền mất giá.",
+    "explanation": "Tiền mất giá.",
+    "category": "knowledge"
+  },
+  {
+    "id": "EconLaw11_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Thất nghiệp gây ra hậu quả gì cho xã hội?",
+    "options": [
+      "Gây lãng phí nguồn nhân lực, giảm thu nhập, phát sinh tệ nạn xã hội",
+      "Làm tăng thu nhập quốc dân",
+      "Thúc đẩy phát triển công nghệ",
+      "Không ảnh hưởng đến kinh tế"
+    ],
+    "correctIndex": 0,
+    "hint": "Hậu quả tiêu cực của thất nghiệp.",
+    "explanation": "Hậu quả tiêu cực của thất nghiệp.",
+    "category": "knowledge"
+  },
+  {
+    "id": "EconLaw11_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Ngân sách nhà nước được dùng để làm gì?",
+    "options": [
+      "Chi trả cho y tế, giáo dục, quốc phòng, an ninh và phát triển hạ tầng",
+      "Chỉ chi cho doanh nghiệp tư nhân",
+      "Để gửi tiết kiệm lấy lãi",
+      "Chi tiêu cho cá nhân lãnh đạo"
+    ],
+    "correctIndex": 0,
+    "hint": "Mục đích phục vụ lợi ích chung.",
+    "explanation": "Mục đích phục vụ lợi ích chung.",
     "category": "knowledge"
   },
   {

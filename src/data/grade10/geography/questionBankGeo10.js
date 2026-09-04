@@ -54,32 +54,80 @@ export const QUESTION_BANK_GEO10 = [
     "id": "Geo10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đối tượng nghiên cứu của Địa lí kinh tế - xã hội là gì?",
+    "question": "Địa lí học bao gồm những phân ngành chính nào?",
     "options": [
-      "Sự phân bố các ngành kinh tế và dân cư",
-      "Cấu tạo địa chất trái đất",
-      "Hệ thống sông ngòi",
-      "Hoạt động của khí quyển"
+      "Địa lí tự nhiên và Địa lí kinh tế - xã hội",
+      "Địa lí tự nhiên và Địa chất",
+      "Địa lí kinh tế và Chính trị",
+      "Địa lí và Thiên văn"
     ],
     "correctIndex": 0,
-    "hint": "Nghiên cứu về con người và kinh tế.",
-    "explanation": "Nghiên cứu về con người và kinh tế.",
+    "hint": "Hai nhánh chính của môn Địa lí.",
+    "explanation": "Hai nhánh chính của môn Địa lí.",
     "category": "knowledge"
   },
   {
     "id": "Geo10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Trái Đất có hình dạng gì?",
+    "question": "Phương pháp kí hiệu trên bản đồ thường dùng để thể hiện đối tượng nào?",
     "options": [
-      "Hình cầu hơi dẹt ở hai cực",
-      "Hình tròn",
-      "Hình lập phương",
-      "Hình nón"
+      "Đối tượng phân bố theo điểm (sân bay, mỏ khoáng sản)",
+      "Đối tượng phân bố theo vùng",
+      "Sự di chuyển của các dòng hải lưu",
+      "Mật độ dân số"
     ],
     "correctIndex": 0,
-    "hint": "Bán kính xích đạo lớn hơn.",
-    "explanation": "Bán kính xích đạo lớn hơn.",
+    "hint": "Kí hiệu điểm.",
+    "explanation": "Kí hiệu điểm.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Geo10_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Trái Đất là hành tinh thứ mấy trong Hệ Mặt Trời (tính từ Mặt Trời ra)?",
+    "options": [
+      "Thứ 3",
+      "Thứ 1",
+      "Thứ 5",
+      "Thứ 8"
+    ],
+    "correctIndex": 0,
+    "hint": "Thủy, Kim, Trái Đất, Hỏa...",
+    "explanation": "Thủy, Kim, Trái Đất, Hỏa...",
+    "category": "knowledge"
+  },
+  {
+    "id": "Geo10_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Hệ quả chuyển động tự quay quanh trục của Trái Đất là?",
+    "options": [
+      "Sự luân phiên ngày và đêm",
+      "Hiện tượng mùa",
+      "Ngày đêm dài ngắn theo mùa",
+      "Nguyệt thực"
+    ],
+    "correctIndex": 0,
+    "hint": "Do Trái Đất hình cầu và tự quay.",
+    "explanation": "Do Trái Đất hình cầu và tự quay.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Geo10_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Lớp vỏ Trái Đất được cấu tạo chủ yếu từ gì?",
+    "options": [
+      "Các mảng kiến tạo (đá rắn)",
+      "Magma lỏng",
+      "Sắt và Niken nóng chảy",
+      "Khí hydro"
+    ],
+    "correctIndex": 0,
+    "hint": "Độ dày khoảng 5 - 70km.",
+    "explanation": "Độ dày khoảng 5 - 70km.",
     "category": "knowledge"
   },
   {

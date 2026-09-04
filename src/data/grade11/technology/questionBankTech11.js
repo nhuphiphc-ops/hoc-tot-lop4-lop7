@@ -54,80 +54,80 @@ export const QUESTION_BANK_TECH11 = [
     "id": "Tech11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bản vẽ kĩ thuật là gì?",
+    "question": "Cơ khí chế tạo có vai trò gì trong sản xuất?",
     "options": [
-      "Là ngôn ngữ chung dùng trong kĩ thuật",
-      "Là bức tranh nghệ thuật",
-      "Là văn bản hướng dẫn sử dụng",
-      "Là bản nháp thiết kế"
+      "Cung cấp thiết bị, máy móc cho các ngành kinh tế",
+      "Sản xuất ra lúa gạo",
+      "Chữa bệnh cho con người",
+      "Vẽ tranh nghệ thuật"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để giao tiếp trong thiết kế.",
-    "explanation": "Dùng để giao tiếp trong thiết kế.",
+    "hint": "Ngành công nghiệp nền tảng.",
+    "explanation": "Ngành công nghiệp nền tảng.",
     "category": "knowledge"
   },
   {
     "id": "Tech11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hình chiếu bằng có hướng chiếu từ đâu?",
+    "question": "Vật liệu cơ khí được chia thành các nhóm chính nào?",
     "options": [
-      "Từ trên xuống",
-      "Từ trước tới",
-      "Từ trái sang",
-      "Từ phải sang"
+      "Vật liệu kim loại và phi kim loại",
+      "Vật liệu lỏng và vật liệu khí",
+      "Vật liệu điện và vật liệu từ",
+      "Vật liệu hữu cơ và vô cơ"
     ],
     "correctIndex": 0,
-    "hint": "Hình chiếu từ trên nhìn xuống.",
-    "explanation": "Hình chiếu từ trên nhìn xuống.",
+    "hint": "Kim loại (sắt, đồng...) và phi kim (nhựa, cao su...).",
+    "explanation": "Kim loại (sắt, đồng...) và phi kim (nhựa, cao su...).",
     "category": "knowledge"
   },
   {
     "id": "Tech11_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vật liệu kim loại thường có tính chất gì?",
+    "question": "Gia công cắt gọt kim loại là phương pháp?",
     "options": [
-      "Dẫn điện, dẫn nhiệt tốt",
-      "Cách điện tốt",
-      "Rất nhẹ",
-      "Dễ vỡ"
+      "Bóc đi lớp vật liệu thừa để tạo hình chi tiết",
+      "Nung chảy kim loại rồi đổ vào khuôn",
+      "Dùng búa đập kim loại",
+      "Gắn các tấm kim loại bằng hồ quang điện"
     ],
     "correctIndex": 0,
-    "hint": "Sắt, đồng, nhôm.",
-    "explanation": "Sắt, đồng, nhôm.",
+    "hint": "Ví dụ: Tiện, phay, bào.",
+    "explanation": "Ví dụ: Tiện, phay, bào.",
     "category": "knowledge"
   },
   {
     "id": "Tech11_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Mối ghép bằng ren thuộc loại mối ghép nào?",
+    "question": "Phương pháp đúc là phương pháp gia công như thế nào?",
     "options": [
-      "Mối ghép tháo được",
-      "Mối ghép không tháo được",
-      "Mối ghép đinh tán",
-      "Mối ghép hàn"
+      "Nấu chảy kim loại và rót vào khuôn",
+      "Cắt bằng tia laser",
+      "Mài nhẵn bề mặt",
+      "Uốn cong tấm thép"
     ],
     "correctIndex": 0,
-    "hint": "Có thể vặn ốc để tháo ra.",
-    "explanation": "Có thể vặn ốc để tháo ra.",
+    "hint": "Sản phẩm thu được gọi là vật đúc.",
+    "explanation": "Sản phẩm thu được gọi là vật đúc.",
     "category": "knowledge"
   },
   {
     "id": "Tech11_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để phòng ngừa tai nạn điện, ta không nên làm gì?",
+    "question": "Tự động hóa trong chế tạo cơ khí mang lại ưu điểm gì?",
     "options": [
-      "Sử dụng dây điện bị hở cách điện",
-      "Tắt công tắc trước khi sửa chữa",
-      "Dùng dụng cụ có chuôi cách điện",
-      "Kiểm tra rò điện định kỳ"
+      "Tăng năng suất, độ chính xác cao và giảm sức lao động của con người",
+      "Làm quá trình sản xuất chậm đi",
+      "Yêu cầu con người phải làm việc nặng nhọc hơn",
+      "Làm giảm chất lượng sản phẩm"
     ],
     "correctIndex": 0,
-    "hint": "Dây hở rất nguy hiểm.",
-    "explanation": "Dây hở rất nguy hiểm.",
+    "hint": "Sử dụng robot và CNC.",
+    "explanation": "Sử dụng robot và CNC.",
     "category": "knowledge"
   },
   {

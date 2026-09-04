@@ -54,80 +54,80 @@ export const QUESTION_BANK_ENG8 = [
     "id": "Eng8_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Choose the correct answer: I _____ to school by bus every day.",
+    "question": "Choose the correct word: My brother loves _____ models in his free time.",
     "options": [
-      "go",
-      "goes",
-      "going",
-      "went"
+      "making",
+      "doing",
+      "playing",
+      "taking"
     ],
     "correctIndex": 0,
-    "hint": "Thì hiện tại đơn với chủ ngữ I.",
-    "explanation": "Thì hiện tại đơn với chủ ngữ I.",
+    "hint": "Cụm từ 'make models' (lắp ráp mô hình).",
+    "explanation": "Cụm từ 'make models' (lắp ráp mô hình).",
     "category": "knowledge"
   },
   {
     "id": "Eng8_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "My father _____ television in the living room now.",
+    "question": "Teenagers today are _____ than they were in the past.",
     "options": [
-      "watches",
-      "watched",
-      "is watching",
-      "watching"
+      "more independent",
+      "independenter",
+      "most independent",
+      "the more independent"
     ],
-    "correctIndex": 2,
-    "hint": "Có 'now' -> hiện tại tiếp diễn.",
-    "explanation": "Có 'now' -> hiện tại tiếp diễn.",
+    "correctIndex": 0,
+    "hint": "So sánh hơn với tính từ dài.",
+    "explanation": "So sánh hơn với tính từ dài.",
     "category": "knowledge"
   },
   {
     "id": "Eng8_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "They have lived here _____ 2010.",
+    "question": "I enjoy _____ to traditional music.",
     "options": [
-      "for",
-      "since",
-      "in",
-      "on"
+      "listening",
+      "to listen",
+      "listen",
+      "listened"
     ],
-    "correctIndex": 1,
-    "hint": "since + mốc thời gian.",
-    "explanation": "since + mốc thời gian.",
+    "correctIndex": 0,
+    "hint": "enjoy + V-ing.",
+    "explanation": "enjoy + V-ing.",
     "category": "knowledge"
   },
   {
     "id": "Eng8_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "She is the _____ student in our class.",
+    "question": "A _____ is a traditional story that usually involves magic or fairies.",
     "options": [
-      "tall",
-      "taller",
-      "tallest",
-      "most tall"
+      "fairy tale",
+      "legend",
+      "fable",
+      "folk tale"
     ],
-    "correctIndex": 2,
-    "hint": "So sánh nhất với tính từ ngắn.",
-    "explanation": "So sánh nhất với tính từ ngắn.",
+    "correctIndex": 0,
+    "hint": "Fairy tale = truyện cổ tích.",
+    "explanation": "Fairy tale = truyện cổ tích.",
     "category": "knowledge"
   },
   {
     "id": "Eng8_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "If it rains tomorrow, we _____ at home.",
+    "question": "We _____ a lot of photos when we visited the museum last week.",
     "options": [
-      "stay",
-      "will stay",
-      "stayed",
-      "would stay"
+      "took",
+      "make",
+      "did",
+      "caught"
     ],
-    "correctIndex": 1,
-    "hint": "Câu điều kiện loại 1.",
-    "explanation": "Câu điều kiện loại 1.",
+    "correctIndex": 0,
+    "hint": "Cụm từ 'take photos' và chia ở quá khứ đơn (took).",
+    "explanation": "Cụm từ 'take photos' và chia ở quá khứ đơn (took).",
     "category": "knowledge"
   },
   {

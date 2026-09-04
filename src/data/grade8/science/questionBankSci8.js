@@ -54,80 +54,80 @@ export const QUESTION_BANK_SCI8 = [
     "id": "Sci8_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đơn vị đo khối lượng riêng trong hệ SI là gì?",
+    "question": "Khối lượng mol của một chất là gì?",
     "options": [
-      "kg/m³",
-      "g/cm³",
-      "N/m³",
-      "kg/m²"
+      "Khối lượng của 1 mol chất đó",
+      "Thể tích của 1 mol chất đó",
+      "Số hạt vi mô trong 1 mol",
+      "Khối lượng của 1 nguyên tử"
     ],
     "correctIndex": 0,
-    "hint": "Khối lượng chia thể tích.",
-    "explanation": "Khối lượng chia thể tích.",
+    "hint": "Đơn vị thường dùng là g/mol.",
+    "explanation": "Đơn vị thường dùng là g/mol.",
     "category": "knowledge"
   },
   {
     "id": "Sci8_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Tác dụng của ròng rọc cố định là gì?",
+    "question": "Phương trình hóa học cho biết điều gì?",
     "options": [
-      "Làm thay đổi hướng của lực kéo",
-      "Giảm lực kéo",
-      "Tăng lực kéo",
-      "Giảm quãng đường kéo"
+      "Tỉ lệ số mol của các chất tham gia và sản phẩm",
+      "Trạng thái của các chất",
+      "Màu sắc của các chất",
+      "Tốc độ phản ứng"
     ],
     "correctIndex": 0,
-    "hint": "Ròng rọc cố định chỉ đổi hướng.",
-    "explanation": "Ròng rọc cố định chỉ đổi hướng.",
+    "hint": "Ý nghĩa của phương trình hóa học.",
+    "explanation": "Ý nghĩa của phương trình hóa học.",
     "category": "knowledge"
   },
   {
     "id": "Sci8_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Phản ứng hóa học là quá trình?",
+    "question": "Tác dụng của đòn bẩy là gì?",
     "options": [
-      "Biến đổi chất này thành chất khác",
-      "Thay đổi trạng thái của chất",
-      "Hòa tan chất rắn",
-      "Đun sôi chất lỏng"
+      "Thay đổi hướng và độ lớn của lực",
+      "Chỉ thay đổi hướng của lực",
+      "Giảm ma sát",
+      "Tăng khối lượng vật"
     ],
     "correctIndex": 0,
-    "hint": "Bản chất của phản ứng hóa học.",
-    "explanation": "Bản chất của phản ứng hóa học.",
+    "hint": "Đòn bẩy giúp nâng vật dễ dàng hơn.",
+    "explanation": "Đòn bẩy giúp nâng vật dễ dàng hơn.",
     "category": "knowledge"
   },
   {
     "id": "Sci8_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hệ hô hấp của con người có chức năng chính là gì?",
+    "question": "Hệ vận động của cơ thể người gồm những bộ phận chính nào?",
     "options": [
-      "Trao đổi khí O2 và CO2",
-      "Tiêu hóa thức ăn",
-      "Bơm máu đi khắp cơ thể",
-      "Lọc máu"
+      "Cơ và xương",
+      "Tim và mạch máu",
+      "Phổi và khí quản",
+      "Dạ dày và ruột"
     ],
     "correctIndex": 0,
-    "hint": "O2 vào, CO2 ra.",
-    "explanation": "O2 vào, CO2 ra.",
+    "hint": "Cơ bám vào xương để tạo cử động.",
+    "explanation": "Cơ bám vào xương để tạo cử động.",
     "category": "knowledge"
   },
   {
     "id": "Sci8_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Dòng điện là gì?",
+    "question": "Đơn vị đo áp suất là gì?",
     "options": [
-      "Dòng các điện tích dịch chuyển có hướng",
-      "Dòng nước chảy",
-      "Dòng các hạt nơtron",
-      "Dòng không khí chuyển động"
+      "Pascal (Pa)",
+      "Newton (N)",
+      "Joule (J)",
+      "Watt (W)"
     ],
     "correctIndex": 0,
-    "hint": "Định nghĩa dòng điện.",
-    "explanation": "Định nghĩa dòng điện.",
+    "hint": "1 Pa = 1 N/m².",
+    "explanation": "1 Pa = 1 N/m².",
     "category": "knowledge"
   },
   {

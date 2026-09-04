@@ -56,14 +56,14 @@ export const QUESTION_BANK_IT9 = [
     "type": "multiple-choice",
     "question": "Mạng máy tính là gì?",
     "options": [
-      "Tập hợp các máy tính được kết nối với nhau để chia sẻ tài nguyên",
+      "Tập hợp các máy tính được kết nối để chia sẻ tài nguyên",
       "Một máy tính duy nhất",
-      "Một phần mềm diệt virus",
-      "Một loại cáp mạng"
+      "Một phần mềm",
+      "Một loại cáp"
     ],
     "correctIndex": 0,
-    "hint": "Kết nối để trao đổi dữ liệu.",
-    "explanation": "Kết nối để trao đổi dữ liệu.",
+    "hint": "Ví dụ mạng LAN.",
+    "explanation": "Ví dụ mạng LAN.",
     "category": "knowledge"
   },
   {
@@ -73,61 +73,61 @@ export const QUESTION_BANK_IT9 = [
     "question": "Internet là mạng gì?",
     "options": [
       "Mạng toàn cầu",
-      "Mạng cục bộ (LAN)",
-      "Mạng diện rộng (WAN)",
-      "Mạng cá nhân (PAN)"
+      "Mạng cục bộ",
+      "Mạng cá nhân",
+      "Mạng không dây gia đình"
     ],
     "correctIndex": 0,
-    "hint": "Kết nối hàng triệu máy tính trên thế giới.",
-    "explanation": "Kết nối hàng triệu máy tính trên thế giới.",
+    "hint": "Kết nối hàng triệu thiết bị.",
+    "explanation": "Kết nối hàng triệu thiết bị.",
     "category": "knowledge"
   },
   {
     "id": "IT9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Phần mềm nào là trình duyệt web?",
+    "question": "HTML dùng để làm gì?",
     "options": [
-      "Google Chrome",
-      "Microsoft Word",
-      "Adobe Photoshop",
-      "Windows 10"
+      "Thiết kế trang web",
+      "Diệt virus",
+      "Soạn thảo văn bản",
+      "Nghe nhạc"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để truy cập các trang web.",
-    "explanation": "Dùng để truy cập các trang web.",
+    "hint": "Ngôn ngữ đánh dấu siêu văn bản.",
+    "explanation": "Ngôn ngữ đánh dấu siêu văn bản.",
     "category": "knowledge"
   },
   {
     "id": "IT9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Virus máy tính là gì?",
+    "question": "Hành vi nào dễ làm máy tính nhiễm mã độc?",
     "options": [
-      "Một chương trình máy tính có khả năng tự sao chép và gây hại",
-      "Một loại vi khuẩn gây bệnh cho người",
-      "Một thiết bị phần cứng bị lỗi",
-      "Một lỗi trong hệ điều hành"
+      "Tải file từ nguồn không rõ nguồn gốc",
+      "Cập nhật hệ điều hành",
+      "Dùng phần mềm có bản quyền",
+      "Xem video trên Youtube"
     ],
     "correctIndex": 0,
-    "hint": "Phần mềm độc hại.",
-    "explanation": "Phần mềm độc hại.",
+    "hint": "Rủi ro an toàn thông tin.",
+    "explanation": "Rủi ro an toàn thông tin.",
     "category": "knowledge"
   },
   {
     "id": "IT9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "HTML là ngôn ngữ dùng để làm gì?",
+    "question": "Thẻ <a> trong HTML có chức năng gì?",
     "options": [
-      "Tạo các trang web",
-      "Lập trình ứng dụng điện thoại",
-      "Quản lý cơ sở dữ liệu",
-      "Chỉnh sửa ảnh"
+      "Tạo siêu liên kết (link)",
+      "Chèn hình ảnh",
+      "Tạo bảng",
+      "Tạo đoạn văn"
     ],
     "correctIndex": 0,
-    "hint": "HyperText Markup Language.",
-    "explanation": "HyperText Markup Language.",
+    "hint": "a viết tắt của anchor.",
+    "explanation": "a viết tắt của anchor.",
     "category": "knowledge"
   },
   {

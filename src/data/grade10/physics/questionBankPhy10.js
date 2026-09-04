@@ -54,32 +54,80 @@ export const QUESTION_BANK_PHY10 = [
     "id": "Phy10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đại lượng đặc trưng cho khả năng sinh công là gì?",
+    "question": "Đối tượng nghiên cứu của Vật lí học là gì?",
     "options": [
-      "Năng lượng",
-      "Lực",
-      "Vận tốc",
-      "Gia tốc"
+      "Các dạng vận động của vật chất và năng lượng",
+      "Thành phần hóa học của vật chất",
+      "Sự tiến hóa của sinh vật",
+      "Cấu trúc vỏ trái đất"
     ],
     "correctIndex": 0,
-    "hint": "Đơn vị là Joule.",
-    "explanation": "Đơn vị là Joule.",
+    "hint": "Nghiên cứu về tự nhiên, cơ, nhiệt, điện...",
+    "explanation": "Nghiên cứu về tự nhiên, cơ, nhiệt, điện...",
     "category": "knowledge"
   },
   {
     "id": "Phy10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đơn vị của gia tốc trong hệ SI là?",
+    "question": "Đơn vị của vận tốc trong hệ SI là?",
     "options": [
-      "m/s²",
       "m/s",
-      "N",
-      "J"
+      "km/h",
+      "m/s²",
+      "N"
     ],
     "correctIndex": 0,
-    "hint": "Thay đổi vận tốc theo thời gian.",
-    "explanation": "Thay đổi vận tốc theo thời gian.",
+    "hint": "Mét trên giây.",
+    "explanation": "Mét trên giây.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Phy10_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Chuyển động thẳng đều có đặc điểm gì?",
+    "options": [
+      "Vận tốc không đổi theo thời gian",
+      "Vận tốc thay đổi liên tục",
+      "Gia tốc khác không",
+      "Quỹ đạo là đường cong"
+    ],
+    "correctIndex": 0,
+    "hint": "Gia tốc bằng 0.",
+    "explanation": "Gia tốc bằng 0.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Phy10_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Sai số hệ thống là loại sai số do?",
+    "options": [
+      "Dụng cụ đo hoặc phương pháp đo",
+      "Sự thiếu cẩn thận của người đo",
+      "Yếu tố ngẫu nhiên",
+      "Điều kiện thời tiết"
+    ],
+    "correctIndex": 0,
+    "hint": "Sai số có tính quy luật.",
+    "explanation": "Sai số có tính quy luật.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Phy10_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Gia tốc rơi tự do (g) ở gần mặt đất có giá trị xấp xỉ bằng bao nhiêu?",
+    "options": [
+      "9,8 m/s²",
+      "10 m/s",
+      "3,14 m/s²",
+      "100 m/s²"
+    ],
+    "correctIndex": 0,
+    "hint": "Hoặc lấy tròn là 10 m/s².",
+    "explanation": "Hoặc lấy tròn là 10 m/s².",
     "category": "knowledge"
   },
   {

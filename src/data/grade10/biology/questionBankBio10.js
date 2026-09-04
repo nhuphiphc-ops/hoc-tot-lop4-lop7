@@ -54,32 +54,80 @@ export const QUESTION_BANK_BIO10 = [
     "id": "Bio10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bào quan nào được ví như 'nhà máy năng lượng' của tế bào?",
+    "question": "Cấp độ tổ chức sống cơ bản nhất của mọi sinh vật là gì?",
     "options": [
-      "Ti thể",
-      "Lục lạp",
-      "Ribôxôm",
-      "Không bào"
+      "Tế bào",
+      "Mô",
+      "Cơ quan",
+      "Hệ cơ quan"
     ],
     "correctIndex": 0,
-    "hint": "Nơi diễn ra hô hấp tế bào.",
-    "explanation": "Nơi diễn ra hô hấp tế bào.",
+    "hint": "Mọi sinh vật đều được cấu tạo từ tế bào.",
+    "explanation": "Mọi sinh vật đều được cấu tạo từ tế bào.",
     "category": "knowledge"
   },
   {
     "id": "Bio10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vật chất di truyền chủ yếu ở sinh vật nhân thực là?",
+    "question": "Đặc điểm chung của thế giới sống là?",
     "options": [
-      "DNA",
-      "RNA",
-      "Protein",
-      "Lipid"
+      "Tổ chức theo thứ bậc, hệ thống mở, tự điều chỉnh và tiến hóa",
+      "Hệ thống khép kín",
+      "Không có khả năng tiến hóa",
+      "Chỉ gồm các tế bào độc lập"
     ],
     "correctIndex": 0,
-    "hint": "Nằm trong nhân tế bào.",
-    "explanation": "Nằm trong nhân tế bào.",
+    "hint": "Các đặc điểm cơ bản của sự sống.",
+    "explanation": "Các đặc điểm cơ bản của sự sống.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Bio10_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Cacbohidrat (đường) trong tế bào có vai trò chủ yếu là gì?",
+    "options": [
+      "Cung cấp năng lượng",
+      "Lưu trữ thông tin di truyền",
+      "Xúc tác phản ứng",
+      "Bảo vệ nhân tế bào"
+    ],
+    "correctIndex": 0,
+    "hint": "Đặc biệt là glucose.",
+    "explanation": "Đặc biệt là glucose.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Bio10_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Thành tế bào của thực vật được cấu tạo chủ yếu từ chất nào?",
+    "options": [
+      "Xenlulozơ",
+      "Kitin",
+      "Peptidoglycan",
+      "Photpholipit"
+    ],
+    "correctIndex": 0,
+    "hint": "Giúp bảo vệ và tạo hình dạng cho tế bào.",
+    "explanation": "Giúp bảo vệ và tạo hình dạng cho tế bào.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Bio10_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Thành phần cấu tạo nên phân tử ADN là các đơn phân nào?",
+    "options": [
+      "Nucleotit",
+      "Axit amin",
+      "Monosaccarit",
+      "Axit béo"
+    ],
+    "correctIndex": 0,
+    "hint": "Gồm A, T, G, X.",
+    "explanation": "Gồm A, T, G, X.",
     "category": "knowledge"
   },
   {

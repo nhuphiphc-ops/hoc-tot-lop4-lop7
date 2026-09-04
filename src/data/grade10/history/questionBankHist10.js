@@ -54,32 +54,80 @@ export const QUESTION_BANK_HIST10 = [
     "id": "Hist10_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Văn minh Văn Lang - Âu Lạc thuộc thời đại nào?",
+    "question": "Khái niệm Lịch sử được hiểu như thế nào?",
     "options": [
-      "Thời đại đồ đồng - sắt sớm",
-      "Thời kỳ đá cũ",
-      "Thời kỳ phong kiến",
-      "Thời kỳ thuộc Pháp"
+      "Là những gì đã diễn ra trong quá khứ của loài người",
+      "Là những dự đoán về tương lai",
+      "Là các câu chuyện cổ tích",
+      "Là sự thay đổi của thời tiết"
     ],
     "correctIndex": 0,
-    "hint": "Thời đại Hùng Vương.",
-    "explanation": "Thời đại Hùng Vương.",
+    "hint": "Hiện thực lịch sử.",
+    "explanation": "Hiện thực lịch sử.",
     "category": "knowledge"
   },
   {
     "id": "Hist10_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Sự kiện nào đánh dấu bước ngoặt của lịch sử Việt Nam năm 938?",
+    "question": "Sử học có chức năng chính là gì?",
     "options": [
-      "Chiến thắng Bạch Đằng",
-      "Khởi nghĩa Hai Bà Trưng",
-      "Lý Thái Tổ dời đô",
-      "Khởi nghĩa Lam Sơn"
+      "Khôi phục hiện thực lịch sử và rút ra bài học",
+      "Phát minh khoa học công nghệ",
+      "Chữa bệnh cho con người",
+      "Nghiên cứu về khí hậu"
     ],
     "correctIndex": 0,
-    "hint": "Do Ngô Quyền lãnh đạo.",
-    "explanation": "Do Ngô Quyền lãnh đạo.",
+    "hint": "Chức năng khoa học và xã hội.",
+    "explanation": "Chức năng khoa học và xã hội.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Hist10_W1_Q3",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Bốn trung tâm văn minh lớn của phương Đông cổ đại là?",
+    "options": [
+      "Ai Cập, Lưỡng Hà, Ấn Độ, Trung Hoa",
+      "Hy Lạp, La Mã, Ả Rập, Ba Tư",
+      "Anh, Pháp, Đức, Nga",
+      "Maya, Aztec, Inca, Olmec"
+    ],
+    "correctIndex": 0,
+    "hint": "Ra đời trên các lưu vực sông lớn.",
+    "explanation": "Ra đời trên các lưu vực sông lớn.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Hist10_W1_Q4",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Đền Parthenon là công trình kiến trúc tiêu biểu của nền văn minh nào?",
+    "options": [
+      "Hy Lạp cổ đại",
+      "La Mã cổ đại",
+      "Ai Cập cổ đại",
+      "Trung Hoa cổ đại"
+    ],
+    "correctIndex": 0,
+    "hint": "Nằm ở Athens.",
+    "explanation": "Nằm ở Athens.",
+    "category": "knowledge"
+  },
+  {
+    "id": "Hist10_W1_Q5",
+    "week": 1,
+    "type": "multiple-choice",
+    "question": "Chữ viết đầu tiên của người Ai Cập cổ đại là loại chữ gì?",
+    "options": [
+      "Chữ tượng hình",
+      "Chữ hình nêm",
+      "Chữ Latinh",
+      "Chữ Hán"
+    ],
+    "correctIndex": 0,
+    "hint": "Viết trên giấy Papyrus.",
+    "explanation": "Viết trên giấy Papyrus.",
     "category": "knowledge"
   },
   {

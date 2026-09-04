@@ -54,80 +54,80 @@ export const QUESTION_BANK_SCI9 = [
     "id": "Sci9_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Đơn vị đo khối lượng riêng trong hệ SI là gì?",
+    "question": "Thế năng hấp dẫn của một vật phụ thuộc vào yếu tố nào?",
     "options": [
-      "kg/m³",
-      "g/cm³",
-      "N/m³",
-      "kg/m²"
+      "Khối lượng và độ cao",
+      "Vận tốc và khối lượng",
+      "Khối lượng và nhiệt độ",
+      "Độ cao và vận tốc"
     ],
     "correctIndex": 0,
-    "hint": "Khối lượng chia thể tích.",
-    "explanation": "Khối lượng chia thể tích.",
+    "hint": "Wt = m.g.h",
+    "explanation": "Wt = m.g.h",
     "category": "knowledge"
   },
   {
     "id": "Sci9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Tác dụng của ròng rọc cố định là gì?",
+    "question": "Sự chuyển hóa năng lượng nào xảy ra trong động cơ điện?",
     "options": [
-      "Làm thay đổi hướng của lực kéo",
-      "Giảm lực kéo",
-      "Tăng lực kéo",
-      "Giảm quãng đường kéo"
+      "Điện năng thành cơ năng",
+      "Cơ năng thành điện năng",
+      "Nhiệt năng thành điện năng",
+      "Hóa năng thành cơ năng"
     ],
     "correctIndex": 0,
-    "hint": "Ròng rọc cố định chỉ đổi hướng.",
-    "explanation": "Ròng rọc cố định chỉ đổi hướng.",
+    "hint": "Động cơ điện quay khi có điện.",
+    "explanation": "Động cơ điện quay khi có điện.",
     "category": "knowledge"
   },
   {
     "id": "Sci9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Phản ứng hóa học là quá trình?",
+    "question": "Tính chất hóa học chung của kim loại là gì?",
     "options": [
-      "Biến đổi chất này thành chất khác",
-      "Thay đổi trạng thái của chất",
-      "Hòa tan chất rắn",
-      "Đun sôi chất lỏng"
+      "Tác dụng với phi kim, dung dịch axit, muối",
+      "Không phản ứng với axit",
+      "Tan trong nước",
+      "Chỉ tác dụng với bazơ"
     ],
     "correctIndex": 0,
-    "hint": "Bản chất của phản ứng hóa học.",
-    "explanation": "Bản chất của phản ứng hóa học.",
+    "hint": "Thể hiện tính khử.",
+    "explanation": "Thể hiện tính khử.",
     "category": "knowledge"
   },
   {
     "id": "Sci9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hệ hô hấp của con người có chức năng chính là gì?",
+    "question": "Di truyền học là ngành khoa học nghiên cứu về?",
     "options": [
-      "Trao đổi khí O2 và CO2",
-      "Tiêu hóa thức ăn",
-      "Bơm máu đi khắp cơ thể",
-      "Lọc máu"
+      "Tính di truyền và biến dị",
+      "Sự phân bố của động vật",
+      "Quá trình quang hợp",
+      "Hoạt động của vi khuẩn"
     ],
     "correctIndex": 0,
-    "hint": "O2 vào, CO2 ra.",
-    "explanation": "O2 vào, CO2 ra.",
+    "hint": "Do Men-đen đặt nền móng.",
+    "explanation": "Do Men-đen đặt nền móng.",
     "category": "knowledge"
   },
   {
     "id": "Sci9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Dòng điện là gì?",
+    "question": "Hiện tượng khúc xạ ánh sáng là gì?",
     "options": [
-      "Dòng các điện tích dịch chuyển có hướng",
-      "Dòng nước chảy",
-      "Dòng các hạt nơtron",
-      "Dòng không khí chuyển động"
+      "Ánh sáng bị gãy khúc khi truyền qua mặt phân cách 2 môi trường",
+      "Ánh sáng bật ngược lại khi gặp gương",
+      "Ánh sáng đi thẳng",
+      "Ánh sáng bị hấp thụ hoàn toàn"
     ],
     "correctIndex": 0,
-    "hint": "Định nghĩa dòng điện.",
-    "explanation": "Định nghĩa dòng điện.",
+    "hint": "Ví dụ: chiếc đũa gãy trong cốc nước.",
+    "explanation": "Ví dụ: chiếc đũa gãy trong cốc nước.",
     "category": "knowledge"
   },
   {

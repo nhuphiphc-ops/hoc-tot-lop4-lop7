@@ -54,80 +54,80 @@ export const QUESTION_BANK_CIV8 = [
     "id": "Civ8_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bảo vệ lẽ phải có ý nghĩa như thế nào?",
+    "question": "Tự hào về truyền thống dân tộc là?",
     "options": [
-      "Giúp xã hội công bằng, ổn định và phát triển",
-      "Gây chia rẽ nội bộ",
-      "Chỉ mang lại lợi ích cho cá nhân",
-      "Làm mất lòng mọi người"
+      "Trân trọng, giữ gìn và phát huy những giá trị tốt đẹp của dân tộc",
+      "Bỏ qua các nét văn hóa cũ",
+      "Chỉ học theo văn hóa phương Tây",
+      "Giữ kín truyền thống không cho ai biết"
     ],
     "correctIndex": 0,
-    "hint": "Lẽ phải là điều đúng đắn.",
-    "explanation": "Lẽ phải là điều đúng đắn.",
+    "hint": "Truyền thống là nguồn sức mạnh.",
+    "explanation": "Truyền thống là nguồn sức mạnh.",
     "category": "knowledge"
   },
   {
     "id": "Civ8_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Tôn trọng người khác thể hiện qua hành động nào?",
+    "question": "Hành vi nào thể hiện sự tôn trọng sự đa dạng của các dân tộc?",
     "options": [
-      "Lắng nghe ý kiến của người khác",
-      "Ngắt lời người khác khi đang nói",
-      "Chỉ làm theo ý mình",
-      "Phân biệt đối xử"
+      "Giao lưu, học hỏi nét đẹp văn hóa của dân tộc khác",
+      "Kỳ thị người có màu da khác",
+      "Ép buộc người khác theo văn hóa của mình",
+      "Chê bai phong tục của quốc gia khác"
     ],
     "correctIndex": 0,
-    "hint": "Tôn trọng ý kiến người khác.",
-    "explanation": "Tôn trọng ý kiến người khác.",
+    "hint": "Đa dạng văn hóa là tài sản chung.",
+    "explanation": "Đa dạng văn hóa là tài sản chung.",
     "category": "knowledge"
   },
   {
     "id": "Civ8_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Pháp luật có đặc điểm gì?",
+    "question": "Lao động có vai trò gì đối với con người?",
     "options": [
-      "Tính quy phạm phổ biến, tính bắt buộc chung",
-      "Chỉ áp dụng cho một nhóm người",
-      "Không có tính ép buộc",
-      "Tùy ý thực hiện"
+      "Tạo ra của cải vật chất và tinh thần để nuôi sống con người",
+      "Gây mệt mỏi và tốn thời gian",
+      "Chỉ dành cho những người không có tiền",
+      "Làm mất tự do cá nhân"
     ],
     "correctIndex": 0,
-    "hint": "Ai cũng phải tuân thủ.",
-    "explanation": "Ai cũng phải tuân thủ.",
+    "hint": "Lao động là vinh quang.",
+    "explanation": "Lao động là vinh quang.",
     "category": "knowledge"
   },
   {
     "id": "Civ8_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Nghĩa vụ của công dân đối với Tổ quốc là gì?",
+    "question": "Bảo vệ môi trường là trách nhiệm của ai?",
     "options": [
-      "Trung thành và bảo vệ Tổ quốc",
-      "Chỉ tập trung làm giàu cá nhân",
-      "Không quan tâm đến tình hình đất nước",
-      "Phá hoại tài sản công cộng"
+      "Tất cả mọi người",
+      "Chỉ của Nhà nước",
+      "Chỉ của công nhân vệ sinh",
+      "Của người lớn"
     ],
     "correctIndex": 0,
-    "hint": "Bảo vệ đất nước.",
-    "explanation": "Bảo vệ đất nước.",
+    "hint": "Bảo vệ môi trường là bảo vệ cuộc sống.",
+    "explanation": "Bảo vệ môi trường là bảo vệ cuộc sống.",
     "category": "knowledge"
   },
   {
     "id": "Civ8_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Tính tự lập giúp chúng ta điều gì?",
+    "question": "Quyền tự do ngôn luận có nghĩa là?",
     "options": [
-      "Vượt qua khó khăn, tự tin trong cuộc sống",
-      "Sống ỷ lại vào gia đình",
-      "Không cần học hỏi ai",
-      "Tách biệt khỏi xã hội"
+      "Được bày tỏ ý kiến theo quy định của pháp luật",
+      "Được nói bất cứ điều gì mình thích",
+      "Được phép vu khống người khác",
+      "Được tiết lộ bí mật quốc gia"
     ],
     "correctIndex": 0,
-    "hint": "Tự lập là tự giải quyết vấn đề.",
-    "explanation": "Tự lập là tự giải quyết vấn đề.",
+    "hint": "Tự do trong khuôn khổ pháp luật.",
+    "explanation": "Tự do trong khuôn khổ pháp luật.",
     "category": "knowledge"
   },
   {

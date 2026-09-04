@@ -54,80 +54,80 @@ export const QUESTION_BANK_ENG11 = [
     "id": "Eng11_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Choose the correct answer: I _____ to school by bus every day.",
+    "question": "The doctor advised me _____ more vegetables.",
     "options": [
-      "go",
-      "goes",
-      "going",
-      "went"
+      "to eat",
+      "eating",
+      "eat",
+      "ate"
     ],
     "correctIndex": 0,
-    "hint": "Thì hiện tại đơn với chủ ngữ I.",
-    "explanation": "Thì hiện tại đơn với chủ ngữ I.",
+    "hint": "Advise + O + to V.",
+    "explanation": "Advise + O + to V.",
     "category": "knowledge"
   },
   {
     "id": "Eng11_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "My father _____ television in the living room now.",
+    "question": "A _____ lifestyle is important for preventing diseases.",
     "options": [
-      "watches",
-      "watched",
-      "is watching",
-      "watching"
+      "healthy",
+      "health",
+      "healthily",
+      "healthier"
     ],
-    "correctIndex": 2,
-    "hint": "Có 'now' -> hiện tại tiếp diễn.",
-    "explanation": "Có 'now' -> hiện tại tiếp diễn.",
+    "correctIndex": 0,
+    "hint": "Tính từ đứng trước danh từ.",
+    "explanation": "Tính từ đứng trước danh từ.",
     "category": "knowledge"
   },
   {
     "id": "Eng11_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "They have lived here _____ 2010.",
+    "question": "Generation _____ refers to the differences in attitudes between older and younger people.",
     "options": [
-      "for",
-      "since",
-      "in",
-      "on"
+      "gap",
+      "space",
+      "distance",
+      "hole"
     ],
-    "correctIndex": 1,
-    "hint": "since + mốc thời gian.",
-    "explanation": "since + mốc thời gian.",
+    "correctIndex": 0,
+    "hint": "Generation gap = khoảng cách thế hệ.",
+    "explanation": "Generation gap = khoảng cách thế hệ.",
     "category": "knowledge"
   },
   {
     "id": "Eng11_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "She is the _____ student in our class.",
+    "question": "You _____ use your phone during the exam. It's forbidden.",
     "options": [
-      "tall",
-      "taller",
-      "tallest",
-      "most tall"
+      "mustn't",
+      "don't have to",
+      "needn't",
+      "should"
     ],
-    "correctIndex": 2,
-    "hint": "So sánh nhất với tính từ ngắn.",
-    "explanation": "So sánh nhất với tính từ ngắn.",
+    "correctIndex": 0,
+    "hint": "Chỉ sự cấm đoán.",
+    "explanation": "Chỉ sự cấm đoán.",
     "category": "knowledge"
   },
   {
     "id": "Eng11_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "If it rains tomorrow, we _____ at home.",
+    "question": "My grandmother is the person _____ taught me how to cook.",
     "options": [
-      "stay",
-      "will stay",
-      "stayed",
-      "would stay"
+      "who",
+      "which",
+      "whom",
+      "whose"
     ],
-    "correctIndex": 1,
-    "hint": "Câu điều kiện loại 1.",
-    "explanation": "Câu điều kiện loại 1.",
+    "correctIndex": 0,
+    "hint": "Đại từ quan hệ chỉ người làm chủ ngữ.",
+    "explanation": "Đại từ quan hệ chỉ người làm chủ ngữ.",
     "category": "knowledge"
   },
   {
