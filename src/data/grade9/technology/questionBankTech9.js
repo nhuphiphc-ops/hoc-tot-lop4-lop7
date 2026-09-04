@@ -54,80 +54,80 @@ export const QUESTION_BANK_TECH9 = [
     "id": "Tech9_W1_Q1",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Bản vẽ kĩ thuật là gì?",
+    "question": "Trong quy trình lắp ráp mạch điện, bước đầu tiên thường là gì?",
     "options": [
-      "Là ngôn ngữ chung dùng trong kĩ thuật",
-      "Là bức tranh nghệ thuật",
-      "Là văn bản hướng dẫn sử dụng",
-      "Là bản nháp thiết kế"
+      "Vạch dấu",
+      "Khoan lỗ",
+      "Lắp đặt thiết bị",
+      "Nối dây"
     ],
     "correctIndex": 0,
-    "hint": "Dùng để giao tiếp trong thiết kế.",
-    "explanation": "Dùng để giao tiếp trong thiết kế.",
+    "hint": "Xác định vị trí các thiết bị trên bảng điện.",
+    "explanation": "Xác định vị trí các thiết bị trên bảng điện.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q2",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Hình chiếu bằng có hướng chiếu từ đâu?",
+    "question": "Để đo điện áp, ta dùng dụng cụ đo nào?",
     "options": [
-      "Từ trên xuống",
-      "Từ trước tới",
-      "Từ trái sang",
-      "Từ phải sang"
+      "Vôn kế",
+      "Ampe kế",
+      "Ôm kế",
+      "Công tơ điện"
     ],
     "correctIndex": 0,
-    "hint": "Hình chiếu từ trên nhìn xuống.",
-    "explanation": "Hình chiếu từ trên nhìn xuống.",
+    "hint": "Ampe kế đo dòng điện, Vôn kế đo điện áp.",
+    "explanation": "Ampe kế đo dòng điện, Vôn kế đo điện áp.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q3",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Vật liệu kim loại thường có tính chất gì?",
+    "question": "Công tắc điện được mắc như thế nào trong mạch?",
     "options": [
-      "Dẫn điện, dẫn nhiệt tốt",
-      "Cách điện tốt",
-      "Rất nhẹ",
-      "Dễ vỡ"
+      "Nối tiếp với tải (bóng đèn)",
+      "Song song với tải",
+      "Nối trực tiếp vào hai dây nguồn",
+      "Không cần nối"
     ],
     "correctIndex": 0,
-    "hint": "Sắt, đồng, nhôm.",
-    "explanation": "Sắt, đồng, nhôm.",
+    "hint": "Để điều khiển đóng/ngắt mạch điện.",
+    "explanation": "Để điều khiển đóng/ngắt mạch điện.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q4",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Mối ghép bằng ren thuộc loại mối ghép nào?",
+    "question": "Mạng điện trong nhà thường có cấp điện áp là bao nhiêu?",
     "options": [
-      "Mối ghép tháo được",
-      "Mối ghép không tháo được",
-      "Mối ghép đinh tán",
-      "Mối ghép hàn"
+      "220V",
+      "110V",
+      "380V",
+      "500kV"
     ],
     "correctIndex": 0,
-    "hint": "Có thể vặn ốc để tháo ra.",
-    "explanation": "Có thể vặn ốc để tháo ra.",
+    "hint": "Mạng điện dân dụng ở Việt Nam.",
+    "explanation": "Mạng điện dân dụng ở Việt Nam.",
     "category": "knowledge"
   },
   {
     "id": "Tech9_W1_Q5",
     "week": 1,
     "type": "multiple-choice",
-    "question": "Để phòng ngừa tai nạn điện, ta không nên làm gì?",
+    "question": "Cầu chì có chức năng gì trong mạch điện?",
     "options": [
-      "Sử dụng dây điện bị hở cách điện",
-      "Tắt công tắc trước khi sửa chữa",
-      "Dùng dụng cụ có chuôi cách điện",
-      "Kiểm tra rò điện định kỳ"
+      "Bảo vệ mạch điện khi quá tải hoặc ngắn mạch",
+      "Điều khiển bật tắt đèn",
+      "Tăng điện áp",
+      "Giảm điện áp"
     ],
     "correctIndex": 0,
-    "hint": "Dây hở rất nguy hiểm.",
-    "explanation": "Dây hở rất nguy hiểm.",
+    "hint": "Sợi dây chảy sẽ đứt khi dòng điện quá lớn.",
+    "explanation": "Sợi dây chảy sẽ đứt khi dòng điện quá lớn.",
     "category": "knowledge"
   },
   {
