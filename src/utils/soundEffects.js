@@ -4,7 +4,11 @@ const AUDIO_PATHS = {
   PRAISE_NGUYEN: '/audio/voice_praise.mp3',
   ENCOURAGE_NGUYEN: '/audio/voice_encourage.mp3',
   PRAISE_MINH: '/audio/voice_praise_minh.mp3',
-  ENCOURAGE_MINH: '/audio/voice_encourage_minh.mp3'
+  ENCOURAGE_MINH: '/audio/voice_encourage_minh.mp3',
+  PRAISE_CHUOT: '/audio/voice_praise_chuot.mp3',
+  ENCOURAGE_CHUOT: '/audio/voice_encourage_chuot.mp3',
+  PRAISE_SOC: '/audio/voice_praise_soc.mp3',
+  ENCOURAGE_SOC: '/audio/voice_encourage_soc.mp3'
 };
 
 class SoundManager {
@@ -196,18 +200,18 @@ class SoundManager {
     } else if (['1', '2', '3', '4'].includes(g)) {
       if (score === 100) {
         this.playVictory();
-        setTimeout(() => this.playVoiceAudio(null, "Bé Chuột giỏi quá!"), delay);
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.PRAISE_CHUOT, "Bé Chuột giỏi quá!"), delay);
       } else {
         this.playCorrect();
-        setTimeout(() => this.playVoiceAudio(null, "Bé Chuột cố gắng thêm nhé!"), delay);
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_CHUOT, "Bé Chuột cố gắng thêm nhé!"), delay);
       }
     } else if (['5', '6'].includes(g)) {
       if (score === 100) {
         this.playVictory();
-        setTimeout(() => this.playVoiceAudio(null, "Bé Sóc giỏi quá!"), delay);
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.PRAISE_SOC, "Bé Sóc giỏi quá!"), delay);
       } else {
         this.playCorrect();
-        setTimeout(() => this.playVoiceAudio(null, "Bé Sóc cố gắng thêm nhé!"), delay);
+        setTimeout(() => this.playVoiceAudio(AUDIO_PATHS.ENCOURAGE_SOC, "Bé Sóc cố gắng thêm nhé!"), delay);
       }
     } else {
       if (score === 100) {
