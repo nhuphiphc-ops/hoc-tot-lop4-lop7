@@ -73,13 +73,12 @@ export const MemberManagement = () => {
 
   const getPermissionSummary = (perms) => {
     const vals = Object.values(perms || {});
-    const xem = vals.filter(v => v === 'xem').length;
-    const sua = vals.filter(v => v === 'sua').length;
+    const an = vals.filter(v => v === 'an').length;
+    const sua = vals.length - an;
     return (
       <div className="flex flex-col text-xs text-slate-300">
-        <span className="font-semibold text-sky-400">{vals.length}/{PHC_MODULES.length}</span>
-        <span>xem - <span className="text-amber-400">{sua}</span> sửa</span>
-        <span className="text-slate-500 text-[10px]">theo mẫu vai trò</span>
+        <span><span className="font-semibold text-sky-400">{sua}</span> sửa - <span className="text-slate-400">{an}</span> ẩn</span>
+        <span className="text-slate-500 text-[10px]">/{PHC_MODULES.length} lớp</span>
       </div>
     );
   };
@@ -88,10 +87,7 @@ export const MemberManagement = () => {
     if (!editingUser) return;
     const newPerms = {};
     PHC_MODULES.forEach(m => {
-      if (roleId === 'admin') newPerms[m.id] = 'sua';
-      else if (roleId === 'giao_vien') newPerms[m.id] = 'xem';
-      else if (roleId === 'khach') newPerms[m.id] = 'an';
-      else newPerms[m.id] = 'xem';
+      newPerms[m.id] = roleId === 'khach' ? 'an' : 'sua';
     });
     setEditingUser({ ...editingUser, permissions: newPerms, role: roleId });
   };
@@ -353,7 +349,6 @@ export const MemberManagement = () => {
                 <div className="flex items-center gap-2">
                   <span className="text-sm text-slate-400 mr-2">Đặt tất cả:</span>
                   <button onClick={() => setAllPermissions('an')} className="px-3 py-1.5 rounded-full text-xs font-medium border border-slate-700 text-slate-300 hover:bg-slate-800 transition-colors">Ẩn hết</button>
-                  <button onClick={() => setAllPermissions('xem')} className="px-3 py-1.5 rounded-full text-xs font-medium border border-slate-700 text-slate-300 hover:bg-slate-800 transition-colors">Cho xem hết</button>
                   <button onClick={() => setAllPermissions('sua')} className="px-3 py-1.5 rounded-full text-xs font-medium border border-slate-700 text-slate-300 hover:bg-slate-800 transition-colors">Cho sửa hết</button>
                 </div>
               </div>
@@ -370,26 +365,21 @@ export const MemberManagement = () => {
                   <tbody className="divide-y divide-slate-800">
                     {PHC_MODULES.map(mod => {
                       const perm = editingUser.permissions[mod.id] || 'an';
+                      const isHidden = perm === 'an';
                       return (
                         <tr key={mod.id} className="hover:bg-slate-800/30">
                           <td className="px-4 py-3 text-slate-200 font-medium">{mod.name}</td>
                           <td className="px-4 py-3">
                             <div className="inline-flex rounded-lg border border-slate-700 p-0.5 bg-[#0F172A]">
-                              <button 
+                              <button
                                 onClick={() => setEditingUser(prev => ({...prev, permissions: {...prev.permissions, [mod.id]: 'an'}}))}
-                                className={"flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors " + (perm === 'an' ? 'bg-slate-800 text-slate-200' : 'text-slate-500 hover:text-slate-300')}
+                                className={"flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors " + (isHidden ? 'bg-slate-800 text-slate-200' : 'text-slate-500 hover:text-slate-300')}
                               >
                                 <EyeOff className="w-3.5 h-3.5" /> Ẩn
                               </button>
-                              <button 
-                                onClick={() => setEditingUser(prev => ({...prev, permissions: {...prev.permissions, [mod.id]: 'xem'}}))}
-                                className={"flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors " + (perm === 'xem' ? 'bg-sky-500/20 text-sky-400 border border-sky-500/30' : 'text-slate-500 hover:text-slate-300')}
-                              >
-                                <Eye className="w-3.5 h-3.5" /> Xem
-                              </button>
-                              <button 
+                              <button
                                 onClick={() => setEditingUser(prev => ({...prev, permissions: {...prev.permissions, [mod.id]: 'sua'}}))}
-                                className={"flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors " + (perm === 'sua' ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' : 'text-slate-500 hover:text-slate-300')}
+                                className={"flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors " + (!isHidden ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' : 'text-slate-500 hover:text-slate-300')}
                               >
                                 <Edit3 className="w-3.5 h-3.5" /> Sửa
                               </button>
