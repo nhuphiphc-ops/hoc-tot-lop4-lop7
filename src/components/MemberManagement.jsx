@@ -6,33 +6,26 @@ import {
 } from 'lucide-react';
 
 const PHC_MODULES = [
-  { id: 'm1', name: 'M1. Dashboard Tổng hợp' },
-  { id: 'm2', name: 'M2. Chi phí QLDN-PHC' },
-  { id: 'm3', name: 'M3. Giám sát Tuân thủ' },
-  { id: 'm4', name: 'M4. Giám sát Công ty Con' },
-  { id: 'm5', name: 'M5. Công ty Liên kết' },
-  { id: 'm6', name: 'M6. Giám sát Dự án' },
-  { id: 'm7', name: 'M7. Giám sát Dòng tiền' },
-  { id: 'm8', name: 'M8. Giám sát Công nợ' },
-  { id: 'm9', name: 'M9. Quan hệ Cổ đông' },
-  { id: 'm10', name: 'M10. Công bố Thông tin' },
-  { id: 'm11', name: 'M11. Kiểm Toán Nội Bộ' },
-  { id: 'm12', name: 'M12. Trung Tâm Trợ Lý AI' },
-  { id: 'm13', name: 'M13. Theo Dõi Đấu Thầu' },
-  { id: 'm14', name: 'M14. Quản Lý Thành Viên' },
-  { id: 'm15', name: 'M15. Bảo Lãnh Ngân Hàng' },
-  { id: 'm16', name: 'M16. Giao Dịch Bên Liên Quan' },
-  { id: 'm17', name: 'M17. Nợ Vay & Trả Nợ' },
-  { id: 'm18', name: 'M18. Người Đại Diện Vốn' },
-  { id: 'm19', name: 'M19. Tra Cứu Tài Liệu' }
+  { id: 'lop1',  name: 'Lớp 1  — Tiểu học' },
+  { id: 'lop2',  name: 'Lớp 2  — Tiểu học' },
+  { id: 'lop3',  name: 'Lớp 3  — Tiểu học' },
+  { id: 'lop4',  name: 'Lớp 4  — Tiểu học' },
+  { id: 'lop5',  name: 'Lớp 5  — Tiểu học' },
+  { id: 'lop6',  name: 'Lớp 6  — THCS' },
+  { id: 'lop7',  name: 'Lớp 7  — THCS' },
+  { id: 'lop8',  name: 'Lớp 8  — THCS' },
+  { id: 'lop9',  name: 'Lớp 9  — THCS' },
+  { id: 'lop10', name: 'Lớp 10 — THPT' },
+  { id: 'lop11', name: 'Lớp 11 — THPT' },
+  { id: 'lop12', name: 'Lớp 12 — THPT' },
 ];
 
 const ROLES = [
-  { id: 'truong_bks', label: 'Trưởng Ban Kiểm soát' },
-  { id: 'thanh_vien_bks', label: 'Thành viên BKS' },
-  { id: 'tong_giam_doc', label: 'Tổng Giám Đốc' },
-  { id: 'giam_doc_phcland', label: 'Giám đốc PHC-Land' },
-  { id: 'khach', label: 'Khách (Chỉ xem)' },
+  { id: 'admin',      label: 'Quản trị viên (Admin)' },
+  { id: 'giao_vien',  label: 'Giáo viên' },
+  { id: 'phu_huynh',  label: 'Phụ huynh' },
+  { id: 'hoc_sinh',   label: 'Học sinh' },
+  { id: 'khach',      label: 'Khách (Chỉ xem)' },
 ];
 
 export const MemberManagement = () => {
@@ -44,10 +37,10 @@ export const MemberManagement = () => {
       id: 1,
       email: 'admin@phuchung.com.vn',
       name: 'Nguyễn Như Phi',
-      role: 'truong_bks',
-      roleLabel: 'Trưởng BKS',
+      role: 'admin',
+      roleLabel: 'Quản trị viên',
       createdAt: '2026-07-07 10:05',
-      permissions: Object.fromEntries(PHC_MODULES.map(m => [m.id, 'xem'])),
+      permissions: Object.fromEntries(PHC_MODULES.map(m => [m.id, 'sua'])),
       exportExcel: true,
       importExcel: true
     },
@@ -55,10 +48,10 @@ export const MemberManagement = () => {
       id: 2,
       email: 'ductaikt53a@gmail.com',
       name: 'Đào Đức Tài',
-      role: 'thanh_vien_bks',
-      roleLabel: 'Thành viên BKS',
+      role: 'giao_vien',
+      roleLabel: 'Giáo viên',
       createdAt: '17:04:32 26/8/2026',
-      permissions: Object.fromEntries(PHC_MODULES.map(m => [m.id, m.id === 'm10' ? 'sua' : 'xem'])),
+      permissions: Object.fromEntries(PHC_MODULES.map(m => [m.id, 'xem'])),
       exportExcel: true,
       importExcel: false
     }
@@ -77,7 +70,7 @@ export const MemberManagement = () => {
     const sua = vals.filter(v => v === 'sua').length;
     return (
       <div className="flex flex-col text-xs text-slate-300">
-        <span className="font-semibold text-sky-400">{vals.length}/19</span>
+        <span className="font-semibold text-sky-400">{vals.length}/{PHC_MODULES.length}</span>
         <span>xem - <span className="text-amber-400">{sua}</span> sửa</span>
         <span className="text-slate-500 text-[10px]">theo mẫu vai trò</span>
       </div>
@@ -88,8 +81,9 @@ export const MemberManagement = () => {
     if (!editingUser) return;
     const newPerms = {};
     PHC_MODULES.forEach(m => {
-      if (roleId === 'khach') newPerms[m.id] = 'xem';
-      else if (roleId === 'truong_bks' || roleId === 'tong_giam_doc') newPerms[m.id] = 'sua';
+      if (roleId === 'admin') newPerms[m.id] = 'sua';
+      else if (roleId === 'giao_vien') newPerms[m.id] = 'xem';
+      else if (roleId === 'khach') newPerms[m.id] = 'an';
       else newPerms[m.id] = 'xem';
     });
     setEditingUser({ ...editingUser, permissions: newPerms, role: roleId });
@@ -137,7 +131,7 @@ export const MemberManagement = () => {
               </label>
               <input 
                 type="email" 
-                placeholder="vd: tuyen.pt@phuchung.com.vn" 
+                placeholder="vd: hocsinh@gmail.com"
                 className="w-full bg-[#0F172A] border border-slate-700 rounded-lg px-4 py-2.5 text-sm text-white focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition-all placeholder:text-slate-600"
                 value={formData.email}
                 onChange={e => setFormData({...formData, email: e.target.value})}
