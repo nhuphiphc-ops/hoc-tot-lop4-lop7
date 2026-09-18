@@ -357,7 +357,8 @@ const STORAGE_KEYS = {
   UNLOCKED_MASCOTS: 'toan_unlocked_mascots',
   PARENT_PIN: 'toan_parent_pin',
   ACTIVE_DRAFT: 'toan_active_quiz_draft',
-  WATCHED_VIDEOS: 'toan_watched_video_ids'
+  WATCHED_VIDEOS: 'toan_watched_video_ids',
+  GRADE_PERMISSIONS: 'toan_grade_permissions'
 };
 
 const DEFAULT_PROFILE_NGUYEN = {
@@ -511,6 +512,39 @@ export const LearningProvider = ({ children }) => {
       return 'math';
     }
   });
+
+  // Grade-level access permissions set from "Phân quyền truy cập": { lop1: 'an'|'xem'|'sua', ... }
+  // Missing/undefined entries default to fully open ('sua') so existing installs are unaffected.
+  const [gradePermissions, setGradePermissions] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEYS.GRADE_PERMISSIONS);
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const isGradeHidden = (gradeId) => gradePermissions[`lop${gradeId}`] === 'an';
+
+  const updateGradePermissions = (perms) => {
+    setGradePermissions(perms);
+    try {
+      localStorage.setItem(STORAGE_KEYS.GRADE_PERMISSIONS, JSON.stringify(perms));
+    } catch {}
+  };
+
+  // If the currently selected grade becomes hidden, fall back to the first visible grade.
+  useEffect(() => {
+    if (isGradeHidden(currentGrade)) {
+      const allGrades = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+      const fallback = allGrades.find((g) => !isGradeHidden(g));
+      if (fallback && fallback !== currentGrade) {
+        setCurrentGrade(fallback);
+        localStorage.setItem(STORAGE_KEYS.GRADE, fallback);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [gradePermissions]);
 
   // Profile for Nguyen Cong Nguyen (Grades 4-7)
   const [profileNguyen, setProfileNguyen] = useState(() => {
@@ -1390,6 +1424,7 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
   };
 
   const switchGrade = (gradeId) => {
+    if (isGradeHidden(gradeId)) return;
     sounds.playClick();
     setCurrentGrade(gradeId);
     // Reset subject to supported subjects for target grade
@@ -2849,6 +2884,9 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
         switchGrade,
         currentSubject,
         switchSubject,
+        gradePermissions,
+        updateGradePermissions,
+        isGradeHidden,
         isGrade1,
     isGrade2,
     isGrade3,

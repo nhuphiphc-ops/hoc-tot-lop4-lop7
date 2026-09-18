@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { 
-  UserPlus, Shield, Key, Trash2, Eye, EyeOff, CheckCircle2, 
-  X, AlertTriangle, Users, Lock, Settings, Database, Edit3, 
+import {
+  UserPlus, Shield, Key, Trash2, Eye, EyeOff, CheckCircle2,
+  X, AlertTriangle, Users, Lock, Settings, Database, Edit3,
   FileText, Download, Check, ShieldAlert
 } from 'lucide-react';
+import { useLearning } from '../context/LearningContext';
 
 const PHC_MODULES = [
   { id: 'lop1',  name: 'Lớp 1  — Tiểu học' },
@@ -29,9 +30,15 @@ const ROLES = [
 ];
 
 export const MemberManagement = () => {
+  const { gradePermissions, updateGradePermissions } = useLearning();
   const [showPassword, setShowPassword] = useState(false);
   const [editingUser, setEditingUser] = useState(null);
-  
+
+  // Grade permission is device-wide (one shared config), not per-account — see updateGradePermissions.
+  // Missing entries default to 'sua' (fully open) so this matches the app's default behavior.
+  const getEffectivePermissions = () =>
+    Object.fromEntries(PHC_MODULES.map(m => [m.id, gradePermissions[m.id] || 'sua']));
+
   const [users, setUsers] = useState([
     {
       id: 1,
@@ -40,7 +47,7 @@ export const MemberManagement = () => {
       role: 'admin',
       roleLabel: 'Quản trị viên',
       createdAt: '2026-07-07 10:05',
-      permissions: Object.fromEntries(PHC_MODULES.map(m => [m.id, 'sua'])),
+      permissions: getEffectivePermissions(),
       exportExcel: true,
       importExcel: true
     },
@@ -51,7 +58,7 @@ export const MemberManagement = () => {
       role: 'hoc_sinh',
       roleLabel: 'Học sinh',
       createdAt: '17:04:32 26/8/2026',
-      permissions: Object.fromEntries(PHC_MODULES.map(m => [m.id, 'xem'])),
+      permissions: getEffectivePermissions(),
       exportExcel: true,
       importExcel: false
     }
@@ -324,6 +331,9 @@ export const MemberManagement = () => {
                 <p className="text-sm text-slate-400">
                   {editingUser.email} · đang dùng <span className="text-slate-300 font-semibold">mẫu quyền của vai trò {editingUser.roleLabel}</span>
                 </p>
+                <p className="text-xs text-amber-400 mt-2">
+                  Lưu ý: bảng quyền bên dưới áp dụng cho <span className="font-semibold">toàn bộ thiết bị</span> (một cấu hình chung), không tách riêng theo từng tài khoản.
+                </p>
               </div>
 
               <div className="mb-6 space-y-4">
@@ -432,9 +442,10 @@ export const MemberManagement = () => {
               >
                 Hủy
               </button>
-              <button 
+              <button
                 onClick={() => {
-                  setUsers(users.map(u => u.id === editingUser.id ? editingUser : u));
+                  updateGradePermissions(editingUser.permissions);
+                  setUsers(users.map(u => ({ ...u, permissions: editingUser.permissions })));
                   setEditingUser(null);
                 }}
                 className="px-6 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold flex items-center gap-2 transition-colors shadow-lg shadow-sky-500/20"

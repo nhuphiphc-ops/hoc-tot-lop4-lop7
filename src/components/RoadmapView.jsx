@@ -30,6 +30,7 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
     isMath,
     currentGrade,
     switchGrade,
+    isGradeHidden,
     currentSubject,
     switchSubject,
     getVideoLessons,
@@ -285,7 +286,7 @@ export const RoadmapView = ({ onStartQuiz, onOpenVideoLesson }) => {
             { id: '10', label: 'Lớp 10', emoji: '⚡', color: 'from-teal-500 to-emerald-600 text-white border-teal-400' },
             { id: '11', label: 'Lớp 11', emoji: '🔮', color: 'from-violet-500 to-purple-600 text-white border-violet-400' },
             { id: '12', label: 'Lớp 12', emoji: '🎓', color: 'from-red-500 to-rose-600 text-white border-red-400' },
-          ].map((g) => {
+          ].filter((g) => !isGradeHidden(g.id)).map((g) => {
             const isSelected = currentGrade === g.id;
             return (
               <button

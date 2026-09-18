@@ -27,6 +27,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   const { 
     currentGrade,
     switchGrade,
+    isGradeHidden,
     isGrade1,
     isGrade2,
     isGrade3,
@@ -192,7 +193,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
           <div className="flex items-center flex-wrap gap-2">
             {/* Grade Switcher */}
             <div className="bg-slate-100 p-1 rounded-2xl border border-slate-200 flex items-center gap-1 shadow-inner">
-              {gradeList.map((g) => {
+              {gradeList.filter((g) => !isGradeHidden(g.id)).map((g) => {
                 const isActive = currentGrade === g.id;
                 return (
                   <button
@@ -478,7 +479,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
 
         {/* Mobile Row 3: Grade Selector (5-Column Horizontal Scroll / Grid) */}
         <div className="flex items-center gap-1 overflow-x-auto scrollbar-none bg-slate-100 p-1 rounded-xl border border-slate-200 w-full">
-          {gradeList.map((g) => {
+          {gradeList.filter((g) => !isGradeHidden(g.id)).map((g) => {
             const isActive = currentGrade === g.id;
             return (
               <button

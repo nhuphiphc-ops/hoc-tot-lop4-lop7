@@ -18,9 +18,10 @@ import sounds from '../utils/soundEffects';
 
 export const VideoLearningView = ({ onSelectVideo, onStartQuiz }) => {
   const { 
-    currentGrade, 
-    switchGrade, 
-    currentSubject, 
+    currentGrade,
+    switchGrade,
+    isGradeHidden,
+    currentSubject,
     switchSubject, 
     isPrimaryChuot, 
     isGrade7, 
@@ -113,7 +114,7 @@ export const VideoLearningView = ({ onSelectVideo, onStartQuiz }) => {
         </div>
 
         <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
-          {gradeList.map((g) => {
+          {gradeList.filter((g) => !isGradeHidden(g.id)).map((g) => {
             const isSelected = currentGrade === g.id;
             return (
               <button
