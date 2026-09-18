@@ -14,9 +14,10 @@ import { ExplanationView } from './components/ExplanationView';
 import { MemberManagement } from './components/MemberManagement';
 import { VideoLearningView } from './components/VideoLearningView';
 import { VideoPlayerModal } from './components/VideoPlayerModal';
+import { LoginScreen } from './components/LoginScreen';
 
 const MainContent = () => {
-  const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath, wrongQuestions } = useLearning();
+  const { currentGrade, currentSubject, saveQuizResult, getQuestionsByWeek, isMath, wrongQuestions, currentAccount } = useLearning();
   const [currentTab, setCurrentTab] = useState('roadmap'); // 'roadmap' | 'videos' | 'practice' | 'wrong' | 'dashboard' | 'badges' | 'members'
   const [activeQuizConfig, setActiveQuizConfig] = useState(null);
   const [currentResultData, setCurrentResultData] = useState(null);
@@ -40,6 +41,20 @@ const MainContent = () => {
       } catch { /* ignore */ }
     }
   }, [currentGrade, currentSubject]);
+
+  // Reset to the main tab whenever the logged-in account changes (login/logout/switch account),
+  // so a new session never lands on a tab left over from the previous one (e.g. Quản Trị).
+  const prevAccountIdRef = useRef(currentAccount?.id ?? null);
+  useEffect(() => {
+    if (prevAccountIdRef.current !== (currentAccount?.id ?? null)) {
+      prevAccountIdRef.current = currentAccount?.id ?? null;
+      setCurrentTab('roadmap');
+    }
+  }, [currentAccount]);
+
+  if (!currentAccount) {
+    return <LoginScreen />;
+  }
 
   // Start a Quiz
   const handleStartQuiz = (config) => {

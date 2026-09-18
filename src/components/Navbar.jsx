@@ -18,7 +18,8 @@ import {
   Calculator, 
   BookMarked,
   Shield,
-  Video
+  Video,
+  LogOut
 } from 'lucide-react';
 import { useLearning, SHOP_MASCOTS } from '../context/LearningContext';
 import sounds from '../utils/soundEffects';
@@ -28,6 +29,8 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     currentGrade,
     switchGrade,
     isGradeHidden,
+    currentAccount,
+    logout,
     isGrade1,
     isGrade2,
     isGrade3,
@@ -79,7 +82,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
     { id: 'wrong', label: 'Sửa Câu Sai', icon: RotateCcw, badge: wrongQuestions.length > 0 ? wrongQuestions.length : null },
     { id: 'dashboard', label: 'Góc Phụ Huynh', icon: BarChart3, badge: null },
     { id: 'badges', label: 'Bộ Sưu Tập', icon: Award, badge: null },
-    { id: 'members', label: 'Quản Trị & Phân Quyền', icon: Shield, badge: 'Mới' },
+    ...(currentAccount?.role === 'admin' ? [{ id: 'members', label: 'Quản Trị & Phân Quyền', icon: Shield, badge: 'Mới' }] : []),
   ];
 
   // Dynamic titles
@@ -359,6 +362,22 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
               <span className="text-lg">{currentMascotObj.emoji}</span>
               <span className="max-w-[140px] truncate text-xs font-bold">{profile.name}</span>
             </button>
+
+            {/* Logged-in account & logout */}
+            {currentAccount && (
+              <button
+                onClick={() => {
+                  if (window.confirm(`Đăng xuất tài khoản "${currentAccount.name}"?`)) {
+                    logout();
+                  }
+                }}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-50 hover:bg-rose-50 border-2 border-slate-200 hover:border-rose-300 text-slate-600 hover:text-rose-700 rounded-xl transition-all shadow-sm cursor-pointer text-xs font-bold"
+                title="Đăng xuất"
+              >
+                <LogOut className="w-3.5 h-3.5" />
+                <span className="max-w-[100px] truncate hidden sm:inline">{currentAccount.name}</span>
+              </button>
+            )}
           </div>
         </div>
 
@@ -439,6 +458,20 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
           >
             {currentMascotObj.emoji}
           </button>
+
+          {currentAccount && (
+            <button
+              onClick={() => {
+                if (window.confirm(`Đăng xuất tài khoản "${currentAccount.name}"?`)) {
+                  logout();
+                }
+              }}
+              className="p-1.5 bg-slate-50 border border-slate-200 rounded-xl flex-shrink-0 shadow-xs cursor-pointer text-slate-500"
+              title="Đăng xuất"
+            >
+              <LogOut className="w-4 h-4" />
+            </button>
+          )}
         </div>
 
         {/* Mobile Row 2: Stats & Controls */}

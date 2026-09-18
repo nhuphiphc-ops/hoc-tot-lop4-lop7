@@ -358,8 +358,17 @@ const STORAGE_KEYS = {
   PARENT_PIN: 'toan_parent_pin',
   ACTIVE_DRAFT: 'toan_active_quiz_draft',
   WATCHED_VIDEOS: 'toan_watched_video_ids',
-  GRADE_PERMISSIONS: 'toan_grade_permissions'
+  ACCOUNTS: 'toan_accounts',
+  CURRENT_ACCOUNT_ID: 'toan_current_account_id'
 };
+
+// SHA-256 hash of `${salt}:${password}`, hex-encoded. Client-side only — see the login/account
+// section in LearningProvider for the security caveat (device-local gating, not real secrecy).
+async function hashPassword(password, salt) {
+  const data = new TextEncoder().encode(`${salt}:${password}`);
+  const digest = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+}
 
 const DEFAULT_PROFILE_NGUYEN = {
   name: 'Nguyễn Công Nguyên',
@@ -513,38 +522,130 @@ export const LearningProvider = ({ children }) => {
     }
   });
 
-  // Grade-level access permissions set from "Phân quyền truy cập": { lop1: 'an'|'xem'|'sua', ... }
-  // Missing/undefined entries default to fully open ('sua') so existing installs are unaffected.
-  const [gradePermissions, setGradePermissions] = useState(() => {
+  // ===================== Local accounts & login =====================
+  // No backend exists (pure client-side app), so this is a device-local login: accounts and their
+  // password hashes live in localStorage. It is enough to keep family members in their own lane
+  // (grade permissions per account), NOT a substitute for real security against a technical attacker
+  // with access to the device — same caveat already shown in the permissions UI.
+  const ALL_GRADE_IDS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+
+  const [accounts, setAccounts] = useState(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEYS.GRADE_PERMISSIONS);
-      return saved ? JSON.parse(saved) : {};
+      const saved = localStorage.getItem(STORAGE_KEYS.ACCOUNTS);
+      return saved ? JSON.parse(saved) : [];
     } catch {
-      return {};
+      return [];
     }
   });
 
-  const isGradeHidden = (gradeId) => gradePermissions[`lop${gradeId}`] === 'an';
-
-  const updateGradePermissions = (perms) => {
-    setGradePermissions(perms);
+  const [currentAccountId, setCurrentAccountId] = useState(() => {
     try {
-      localStorage.setItem(STORAGE_KEYS.GRADE_PERMISSIONS, JSON.stringify(perms));
+      return localStorage.getItem(STORAGE_KEYS.CURRENT_ACCOUNT_ID) || null;
+    } catch {
+      return null;
+    }
+  });
+
+  const currentAccount = accounts.find((a) => a.id === currentAccountId) || null;
+
+  const persistAccounts = (list) => {
+    setAccounts(list);
+    try {
+      localStorage.setItem(STORAGE_KEYS.ACCOUNTS, JSON.stringify(list));
     } catch {}
   };
 
-  // If the currently selected grade becomes hidden, fall back to the first visible grade.
+  const isGradeHidden = (gradeId) => {
+    if (!currentAccount) return true;
+    if (currentAccount.role === 'admin') return false;
+    return currentAccount.permissions?.[`lop${gradeId}`] === 'an';
+  };
+
+  const createAccount = async ({ email, name, password, role }, { autoLogin = false } = {}) => {
+    const trimmedEmail = (email || '').trim().toLowerCase();
+    if (!trimmedEmail || !password || !name) return { ok: false, error: 'Vui lòng nhập đủ họ tên, email và mật khẩu.' };
+    if (password.length < 4) return { ok: false, error: 'Mật khẩu cần ít nhất 4 ký tự.' };
+    if (accounts.some((a) => a.email === trimmedEmail)) return { ok: false, error: 'Email này đã có tài khoản.' };
+    const passwordHash = await hashPassword(password, trimmedEmail);
+    const permissions = Object.fromEntries(ALL_GRADE_IDS.map((g) => [`lop${g}`, role === 'khach' ? 'an' : 'sua']));
+    const newAccount = {
+      id: 'acc_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8),
+      email: trimmedEmail,
+      name: name.trim(),
+      passwordHash,
+      role: role || 'hoc_sinh',
+      permissions,
+      createdAt: new Date().toISOString()
+    };
+    persistAccounts([...accounts, newAccount]);
+    // Log straight into the just-created account by id (skip re-checking the password against
+    // `accounts`, which would still be stale here since the state update above hasn't landed yet).
+    if (autoLogin) {
+      setCurrentAccountId(newAccount.id);
+      try {
+        localStorage.setItem(STORAGE_KEYS.CURRENT_ACCOUNT_ID, newAccount.id);
+      } catch {}
+    }
+    return { ok: true, account: newAccount };
+  };
+
+  const login = async (email, password) => {
+    const trimmedEmail = (email || '').trim().toLowerCase();
+    const account = accounts.find((a) => a.email === trimmedEmail);
+    if (!account) return { ok: false, error: 'Không tìm thấy tài khoản với email này.' };
+    const hash = await hashPassword(password, trimmedEmail);
+    if (hash !== account.passwordHash) return { ok: false, error: 'Sai mật khẩu.' };
+    setCurrentAccountId(account.id);
+    try {
+      localStorage.setItem(STORAGE_KEYS.CURRENT_ACCOUNT_ID, account.id);
+    } catch {}
+    return { ok: true };
+  };
+
+  const logout = () => {
+    setCurrentAccountId(null);
+    try {
+      localStorage.removeItem(STORAGE_KEYS.CURRENT_ACCOUNT_ID);
+    } catch {}
+  };
+
+  const updateAccountPermissions = (accountId, permissions) => {
+    persistAccounts(accounts.map((a) => (a.id === accountId ? { ...a, permissions } : a)));
+  };
+
+  const deleteAccount = (accountId) => {
+    const target = accounts.find((a) => a.id === accountId);
+    if (!target) return { ok: false, error: 'Không tìm thấy tài khoản.' };
+    const otherAdmins = accounts.filter((a) => a.role === 'admin' && a.id !== accountId);
+    if (target.role === 'admin' && otherAdmins.length === 0) {
+      return { ok: false, error: 'Không thể xoá quản trị viên cuối cùng.' };
+    }
+    persistAccounts(accounts.filter((a) => a.id !== accountId));
+    if (currentAccountId === accountId) logout();
+    return { ok: true };
+  };
+
+  const changeAccountPassword = async (accountId, newPassword) => {
+    if (!newPassword || newPassword.length < 4) return { ok: false, error: 'Mật khẩu cần ít nhất 4 ký tự.' };
+    const account = accounts.find((a) => a.id === accountId);
+    if (!account) return { ok: false, error: 'Không tìm thấy tài khoản.' };
+    const passwordHash = await hashPassword(newPassword, account.email);
+    persistAccounts(accounts.map((a) => (a.id === accountId ? { ...a, passwordHash } : a)));
+    return { ok: true };
+  };
+
+  // If the logged-in account's currently selected grade becomes hidden, fall back to the first visible grade.
   useEffect(() => {
+    if (!currentAccount) return;
     if (isGradeHidden(currentGrade)) {
-      const allGrades = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
-      const fallback = allGrades.find((g) => !isGradeHidden(g));
+      const fallback = ALL_GRADE_IDS.find((g) => !isGradeHidden(g));
       if (fallback && fallback !== currentGrade) {
         setCurrentGrade(fallback);
         localStorage.setItem(STORAGE_KEYS.GRADE, fallback);
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [gradePermissions]);
+  }, [currentAccount, currentGrade]);
 
   // Profile for Nguyen Cong Nguyen (Grades 4-7)
   const [profileNguyen, setProfileNguyen] = useState(() => {
@@ -2884,8 +2985,14 @@ const [g6EngWrong, setG6EngWrong] = useState(() => { try { const s = localStorag
         switchGrade,
         currentSubject,
         switchSubject,
-        gradePermissions,
-        updateGradePermissions,
+        accounts,
+        currentAccount,
+        createAccount,
+        login,
+        logout,
+        updateAccountPermissions,
+        deleteAccount,
+        changeAccountPassword,
         isGradeHidden,
         isGrade1,
     isGrade2,
