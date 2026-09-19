@@ -114,6 +114,10 @@ export const MemberManagement = () => {
 
   const handleSavePassword = async () => {
     setPasswordError('');
+    if (!newPassword.trim()) {
+      setPasswordError('Vui lòng nhập mật khẩu mới.');
+      return;
+    }
     if (newPassword !== confirmPassword) {
       setPasswordError('Mật khẩu xác nhận không khớp.');
       return;
@@ -436,7 +440,7 @@ export const MemberManagement = () => {
               </button>
               <button
                 onClick={() => {
-                  updateAccountPermissions(editingAccount.id, editingAccount.permissions);
+                  updateAccountPermissions(editingAccount.id, editingAccount.permissions, editingAccount.role);
                   setEditingAccount(null);
                 }}
                 className="px-6 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold flex items-center gap-2 transition-colors shadow-lg shadow-sky-500/20"
